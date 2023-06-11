@@ -26,3 +26,5 @@ console.log(person1.name);
 console.log(person1.age);
 console.log(person1["name"]);
 console.log(person1["age"]);
+
+
