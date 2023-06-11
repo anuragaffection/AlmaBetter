@@ -1,0 +1,14 @@
+{
+  "name": "almabetterprojects",
+  "version": "1.0.0",
+  "description": "ComputerProgramming",
+  "main": "index.js",
+  "scripts": {
+    "test": "anu"
+  },
+  "keywords": [
+    "anurag"
+  ],
+  "author": "anuragAffection",
+  "license": "ISC"
+}
