@@ -123,5 +123,45 @@ greet("Hello", "world");
 greet("Hi", "John");
 greet("Dosto")
 greet("", "Dosto");
+greet(null, "Dosto");
 greet();
 greet("Hi", "John", "Arc");
+
+
+
+
+
+
+// 07.
+console.log("Named Arguments ");
+// the benefits of named argumetns is that it doest not depend on how the value are passed 
+
+function color (objColor){
+    console.log(objColor.firstA + " X " + objColor.secondA);
+    console.log(objColor.secondA + " X " + objColor.firstA);
+
+}
+color ({firstA : "Red", secondA: "Blue"});
+
+
+
+
+
+// 08.
+console.log("Named Argumets with Object destructring");
+
+function color2 ({firstA, secondA}){
+    console.log(firstA + " X " + secondA);
+    console.log(secondA + " X " + firstA);
+
+}
+
+function color3 ({secondA, firstA}){
+    console.log(firstA + " X " + secondA);
+    console.log(secondA + " X " + firstA);
+
+}
+
+color2({firstA : "Red", secondA : "Blue"});
+color3({firstA : "Red", secondA : "Blue"});
+
