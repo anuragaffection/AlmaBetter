@@ -157,6 +157,8 @@ function color2 ({firstA, secondA}){
 }
 
 function color3 ({secondA, firstA}){
+    // here our parameter does not depend on how argumets is passed
+    // it totally depend on the naming 
     console.log(firstA + " X " + secondA);
     console.log(secondA + " X " + firstA);
 
