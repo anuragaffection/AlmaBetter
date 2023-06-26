@@ -152,9 +152,57 @@ function call (number){
 }
 
 
-console.log("Hoisting is not possible with expression function");
-console.log(call1(7));
-let call1 = function (number){
-    return number * number;
-} 
+// console.log("Hoisting is not possible with expression function");
+// console.log(call1(7)); // error 
+// let call1 = function (number){
+//     return number * number;
+// } 
+
+
+
+
+// 06.
+/* 
+   The execution of a function can be triggered in several ways, 
+   such as by calling the function by its name, 
+   by invoking it as a method of an object, 
+   or by using the apply or call methods. 
+*/
+
+
+
+
+// 07.
+console.log("Closures");
+function buildGreeting() {
+    let message = 'Hello';
+
+    function greetUser() {
+        console.log(message);
+    }
+
+    return greetUser;
+}
+let hello = buildGreeting();
+hello();
+
+
+
+// 08.
+console.log("More example on closures");
+
+function buildGreeting1(message) {
+
+   return function(audience){
+        return message + ' ' + audience;
+   }
+   
+}
+let greeting1 = buildGreeting1('Hi');
+let greeting2 = buildGreeting1('Hello');
+
+console.log(greeting1('User')); // Hi User
+console.log(greeting2('World')); // Hello World
+
+	
 
