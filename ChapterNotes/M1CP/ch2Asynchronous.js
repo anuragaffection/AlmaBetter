@@ -1,3 +1,5 @@
+
+
 // 01. 
 // single threaded programming language 
 // javascript, ruby is a single threaded programming language
@@ -138,4 +140,14 @@ setTimeout(function (){
 // 
 
 
+
+
+// 11.
 // 
+/* 
+ Synchronous programming refers to a traditional programming approach
+ where tasks are executed sequentially (one after the other). 
+ In contrast, asynchronous programming allows for 
+ multiple tasks to be executed concurrently without blocking the main thread or UI.
+
+*/
