@@ -68,13 +68,15 @@ for (let i = 0 ; i < multi.length ; i++){
 // array constructor 
 // array literal 
 
+
 // array constructor 
 console.log("Array constructor ");
 
 let myArrayCons = new Array (3);
-// this is creating an array with size 3
+// this is creating an array with size 3 but no element in it
 
 let myArrayCons1 = new Array (3, 4, 5, 6, 6, 8);
+// this is creating an array with size 6, total element present in it
 
 
 console.log(myArrayCons);
@@ -89,3 +91,45 @@ console.log(myArrayCons1.length);
 console.log("Array Literal ");
 let myArrayLit = ['Man', 'Go', 'aMan'];
 console.log(myArrayLit);
+
+
+
+
+
+
+// 04.
+// operations on array 
+console.log("List of all Methods, Properties & Iterator ");
+
+
+/*
+
+// **Array methods**
+
+push()
+pop()
+shift()
+unshift()
+slice()
+indexOf()
+lastIndexOf()
+concat()
+join().
+map()
+filter()
+reduce()
+some()
+every()
+
+
+// **Array properties**
+
+length
+index
+
+
+// **Array iterators**
+for...of 
+for...in 
+
+*/
