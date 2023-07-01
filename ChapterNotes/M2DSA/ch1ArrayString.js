@@ -1,5 +1,7 @@
-// arrays
-// strings
+//
+//  arrays
+//  
+
 
 
 
@@ -10,11 +12,20 @@
 
 
 
+
+
 // 02. 
 // Types of an array
+// one dimensional array 
+// multi dimensional array 
 
 
-// one dimensional 
+
+
+
+
+// 03. 
+// one dimensional array
 // One-dimensional arrays are commonly used to store lists of items or sets of values.
 console.log("One-d array ");
 let oneD = [20, 40, 50, 60 ];
@@ -23,6 +34,11 @@ console.log(oneD.length);
 console.log(oneD[2]);
 
 
+
+
+
+
+// 04.
 // two dimensional 
 // Multi-dimensional arrays are commonly used to store tables of data or matrices
 console.log("2-d array ");
@@ -31,6 +47,7 @@ console.log(twoD);
 console.log(twoD.length);
 console.log(twoD[3][2]);
 console.log("Accessing each element in 2-d arrays ");
+
 /* for (let i = 0 ; i < twoD.length ; i++){
      for (let j = 0; j < twoD[i].length; j++){
         console.log(twoD[i][j]);
@@ -61,14 +78,19 @@ for (let i = 0 ; i < multi.length ; i++){
 
 
 
-// 03.
+
+// 05.
 // creating an array 
 // Note: It is recommended to create arrays using array literals instead of other methods.
-
 // array constructor 
 // array literal 
 
 
+
+
+
+
+// 06.
 // array constructor 
 console.log("Array constructor ");
 
@@ -78,7 +100,6 @@ let myArrayCons = new Array (3);
 let myArrayCons1 = new Array (3, 4, 5, 6, 6, 8);
 // this is creating an array with size 6, total element present in it
 
-
 console.log(myArrayCons);
 console.log(myArrayCons.length);
 
@@ -87,6 +108,9 @@ console.log(myArrayCons1.length);
 
 
 
+
+
+// 07.
 // array literal 
 console.log("Array Literal ");
 let myArrayLit = ['Man', 'Go', 'aMan'];
@@ -97,10 +121,8 @@ console.log(myArrayLit);
 
 
 
-// 04.
-// operations on array 
+// 08. 
 console.log("List of all Methods, Properties & Iterator ");
-
 
 /*
 
@@ -108,18 +130,35 @@ console.log("List of all Methods, Properties & Iterator ");
 
 push()
 pop()
+
 shift()
 unshift()
+
 slice()
+splice()
+
 indexOf()
 lastIndexOf()
-concat()
-join().
-map()
+includes()
+
+find()
 filter()
+
+map()
 reduce()
+concat()
+
+join()
+reverse()
+
+sort()
+flat()
+reduceRight()
+
 some()
 every()
+
+forEach()
 
 
 // **Array properties**
@@ -129,7 +168,468 @@ index
 
 
 // **Array iterators**
+
 for...of 
 for...in 
 
 */
+
+
+
+
+
+
+// 09.
+// push , pop, unshift, shift 
+console.log("Playing with an array - push, pop, unshift, shift ");
+
+let myarray = [ 40, "anurag", true, 80, undefined, 111];
+
+console.log(myarray);
+console.log(myarray.length);
+
+myarray.push(100);
+console.log(myarray);
+
+let poped = myarray.pop();
+console.log(poped);
+console.log(myarray);
+
+
+myarray.unshift("Code is Love ");
+console.log(myarray);
+
+let shifted = myarray.shift();
+console.log(shifted);
+console.log(myarray);
+
+
+
+
+
+
+// 10
+console.log("adding element at higher index, without adding at their precedings");
+console.log(myarray);
+console.log(myarray.length);
+console.log(myarray[myarray.length - 1]);
+console.log(myarray[myarray.length]);
+
+myarray[myarray.length + 1] = 123;
+console.log(myarray);
+// If you attempt to add elements to higher indices , -
+// the indices in between will have an undefined value.
+
+
+
+
+
+// 11
+// syntax 
+// slice(startingIndex)
+// slice(startingIndex, EndingIndex)
+// we can't add element through slice
+
+console.log("slice ");
+console.log(myarray);
+
+let  slice_of_arr = myarray.slice(4) ; 
+//it is taking all the value of array after index 4
+console.log(slice_of_arr);
+console.log(myarray);
+
+
+let slice_of_arr_2 = myarray.slice(4,6);
+console.log(slice_of_arr_2);
+console.log(myarray);
+
+
+
+
+
+
+// 12
+// splice
+// syntax
+// splice(startingIndex)
+// splice(startingIndex, deletecount)
+// splice(startingIndex, deleteCount, ItemsToAdd)
+// affect orginal array 
+
+console.log("splice");
+console.log(myarray);
+
+console.log("splice with one parameter ");
+let splicedPart = myarray.splice(5);
+console.log(splicedPart);
+console.log(myarray);
+
+console.log("splice with two parameter ");
+let splicedPart1 = myarray.splice(2, 0);
+console.log(splicedPart1);
+console.log(myarray);
+
+console.log("splice with multiple parameter ");
+let splicedPart2 = myarray.splice(3, 2, "Hello", undefined, "world", null);
+console.log(splicedPart2);
+console.log(myarray);
+
+
+
+
+
+
+// 13
+// indexOf
+// lastIndexOf
+// includes 
+
+console.log(myarray);
+
+myarray[2] = 345;
+myarray[3] = 345;
+myarray[7] = 345;
+
+console.log(myarray);
+
+console.log("IndexOf - provides first index of an elements  ");
+console.log(myarray.indexOf(345));
+
+console.log("lastIndexOf - provides last index of an elements ");
+console.log(myarray.lastIndexOf(345));
+
+console.log("include - check true or false ");
+console.log(myarray.includes(345));
+
+
+
+
+
+
+// 14 
+// find()
+console.log("find - will find one element that passes the condition ");
+console.log(myarray);
+
+let foundElement = myarray.find(num => num > 400);
+let foundElement1 = myarray.find(num => num > 20);
+
+let foundElement2 = myarray.find(function(num){
+    return num > 300;
+});
+
+let foundElement3 = myarray.find( (num) => {
+    return num > 300;
+});
+
+let foundElement4 = myarray.find( (num) =>  num > 300 );
+let foundElement5 = myarray.find( num => num > 300);
+
+
+console.log(foundElement);
+console.log(foundElement1);
+console.log(foundElement2);
+console.log(foundElement3);
+console.log(foundElement4);
+console.log(foundElement5);
+
+
+
+let found = myarray.find( function finding (num ) {
+    return num > 20;
+})
+
+
+let finding = function (num ) {
+    return num > 20;
+}
+let found1 = myarray.find(finding);
+
+console.log(found);
+console.log(found1);
+
+
+
+
+
+// 15
+// fllter 
+console.log("filter will filter all the elements that passes the conditon ");
+console.log(myarray);
+
+let allFound = myarray.filter(num => num > 300);
+console.log(allFound);
+console.log(myarray);
+
+let allFound1 = myarray.filter( function (num ) {
+    return num > 20;
+});
+
+let allFound2 = myarray.filter( num => {
+    return num > 20;
+});
+
+console.log(allFound1);
+console.log(allFound2);
+
+
+
+
+
+
+// 16
+// map()
+// .map() is a function 
+// .map() - returns a new array with operation withi the function
+
+// it is different from Map() data structure 
+// Map() data structure - stores value in key - value pair 
+console.log(".map() function ")
+console.log(myarray);
+
+let mapArray = myarray.map(function (number) {
+    return number * 2;
+});
+console.log('map Array', mapArray );
+
+let mapArray1 = myarray.map(number => number - 300 );
+console.log('.map()', mapArray1, 'original ', myarray);
+
+
+
+
+
+// 17.
+// reduce()
+// syntax 
+// .reduce (callbackfunction, initilavalue)
+
+// callback function takes two arguments: accumulater and currentvalue
+// accumalator : previous result of iteration
+// currentvalue : element being iterated over
+
+console.log("reduce () ");
+const sumOfNumbers = [5,4,8];
+console.log(sumOfNumbers);
+
+let reduced = sumOfNumbers.reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+}, 0);
+
+let reduced1 = sumOfNumbers.reduce(function (accumulator, currentValue){
+    return accumulator + currentValue;
+}, 10 );
+
+
+let callBackFun = function (accumalator, currentValue){
+    return accumalator + currentValue;
+}
+let reduced2 = sumOfNumbers.reduce(callBackFun, 10);
+
+console.log(reduced);
+console.log(reduced1);
+console.log(reduced2);
+
+
+
+
+// 18.
+// concat()
+console.log('concat');
+
+var array1 = ['a','b'];
+let array2 = ["c", "d"];
+
+let array3 = array1.concat(array2);
+console.log(array3);
+
+
+
+
+
+
+// 19.
+console.log("join")
+
+let strArray =["a","b", "c", "d"] ;
+
+let joined = strArray.join(); // default separator is ,
+console.log(joined);
+
+let joined1 = strArray.join("");
+console.log(joined1);
+
+let joined2 = strArray.join(" ");
+console.log(joined2);
+
+strArray = strArray.join();  // default separator is ,
+console.log(strArray);
+
+
+
+
+
+// 20.
+console.log('reverse');
+let reversed = [4567,"hello"].reverse();
+console.log(reversed);
+
+
+
+
+
+// 21. 
+console.log("sort");
+let numbers = [1,200, 60, 80, 400];
+
+let sorted = numbers.sort((x,y) => x- y );
+console.log(sorted);
+
+let sorted1 = numbers.sort(function(x, y) {
+    return x - y;
+});
+console.log(sorted1);
+
+let sorted2 = numbers.sort(function(x, y){
+    return y - x;
+});
+console.log(sorted2);
+
+
+
+
+// 22
+console.log("Javascript array with object ")
+// As arrays are objects, their elements are stored as references, so when an array is copied, 
+// any modification to it will also be reflected in an original array
+
+let arr = [ {name : "john"}, {name : "Jane"}, {name : "walker"}];
+
+let arr1 = arr;
+arr1.push( {name : "Watson"} );
+
+console.log("arr1", arr1);
+console.log("arr" , arr);
+
+arr[0] = {name : "Mike"};
+console.log("arr", arr);
+console.log("arr1", arr1);
+
+
+let copyArr = [...arr] ;
+copyArr.push({age : 40});
+
+console.log("copyArr", copyArr);
+console.log("arr", arr);
+
+
+
+// 23. 
+console.log("spread operators ");
+/* 
+   The spread operator can only be used with iterable objects, such as arrays and objects.
+   The spread operator can be used with any iterable object, regardless of its type.
+   The spread operator can be used to expand multiple iterable objects into a single array or object.
+   The spread operator can be used to expand an iterable object into a function call.
+
+*/
+
+
+
+
+// 24.
+console.log("Creating Multi dimensional array ");
+
+let multiArray = [];
+
+multiArray.push( ["John", "Jacob"]);
+multiArray.push( ["Hello", "world"]);
+
+console.log("Multi Array ", multiArray);
+
+multiArray[2] = ["Namastey ", "code "];
+console.log( "updated Multi Array ",multiArray);
+
+multiArray[2][0] = "High";
+console.log( "adding at specific index ", multiArray);
+
+multiArray[2].push("Array");
+console.log("2-d array ", multiArray);
+
+multiArray[4] = "Walker";
+console.log("more Updation ", multiArray);
+
+multiArray.push("share is care ");
+console.log("update again ", multiArray);
+
+
+
+
+
+
+// 25.
+// forEach()
+console.log("Iterating over multi dimensional array ");
+
+let multiDimen = [ [23, 24, 25, 26], [112, 123] ];
+console.log("multiDimem", multiDimen);
+
+multiDimen.forEach((number) => {
+
+    number.forEach((data) => {
+        console.log(data);
+    });
+
+});
+
+
+
+
+
+// 26.
+// for of 
+// is used to get value
+console.log("for of ");
+
+console.log("for of - 2d array ");
+for ( let i of multiDimen){
+
+    for ( let j of i ){
+        console.log(j +'');
+    };
+};
+
+
+console.log("for of - 1d array ");
+for ( let i of myarray){
+    console.log(i);
+}
+
+
+
+
+
+// 27.
+// for in
+// used to get index
+
+console.log("for in ");
+// for in not possible in 2-d array 
+for ( let i in multiDimen){
+
+    for ( let j in i){
+        console.log(j);
+    };
+};
+
+
+console.log("for in - 1d array ");
+for ( let i in myarray){
+    console.log(i);
+};
+
+
+
+// 28.
+// 
+
