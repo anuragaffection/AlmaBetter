@@ -146,7 +146,7 @@ console.log(hugResult);
 // 09.
 // . - any charcter at the place of dot 
 console.log('09. Exploring dot or period ');
-let exampleStr = "Let's have fun & run with regular expressions.";
+let exampleStr = "Let's have fun & run with regular expressions ssun.";
 
 let exampleRegex = /.un/;
 let exampleRegex1 = /.un/g;
@@ -210,7 +210,7 @@ console.log(mixString.match(mixRegex1));
 
 
 // 13
-// ^ - negate 
+// ^ - carate is used to - negate 
 console.log("13. Match single character not specified ");
 
 let miceStr = "3 Blind Mice.";
@@ -247,10 +247,15 @@ let feelStr = "gut feeling is gut go ggg feel";
 let moonStr = "Over the moon, on the moon";
 
 let sfmRegex = /go*/ig;
+let sfmRegex1 = /g*/ig;
 
-console.log(soccerStr.match(sfmRegex));
-console.log(feelStr.match(sfmRegex));
-console.log(moonStr.match(sfmRegex));
+console.log("soccer", soccerStr.match(sfmRegex));
+console.log("feel", feelStr.match(sfmRegex));
+console.log("moon", moonStr.match(sfmRegex));
+
+console.log("soccer", soccerStr.match(sfmRegex1));
+console.log("feels", feelStr.match(sfmRegex1));
+console.log("moon", moonStr.match(sfmRegex1));
 
 
 
@@ -303,7 +308,160 @@ console.log(winStr.match(winRegex3));
 
 
 
+
+
 // 19.
+console.log("find one more criminals in a hunt");
+
+let crowdStr = "p1p2p3p4p5p6cccpccp78pg";
+
+let crimeRegEx = /c+/;
+let crimeRegExG = /c+/g;
+
+console.log(crowdStr.match(crimeRegEx));
+console.log(crowdStr.match(crimeRegExG));
+
+
+
+
+
+// 20.
+// ^ - carate is - used to negate 
+// ^ - carate is - also used to match First character in string 
+console.log("find beginning string patterns");
+
+let rickyStr = "Cal and Ricky both like racing.";
+let rickyStr1 = "Ricky and cal both like racing ";
+
+let rickyRegex = /^Ricky/;
+
+console.log(`Ricky's regex: ${rickyStr.match(rickyRegex)}`);
+console.log("Ricky match ", rickyStr1.match(rickyRegex));
+
+
+
+
+
+
+// 21.
+// $ - dollar - is used to match ending characters in string 
+console.log("Match ending string patterns");
+
+let boseStr = "The last car on a train is the bose";
+let boseStr1 = "The last car on a train is the bose and bose;"
+
+let boseRegex = /bose$/;
+let boseRegex1 = /bose$/ig;
+
+console.log("last match", boseStr.match(boseRegex));
+console.log("lat match1", boseStr1.match(boseRegex1));
+
+
+
+
+
+
+// 22.
+
+// w - is short from of - [a-zA-Z0-9-]
+// \w - is used to match any character, any digit and underscore
+
+// \W - capital W - will negate the - \w (small w);
+console.log("Match all letters and numbers - shorthand");
+
+let sampleStr = "The five boxing wizards $ jump quickly";
+
+let sampleRegex = /[a-zA-Z0-9_]/ig;
+let sampleRegex1 = /\w/ig;
+
+let sampleRegexW = /\W/ig;
+
+console.log(sampleStr.match(sampleRegex));
+console.log("small w" , sampleStr.match(sampleRegex1));
+
+console.log("Captial W", sampleStr.match(sampleRegexW));
+console.log("capital W matching total length", sampleStr.match(sampleRegexW).length);
+
+
+
+
+
+// 23.
+
+// d - match all numbers
+// D - match non numbers 
+
+console.log("Match all numbers");
+let numStr = "Your sandwhich will be $5.00 & you will get code as $987643210";
+
+let numRegex = /[0-9]/g;
+let numRegex1 = /\d/g;
+let numRegex2 = /\D/g;
+
+console.log("number match", numStr.match(numRegex));
+console.log("number match d", numStr.match(numRegex1));
+console.log("number match D ", numStr.match(numRegex2));
+
+console.log("number match - length", numStr.match(numRegex).length);
+console.log("number match d - length", numStr.match(numRegex1).length);
+console.log("number match D - length", numStr.match(numRegex2).length);
+
+
+
+
+
+// 24.
+/* 
+  username rules - 
+
+  1. if there are numbers, they must be at the end
+  2. letters can be lowercase and uppercase
+  3. At lest two characters in username 
+  4. tow letters can not have numbers 
+
+*/
+
+/*
+  ^ - here will be used to match first word 
+  { , } - number of times, {starting, ending}
+  $ - here wlll be used to match last 
+*/
+
+console.log("Restrict possible usernames");
+
+let userRegex = /^[a-zA-Z]{2,}\d*$/;
+let username = "AnuragAffection7777";
+if (userRegex.test(username)) console.log(`Username ${username} is valid`);
+
+
+
+
+
+// 25. 
+// s - match white space
+// S - match non white space 
+
+console.log("Match whitespace characters");
+
+let whiteStr = "Whitespace is important in separting words";
+
+let whiteRegex = /\s/g;
+let whiteRegexS = /\S/;
+let whiteRegexS1 = /\S/g;
+
+
+console.log("white space", whiteStr.match(whiteRegex));
+console.log("Non white space ", whiteStr.match(whiteRegexS));
+console.log("Non white space 1", whiteStr.match(whiteRegexS1));
+
+
+
+
+// 26.
+console.log("Specify upper and Lower number of matches ");
+
+
+
 
 
 
