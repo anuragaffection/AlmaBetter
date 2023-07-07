@@ -311,7 +311,7 @@ console.log(winStr.match(winRegex3));
 
 
 // 19.
-console.log("find one more criminals in a hunt");
+console.log("19. find one more criminals in a hunt");
 
 let crowdStr = "p1p2p3p4p5p6cccpccp78pg";
 
@@ -328,7 +328,7 @@ console.log(crowdStr.match(crimeRegExG));
 // 20.
 // ^ - carate is - used to negate 
 // ^ - carate is - also used to match First character in string 
-console.log("find beginning string patterns");
+console.log("20. find beginning string patterns");
 
 let rickyStr = "Cal and Ricky both like racing.";
 let rickyStr1 = "Ricky and cal both like racing ";
@@ -345,7 +345,7 @@ console.log("Ricky match ", rickyStr1.match(rickyRegex));
 
 // 21.
 // $ - dollar - is used to match ending characters in string 
-console.log("Match ending string patterns");
+console.log("21. Match ending string patterns");
 
 let boseStr = "The last car on a train is the bose";
 let boseStr1 = "The last car on a train is the bose and bose;"
@@ -367,7 +367,7 @@ console.log("lat match1", boseStr1.match(boseRegex1));
 // \w - is used to match any character, any digit and underscore
 
 // \W - capital W - will negate the - \w (small w);
-console.log("Match all letters and numbers - shorthand");
+console.log("22. Match all letters and numbers - shorthand");
 
 let sampleStr = "The five boxing wizards $ jump quickly";
 
@@ -391,7 +391,7 @@ console.log("capital W matching total length", sampleStr.match(sampleRegexW).len
 // d - match all numbers
 // D - match non numbers 
 
-console.log("Match all numbers");
+console.log("23. Match all numbers");
 let numStr = "Your sandwhich will be $5.00 & you will get code as $987643210";
 
 let numRegex = /[0-9]/g;
@@ -427,7 +427,7 @@ console.log("number match D - length", numStr.match(numRegex2).length);
   $ - here wlll be used to match last 
 */
 
-console.log("Restrict possible usernames");
+console.log("24. Restrict possible usernames");
 
 let userRegex = /^[a-zA-Z]{2,}\d*$/;
 let username = "AnuragAffection7777";
@@ -441,7 +441,7 @@ if (userRegex.test(username)) console.log(`Username ${username} is valid`);
 // s - match white space
 // S - match non white space 
 
-console.log("Match whitespace characters");
+console.log("25. Match whitespace characters");
 
 let whiteStr = "Whitespace is important in separting words";
 
@@ -457,8 +457,97 @@ console.log("Non white space 1", whiteStr.match(whiteRegexS1));
 
 
 
+
 // 26.
-console.log("Specify upper and Lower number of matches ");
+console.log("26. Specify upper and Lower number of matches ");
+
+let ohStr = "Ohhh no";
+
+let ohRegex = /Oh{3,6} no/;
+let ohRegex1 = /Oh{3,} no/;
+
+console.log(ohStr.match(ohRegex));
+console.log(ohStr.match(ohRegex1));
+
+
+
+
+
+// 27.
+console.log("27. Specify only the lower number of matches ");
+let haStr = "Hazzzzaahh";
+let haRegex = /z{4,}/;
+console.log(haStr.match(haRegex));
+
+
+
+
+
+//28.
+console.log('S28. pecify exact number of matches ');
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/;
+console.log(timStr.match(timRegex));
+
+
+
+
+
+// 29.
+// u? - this will mark u may be or not 
+console.log("29. check for all or none");
+
+let favStr = "Favorite";
+let favStr1 = "Favourite";
+
+let favRegex = /favou?rite/i;
+
+console.log(favStr.match(favRegex));
+console.log(favStr1.match(favRegex));
+
+
+
+
+
+// 30.
+console.log(`30. Postitve and Negative LookAhead`);
+
+let quStr = "qu";
+let qtStr = "qt";
+
+let quRegex = /q(?=u)/; // positive lookahead
+let quRegex1 = /q(?!u)/; // negative lookahead
+
+console.log(quStr.match(quRegex));
+console.log(quStr.match(quRegex1)); // null
+
+console.log(qtStr.match(quRegex)); // null
+console.log(qtStr.match(quRegex1));
+
+
+
+
+
+// 31.
+// problem - check again 
+// (?=\w{5}) - any words with five character 
+// (?=\D*\d{2}) - any character without digit , then a number of two digtits 
+console.log('31. more example on lookahead');
+
+let astroStr = "astronaut12";
+let astRegex = /(?=\w{5,})(?=\D*\d{2,})/;
+console.log(astroStr.match(astRegex));
+
+
+
+
+
+// 32.
+console.log("Reuse patterns using capture groups");
+
+
+
+
 
 
 
