@@ -507,6 +507,23 @@ console.log(sorted2);
 
 
 
+// 21 
+// flat 
+console.log("21. flat")
+
+let array7 = [6, 7, 8, [9, 10, 11, [2,3, 5, ]]];
+let arrayFlated = array7.flat(2);
+console.log("array 7", arrayFlated);
+
+console.log("array 7 (3)" , array7.flat(3));
+
+let array8 = [6,7, 8, [9,2,3] , [6,8, 9]];
+console.log(array8.flat(1));
+console.log(array8.flat(2));
+
+
+
+
 
 // 22
 console.log("22. Javascript array with object ")
