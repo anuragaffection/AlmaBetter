@@ -10,10 +10,15 @@ console.log("\n \n Creating object by object literal method");
 let person = {
     name : "Anurag",
     age : 21,
+    3 : 1,
 };
+
+// you cant access 1 by writing person.3
 
 console.log(person.name);
 console.log(person.age);
+console.log(person[3]);
+console.log(person["3"]);
 console.log(person["name"]);
 console.log(person["age"]);
 
