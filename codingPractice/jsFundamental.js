@@ -61,14 +61,17 @@ Here are some examples of non-isomorphic strings:
 
 
 
+
+
+
 // 04.
 // time and Date function in javascript
 
 /*
-important note :- 
 
-The Date() function will also accept a variety of other date formats, 
-such as "MM/DD/YYYY", "YYYY-MM-DD", and "DD-MM-YYYY". as parameters 
+
+important note :- The Date() function will also accept a variety of other date formats, 
+                   such as "MM/DD/YYYY", "YYYY-MM-DD", and "DD-MM-YYYY". as parameters 
 
 Date(): 
     This function creates a new Date object, which represents a single moment in time.
@@ -110,5 +113,43 @@ setInterval():
     This method executes a function repeatedly after a specified number of milliseconds.
 
 */
+
+
+
+
+
+// 05. 
+// sleeping beauty problem 
+
+
+let x = Math.ceil(2.8); // x = 3
+let y = Math.round(2.8); // y = 3
+
+let x1 = Math.floor(2.8); // x = 2
+let y1 = Math.round(2.8); // y = 3
+
+console.log( 2 % 24);
+
+
+function main() {
+    var startTime = readLine();
+    var endTime = readLine();
+    console.log(calculateSleepDuration(startTime, endTime));
+}
+
+function calculateSleepDuration(startTime, endTime) {
+    const [startHour, startMinute] = startTime.split(":").map(Number);
+    const [endHour, endMinute] = endTime.split(":").map(Number);
+  
+    let duration = (endHour + 24 - startHour) % 24;
+    duration += (endMinute - startMinute) / 60;
+  
+    return Math.floor(duration);
+}
+
+// check array destructuring 
+//  .map is function , that is converting the input into Number
+
+
 
 
