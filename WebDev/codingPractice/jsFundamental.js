@@ -122,11 +122,38 @@ setInterval():
 // sleeping beauty problem 
 
 
-let x = Math.ceil(2.8); // x = 3
-let y = Math.round(2.8); // y = 3
 
-let x1 = Math.floor(2.8); // x = 2
-let y1 = Math.round(2.8); // y = 3
+// goes to nearest greater integer
+let x = Math.ceil(2.8); // = 3
+let y = Math.ceil(2.3)  //  = 3
+let z = Math.ceil(-2.8) // -2
+let q = Math.ceil(-2.3) // -2
+
+
+
+// goes to nearest smallest integer 
+let x1 = Math.floor(2.8); //  = 2
+let y1 = Math.floor(2.3); //  = 2
+let z1 = Math.floor(-2.8) //  = -3
+let q1 = Math.floor(-2.3) //  = -3
+
+
+
+// exact rounding of number 
+let x2 = Math.round(2.8); //  = 3
+let y2 = Math.round(2.3); //  = 2
+let z2 = Math.round(-2.8) // -3
+let q2 = Math.round(-2.3) // -2
+
+
+
+// it just remove decimal part
+let x3 = Math.trunc(2.8);  // 2
+let y3 = Math.trunc(2.3);  // 2
+let z3 = Math.trunc(-2.8)  // -2
+let q3 = Math.trunc(-2.3); // -2
+
+
 
 console.log( 2 % 24);
 

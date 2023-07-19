@@ -1,5 +1,9 @@
 /*
 
+inbuilt sort =  ___.sort( (a, b) => a - b);
+has time complexity of n (log n)
+
+
 Bubble Sort
 Selection Sort
 Insertion Sort
@@ -123,7 +127,7 @@ function insertionSort (arrInsert){
     for (let i = 1; i < len; i++){
         let key = arrInsert[i];
         let j = i - 1;
-
+        
         while ( j >= 0 && arrInsert[j] > key){
             arrInsert[j+1] = arrInsert[j];
             j--;
@@ -245,4 +249,10 @@ function quickSort(arr){
 
     return [...quickSort(leftPart), pivot, ...quickSort(rightPart)];
 
+}
+
+
+
+{
+    console.log("Quick sort in place sorting ");
 }

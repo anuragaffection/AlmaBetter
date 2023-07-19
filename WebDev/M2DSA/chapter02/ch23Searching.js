@@ -368,14 +368,16 @@ function twoSumOpt(arr, sum){
   fill in the blanks
 
 
-  01. The time complexity of the binary search algorithm is ________ 
+  01. The time complexity of the binary search 
+      algorithm is ________ 
         a.  O(n)
         b.  O(1)
         c.  O(log n) 
     
 
 
-  02. The time complexity of the linear search algorithm is ________ 
+  02. The time complexity of the linear search 
+      algorithm is ________ 
         a.  O(N)
         b.  O(log N)
         c.  O(1) 
@@ -390,7 +392,8 @@ function twoSumOpt(arr, sum){
 
 
   04. The time complexity of linear search grows ___________ 
-      (exponentially/linearly/quadratically) with the size of the data set. 
+      (exponentially/linearly/quadratically) with the size of 
+      the data set. 
       In contrast, the time complexity of binary search grows -
       logarithmically with the size of the data set.
 
@@ -443,7 +446,8 @@ function twoSumOpt(arr, sum){
    true or false 
 
 
-    01. A hashmap is used to organize and locate books within a library. 
+    01. A hashmap is used to organize and locate 
+        books within a library. 
 
 
     02. JavaScript has a built-in Hashmap data structure. 
@@ -478,10 +482,12 @@ function twoSumOpt(arr, sum){
  *   02. What is the most popular bit-length for SHA-2?
  *   --- 256-bit
  *    
- *   03. What is the term used to describe two different values producing the same hash?
+ *   03. What is the term used to describe two 
+ *       different values producing the same hash?
  *   --- Collision
  * 
- *   04. Which algorithm did the SSL industry transition to in 2015?
+ *   04. Which algorithm did the SSL industry 
+ *       transition to in 2015?
  *   --- SSL (Secure Socket Layer )
  *   --- SHA-2
  * 
@@ -503,7 +509,8 @@ function twoSumOpt(arr, sum){
  *      --- b. false
  * 
  *  ans --- false 
- *  exp --- Binary search can be used with any data type that can be compared, 
+ *  exp --- Binary search can be used with any data type that can
+ *          be compared, 
  *          not just numerical data types.
  * 
  *   
@@ -513,7 +520,8 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *  02. Which of the following is not a prerequisite for binary search?
+ *  02. Which of the following is not a prerequisite for 
+ *      binary search?
  *      --- a. The data must be sorted
  *      --- b. The data must be in an array
  *      --- c. The data must be integers
@@ -557,11 +565,16 @@ function twoSumOpt(arr, sum){
  *      --- d. All of the above are valid methods.
  * 
  *  ans --- b. map.put(key, value);
- *  exp --- The put() method is not a valid method for adding -
- *          a key-value pair to a HashMap in JavaScript. 
+ * 
+ *  exp --- The put() method is not a valid method for 
+ *          adding a key-value pair to a HashMap in 
+ *          JavaScript. 
+ * 
  *          The correct method is set(). 
+ * 
  *          Option c is also a valid method for adding a -
- *          key-value pair to a plain object, but not a HashMap.
+ *          key-value pair to a plain object, 
+ *          but not a HashMap.
  * 
  * 
  * 
@@ -570,15 +583,16 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *  05. What happens if you try to access a non- existent key -
- *      in a HashMap in JavaScript?
+ *  05. What happens if you try to access a non- existent 
+ *      key in a HashMap in JavaScript?
  *      --- a. The program throws a syntax error.
  *      --- b. The program throws a type error.
  *      --- c. The program returns undefined.
  *      --- d. The program crashes.
  * 
- *  ans --- If you try to access a non-existent key in a HashMap
- *          in JavaScript, the program returns undefined.
+ *  ans --- If you try to access a non-existent key
+ *          in a HashMap in JavaScript, 
+ *          the program returns undefined.
  * 
  * 
  * 
@@ -587,16 +601,23 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *  06. Which of the following is a good use case for a HashMap?
+ *  06. Which of the following is a good use case for
+ *      a HashMap?
  *      ---- a. Storing a sorted list of integers
  *      ---- b. Implementing a stack data structure
- *      ---- c. Counting the frequency of words in a text document
- *      ---- d. Storing a collection of objects with complex relationships
+ *      ---- c. Counting the frequency of words in a 
+ *              text document
+ *      ---- d. Storing a collection of objects with 
+ *              complex relationships
  *  
- *  ans ---- A HashMap is a good data structure to use when you need to 
- *           store key-value pairs and look them up quickly. 
- *           One common use case is counting the frequency of words in a text document,
- *           where the words are the keys and the counts are the values.
+ *  ans ---- A HashMap is a good data structure to use 
+ *           when you need when to store key-value pairs 
+ *           and look them up quickly. 
+ * 
+ *           One common use case is counting the frequency 
+ *           of words in a text document,
+ *           where the words are the keys and the counts 
+ *           are the values.
  * 
  * 
  * 
@@ -605,15 +626,17 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *  07. Which built-in method in JavaScript can be used to r
- *      etrieve the number of key-value pairs in a HashMap?
+ *  07. Which built-in method in JavaScript can be used 
+ *      to retrieve the number of key-value pairs in 
+ *      a HashMap?
  *      ---- a. size()
  *      ---- b. length()
  *      ---- c. count()
  *      ---- d. number()
  * 
  *  ans ---- The size() method in JavaScript can be used to 
- *           retrieve the number of key- value pairs in a HashMap, 
+ *           retrieve the number of key- value pairs in a 
+ *           HashMap, 
  *           like so: map.size
  * 
  * 
@@ -623,12 +646,13 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *  08. Which of the following is true about the worst-case space 
- *      complexity of binary search?
+ *  08. Which of the following is true about the worst-case 
+ *      space complexity of binary search?
  *      --- a. The worst-case space complexity is O(1) 
  *      --- b. The worst-case space complexity is O(n) 
  *      --- c. The worst-case space complexity is O(log n) 
- *      --- d. The worst-case space complexity depends on the specific implementation 
+ *      --- d. The worst-case space complexity depends 
+ *             on the specific implementation 
  * 
  *  ans ---- Binary search has a worst-case space complexity of O(1) 
  *           because it only requires a few variables to keep track of 
@@ -663,8 +687,9 @@ function twoSumOpt(arr, sum){
  *       --- O(logn) 
  *       --- O(n log n)
  * 
- *   ans --- In the worst case, the time complexity of linear search is O(n) 
- *            because it has to search through each element of the array.
+ *   ans --- In the worst case, the time complexity of linear search 
+ *           is O(n) because it has to search through each element 
+ *           of the array.
  * 
  * 
  * 
@@ -686,8 +711,11 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
- *   13. What happens when the data is not sorted before the binary search ?
- *   ans - the search algorithm will works but may result incorrect answer.
+ *   13. What happens when the data is not 
+ *       sorted before the binary search ?
+ * 
+ *   ans - the search algorithm will works 
+ *         but may result incorrect answer.
  * 
  * 
  * 
@@ -706,9 +734,12 @@ function twoSumOpt(arr, sum){
  * 
  * 
  * 
+ * 
  *   16. What is the difference between Hashmap & object in javascript ?
- *   ans - a hashmap store key - value pairs while object store only properties .
- *       - a hashmap has built in hash function, while object does not 
+ *   ans - a hashmap store key - value pairs while 
+ *         object store only properties.
+ *       - a hashmap has built in hash function, 
+ *         while object does not 
  * 
  *   exp - In JavaScript, both Hashmap/ Map and Object 
  *         can be used to store key-value pairs. 
@@ -717,9 +748,10 @@ function twoSumOpt(arr, sum){
  *         the two that make using a Map better in certain situations.
  *
  *         In Object, the data-type of the key-field is restricted 
- *         to integer, strings, and symbols. 
+ *         to integer, strings, and symbols. (if a number is stored as key 
+ *         in object, its type will be string).
  *         Whereas in Map, the key-field can be of any data-type 
- *         integer, an array, even an object!).
+ *         (except null & undefined) integer, an array, even an object.
  *
  *         In the Map, the original order of elements is preserved. 
  *         This is not true in case of objects.
@@ -729,6 +761,26 @@ function twoSumOpt(arr, sum){
  *
  *         You can get the size of a Map easily while you have to 
  *         manually keep track of size for an Object 1.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ *   17. What is the time complexity of retrieving -
+ *       a value from Hashmap in worst case?
+ * 
+ *   ans - linear time 
+ *   exp - Generally time complexity is constant in 
+ *         hashmap for retrieving value,
+ *         but in worst case all the keys of hashmap 
+ *         could hash to same index, resulting in linear search time.
+ * 
+ * 
+ * 
+ *   18. Which algorithm is best to use when array is sorted ?
+ *   ans - Binary search 
  * 
  * 
  * 

@@ -131,7 +131,7 @@
  * 
  * 
  *   14. Some basic windows command 
- * 
+ *  
  *   --- cd <folderName>      === to move to next folder  
  *   --- cd ..                === to go back to previous folder 
  *   --- q                    === to quit from the command line or terminal
@@ -143,6 +143,7 @@
  *   --- Notepad <fileName >  === to create a text file
  *   --- Notepad <fileName >  === to display what is written insid file
  *   --- cat <fileName>       === to display what is written within the file
+ *   --- clear                === will clear all in terminal
  * 
  * 
  * 
@@ -173,9 +174,19 @@
  *   --- git restore --staged <fileName> === to restore from add file in git 
  *   --- git reset --soft HEAD~1         === to restore form commited file in git
  *   --- git reset --hard HEAD~1         === to restore from commited file + it will change head
+ *   --- git stash apply                 === to resore from commited file
+ * 
+ * 
+ * 
+ * 
+ * 
+ *   16. Merging Branches
+ *   --- git merge < new branch name > === will merge new branch to main or current branch
  *   --- 
  * 
  * 
+ *   17. Merge conflict 
+ *   --- 
  * 
  * 
  *   

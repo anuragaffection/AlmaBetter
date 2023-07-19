@@ -3,17 +3,16 @@ console.log("Object & Json ");
 
 
 
+// 01. 
 // creating object by object literal method
 
-console.log("\n \n Creating object by object literal method");
+console.log("01. Creating object by object literal method");
 
 let person = {
     name : "Anurag",
     age : 21,
     3 : 1,
 };
-
-// you cant access 1 by writing person.3
 
 console.log(person.name);
 console.log(person.age);
@@ -27,9 +26,11 @@ console.log(person["age"]);
 
 
 
+
+// 02.
 // creating object by constructor method
 
-console.log("\n \n Creating object by object constructor method");
+console.log("02. Creating object by object constructor method");
 
 let person1 = new Object();
 
@@ -46,9 +47,10 @@ console.log(person1["age"]);
 
 
 
-// javascript nested object
+//  03.
+//  javascript nested object
 
-console.log("javascript nested object ");
+console.log("03. javascript nested object ");
 
 let cricketer = {
     hisName : "Sachin 10",
@@ -74,7 +76,13 @@ console.log(cricketer["total100"]);
 
 
 
+
+
+
+
+// 04.
 // modify existing property
+console.log("04. Modifying existing property ");
 
 cricketer.hisName = "Sachin Tendulkar";
 cricketer["total100"] = 200;
@@ -84,7 +92,12 @@ console.log(cricketer);
 
 
 
+
+
+
+// 05. 
 // adding new property
+console.log("05. adding new property");
 
 cricketer.nickName = "God of Cricket ";
 cricketer["address"]["country"] = "India"
@@ -93,7 +106,11 @@ console.log(cricketer);
 
 
 
+
+
+// 06.
 // delete new property
+console.log("06. delete");
 
 delete cricketer.isCaptain;
 delete cricketer['address']['pin'];
@@ -103,8 +120,17 @@ console.log(cricketer);
 
 
 
-// some predefined object method
-// these all three method will return array 
+
+
+
+//  07.
+//  some predefined object method
+//  these all three method will return array 
+// .keys
+// .values
+// .entries
+
+console.log("07. keys, values, & object");
 
 let crickProperty = Object.keys(cricketer);
 console.log("array of property ");
@@ -118,5 +144,13 @@ console.log(crickValues);
 let allCrickValue = Object.entries(cricketer);
 console.log("array of array of property & value - 2d array ");
 console.log(allCrickValue);
+
+
+
+
+
+
+// 08.
+
 
 
