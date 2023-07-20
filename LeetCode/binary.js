@@ -14,7 +14,7 @@
         }
 
         { 
-           let mid = lo + Math.floor((end - low) / 2)
+           let mid = start + Math.floor((end - start) / 2)
            // much better, but still possible to overflow
         }
 
@@ -28,6 +28,9 @@
 
     {
         // Search Insert Position
+        // same problem on alma better
+        // https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=binary-search
+
     }
 
 
