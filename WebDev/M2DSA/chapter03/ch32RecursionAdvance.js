@@ -10,13 +10,13 @@
 
   04. Reverse a String 
 
-  05. Power Function 
+  05. fibonacci sequence 
+ 
+  06. factorial
 
-  06. The sum of Array Elements
+  07. The sum of Array Elements
 
-  07. Factorial 
-
-  08. Fibonacci Sequence 
+  08.  Power Function  
 
   09. Given an array of integers sorted in non-decreasing order, return an array of the squares of each number in non-decreasing order. 
 
@@ -26,8 +26,16 @@
 
   12. Given an array of intervals where intervals[i] = [starti, endi], merge overlapping intervals and return the merged intervals in sorted order. 
 
+  13. Problem 1: Generate Parentheses
+  14. Problem 2: Permutations
+  15. Problem 3: Power of 2
+
+
 */
 
+
+
+// 01
 {
 
     {
@@ -222,6 +230,8 @@
 
 
 
+
+// 02
 {
     {
         /* 
@@ -342,6 +352,7 @@
 
 
 
+// 03
 {
     {
         // time complexity = O (n^2)
@@ -393,7 +404,7 @@
         console.log('03. remvoe duplicate - optimised - one line solution ');
         const arr = [1, 2, 3, 2, 4, 1, 5];
 
-        function removeDuplicates031(arr){
+        function removeDuplicates031(arr) {
             return new Set(arr);
         }
 
@@ -407,16 +418,17 @@
 
 
 
+// 04
 {
     {
         // tc = linear
         // sc = linear 
         console.log('04. reverse string - using loop ')
-        let str="Hello World";
+        let str = "Hello World";
 
-        function myReverse(str){
+        function myReverse(str) {
             let revStr = '';
-            for (let i = str.length - 1; i >= 0; i--){
+            for (let i = str.length - 1; i >= 0; i--) {
                 revStr += str[i];
             }
             return revStr;
@@ -433,13 +445,214 @@
 
         // sc = linear 
         console.log('04. reverse string - using reverse()')
-        let str="Hello World ";
+        let str = "Hello World ";
 
-        console.log(myReverse(str));
-        // fucntion can be accessed from any where
+        // funtion can be accessed from any where
         // only variable (like let & const ) are block scoped
+        console.log(myReverse(str));
+
         console.log((str.split("").reverse()).join(""));
     }
 
 
+}
+
+
+
+
+// 05
+{
+    {
+        // time complexity = eponential = 2^n
+        // space complexit = linear      = n
+
+        console.log('05. fibonacci ');
+
+        // recursion will be in multi side, each time there are two recursion
+        function fibonacci(n) {
+            if (n <= 1) {
+                return n;
+            }
+
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+        console.log(fibonacci(6)); // 8
+    }
+
+
+
+    {
+        // time complexity = linear = O (n)
+        // space complexity = linear = O (n)
+
+        // do dry run, you got the concept
+        // recursion tree will be one sided
+        console.log('05. fibonacci - optimised - dynamic programming');
+
+        function fibonacciDP(n, memoize = {}) {
+
+            if (n <= 1) {
+                return n;
+            }
+
+            if (memoize[n]) {
+                // if already stored then return , if not go ahead 
+                return memoize[n];
+            }
+
+            memoize[n] = fibonacciDP(n - 1, memoize) + fibonacciDP(n - 2, memoize);
+            return memoize[n];
+        }
+        console.log(fibonacciDP(6));
+    }
+
+}
+
+
+
+
+
+// 06
+{
+    {
+        // tc = linear
+        // sc = constant 
+        console.log("06. factorial - loop ");
+        const factorialLoop = num => {
+
+            if (num === 0 || typeof num !== "number") {
+                throw new Error(`Invalid input: ${num}`);
+
+            } else if (num < 0) {
+                throw new RangeError(`${num}: Input must be a positive integer.`);
+
+            } else if (Number.isInteger(num)) {
+                let result = 1;
+                for (let i = 1; i <= num; i++) {
+                    result *= i;
+                };
+                return result;
+            }
+        };
+        console.log(factorialLoop(4));
+        console.log(factorialLoop(7));
+    }
+
+
+    {
+        // tc = linear 
+        // sc = linear 
+
+        // alredy here recursion is one sided
+        // because only one recursion is called each time
+        console.log("06. factorial - Recursion ");
+        const factorialRecursion = num => {
+
+            if (num === 1){
+                return 1;
+            }
+
+            return num * factorialRecursion(num-1);
+
+        }
+
+        console.log(factorialRecursion(4));
+        console.log(factorialRecursion(7));
+
+    }
+
+    {
+        // tc = linear 
+        // sc = linear 
+
+        console.log("06. factorial - Recursion - dp ");
+
+        const factorialRecursionDp = (num, result = 1) => {
+            if (num === 1){
+                return result;
+            }
+
+            result = factorialRecursionDp( (num - 1), result * num);
+
+            return result;
+        }
+        console.log(factorialRecursionDp(4));
+        console.log(factorialRecursionDp(7));
+    }
+}
+
+
+
+
+
+
+// 07
+{
+    {
+        // tc = linear
+        // sc = constant = depend on single variable
+        console.log("07. sum of array - loop method ")
+
+        function sumArrayLoop(arr){
+
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++){
+                sum += arr[i]
+            }
+            return sum;
+        }
+        console.log(sumArrayLoop([1, 2, 3, 4, 5]));
+    }
+
+
+    {
+        // tc = O (n)
+        // sc = O (n) = on recrusion depth
+        console.log("07. sum of array - recursion method ")
+
+        function sumArrayRecursion(arr){
+
+            let sum = 0;
+            if (arr.length === 0){
+                return 0;
+            }
+
+            sum = arr[0] + sumArrayRecursion(arr.slice(1));
+            return sum;
+        }
+        console.log(sumArrayRecursion([1, 2, 3, 4, 5]));
+    }
+
+
+    {
+        // tc = O (n)
+        // sc = O (n) - on recursion depth 
+        console.log("07. sum of array - recursion method optimised ")
+
+        function sumArrayRecursionOp(arr, i = 0){
+
+            let sum = 0;
+
+            if (arr.length === i){
+                return 0;
+            }
+
+            sum = arr[i] + sumArrayRecursionOp(arr, i+1 );
+            return sum
+
+        }
+        console.log(sumArrayRecursionOp([1, 2, 3, 4, 5]));
+    }
+
+}
+
+
+
+
+
+// 08
+{
+    {
+        
+    }
 }
