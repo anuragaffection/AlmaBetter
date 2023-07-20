@@ -126,99 +126,102 @@
 
 }
 
-
 {
-    console.log("02. Jump Search - practice - A")
-    var arr = [1, 2, 3, 4, 5, 6, 7];
-    var target = 5;
-    console.log(arr);
-    console.log(`${target} is at index = `, jumpSearch(arr, target));
+    {
+        console.log("02. Jump Search - practice - A")
+        var arr = [1, 2, 3, 4, 5, 6, 7];
+        var target = 5;
+        console.log(arr);
+        console.log(`${target} is at index = `, jumpSearch02(arr, target));
 
-    function jumpSearch(arr, target) {
-        const n = arr.length;
+        function jumpSearch02(arr, target) {
+            const n = arr.length;
 
-        // step is also an index - 
-        // we will be increasing that 
-        let step = Math.floor(Math.sqrt(n));
+            // step is also an index - 
+            // we will be increasing that 
+            let step = Math.floor(Math.sqrt(n));
 
-        let prev = 0;
+            let prev = 0;
 
-        // Finding the block where the target may exist
-        while (arr[Math.min(step, n) - 1] < target) {
-            prev = step;
-            step += Math.floor(Math.sqrt(n));
+            // Finding the block where the target may exist
+            while (arr[Math.min(step, n) - 1] < target) {
+                prev = step;
+                step += Math.floor(Math.sqrt(n));
 
-            if (prev >= n) {
-                return -1; // Target not found
+                if (prev >= n) {
+                    return -1; // Target not found
+                }
             }
+
+
+            // Performing a linear search within the block
+            while (arr[prev] <= target) {
+
+                // Check if the target is found
+                if (arr[prev] === target) {
+                    return prev; // Index of the target element
+                }
+                prev++;
+
+                if (prev === Math.min(step, n)) {
+                    return -1; // Target not found
+                }
+            }
+
+            return -1; // Target not found
         }
 
+    }
 
-        // Performing a linear search within the block
-        while (arr[prev] <= target) {
+
+    {
+        console.log("02. Jump Search - practice - B")
+        var arr = [1, 2, 3, 4, 5, 6, 7];
+        var target = 5;
+        console.log(arr);
+        console.log(`${target} is at index = `, jumpSearch02B(arr, target));
+
+        function jumpSearch02B(arr, target) {
+            const n = arr.length;
+
+            // step is also an index - 
+            // we will be increasing that 
+            let step = Math.floor(Math.sqrt(n));
+
+            let prev = 0;
+
+            // Finding the block where the target may exist
+            while (arr[Math.min(step, n) - 1] < target) {
+                prev = step;
+                step += Math.floor(Math.sqrt(n));
+
+                if (prev >= n) {
+                    return -1; // Target not found
+                }
+            }
+
+
+            // Performing a linear search within the block
+            while (arr[prev] < target) {
+                prev++;
+
+                if (prev === Math.min(step, n)) {
+                    return -1; // Target not found
+                }
+            }
 
             // Check if the target is found
             if (arr[prev] === target) {
                 return prev; // Index of the target element
             }
-            prev++;
 
-            if (prev === Math.min(step, n)) {
-                return -1; // Target not found
-            }
+            return -1; // Target not found
         }
 
-        return -1; // Target not found
     }
-
 }
 
 
-{
-    console.log("02. Jump Search - practice - B")
-    var arr = [1, 2, 3, 4, 5, 6, 7];
-    var target = 5;
-    console.log(arr);
-    console.log(`${target} is at index = `, jumpSearch(arr, target));
-
-    function jumpSearch(arr, target) {
-        const n = arr.length;
-
-        // step is also an index - 
-        // we will be increasing that 
-        let step = Math.floor(Math.sqrt(n));
-
-        let prev = 0;
-
-        // Finding the block where the target may exist
-        while (arr[Math.min(step, n) - 1] < target) {
-            prev = step;
-            step += Math.floor(Math.sqrt(n));
-
-            if (prev >= n) {
-                return -1; // Target not found
-            }
-        }
-
-
-        // Performing a linear search within the block
-        while (arr[prev] < target) {
-            prev++;
-
-            if (prev === Math.min(step, n)) {
-                return -1; // Target not found
-            }
-        }
-
-        // Check if the target is found
-        if (arr[prev] === target) {
-            return prev; // Index of the target element
-        }
-
-        return -1; // Target not found
-    }
-
-}
 
 
 {
@@ -229,93 +232,96 @@
 
 
 
-{
-    /**
-     *  03. Exponential search 
-     * 
-     *  worst time complexity   = O (log n)
-     *  average time complexity = O (log n)
-     *  best time complexity    = O ( 1 )
-     * 
-     *  space complexity = O (1)
-     */
-    console.log("03. Exponential Search ");
-    let arr = [2, 4, 6, 8, 10, 12, 15];
-    console.log(arr);
-    let target = 12;
-    console.log(`${target} is at index = `, exponentialSearch(arr, target));
-
-    function exponentialSearch(arr, target) {
-        let n = arr.length;
-        if (arr[0] === target) {
-            return 0;
-        }
-
-        let i = 1;
-        while (i < n && arr[i] < target) {
-            i *= 3;
-        }
-
-        let start = Math.floor(i / 3);
-        let end = Math.min(i, n - 1);
-
-        while (start <= end) {
-
-            let mid = Math.floor((start + end) / 2);
-
-            if (target === arr[mid]) {
-                return mid;
-            }
-
-            if (target > arr[mid]) {
-                start = mid + 1;
-            } else {
-                end = mid - 1;
-            }
-        }
-        retur - 1;
-    }
-}
 
 {
-    console.log("03. Exponential Search - B ");
-    let arr = [2, 4, 6, 8, 10, 12, 15];
-    console.log(arr);
-    let target = 12;
-    console.log(`${target} is at index = `, exponentialSearch(arr, target));
+    {
+        /**
+         *  03. Exponential search 
+         * 
+         *  worst time complexity   = O (log n)
+         *  average time complexity = O (log n)
+         *  best time complexity    = O ( 1 )
+         * 
+         *  space complexity = O (1)
+         */
+        console.log("03. Exponential Search ");
+        let arr = [2, 4, 6, 8, 10, 12, 15];
+        console.log(arr);
+        let target = 12;
+        console.log(`${target} is at index = `, exponentialSearch(arr, target));
 
-    function exponentialSearch(arr, target) {
-        let n = arr.length;
-        if (arr[0] === target) {
-            return 0;
-        }
-
-        let i = 1;
-        while (i < n && arr[i] < target) {
-            i *= 2;
-        }
-
-        let start = Math.floor(i / 2);
-        let end = Math.min(i, n - 1);
-
-        while (start <= end) {
-
-            let mid = Math.floor((start + end) / 2);
-
-            if (target === arr[mid]) {
-                return mid;
+        function exponentialSearch(arr, target) {
+            let n = arr.length;
+            if (arr[0] === target) {
+                return 0;
             }
 
-            if (target > arr[mid]) {
-                start = mid + 1;
-            } else {
-                end = mid - 1;
+            let i = 1;
+            while (i < n && arr[i] < target) {
+                i *= 3;
             }
+
+            let start = Math.floor(i / 3);
+            let end = Math.min(i, n - 1);
+
+            while (start <= end) {
+
+                let mid = Math.floor((start + end) / 2);
+
+                if (target === arr[mid]) {
+                    return mid;
+                }
+
+                if (target > arr[mid]) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+            retur - 1;
         }
-        retur - 1;
     }
-}
 
+    {
+        console.log("03. Exponential Search - B ");
+        let arr = [2, 4, 6, 8, 10, 12, 15];
+        console.log(arr);
+        let target = 12;
+        console.log(`${target} is at index = `, exponentialSearchB(arr, target));
+
+        function exponentialSearchB(arr, target) {
+            let n = arr.length;
+            if (arr[0] === target) {
+                return 0;
+            }
+
+            let i = 1;
+            while (i < n && arr[i] < target) {
+                i *= 2;
+            }
+
+            let start = Math.floor(i / 2);
+            let end = Math.min(i, n - 1);
+
+            while (start <= end) {
+
+                let mid = Math.floor((start + end) / 2);
+
+                if (target === arr[mid]) {
+                    return mid;
+                }
+
+                if (target > arr[mid]) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+            retur - 1;
+        }
+    }
+
+}
 
 
 
