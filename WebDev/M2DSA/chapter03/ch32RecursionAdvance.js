@@ -548,11 +548,11 @@
         console.log("06. factorial - Recursion ");
         const factorialRecursion = num => {
 
-            if (num === 1){
+            if (num === 1) {
                 return 1;
             }
 
-            return num * factorialRecursion(num-1);
+            return num * factorialRecursion(num - 1);
 
         }
 
@@ -568,11 +568,11 @@
         console.log("06. factorial - Recursion - dp ");
 
         const factorialRecursionDp = (num, result = 1) => {
-            if (num === 1){
+            if (num === 1) {
                 return result;
             }
 
-            result = factorialRecursionDp( (num - 1), result * num);
+            result = factorialRecursionDp((num - 1), result * num);
 
             return result;
         }
@@ -593,10 +593,10 @@
         // sc = constant = depend on single variable
         console.log("07. sum of array - loop method ")
 
-        function sumArrayLoop(arr){
+        function sumArrayLoop(arr) {
 
             let sum = 0;
-            for (let i = 0; i < arr.length; i++){
+            for (let i = 0; i < arr.length; i++) {
                 sum += arr[i]
             }
             return sum;
@@ -610,10 +610,10 @@
         // sc = O (n) = on recrusion depth
         console.log("07. sum of array - recursion method ")
 
-        function sumArrayRecursion(arr){
+        function sumArrayRecursion(arr) {
 
             let sum = 0;
-            if (arr.length === 0){
+            if (arr.length === 0) {
                 return 0;
             }
 
@@ -629,15 +629,15 @@
         // sc = O (n) - on recursion depth 
         console.log("07. sum of array - recursion method optimised ")
 
-        function sumArrayRecursionOp(arr, i = 0){
+        function sumArrayRecursionOp(arr, i = 0) {
 
             let sum = 0;
 
-            if (arr.length === i){
+            if (arr.length === i) {
                 return 0;
             }
 
-            sum = arr[i] + sumArrayRecursionOp(arr, i+1 );
+            sum = arr[i] + sumArrayRecursionOp(arr, i + 1);
             return sum
 
         }
@@ -653,6 +653,86 @@
 // 08
 {
     {
-        
+        // tc = linear
+        // sc = linear 
+
+        // is it will handle negative power - no
+        console.log("08. power function ");
+
+        function powerRec(num, power) {
+
+            if (num === 0 || power === 0) {
+                return 1;
+            }
+
+            return num * powerRec(num, power - 1)
+        }
+        console.log(powerRec(2, 4));
+    }
+
+
+    {
+        // tc = log (n)
+        // sc = log (n) 
+
+        // is it will handle negative power - no
+        console.log("08. power function ");
+
+        function powerRecOptimised(num, power) {
+
+            if (num === 0 || power === 0) {
+                return 1;
+            }
+
+            if (power % 2 === 0) {
+                let temp = powerRecOptimised(num, power / 2);
+                return temp * temp;
+                // we are decreasing recursion step by 2
+                // also in java dsa - recursion topics 
+                // do dry run - you will get the concept 
+            }
+
+            return num * powerRecOptimised(num, power - 1)
+        }
+
+        console.log(powerRecOptimised(2, 4));
+
+    }
+}
+
+
+
+
+
+// 09.
+{
+    {
+        // tc = n log n
+        // sc = n - linear 
+        console.log("09. Sorted Square ");
+        function sortedSquares(nums) {
+
+            const result = [];
+
+            for (let i = 0; i < nums.length; i++) {
+                result.push(nums[i] * nums[i]);
+            }
+
+            // sorting the result 
+            result.sort((a, b) => a - b);
+
+            return result;
+        }
+
+        console.log(sortedSquares([-4, -2, 0, 2, 4]));
+        // Output: [0, 4, 4, 16, 16]
+
+        console.log(sortedSquares([-5, -3, -1, 0, 2, 4, 6]));
+        // Output: [0, 1, 4, 9, 16, 25, 36]
+    }
+
+
+    {
+
     }
 }
