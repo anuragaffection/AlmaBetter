@@ -39,7 +39,7 @@
         const arr = [2, 4, 6, 6, 6, 8, 10];
         const target = 6;
 
-        function findFirstOccurrence(arr, target) {
+        function findFirstOccurrence1S(arr, target) {
             for (let i = 0; i < arr.length; i++) {
                 if (arr[i] === target) {
                     return i;
@@ -48,7 +48,7 @@
             return -1;
         }
 
-        console.log(findFirstOccurrence(arr, target));
+        console.log(findFirstOccurrence1S(arr, target));
         // index = 2
 
 
@@ -77,17 +77,17 @@
         const arr = [2, 4, 6, 6, 6, 8, 10];
         const target = 6;
 
-        function findFirstOccurrence(arr, target, index = 0) {
+        function findFirstOccurrence1R(arr, target, index = 0) {
             if (index >= arr.length) {
                 return -1;
             }
             if (arr[index] === target) {
                 return index;
             }
-            return findFirstOccurrence(arr, target, index + 1);
+            return findFirstOccurrence1R(arr, target, index + 1);
         }
 
-        console.log(findFirstOccurrence(arr, target));
+        console.log(findFirstOccurrence1R(arr, target));
 
     }
 
@@ -100,7 +100,7 @@
         const arr = [2, 4, 6, 6, 6, 8, 10];
         const target = 6;
 
-        function findFirstOccurrence(arr, target) {
+        function findFirstOccurrence1O(arr, target) {
             let first = -1;
 
             let start = 0;
@@ -122,7 +122,7 @@
             }
             return first;
         }
-        console.log(findFirstOccurrence(arr, target));
+        console.log(findFirstOccurrence1O(arr, target));
     }
 
 
@@ -132,7 +132,7 @@
         const arr = [2, 4, 6, 6, 6, 8, 10];
         const target = 6;
 
-        function findFirstOccurrence(arr, target) {
+        function findFirstOccurrence1OR(arr, target) {
             let start = 0;
             let end = arr.length - 1;
 
@@ -154,7 +154,7 @@
             return -1;
         }
 
-        console.log(findFirstOccurrence(arr, target));  // Output: 2
+        console.log(findFirstOccurrence1OR(arr, target));  // Output: 2
     }
 
 
@@ -243,7 +243,7 @@
         const str1 = "listen";
         const str2 = "silent";
 
-        function areAnagrams(str1, str2) {
+        function areAnagrams02(str1, str2) {
 
             if (str1.length !== str2.length) {
                 return false;
@@ -260,7 +260,7 @@
             return false;
         }
 
-        console.log(areAnagrams(str1, str2));
+        console.log(areAnagrams02(str1, str2));
     }
 
 
@@ -281,7 +281,7 @@
         const str1 = "listen";
         const str2 = "silent";
 
-        function areAnagrams(str1, str2) {
+        function areAnagrams02O(str1, str2) {
 
             let check = false;
 
@@ -306,7 +306,7 @@
             return check;
         }
 
-        console.log(areAnagrams(str1, str2));
+        console.log(areAnagrams02O(str1, str2));
     }
 
 
@@ -315,7 +315,7 @@
         const str1 = "listen";
         const str2 = "silent";
 
-        function areAnagrams(str1, str2) {
+        function areAnagrams02C(str1, str2) {
 
             if (str1.length !== str2.length) {
                 return false;
@@ -334,7 +334,7 @@
             }
             return true;
         }
-        console.log(areAnagrams(str1, str2));
+        console.log(areAnagrams02C(str1, str2));
     }
 
 }
@@ -351,7 +351,7 @@
         console.log("03. remove duplicates ");
         const arr = [1, 2, 3, 2, 4, 1, 5];
 
-        function removeDuplicates(arr) {
+        function removeDuplicates03(arr) {
 
             const uniqueArr = [];
 
@@ -365,7 +365,7 @@
             return uniqueArr;
         }
 
-        console.log(removeDuplicates(arr));
+        console.log(removeDuplicates03(arr));
     }
 
 
@@ -375,7 +375,7 @@
         console.log("03. remove duplicate - optimised");
         const arr = [1, 2, 3, 2, 4, 1, 5];
 
-        function removeDuplicates(arr) {
+        function removeDuplicates03O(arr) {
             let set = new Set();
 
             for (let val of arr) {
@@ -383,7 +383,7 @@
             }
             return set;
         }
-        console.log(removeDuplicates(arr));
+        console.log(removeDuplicates03O(arr));
     }
 
 
@@ -393,11 +393,11 @@
         console.log('03. remvoe duplicate - optimised - one line solution ');
         const arr = [1, 2, 3, 2, 4, 1, 5];
 
-        function removeDuplicates(arr){
+        function removeDuplicates031(arr){
             return new Set(arr);
         }
 
-        console.log(removeDuplicates(arr));
+        console.log(removeDuplicates031(arr));
     }
 
 
@@ -409,6 +409,37 @@
 
 {
     {
-        console.log('04. reverse string ')
+        // tc = linear
+        // sc = linear 
+        console.log('04. reverse string - using loop ')
+        let str="Hello World";
+
+        function myReverse(str){
+            let revStr = '';
+            for (let i = str.length - 1; i >= 0; i--){
+                revStr += str[i];
+            }
+            return revStr;
+
+        }
+
+        console.log(myReverse(str));
     }
+
+    {
+        // tc = linear
+        // reverse() - has linear time complexity 
+        // reverse() - function works on an array
+
+        // sc = linear 
+        console.log('04. reverse string - using reverse()')
+        let str="Hello World ";
+
+        console.log(myReverse(str));
+        // fucntion can be accessed from any where
+        // only variable (like let & const ) are block scoped
+        console.log((str.split("").reverse()).join(""));
+    }
+
+
 }
