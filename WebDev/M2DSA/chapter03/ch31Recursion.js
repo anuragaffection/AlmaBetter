@@ -13,83 +13,90 @@
 
 
 {
-    console.log("01. Calculating factorial using recursion");
-    console.log(factorial(5));
+    {
+        console.log("01. Calculating factorial using recursion");
+        console.log(factorial01Rec(5));
 
-    function factorial(n) {
-        if (n === 0) {
-            return 1;
+        function factorial01Rec(n) {
+            if (n === 0) {
+                return 1;
+            }
+
+            return n * factorial01Rec(n - 1);
         }
+    }
 
-        return n * factorial(n - 1);
+
+
+    {
+        console.log("01. Calculating factorial using loop ");
+        console.log(factorial01Loop(5));
+
+        function factorial01Loop(n) {
+            if (n === 0) {
+                return 1;
+            }
+            let result = 1;
+            for (let i = 1; i <= n; i++) {
+                result *= i;
+            }
+            return result;
+        }
     }
 }
 
 
 
-{
-    console.log("01. Calculating factorial using loop ");
-    console.log(factorial(5));
-
-    function factorial(n) {
-        if (n === 0) {
-            return 1;
-        }
-        let result = 1;
-        for (let i = 1; i <= n; i++) {
-            result *= i;
-        }
-        return result;
-    }
-}
 
 
 {
-    console.log("02. Calculating fibonacci using loop");
-    console.log(fibonacci(5));
+    {
+        console.log("02. Calculating fibonacci using loop");
+        console.log(fibonacci02Loop(5));
 
-    // here n is index of fibonacci sequence starting from 0
-    // 0 1 1 2 3 5 8 13 21 34 - fibonacci
-    // 0 1 2 3 4 5 6 7  8  9  - index 
+        // here n is index of fibonacci sequence starting from 0
+        // 0 1 1 2 3 5 8 13 21 34 - fibonacci
+        // 0 1 2 3 4 5 6 7  8  9  - index 
 
 
-    // time complexity - O (n) - linear
-    function fibonacci(n) {
-        let a = 1, b = 0, temp;
-        while (n > 0) {
-            temp = a;
-            a = a + b;
-            b = temp;
-            n--
+        // time complexity - O (n) - linear
+        function fibonacci02Loop(n) {
+            let a = 1, b = 0, temp;
+            while (n > 0) {
+                temp = a;
+                a = a + b;
+                b = temp;
+                n--
+            }
+            return b;
         }
-        return b;
-    }
-}
-
-{
-    /*  In this case, the function is called 2^(n-1) times, as each call
-        creates two more calls. Each call also performs addition. 
-        Therefore, the time complexity of the Fibonacci function is O(2^n).
-
-        time complexity = O ( 2 ^ n) - which is very high;
-        space complexity = 
-    */
-
-    console.log("02. Calculating fibonacci using recursion");
-    console.log(fibonacci(5));
-
-    function fibonacci(n) {
-        if (n === 0) {
-            return 0;
-        }
-
-        if (n === 1 || n === 2) {
-            return 1;
-        }
-
-        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
+    {
+        /*  In this case, the function is called 2^(n-1) times, as each call
+            creates two more calls. Each call also performs addition. 
+            Therefore, the time complexity of the Fibonacci function is O(2^n).
+    
+            time complexity = O ( 2 ^ n) - which is very high;
+            space complexity = 
+        */
+
+        console.log("02. Calculating fibonacci using recursion");
+        console.log(fibonacci02Recursion(5));
+
+        function fibonacci02Recursion(n) {
+            if (n === 0) {
+                return 0;
+            }
+
+            if (n === 1 || n === 2) {
+                return 1;
+            }
+
+            return fibonacci02Recursion(n - 1) + fibonacci02Recursion(n - 2);
+        }
+
+    }
 }
 
 
