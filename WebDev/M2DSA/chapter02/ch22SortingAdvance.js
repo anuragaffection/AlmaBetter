@@ -722,3 +722,249 @@
   05. place
 
 */
+
+/*
+
+
+01. Which of the following sorting algorithms can be used as a subroutine in Counting Sort?
+
+ Merge Sort
+ Quick Sort
+ Radix Sort
+ Bubble Sort
+
+
+
+02. Counting Sort is a stable sorting algorithm because:
+
+ It uses a stable partitioning technique
+ It uses a stable selection sort
+ It ensures equal elements have the same relative order
+ It ensures equal elements have the same absolute order
+
+
+
+
+
+
+03.What is the main advantage of Counting Sort over other comparison-based sorting algorithms?
+
+Counting Sort has a worst-case time complexity of O(n^2).
+
+Counting Sort is an in-place sorting algorithm.
+
+Counting Sort is stable.
+
+Counting Sort does not require comparison between elements.
+
+
+
+
+
+
+
+04. Which operation is used to insert a new element into a heap?
+
+Heapify
+
+Extract-Max
+
+Decrease-Key
+
+Insert
+
+
+
+
+
+
+05. Counting Sort can be used for sorting:
+
+Only positive integers
+
+Only negative integers
+
+Only integers
+
+Integers and other data types
+
+
+
+
+
+
+06. Which radix is commonly used for integers in Radix Sort?
+
+Base 2 (binary)
+
+Base 8 (octal)
+
+Base 10 (decimal)
+
+Base 16 (hexadecimal)
+
+
+
+
+
+07. Which of the following data structures is commonly used to implement a heap?
+
+Linked List
+
+Array
+
+Stack
+
+Queue
+
+
+
+
+
+
+08. What is the time complexity of building a heap from an unsorted array of size n using heapify operation?
+
+O(n)
+
+O(log n)
+
+O(n log n)
+
+O(n^2)
+
+
+
+
+
+09. What happens when the number of elements to be sorted exceeds the number of available buckets in bucket sort?
+
+The algorithm fails to sort the elements.
+
+The algorithm creates additional buckets dynamically.
+
+The algorithm uses a different sorting algorithm.
+
+The algorithm skips some elements.
+
+
+
+
+
+
+10. Bucket sort is a stable sorting algorithm.
+
+True
+
+False
+
+
+
+
+
+
+01
+Radix Sort
+
+Justification
+
+Radix Sort can be used as a subroutine in Counting Sort because it sorts elements based on their digits, from the least significant digit to the most significant digit. This property makes it suitable for sorting elements in Counting Sort, which relies on counting the occurrences of each element.
+
+
+
+
+02.
+It ensures equal elements have the same relative order
+
+Justification
+
+Counting Sort is considered a stable sorting algorithm because it ensures that elements with equal keys appear in the same order in the sorted output as they do in the input.
+
+
+
+
+
+03.
+Counting Sort does not require
+
+comparison between elements.
+
+Justification
+
+Counting Sort works by counting the number of occurrences of each element and then using this information to determine the correct position of each element in the sorted output. It does not rely on comparing elements directly.
+
+
+
+
+4.
+Insert
+
+Justification
+
+The "Insert" operation is used to insert a new element into a heap. After insertion, the heap property is restored by performing the heapify operation if necessary.
+
+
+
+
+5.
+Only positive integers
+
+Justification
+
+Counting Sort is commonly used for sorting arrays of positive integers. It is not directly applicable to other data types without some modifications.
+
+
+
+
+
+
+6.
+Base 10 (decimal)
+
+Justification
+
+Radix Sort for integers commonly uses base 10 (decimal) as the radix, representing the number of unique digits.
+
+
+
+
+7.
+Array
+
+Justification
+
+Arrays are commonly used to implement a heap due to their contiguous memory allocation, which allows for efficient indexing and access to elements.
+
+
+
+
+
+8.
+O(n)
+
+Justification
+
+Building a heap from an unsorted array using heapify operation takes linear time, which is O(n).
+
+
+
+
+9.
+The algorithm creates additional buckets dynamically.
+
+Justification
+
+In bucket sort, if the number of elements to be sorted exceeds the number of available buckets, the algorithm can dynamically create additional buckets to accommodate the extra elements. This ensures all elements are sorted correctly.
+
+
+
+
+
+10.
+True
+
+Justification
+
+Bucket sort is a stable sorting algorithm, which means that elements with equal values retain their relative order after sorting. The individual buckets are sorted individually, preserving the order of elements within each bucket.
+
+
+*/
