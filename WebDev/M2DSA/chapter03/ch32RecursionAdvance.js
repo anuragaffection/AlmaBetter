@@ -707,8 +707,8 @@
 // 09.
 {
     {
-        // tc = n log n
-        // sc = n - linear 
+        // tc = O ( n log n )
+        // sc = O (n )  
         console.log("09. Sorted Square ");
         function sortedSquares(nums) {
 
@@ -733,7 +733,160 @@
 
 
     {
-        
+        // tc = linear
+        // sc = linear 
 
+        // concept - two pointer approach 
+        // calculating from both  side 
+        console.log("09. Sorted Square - optimised ");
+
+        function sortedSquaresOpt(arr) {
+            let start = 0;
+            let end = arr.length - 1;
+
+
+            let resultArray = new Array(arr.length);
+            // since given array is sorted, now the square of each element 
+            // will at start or end 
+            let resIdx = resultArray.length - 1;
+
+
+            while (start <= end) {
+                let startSquare = arr[start] * arr[start];
+                let endSquare = arr[end] * arr[end];
+
+                if (startSquare > endSquare) {
+                    resultArray[resIdx] = startSquare;
+                    resIdx--;
+                    start++;
+                }
+                else {
+                    resultArray[resIdx] = endSquare;
+                    resIdx--;
+                    end--;
+                }
+            }
+            return resultArray;
+        }
+
+
+        console.log(sortedSquaresOpt([-4, -2, 0, 2, 4]));
+        // Output: [0, 4, 4, 16, 16]
+
+        console.log(sortedSquaresOpt([-5, -3, -1, 0, 2, 4, 6]));
+        // Output: [0, 1, 4, 9, 16, 25, 36]
+
+    }
+}
+
+
+
+
+
+// 10.
+{
+    {
+        // tc = O ( n log n)
+        // sc = O ( n )
+
+        // you can do the same problem by sorting in descending order 
+        // here we sort in ascending order 
+        console.log('10. Kth  element ');
+
+        function findKthLargest(nums, k) {
+            const sortedNums = nums.sort((a, b) => a - b);
+            return sortedNums[sortedNums.length - k];
+        }
+        console.log(findKthLargest([3, 2, 1, 5, 6, 4], 2)); // Output: 5
+        console.log(findKthLargest([9, 8, 7, 6, 5, 4], 4)); // Output: 6
+
+    }
+
+    {
+        // tc = O ( n log n)
+        // sc = O ( n )
+
+        // you can do the same problem by sorting in descending order 
+        // here we sort in ascending order 
+        console.log('10. Kth  element - opt ');
+
+        function findKthLargestOpt(nums, k) {
+            nums.sort((a, b) => a - b);
+            return nums[nums.length - k];
+        }
+        console.log(findKthLargestOpt([3, 2, 1, 5, 6, 4], 2)); // Output: 5
+        console.log(findKthLargestOpt([9, 8, 7, 6, 5, 4], 4)); // Output: 6
+
+    }
+
+}
+
+
+
+
+
+
+// 11.
+{
+    {
+        // tc = O (n ^ 2) = O ( n * m)
+        // sc = O ( n );
+
+        console.log("11. Intersection ");
+
+        function intersection(nums1, nums2) {
+
+            const result = [];
+
+            // here i & j are not index, they are actual number 
+            // you can write anthing in place of i & j
+            // like element1 & element2
+
+            for (let i of nums1) {
+
+                for (let j of nums2) {
+
+                    if (i === j && (!result.includes(i))) {
+                        result.push(i);
+                    }
+                }
+            }
+
+            return result;
+
+        }
+        console.log(intersection([1, 2, 2, 1], [2, 2]));
+        // Output: [2]
+
+        console.log(intersection([4, 9, 5], [9, 4, 9, 8, 4]));
+        // Output: [4, 9]
+    }
+
+
+
+    {
+        // tc = 
+        // sc = 
+
+        function intersectionOpt(nums1, nums2) {
+
+            let set = new Set(nums1);
+            let result = new Array();
+
+            for (let element of nums2) {
+                if (set.has(element)) {
+                    result.push(element);
+                    set.delete(element);
+                }
+            }
+            return result;
+
+        }
+
+        console.log(intersectionOpt([1, 2, 2, 1], [2, 2]));
+        // Output: [2]
+
+        console.log(intersectionOpt([4, 9, 5], [9, 4, 9, 8, 4]));
+        // Output: [4, 9]
     }
 }
