@@ -3,6 +3,65 @@
 //  
 
 
+/**
+ *  introduction to array
+ *  -- What is an array
+ *  -- why is an array data structure required 
+ *  -- types of array
+ *  -- Creating an array
+ *  -- array methods 
+ *  
+ *  Introduction to string 
+ *  -- what is a string 
+ *  -- why is a string data required 
+ *  -- string declration 
+ *  -- string operations 
+ *  -- working with string 
+ *  
+ *  Real world application 
+*/
+
+
+
+/**
+ *  01. What is an array 
+ *  02. Types of an array 
+ *  03. One dimensional array 
+ *  04. two dimensional array 
+ *  05. Creating an array
+ *  06. array constructor
+ *  07. array literal
+ *  08. all methods & properties & iterator 
+ * 
+ *  09. push, pop, unshift, shift
+ *  10. adding element at higher index, concept - here - undefined things 
+ *  11. slice
+ *  12. splice
+ *  13. indexof, lastIndexof, inculdes
+ *  14. find
+ *  15. filter
+ *  16. map() + extra { .map vs Map}
+ *  17. reduce () --- very important 
+ *  18. concat
+ *  19. join
+ *  20. reverse
+ *  21. sort 
+ *  22. array with object --- important topics 
+ *  23. spread operators  --- important topics - used both for iteration & concatenation
+ *  24. Creating multi dimensional array
+ *  25. iterating over multi dimensional array 
+ *  26. for of
+ *  27. for in
+ *  28. 
+ * 
+ *  29. String introduction 
+ *  30. multi line string with + operator --- important 
+ *  31. String method , list 
+ *  32. String () - function in js
+ */
+
+
+
 
 
 
