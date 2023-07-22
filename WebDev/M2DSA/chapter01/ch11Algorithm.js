@@ -99,6 +99,8 @@
    Number.POSITIVE_INFINITY
    Number.NEGATIVE_INFINITY
 
+   Number.MIN_SAFE_INTEGER
+
 
 */
 
