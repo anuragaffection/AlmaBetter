@@ -865,9 +865,10 @@
 
 
     {
-        // tc = 
-        // sc = 
+        // Time complexity: O(n + m)
+        // sc = O ( n )
 
+        console.log("11. Intersection ")
         function intersectionOpt(nums1, nums2) {
 
             let set = new Set(nums1);
@@ -889,4 +890,15 @@
         console.log(intersectionOpt([4, 9, 5], [9, 4, 9, 8, 4]));
         // Output: [4, 9]
     }
+}
+
+
+
+
+// 12.
+{
+    {
+        
+    }
+
 }
