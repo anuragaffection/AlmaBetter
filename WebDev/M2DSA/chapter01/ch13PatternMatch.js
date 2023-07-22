@@ -4,14 +4,19 @@
 
 
 
+/**
+ *  example 01 to 45 --- are from FreeCodeCamp.org
+ * 
+*/
+
+
+
 
 
 // 01.
 // regex creation
-/* 
-  It define a search pattern that can be used to search for things in a string.
+//It define a search pattern that can be used to search for things in a string.
 
-*/
 let regex = /hello/;
 let regex1 = new RegExp("hello");
 
