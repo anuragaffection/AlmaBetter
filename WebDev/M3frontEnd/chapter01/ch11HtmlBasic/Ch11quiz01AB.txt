@@ -1,0 +1,237 @@
+<!-- 
+    
+    01 Which HTML tag is used to define the largest heading?
+
+       h2
+       h3
+       h4
+       h1
+
+
+
+
+
+
+    02. Which of the following is an example of metadata that can be included within the <head> tag?
+
+
+        Images
+        Text content
+        Stylesheets
+        Paragraphs
+
+
+
+
+
+    03. Which attribute is used to specify a tooltip or additional information about the image?
+
+
+        alt
+        src
+        title
+        data-info
+
+
+
+
+
+    04. What is the purpose of the <!DOCTYPE html> declaration in HTML?
+
+        It defines the document type as HTML5.
+
+        It specifies the character encoding of the document.
+
+        It indicates the language used in the document.
+
+        It provides a reference to an external CSS file.
+
+
+
+
+
+
+    05. How is the <section> tag different from the <div> tag?
+
+        The <section> tag is used for layout purposes, while the <div> tag is used for semantic divisions.
+
+        The <div> tag is used to group related content, while the <section> tag represents a standalone section of content.
+       
+        The <section> tag is a block-level element, while the <div> tag is an inline element.
+
+        The <div> tag is deprecated and should be avoided, while the <section> tag is the recommended choice.
+
+
+
+
+
+
+
+    06. Which of the following elements is an example of a block-level element in HTML?
+
+        <span>
+
+        <a>
+
+        <p>
+
+       <strong>
+
+
+
+
+
+
+
+    07. What does the alt attribute in the <img> tag provide?
+
+        Alternative text for the image
+
+        Image alignment options
+
+        Image width in pixels
+
+        Image caption or title
+
+
+
+
+
+    08. How many <body> tags can be used in a single HTML document?
+
+        Two
+
+        Multiple, but they should be nested within each other
+
+        Unlimited
+
+        Only one
+
+
+
+
+
+    09. Can multiple <head> tags be used in a single HTML document?
+
+        Yes, but it is not recommended.
+
+        No, it is not allowed.
+
+        Yes, as long as they have different attributes.
+
+        Yes, it is a common practice.
+
+
+
+
+
+
+    10. What happens if a web page lacks the <!DOCTYPE html> declaration?
+
+        The browser ignores the document's styling.
+
+        The page fails to load in the browser.
+
+        The page layout becomes distorted.
+
+        The browser uses a default document type.
+
+
+
+
+
+
+
+01.
+h1
+
+The <h1> tag is used to define the largest heading in HTML. It represents the main heading or title of a webpage and carries the highest level of importance in terms of headings.
+
+
+
+
+02.
+Stylesheets
+
+The <head> tag is the appropriate place to include various types of metadata related to the webpage, such as links to external stylesheets, which define the presentation and layout of the content on the page.
+
+
+
+
+03.
+title
+
+This answer is correct! The title attribute in the <img> tag is used to specify a tooltip or additional information about the image. When the user hovers over the image, the text provided in the title attribute is displayed as a tooltip.
+
+
+
+
+
+04.
+It defines the document type as HTML5.
+
+The <!DOCTYPE html> declaration is used to specify the document type as HTML5. It informs the browser about the version of HTML used in the document, allowing the browser to interpret and render the page correctly.
+
+
+
+
+05.
+The <div> tag is used to group related content, while the <section> tag represents a standalone section of content.
+
+While both the <div> and <section> tags can be used for grouping elements, the <section> tag has semantic meaning as it represents a standalone section of content that is thematically related. The <div> tag, on the other hand, is a generic container element without any specific semantic meaning.
+
+
+
+
+
+06.
+<p>
+
+Block-level elements in HTML are those that create a new block on the webpage and typically start on a new line. Examples of block-level elements include <p> (paragraph), <div> (division), <h1> to <h6> (headings), and <ul> (unordered list). In this case, <p> is the only block-level element among the given options.
+
+
+
+
+
+
+07.
+Alternative text for the image
+
+The alt attribute in the <img> tag is used to provide alternative text for the image. It serves as a textual description of the image, which is displayed when the image fails to load or for visuals.
+
+
+
+
+
+08.
+Only one
+
+In HTML, a web page should have only one <body> tag. It serves as the container for all the visible content and represents the main content area of the
+
+
+
+
+
+09.
+No, it is not allowed.
+
+This answer is incorrect! According to the HTML specification, there should only be one <head> tag in an HTML document. Using multiple <head> tags will result in invalid markup and may cause rendering issues.
+
+
+
+
+
+10.
+The browser uses a default document type.
+
+This answer is incorrect! If the <!DOCTYPE html> declaration is missing, modern browsers will use a default document type called "quirks mode" or "backward compatibility mode." This mode may cause inconsistencies in rendering and may not support modern HTML features properly. 
+
+
+
+-->
+
+
+
+
+
+
