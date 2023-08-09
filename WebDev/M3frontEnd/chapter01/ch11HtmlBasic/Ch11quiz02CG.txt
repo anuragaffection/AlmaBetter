@@ -1,0 +1,208 @@
+<!-- Interview Question from chatgpt 
+
+
+    
+1. What does HTML stand for?
+   a) HyperText Machine Language
+   b) HyperTool Markup Language
+   c) HyperText Markup Language
+   d) HighText Markup Language
+
+
+
+2. Which HTML tag is used to define an unordered list?
+   a) <ul>
+   b) <ol>
+   c) <li>
+   d) <list>
+
+
+
+3. What is the purpose of the "alt" attribute in the image tag?
+   a) To define the alignment of the image
+   b) To set the border color around the image
+   c) To specify the URL of the image
+   d) To provide alternative text for the image
+
+
+
+4. Which HTML tag is used to create a hyperlink?
+   a) <link>
+   b) <a>
+   c) <hyperlink>
+   d) <url>
+
+
+
+5. The HTML5 doctype is declared as:
+   a) <!DOCTYPE HTML5>
+   b) <!DOCTYPE html>
+   c) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML5.0//EN">
+   d) <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 5.0//EN">
+
+
+
+
+6. Which element is used to define the header of a document or a section?
+   a) <header>
+   b) <nav>
+   c) <section>
+   d) <h1>
+
+
+
+
+7. What is the correct HTML for creating a checkbox?
+   a) <input type="checkbox">
+   b) <check>
+   c) <input type="check">
+   d) <checkbox>
+
+
+
+
+8. Which attribute is used to specify the URL of the linked resource in the "link" tag?
+   a) href
+   b) link
+   c) src
+   d) url
+
+
+
+
+9. What is the purpose of the "span" tag in HTML?
+   a) To define a section of navigation links
+   b) To create a line break
+   c) To group inline elements for styling purposes
+   d) To define a section of header content
+
+
+
+
+10. Which HTML tag is used to define a table row?
+    a) <td>
+    b) <table>
+    c) <tr>
+    d) <th>
+
+
+
+11. The HTML entity "&nbsp;" represents:
+    a) A non-breaking space
+    b) An ampersand character
+    c) A less-than sign
+    d) A greater-than sign
+
+
+-->
+
+12. How can you create a comment in an HTML document?
+    a) <!-- This is a comment -->
+    b) // This is a comment //
+    c) ** This is a comment **
+    d) ** This is a comment **
+
+
+
+
+13. Which HTML attribute is used to specify the alternative text for an image?
+    a) alt
+    b) text
+    c) img-alt
+    d) description
+
+
+
+
+14. What is the correct HTML for creating a hyperlink that opens in a new tab/window?
+    a) <a href="url" target="_blank">Link</a>
+    b) <a href="url" target="new">Link</a>
+    c) <a href="url" new-window>Link</a>
+    d) <a href="url" target="new-tab">Link</a>
+
+
+
+
+15. The "fieldset" tag in HTML is used to:
+    a) Create a group of related checkboxes
+    b) Define a set of related form fields
+    c) Draw a border around an image
+    d) Set the title of a web page
+
+
+
+
+16. Which HTML element is used to define the main content of the document?
+    a) <main>
+    b) <body>
+    c) <section>
+    d) <content>
+
+
+
+    
+17. What is the purpose of the "em" tag in HTML?
+    a) To emphasize text
+    b) To create a line break
+    c) To define an external link
+    d) To add a horizontal rule
+
+
+
+
+18. Which attribute is used to specify the email address in the "a" tag for email links?
+    a) mail
+    b) href
+    c) email
+    d) mailto
+
+
+
+
+19. The "article" tag in HTML is used to:
+    a) Create a navigation menu
+    b) Define a self-contained piece of content that can be distributed independently
+    c) Add a video to the page
+    d) Define a list item
+
+
+
+
+20. Which HTML attribute is used to set a background image for an element?
+    a) background
+    b) img
+    c) style
+    d) bg-image
+
+
+
+
+
+
+
+
+
+Certainly! Here are the answers to the latest quiz:
+
+1. c) HyperText Markup Language
+2. a) <ul>
+3. d) To provide alternative text for the image
+4. b) <a>
+5. b) <!DOCTYPE html>
+6. a) <header>
+7. a) <input type="checkbox">
+8. a) href
+9. c) To group inline elements for styling purposes
+10. c) <tr>
+11. a) A non-breaking space
+12. a) <!-- This is a comment -->
+13. a) alt
+14. a) <a href="url" target="_blank">Link</a>
+15. b) Define a set of related form fields
+16. a) <main>
+17. a) To emphasize text
+18. d) mailto
+19. b) Define a self-contained piece of content that can be distributed independently
+20. a) background
+
+
