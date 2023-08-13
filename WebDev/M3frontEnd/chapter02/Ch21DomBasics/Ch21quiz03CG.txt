@@ -1,0 +1,43 @@
+Some More Questions
+
+
+1. What is the Document Object Model (DOM)?
+
+2. How does the DOM represent HTML/XML documents?
+
+3. Explain the difference between the DOM and HTML source code.
+
+4. What are DOM nodes?
+
+5. What is the purpose of the `document` object in the DOM?
+
+6. How can you select elements using CSS selectors in the DOM?
+
+7. What is the significance of the `getElementById` method in the DOM?
+
+8. How can you access and modify attributes using the DOM?
+
+9. Describe the concept of parent and child nodes in the DOM hierarchy.
+
+10. How would you traverse the DOM tree using JavaScript?
+
+11. What is event delegation in the context of the DOM?
+
+12. Explain how you can dynamically create elements using the DOM.
+
+13. What is the purpose of the `innerHTML` property, and what are its potential security risks?
+
+14. How can you attach event listeners to DOM elements?
+
+15. What is the difference between `textContent` and `innerHTML`?
+
+16. How can you manipulate the CSS styles of DOM elements?
+
+17. Explain the concept of reflow and repaint in the context of DOM updates.
+
+18. What is the purpose of the `querySelector` method in the DOM?
+
+19. How does asynchronous loading of scripts affect the DOM?
+
+20. Describe the difference between the DOMContentLoaded and load events.
+
