@@ -1,0 +1,223 @@
+01.
+What is the correct way to remove an attribute from an element using the DOM?
+
+removeAttribute
+
+deleteAttribute
+
+removeElementAttribute
+
+deleteElementAttribute
+
+
+
+
+
+
+
+
+
+02.
+Which of the following is the correct way to add multiple inline styles to a DOM element?
+
+element.style="color: red; background:
+
+blue; font-size: 16px;"; element.style.add("color: red; background:
+
+blue; font-size: 16px;");
+
+element.style.cssText = "color: red; background: blue; font-size: 16px;";
+
+element.style.set("color: red; background: blue; font-size: 16px;");
+
+
+
+
+
+
+
+03.
+What happens if you assign an invalid CSS property to element.style?
+
+The invalid property is ignored.
+
+An error is thrown.
+
+The style attribute of the element is
+
+cleared.
+
+The CSS is applied, but it has no effect on the element.
+
+
+
+
+
+
+
+04.
+What is the difference between textContent and innerHTML?
+
+textContent can only be used for adding plain text, while innerHTML can handle HTML content.
+
+textContent automatically escapes HTML entities, while innerHTML does not.
+
+textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
+
+There is no difference; both textContent and innerHTML perform the same task.
+
+
+
+
+
+
+
+05.
+Which DOM method is used to add a child element to a parent element?
+
+createElement()
+
+appendChild()
+
+removeChild()
+
+replaceChild()
+
+
+
+
+
+06.
+How can you add an inline style to a DOM element using JavaScript?
+
+element.style.css = "color: red";
+
+element.style("color", "red");
+
+element.style.color = "red";
+
+element.style.addStyle("color: red");
+
+
+
+
+
+
+07.
+How can you remove an inline style from a DOM element using JavaScript?
+
+element.style.removeStyle("color");
+
+element.style.unset("color");
+
+element.style.clearStyle("color");
+
+element.style.removeProperty("color");
+
+
+
+
+
+
+
+08.
+What does DOM stand for?
+
+Document Object Model
+
+Data Object Model
+
+Dynamic Object Model
+
+Document Oriented Model
+
+
+
+
+
+
+09.
+Which JavaScript method is used to add inline styles to a DOM element?
+
+element.setInlineStyle
+
+element.style
+
+element.addStyle
+
+element.setStyles
+
+
+
+
+
+
+10.
+Which method is used to access an element by its unique ID?
+
+getElementById()
+
+getElementsByClassName()
+
+getElementsByTagName()
+
+querySelector()
+
+
+
+
+
+
+
+
+
+
+01.
+removeAttribute
+
+
+
+02. 
+element.style.cssText = "color: red; background: blue; font-size: 16px;";
+
+
+
+03.
+The invalid property is ignored.
+
+
+
+04.
+textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup
+
+
+
+
+05 
+appendChild()
+
+
+
+06.
+element.style.color = "red";
+
+
+
+07.
+element.style.removeProperty("colo r");
+
+
+
+08 
+Document Object Model
+
+
+
+09 
+element.style
+
+
+
+10.
+getElementById()
+
