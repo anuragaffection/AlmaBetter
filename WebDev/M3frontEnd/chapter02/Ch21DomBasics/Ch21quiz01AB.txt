@@ -1,223 +1,158 @@
-01.
-What is the correct way to remove an attribute from an element using the DOM?
 
-removeAttribute
 
-deleteAttribute
 
-removeElementAttribute
 
-deleteElementAttribute
+01. What is the correct way to remove an attribute from an element using the DOM?
+   a. removeAttribute
+   b. deleteAttribute
+   c. removeElementAttribute
+   d. deleteElementAttribute
 
 
 
 
 
 
+02. Which of the following is the correct way to add multiple inline styles to a DOM element?
+   a. element.style="color: red; background: blue; font-size: 16px;";
+   b. element.style.add("color: red; background: blue; font-size: 16px;");
+   c. element.style.cssText = "color: red; background: blue; font-size: 16px;";
+   d. element.style.set("color: red; background: blue; font-size: 16px;");
 
 
 
-02.
-Which of the following is the correct way to add multiple inline styles to a DOM element?
 
-element.style="color: red; background:
 
-blue; font-size: 16px;"; element.style.add("color: red; background:
 
-blue; font-size: 16px;");
+03. What happens if you assign an invalid CSS property to element.style?
+   a. The invalid property is ignored.
+   b. An error is thrown.
+   c. The style attribute of the element is cleared.
+   d. The CSS is applied, but it has no effect on the element.
 
-element.style.cssText = "color: red; background: blue; font-size: 16px;";
 
-element.style.set("color: red; background: blue; font-size: 16px;");
 
 
 
 
+04. What is the difference between textContent and innerHTML?
+   a. textContent can only be used for adding plain text, while innerHTML can handle HTML content.
+   b. textContent automatically escapes HTML entities, while innerHTML does not.
+   c. textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
+   d. There is no difference; both textContent and innerHTML perform the same task.
 
 
 
-03.
-What happens if you assign an invalid CSS property to element.style?
 
-The invalid property is ignored.
 
-An error is thrown.
 
-The style attribute of the element is
+05. Which DOM method is used to add a child element to a parent element?
+   a. createElement()
+   b. appendChild()
+   c. removeChild()
+   d. replaceChild()
 
-cleared.
 
-The CSS is applied, but it has no effect on the element.
 
 
 
 
+06. How can you add an inline style to a DOM element using JavaScript?
+   a. element.style.css = "color: red";
+   b. element.style("color", "red");
+   c. element.style.color = "red";
+   d. element.style.addStyle("color: red");
 
 
 
-04.
-What is the difference between textContent and innerHTML?
 
-textContent can only be used for adding plain text, while innerHTML can handle HTML content.
 
-textContent automatically escapes HTML entities, while innerHTML does not.
 
-textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
+07. How can you remove an inline style from a DOM element using JavaScript?
+   a. element.style.removeStyle("color");
+   b. element.style.unset("color");
+   c. element.style.clearStyle("color");
+   d. element.style.removeProperty("color");
 
-There is no difference; both textContent and innerHTML perform the same task.
 
 
 
 
 
+08. What does DOM stand for?
+   a. Document Object Model
+   b. Data Object Model
+   c. Dynamic Object Model
+   d. Document Oriented Model
 
 
-05.
-Which DOM method is used to add a child element to a parent element?
 
-createElement()
 
-appendChild()
 
-removeChild()
 
-replaceChild()
+09. Which JavaScript method is used to add inline styles to a DOM element?
+   a. element.setInlineStyle
+   b. element.style
+   c. element.addStyle
+   d. element.setStyles
 
 
 
 
 
-06.
-How can you add an inline style to a DOM element using JavaScript?
 
-element.style.css = "color: red";
+10. Which method is used to access an element by its unique ID?
+    a. getElementById()
+    b. getElementsByClassName()
+    c. getElementsByTagName()
+    d. querySelector()
 
-element.style("color", "red");
 
-element.style.color = "red";
 
-element.style.addStyle("color: red");
 
 
 
 
 
 
-07.
-How can you remove an inline style from a DOM element using JavaScript?
 
-element.style.removeStyle("color");
+01. What is the correct way to remove an attribute from an element using the DOM?
+   Answer: a. removeAttribute
 
-element.style.unset("color");
+02. Which of the following is the correct way to add multiple inline styles to a DOM element?
+   Answer: c. element.style.cssText = "color: red; background: blue; font-size: 16px;";
 
-element.style.clearStyle("color");
+03. What happens if you assign an invalid CSS property to element.style?
+   Answer: a. The invalid property is ignored.
 
-element.style.removeProperty("color");
+04. What is the difference between textContent and innerHTML?
+   Answer: c. textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
 
+05. Which DOM method is used to add a child element to a parent element?
+   Answer: b. appendChild()
 
+06. How can you add an inline style to a DOM element using JavaScript?
+   Answer: c. element.style.color = "red";
 
+07. How can you remove an inline style from a DOM element using JavaScript?
+   Answer: d. element.style.removeProperty("color");
 
+08. What does DOM stand for?
+   Answer: a. Document Object Model
 
+09. Which JavaScript method is used to add inline styles to a DOM element?
+   Answer: b. element.style
 
+10. Which method is used to access an element by its unique ID?
+    Answer: a. getElementById()
 
-08.
-What does DOM stand for?
 
-Document Object Model
 
-Data Object Model
 
-Dynamic Object Model
 
-Document Oriented Model
 
 
 
 
 
-
-09.
-Which JavaScript method is used to add inline styles to a DOM element?
-
-element.setInlineStyle
-
-element.style
-
-element.addStyle
-
-element.setStyles
-
-
-
-
-
-
-10.
-Which method is used to access an element by its unique ID?
-
-getElementById()
-
-getElementsByClassName()
-
-getElementsByTagName()
-
-querySelector()
-
-
-
-
-
-
-
-
-
-
-01.
-removeAttribute
-
-
-
-02. 
-element.style.cssText = "color: red; background: blue; font-size: 16px;";
-
-
-
-03.
-The invalid property is ignored.
-
-
-
-04.
-textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup
-
-
-
-
-05 
-appendChild()
-
-
-
-06.
-element.style.color = "red";
-
-
-
-07.
-element.style.removeProperty("colo r");
-
-
-
-08 
-Document Object Model
-
-
-
-09 
-element.style
-
-
-
-10.
-getElementById()
 
