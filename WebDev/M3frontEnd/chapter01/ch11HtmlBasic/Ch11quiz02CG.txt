@@ -1,12 +1,17 @@
-<!-- Interview Question from chatgpt 
+<!-- Interview Question (MCQ)
 
 
     
+
+
 1. What does HTML stand for?
    a) HyperText Machine Language
    b) HyperTool Markup Language
    c) HyperText Markup Language
    d) HighText Markup Language
+
+
+
 
 
 
@@ -18,11 +23,17 @@
 
 
 
+
+
+
 3. What is the purpose of the "alt" attribute in the image tag?
    a) To define the alignment of the image
    b) To set the border color around the image
    c) To specify the URL of the image
    d) To provide alternative text for the image
+
+
+
 
 
 
@@ -34,11 +45,17 @@
 
 
 
+
+
+
 5. The HTML5 doctype is declared as:
    a) <!DOCTYPE HTML5>
    b) <!DOCTYPE html>
    c) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML5.0//EN">
    d) <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 5.0//EN">
+
+
+
 
 
 
@@ -52,11 +69,17 @@
 
 
 
+
+
+
 7. What is the correct HTML for creating a checkbox?
    a) <input type="checkbox">
    b) <check>
    c) <input type="check">
    d) <checkbox>
+
+
+
 
 
 
@@ -70,11 +93,17 @@
 
 
 
+
+
+
 9. What is the purpose of the "span" tag in HTML?
    a) To define a section of navigation links
    b) To create a line break
    c) To group inline elements for styling purposes
    d) To define a section of header content
+
+
+
 
 
 
@@ -87,6 +116,9 @@
 
 
 
+
+
+
 11. The HTML entity "&nbsp;" represents:
     a) A non-breaking space
     b) An ampersand character
@@ -94,13 +126,18 @@
     d) A greater-than sign
 
 
--->
+
+
+
 
 12. How can you create a comment in an HTML document?
     a) <!-- This is a comment -->
     b) // This is a comment //
     c) ** This is a comment **
     d) ** This is a comment **
+
+
+
 
 
 
@@ -114,11 +151,17 @@
 
 
 
+
+
+
 14. What is the correct HTML for creating a hyperlink that opens in a new tab/window?
     a) <a href="url" target="_blank">Link</a>
     b) <a href="url" target="new">Link</a>
     c) <a href="url" new-window>Link</a>
     d) <a href="url" target="new-tab">Link</a>
+
+
+
 
 
 
@@ -132,11 +175,17 @@
 
 
 
+
+
+
 16. Which HTML element is used to define the main content of the document?
     a) <main>
     b) <body>
     c) <section>
     d) <content>
+
+
+
 
 
 
@@ -150,6 +199,9 @@
 
 
 
+
+
+
 18. Which attribute is used to specify the email address in the "a" tag for email links?
     a) mail
     b) href
@@ -159,11 +211,17 @@
 
 
 
+
+
+
 19. The "article" tag in HTML is used to:
     a) Create a navigation menu
     b) Define a self-contained piece of content that can be distributed independently
     c) Add a video to the page
     d) Define a list item
+
+
+
 
 
 
