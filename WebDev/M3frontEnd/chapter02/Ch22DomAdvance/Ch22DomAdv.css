@@ -1,0 +1,47 @@
+#outer,
+#middle,
+#inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#outer {
+  width: 200px;
+  background-color: lightgray;
+}
+
+#middle {
+  height: 150px;
+  width: 150px;
+  background-color: lightblue;
+}
+
+#inner {
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+}
+
+
+
+
+
+.container {
+  margin: 50px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin-bottom: 10px;
+}
