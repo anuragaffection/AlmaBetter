@@ -1,0 +1,153 @@
+<!-- DTD (Document Type Definition). -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Advance </title>
+    <link rel="stylesheet" href="Ch22DomAdv.css">
+    <script src="Ch22DomAdv.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li> 01. Introduction to Dom in depth </li>
+                <li> 02. Node Types
+                    <ul>
+                        <li>a. Comment node </li>
+                    </ul>
+                </li>
+
+                <li> 03. Dom Events
+                    <ul>
+                        <li>a. event types </li>
+                        <li>b. event listeners</li>
+                        <li>c. Event Propagation</li>
+                        <li>d. even object </li>
+                        <li>e. event preventDefault</li>
+                        <li>f. event delegation</li>
+                    </ul>
+                </li>
+
+                <li> 04. Cross Browser Compatiblity </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+
+        <div>
+            01. Introduction to DOM in depth
+        </div>
+
+
+
+        <div>
+            02. Node Type
+
+            <div id="comment_parent">
+                02 a) comment nodes
+
+                <!-- this is comment first  -->
+                <!-- this is comment second -->
+                <!-- this is comment third -->
+            </div>
+
+        </div>
+
+
+
+        <div>
+            <!-- Practical Implementation 01 -->
+            <div>
+                <h1 id="title">Welcome to the Node Types Example</h1>
+                <p>This is a <strong>paragraph</strong> element.</p>
+                <!-- This is a comment node -->
+
+            </div>
+        </div>
+
+
+
+        <button id="myBtn1" class="btn">Button 01 </button>
+        <button id="myBtn2" class="btn">Button 02 </button>
+
+        <button id="myBtnRemove" class="btn">Remove Button </button>
+
+
+
+        <div id="outer">
+            <div id="middle">
+                <div id="inner">Click me!</div>
+            </div>
+        </div>
+
+
+
+
+        <!-- practical implementation 2 -->
+
+        <div class="container">
+            practical implementation 02
+            <div class="box" id="box1">Box 1</div>
+            <div class="box" id="box2">Box 2</div>
+            <div class="box" id="box3">Box 3</div>
+        </div>
+
+
+
+
+        <!-- event delegation  -->
+        <ul id="list_parent">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+
+
+
+
+        <!-- practical implementation 03  -->
+
+        <h1>Shopping List</h1>
+
+        <ul id="shopping-list">
+            <li>Bread</li>
+            <li>Eggs</li>
+            <li>Milk</li>
+        </ul>
+
+        <form id="add-item-form">
+            <input type="text" id="new-item-input" placeholder="Enter item">
+            <button type="submit">Add</button>
+        </form>
+
+
+        
+
+        <!-- cross browser compatibility  -->
+
+        <h1>Sample Page</h1>
+        <button id="myButton">Click Me!</button>
+
+
+
+
+        <p>Click the link below:</p>
+        <a href="https://www.example.com" id="myLink">Visit Example.com</a>
+
+    </main>
+
+</body>
+
+</html>
