@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 02</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <h1>Event Handling with Jquery</h1>
+
+    <button id="btnToggle">Toggle Boxes </button>
+
+    <div class="box">Box </div>
+    <div class="box">Box </div>
+    <div class="box">Box</div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#btnToggle").click(() => {
+                $(".box").toggle('slow');
+
+            });
+
+
+            $('.box').mouseenter(function () {
+                $(this).animate({ backgroundColor: 'blue' }, 'fast');
+            }).mouseleave(function () {
+                $(this).animate({ backgroundColor: 'red' }, 'fast');
+            })
+
+        })
+    </script>
+
+
+</body>
+
+</html>
