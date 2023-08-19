@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First API Calling </title>
+
+    <style>
+
+        h1{
+            margin: 20px;
+        }
+
+        button{
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: black;
+            color: aqua;
+        }
+        div{
+            background-color: aqua;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>First API Calling </h1>
+
+    <button id="loadDataBtn">Load Data</button>
+    <div id="dataContainer">Here Data will be Updated </div>
+
+
+
+    <script>
+
+        // after document is ready 
+        $(document).ready(() => {
+
+
+            // clicking the button 
+            $('#loadDataBtn').click(() => {
+
+                // after clicking button 
+                // making api request
+                $.ajax({
+
+                    url: 'https://dummyjson.com/products',
+                    method: 'GET',
+                    dataType: 'json',
+
+                    success: (response) => {
+                        myDiplayResponse(response);
+                    },
+
+                    error: (xhr, status, error) => {
+
+                        console.log(xhr);
+                        console.log(status)
+                        console.log(error);
+
+                        console.log(xhr.status);
+
+                        myDisplayError(xhr, status, error);
+                        $('#dataContainer').html('Error loading data.');
+
+                    }
+
+                });
+
+            });
+
+
+            function myDiplayResponse(response) {
+
+                $('#dataContainer').empty(); // clearing previous data
+
+                let products = response.products;
+
+                $.each(products, function (title, price) {
+
+
+                    let paraTitlePrice = $('<p>')
+                    paraTitlePrice.text(`title : ${this.title}  &  price : ${this.price}$`);
+
+                    $('#dataContainer').append(paraTitlePrice);
+
+
+                });
+
+
+
+
+                /*
+                  .  dot          = when object 
+                  [] brackets     = when array 
+                  {} curly braces = when json
+
+                */
+
+
+                /*
+
+                   very important 
+
+                   also note -
+
+                   products    =  coming from api calling 
+                   products[0] = coming form api calling 
+
+
+                   console.log(response);                // getting whole  response       
+                   console.log(response.products);       // products -> response  
+                   console.log(response.products[0]);    // firstItem -> products -> response
+
+                */
+
+            }
+
+
+            
+
+        
+
+            function myDisplayError(xhr, status, error) {
+
+                $('#dataContainer').empty();
+
+                let paraError = $('<p>');
+
+                paraError.text(`xhr : ${JSON.stringify(xhr)} status : ${xhr.status} Eror message : ${error}`);
+
+                $('#datContainer').append(paraError);
+
+            }
+
+            
+
+
+
+        })
+    </script>
+
+
+</body>
+
+</html>
