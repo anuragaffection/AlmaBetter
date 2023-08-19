@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Jquery</title>
+
+    <script>
+        // callback anonymous function 
+        // this code will start, when document is fully ready or loaded 
+        $(document).ready(function () {
+
+
+            // introduction to jquery 
+
+
+            $('h1').text("Namaster World, Welcome to Jquery Session"); // setting the text using .text("passing some value as string")
+
+            let content = $('h1').text(); // getting the text using .text()
+            console.log(content);
+
+
+
+
+
+            var myElement = $('#myElement'); // selecting 
+
+            var myElementHtml = myElement.html(); // getting value using .html 
+            console.log(myElementHtml); // printing value = This is paragraph
+
+            // added within the myElement (like nesting or child );
+            // note = also removed myElemnt text 
+            myElement.html('<li> This is new list added using .html </li>');
+
+
+            myElement.append('<li> This is new list added using .append </li>');
+            myElement.prepend('<li> This is new list added using .prepend </li>');
+            myElement.after('<span> This is new added using .after </span>');
+            myElement.before('<span> This is added using .before </span>');
+
+
+
+
+
+            // mdifying element attribute 
+            myElement.attr('class', "myClass"); // setting attribute 
+            console.log(myElement.attr('class')); // getting attribute 
+
+
+            $('img').attr('alt', 'newImage.jpg'); // for image tag we have to direct set attribute 
+
+            let img = $('img');
+            img.removeAttr('imageId'); // removing attribute 
+
+
+            $('input[type="checkbox"]').prop('checked', true); // we are selecting the checkbox , from here
+
+
+            $('#myName').val("Welcome"); // problem == 
+            $('input[type="text"]').val('John Doe');
+
+
+
+
+            $('button').click(function (event) {
+                console.log(event.type);
+                console.log(event.target);
+                $(this).addClass('active').text('Clicked');
+            })
+
+
+
+
+            // jquery effect 
+            $('#animate').animate({
+                width: '200px',
+                height: '300px',
+                opacity: 0.7
+            }, 5000);
+
+
+
+            // fadeOut = slowly disappering 
+            $('#fadeIn').fadeIn(7000); // takling time as parameter 
+            $('p').fadeOut(5500); // taking time as parameters 
+
+
+
+
+            $('#slideUp').slideUp(2500);
+            $('#slideDonw').slideDown(3000);
+            $('#slideToggle').slideToggle(2800);
+
+
+            $('div').delay(1000).fadeOut(500).delay(500).fadeIn(500);
+            $('p').slideUp(500).delay(1000).slideDown(500);
+
+
+
+
+
+
+
+            // Ajax introduction with jquery 
+
+            // method request = GET, POST, PUT, DELETE, getJSON
+
+            // dataType = in which format our data is at server = like Json, html, xml, plain text, 
+
+
+            // success = we get response = response include everthing, we get from api calling 
+
+            // error = we get xhr, statuscode, errorType = this happens when we did not get data form api calling
+
+
+            $.ajax({
+                url: '<https://api.example.com/data>',
+                method: 'GET',
+                dataType: 'json',
+                success: function (response) {
+                    // Handle the response
+                },
+                error: function (xhr, status, error) {
+                    // Handle error
+                }
+            });
+
+
+            $.get({
+                url: '<https://api.example.com/data>',
+                method: 'GET',
+                dataType: 'json',
+                success: function (response) {
+                    // Handle the response
+                },
+                error: function (xhr, status, error) {
+                    // Handle error
+                }
+            });
+
+
+
+            $.post({
+                url: '<https://api.example.com/data>',
+                method: 'POST',
+                dataType: 'json',
+                success: function (response) {
+                    // Handle the response
+                },
+                error: function (xhr, status, error) { 
+                    // xhr    = xmlHttpRequest , 
+                    // status = status code of error , 
+                    // error  = error message
+
+                    
+                    // Handle error
+                }
+            });
+
+
+            $.getJSON({
+                url: '<https://api.example.com/data>', // request url
+                method: 'GET', // request method 
+                data: { userId: '56', test: '89' }, // sending data 
+                header: { 'Authorization': "bearer my token" }, // also to send data 
+                dataType: 'json',
+
+                success: function (response) { // on success, we get reponse 
+                    // without stringify = it returning object into = object[object]
+                    // stringify = converting to string 
+                    console(JSON.stringify(response)); // getting the response, converting , then alert
+                    // Handle the case
+                    $('#result').text("data loaded");
+                },
+                error: function (xhr, status, error) { /// on error, we get xhr, status code, error type 
+                    // Handle error
+                    console.log(xhr); // xhr = xml Https Request 
+                    console(xhr);
+                    console(JSON.stringify(xhr)); // by default type of xhr, will be object, we use .stringify to convert to string form object 
+
+                    if (xhr.status == 404) {
+                        $("#result").text("<h1>Page not found</h1>");
+                    }
+
+                    $('#result').text("data not laoded & error is = " + error);
+                }
+            });
+
+
+
+            // we have method 
+            // this is just to mention what is happening 
+            // generally used as comments 
+            // GET, POST, PUT, DELETE
+
+
+
+
+            // another way to do the same work as above 
+            // this syntax is similar to promises 
+            $.ajax('<https://api.example.com/data>')
+                .done(function (response) {
+                    // Handle the response
+                })
+                .fail(function (xhr, status, error) {
+                    // Handle error
+                    $('#result1').text("error is = " + error);
+                });
+
+
+
+
+
+
+            // let content1 = $('p').text("Updated through jquery ");
+            // console.log(content1);
+
+            // let para = $('#myPara');
+
+            // para.addClass('myClass');
+
+
+            //  $('myDiv').append('<p> this is para appned </p>');
+
+        });
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <!-- 
+        <li>AJAX   = Asynchronous javascript and XML</li>
+        <li>quirks = </li>
+        <li>Jquery = javascript library</li>
+        <li>Ajax    = a technique to send & receive data </li> 
+    -->
+
+
+
+
+    <ul>
+        Introduction to Jquery
+        <h1>Hello World, Welcome to Jquery .</h1>
+        <p id="myElement">This is Paragraph </p>
+    </ul>
+
+    <img src="/Images/anuragaffection.jpg" id="imageId" width="100px" height="100px">
+
+
+
+    <form action="">
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="myName">
+
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+    </form>
+
+
+
+
+    <button>Click Here </button>
+
+
+
+
+    <!-- jquery effects  -->
+    <div id="animate" style="background-color: yellow;">Hello World</div>
+
+    <div id="fadeIn" style="background-color: aqua;">fadeIn</div>
+
+
+    <button id="slideUp">Slide Up Button</button>
+    <button id="slideDown">Slide Down Button</button>
+    <button id="slideToggle">Slide Toggle Button </button>
+
+
+
+
+
+
+
+    <div id="result">Result</div>
+    <div id="result1">Result 1</div>
+
+
+
+
+</body>
+
+</html>
