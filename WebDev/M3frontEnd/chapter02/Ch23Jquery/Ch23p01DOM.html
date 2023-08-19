@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01 DOM </title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('h1').text('Updated Heading, Welcome to jQuery');
+
+            $('li:first').text("Updated list item first ");
+
+            $('#content').addClass('highlight');
+
+
+            $('#changeBtn').click(function(){
+                $('p').text("you changed the paragraph content by clicking button");
+            })
+
+
+            $('#addNewBtn').click(function(){
+                var newList = $('<li>this is new List </li>');
+                $('ul').append(newList);
+            })
+
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Welcome to jquery DOM manipulation example</h1>
+
+    <div id="content">
+        <p>This is some text inside the pararaph element </p>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+
+    <button id="changeBtn">Change Button </button>
+    <button id="addNewBtn">Add New Button </button>
+
+</body>
+
+</html>
