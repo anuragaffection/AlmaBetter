@@ -1,0 +1,12 @@
+
+
+LeetCode Rules
+
+01. Multiple Solution are available afer the gap of 12 lines 
+02. Solution are in Javascript & Java.
+
+
+
+Java Solution Rules
+01. The main class is not according to my files, the class is taken from LeetCode "class Solution".
+03. so, if you are trying this java code, other than LeetCode Platform. Check the main class.
