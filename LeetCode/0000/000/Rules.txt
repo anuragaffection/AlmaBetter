@@ -10,3 +10,9 @@ LeetCode Rules
 Java Solution Rules
 01. The main class is not according to my files, the class is taken from LeetCode "class Solution".
 03. so, if you are trying this java code, other than LeetCode Platform. Check the main class.
+
+
+
+
+Some points to rememeber 
+01. Do not retur , if we are doing in place modification = LeetCode 48
