@@ -1,0 +1,125 @@
+
+
+
+
+
+
+1. **Q: How is Tailwind CSS typically installed in a project?**
+   - A) Using the `npm install tailwind` command.
+   - B) By including the Tailwind CSS CDN in the HTML.
+   - C) Through a package manager like npm or yarn.
+   - D) By downloading and linking the Tailwind CSS stylesheet directly.
+
+
+
+
+
+
+2. **Q: What is the purpose of the `tailwind.config.js` file in a Tailwind CSS project?**
+   - A) It holds the HTML structure for the project.
+   - B) It defines breakpoints for responsive design.
+   - C) It is used to configure various settings for Tailwind CSS.
+   - D) It contains pre-designed templates for quick development.
+
+
+
+
+
+
+3. **Q: In Tailwind CSS, what is the difference between development and production modes?**
+   - A) Development mode generates a smaller CSS file.
+   - B) Production mode generates a larger CSS file.
+   - C) Development mode includes all utility classes.
+   - D) Production mode purges unused styles for a smaller CSS file.
+
+
+
+
+
+
+
+4. **Q: What does the `.container` class provide in Tailwind CSS?**
+   - A) A class for creating responsive typography.
+   - B) A class for creating colorful containers.
+   - C) A centered content container with adjustable max-width.
+   - D) A class for applying custom CSS properties.
+
+
+
+
+
+
+
+5. **Q: How can you customize the maximum width of the `.container` class for different screen sizes?**
+   - A) By adjusting the global `max-width` property.
+   - B) By using the `.container-max-{size}` class.
+   - C) By modifying the `screens` property in `tailwind.config.js`.
+   - D) By using the `w-{size}` class.
+
+
+
+
+
+
+
+6. **Q: How can you create custom breakpoints in Tailwind CSS?**
+   - A) By modifying the `mediaQueries` property in `tailwind.config.js`.
+   - B) By adding new classes in the HTML for each breakpoint.
+   - C) By editing the `breakpoints` array in `tailwind.config.js`.
+   - D) Custom breakpoints are not supported in Tailwind CSS.
+
+
+
+
+
+
+
+
+7. **Q: What is the default `box-sizing` value in Tailwind CSS?**
+   - A) `content-box`
+   - B) `border-box`
+   - C) `padding-box`
+   - D) `margin-box`
+
+
+
+
+
+
+
+8. **Q: How can you change the `box-sizing` property to `border-box` for an element in Tailwind CSS?**
+   - A) By using the `.box-border` class.
+   - B) By adding `box-sizing: border-box` to the HTML.
+   - C) By using the `.box-content` class.
+   - D) `box-sizing` cannot be changed in Tailwind CSS.
+
+
+
+
+
+
+
+9. **Q: Which classes can you use to add a border to an element in Tailwind CSS?**
+   - A) `.border-solid`
+   - B) `.border-add`
+   - C) `.bordered`
+   - D) `.border`
+
+
+
+
+
+
+
+
+ 
+1. C) Through a package manager like npm or yarn.
+2. C) It is used to configure various settings for Tailwind CSS.
+3. D) Production mode purges unused styles for a smaller CSS file.
+4. C) A centered content container with adjustable max-width.
+5. C) By modifying the `screens` property in `tailwind.config.js`.
+6. C) By editing the `breakpoints` array in `tailwind.config.js`.
+7. B) `border-box`
+8. A) By using the `.box-border` class.
+9. D) `.border`
+
