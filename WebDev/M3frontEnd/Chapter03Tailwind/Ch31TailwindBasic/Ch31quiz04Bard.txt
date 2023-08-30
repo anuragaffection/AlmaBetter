@@ -1,0 +1,42 @@
+What is Tailwind CSS?
+What are the benefits of using Tailwind CSS?
+What are the drawbacks of using Tailwind CSS?
+
+
+How to install and set up Tailwind CSS in a project?
+How to customize the configuration file in Tailwind CSS?
+How to use responsive variants in Tailwind CSS?
+
+
+How to style elements based on state (e.g., hover, focus) in Tailwind CSS?
+How to extend Tailwind CSS with custom utilities?
+How to use Tailwind CSS with a CSS preprocessor like Sass or Less?
+
+
+How to enable dark mode in Tailwind CSS?
+How to use pseudo-elements like ::before and ::after in Tailwind CSS?
+How to use Tailwind CSS with JavaScript frameworks like React or Vue?
+
+
+How to use CSS Grid with Tailwind CSS?
+How to create a flexbox layout with Tailwind CSS?
+How to create a fixed or sticky header with Tailwind CSS?
+
+
+How to create horizontal and vertical spacing between elements with Tailwind CSS?
+How to create a responsive navigation bar with Tailwind CSS?
+How to create a card component with Tailwind CSS?
+
+
+How to use CSS animations with Tailwind CSS?
+How to create a tooltip with Tailwind CSS?
+Here are some additional questions that you may be asked:
+
+
+What are the different types of Tailwind CSS utilities?
+How to use the Tailwind CSS documentation?
+How to debug Tailwind CSS errors?
+
+
+What are the best practices for using Tailwind CSS?
+What are the limitations of Tailwind CSS?
