@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Basic</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .myClass {
+            color: blue;
+            background-image: url(/Images/anuragaffection.jpg);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- text-green-550 == this is shades of that color  -->
+
+
+    <!--  xl === representing size  -->
+    <!--  p  === padding  -->
+    <!--  m  === margin  -->
+    <!--  md === medium screen -->
+
+
+
+    <ul class="p-2 m-3">
+
+
+        <li>01. intro
+            <!-- 
+                sm:text-lg  = 
+                lg:flex.    = 
+            -->
+        </li>
+
+
+        <li>02. setup</li>
+
+
+        <li>03. container & break points </li>
+
+
+        <li>04. box sizing
+
+            <!--  
+
+                recalling original css box - sizing property  
+
+                content-box = content area is taken
+                padding-box = content area + padding area is taken        
+                border-box = content area + padding area + border area is taken
+
+            -->
+        </li>
+
+
+        <li>05. width & height
+            <!--  
+                
+                min-w-0, 
+                max-w-xs, 
+                min-w-screen
+
+                min-h-0, 
+                max-h-xs, 
+                min-h-screen,
+                
+                
+                w-full   = full width
+                w-screen = whole screen
+                h-auto   = auto height
+
+
+                Arbitrary Value: 
+                User can set an arbitrary value (px, vh, em, rem) for 
+                both Height and Width in tailwind. 
+                
+                The format for using an arbitrary value is h-[20px] or w-[40vh].
+            -->
+
+        </li>
+
+
+        <li>06. border </li>
+
+
+        <li>07. column</li>
+
+
+        <li>08. background property </li>
+
+
+        <li>09. padding & margin </li>
+
+
+        <li>10. text property</li>
+    </ul>
+
+    <h1 class="text-green-550 text-xl p-2">Welcome to Tailwind Css</h1>
+
+    <h1 class=" myClass text-ellipsis p-2">Namastey Tailwind Css</h1>
+
+
+
+
+    <!-- mx = margin in x axis  -->
+    <!-- container =   -->
+    <!-- both margin & container =  applied to medium size screen or above that  -->
+    <!-- below the medium , there will be no margin as, we are not mentioning that  -->
+
+    <div class="md:container md:mx-auto">This is container </div>
+
+
+
+    <!-- compare both the bootstrap and tailwind size  -->
+    <!-- like md, xl, 2xl -->
+
+
+
+    <!-- for all screen padding top will be 3, but for screen above md, padding will be 10 -->
+    <div class="pt-3 md:pt-10 bg-gray-600">Here Below md screen size i.e 768px </div>
+
+
+
+    <!-- w = width  -->
+    <!-- h = height  -->
+    <!-- 
+        w-full
+        h-full
+     -->
+    <!-- exlore more on width & height -->
+    <div class="p-3 w-30 h-30 border-2 border-r-2 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+        atque ipsa eius consectetur soluta corporis, facere error odio iusto culpa? Exercitationem incidunt culpa amet
+        ipsa? Repellat numquam nam aliquam neque provident perspiciatis, rerum, impedit obcaecati eligendi architecto
+        ullam laborum optio, mollitia ratione nostrum odio sequi voluptates dolorem nobis praesentium reiciendis.</div>
+
+
+
+    <!-- bg-cover == background cover  -->
+    <div class="bg-green-500 w-50 h-50 bg-cover">
+        <div>Col 1</div>
+        <div>Col 2</div>
+        <div>Col 3</div>
+        <div>Col 4 </div>
+        <div>col 5</div>
+        <div>col 6</div>
+    </div>
+
+
+    <p class="text-center">This text is center </p>
+
+    <p class="text-left">This text is at left </p>
+
+
+    <!-- transformation  -->
+    <p class="uppercase">This is a paragraph </p>
+
+    <p class="lowercase">This paragraph is in lowercase </p>
+
+
+    <p class="line-through">this text has line </p>
+
+
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    <div class="flex flex-wrap">
+
+        <div class="w-52 h-52 bg-red-400 m-2">Box 1 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 2 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 3 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 4 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 5 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 6 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 7 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 8 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 9 </div>
+        <div class="w-52 h-52 bg-red-400 m-2">Box 10 </div>
+
+    </div>
+
+
+
+
+
+
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3">
+
+        <div class="bg-green-400 text-lg"> Text 1</div>
+
+        <div class="bg-green-400 text-xl"> Text 1</div>
+
+        <div class="bg-green-400 text-xl"> Text 1</div>
+
+        <div class="bg-green-400 text-xl"> Text 1</div>
+    </div>
+
+
+
+
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 mt-7">
+
+        <div class="bg-green-400 text-lg col-span-2"> Text 1</div>
+
+        <div class="bg-green-400 text-xl"> Text 1</div>
+
+        <div class="bg-green-400 text-xl row-span-2"> Text 1</div>
+
+        <div class="bg-green-400 text-xl"> Text 1</div>
+    </div>
+
+
+
+
+
+    <!-- What is resolution  -->
+
+
+</body>
+
+</html>
