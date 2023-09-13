@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Asynchronous</title>
+
+
+</head>
+
+
+<body>
+
+
+    <input type="text" name="" id="input">
+
+
+    <div class="container">
+
+    </div>
+
+    <!-- 
+        thread - our lines of program 
+
+        interview q1 = is javascript single threaded or multi threaded 
+        interview q2 = how we solve or tackle the single threaded problem
+
+        javascript is single threaded language , that why we use asynchronous to do multi-threaded task 
+
+        some task take more time, and due to single threaded nature, 
+        our next code get block or halt for some time, 
+        and wait for previous task to complete,
+        but we can solve this by doing asychronous 
+
+
+        ajax = asynchronous javascript and xml
+    -->
+
+
+
+
+
+    <script>
+
+        /*
+          
+           short notes of some predefined keyword & methods 
+
+
+
+
+           fetch()              -- making http request
+           getUserMedia()       -- 
+           showOpenFilePicker() --
+
+
+           setTimeout()
+           clearTimeout()
+
+
+           Promise()
+           Promise.all()
+           Promise.race()
+
+           Promise.resolve()
+           Promise.reject()
+
+           new Error()
+
+           .then() 
+           .catch()
+
+           try{}
+           catch{}
+
+           async 
+           await 
+
+
+
+           JSON
+
+           .apply()
+           .stringify()
+           .json()
+
+           .message
+           .ok
+           .status
+
+
+           method:
+           body:
+           headers:
+
+
+           POST, GET, JSON, PUT
+
+
+
+        */
+
+
+        
+        /*
+
+           WebSocket 
+
+
+           new WebSocket()
+           ws://
+           wes://
+
+           send()
+           open()
+           close()
+           message()
+           error()
+
+           onopen()
+           onclose()
+           onerror()
+
+
+
+        */
+
+
+
+
+
+
+
+
+        // callback
+
+        {
+
+            // this Function,  that will , performs an asynchronous operation
+
+
+            // taking two parameters
+            // url      = <https://api.example.com/data>
+            // callback = it is a function = coming as handleData()  
+
+            function fetchData(url, callback) {
+
+                // this setTimeout =  is doing an asynchronous request or work
+                setTimeout(() => {
+
+                    // stored as object or json format,   check 
+                    const data = { message: 'Data fetched successfully' };
+
+                    callback(data); // this is calling handleData(data) = to print the data message 
+                    // we are passing data to callback function 
+                    // Invoke the callback function with the fetched data
+                }, 2000);
+                // taking 2 seconds of time 
+
+                // data bindig got change = due to using to arrow function
+
+            }
+
+
+            // Callback function to handle the fetched data
+            function handleData(data) {
+                console.log(data.message);
+            }
+
+
+
+            // Call the fetchData function with the URL and callback function
+
+            // we are passing 
+            // <https://api.example.com/data>   == as url 
+            // handleData function              == callback 
+            fetchData('<https://api.example.com/data>', handleData);
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        // promises 
+        // promises are used to solve the callback hell problem
+
+        // promises example 01 
+        {
+
+
+            let executor = function (resolve, reject) {
+
+                setTimeout(() => {
+                    resolve({ data: "You are awesome" });
+                    reject("there is an error here ");
+
+                    //first resolve will happen 
+                    // if resolve failed to execute , then reject will execute 
+                }, 2000);
+
+            }
+
+
+
+            // new Promsie = here a constructor 
+
+            let promise = new Promise(executor);
+
+            // .then  = will include resolve 
+            // .catch = will include error 
+            promise.then((response) => {
+                console.log(response);
+            })
+                .catch((err) => {
+                    console.log(err);
+                })
+
+
+
+        }
+
+
+
+
+
+
+        // promises example 02 
+        {
+
+            // Function that returns a promise
+
+            function fetchData(url) {
+
+                return new Promise((resolve, reject) => {
+
+                    // Simulating an asynchronous request
+                    setTimeout(() => {
+                        const data = { message: 'Data fetched successfully' };
+
+                        resolve(data);
+                        // Resolve the promise with the fetched data
+
+                        reject(new Error('Failed to fetch data'));
+                        // to simulate a rejection
+                    }, 2000);
+
+                });
+            }
+
+
+
+            // Using the promise
+            // fetchData = will return promise, 
+            // we are applying .them & .catch on promise 
+            fetchData('<https://api.example.com/data>')
+                .then(data => {
+                    console.log(data.message);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+
+        }
+
+
+
+
+        
+
+
+
+        {
+
+            // Function to fetch data from the API using promises
+            function fetchData(url) {
+                return new Promise((resolve, reject) => {
+                    fetch(url)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Network response was not ok: ${response.status}`);
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            resolve(data); // Resolve the promise with the fetched data
+                        })
+                        .catch(error => {
+                            reject(error); // Reject the promise with the error
+                        });
+                });
+            }
+
+            // URL of the API endpoint
+            const apiUrl = 'https://api.example.com/data';
+
+            // Using the fetchData function
+            fetchData(apiUrl)
+                .then(data => {
+                    console.log('Fetched data:', data);
+                    // Do something with the fetched data
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    // Handle the error
+                });
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        // promises chaining 
+        // when one call is independ on other data 
+
+
+        {
+
+
+            // Function that returns a promise to fetch data
+            function fetchData(url) {
+
+                return new Promise((resolve, reject) => {
+
+                    // setTimeOut is =  Simulating an asynchronous request
+                    setTimeout(() => {
+
+                        const data = { message: 'Data fetched successfully' };
+                        resolve(data);
+
+                        // we are not using reject here 
+                    }, 2000);
+
+                });
+            }
+
+
+
+            // Chaining promises
+            // notice , all api are different here 
+            // not exact like nesting, but kind of sequential, working of one depend on previous action  
+
+            fetchData('<https://api.example.com/data>')
+                .then(data => { // this data = is coming fetchdata 
+
+                    console.log(data.message);
+
+                    // Returning a new promise for the next operation
+                    return fetchData('<https://api.example.com/other-data>');
+                })
+                .then(otherData => { // this otherData = is coming from previous return
+
+                    console.log(otherData.message);
+
+                    // Returning a new promise for the next operation
+                    return fetchData('<https://api.example.com/more-data>');
+                })
+                .then(moreData => {
+                    console.log(moreData.message);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+
+
+        }
+
+
+
+
+
+
+        // throttling & Debouncing 
+        // function throttle() { }
+        // function debounce() { }
+
+
+        // Promises with async await
+       
+ 
+
+
+
+        // throttling = pause the execution
+        // debouncing = delay the execution 
+
+
+        // Throttling ensures that a function is called at regular intervals 
+        // while 
+        // debouncing delays the function invocation until a pause in activity.
+
+
+        
+
+
+        // throttling
+        function throttle(func, delay) {
+            let timeoutId;
+
+            return function () {
+                if (!timeoutId) {
+                    timeoutId = setTimeout(() => {
+                        func.apply(this, arguments);
+                        timeoutId = null;
+                    }, delay);
+                }
+            };
+        }
+
+        const throttledFn = throttle(apiCall, 100);
+
+        input.addEventListener('input', throttledFn);
+
+
+
+
+
+
+
+
+        // debouncing 
+
+        const handleChange = (event) => {
+            console.log('Calling api with value');
+        }
+
+        const debounce = (fn, delay) => {
+
+            let timer;
+            return function (event) {
+                clearTimeout(timer);
+                timer = setTimeout(() => {
+                    fn(event)
+                }, delay)
+            }
+
+        }
+
+        document.getElementById('input').addEventListener('input', debounce(handleChange, 500));
+
+
+
+    </script>
+
+</body>
+
+</html>

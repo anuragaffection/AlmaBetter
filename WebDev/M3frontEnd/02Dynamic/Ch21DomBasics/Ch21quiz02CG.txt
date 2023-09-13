@@ -1,0 +1,141 @@
+
+
+
+1. What does DOM stand for?
+   a) Document Offset Model
+   b) Digital Object Model
+   c) Document Object Model
+   d) Data Output Mechanism
+
+
+
+
+
+
+2. Which programming language is commonly used to manipulate the DOM?
+   a) Python
+   b) Java
+   c) JavaScript
+   d) C++
+
+
+
+
+
+
+3. What is the DOM used for in web development?
+   a) Sending emails
+   b) Styling web pages
+   c) Manipulating web page structure and content
+   d) Creating database connections
+
+
+
+
+
+
+4. How does the DOM represent an HTML document?
+   a) As a plain text file
+   b) As a binary file
+   c) As a hierarchical tree structure
+   d) As a linear sequence of characters
+
+
+
+
+
+
+5. Which method is used to select an element by its unique ID in the DOM?
+   a) `findElementById`
+   b) `getElementById`
+   c) `selectElementById`
+   d) `queryById`
+
+
+
+
+
+
+
+#checkAgain
+6. What is the purpose of CSS selectors in the DOM?
+   a) To define document structure
+   b) To apply styles to elements
+   c) To select and manipulate elements
+   d) To create animations
+
+
+
+
+
+
+7. How can you change the content of an HTML element using the DOM?
+   a) By using the `changeContent` property
+   b) By modifying the `content` attribute
+   c) By using the `textContent` property
+   d) By directly modifying the HTML source code
+
+
+
+
+
+
+8. Which method is used to add a new element to the DOM?
+   a) `createNode`
+   b) `appendNode`
+   c) `createElement`
+   d) `addNode`
+
+
+
+
+
+9. What is event delegation in the context of the DOM?
+   a) Using events to delegate tasks to other functions
+   b) Delegating DOM manipulation to external libraries
+   c) Delegating event handling to a common ancestor element
+   d) Delegating styling to CSS frameworks
+
+
+
+
+
+
+
+10. How can you access and modify attributes of an HTML element using the DOM?
+    a) Using the `getAttribute` and `setAttribute` methods
+    b) By directly modifying the attribute's value
+    c) By using the `attribute` property
+    d) Attributes cannot be modified using the DOM
+
+
+
+
+
+
+
+
+
+1. c) Document Object Model
+2. c) JavaScript
+3. c) Manipulating web page structure and content
+4. c) As a hierarchical tree structure
+5. b) `getElementById`
+6. c) To select and manipulate elements
+7. c) By using the `textContent` property
+8. c) `createElement`
+9. c) Delegating event handling to a common ancestor element
+10. a) Using the `getAttribute` and `setAttribute` methods
+
+
+
+
+
+
+
+
+
+
+
+
+

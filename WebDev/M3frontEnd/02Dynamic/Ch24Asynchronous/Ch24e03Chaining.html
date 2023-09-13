@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 03 Promise Chaining</title>
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Promise Chaining </h1>
+    <div id="news_feed"></div>
+
+
+    <script>
+
+        // here we are not using url, 
+        // we are just checking here 
+
+
+        function fetchData(url) {
+
+            return new Promise((resolve, reject) => {
+
+                setTimeout(() => {
+
+                    let data = { message: "You are great" };
+                    let data1 = { message: "You are legend" };
+
+                    resolve([data, data1]);
+                    reject(new Error("Failed to Load"));
+
+                }, 500);
+            })
+
+        }
+
+
+
+
+
+        function myDisplay (dataArray){
+            const newP = document.createElement('p');
+            newP.textContent = dataArray[0].message + " , " + dataArray[1].message;
+            document.getElementById('news_feed').appendChild(newP);
+        }
+
+
+
+
+
+        fetchData("Ch23tNewsData.json").then((dataArray) => {
+            myDisplay(dataArray);
+            return fetchData("some new url");
+
+        }).then( (dataArray) => {
+            myDisplay(dataArray);
+            return fetchData("some new url");
+
+        }).then( (dataArray) => {
+            myDisplay(dataArray);
+            return fetchData('some new url');
+
+        }).catch((error) => {
+            console.log(error);
+
+        })
+
+
+    </script>
+
+</body>
+
+
+</html>

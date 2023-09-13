@@ -9,12 +9,14 @@ class GApp extends Component {
 
         this.state = {
             isRegistered: false,
-            name : null,
-            email : null,
-            password : null,
+            name: null,
+            email: null,
+            password: null,
+            showPass: false,
 
         };
     }
+
 
 
     registrationHandler = (event) => {
@@ -22,9 +24,14 @@ class GApp extends Component {
         const email = event.target.email.value;
         const password = event.target.password.value;
 
-        this.setState({name, email, password, isRegistered:true})
+        this.setState({ name, email, password, isRegistered: true })
 
         event.preventDefault();
+    }
+
+
+    clickShowPassHandler = () => {
+        this.setState({showPass : !this.state.showPass})
     }
 
 
@@ -33,10 +40,14 @@ class GApp extends Component {
             <div>
                 {
                     this.state.isRegistered ? (
-                    <Greet name = {this.state.name} email = {this.state.email}></Greet>
-                    )  : (
-                    <GRegister submit ={this.registrationHandler} ></GRegister>
-                    ) 
+                        <Greet name={this.state.name} email={this.state.email}></Greet>
+                    ) : (
+                        <GRegister
+                            submit={this.registrationHandler}
+                            showPass={this.state.showPass}
+                            click = {this.clickShowPassHandler}
+                        ></GRegister>
+                    )
                 }
 
             </div>

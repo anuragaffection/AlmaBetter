@@ -1,14 +1,14 @@
 
-import {createStore, combinedReducers} from 'redux';
-import { accountBalance } from '../reducer';
+// import {createStore, combinedReducers} from 'redux';
+// import { accountBalance } from '../reducer';
 
 
 
-export const store = createStore (
-    combinedReducers(
-        {
-            accountBalance : accountBalance,
-        }
-    )
-)
+// export const store = createStore (
+//     combinedReducers(
+//         {
+//             accountBalance : accountBalance,
+//         }
+//     )
+// )
 

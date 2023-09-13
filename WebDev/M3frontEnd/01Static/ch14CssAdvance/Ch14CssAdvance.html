@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Advance </title>
+
+    <link rel="stylesheet" href="Ch14CssAdvance.css">
+</head>
+
+<body>
+
+    <!-- 
+        faux  -- 
+    -->
+
+    <header>
+        <div>
+            <nav>
+                <li>01. Display </li>
+                <li>02. flexbox </li>
+                <li>03. Position </li>
+                <li>04. Responsive web design </li>
+                <li>05. Transition </li>
+                <li>06. Transform </li>
+                <li>07. Animation </li>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div>
+
+
+            <div id="display">
+
+                <fieldset>
+
+                    <legend>01. Display</legend>
+
+                    <P>display - block, inline, inline-block, none</P>
+                    <P>display - flexbox, grid, table, run-in, </P>
+
+
+                    <br>
+                    <br>
+                    <div id="inline">
+
+                        inline
+                        <div> 1</div>
+                        <div> 2</div>
+                        <div> 3</div>
+                        <div> 4</div>
+                        <div> 5</div>
+                        <div> 6</div>
+                        <div> 7</div>
+                        <div> 8</div>
+
+                    </div>
+
+
+
+
+                    <br>
+                    <br>
+                    <div id="block">
+
+                        block
+
+                        <div> 1</div>
+                        <div> 2</div>
+                        <div> 3</div>
+                        <div> 4</div>
+                        <div> 5</div>
+                        <div> 6</div>
+                        <div> 7</div>
+                        <div> 8</div>
+
+                    </div>
+
+
+
+
+
+                    <br>
+                    <br>
+                    <div id="inline-block">
+
+                        inline-block
+
+                        <div> 1</div>
+                        <div> 2</div>
+                        <div> 3</div>
+                        <div> 4</div>
+                        <div> 5</div>
+                        <div> 6</div>
+                        <div> 7</div>
+                        <div> 8</div>
+
+                    </div>
+
+
+
+                    <br>
+                    <br>
+                    <div>got hidden</div>
+                    <div id="none">
+
+                        run-in
+
+                        <div> 1</div>
+                        <div> 2</div>
+                        <div> 3</div>
+                        <div> 4</div>
+                        <div> 5</div>
+                        <div> 6</div>
+                        <div> 7</div>
+                        <div> 8</div>
+
+                    </div>
+
+
+
+
+                    <br>
+                    <br>
+                    <!-- again,  what is run-in  -->
+                    <div id="run-in">
+
+                        run-in
+
+                        <div> 1</div>
+                        <div> 2</div>
+                        <div> 3</div>
+                        <div> 4</div>
+                        <div> 5</div>
+                        <div> 6</div>
+                        <div> 7</div>
+                        <div> 8</div>
+
+                    </div>
+
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+
+                    <legend>02. flexbox</legend>
+                    <p> Flex box architecture </p>
+                    <p> main axis & cross axis </p>
+
+
+
+                    <div class="box1">
+                        box1
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                    </div>
+
+
+
+                    <div class="box2">
+                        box2
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                    </div>
+
+
+
+
+
+                    <div class="box3">
+                        box3
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                    </div>
+
+
+
+
+                    <div class="box4">
+                        box4 = with wrap
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                        <div class="inside">6</div>
+                        <div class="inside">7</div>
+                        <div class="inside">8</div>
+                        <div class="inside">9</div>
+                        <div class="inside">10</div>
+                        <div class="inside">11</div>
+                    </div>
+
+
+
+
+                    <div class="box5">
+                        box5 = with noWrap
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                        <div class="inside">6</div>
+                        <div class="inside">7</div>
+                        <div class="inside">8</div>
+                        <div class="inside">9</div>
+                        <div class="inside">10</div>
+                        <div class="inside">11</div>
+                    </div>
+
+
+
+
+                    <div class="box6">
+                        box 6
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                    </div>
+
+
+
+
+                    <div class="box7">
+                        box7 = with wrap & align-content 
+                        <div class="inside">1</div>
+                        <div class="inside">2</div>
+                        <div class="inside">3</div>
+                        <div class="inside">4</div>
+                        <div class="inside">5</div>
+                        <div class="inside">6</div>
+                        <div class="inside">7</div>
+                        <div class="inside">8</div>
+                        <div class="inside">9</div>
+                        <div class="inside">10</div>
+                        <div class="inside">11</div>
+                    </div>
+
+
+
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+                    <summary>03. Position </summary>
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+                    <summary>04. Responsive Web Design </summary>
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+                    <summary>05. Transition </summary>
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+                    <summary>06. Transform </summary>
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <fieldset>
+                    <summary>07. Animation</summary>
+
+                </fieldset>
+            </div>
+
+
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 02 - Promises </title>
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Example 02 Promise </h1>
+    <div id="news_feed"></div>
+
+
+
+    <script>
+
+
+        // resolve in promise takes single argument.
+        // The resolve function in a promise should only be called with a single argument.
+
+
+
+        function myFetchData(url) {
+
+            return new Promise((resolve, reject) => {
+
+                setTimeout(() => {
+
+                    let data = { message: "You are very good" };
+                    let data1 = { message: "You are very good 3000" };
+
+                    resolve([data, data1])   // bundling the data into array
+
+                    // resolve(data, data1);   // this will throw error, resolve take single argument
+
+
+
+                    reject(new Error('failed to load'));
+
+                }, 500);
+
+            })
+        }
+
+
+
+
+        myFetchData("Ch23tNewsData.json").then((dataArray) => {
+
+            let data = dataArray[0];
+            let data1 = dataArray[1];
+
+            const newP = document.createElement('p');
+            newP.textContent = data.message + " , " + data1.message;
+
+            document.getElementById('news_feed').appendChild(newP);
+
+        }).catch((error) => {
+
+            let newP = document.createElement('p');
+            newP.textContent = error;
+
+            document.getElementById('news_feed').appendChild(newP);
+
+        })
+
+
+
+
+    </script>
+
+</body>
+
+</html>

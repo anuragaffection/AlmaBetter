@@ -1,0 +1,196 @@
+
+
+**Fetch API & Callback Functions:**
+
+
+
+
+
+
+1. What is the primary purpose of the Fetch API in JavaScript?
+   a) Handling DOM manipulation
+   b) Managing local storage
+   c) Making network requests
+   d) Parsing JSON data
+
+
+
+
+
+
+
+2. Which keyword is used to handle asynchronous operations in a callback function?
+   a) await
+   b) async
+   c) then
+   d) catch
+
+
+
+
+
+
+
+3. What does CORS stand for in the context of Fetch API?
+   a) Cross-Origin Resource Sharing
+   b) Client-Origin Request Support
+   c) Cross-Origin Resource Security
+   d) CORS is not related to Fetch API
+
+
+
+
+
+
+
+
+
+4. In JavaScript, a Promise represents:
+   a) A synchronous operation
+   b) A callback function
+   c) An asynchronous operation that might complete in the future
+   d) A reserved keyword for variable declarations
+
+
+
+
+
+
+
+5. How do you handle errors in an async function using async/await?
+   a) Using try and catch
+   b) Using then and catch
+   c) Using if statements
+   d) Using await and reject
+
+
+
+
+
+
+
+6. What is the purpose of the `Promise.all` method?
+   a) It resolves a single Promise
+   b) It waits for the fastest Promise to resolve
+   c) It resolves multiple Promises in parallel
+   d) It waits for all Promises in an array to resolve
+
+
+
+
+
+
+
+
+
+7. Throttling is a technique used to:
+   a) Limit the number of concurrent network requests
+   b) Delay the execution of a function until a certain time has passed since the last invocation
+   c) Handle errors in asynchronous operations
+   d) Block all user interactions temporarily
+
+
+
+
+
+
+8. When would you use debouncing in JavaScript?
+   a) When you want to perform an action immediately after an event
+   b) When you want to limit the rate of function execution during rapid events
+   c) When you want to delay the execution of a function until a certain time has passed since the last invocation
+   d) When you want to disable event listeners temporarily
+
+
+
+
+
+
+
+
+9. The WebSocket API is used for:
+   a) Performing HTTP GET requests
+   b) Enabling real-time, bidirectional communication between client and server
+   c) Storing data in local storage
+   d) Handling form submissions
+
+
+
+
+
+
+10. What does JSONP stand for?
+    a) JavaScript Online Network Protocol
+    b) JSON Object Processing
+    c) JSON with Padding
+    d) JavaScript Object Protection
+
+
+
+
+
+
+
+
+11. Cross-Origin Resource Sharing (CORS) is a security feature implemented by:
+    a) Servers
+    b) Clients
+    c) Both servers and clients
+    d) Web browsers
+
+
+
+
+
+
+
+12. Which HTTP headers are commonly used to enable CORS on the server-side?
+    a) Access-Control-Request-Method and Access-Control-Request-Headers
+    b) Origin and Access-Control-Allow-Origin
+    c) Content-Type and Accept
+    d) Authorization and X-Requested-With
+
+
+
+
+
+
+
+
+
+
+1. What is the primary purpose of the Fetch API in JavaScript?
+   Answer: c) Making network requests
+
+2. Which keyword is used to handle asynchronous operations in a callback function?
+   Answer: b) async
+
+3. What does CORS stand for in the context of Fetch API?
+   Answer: a) Cross-Origin Resource Sharing
+
+
+4. In JavaScript, a Promise represents:
+   Answer: c) An asynchronous operation that might complete in the future
+
+5. How do you handle errors in an async function using async/await?
+   Answer: a) Using try and catch
+
+6. What is the purpose of the `Promise.all` method?
+   Answer: d) It waits for all Promises in an array to resolve
+
+7. Throttling is a technique used to:
+   Answer: a) Limit the number of concurrent network requests
+
+8. When would you use debouncing in JavaScript?
+   Answer:c) When you want to delay the execution of a function until a certain time has passed since the last invocation
+
+9. The WebSocket API is used for:
+   Answer: b) Enabling real-time, bidirectional communication between client and server
+
+10. What does JSONP stand for?
+    Answer: c) JSON with Padding
+
+11. Cross-Origin Resource Sharing (CORS) is a security feature implemented by:
+    Answer: d) Web browsers
+
+12. Which HTTP headers are commonly used to enable CORS on the server-side?
+    Answer: b) Origin and Access-Control-Allow-Origin

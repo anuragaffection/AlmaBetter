@@ -1,22 +1,22 @@
 
-const INIT_STATE = 0;
+// const INIT_STATE = 0;
 
 
-export const accountBalance = (state = INIT_STATE, action) => {
+// export const accountBalance = (state = INIT_STATE, action) => {
 
 
-    if (action.type = 'Withdraw'){
+//     if (action.type = 'Withdraw'){
 
-        return state - action.payload;
-    }
+//         return state - action.payload;
+//     }
 
 
-    if (action.type = 'Deposit'){
+//     if (action.type = 'Deposit'){
 
-        return state + action.payload;
+//         return state + action.payload;
 
-    }
+//     }
 
-    return state;
+//     return state;
 
-}
+// }

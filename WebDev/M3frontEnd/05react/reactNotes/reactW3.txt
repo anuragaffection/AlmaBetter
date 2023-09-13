@@ -1,0 +1,16 @@
+React ES6 Arrow Functions (w3schools.com) 
+
+
+01. Difference of binding #this keyword in regular function vs arrow function 
+https://www.w3schools.com/react/react_es6_arrow.asp
+
+
+
+
+
+
+
+
+
+
+

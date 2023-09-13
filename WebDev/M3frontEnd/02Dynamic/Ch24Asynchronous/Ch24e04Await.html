@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Async & Await</title>
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Example 04 - Async & Await </h1>
+    <div id="news_feed"></div>
+    <div id="news_feed01"></div>
+
+
+    <script>
+
+        // async use promises within it
+
+
+
+
+
+
+
+        // way 01 
+        // async & await with then & catch
+        async function myFetchData() {
+
+            let data = await { message: "You are Awesome" };
+            let data1 = await { message: 'You are Awesome 3000' };
+
+            return [data, data1]; // passing as bundle 
+
+        }
+
+
+        function myDisplay(dataArray) {
+            const newP = document.createElement('p');
+            newP.textContent = dataArray[0].message + " , " + dataArray[1].message;
+            document.getElementById('news_feed').appendChild(newP);
+        }
+
+
+        myFetchData().then((data) => {
+            myDisplay(data)
+
+        }).catch((error) => {
+            console.log(error);
+
+        })
+
+
+
+
+
+
+
+
+
+
+        // way 02
+        // async & await with try & catch 
+
+
+
+
+    </script>
+
+</body>
+
+</html>

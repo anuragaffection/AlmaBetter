@@ -1,0 +1,200 @@
+
+
+**Components:**
+
+1. What is a React component?
+   - A. A reusable function in JavaScript.
+   - B. A reusable building block in React.
+   - C. A class that extends the React component class.
+   - D. A JavaScript variable holding UI data.
+
+
+
+
+
+
+2. Which of the following is true about functional components in React?
+   - A. They cannot have state.
+   - B. They are defined as JavaScript classes.
+   - C. They use the `render` method.
+   - D. They are simpler and more lightweight.
+
+
+
+
+
+
+3. What are higher-order components (HOCs) used for in React?
+   - A. To create HTML elements.
+   - B. To manage component state.
+   - C. To reuse component logic.
+   - D. To define class components.
+
+
+
+
+
+
+
+4. How can you achieve conditional rendering in React?
+   - A. By using the `if` statement within the JSX.
+   - B. By using the `return` statement in the `render` method.
+   - C. By utilizing the `map` function on arrays.
+   - D. By using conditional statements or ternary operators in the `render` method.
+
+
+
+
+
+
+
+**Props:**
+
+5. What are props in React?
+   - A. Components' internal state.
+   - B. Mechanisms to pass data from parent to child components.
+   - C. Class methods.
+   - D. External CSS styles.
+
+
+
+
+
+
+6. Which of the following is used to set default values for props in a React component?
+   - A. `this.setDefaultProps()`
+   - B. `defaultProps` property
+   - C. `getDefaultProps()` method
+   - D. `this.defaultProps()`
+
+
+
+
+
+
+7. What is "prop drilling" in React?
+   - A. The process of passing props to sibling components.
+   - B. The process of passing props deeply through multiple levels of components.
+   - C. The process of setting default values for props.
+   - D. The process of copying props from child to parent components.
+
+
+
+
+
+
+
+**State:**
+
+8. How do you initialize state in a class component?
+   - A. Using the `useState` hook.
+   - B. By declaring it directly within the component's body.
+   - C. Using the `constructor` and `this.state` syntax.
+   - D. State cannot be initialized in class components.
+
+
+
+
+
+
+9. In React functional components, which hook is used to manage state?
+   - A. `useEffect`
+   - B. `useState`
+   - C. `useContext`
+   - D. `useReducer`
+
+
+
+
+
+
+10. What is the significance of using a functional update when updating state in React?
+   - A. It allows you to define state as a function.
+   - B. It prevents state updates from being batched.
+   - C. It ensures the latest state is used.
+   - D. It is not recommended for updating state.
+
+
+
+
+
+
+11. Why is immutable state important in React?
+   - A. It simplifies the syntax of state updates.
+   - B. It ensures that state cannot be changed once set.
+   - C. It allows direct mutation of state.
+   - D. It increases the performance of React applications.
+
+
+
+
+
+
+
+
+
+
+1. What is a React component?
+   - Answer: B. A reusable building block in React.
+
+
+
+
+2. Which of the following is true about functional components in React?
+   - Answer: D. They are simpler and more lightweight.
+
+
+
+
+3. What are higher-order components (HOCs) used for in React?
+   - Answer: C. To reuse component logic.
+
+
+
+
+4. How can you achieve conditional rendering in React?
+   - Answer: D. By using conditional statements or ternary operators in the `render` method.
+
+
+
+
+
+5. What are props in React?
+   - Answer: B. Mechanisms to pass data from parent to child components.
+
+
+
+
+6. Which of the following is used to set default values for props in a React component?
+   - Answer: B. `defaultProps` property
+
+
+
+
+7. What is "prop drilling" in React?
+   - Answer: B. The process of passing props deeply through multiple levels of components.
+
+
+
+
+
+8. How do you initialize state in a class component?
+   - Answer: C. Using the `constructor` and `this.state` syntax.
+
+
+
+
+9. In React functional components, which hook is used to manage state?
+   - Answer: B. `useState`
+
+
+
+
+10. What is the significance of using a functional update when updating state in React?
+    - Answer: C. It ensures the latest state is used.
+
+
+
+11. Why is immutable state important in React?
+    - Answer: B. It ensures that state cannot be changed once set.
+

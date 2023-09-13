@@ -1,0 +1,12 @@
+[
+    {
+        "title": "News Item 1",
+        "description": "This is the description of News Item 1. We are trending at #1."
+    }, {
+        "title": "News Item 2",
+        "description": "This is the description of News Item 2. Going for Moon Mission."
+    }, {
+        "title": "News Item 3",
+        "description": "This is the description of News Item 3. Chandrayan 3 Launched."
+    }
+]

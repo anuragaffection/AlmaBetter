@@ -1,0 +1,384 @@
+
+
+
+01. What is React js ?
+--- a javascript library, 
+--- managed by facebook,
+--- open source,
+--- used for frontend ui, 
+--- React Native 
+
+
+
+
+02. Features of react 
+--- jsx(js + html), 
+--- jsx = javascript and xml
+--- jsx is similar to html
+--- components in react, 
+--- one way data binding(parent to children), 
+--- virtual dom(a copy of DOM), 
+--- good perormance, 
+--- simplicity = easy to learn  
+--- light weight library, 
+
+
+
+
+
+03. How React works ?
+--- It divides the web pages into component
+
+
+
+04. Rendering DOM
+--- virtual vs Actual DOM
+--- virtual dom = create a copy of original dom, when the original dom enters the browser
+--- 
+
+
+
+05. Trend of React vs Angular vs Vue
+--- all are doing good
+--- pick any one out of three
+
+
+
+06. Environment setup
+--- Download node js
+--- Download npm (most of time comes with node)
+--- node -v (to check the version or downloaded)
+--- npm -v ( to check the version of npm downloaded)
+--- Download VS code 
+
+
+
+07. Creating react or downloading react app
+--- npm install -g create-react-app   (ye pc me globally download ho gya)
+--- create-react-app --version (to check the react version you downloaded )
+
+
+
+
+08. Creating my react app under some folder 
+---  create-react-app myReactApp
+---  this will install react dependency in myReactApp
+---  package.json (have all the details of your app,  like here, we have myReactApp)
+
+
+
+
+09. Starting the creact app
+--- npm start (to start your app)
+
+
+
+
+
+
+10. Directory(folder) structure of react app 
+
+--- node module (all library are here, auto generated )
+
+--- public (single html file in public)
+--- index.html (from public = we wil not change her, everything will render here)
+--- progressive web app - pwa
+--- manifest file ( used for progressive web app - pwa - add to home scree, will install app on home screen)
+ 
+--- src (we will be doing our task here )
+--- package.json (all dependencies are here )
+
+
+
+
+
+11. export 
+
+
+
+
+12. calling of components
+
+
+
+13. workflow of react
+--- app.js (javascript - components file )
+--- index.js (javascript -)
+--- app.css (css file to design )
+--- only one main div is allowed in app.js ( them within that parent div we can write as many as div we want )
+
+
+
+
+
+14. Workflow of react 
+--- app.js ( writing the actual code, we call it components )
+--- index.js (calling the componets from app.js)
+--- index.html (bringing everything to root of index.html)
+
+
+
+
+15. render is method or function (pre defined )
+--- used to render html or jsx file to index.html
+
+
+
+
+16. react components 
+--- components are independent and reusable bits of code.
+--- components are javascript file
+--- they serve the same purpose as javascript function
+--- but works in isolation and returns html via a render function
+
+
+
+
+17. types of components
+--- class based components
+--- function based components
+
+
+
+18. class based vs function based components
+
+--- class based component can have state 
+--- it receive props 
+--- it return jsx (html + js) using render
+
+--- function based component cannot have state
+--- it also receive props
+--- it must return jsx (html + js)
+
+
+
+
+
+
+19. Actual jsx is javascript code
+
+
+
+
+20. component structure 
+--- header, middle article, footer, upperside, lowerside
+
+
+
+
+21. props - properties
+
+
+22.named exports vs default exports 
+--- named exports - are strict type 
+--- default export - not strict, can cause error
+
+
+
+
+23. Introduction  to jsx (1.07.33)
+--- extension to javascript language syntax.
+--- jsx = javascript and xml
+--- jsx also contains all the html like attributes
+--- jsx make the code simpler and it look elegant 
+
+--- multiple parent are not allowed 
+--- enclosed everthing in single parent 
+
+--- it is not necessary to write jsx to render html tags
+--- React.createElement() - method can be used in place of jsx to render.
+--- using React.createElement = is lengthy & not optimised 
+--- syntax React.createElement(
+        "parent node",
+        optional properties,
+        "child node"
+    );
+
+
+
+
+
+24. Understanding props in reactjs (1.09.30)
+--- props is object 
+--- react is a component based library which divides the UI into little reusable pieces
+--- in some cases, those component need to communicate (send data to each other ) and the way to pass data between components is by usign props.
+--- basically props act like parameters to send data to components 
+--- "Props" is a special keyword in React, which stands for properties and is being used for passign the data from one components to another.
+--- But the important part here is that data which props are being passed to uni-directional flow. (one way from parent to child).
+
+
+
+
+
+
+
+
+25. State in React js (1.21.00)
+--- it is in built object 
+--- the state object is used to store all the data that belings to that particular component ony.
+--- The state is only accessible inside the component it belongs to.
+--- State is mutable, it can be changed as per the need
+--- Whenever the state object changes the component is re-rendered
+--- to use state inside a class component ("this.state" is used 
+--- to use state inside a functional component ("useState" hook is used 
+
+
+
+
+
+
+
+26. Event handling in React js
+--- 
+
+
+
+27. Event binding in react
+--- using arrow function call
+--- using bind keyword
+--- using bind keyword in constructor 
+--- using arrow function 
+
+
+
+
+
+28. Using css in react
+--- this css will get applied to whole page 
+
+
+
+
+29. Using Module css in react (1.45.45)
+--- using module css, we can restrict.
+
+
+
+
+30. What is Axios (1.49.48)
+--- package to hit api
+--- npm install axios 
+--- npm install axios --s
+
+
+
+
+
+
+31. Redux & its flow (1.54.00)
+--- 
+
+
+
+
+
+32. Rendering the list of data
+--- 
+
+
+
+
+33. form handling (2.26.00)
+--- 
+
+
+
+33. Key props in react (2.06.30)
+--- 
+
+
+
+
+34. How to render data conditionally
+--- 
+
+
+
+
+35. How to delete data from state 
+--- 
+
+
+
+
+
+36. Form handling using controlled component
+--- 
+
+
+
+
+37. Registration form along with greeting screen  #2.46.33
+--- 
+
+
+
+
+38. Show & hide password along with dynamic styling  #3.04.48
+-- 
+
+
+
+
+39. adding class dynamically
+-- 
+
+
+
+
+40. Styled components
+--
+
+
+
+41. How to use props with styled components #3.33.33
+-- 
+
+
+
+42. Firebase setup #3.40.00
+-- uuid = package manager = used to create unique id 
+-- install Firebase in react project 
+-- 
+
+
+
+
+43. Setting firebase project in react #3.47.00
+-- 
+
+
+
+
+
+44. firebase and uuid initialization #4.14.00
+--
+
+
+
+45. sending data to firebase
+--  
+
+
+
+45. Login & signUp #4.29.00
+--  
+
+
+
+46. Sign in with email and password using firebase #4.54.13
+-- 
+
+
+
+47. Setting up the blog project #5.14.56
+--- Routing 
+
+
+
+
+48. Setting up the react - router package #5.29.50
+---  
+
+
+

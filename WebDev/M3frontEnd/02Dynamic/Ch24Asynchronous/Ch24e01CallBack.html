@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 01 Call Back </title>
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Example 01 API using callback </h1>
+
+    <div id="news_feed"></div>
+
+
+    <script>
+
+
+
+        function myFetchData(url, myCallBack) {
+
+            setTimeout(() => {
+                const data = { message: 'Data fetched successfully' };
+                const data1 = { message: 'Data fetched successfully 01 times' };
+                myCallBack(data, data1); // this will call myHandle 
+            }, 500);
+
+        }
+
+        function myHandle(data, data1) {
+            let newP = document.createElement('p');
+
+            newP.textContent = " " + data.message + " , " + data1.message;
+
+            document.getElementById('news_feed').appendChild(newP);
+
+            console.log(data.message);
+
+        }
+
+        myFetchData("Ch23tNewsData.json", myHandle); // function calling 
+        // note url passing, url, but we are not using it
+        
+
+
+
+
+
+
+
+
+        /*
+  
+
+           // THIS CODE IS WRONG 
+
+           // we are not getting item, after using fetch(url)
+
+
+          function myFetchData(url, myCallBack) {
+  
+              setTimeout(() => {
+  
+                  for (let item of fetch(url)) {
+  
+                      const data = item.title;
+                      const data1 = item.description;
+  
+                      myCallBack(data, data1);
+                  }
+  
+              }, 500);
+  
+          }
+  
+
+
+          function myHandle(data, data1) {
+              let newP = document.createElement('p');
+  
+              newP.textContent = " " + data.message + " , " + data1.message;
+  
+              document.getElementById('news_feed').appendChild(newP);
+  
+              console.log(data.message);
+  
+          }
+  
+
+
+          myFetchData("Ch23tNewsData.json", myHandle);
+  
+       */
+
+
+
+    </script>
+
+</body>
+
+</html>

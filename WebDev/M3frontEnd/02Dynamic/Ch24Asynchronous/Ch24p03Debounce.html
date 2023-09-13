@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 03 </title>
+
+    <style>
+        h1 {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        div {
+            padding: 15px;
+            margin: 20px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="parallelButton">Parallel Async</button>
+    <button id="throttleButton">Throttling</button>
+    <button id="debounceButton">Debouncing</button>
+
+    <div id="myDiv"></div>
+
+
+    <script>
+
+
+        // parallel async 
+
+        function myDisplay(data) {
+
+            const productsArray = data[0].products; // coming from Dummy Api;
+
+            for (let item of productsArray) {
+
+                let productTitle = document.createElement('h2');
+                let productPrice = document.createElement('h3');
+                let productDes = document.createElement('p');
+
+                productTitle.textContent = item.id + " . " + "  " + item.title;
+                productPrice.textContent = "$" + " " + item.price;
+                productDes.textContent = item.description;
+
+                let productDiv = document.createElement('div');
+                productDiv.style.backgroundColor = "aqua"
+
+                productDiv.appendChild(productTitle);
+                productDiv.appendChild(productPrice);
+                productDiv.appendChild(productDes);
+
+                document.getElementById('myDiv').appendChild(productDiv);
+            }
+        }
+
+
+        document.getElementById('parallelButton').addEventListener('click', async () => {
+            const urls = ['https://dummyjson.com/products', 'https://dummyjson.com/products', 'https://dummyjson.com/products'];
+
+            const responses = await Promise.all(urls.map(url => fetch(url)));
+
+            const data = await Promise.all(responses.map(response => response.json()));
+
+            console.log("Paralle Data", data); // array
+
+            myDisplay(data);
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // throttling 
+
+        function throttle(func, delay) {
+            let timeoutId;
+            return function () {
+                if (!timeoutId) {
+                    func.apply(this, arguments);
+                    timeoutId = setTimeout(() => {
+                        timeoutId = null;
+                    }, delay);
+                }
+            };
+        }
+
+        document.getElementById('throttleButton').addEventListener('click', throttle(() => {
+            console.log('Throttle Button Clicked');
+        }, 4000));
+
+
+
+
+
+
+
+
+
+
+
+        // debouncing 
+
+        document.getElementById('debounceButton').addEventListener('click', debouncedFunction);
+
+
+        const debouncedFunction = debounce(() => {
+            console.log('Debouncing: Button clicked');
+        }, 1000);
+
+        function debounce(func, delay) {
+            let timeoutId;
+            return function () {
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(() => {
+                    func.apply(this, arguments);
+                }, delay);
+            };
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

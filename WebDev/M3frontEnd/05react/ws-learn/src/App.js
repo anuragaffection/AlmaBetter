@@ -5,8 +5,9 @@ import Demo from './Components/Demo';
 import List from './Components/List';
 import Person from './Components/Person.jsx';
 import GApp from './Components/GApp';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import FContainer from './Components/FContainer';
+
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 function App() {
@@ -23,9 +24,15 @@ function App() {
       <Demo number="1" />
       <Demo number="2" />
 
-      <List/>
-      <Control/>
-      <GApp/>
+      <List />
+      <Control />
+      <GApp />
+
+      <div style={ {backgroundColor : 'dimgray' , paddingBottom : '7px' , paddingTop : '3px'}}>
+        <FContainer />
+
+      </div>
+
 
 
       {/* we are passing props */}
@@ -37,7 +44,7 @@ function App() {
       {/* here we can not  pass any value - no space are available  */}
 
 
-      
+
 
 
 

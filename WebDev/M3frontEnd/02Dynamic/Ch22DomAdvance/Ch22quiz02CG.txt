@@ -1,0 +1,375 @@
+
+
+
+
+
+1. What is the purpose of the `stopPropagation` method in JavaScript?
+   a) Prevents the event from firing
+   b) Stops event propagation to parent elements
+   c) Halts script execution
+   d) Clears the event queue
+
+
+
+
+
+2. During the event capturing phase, events propagate from:
+   a) Target element to root element
+   b) Root element to target element
+   c) Parent element to child element
+   d) Child element to parent element
+
+
+
+
+
+
+3. Which property of the event object provides the type of the event that occurred?
+   a) `event.type`
+   b) `event.target`
+   c) `event.eventType`
+   d) `event.action`
+
+
+
+
+
+
+4. What is the main benefit of using event delegation?
+   a) Simplifies event handling
+   b) Reduces the number of event listeners
+   c) Enhances rendering performance
+   d) Improves script execution speed
+
+
+
+
+
+
+
+5. To optimize DOM manipulation performance, what is a technique for minimizing reflows and repaints?
+   a) Adding inline styles
+   b) Using tables for layout
+   c) Modifying CSS classes
+   d) Reading layout properties frequently
+
+
+
+
+
+
+6. What is Cross-Site Scripting (XSS)?
+   a) A scripting language for web development
+   b) A method to securely transfer data between servers
+   c) A security vulnerability involving code injection
+   d) A technique to encrypt passwords in the browser
+
+
+
+
+
+7. Which security mechanism helps prevent Cross-Site Request Forgery (CSRF) attacks?
+   a) CAPTCHA validation
+   b) Two-factor authentication
+   c) Content Security Policy (CSP)
+   d) Secure Sockets Layer (SSL)
+
+
+
+
+
+
+8. How can you use the `MutationObserver` API to monitor changes in the DOM?
+   a) By using the `window.addEventListener` method
+   b) By setting up a server-side listener
+   c) By attaching event listeners to target elements
+   d) By creating an observer instance and defining its callback
+
+
+
+
+
+
+
+9. What are Web Components?
+   a) Modular CSS stylesheets
+   b) Custom HTML tags with encapsulated functionality
+   c) Browser-specific CSS properties
+   d) Web-based JavaScript libraries
+
+
+
+
+
+10. In the context of libraries like React, what is the purpose of the Virtual DOM?
+   a) To render the entire DOM as an image
+   b) To optimize JavaScript execution
+   c) To create virtual web applications
+   d) To improve performance in updating the actual DOM
+
+
+
+
+
+
+
+11. How does asynchronous loading of scripts affect page rendering?
+    a) It blocks rendering until scripts are loaded
+    b) It improves rendering by loading scripts asynchronously
+    c) It delays rendering until all styles are applied
+    d) It prevents rendering until all images are loaded
+
+
+
+
+
+
+
+12. What is the difference between the `load` event and the `DOMContentLoaded` event?
+    a) `load` event fires when scripts are loaded, `DOMContentLoaded` fires when HTML is parsed
+    b) `load` event fires when CSS is loaded, `DOMContentLoaded` fires when scripts are executed
+    c) `load` event fires when all resources are loaded, `DOMContentLoaded` fires when HTML is parsed
+    d) `load` event fires when the page is opened, `DOMContentLoaded` fires when the page is closed
+
+
+
+
+
+13. How do Web Workers improve web page performance?
+    a) By optimizing CSS rendering
+    b) By reducing memory usage
+    c) By offloading heavy computations to separate threads
+    d) By compressing images before rendering
+
+
+
+
+
+
+14. What is the purpose of the `requestAnimationFrame` method?
+    a) To request the browser to load external scripts
+    b) To schedule a function to execute after the DOMContentLoaded event
+    c) To synchronize animations with the browser's rendering cycle
+    d) To force the browser to repaint the entire page
+
+
+
+
+
+
+15. What is the significance of Web Accessibility (A11y) when working with the DOM?
+    a) It ensures compatibility with older web browsers
+    b) It enhances SEO optimization
+    c) It ensures that the website is accessible to users with disabilities
+    d) It improves the loading speed of web pages
+
+
+
+
+
+
+
+
+
+
+1. b) Stops event propagation to parent elements
+2. a) Target element to root element
+3. a) `event.type`
+
+
+
+4. b) Reduces the number of event listeners
+5. c) Modifying CSS classes
+
+
+
+6. c) A security vulnerability involving code injection
+7. c) Content Security Policy (CSP)
+8. d) By creating an observer instance and defining its callback
+
+
+
+9. b) Custom HTML tags with encapsulated functionality
+10. d) To improve performance in updating the actual DOM
+
+
+
+11. b) It improves rendering by loading scripts asynchronously
+12. c) `load` event fires when all resources are loaded, `DOMContentLoaded` fires when HTML is parsed
+13. c) By offloading heavy computations to separate threads
+14. c) To synchronize animations with the browser's rendering cycle
+15. c) It ensures that the website is accessible to users with disabilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// some more questions
+
+
+1. During event propagation, which phase comes first?
+   a) Bubbling phase
+   b) Capturing phase
+   c) Both phases happen simultaneously
+   d) Neither phase occurs in any specific order
+
+
+
+
+
+
+2. What is the default behavior of an event in a web browser?
+   a) Prevented by default
+   b) Propagates in both capturing and bubbling phases
+   c) Bubbles only in the capturing phase
+   d) Depends on the type of the event
+
+
+
+
+
+
+
+
+
+3. Which property of the event object provides the key code of a keyboard event?
+   a) `event.type`
+   b) `event.keyCode`
+   c) `event.target`
+   d) `event.key`
+
+
+
+
+
+
+
+4. What does the `event.preventDefault()` method do?
+   a) Stops event propagation
+   b) Prevents default browser behavior
+   c) Clears the event queue
+   d) Resets the event object
+
+
+
+
+
+
+
+
+
+5. How does using CSS transitions instead of JavaScript animations impact performance?
+   a) CSS transitions are slower
+   b) JavaScript animations are slower
+   c) Both have similar performance impact
+   d) CSS transitions are faster
+
+
+
+
+
+
+6. Why is it recommended to minimize direct manipulations of the DOM?
+   a) It improves code readability
+   b) It reduces memory usage
+   c) It enhances browser compatibility
+   d) It optimizes rendering performance
+
+
+
+
+
+
+
+
+7. What is the purpose of using the `X-Content-Type-Options` HTTP header?
+   a) To restrict content types in the DOM
+   b) To prevent MIME type sniffing
+   c) To enable cross-origin requests
+   d) To control client-side scripting
+
+
+
+
+
+
+8. How does the Same-Origin Policy contribute to web security?
+   a) It allows unrestricted access to external resources
+   b) It prevents cross-origin requests
+   c) It enforces strong password policies
+   d) It restricts access to local resources
+
+
+
+
+
+
+
+
+
+9. How can you check if a specific CSS property is supported by a browser using JavaScript?
+   a) Use the `browser.supports()` method
+   b) Use the `window.compatibility` object
+   c) Check the `document.stylesheets` array
+   d) Use feature detection with JavaScript
+
+
+
+
+
+
+
+10. What is the purpose of the `window.navigator` object?
+    a) To manage browser history
+    b) To manipulate the DOM
+    c) To provide information about the user's browser and operating system
+    d) To control JavaScript execution
+
+
+
+
+
+
+
+
+
+
+
+
+answers
+
+1. b) Capturing phase
+2. b) Propagates in both capturing and bubbling phases
+
+
+
+3. b) `event.keyCode`
+4. b) Prevents default browser behavior
+
+
+
+5. d) CSS transitions are faster
+6. d) It optimizes rendering performance
+
+
+
+7. b) To prevent MIME type sniffing
+8. b) It prevents cross-origin requests
+
+
+
+9. d) Use feature detection with JavaScript
+10. c) To provide information about the user's browser and operating system
+

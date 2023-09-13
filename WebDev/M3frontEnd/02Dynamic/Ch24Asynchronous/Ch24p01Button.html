@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01</title>
+
+    <style>
+        body {
+            background-color: rgba(143, 143, 134, 0.595);
+        }
+
+        h1 {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        div {
+            padding: 10px;
+            margin: 20px 20px 50px 20px;
+            background-color: aqua;
+        }
+
+        button {
+            padding: 15px;
+            margin: 20px;
+            margin-top: 50px;
+            background-color: black;
+            color: aqua;
+            border-radius: 7px;
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Project using callback & promises with event listener</h1>
+
+    <button id="btnCall"> 01. Click Me - I am using callback</button>
+    <div id="divCall"></div>
+
+    <button id="btnPro">02. Click Me - I am using promises</button>
+    <div id="divPro"></div>
+
+    <div>Thank You </div>
+
+
+
+
+
+
+    <script>
+
+
+
+
+        // 01.
+        // Using callback
+
+        function myFetchDataCall(myCallBack) {
+
+            setTimeout(() => {
+                const data = { message: "Hello World " };
+                myCallBack(data);
+
+            }, 500);
+        }
+
+
+        function myDisplayCall(data) {
+            const newP = document.createElement('p');
+            newP.textContent = data.message;
+
+            document.getElementById('divCall').appendChild(newP);
+        }
+
+ 
+
+        document.getElementById('btnCall').addEventListener('click', function () {
+            myFetchDataCall(myDisplayCall); // calling after button click
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // 02.
+        // using promises & Promises chaining 
+
+        function myFetchDataPro() {
+
+            return new Promise((resolve, reject) => {
+
+                setTimeout(() => {
+
+                    let data = { message: "Namastey World" };
+
+                    resolve(data);
+                    reject(new Error("failed to load"));
+
+                }, 500);
+
+            })
+
+        }
+
+
+
+        function myDisplayPro(data) {
+            const newP = document.createElement('p');
+            newP.textContent = data.message;
+
+            document.getElementById('divPro').appendChild(newP);
+        }
+
+
+
+        document.getElementById('btnPro').addEventListener('click', function () {
+
+            myFetchDataPro().then((data) => {
+                myDisplayPro(data);
+                return myFetchDataPro();
+
+            }).then((data) => {
+                const newP = document.createElement('p');
+                newP.textContent = data.message.toUpperCase();
+                document.getElementById('divPro').appendChild(newP);
+                return myFetchDataPro();
+
+            }).catch((error) => {
+                myDisplayPro(error);
+            });
+
+        })
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

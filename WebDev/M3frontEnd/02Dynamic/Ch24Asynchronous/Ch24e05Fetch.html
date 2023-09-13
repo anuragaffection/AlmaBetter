@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch api</title>
+
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <h1>Task News</h1>
+
+    <div id="news_feed"> </div>
+
+
+
+    <script>
+
+        // response we are getting is not directly iterable, 
+
+
+        fetch('https://dummyjson.com/products')
+            .then(response => response.json())
+            .then(data => {
+
+                let productsArray = data.products;
+
+                for (let item of productsArray){
+                    
+                    const newP = document.createElement('p');
+                    newP.textContent = item.title + " = " + item.price + "$";
+
+                    document.getElementById("news_feed").appendChild(newP);
+                }
+            })
+            .catch(error => {
+                // Handle any errors
+            });
+
+
+
+    </script>
+
+
+</body>
+
+</html>

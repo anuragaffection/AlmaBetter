@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M2 Array & String </title>
+</head>
+
+
+<body>
+
+    <h3 id="note"></h3>
+
+    <h3 id="iG">Initial Grades </h3>
+
+    <h3 id="gradesAt3">Grades at third position  </h3>
+
+    <h3 id="gradesAt4">Replacing Grades at fourth position by User Inputted Grades </h3>
+    <button onclick="activatePrompt()"> Enter Grades </button>
+
+    <h3 id="gradesAtLast">Modifying Grades by adding one more grade at the end of array </h3>
+    <button onclick="activatePrompt1()"> Enter Grades </button>
+
+
+    <script>
+
+        let grades = [85, 92, 78, 95, 88];
+        let fourth;
+        let last;
+
+        function activatePrompt (){
+            fourth = parseInt(prompt("Enter Grades to be displayed at fourth Position"));
+
+            if (!isNaN(fourth)){
+                grades[3] = fourth;
+                document.getElementById("gradesAt4").innerText ="fourth grades is updated = " + grades;
+                document.getElementById("note").innerHTML = "";
+            }
+            else {
+                document.getElementById("note").innerHTML = "Invalid Input ";
+            }
+        }
+
+        function activatePrompt1 (){
+            last = parseInt(prompt('Enter Grades to be displayed at last of any array  '));
+
+            if (!isNaN(fourth)){
+                grades[5] = last;
+                document.getElementById("gradesAtLast").innerText =" Final Grades = " +  grades;
+                document.getElementById("note").innerHTML = "";
+            }
+            else {
+                document.getElementById("note").innerHTML = "Invalid Input ";
+            } 
+        }
+
+        
+        document.getElementById("iG").innerHTML = " Original Grades = " + grades;
+        document.getElementById("gradesAt3").innerHTML = " Grade at third position = " + grades[2];
+        
+
+
+    </script>
+    
+</body>
+
+</html>

@@ -1,5 +1,5 @@
-import Slider from '@/app/components/Slider'
-import Image from 'next/image'
+
+
 
 export default function Home (){
   return (

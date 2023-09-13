@@ -1,0 +1,51 @@
+
+h1{
+    background-color: aqua;
+    border: 3px solid brown;
+    border-radius: 5px;
+    width: 450px;
+    height: 80px;
+}
+
+
+/* Why the applying height and width not working on span tag  */
+span{
+    background-color: aquamarine;
+    border: 3px solid brown;
+    border-radius: 5px;
+    height: 100px;
+    width: 450px;
+}
+
+
+.firstPara{
+    background-color: bisque;
+    border: 3px solid blue;
+    border-top-left-radius: 10px;
+    width: 450px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.secondPara{
+    background-color: azure;
+    border: 3px solid brown;
+    border-radius: 5px;
+    width: 450px;
+    height: 100px;
+    padding: 20px 10px;
+    margin: 30px;
+}
+
+
+.thirdPara{
+    background-color: yellow;
+    border: 3px solid brown;
+    border-radius: 5px;
+    width: 450px;
+    height: 150px;
+    padding: 20px 15px 10px 25px;
+    margin: 10px 10px 15px 30px;
+}

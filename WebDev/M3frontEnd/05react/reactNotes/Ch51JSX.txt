@@ -1,0 +1,28 @@
+01. Introduction to react
+02. How to work with react 
+03. JSX
+04. Import in react 
+05. Export in React 
+06. Babel 
+07. Virtual Dom 
+
+
+
+
+
+
+Project link
+
+
+https://github.com/Mohammad-Eshtaiwi/react_tutorial
+https://github.com/sagar-barapatre/react-tutorial
+https://github.com/Rajesh-Keshri/React_Tutorials
+
+
+https://youtu.be/CW9yeMReJEE?si=AWfNPBs3ZEmJRM2C
+
+
+https://dev.to/devwares/10-awesome-projects-built-with-tailwind-css-4mmf
+
+
+https://contactmentor.com/best-react-projects-for-beginners-easy/?expand_article=1

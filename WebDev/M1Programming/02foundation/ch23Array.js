@@ -1,7 +1,7 @@
 //
 //  arrays 
 //  
-//  string - is moved to another module (Module 02 , chapter 01)
+//  string - is moved to another module (Module 02 , chapter 01, )
 //  
 
 
@@ -247,6 +247,8 @@ index
 for...of 
 for...in 
 
+forEach
+
 */
 
 
@@ -331,20 +333,20 @@ console.log(myarray);
 // splice(startingIndex, deleteCount, ItemsToAdd)
 // affect orginal array 
 
-console.log("12. splice");
+console.log("12. ---- splice------");
 console.log(myarray);
 
-console.log("splice with one parameter ");
+console.log(" --- splice with one parameter-------- ");
 let splicedPart = myarray.splice(5);
-console.log(splicedPart);
+console.log('sliced part', splicedPart);
 console.log(myarray);
 
-console.log("splice with two parameter ");
+console.log("----- splice with two parameter------- ");
 let splicedPart1 = myarray.splice(2, 0);
 console.log(splicedPart1);
 console.log(myarray);
 
-console.log("splice with multiple parameter ");
+console.log("------ splice with multiple parameter-----------");
 let splicedPart2 = myarray.splice(3, 2, "Hello", undefined, "world", null);
 console.log(splicedPart2);
 console.log(myarray);
@@ -359,6 +361,8 @@ console.log(myarray);
 // lastIndexOf
 // includes 
 
+console.log('13. --------- index of -------')
+
 console.log(myarray);
 
 myarray[2] = 345;
@@ -367,7 +371,7 @@ myarray[7] = 345;
 
 console.log(myarray);
 
-console.log("IndexOf - provides first index of an elements  ");
+console.log("IndexOf - provides first index of an elements  = ");
 console.log(myarray.indexOf(345));
 
 console.log("lastIndexOf - provides last index of an elements ");
@@ -401,18 +405,20 @@ let foundElement4 = myarray.find((num) => num > 300);
 let foundElement5 = myarray.find(num => num > 300);
 
 
-console.log(foundElement);
-console.log(foundElement1);
-console.log(foundElement2);
-console.log(foundElement3);
-console.log(foundElement4);
-console.log(foundElement5);
+console.log('--- 0----', foundElement);
+console.log('----1----', foundElement1);
+console.log('----2----', foundElement2);
+console.log('----3----', foundElement3);
+console.log('----4----', foundElement4);
+console.log('----5----', foundElement5);
 
 
 
 let found = myarray.find(function finding(num) {
     return num > 20;
 })
+console.log(found);
+
 
 
 let finding = function (num) {
@@ -420,7 +426,6 @@ let finding = function (num) {
 }
 let found1 = myarray.find(finding);
 
-console.log(found);
 console.log(found1);
 
 
@@ -510,7 +515,7 @@ console.log(reduced2);
 
 // 18.
 // concat()
-console.log('concat');
+console.log('18. ------ concat------');
 
 var array1 = ['a', 'b'];
 let array2 = ["c", "d"];
@@ -524,7 +529,7 @@ console.log(array3);
 
 
 // 19.
-console.log("19. join")
+console.log("19. -------- join-------");
 
 let strArray = ["a", "b", "c", "d"];
 
@@ -545,7 +550,7 @@ console.log(strArray);
 
 
 // 20.
-console.log('reverse');
+console.log('20. ------- reverse------ ');
 let reversed = [4567, "hello"].reverse();
 console.log(reversed);
 
@@ -554,7 +559,7 @@ console.log(reversed);
 
 
 // 21. 
-console.log("21. sort");
+console.log("21. ------- sort-------");
 let numbers = [1, 200, 60, 80, 400];
 
 let sorted = numbers.sort((x, y) => x - y);
@@ -581,12 +586,12 @@ console.log("21. flat")
 
 let array7 = [6, 7, 8, [9, 10, 11, [2, 3, 5,]]];
 let arrayFlated = array7.flat(2);
-console.log("array 7", arrayFlated);
-console.log("array 7 (3)", array7.flat(3));
+console.log("array 7==== ", arrayFlated);
+console.log("array 7 (3) ==== ", array7.flat(3));
 
 
 let array8 = [6, 7, 8, [9, 2, 3], [6, 8, 9]];
-console.log('flat(1)',array8.flat(1));
+console.log('flat(1) ==== ',array8.flat(1));
 console.log(array8.flat(2));
 
 

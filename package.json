@@ -1,7 +1,7 @@
 {
-  "name": "almabetterprojects",
+  "name": "fullstacknotes",
   "version": "1.0.0",
-  "description": "ComputerProgramming",
+  "description": "Computer Programming & Problem Solving",
   "main": "index.js",
   "scripts": {
     "test": "anu"
@@ -9,6 +9,6 @@
   "keywords": [
     "anurag"
   ],
-  "author": "anuragAffection",
+  "author": "AnuragAffection",
   "license": "ISC"
 }

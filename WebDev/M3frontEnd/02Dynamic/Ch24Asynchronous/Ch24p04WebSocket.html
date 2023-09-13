@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>WebSocket and AJAX Example</title>
+    </head>
+
+
+
+    <body>
+
+        <h1>WebSocket and AJAX Example</h1>
+
+        <button id="fetchButton">Fetch Data</button>
+
+
+
+        <script>
+            // WebSocket implementation
+            var socket = new WebSocket('wss://example.com/socket');
+
+            socket.onopen = function (event) {
+                console.log('WebSocket connection established.');
+            };
+
+            socket.onmessage = function (event) {
+                var message = event.data;
+                console.log('Received message: ' + message);
+                // Process the received message
+            };
+
+            socket.onclose = function (event) {
+                console.log('WebSocket connection closed.');
+            };
+
+
+
+            // AJAX implementation
+            function fetchData() {
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function () {
+
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+
+                        if (xhr.status === 200) {
+
+                            var response = JSON.parse(xhr.responseText);
+                            console.log('Received data: ', response);
+                            // Process the received data
+
+                        } 
+                        else {
+                            console.log('Error: ' + xhr.status);
+                        }
+                    }
+                };
+                
+                xhr.open('GET', 'https://example.com/data', true);
+                xhr.send();
+            }
+
+            // Trigger AJAX request on button click
+            document.getElementById('fetchButton').addEventListener('click', function () {
+                fetchData();
+            });
+
+
+
+
+        </script>
+    </body>
+
+    </html>

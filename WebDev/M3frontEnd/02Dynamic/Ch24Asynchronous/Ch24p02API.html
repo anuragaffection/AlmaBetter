@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 02 API</title>
+    <style>
+        h1 {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        div {
+            padding: 15px;
+            margin: 20px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h1>Project 02 - API calling </h1>
+    <div id="myDiv"></div>
+
+
+
+    <script>
+
+
+
+
+        async function myFetchData() {
+            try {
+                const response = await fetch('https://dummyjson.com/products');
+
+                if (!response.ok) {
+                    throw new Error(`${response}`);
+                }
+                const data = await response.json();
+                return data;
+            }
+            catch (error) {
+                throw new Error(`Error api ${error.message}`); // .message is predefined 
+
+            }
+        }
+
+
+
+        function myDisplay(data) {
+            const productsArray = data.products; // coming from Dummy Api;
+
+            for (let item of productsArray) {
+
+                let productTitle = document.createElement('h2');
+                let productPrice = document.createElement('h3');
+                let productDes = document.createElement('p');
+
+                productTitle.textContent = item.id + " . " + "  " + item.title;
+                productPrice.textContent = "$" + " " + item.price;
+                productDes.textContent = item.description;
+
+                let productDiv = document.createElement('div');
+                productDiv.style.backgroundColor = "aqua"
+
+                productDiv.appendChild(productTitle);
+                productDiv.appendChild(productPrice);
+                productDiv.appendChild(productDes);
+
+                document.getElementById('myDiv').appendChild(productDiv);
+            }
+
+
+        }
+
+
+        function myDisplayError(error) {
+            const errorPara = document.createElement('p');
+            errorPara.style.color = 'red';
+            errorPara.textContent = error;
+
+            document.getElementById('myDiv').appendChild(errorPara);
+        }
+
+
+
+        async function myFetchAndDisplay() {
+            try {
+                const data = await myFetchData();
+                myDisplay(data);
+            }
+            catch (error) {
+                myDisplayError(error);
+
+            }
+        }
+
+
+
+
+        myFetchAndDisplay();
+
+
+
+    </script>
+
+</body>
+
+</html>

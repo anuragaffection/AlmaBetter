@@ -1,0 +1,83 @@
+
+Rounting & Handling Event
+
+
+-- BrowserRouter 
+-- Route 
+-- Switch 
+-- Link 
+-- React Synthetic Event System
+
+
+
+
+
+
+01. Introduction to routing
+02. How to route to other components 
+03. Types of Routes 
+04. Handling Events 
+
+
+
+
+
+
+01. Introduction to routing
+-- need of react router 
+-- react router installation 
+-- how to set up react router 
+
+
+
+
+
+02. How to route to other components
+-- using normal or traditional method
+-- using Link & NavLink
+
+
+
+
+
+03. Types of routes 
+-- Nested routes 
+-- outlet 
+-- index routes 
+-- Not found routes 
+
+
+
+
+04. Handling events in react
+-- Event handlers
+-- Event binding
+-- Event handler function 
+-- Event object 
+-- Preventing Default behavior 
+-- Event Propagation & Bubbling 
+
+
+
+
+
+
+
+
+
+
+
+01. Introduction to routing
+
+a. need of react router
+-- used to display multiple view in single page 
+
+b. react router installation 
+-- first switch to your application 
+-- npm install react-router-dom
+
+
+c. how to set up react router 
+-- BrowserRouter
+-- Route 
+-- Link 

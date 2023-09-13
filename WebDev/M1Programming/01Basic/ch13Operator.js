@@ -119,12 +119,17 @@ console.log(g);         // 18
 
 // 03.
 // comparsion operators 
+
 console.log("Comparison Operators ");
 let h = 10;
 let i = "I";
 let j = "10";
 let k = 55;
 
+
+
+// let h = 10;
+// let k = 55;
 console.log(h > k);  //false
 console.log(h < k);  // true
 console.log(h >= k); // false
@@ -134,6 +139,10 @@ console.log(h === k); // false
 console.log(h != k);  // true
 console.log(h !== k); // true
 
+
+
+// let h = 10;
+// let j = "10";
 console.log("Playing with Comparison Operators")
 console.log(h > j);   // false
 console.log(h < j);   // false
@@ -144,6 +153,10 @@ console.log(h === j); // false
 console.log(h != j);  // false
 console.log(h !== j); // true
 
+
+
+// let h = 10;
+// let i = "I";
 console.log("Going extreme with Comparison Operators.")
 console.log(h > i);   // f
 console.log(h < i);   // f

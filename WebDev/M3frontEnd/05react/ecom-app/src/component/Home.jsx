@@ -1,14 +1,17 @@
 import React from "react";
-import img from "../assets/bg.jpg";
+
+import Products from "./Products";
 
 
 
-const Home = () => {
+
+
+const Home = ({ img }) => {
 
     return (
 
         <div className="hero">
-            
+
             <div className="card bg-dark text-white border-0">
 
                 <img
@@ -23,6 +26,7 @@ const Home = () => {
                     <div className="container">
 
                         <h5
+                            data-testid='home'
                             className="card-title display-3 fw-bolder mb-0">
                             NEW SEASON ARRIVALS
                         </h5>
@@ -36,6 +40,9 @@ const Home = () => {
                 </div>
 
             </div>
+
+
+            <Products/>
 
         </div>
     )

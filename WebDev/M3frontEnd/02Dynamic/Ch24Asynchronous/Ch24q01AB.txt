@@ -1,0 +1,294 @@
+1
+How do callback functions help in avoiding blocking code in JavaScript?
+
+By executing the callback function
+
+immediately without waiting
+
+By pausing the execution of code until the callback function is finished
+
+By executing the callback function asynchronously, allowing other code to run
+
+By throwing an error if the callback function takes too long to execute
+
+
+
+
+
+
+
+
+2.
+Which of the following statements about Promises is true?
+
+Promises are synchronous and block the execution of JavaScript code.
+
+Promises can only handle successful
+
+operations and cannot handle errors.
+
+Promises have three states: pending, fulfilled, and rejected.
+
+Promises can only be used with network requests and cannot be applied to other asynchronous tasks.
+
+
+
+
+
+
+
+
+3.
+What is the main purpose of parallel asynchronous operations in JavaScript?
+
+To execute multiple tasks concurrently and improve performance.
+
+To ensure that only one event is triggered
+
+within a specified time window.
+
+To limit the rate at which a particular
+
+action or event can occur.
+
+To handle rapid event triggers and prevent multiple event triggers for a single user action.
+
+
+
+
+
+
+
+
+
+4.
+What is Promise chaining in JavaScript?
+
+Connecting multiple Promises together to perform a series of asynchronous operations sequentially.
+
+Wrapping synchronous operations in
+
+Promises.
+
+Handling multiple errors in a single
+
+Promise.
+
+Transforming synchronous functions into asynchronous functions.
+
+
+
+
+
+
+
+
+
+05.
+Which technique is best suited for optimizing network requests by executing them in parallel?
+
+Parallel asynchronous operations
+
+Throttling
+
+Debouncing
+
+Event looping
+
+
+
+
+
+
+
+
+06.
+Which higher-order function in JavaScript commonly uses callback functions?
+
+setTimeout()
+
+forEach()
+
+sort()
+
+parseInt()
+
+
+
+
+
+
+
+07.
+What is a potential drawback of using nested callback functions?
+
+Callback hell or the pyramid of doom
+
+Inability to handle asynchronous
+
+operations
+
+Increased memory usage
+
+Slower execution speed
+
+
+
+
+
+
+
+08.
+Which event is fired when a WebSocket connection is successfully established?
+
+onopen
+
+onmessage
+
+onerror
+
+onclose
+
+
+
+
+
+
+09.
+Which of the following is a common use case for callback functions in JavaScript?
+
+Handling errors in synchronous code
+
+Declaring variables and constants
+
+Making AJAX requests
+
+Defining classes and objects
+
+
+
+
+
+
+
+10.
+Which method is used to make HTTP requests and handle responses in JavaScript?
+
+fetch()
+
+get()
+
+request()
+
+send()
+
+
+
+
+
+
+
+
+
+01
+By executing the callback function asynchronously, allowing other code to run
+
+JavaScript is single-threaded, meaning it can only execute one task at a time. If a function takes a long time to execute, it can block the execution of other code. By using a callback function and executing it asynchronously, other code can continue running while the callback function is being processed, avoiding blocking and improving overall performance.
+
+
+
+
+
+02.
+Promises have three states:
+
+pending, fulfilled, and rejected.
+
+Promises have three distinct states: pending, when the asynchronous operation is still in progress; fulfilled, when the operation is successful and a value is available; and rejected, when an error occurs during the operation.
+
+
+
+
+
+
+03.
+To execute multiple tasks concurrently and improve performance.
+
+Parallel asynchronous operations allow multiple tasks or operations to be executed concurrently, without blocking the main thread. This can lead to improved performance and responsiveness in applications.
+
+
+
+
+
+
+04.
+Connecting multiple Promises together to perform a series of asynchronous operations sequentially.
+
+Promise chaining allows you to connect multiple Promises together, one after the other, to perform a series of asynchronous operations sequentially. The result of one Promise can be passed to the next Promise, allowing you to control the flow of asynchronous task
+
+
+
+
+
+
+05.
+Parallel asynchronous operations
+
+Parallel asynchronous operations are commonly used for executing tasks concurrently, including network requests. By executing network requests in parallel, the overall performance and efficiency of the application can be improved.
+
+
+
+
+
+
+06.
+forEach()
+
+The forEach() function in JavaScript is a higher-order function that typically takes a callback function as an argument. The callback function is executed for each element in an array, allowing you to perform some operation on each element.
+
+
+
+
+
+
+
+07.
+Callback hell or the pyramid of doom
+
+ Nested callback functions can lead to a situation called "callback hell" or the "pyramid of doom." It occurs when multiple asynchronous operations are chained together with nested callbacks, resulting in code that is difficult to read, maintain, and debug. This drawback can be mitigated by using techniques like promises or async/await.
+
+
+
+
+
+
+
+08.
+onopen
+
+ The "onopen" event is fired when a WebSocket connection is successfully established between the client and the server. It indicates that the connection is ready to send and receive data.
+
+
+
+
+
+09.
+
+
+Making AJAX requests
+
+
+
+ Callback functions are commonly used in JavaScript for handling asynchronous operations, such as making AJAX requests to fetch data from a server. The callback function is executed when the response is received or when an error occurs during the request.
+
+
+
+
+
+
+
+10.
+fetch()
+
+
+ The "fetch()" method is used to make HTTP requests and handle responses in JavaScript. It is a modern API introduced in ES6 that provides a more powerful and flexible way to work with network requests. It returns a promise that resolves to the Response object representing the response to the request.

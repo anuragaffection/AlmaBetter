@@ -1,0 +1,11 @@
+Sate Management & Optimisation 
+
+1. Local State 
+2. Props Drilling
+3. Resolving prop drilling by using context api
+4. Optimizing React apps
+-- useMemo hooks
+-- useCallback hook
+5. Throttling 
+6. Debouncing 
+7. Code Splitting using React.Lazy & suspense

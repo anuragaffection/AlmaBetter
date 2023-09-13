@@ -1,0 +1,75 @@
+*{
+    color: #ffffff;
+}
+
+
+
+
+
+/* 01. Css grid  */
+
+.grid-container {
+    display: grid;
+    gap: 5px;
+
+    /* 
+       grid-template-columns    -- giving colums 
+       
+       grid-template-columns: auto;
+       grid-template-columns: auto auto;
+       grid-template-columns: auto auto auto;
+
+    
+    */
+
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+.grid-items {
+    background-color: rgb(64, 64, 59);
+    border: solid black thin;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.items1 {
+    /* 
+       grid-column 1 / span 3
+
+       here 
+       1 = first column 
+       span 3 = taking 3 column
+    
+    */
+    grid-column: 1 / span 3;
+}
+
+
+
+.items3 {
+    /* 
+       grid-column: 2 / span 2;
+
+       2 = second column 
+       span 2 = taking 2 column 
+    
+    */
+    grid-column: 2 / span 2;
+    grid-row:  2 / span 2 ;
+    
+}
+
+
+
+.items6 {
+    grid-column: 2 ;
+    grid-row: 4 / span 2;
+}

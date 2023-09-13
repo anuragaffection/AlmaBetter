@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task News </title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+    <style>
+        h1 {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div {
+            background-color: aqua;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $.ajax({
+                url: 'Ch23tNewsData.json',
+                method: 'GET',
+                dataType: 'json',
+
+                success: function (response) {
+
+                    for (const item of response) {
+
+                        const title = $('<h3>').text(item.title);
+                        const description = $('<p>').text(item.description).hide();
+                        const link = $('<a>').attr('href', '#').text('Read More');
+
+
+                        const itemDiv = $('<div>').addClass('itemDivClass');
+                        itemDiv.append(title, description, link);
+
+                        $('#news_feed').append(itemDiv);
+
+                    }
+
+                    $(".itemDivClass").click(function () {
+                        const description = $(this).find("p");
+                        description.slideToggle();
+                        // slideToggle = if already up, then it will do down & vice versa
+                    });
+
+                },
+
+                error: function (err) {
+                    alert('error');
+                }
+            })
+
+
+
+        })
+
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <h1>Task News</h1>
+
+    <div id="news_feed"> </div>
+
+</body>
+
+</html>

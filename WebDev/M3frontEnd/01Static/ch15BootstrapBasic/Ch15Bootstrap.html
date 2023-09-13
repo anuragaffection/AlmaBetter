@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- 
+        we have two pre defined files
+
+        bootstrap.css
+        bootstrap.js
+    
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Ch15Bootstrap.css">
+</head>
+
+
+<body>
+
+    <!-- 
+        bootstrap vs tailwind css
+        --- bootstrap is framework while tailwind css is a library
+
+
+        container vs container-fluid 
+        --- container fixed width according to scrren size - leave margin
+        --- container-fluid == takes full width of screen size
+
+
+        row 
+        -- arrange in row 
+
+
+        col 
+        -- arrange in col 
+        -- also used to give col space according to screen by auto (bootstrap itself handle the col )
+
+        col-md-4 
+        -- we are giving col space according to screen 
+
+        grid
+        -- this row & col are part of grid (for more checkout w3schol)
+
+        
+
+    -->
+
+
+    <header>
+        <nav>
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2"
+                role="tablist"
+                style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button"
+                        role="tab" aria-selected="true">
+                        Home
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
+                        aria-selected="false">
+                        Profile
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
+                        aria-selected="false">
+                        Contact
+                    </button>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <div>
+            <li> 01. Introduction and Setup</li>
+            <li> 02. Container vs Container-fluid </li>
+            <li> 03. Navigation & navs </li>
+            <li> 04. Buttons </li>
+            <li> 05. Typography </li>
+            <li> 06. Colors </li>
+            <li> 07. Margin & padding </li>
+            <li> 08. Columns </li>
+            <li> 09. flex layout </li>
+            <li> 10. Utilities </li>
+        </div>
+
+
+        <fieldset>
+            <legend> 01. Introduction & Setup</legend>
+
+            <details>
+                <summary>Find More </summary>
+                <ul>
+                    <li>Modals</li>
+                    <li>DropDowns</li>
+                    <li>Carousels</li>
+                    <li>Tooltips</li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary>Two ways to use bootstrap </summary>
+                <li>01. by installing package </li>
+                <li>02. by CDN</li>
+                CDN is faster
+            </details>
+
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend> 02. container vs Container-fluid</legend>
+
+            <ul>
+                <li>container is a responsive grid </li>
+                <li>use .row for row </li>
+                <li>use .col-* for column</li>
+            </ul>
+
+            <details>
+                <summary>container </summary>
+                <li>used to wrap </li>
+                <li>center the content</li>
+                <li>fixed maximum width </li>
+                <li>height are not fixed </li>
+                <li>container does not take entire width of viewport </li>
+                <div class="container">
+                    <h3 class="text-primary">
+                        container does not take entire width of view port.
+                        Welcome to Anurag Affection.
+                        Welcome to Hello World
+                    </h3>
+                </div>
+            </details>
+
+
+            <details>
+                <summary>container-fluid</summary>
+                <div class="container-fluid">
+                    <h3 class="text-primary">
+                        container-fluid will take entire width of viewport, remaining property is same as container
+                    </h3>
+                </div>
+            </details>
+
+
+
+            <!-- 
+               here
+        
+               container,
+               container-fluid,
+               text-primary 
+
+               all these are predefined in bootstrap
+            -->
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend> 03. Navigation & nav</legend>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <a class="navbar-brand" href="#">Logo</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+            <ul class="nav nav-tabs">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Tab 1</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tab 2</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tab 3</a>
+                </li>
+
+            </ul>
+
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend>04. Button </legend>
+
+            <details>
+                <summary>Default</summary>
+                .btn
+            </details>
+
+            <details>
+                <summary>button Color</summary>
+                .btn-primary, .btn-success, .btn-dark, .btn-info, .btn-warning, .btn-light, .btn-danger
+            </details>
+
+            <details>
+                <summary>button size</summary>
+                .btn-lg, .btn-sm, .btn-block
+            </details>
+
+            <details>
+                <summary>button state</summary>
+                active, disabled,
+                <div>
+                    .active, .disabled, .spinner-border, .spinner-grow
+                </div>
+            </details>
+
+            <details>
+                <summary>What is role & aria-label</summary>
+            </details>
+
+
+            <div class="btn-group" role="group" aria-label="Button group">
+                <button class="btn btn-primary active"> Primary Button </button>
+
+                <button class="btn btn-primary"> Primary Button </button>
+
+                <button class="btn btn-outline-primary"> Outline Primary </button>
+
+
+                <button class="btn btn-secondary">Secondary Button </button>
+
+                <button class="btn btn-success active"> Success Button </button>
+
+                <button class="btn btn-success btn-lg"> Success Button </button>
+
+            </div>
+
+
+
+            <button class="btn btn-lg btn-primary">Large Primary Button </button>
+
+            <input type="button" value=" Button" class="btn btn-sm btn-primary disabled">
+
+            <input type="button" value="Button Block" class="btn btn-block btn-primary">
+
+            <input type="button" value=" Button " class="btn btn-primary .spinner-grow">
+
+        </fieldset>
+
+
+
+
+
+        <fieldset>
+            <legend>05. Typography</legend>
+
+            <div class="m-3">
+                <details>
+                    <summary>font weight</summary>
+                    .fw-light .fw-lighter .fw-normal .fw-bold .fw-bolder
+                </details>
+
+                <div>
+                    <p class="fw-lighter">fw-bold == This text is lighter.</p>
+                    <p class="fw-light">fw-light == This text is light.</p>
+                    <p class="fw-bold">fw-bold == This text is bold.</p>
+                    <p class="fw-bolder">fw-bolder == This text is bolder .</p>
+                </div>
+            </div>
+
+
+            <div class="p-3 bg-info">
+                <details>
+                    <summary>Heading</summary>
+                    .h1 .h2 .h3 .h4 .h5 .h6
+                </details>
+                <div>
+                    <h1 class="h1"> h1 === Heading 1</h1>
+                    <h2 class="h2"> h2 === Heading 2</h2>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="container">
+                    <h1 class="text-primary">text-primary == Primary Color Text</h1>
+                    <h2 class="text-secondary">text-secondary == Secondary Color Text</h2>
+                    <p class="text-success">text-success == Success Color Text</p>
+                    <p class="text-danger">text-danger == Danger Color Text</p>
+                    <p class="text-warning">text-warning == Warning Color Text</p>
+                    <p class="text-info">text-info == Info Color Text</p>
+                    <p class="text-light bg-dark">text-light && bg-dark == Light Color Text</p>
+                    <p class="text-dark">Dark Color Text</p>
+                    <p class="text-muted">Muted Color Text</p>
+                    <p class="lead"> lead == This is a prominent and emphasized text.</p>
+                </div>
+            </div>
+
+
+
+            <div class="p-3 bg-info">
+                <details>
+                    <summary>display</summary>
+                    range from 1 to 4
+                    <div>
+                        display-1, display-2, display-3, display-4
+                    </div>
+                </details>
+
+                <div>
+                    <h1 class="display-1">display-1 == Heading 1</h1>
+                    <h2 class="display-2">display-2 == Heading 2</h2>
+                </div>
+            </div>
+
+
+
+            <div class="m-3">
+                <details>
+                    <summary>paragraph</summary>
+                    .lead .text-justify .text-nowrap
+                </details>
+                <div>
+                    <p class="lead">lead == This is a lead paragraph with larger font size.</p>
+                    <p class="text-justify"> text-justify == This text is justified and evenly spread across the
+                        container.
+                    </p>
+                    <p class="text-nowrap">text-nowrap == This text will not wrap onto a new line.</p>
+                </div>
+            </div>
+
+
+            <div class="bg-info p-2">
+                <p class="text-start">Start aligned text on all viewport sizes.</p>
+                <p class="text-center">Center aligned text on all viewport sizes.</p>
+                <p class="text-end">End aligned text on all viewport sizes.</p>
+
+                <div class="float-start">Float start on all viewport sizes</div><br>
+                <div class="float-end">Float end on all viewport sizes</div><br>
+                <div class="float-none">Don't float on all viewport sizes</div>
+            </div>
+
+
+
+
+
+
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend>06. Color</legend>
+
+            <!-- why the text is getting style, we only provided background color  -->
+            <div class="container p-3">
+                <h1 class="bg-primary p-3">Primary Color background</h1>
+                <h2 class="bg-secondary p-3">Secondary Color background</h2>
+                <p class="bg-success p-3">Success Color background</p>
+                <p class="bg-danger p-3">Danger Color background</p>
+                <p class="bg-warning p-3">Warning Color background</p>
+                <p class="bg-info p-3">Info Color background</p>
+                <p class="bg-light p-3">Light Color background</p>
+                <p class="bg-dark text-info p-3">Dark Color background</p>
+                <p class="bg-muted p-3">Muted Color background</p>
+            </div>
+
+        </fieldset>
+
+
+
+
+
+        <fieldset>
+            <legend>07. margin & padding </legend>
+
+            <div>
+
+                <!-- 
+                m === margin 
+                p === padding
+
+                t === top
+                b === bottom
+                s === start 
+                e === end
+
+                x === horizontal 
+                y === vertical 
+
+                mx === margin horizontal
+                my === margin vertical 
+              -->
+
+
+
+                <!-- 
+                size 
+
+                0 
+                1 
+                2
+                3
+                4
+                5
+                auto 
+
+                these works relative , so read it again 
+
+              -->
+
+                <div class="m-3 bg-info">
+                    <p>This is a div with margin applied to all sides.</p>
+                </div>
+
+                <div class="mx-2 bg-info">
+                    <p>This is a div with horizontal margin applied (left and right).</p>
+                </div>
+
+                <div class="my-4 bg-info">
+                    <p>This is a div with vertical margin applied (top and bottom).</p>
+                </div>
+
+
+                <div class="ms-4 bg-info">
+                    <p>This is a div with start margin .</p>
+                </div>
+
+            </div>
+
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend>08. Columns </legend>
+
+
+            <div class="container">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <!-- 
+                           note 
+
+                           sm  = small device = mobile landscape 
+                           md  = medium device = tablet 
+                           lg  = large device  = desktop
+                           xl  = extra large   =  extra large desktop 
+                           xxl = extra extra large == 
+                        -->
+
+
+                        <!-- 
+                            concept 
+
+                            col works relative  to parent space 
+
+                            col-sm-7 means if device is greater than sm(small) it will take col-7
+
+                            col-md-2 means if device is greater than m(medium) it will take col-2
+
+                            if we run this code on device whose width is smaller than sm(small) then it will take entire width of device 
+                        -->
+
+                        <div class="col-sm-7 col-md-2">
+                            column1
+                        </div>
+
+                        <div class="col-sm-5 col-md-10">
+                            column2
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="container">
+
+                    <div class="row bg-info">
+
+                        <div class="col-sm-6">
+                            Column 1
+                        </div>
+
+                        <div class="col-sm-6">
+
+                            <div class="row bg-warning">
+                                <div class="col-6">
+                                    Nested 1
+                                </div>
+                                <div class="col-6">
+                                    Nested 2
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend>09. flex layout </legend>
+
+            <details>
+                <summary>flex container </summary>
+                <p> d.flex </p>
+                <p></p>
+            </details>
+
+
+            <details>
+                <summary>flex direction </summary>
+
+                <div>
+                    <p>.flex-row</p>
+                    <p>.flex-column</p>
+                    <p>.flex-row-reverse</p>
+                    <p>.flex-column-reverse</p>
+                </div>
+
+                <div class="row m-2">
+                    <div class="col-4">
+                        column 1
+                    </div>
+
+                    <div class="col-8">
+                        column 2
+                    </div>
+
+                </div>
+
+                <div class="row flex-row-reverse m-2">
+                    <div class="col-4">
+                        column 1
+                    </div>
+
+                    <div class="col-8">
+                        column 2
+                    </div>
+
+                </div>
+
+
+                <div class="row flex-column-reverse m-2">
+                    <div class="col-4">
+                        column 1
+                    </div>
+
+                    <div class="col-8">
+                        column 2
+                    </div>
+
+                </div>
+
+            </details>
+
+
+            <details>
+                <summary>flex alignment </summary>
+                <p>justify-content vs align-items</p>
+                <p>justify-content = is used to align horizontally</p>
+                <p>align-items = is used to align vertically </p>
+
+                <p>justify-content = star, center, end, between, around</p>
+                <p>align-items = start, center, end</p>
+
+            </details>
+
+
+            <details>
+                <summary>flex wrapping </summary>
+                <p>flex-wrap</p>
+                <p>flex-nowwrap </p>
+                <p>flex-wrap-reverse</p>
+            </details>
+
+
+            <details>
+                <summary>example </summary>
+
+                <div class="d-flex flex-column m-3">
+
+
+                    <div class="d-flex flex-row">
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-start justify-content-start">
+                                <h5 class="card-title">Top Left</h5>
+                                <p class="card-text">align items start </p>
+                                <p class="card-text">Justify content start </p>
+                                <p class="card-text">Some more text goes here </p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-center  justify-content-start">
+                                <h5 class="card-title">Top Center</h5>
+                                <p class="card-text">align items center </p>
+                                <p class="card-text">Justify content start </p>
+                                <p class="card-text">Some more text goes here </p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column  card-body align-items-end justify-content-start">
+                                <h5 class="card-title">Top Right</h5>
+                                <p class="card-text">align items end </p>
+                                <p class="card-text">Justify content start </p>
+                                <p class="card-text">Some more text goes here </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="d-flex flex-row">
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-start justify-content-center">
+                                <h5 class="card-title"> Middle Left </h5>
+                                <p class="card-text">align items start </p>
+                                <p class="card-text">justify content center </p>
+                                <p class="card-text">Some more text goes here </p>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-center justify-content-center">
+                                <h5 class="card-title">Center </h5>
+                                <p class="card-text">align items center </p>
+                                <p class="card-text">justify content center </p>
+                                <p class="card-text">Some more text goes here </p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-end justify-content-center">
+                                <h5 class="card-title">Middle Right </h5>
+                                <p class="card-text">align items end </p>
+                                <p class="card-text">justify content center </p>
+                                <p class="card-text">Some more text goes here </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="d-flex flex-row">
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-start justify-content-end">
+                                <h5 class="card-title"> Bottom Left </h5>
+                                <p class="card-text">align items start </p>
+                                <p class="card-text">justify content end </p>
+                                <p class="card-text">Some more text goes here </p>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-center justify-content-end">
+                                <h5 class="card-title"> Bottom Center </h5>
+                                <p class="card-text">align items center </p>
+                                <p class="card-text">justify content end </p>
+                                <p class="card-text">Some more text goes here </p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="d-flex flex-column card-body align-items-end justify-content-end">
+                                <h5 class="card-title">Bottom Right </h5>
+                                <p class="card-text">align items end </p>
+                                <p class="card-text">justify content end </p>
+                                <p class="card-text">Some more text goes here </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="d-flex flex-column m-3">
+
+                    <div class="d-flex flex-row">
+
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="card-title">Top Left</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-start align-items-center">
+                                <h5 class="card-title">Center Top</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-start align-items-end">
+                                <h5 class="card-title">Top Right</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex flex-row">
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-start">
+                                <h5 class="card-title">Middle Left</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Center</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-end">
+                                <h5 class="card-title">Middle Right</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-end align-items-start">
+                                <h5 class="card-title">Bottom Left</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-end align-items-center">
+                                <h5 class="card-title">Center Bottom</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex flex-column justify-content-end align-items-end">
+                                <h5 class="card-title">Bottom Right</h5>
+                                <p class="card-text">Some text goes here.</p>
+                                <p class="card-text">Some more text goes here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </details>
+
+
+
+
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>10. Utilities</legend>
+
+            <div>
+                <div class="text-center">Centered text</div>
+
+                <div class="align-items-center d-flex" style="height: 200px; border: 1px solid #ccc;">
+
+                    <div class="align-self-start">Top-aligned item</div>
+
+                    <div class="align-self-center">Middle-aligned item</div>
+
+                    <div class="align-self-end">Bottom-aligned item</div>
+                </div>
+
+                <p>align-items-* vs align-*</p>
+            </div>
+        </fieldset>
+
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>

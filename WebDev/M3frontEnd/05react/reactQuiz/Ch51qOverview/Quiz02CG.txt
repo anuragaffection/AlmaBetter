@@ -1,0 +1,381 @@
+
+
+
+
+
+1. What is React primarily used for?
+   a. Server-side scripting
+   b. Building user interfaces
+   c. Database management
+   d. Game development
+
+
+
+
+
+
+2. React is a ________ for building user interfaces.
+   a. Framework
+   b. Language
+   c. Library
+   d. API
+
+
+
+
+
+
+3. Which feature makes React stand out for building user interfaces?
+   a. One-way data binding
+   b. Two-way data binding
+   c. No data binding
+   d. No rendering
+
+
+
+
+
+
+
+4. Which command is used to create a new React application using Create React App (CRA)?
+   a. `npm start my-app`
+   b. `create-react-app my-app`
+   c. `new-react my-app`
+   d. `start-react my-app`
+
+
+
+
+
+
+5. What method is the entry point for rendering a React component into the DOM?
+   a. `React.start()`
+   b. `ReactDOM.create()`
+   c. `ReactDOM.render()`
+   d. `React.render()`
+
+
+
+
+
+
+6. The React component lifecycle includes phases such as:
+   a. Loading, running, finishing
+   b. Mounting, updating, unmounting
+   c. Preprocessing, processing, post-processing
+   d. Initializing, rendering, cleaning up
+
+
+
+
+
+
+
+
+7. What does JSX stand for?
+   a. JavaScript XML
+   b. JavaScript Extension
+   c. JSX Script
+   d. JSON XML
+
+
+
+
+
+
+8. JSX elements are transformed into ________ before being rendered.
+   a. HTML elements
+   b. React elements
+   c. DOM elements
+   d. Virtual DOM elements
+
+
+
+
+
+
+
+9. Is it possible to write inline HTML in a JavaScript file without JSX?
+   a. Yes
+   b. No
+
+
+
+
+
+
+
+10. Which keyword is used to import a component or module in React?
+    a. `require`
+    b. `import`
+    c. `load`
+    d. `include`
+
+
+
+
+
+
+11. What is the purpose of the `import` statement in React?
+    a. To export a component
+    b. To include a stylesheet
+    c. To import external dependencies or modules
+    d. To define a React component
+
+
+
+
+
+
+
+
+12. Which keyword is used to export a component in React?
+    a. `exported`
+    b. `component`
+    c. `export`
+    d. `import`
+
+
+
+
+
+
+
+13. What is a default export in React used for?
+    a. Exporting multiple components
+    b. Exporting a single component as the default export
+    c. Importing stylesheets
+    d. Exporting variables
+
+
+
+
+
+
+
+14. What is the main purpose of Babel in React development?
+    a. Managing state
+    b. Optimizing images
+    c. Compiling modern JavaScript to older versions
+    d. Handling routing
+
+
+
+
+
+
+
+15. Babel allows developers to write modern JavaScript features and JSX syntax while ensuring compatibility with older browsers by:
+    a. Converting the code into Python
+    b. Transpiling it into compatible JavaScript
+    c. Running it through a linter
+    d. Automatically downloading polyfills
+
+
+
+
+
+
+
+16. What does Virtual DOM stand for?
+    a. Visual Document Object Model
+    b. Virtual Data Object Model
+    c. Virtual Document Object Manipulation
+    d. Virtual Document Object Model
+
+
+
+
+
+
+
+17. In React, the Virtual DOM is used primarily to:
+    a. Create virtual reality experiences
+    b. Efficiently update the actual DOM
+    c. Simulate hardware devices
+    d. Generate server-side rendering
+
+
+
+
+
+
+
+18. What is the key difference between a single-page application (SPA) and a multiple-page application (MPA)?
+    a. SPAs have only one HTML page, while MPAs have multiple HTML pages.
+    b. SPAs have no server-side code, while MPAs do.
+    c. SPAs don't use JavaScript, while MPAs rely heavily on it.
+    d. SPAs are not used for web applications.
+
+
+
+
+
+
+
+
+19. Which JavaScript framework/library is commonly used for building single-page applications?
+    a. React
+    b. Angular
+    c. Vue.js
+    d. jQuery
+
+
+
+
+
+
+
+
+20. In a multiple-page application, how does navigation typically occur between different pages?
+    a. Using JavaScript to load new HTML pages
+    b. Through server-side routing
+    c. By embedding iframes within the page
+    d. Using AJAX to fetch content dynamically
+
+
+
+
+
+Answers:
+1. b, 
+2. c, 
+3. a, 
+4. b, 
+5. c, 
+6. b, 
+7. a, 
+8. d, 
+9. b, 
+10. b, 
+11. c, 
+12. c, 
+13. b, 
+14. c, 
+15. b, 
+16. d, 
+17. b, 
+18. a, 
+19. a, 
+20. a
+
+
+
+
+
+
+
+
+
+
+
+1. What is React primarily used for?
+   - Correct Answer: b. Building user interfaces
+
+
+
+2. React is a ________ for building user interfaces.
+   - Correct Answer: c. Library
+
+
+
+3. Which feature makes React stand out for building user interfaces?
+   - Correct Answer: a. One-way data binding
+
+
+
+4. Which command is used to create a new React application using Create React App (CRA)?
+   - Correct Answer: b. `create-react-app my-app`
+
+
+
+5. What method is the entry point for rendering a React component into the DOM?
+   - Correct Answer: c. `ReactDOM.render()`
+
+
+
+
+6. The React component lifecycle includes phases such as:
+   - Correct Answer: b. Mounting, updating, unmounting
+
+
+
+7. What does JSX stand for?
+   - Correct Answer: a. JavaScript XML
+
+
+
+8. JSX elements are transformed into ________ before being rendered.
+   - Correct Answer: d. Virtual DOM elements
+
+
+
+
+9. Is it possible to write inline HTML in a JavaScript file without JSX?
+   - Correct Answer: b. No
+
+
+
+
+10. Which keyword is used to import a component or module in React?
+    - Correct Answer: b. `import`
+
+
+
+
+11. What is the purpose of the `import` statement in React?
+    - Correct Answer: c. To import external dependencies or modules
+
+
+
+
+12. Which keyword is used to export a component in React?
+    - Correct Answer: c. `export`
+
+
+
+
+13. What is a default export in React used for?
+    - Correct Answer: b. Exporting a single component as the default export
+
+
+
+
+14. What is the main purpose of Babel in React development?
+    - Correct Answer: c. Compiling modern JavaScript to older versions
+
+
+
+
+15. Babel allows developers to write modern JavaScript features and JSX syntax while ensuring compatibility with older browsers by:
+    - Correct Answer: b. Transpiling it into compatible JavaScript
+
+
+
+
+16. What does Virtual DOM stand for?
+    - Correct Answer: d. Virtual Document Object Model
+
+
+
+
+17. In React, the Virtual DOM is used primarily to:
+    - Correct Answer: b. Efficiently update the actual DOM
+
+
+
+
+18. What is the key difference between a single-page application (SPA) and a multiple-page application (MPA)?
+    - Correct Answer: a. SPAs have only one HTML page, while MPAs have multiple HTML pages.
+
+
+
+
+19. Which JavaScript framework/library is commonly used for building single-page applications?
+    - Correct Answer: a. React
+
+
+
+
+20. In a multiple-page application, how does navigation typically occur between different pages?
+    - Correct Answer: a. Using JavaScript to load new HTML pages

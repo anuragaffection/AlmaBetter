@@ -1,0 +1,219 @@
+Components,  Props, State,
+
+
+
+
+
+
+
+
+
+
+#Revision 
+-- example of higher order component
+-- project 01 (pending, problem
+
+
+
+
+
+
+
+
+
+
+-- components
+-- state
+-- props
+
+
+
+
+
+
+
+
+
+
+
+A.  Components
+--- Introduction to components
+--- functional components 
+--- class components
+--- higher order components 
+--- conditonal Rendering
+
+
+
+
+B.  Props
+--- default props
+--- prop drilling 
+
+
+
+
+C.  State
+--- State initialization
+--- updating state
+--- immutable state
+--- Asynchronous State
+--- State in functional components
+--- State & re-Rendering
+--- Conventions of using state in react 
+
+
+
+
+
+
+
+
+
+
+
+
+A. components 
+
+
+01. Introduction to component
+--- it can be function or class
+--- it receive input called props
+--- props == properties
+--- we can use the returned element, as jsx element in main file
+
+
+
+
+02. two types of components
+--- a. functional component
+--- b. class component
+
+
+
+
+03. functional component
+--- it is a stateless component
+
+
+
+
+04. important Notes 
+--- with the introduction of React Hooks in React 16.8, 
+    functional components can now also manage state and 
+    utilize lifecycle methods using hooks like #useState, #useEffect, and others. 
+ 
+
+
+
+05. class component
+--- it has state 
+--- React.Component
+--- it extends React.Component
+--- #render = is used to return within class
+--- #render = is a method 
+--- #render = return null or react element 
+--- import #React, {Component} 
+
+
+
+06. Static component
+---- it does not accept any props ( properties)
+
+
+
+07.  Higher order component
+---- it is a patttern
+---- A Higher Order Component is a function that takes 
+    a component as an argument and returns a new component 
+    with additional or modified props.
+---- base component == the component that is being passed
+---- wrapped component == the component that is being passed
+---- again check example 
+
+
+
+
+08. Conditional rendering
+--- generally used to hide or display element 
+--- using props (properties)
+--- using javascript logical operators ( general way )
+--- short circuit evaluation technique - in this second will take place, if first is true;
+
+
+
+
+
+
+
+
+
+
+
+B.  Props
+
+-- Props can be ( string, number, boolean, function, object,
+
+-- way to pass data form parent to child component
+-- similar to function argument
+-- props are read only
+-- props can not be modified by the component , that is receiving props 
+-- one direction flow
+-- flow from Parent component to child component
+-- props.___
+-- this.props
+
+
+
+01. default props
+-- recieve fallback value
+-- defaultProps == keyword
+-- defaultProps == in functional component
+-- defaultProps == in class componet 
+
+
+02. prop drilling 
+--  passing data to nested component
+--  React context api = used to avoid problem caused by using prop drilling
+
+
+
+
+
+
+
+
+
+C.  State
+-- it is a built in feature 
+
+
+01. State initialization
+-- state is used within constructor
+-- this.state = in class component
+-- useState = in functional component
+
+
+02. updating state
+-- stae, this.stae, setState() = in class component
+-- useState = in functional component
+
+
+03. immutable state
+
+
+04. Asynchronous State
+
+
+05. State in functional components
+
+
+06. State & re-Rendering
+
+
+07. Conventions of using state in react 
+
+
+
+
+
