@@ -4,7 +4,7 @@ export default function page() {
 
   return (
 
-    <div className="container mx-auto mt-10 p-4 bg-gray-800">
+    <div className="container min-w-full p-8 bg-gray-700 text-white">
 
       <h1 className="text-3xl font-semibold mb-4">Contact Us</h1>
 

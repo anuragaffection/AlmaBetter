@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
 
   return (
-    <div className="container mx-auto mt-10 p-4">
+    <div className="container min-w-full text-white bg-gray-700 p-8">
       <h1 className="text-3xl font-semibold mb-4">About Joke Generator</h1>
       <p className="text-lg leading-relaxed">
         Welcome to Joke Generator, the place where laughter is just a click away! Our mission is simple: to bring joy and

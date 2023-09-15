@@ -115,18 +115,21 @@ export default function page() {
   return (
 
 
-    <div className="container mx-auto mt-10 p-4">
+    <div className="container min-w-full bg-gray-700 p-8">
 
 
-      <h1 className="text-3xl font-semibold mb-4">Jokes</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-white">Jokes</h1>
 
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
         {
-          jokes.map((joke) => (
-            <div key={joke.id} className="bg-white rounded-lg shadow-lg p-4">
-              <p className="text-lg">{joke.joke}</p>
+          jokes.map((eachJoke) => (
+
+            <div key={eachJoke.id} className="bg-gray-800 rounded-lg shadow-lg p-4">
+
+              <p className="text-lg text-indigo-400">{eachJoke.joke.split('?')[0]} ? </p>
+              <p className='text-lg text-gray-200'> {eachJoke.joke.split('?')[1]} </p>
             </div>
           ))
         }

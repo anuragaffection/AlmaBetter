@@ -1,26 +1,40 @@
 import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
+
+import { FaShoppingCart } from 'react-icons/fa'; // importing icon 
+
 import { useDispatch, useSelector } from 'react-redux';
+
 import { openCart } from '../State/actions';
 
+
 const NavBar = () => {
+
     const cart = useSelector((state) => state.cart);
+    
     const dispatch = useDispatch();
 
     const sumQuantity = () => {
+
+        // reduce = go in details 
         return cart.reduce(
             (quantity, cartItem) => quantity + cartItem.quantity,
             0
         );
+
     };
 
     return (
+
         <header className="bg-black px-4">
+
             <div className="flex flex-col items-center justify-between w-full max-w-[140rem] my-0 mx-auto p-4 md:flex-row">
+
                 <h1 className="font-bold text-2xl text-[#8dff46] min-w-min">
                     Anu Store
                 </h1>
+
                 <nav className="flex items-center w-full justify-end text-lg">
+
                     <div
                         className="relative cursor-pointer hover:scale-110 active:scale-105"
                         onClick={() => dispatch(openCart())}
@@ -36,8 +50,11 @@ const NavBar = () => {
                             ''
                         )}
                     </div>
+
                 </nav>
+
             </div>
+
         </header>
     )
 }
