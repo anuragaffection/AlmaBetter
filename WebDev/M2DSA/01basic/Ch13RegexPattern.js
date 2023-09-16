@@ -8,6 +8,9 @@
 
 
 
+
+
+
 /**
  * 
  *  01 to 39 --- Regular Expression example of FreeCodeCamp.org
@@ -19,6 +22,7 @@
  *  44. Example of matching custom email address 
  *  45. Pattern matching use case 
  *  46. More Links or reference 
+ * 
  * 
  * 
  *  47. Regular Expressions & its Basics
@@ -34,6 +38,8 @@
  *  57. Quantifiers
  *  58. Regex function
  *  
+ * 
+ * 
  *  Real life applications of pattern matching
  *  foundations of pattern matching algortihm 
  *  String matching algorithm
@@ -48,6 +54,9 @@
 
 
 
+
+
+
 /**
  *  flags 
  * 
@@ -55,6 +64,9 @@
  *  g - global find 
  *    - multiline 
 */
+
+
+
 
 
 {
@@ -71,6 +83,9 @@
    *  {} --- used to specific repeating times 
   */
 }
+
+
+
 
 
 

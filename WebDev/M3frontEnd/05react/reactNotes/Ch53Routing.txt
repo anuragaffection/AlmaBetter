@@ -62,6 +62,21 @@ Rounting & Handling Event
 
 
 
+05. Extra 
+-- useParams() == hooks to send parameter 
+-- useState()
+-- useCallback()
+
+-- project implementation step 01 
+-- project implementation step 02
+-- task dropdown app 
+
+
+
+
+
+
+
 
 
 
@@ -69,15 +84,144 @@ Rounting & Handling Event
 
 01. Introduction to routing
 
+
 a. need of react router
 -- used to display multiple view in single page 
 
-b. react router installation 
+
+
+b. react router installation
 -- first switch to your application 
 -- npm install react-router-dom
 
 
+
 c. how to set up react router 
--- BrowserRouter
--- Route 
--- Link 
+-- BrowserRouter = 
+-- Router        = 
+-- Routes        = serve as container 
+-- Route         = 
+-- path          = url 
+-- element       = specify component
+-- components    = 
+-- Link          =   
+-- to            = 
+-- NavLink       = activeClassName or className
+
+
+
+
+
+
+
+
+
+
+
+
+
+03. Types of Routes
+
+
+a. Nested routes 
+-- nesting of routes 
+
+
+b. outlet
+-- used to handle nested route
+-- used in parent route to route child elements or components
+
+
+c. index routes 
+-- index   = keywords
+-- index   = used to default routing of nesting routes 
+
+
+d. not found 
+-- '*'   = not found 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+04. Handling events in react
+
+
+a1. Event handlers :  in class component
+-- onClick
+-- onChange
+-- onSubmit
+-- this     =  keyword  (eg. this.______ )
+
+
+a2. Event handlers :  in Functional component
+-- upcoming lecture 
+-- useState, useCallback  = are used to handle event 
+
+
+
+
+
+b1. Event binding : in class component
+--- using this keyword
+--- three ways to bind ( in constructor, by using arrow function, bind keywords )
+
+
+b2. Event binding : in Functional component
+--- by using useState()
+--- Functional component does not have state or instance, so no need of this keyword 
+
+
+
+
+c.  Event handler function 
+--
+
+
+
+d. Event object 
+-- event object  = automatically get passed 
+-- event.target  = 
+-- event.type    = 
+-- event.target.value = 
+-- event.clientX  = 
+-- event.clientY  = 
+
+
+
+e. Preventing Default behavior 
+-- event.preventDefault()
+
+
+
+f. Event Propagation & Bubbling 
+-- Propagation = flow 
+-- bubbling = by default = false = child to parent 
+-- capturing = true = parent to child 
+-- event.stopPropagtion()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

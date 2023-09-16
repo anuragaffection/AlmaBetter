@@ -49,7 +49,7 @@
  *  25. iterating over multi dimensional array 
  *  26. for of
  *  27. for in
- *  28. 
+ *  28. Working of javascript 
  * 
 */
 
@@ -685,6 +685,8 @@ multiDimen.forEach((number) => {
 
 
 
+
+
 // 26.
 // for of 
 // is used to get value
@@ -703,6 +705,8 @@ console.log("for of - 1d array ");
 for (let i of myarray) {
     console.log(i);
 }
+
+
 
 
 
@@ -729,8 +733,9 @@ for (let i in myarray) {
 
 
 
-// 28.
-// 
+
+
+// 28. Working of javascript 
 
 
 
@@ -814,6 +819,11 @@ const myArray4 = [1, 2, 3];
 myArray4.forEach((element) => {
     console.log(element);
 });
+
+
+
+
+
 
 
 

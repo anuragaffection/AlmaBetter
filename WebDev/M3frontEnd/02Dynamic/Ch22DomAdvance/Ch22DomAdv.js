@@ -28,6 +28,9 @@ commentParent.removeChild(commentCustom);
 
 
 
+
+
+
 // accessing comment 
 
 /* 
@@ -123,6 +126,9 @@ console.log(commentNodes);
 
 
 
+
+
+
 // .tagName
 // .nodeName
 
@@ -135,11 +141,14 @@ console.log(title.nodeName);
 console.log(title.textContent);
 
 
+
+
 // .createComment
 // .createTextNode
 // .createProcessingInstruction
 
 const textNode = document.createTextNode("this is dynamic text created using .createTextNode ");
+
 
 // appending in title 
 title.appendChild(textNode);
