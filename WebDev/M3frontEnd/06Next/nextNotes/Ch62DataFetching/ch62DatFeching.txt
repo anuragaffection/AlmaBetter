@@ -1,0 +1,296 @@
+Data Fetching 
+
+
+
+
+
+01. Overview of Data Fetching
+02. getServerSideProps
+03. getStaticProps
+04. getStaticPaths
+05. Incremental Static Regeneration 
+06. Client-side Data Fetching
+
+
+
+
+
+
+Explore 
+--  getInitialProps - (deprecating )
+--  next / link 
+--  next / router 
+--  Caching with SSR 
+--  headless CMS
+--  generating path on demand 
+--  revalidate - used to change default behaviour of getServerSideProps
+
+
+
+
+
+
+
+
+
+01. Overview of Data Fetching (
+
+    -- pre rendering at server & showing to client{
+        - getServerSideProps
+        - getStaticProps
+        - ISR Incremental Static Regeneration
+    }
+
+    -- rendering at client & showing to client {
+        - SWR Stale while Revalidating 
+        - useEffect
+    }
+
+
+    -- Server side rendering {
+        - generate at run time 
+        - time to the first byte 
+        - getServerSideProps for server rendering 
+    }
+
+
+    -- Static Generation {
+        - generate HTML at build time
+        - getStaticProps for satic generation  
+        - getStaticPath & getStaticProps for dynamic routing 
+    }
+
+    -- Incremental Static Regeneration {
+        - run time 
+        - revalidate = a property 
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
+02. getServerSideProps(
+
+    -- export it as standalone function 
+    -- it will not work if we add as property / object 
+
+    -- export async getServerSideProps
+    -- return props 
+
+    -- when getServerSideProps  be used {
+        - when data need at the request time 
+        - authorization 
+        - geo location 
+    }
+
+
+    -- When  getServerSideProps run {
+        - always run on server
+        - never run on browser 
+        - pre-rendered or re-render = when it return props
+    }
+
+    
+
+    -- caching with server side rendering {
+
+        - req
+        - res 
+
+        - setHeader 
+        - Cache-Control 
+        - stale-while-revalidate (SWR )
+
+        public 
+        s-maxage=10
+        stale-while-revalidate=59
+    }
+
+)
+
+
+
+
+
+
+
+03. getStaticProps (
+
+    -- export it as standalone function 
+    -- it will not work if we add as property / object 
+
+
+    -- export async getStaticPath
+    -- returns props 
+
+
+    -- When  getStaticProps  be used 
+    -- Where getStaticProps  be used 
+    -- When  getStaticProps  run 
+
+
+    -- statically generates both HTML & JSON
+
+
+    -- next-code-elimination 
+    -- it always run during next build
+    -- use npm run build 
+
+
+    -- fallback {
+        true = 
+        false = 
+        blocking = 
+        revalidate = 
+        revalidate() = 
+
+    } 
+
+
+    -- fallback {
+        true         = it will search in background to find the paths
+        false        = it will not search, & give error 
+        blocking     = 
+        revalidate   = runs in background
+        revalidate() = runs in background on demand
+    }
+)
+
+
+
+
+
+
+
+04. getStaticPaths (
+
+    -- export it as standalone function 
+    -- it will not work if we add as property / object 
+
+
+    -- runs at build time 
+
+    -- returns context 
+    -- context get received by getStaticProps
+
+
+    -- When  getStaticPaths  be used 
+    -- Where getStaticPaths  be used 
+    -- when  getStaticPaths  run 
+
+    -- how   getStaticProps  run  with  getStaticPaths
+
+    -- generating path on demand (problem, again, run the code )
+)
+
+
+
+
+
+
+
+
+05. Incremental Static Regeneration (
+
+    -- why ISR {
+        - by using getStaticProps, we have to build, the entire site 
+        - but using ISR, we can build to per page, here we do not to build the entire site 
+    }
+
+    -- on demand revalidation 
+    -- testing on demand ISR during development 
+
+    -- secret token 
+    
+)
+
+
+
+
+
+
+06. Client-side Data Fetching {
+
+    -- with useEffect()
+
+    -- with SWR {
+        - takes two parameter 
+        - url 
+        - callback function 
+        - 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+07. Activity (fill in the blanks )
+
+
+01.  Static Generation (SG) generates HTML at ________(build/run/request) time rather than run time.
+
+
+02.  The function used in Next.js for Server-Side Rendering (SSR) is called ________ (getServerProps/getServerSideProps/getServerSide).
+
+
+03.  When using getStaticProps, the function is executed on the ________ (client/server/both).
+
+
+04.  getStaticProps generates both HTML and ________(javascript/JSON/CSS)  files, which a CDN can cache for better performance.
+
+
+05.  Static Generation (SG) is a great approach for pages that can be ________(pre-rendered/client-rendered/server-rendered), such as marketing pages, blog posts, and e-commerce product listings.
+
+
+
+Answer
+
+Build
+getServerSideProps
+server
+JSON
+pre-rendered
+
+
+
+
+
+
+08. Solve the riddle  in next js  {
+
+    a.  I am a function that generates HTML and JSON files. I work in tandem with another function called getStaticPaths. 
+
+    b.  I am a method used for statically pre-rendering pages with dynamic routes. You can create pages for various paths during the build process. 
+
+    c.  I allow you to decide which pages are created during the build and which ones are generated on demand. You can postpone creating all pages until they are needed. 
+ 
+    d.  I am used to automatically updating static pages even after building the website. I can be configured to revalidate the page data after a certain time interval. 
+
+    e.  I am a protective token authorizing requests to the on-demand Incremental Static Regeneration API Route. Without me, the revalidation process will not work.
+
+
+   Answer
+   getStaticProps
+   getStaticPaths
+   Incremental Static Regeneration
+   Revalidate
+   Secret Token
+}
+
+
