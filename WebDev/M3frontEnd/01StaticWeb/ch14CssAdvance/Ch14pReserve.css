@@ -1,0 +1,365 @@
+@media screen and (max-width: 760px) {
+    #nav-items {
+        justify-content: space-around;
+    }
+
+    #head-title {
+        margin-left: 4px;
+    }
+
+    #nav-start {
+        padding-left: 0px;
+        justify-content: flex-end;
+    }
+
+    #nav-end {
+        margin-right: 0px;
+    }
+
+    #location {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    #nav-items {
+        justify-content: space-around;
+    }
+
+    #title-name {
+        font-size: medium;
+    }
+
+    #logo {
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: 1px;
+    }
+
+    #head-title {
+        margin-left: 4px;
+    }
+
+    #nav-start {
+        padding-left: 0px;
+        justify-content: flex-end;
+    }
+
+    #nav-end {
+        margin-right: 0px;
+    }
+
+    .nav-elements {
+        margin: 2px 10px;
+    }
+
+    #location-section {
+        min-height: 35vh;
+    }
+
+    .location-select {
+        width: 15rem;
+        padding: 2px;
+        margin: 0px;
+    }
+
+    /* #hide-display {
+        display: none;
+    } */
+
+
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    /* .tag-line {
+        font-size: large;
+    } */
+
+    #location{
+        flex-direction: column;
+    }
+
+    #card-collection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .t-card {
+        margin: 10px 1px;
+        padding: 20px 10px;
+        width: 280px;
+    }
+
+    .social-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+
+
+header {
+    height: 60px;
+    border-bottom: 3px solid rgba(201, 195, 195, 0.778);
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+
+#nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#nav-start {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#head-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 12px;
+}
+
+#title-logo {
+    margin-right: 2px;
+    height: 2.7rem;
+    width: 2.5rem;
+}
+
+
+#title-name {
+    color: rgb(245, 119, 47);
+    font-weight: 900;
+}
+
+
+#nav-end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.nav-elements {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#login {
+    background-color: rgb(245, 119, 47);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+main {
+    min-height: 100vh;
+}
+
+
+
+#location-section {
+    height: 48vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #00aeef;
+
+}
+
+
+#location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.location-select {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    width: 20rem;
+    padding: 5px 5px 12px 5px;
+    box-shadow: 0px 0px 1px 1px rgb(189, 185, 185);
+    border-radius: 5px;
+
+}
+
+
+#depart,
+#arrive {
+    margin: 1rem, 0, 2rem, 0;
+    outline: none;
+    border: none;
+    font-size: medium;
+
+}
+
+
+.location-select p {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+
+
+#s-button {
+    padding: 8px 30px;
+    background-color: rgb(245, 119, 47);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px 0px;
+}
+
+
+
+#card-collection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.i-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(189, 185, 185);
+}
+
+.i-image {
+    width: 120px;
+    height: 120px;
+}
+
+.i-count {
+    margin: 0;
+}
+
+
+
+
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.t-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px rgb(189, 185, 185);
+
+}
+
+
+.t-card h3,
+.t-card p,
+.t-card h4 {
+    margin: 3px;
+}
+
+.rating {
+    width: 40px;
+    background-color: rgb(5, 141, 5);
+    text-align: center;
+    color: white;
+    font-size: small;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(233, 225, 225, 0.977);
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+}
