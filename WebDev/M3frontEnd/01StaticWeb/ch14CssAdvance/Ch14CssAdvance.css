@@ -1,0 +1,237 @@
+/*
+   margin & margin collapse = calculation of margin 
+
+   padding & padding element width = why we set box-sizing = border box
+
+
+   Note: Remember that the height and width properties do not include padding, borders, or margins! 
+   They set the height/width of the area inside the padding, border, and margin of the element!
+   
+
+*/
+
+
+
+p {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+/* inline  */
+#inline div {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid blue;
+    background-color: aqua;
+}
+
+#inline {
+    background-color: yellow;
+}
+
+
+/* 
+  height and Width does not work on inline display & neither on their children 
+
+  padding & margin does not work on inline display, but their children will take that paddig & margin 
+
+  same thing happened on span tag,  because span tag is inline element by default - so height and width does not work 
+
+  But if we change display from inline to block , then it will work 
+
+*/
+
+
+
+
+
+/* block  */
+#block div {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid blue;
+    background-color: aqua;
+
+}
+
+#block {
+    background-color: yellow;
+}
+
+
+
+
+
+
+/* inline block  */
+#inline-block div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid blue;
+    background-color: aqua;
+}
+
+#inline-block {
+    background-color: yellow;
+}
+
+
+
+
+
+
+/* run in  */
+#run-in div {
+    display: run-in;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid blue;
+    background-color: aqua;
+}
+
+#run-in {
+    background-color: yellow;
+}
+
+
+
+
+
+/* 
+   display : none 
+
+   it will hide the div 
+
+*/
+
+#none {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* flex  */
+
+
+.inside {
+    min-width: 50px;
+    min-height: 50px;
+    margin: 25px;
+    padding: 15px;
+    background-color: red;
+}
+
+
+
+
+.box1 {
+    background-color: yellow;
+}
+
+
+
+
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap : nowrap == by default */
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+
+
+.box3 {
+    display: inline-flex;
+    /* flex-direction = row == by default */
+    flex-wrap: wrap;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+
+}
+
+
+.box5 {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    border: 2px solid black;
+
+}
+
+
+
+.box6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    
+
+}
+
+
+
+
+
+/* 
+
+inline: An element with display: inline; is rendered inline within the flow of text. It takes up only as much horizontal space as necessary and does not force a line break before or after itself. Examples include <span> and <a> elements. Vertical properties like height and margin are not fully respected with inline elements.
+
+
+
+block: An element with display: block; is rendered as a block-level element. It takes up the full width available within its containing element and starts on a new line. Block-level elements respect both horizontal and vertical properties like width, height, and margin. Examples include <div>, <p>, and <h1>.
+
+
+
+inline-block: This value combines the characteristics of both inline and block. An element with display: inline-block; is laid out inline like an inline element, but it allows for setting width, height, margins, and padding just like a block-level element. This is commonly used for creating elements that sit within a line of text but still have their own dimensions.
+
+
+
+flex: With display: flex;, an element becomes a flex container. This allows you to use the flexbox layout model for arranging child elements. Flexbox provides powerful ways to distribute space along the main and cross axes, making it easier to create responsive and flexible layouts.
+
+grid: Using display: grid; makes an element a grid container. The grid layout model enables the creation of complex layouts in both rows and columns. It allows for precise control over the placement of items within the grid, making it a versatile tool for creating responsive designs.
+
+*/
