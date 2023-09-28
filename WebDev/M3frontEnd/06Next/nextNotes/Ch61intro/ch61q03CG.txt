@@ -1,0 +1,61 @@
+
+**1. Next.js & React.js:**
+   - What is the fundamental difference between React.js and Next.js?
+   - Can you explain the concept of a library versus a framework? How does it apply to React and Next.js?
+
+
+
+
+**2. React.js Pros:**
+   - How does React.js handle state management, and why is it considered an advantage?
+   - What are components in React.js, and why are they considered building blocks of code?
+
+
+
+
+**3. React.js Cons:**
+   - What limitations does React.js have when it comes to routing, and how can you address this limitation?
+   - Why is on-page SEO challenging in React.js applications?
+
+
+
+**4. Why Use Next.js:**
+   - Explain the performance improvements offered by Next.js, including SSR and SSG.
+   - What are the key features of Next.js that make it attractive for building web applications?
+
+
+
+
+**5. CSR vs. SSR:**
+   - Compare and contrast Client-Side Rendering (CSR) and Server-Side Rendering (SSR) in terms of performance and use cases.
+   - What are the typical use cases for CSR, and when would you choose SSR?
+
+
+
+
+**6. Search Engine Optimization (SEO):**
+   - Explain the difference between on-page SEO and off-page SEO.
+   - How does Next.js help with crawling and indexing for SEO compared to traditional React applications?
+
+
+
+
+**7. Setting Up Next.js Project:**
+   - Walk me through the steps to set up a Next.js project from scratch.
+   - What is the purpose of each of the npm commands you mentioned during project setup?
+
+
+
+
+**8. React Essentials:**
+   - Describe the difference between client components and server components in the context of Next.js.
+   - When would you choose to use server components, and what scenarios are better suited for client components?
+
+
+
+
+**9. Patterns:**
+   - What is "Component Poisoning" in Next.js, and how can it be prevented?
+   - Explain the concept of moving client components to the leaves and why it's a good practice.
+   - How can you include server-only code in your Next.js application, and why might you want to do so?
+
