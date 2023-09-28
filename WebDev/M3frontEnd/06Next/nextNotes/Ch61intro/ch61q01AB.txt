@@ -1,0 +1,271 @@
+Next js intro 
+
+
+
+
+01.
+What is the purpose of keeping server-only code out of client components (poisoning) in Next.js?
+
+To improve server-side rendering performance.
+To enhance client-side interactivity.
+To prevent the exposure of sensitive data.
+To avoid code duplication.
+
+
+
+
+
+
+
+
+
+02.
+Which directory contains the pages in a Next.js project?
+
+/public
+/src
+/components
+/pages
+
+
+
+
+
+
+
+03.
+How can you create dynamic routes in Next.js?
+
+By using a routes.js configuration file.
+By defining a regular expression pattern for the page filename.
+By creating a folder with square brackets [] in the pages directory.
+By using the dynamicRoute function from the Next.js API.
+
+
+
+
+
+
+
+
+
+04.
+What is the purpose of the Link component in Next.js?
+
+To define a hyperlink in the application.
+To handle client-side routing without a page refresh.
+To create a connection to a GraphQL server.
+To provide a reference to an external JavaScript file.
+
+
+
+
+
+
+
+
+05.
+What is Next.js?
+
+A server-side rendering (SSR) framework for React. 
+A standalone JavaScript library for building user interfaces.
+A state management library for React applications.
+A build tool for compiling React components.
+
+
+
+
+
+
+
+06.
+Which of the following statements about Next.js state is true?
+
+State can only be used in class components in Next.js
+State changes are asynchronous
+
+
+
+
+
+
+
+
+
+
+07.
+What are the potential risks of including server-only code in client components in Next.js?
+
+Decreased server-side rendering performance.
+Increased client-side interactivity.
+Exposure of sensitive data to the client- side.
+Enhanced code duplication.
+
+
+
+
+
+
+
+
+
+
+08.
+How does Next.js enhance SEO compared to client-side rendering (CSR)?
+
+Next.js includes more meta tags
+Next.js uses a special SEO algorithm
+Next.js pre-renders pages on the server- side
+Next.js automatically submits the website to search engines
+
+
+
+
+
+
+
+
+
+09.
+Which of the following statements about Next.js and SEO is NOT true?
+
+Next.js provides out-of-the-box server-side rendering for improved SEO.
+Using Next.js guarantees a top ranking on search engines.
+Next.js allows customization of meta tags to optimize SEO.
+Pre-rendering in Next.js makes the site content accessible to search engine crawlers.
+
+
+
+
+
+
+
+
+
+10.
+What is the purpose of the server component in Next.js?
+
+To handle client-side rendering
+To handle server-side rendering
+To manage the state of the application
+To handle CSS styles and animations
+
+
+
+
+
+
+
+
+
+Answer
+
+
+
+01.
+To prevent the exposure of sensitive data.
+
+Keeping server-only code out of client components (poisoning) in Next.js is essential to prevent the exposure of sensitive data. Server-only code contains sensitive information that should not be visible or accessible to the client-side JavaScript. By avoiding the inclusion of such code in client components, you ensure that sensitive data remains hidden from potential malicious attacks and unauthorized access.
+
+
+
+
+
+
+
+
+02.
+/pages
+
+In a Next.js project, the pages are stored in the "/pages" directory. Each file inside this directory represents a page accessible through its URL path.
+
+
+
+
+
+
+03.
+By creating a folder with square brackets [] in the pages directory.
+
+In Next.js, you can create dynamic routes by creating a folder with square brackets [] in the pages directory. For example, if you create a folder named [id], it will match any route that follows the pattern /something, and the id parameter will be available as a prop in the page component.
+
+
+
+
+
+
+04.
+To handle client-side routing without a page refresh.
+
+The Link component in Next.js is used for client-side navigation between pages without triggering a full page refresh. It improves the user experience and performance by loading only the required components when navigating within the application.
+
+
+
+
+
+
+05.
+A server-side rendering (SSR) framework for React.
+
+Next.js is a framework built on top of React that provides server-side rendering, automatic code splitting, and other optimizations to improve the performance and SEO of React applications.
+
+
+
+
+
+06.
+State changes are asynchronous
+
+State changes in Next.js are asynchronous. When you call the useState hook to update the state, React will batch state updates and apply them in a later render cycle to optimize performance.
+
+
+
+
+
+
+
+07.
+Exposure of sensitive data to the client-side.
+
+Including server-only code in client components in Next.js can lead to the exposure of sensitive data to the client- side, which is a significant security risk. Client-side JavaScript is visible to users and can be inspected using browser developer tools. Therefore, any server- only code included in client components might be accessible to potential attackers, compromising the security of the application.
+
+
+
+
+
+
+08.
+Next.js pre-renders pages on the server-side
+
+In client-side rendering (CSR), the content is generated on the client-side using JavaScript, which may not be as SEO-friendly. Next.js, on the other hand, pre-renders pages on the server-side, generating fully rendered HTML for each page before sending it to the client. This approach makes the content more accessible to search engine crawlers and improves SEO.
+
+
+
+
+
+
+
+09.
+Using Next.js guarantees a top ranking on search engines.
+
+While Next.js provides features that can significantly enhance SEO, there are many other factors that influence search engine rankings, such as content quality, backlinks, and user experience. Using Next.js alone does not guarantee a top ranking on search engines.
+
+
+
+
+
+
+
+10.
+To handle server-side rendering
+
+The server component in Next.js is responsible for server-side rendering (SSR). It renders the initial page on the server and sends the fully rendered HTML to the client, improving performance and SEO. It allows Next.js applications to load and display content faster compared to traditional client- side rendering frameworks.
+
+
+
+
+
+
+
+
+
