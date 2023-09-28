@@ -1,0 +1,237 @@
+Getting started with next jsx
+
+
+
+
+
+Next js - a framework
+React js pros (advantage )
+React js cons (disadvantage)
+Why should you use Next.js
+CSR vs SSR
+Search Engine Optimization (SEO)
+Setting Up Next.js project 
+React Essentials
+Patterns 
+
+
+
+
+
+
+
+Need More focus 
+--- next js scripts
+--- Poisoning
+
+
+
+
+Notes 
+-- if we do console in next js , it will not render in browser console ( because of server side rendering )
+-- "use client" = to convert in client side rendering, then console will work on browser
+
+
+
+
+
+
+
+01. Next js & React js
+--- react js is a library
+--- next js is a framework
+--- diffrence between library vs framework
+
+
+
+
+
+
+02. React js pros (advantage )
+--- state (to store data, act like front end batabase )
+--- components ( building blocks of code, a class or a function)
+
+
+
+
+
+
+03. React js cons (disadvantage)
+--- No router (need third party library like - react router dom)
+--- On page SEO is impossible 
+
+
+
+
+
+04. Why should you use Next.js
+--- Improved Performance ( SSR, SSG)
+--- Automatic routing & zero configuration option 
+--- SSR, CSR, dynamic routing, api routes, SASS
+--- Serverless deployment, static optimization, caching 
+
+
+
+
+
+
+
+05. CSR vs SSR
+
+A. Client Side Rendering
+-- relies on the client's cpu 
+-- asynchronous requests to api 
+-- client [request to] - server [ response to]  - client.
+
+
+B. Server Side Rendering
+-- server handle initial processing 
+-- helps in seo 
+
+
+
+
+
+
+06. Search Engine Optimization (SEO)
+--- on page SEO
+--- off page SEO
+--- Crawling timing with react only applications
+--- Crawling & indexing with next.js
+
+
+
+
+
+
+07. Setting Up Next.js project
+--- windows powershell 
+--- download node 
+--- node -v
+--- npm -v
+--- npx create-next-app my-app
+--- cd my-app
+--- npm run dev 
+--- open http://localhost:3000/
+
+
+--- scripts in next js {
+    dev   = development server 
+    build = build file for production 
+    start = start the project 
+    lint  = suggest error to solve 
+}
+
+
+--- using npm (
+    node -v 
+    npm -v
+    npx create-next-app my-app
+    cd my-app
+    npm run dev
+    npm build
+    npm start
+)
+
+
+--- using yarn {
+    node -v
+    yarn -v
+    npx create-next-app my-app
+    cd my-app
+
+}
+
+
+
+
+
+
+
+
+08. React Essentials
+--- client components
+--- Server components
+--- navbar, main, aside [using server], then button within it [using client]
+--- 'use client' = boundary between server & client components
+--- by default next js follow = server components
+
+--- server components (
+    fetch data, 
+    backend resources directly, 
+    sensitive information, 
+    tokens, 
+    api keys, 
+    large dependencies
+)
+
+
+--- client components (
+    event listeners, 
+    onClick, onChange etc, 
+    state & lifecycle method, 
+    useState(), useReducer(), useEffect() etc, 
+    browser only api, 
+    custom hooks, 
+    react class
+)
+
+
+
+
+
+
+
+09. Patterns 
+--- Moving client components to the leaves
+--- Keeping server only code out of client components (Poisoning) (
+    Component poisoning in Next.js refers to the situation where server-side code unintentionally executes on the client-side.
+    )
+--- npm install server-only
+
+
+
+
+
+
+
+
+
+
+10. Activity ( true / false )
+
+a. React is a framework used for building server-side applications. 
+== false 
+
+b. Next.js is a standalone JavaScript library with no connection to React.
+== false
+
+c. React components are fundamental building blocks in a React application and receive inputs (props) to define specific sections of the User Interface (UI).
+== true
+
+d. React components are only used for static content and cannot handle dynamic data.
+== false 
+
+e. Next.js provides built-in optimizations like code splitting, automatic image optimization, and enhancing website performance and user experience.
+== true
+
+
+
+
+
+
+11. Activity ( fill in the blanks )
+
+a. Next.js can assist with ___________ (off-page SEO/client-side rendering/on-page SEO), which involves optimizing your website or application to make it search engine-friendly.
+=== on page seo 
+
+
+b. For enhanced application performance, it is suggested to place Client Components at the __________ (top/middle/bottom) levels of your component tree whenever feasible.
+==- bottom
+
+
+c. In Next.js, the "use client" directive is placed at the top of a file, above imports, to define the __________(starting point/cut-off point/transition point) where it crosses the boundary from the server-only to the client part.
+=== cut off point 
+
+
+
