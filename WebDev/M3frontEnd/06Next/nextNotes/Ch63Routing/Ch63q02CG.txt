@@ -1,0 +1,226 @@
+
+
+1. Why is routing essential in web applications?
+   - a) To determine the server's IP address
+   - b) To organize code into different files
+   - c) To navigate between different pages or views
+   - d) To optimize database queries
+
+
+
+
+
+2. What is the primary advantage of client-side routing in Next.js?
+   - a) It reduces server load
+   - b) It provides faster initial page loads
+   - c) It simplifies database management
+   - d) It improves SEO performance
+
+
+
+
+
+
+3. Server-side routing in Next.js involves:
+   - a) Loading the entire page on the server and sending it to the client
+   - b) Running routing logic on the client side
+   - c) Generating static HTML files for all routes
+   - d) Using a separate server for routing purposes
+
+
+
+
+
+
+4. Which Next.js component is used for creating links between pages?
+   - a) `Navigate`
+   - b) `RouteLink`
+   - c) `Link`
+   - d) `Anchor`
+
+
+
+
+
+5. How can you define multiple pages in a Next.js application?
+   - a) Create a single HTML file for each page
+   - b) Add components to the `components` directory
+   - c) Create separate JavaScript files in the `pages` directory
+   - d) Use the `templates` folder for page definition
+
+
+
+
+
+6. Which feature of Next.js allows for automatic route generation based on the file system?
+   - a) AutoRoute
+   - b) DynamicRoutes
+   - c) FileRoute
+   - d) NextGenRoute
+
+
+
+
+
+
+7. Parameterized URLs in Next.js are commonly used for:
+   - a) Storing user preferences
+   - b) Creating dynamic pages with variable data
+   - c) Defining static routes
+   - d) Implementing server-side rendering
+
+
+
+
+
+8. What is the purpose of the `useRouter` hook in Next.js?
+   - a) To fetch data from an API
+   - b) To create dynamic routes
+   - c) To navigate to different pages
+   - d) To manage global state
+
+
+
+
+
+
+9. In Next.js, how can you define a nested route using square brackets (`[]`)?
+   - a) `[nested: true]`
+   - b) `[[nested]]`
+   - c) `[folder]`
+   - d) `[...nested]`
+
+
+
+
+
+
+10. What is the default route for a Next.js application?
+    - a) `/index.js`
+    - b) `/home.js`
+    - c) `/`
+    - d) `/default.js`
+
+
+
+
+
+
+11. Which method is used for adding a new page to the navigation history in Next.js?
+    - a) `navigate()`
+    - b) `goto()`
+    - c) `push()`
+    - d) `moveTo()`
+
+
+
+
+
+
+12. What is the purpose of the `replace()` method in Next.js programmatic navigation?
+    - a) It replaces the current page in the history with a new page.
+    - b) It updates the page's content without changing the URL.
+    - c) It reloads the current page.
+    - d) It redirects to an external website.
+
+
+
+
+
+
+13. Which file name is typically used for a custom 404 page in Next.js?
+    - a) `error404.js`
+    - b) `404.html`
+    - c) `404.js`
+    - d) `custom404.js`
+
+
+
+
+
+14. What is the purpose of a fallback component in Next.js?
+    - a) It provides a temporary placeholder while loading data.
+    - b) It handles routing errors.
+    - c) It redirects users to the homepage.
+    - d) It displays a custom error message.
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Why is routing essential in web applications?
+   - Answer: c) To navigate between different pages or views
+
+
+
+2. What is the primary advantage of client-side routing in Next.js?
+   - Answer: b) It provides faster initial page loads
+
+
+
+3. Server-side routing in Next.js involves:
+   - Answer: a) Loading the entire page on the server and sending it to the client
+
+
+
+4. Which Next.js component is used for creating links between pages?
+   - Answer: c) `Link`
+
+
+
+5. How can you define multiple pages in a Next.js application?
+   - Answer: c) Create separate JavaScript files in the `pages` directory
+
+
+
+6. Which feature of Next.js allows for automatic route generation based on the file system?
+   - Answer: c) FileRoute
+
+
+
+
+7. Parameterized URLs in Next.js are commonly used for:
+   - Answer: b) Creating dynamic pages with variable data
+
+
+
+8. What is the purpose of the `useRouter` hook in Next.js?
+   - Answer: b) To create dynamic routes
+
+
+
+9. In Next.js, how can you define a nested route using square brackets (`[]`)?
+   - Answer: c) `[folder]`
+
+
+
+10. What is the default route for a Next.js application?
+    - Answer: c) `/`
+
+
+
+11. Which method is used for adding a new page to the navigation history in Next.js?
+    - Answer: c) `push()`
+
+
+
+12. What is the purpose of the `replace()` method in Next.js programmatic navigation?
+    - Answer: a) It replaces the current page in the history with a new page.
+
+
+
+13. Which file name is typically used for a custom 404 page in Next.js?
+    - Answer: d)  404.js 
+
+
+14. What is the purpose of a fallback component in Next.js?
+    - Answer: a) It provides a temporary placeholder while loading data.
+
