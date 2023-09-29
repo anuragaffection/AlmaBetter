@@ -1,0 +1,292 @@
+Next js routing
+
+
+
+
+
+
+
+01.
+What is the purpose of routing setup in Next.js?
+
+To handle server-side routing for the application.
+To define the layout and styling of the application.
+To configure API routes for data fetching.
+To handle client-side navigation between pages.
+
+
+
+
+
+
+
+
+
+
+
+02.
+What is the purpose of using the as prop in the next/link component for nested routing?
+
+To alias the nested route with a different name for better readability.
+To specify the URL path of the nested route. 
+To pass parameters to the nested route component.
+To handle state management in the nested route.
+
+
+
+
+
+
+
+
+03.
+What is the purpose of dynamic routing in Next.js?
+
+To create routes that change dynamically based on user interactions.
+To define routes that match a specific pattern and pass the parameters to a page component.
+To optimize the performance of the application by pre-rendering all routes.
+To add animations and transitions to route changes.
+
+
+
+
+
+
+
+
+
+
+04.
+Why is routing essential for creating multi- page applications in Next.js?
+
+
+Next.js doesn't support single-page applications (SPAs). Routing allows you to create multiple
+
+HTML pages for different routes.
+
+Without routing, Next.js cannot handle user navigation between different views.
+
+Routing enhances the performance of the application by reducing the bundle size.
+
+
+
+
+
+
+
+
+
+
+
+
+05.
+What is the benefit of using Next.js routing over client-side routing in single-page applications (SPAs)?
+
+
+Next.js routing provides better SEO and server-side rendering (SSR) support.
+
+Client-side routing is faster and more efficient than Next.js routing.
+
+Next.js routing allows direct manipulation of the DOM without server interactions.
+
+Client-side routing doesn't require any additional configuration or setup.
+
+
+
+
+
+
+
+
+
+
+
+
+06.
+What is the purpose of using the as option in the push method of Next.js programmatic navigation?
+
+To alias the new page's URL.
+To pass data as query parameters to the new page.
+To add a custom route parameter.
+To disable server-side rendering for the new page.
+
+
+
+
+
+
+
+07.
+Which component in Next.js is used for creating a dynamic route with parameter segments?
+
+StaticRoute
+RouteSegment
+DynamicRoute
+NextLink
+
+
+
+
+
+
+
+
+08.
+What is the benefit of using Dynamic Routes in Next.js?
+
+It allows you to define static routes that never change.
+It enables you to handle client-side routing without server involvement.
+It allows you to generate pages with dynamic content based on URL parameters.
+It optimizes the application for faster page loading.
+
+
+
+
+
+
+
+
+
+
+
+09.
+What is the difference between the push and replace methods in Next.js programmatic navigation?
+
+
+Both methods serve the same purpose and are interchangeable.
+
+push adds a new entry to the browser history, while replace replaces the current entry in the history.
+
+push navigates forward in history, while replace navigates backward.
+
+push triggers a full page reload, while replace does not.
+
+
+
+
+
+
+
+10.
+How can you navigate to a different route in Next.js programmatically?
+
+By using the window.location object.
+By using the router object from next/router.
+By creating a new Link component.
+By updating the state of the current component.
+
+
+
+
+
+
+
+Answer
+01.
+To handle client-side navigation between pages.
+
+The primary purpose of routing setup in Next.js is to handle client-side navigation between pages. Next.js uses a file-based routing system, where each page is represented by a React component in the "pages" directory. When a user navigates between pages, Next.js performs client-side routing, which means the pages are loaded without a full page refresh, providing a smooth user experience.
+
+
+
+
+
+
+02.
+To specify the URL path of the nested route.
+
+In Next.js, the as prop in the next/link component allows you to specify the URL path of the nested route. It is useful when you want to have a different URL path in the browser address bar than the actual file path of the nested route. This can be helpful for better user experience and SEO.
+
+
+
+
+
+
+03.
+To define routes that match a specific pattern and pass the parameters to a page component.
+
+Dynamic routing in Next.js allows you to create routes with placeholders or parameters that are passed to the page component as props. This enables you to create more flexible and data-driven pages, where the content is determined. based on the URL parameters.
+
+
+
+
+
+
+04.
+Routing allows you to create multiple HTML pages for different routes.
+
+In Next.js, routing is essential for creating multi-page applications because it allows you to define different HTML pages for different routes. Each route corresponds to a specific page in the application, enabling users to access and interact with different views. Without routing, the application would behave like a single-page application (SPA) with only one HTML page and dynamic content updates, which might not be suitable for some use cases.
+
+
+
+
+
+
+
+05.
+Next.js routing provides better SEO and server-side rendering (SSR) support.
+
+Next.js routing provides better support for search engine optimization (SEO) and server-side rendering (SSR) compared to client-side routing in SPAs. Next.js generates separate HTML pages for each route, which makes it easier for search engines to crawl and index the content. Additionally, SSR allows the initial page load to contain fully rendered HTML from the server, which improves the application's performance and user experience. While client-side routing might offer faster navigation
+
+
+
+
+
+
+06.
+To alias the new page's URL.
+
+The as option in the push method allows you to alias the new page's URL. This can be useful for displaying a cleaner or more user-friendly URL while still navigating to the intended page with its original URL.
+
+
+
+
+
+
+07.
+DynamicRoute
+
+In Next.js, dynamic routes with parameter segments are created using the [param] syntax. For example, if you want to create a route that takes a user ID as a parameter, you would create a file named [id].js within the pages directory. The [id] part is considered a dynamic segment, and Next.js will match any value in the URL for that segment. This allows you to create flexible and dynamic routes based on the parameters provided in the URL.
+
+
+
+
+
+
+
+08.
+It allows you to generate pages with dynamic content based on URL parameters.
+
+Dynamic Routes in Next.js enable you to generate pages with dynamic content based on the values passed through the URL. This allows you to create pages that can display different data based on the URL parameters, providing a personalized and dynamic user experience.
+
+
+
+
+
+
+
+09.
+push adds a new entry to the browser history, while replace replaces the current entry in the history.
+
+
+The push method adds a new entry to the browser history, allowing users to navigate back to the previous page. On the other hand, the replace method replaces the current entry in the history with the new page, so navigating back will skip the replaced page.
+
+
+
+
+
+
+
+10.
+By using the router object from next/router.
+
+Next.js provides a built-in client-side router, accessible through the router object from next/router. You can use methods like router.push(), router.replace(), or router.back() to navigate programmatically to different routes.
+
+
+
+
+
+
+
+
+
