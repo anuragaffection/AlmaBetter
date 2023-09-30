@@ -1,0 +1,167 @@
+Layout & Styles 
+
+
+
+
+
+
+
+01. Layout
+02. CSS Modules 
+03. Global CSS
+04. External Stylesheet 
+05. CSS-in-JS Libraries 
+06. CSS performance
+
+
+
+
+
+
+
+
+
+
+01. Layout {
+
+    - Flexbox {
+        -- display : flex 
+        -- flex-direction :
+        -- justify-content :
+        -- align-items 
+        -- flex
+        -- flex-grow
+        -- flex-shrink 
+        -- flex-basis 
+    }
+
+    - Grid {
+        -- display : Grid
+        -- grid-template-row
+        -- grid-template-columns
+        -- grid-gap
+        -- gap 
+        -- grid-template-areas
+        -- grid-area 
+    }
+
+    - Traditional System {
+        -- display : block, inline, inline-block 
+        -- float : 
+        -- position : static, relative, absolute, fixed
+        --
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+02. CSS Modules Feature {
+
+    -- Modularity 
+    -- Local Scope 
+    -- No Global Name Space 
+    -- Descriptive Class Name 
+    -- Classname Composition 
+    -- Isolation 
+    -- performance
+}
+
+
+
+
+
+
+
+
+
+02. CSS Modules Setup in Next js {
+
+    -- `filename.module.css`
+    --  Components styling 
+    --  Components modules 
+    
+}
+
+
+
+
+
+
+
+
+03. Global CSS {
+
+    --  apply on whole app 
+    --  `globals.css`
+    --  import next/ head
+    --  CSS reset 
+    --  normalization 
+
+}
+
+
+
+
+
+
+
+
+04. External Stylesheet {
+
+    
+
+
+}
+
+
+
+
+
+
+
+05. CSS-in-JS Libraries {
+
+    - Styled Components
+    - Emotion 
+    - Material UI 
+    - Tailwind CSS
+    - Chakra UI 
+} 
+
+
+
+
+
+
+06. CSS performance {
+
+    -- Minimize css size 
+    -- remove unncessary spaces, line breaks
+    -- use CSS sprites to combine image & icons 
+    -- do caching - cached files load faster 
+    -- do not do inline styling 
+    -- high specificity can lead to slower css
+    -- `!important` - try to limit this keyword 
+    -- avoid global styles 
+    -- we can use Server side rendering 
+    -- lazy load of css 
+    -- optimize background images - WebP
+    -- use media queris wisely 
+    -- 
+
+}
+
+
+
+
+
+
+
