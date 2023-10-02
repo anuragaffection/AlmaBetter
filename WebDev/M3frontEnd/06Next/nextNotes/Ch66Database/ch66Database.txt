@@ -1,0 +1,282 @@
+
+Working with Database 
+
+
+
+
+
+01. API routes 
+02. Connecting to a Database 
+03. Fetching Data from Database 
+04. Assets in NextJS
+05. MetaData in NextJS
+06. Best practices with Assets & metadata 
+
+
+
+
+
+
+
+
+01. API routes {
+    -- creating an api route 
+    -- different http methods 
+    -- query parameters
+    -- 
+}
+
+
+
+
+02. Connecting to a Database {
+    -- Connecting to database 
+    -- querying data 
+
+}
+
+
+
+03. Fetching Data from Database {
+    -- 
+}
+
+
+
+
+04. Assets in NextJS {
+    -- static assets 
+    -- importing assets 
+    -- optimizing assets 
+    -- 
+}
+
+
+
+
+05. MetaData in NextJS {
+    -- 
+}
+
+
+
+06. Best practices with Assets & metadata {
+    -- Assets
+    -- MetaData
+}
+
+
+
+
+
+07. Note {
+    -- database  = mongoDB, postgreSQL, mySQL,
+    -- libraries = mongoose, sequelize 
+
+    -- api route = RESTful APi, GraphQL
+
+    -- postman   = to test the api 
+    -- mySQL     = relational database        = data stored in form of table 
+    -- mongoDB   = non - relational database  = data stored in document based 
+
+    -- POST  = a method 
+
+    -- req = request 
+    -- res = response 
+    -- 
+
+}
+
+
+
+
+
+08. Recall {
+    -- json vs JSON 
+    -- env file 
+    -- 
+}
+
+
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+
+
+
+
+
+01. API routes {
+
+    -- creating an api route {
+        - next js has by default api folder to create api routes 
+        -  pages/api 
+        -  `filename`.js 
+        -  req, res
+        -  res.status 
+        -  json()
+        -  status(200)
+        -  status (405)
+    }
+
+
+    -- different http methods {
+        -  GET, POST, PUT, DELETE 
+        -  switch statements 
+        -  req.method 
+        -  
+    }
+
+
+    -- query parameters {
+        -  req.query 
+        -  req.body 
+        -  Content-Type : application/json 
+        -  
+    }
+
+ 
+}
+
+
+
+
+
+
+
+02. Connecting to a Database {
+
+    -- Connecting to database {
+        -  mongoose   = a mongoDB middleware 
+        -  mySQL      = database
+        -  pg         = postgreSQL database
+        -  sequelize  = database
+        -  npm install mongoose dotenv
+        -  .env       = environment
+        -  db.js 
+        -  lib        = library 
+        -  
+    }
+
+    -- querying data {
+
+    }
+
+}
+
+
+
+
+
+03. Fetching Data from Database {
+
+    -- Databse  = mySQL, postgreSQL, mongoDB
+    -- mongoDB  = npm install mongoDB
+    -- import   = MongoClient 
+
+    -- .db()
+    -- .collection()
+    -- .find()
+    -- .toArray()
+}
+
+
+
+
+04. Assets in NextJS {
+
+    -- static assets {
+        - public folder 
+
+    }
+
+    -- importing assets 
+
+    -- optimizing assets 
+    
+}
+
+
+
+
+
+
+05. MetaData in NextJS {
+    -- Head  = next/head 
+    -- getInitialProps
+    -- getServerSideProps 
+    -- next-seo 
+    -- react-helmet 
+}
+
+
+
+
+
+06. Best practices with Assets & metadata {
+
+    -- Assets {
+        - use public folder 
+        - 
+    }
+
+    -- MetaData {
+        - Head 
+        - next-seo
+        - react-helmet 
+    }
+
+
+    -- use connection pooling 
+    -- use cdn to deliver images, videos 
+    -- sharp = image optimization libraries
+    -- 
+}
+
+
+
+
+
+
+Activity words {
+    -- GET        = Http method  
+    -- find       = to query data from collection 
+    -- API route  = built in feature in next js for hanlding server error 
+    -- dot env    = package used to install & load environment 
+    -- mongoose   = 
+    -- disconnect 
+    -- 
+}
+
+
+
+
+
+
+Activity true/false  {
+
+    01.  NextJS allows developers to perform server-side rendering, static site generation, and client-side rendering.
+
+
+    02.  In NextJS, you can't import assets like stylesheets or JavaScript modules directly into your components using the 'import' statement.
+
+
+    03.  Metadata in NextJS includes information about a web page displayed directly on the page but not included in the HTML code.
+
+
+    04.  NextJS automatically compresses and resizes images to reduce their file size for better performance.
+
+
+    Answer
+     01. True
+     02. False
+     03. False
+     04. False
+}
+
+
+
+
+
