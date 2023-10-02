@@ -1,0 +1,236 @@
+
+
+
+1. What is the purpose of the `pages/api` folder in a Next.js project?
+   a. It stores static assets.
+   b. It defines API routes.
+   c. It contains metadata information.
+   d. It is not relevant to Next.js.
+
+
+
+
+
+2. Which HTTP method is typically used for retrieving data from an API route in Next.js?
+   a. POST
+   b. PUT
+   c. GET
+   d. DELETE
+
+
+
+
+
+
+3. In Next.js API routes, what is the role of the `req` object?
+   a. It represents the response to be sent.
+   b. It represents the HTTP request from the client.
+   c. It handles route parameters.
+   d. It defines API routes.
+
+
+
+
+
+
+4. How do you set the HTTP status code to 405 Method Not Allowed in an API route response?
+   a. `res.status(200)`
+   b. `res.status(405)`
+   c. `res.status(500)`
+   d. `res.status(404)`
+
+
+
+
+
+
+5. Which library is commonly used to connect to MongoDB in a Next.js application?
+   a. MySQL
+   b. PostgreSQL
+   c. Mongoose
+   d. Sequelize
+
+
+
+
+
+6. What is the purpose of the `.env` file in database configuration?
+   a. To store API route definitions.
+   b. To define database schemas.
+   c. To store environment variables and database credentials.
+   d. To configure routing settings.
+
+
+
+
+
+
+
+7. Which package is commonly used for working with PostgreSQL databases in Next.js?
+   a. pg
+   b. mongoose
+   c. mysql2
+   d. sequelize
+
+
+
+
+
+
+
+8. Which method is used to retrieve data from a MongoDB collection in Next.js?
+   a. `.fetch()`
+   b. `.query()`
+   c. `.find()`
+   d. `.get()`
+
+
+
+
+
+
+9. What is the role of the `MongoClient` in MongoDB database interactions?
+   a. It manages API routes.
+   b. It connects to the database and executes queries.
+   c. It handles client-side routing.
+   d. It optimizes static assets.
+
+
+
+
+
+
+10. Where should static assets be stored in a Next.js project?
+    a. In the `components` folder
+    b. In the `pages` folder
+    c. In the `public` folder
+    d. In the `api` folder
+
+
+
+
+
+
+
+11. How do you reference an image stored in the `public` folder in your Next.js component?
+    a. Using an absolute URL
+    b. Using a relative path
+    c. Using an external CDN link
+    d. Using a JavaScript function
+
+
+
+
+
+
+
+12. Which component is used to manipulate the contents of the HTML `<head>` element in Next.js?
+    a. `<metadata>`
+    b. `<html-head>`
+    c. `<next-head>`
+    d. `<head>`
+
+
+
+
+
+
+13. Which Next.js method is used for data fetching and metadata handling in functional components?
+    a. `getStaticProps`
+    b. `getInitialProps`
+    c. `getData`
+    d. `fetchData`
+
+
+
+
+
+
+
+14. What is the purpose of using a CDN for assets in a Next.js application?
+    a. To store database credentials securely
+    b. To optimize image sizes
+    c. To deliver assets faster by distributing them globally
+    d. To create custom metadata for each page
+
+
+
+
+
+
+15. Which library is commonly used for image optimization in Next.js?
+    a. `next-optimized-images`
+    b. `react-helmet`
+    c. `mongoose`
+    d. `sequelize`
+
+
+
+
+
+
+16. What is connection pooling in the context of database connections?
+    a. A technique to store static assets
+    b. A method for handling different HTTP methods
+    c. A way to manage and reuse database connections
+    d. A method for creating metadata in Next.js
+
+
+
+
+
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+
+
+
+
+
+1. Answer: b. It defines API routes.
+
+2. Answer: c. GET
+
+3. Answer: b. It represents the HTTP request from the client.
+
+4. Answer: b. `res.status(405)`
+
+
+
+5. Answer: c. Mongoose
+
+6. Answer: c. To store environment variables and database credentials.
+
+7. Answer: a. pg
+
+
+
+8. Answer: c. `.find()`
+
+9. Answer: b. It connects to the database and executes queries.
+
+
+
+10. Answer: c. In the `public` folder
+
+11. Answer: b. Using a relative path
+
+
+
+12. Answer: c. `<next-head>`
+
+13. Answer: b. `getInitialProps`
+
+
+
+14. Answer: c. To deliver assets faster by distributing them globally
+
+15. Answer: a. `next-optimized-images`
+
+16. Answer: c. A way to manage and reuse database connections
+
