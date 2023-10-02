@@ -1,0 +1,298 @@
+Next js database
+
+
+
+
+
+01.
+How do you ensure sensitive database. credentials (such as username and password) are not exposed in client-side code?
+
+
+Store the credentials in a separate file and import them into the client-side code.
+
+Use environment variables to store the credentials and access them in server-side code.
+
+Hardcode the credentials in the client-side code, but set appropriate access restrictions.
+
+Encrypt the credentials and store them in local storage.
+
+
+
+
+
+
+
+
+
+
+
+02.
+What is Metadata in Next.js?
+
+Data that is used for server-side rendering only
+Data that provides information about the structure of a website
+Data that is used for client-side rendering only
+Data that provides additional information about a page, such as title and description.
+
+
+
+
+
+
+
+
+
+03.
+How do you access query parameters in Next.js?
+
+By using the req object on the server-side.
+By using the useRouter hook on the client- side.
+By importing next/query-params package.
+By using the query object in the page component.
+
+
+
+
+
+
+
+
+
+
+04.
+Which package can be used to connect to a database in a Next.js project?
+
+react-query
+axios
+mongodb
+prisma
+
+
+
+
+
+
+
+05.
+How can you add Metadata to a page in Next.js?
+
+By defining the metadata directly in the component's JSX
+By adding a <meta> tag in the HTML head of the page
+By using the getStaticProps or getServerSideProps functions to fetch metadata dynamically
+By creating a separate JSON file with metadata and importing it in the page component.
+
+
+
+
+
+
+
+
+
+06.
+How can you optimize image loading for better performance in Next.js?
+
+Use SVG format for all images.
+Use the next/image component and set the layout attribute to "fill".
+Minify the images manually before adding them to the project.
+Use a separate CDN for loading images
+
+
+
+
+
+
+
+
+
+
+07.
+What's the advantage of using getStaticProps() over getServerSideProps()?
+
+Better performance due to pre-rendering at build time.
+Simplified syntax and implementation.
+Allows for server-side data fetching with useEffect().
+Offers better SEO and improved search engine rankings.
+
+
+
+
+
+
+
+
+
+08.
+How do you add static assets like images, stylesheets, and fonts in a Next.js project?
+
+Put them in the public directory.
+Put them in the components directory.
+Use the import statement to include them in each component
+Use the assets folder in the root directory.
+
+
+
+
+
+
+
+
+
+
+
+09.
+How can you import a CSS file for global styles in Next.js?
+
+
+Use the import statement in each component that needs the styles.
+Create a separate styles.css file in the components directory and import it in _app.js.
+Create a separate styles.css file in the public directory. 
+Use inline styles in each component.
+
+
+
+
+
+
+
+
+
+
+10.]
+What are query parameters in Next.js?
+
+A way to pass data from one Next.js page to another through the URL.
+A way to pass data from the server to the client during server-side rendering.
+A way to store data in cookies for client- side access.
+A way to pass data between Next.js components using props.
+
+
+
+
+
+
+
+
+
+Answer
+
+01.
+Use environment variables to store the credentials and access them in server-side code.
+
+Storing sensitive credentials in client- side code is a security risk since it can be easily accessed and exposed. Instead, using environment variables allows you to store sensitive information outside of the codebase and access them securely on the server- side. This way, the credentials remain hidden from the client-side code and protect against potential security breaches.
+
+
+
+
+
+
+
+02.
+Data that provides additional information about a page, such as title and description.
+
+In Next.js, Metadata refers to data that provides additional information about a page, such as the page's title, description, and other meta tags. This information is essential for search engine optimization (SEO), social media sharing, and improving the user experience.
+
+
+
+
+
+
+
+
+
+03.
+By using the useRouter hook on the client-side.
+
+In Next.js, you can access query parameters on the client-side using the useRouter hook from the next/router package. It provides access to the current URL and query parameters, allowing you to extract and use the query parameters in your components.
+
+
+
+
+
+
+
+
+04.
+mongodb
+
+In a Next.js project, you can use various packages and database drivers to connect to different databases. For MongoDB, you can use a package like "mongodb" to interact with the database. Similarly, for other databases like PostgreSQL or MySQL, you may use different packages like "pg" or "mysql2."
+
+
+
+
+
+
+
+
+
+05.
+By using the getStaticProps or getServerSide Props functions to fetch metadata dynamically
+
+In Next.js, you can add Metadata to a page dynamically by using the getStaticProps or getServerSide Props functions. These functions allow you to fetch data, including Metadata, from an external source or API and pass it as props to the page component. This approach ensures that the Metadata is up-to-date and can be generated based on the page content or data.
+
+
+
+
+
+
+
+06.
+Use the next/image component and set the layout attribute to "fill".
+
+The next/image component is an optimized image component in Next.js that provides features like lazy loading and automatic image optimization. By setting the layout attribute to "fill", the image will be displayed at the specified dimensions, reducing layout shift and improving performance.
+
+
+
+
+
+
+
+
+07.
+Better performance due to pre- rendering at build time.
+
+The main advantage of using getStaticProps() over getServerSideProps() is better performance. getStaticProps() fetches data at build time and generates static HTML files, which results in faster page loading times. On the other hand, getServerSideProps() fetches data on every request, leading to potentially slower loading times for pages with frequent updates.
+
+
+
+
+
+
+
+
+08.
+Put them in the public directory.
+
+Next.js automatically serves any file inside the public directory as a static asset. This allows you to include images, stylesheets, and fonts by simply referencing their paths in your components.
+
+
+
+
+
+
+
+
+
+09.]]
+Create a separate styles.css file in the components directory and import it in _app.js.
+
+In Next.js, you can create a global CSS file (e.g., styles.css) and import it in the _app.js file. This way, the styles will be applied to all components in the application.
+
+
+
+
+
+
+
+
+10.]
+A way to pass data from one Next.js page to another through the URL.
+
+Query parameters in Next.js are used to pass data from one page to another by appending them to the URL. They allow you to pass variables, filters, or options to a page, making it easier to share data across different pages.
+
+
+
+
+
+
+
