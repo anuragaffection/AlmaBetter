@@ -1,0 +1,21 @@
+
+#03 --  `charAt()`  =  do not do typo error like chartAt
+
+
+#04 --  `repeat()`  =  a predfined function in javascript 
+
+
+#05 --  distance Formula 
+
+
+#06 --  xor = ^ = (x & (~y)) | ((~x ) & y);
+
+
+#07 -- temperature converter equation  ( f - 32 ) / 9 = c / 5;
+
+
+#08 -- 
+
+
+
+
