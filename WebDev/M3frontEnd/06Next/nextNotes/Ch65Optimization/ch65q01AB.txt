@@ -1,0 +1,279 @@
+NEXT js optimisation Quiz 
+
+
+
+
+01.
+What is the purpose of the priority property in the Image component?
+
+To specify the loading priority of the image
+To set the image size based on device screen size
+To enable lazy loading of the image
+To add a loading animation to the image
+
+
+
+
+
+
+
+
+02 .
+Which of the following is a benefit of using the Image component in Next.js?
+
+Automatic image optimization based on device screen size and browser support
+Faster loading times for web pages
+Reduced bandwidth usage
+All of the above
+
+
+
+
+
+
+
+
+03.
+Which property can be used to specify the weight of a font in Next.js?
+
+font-weight
+font-style
+font-stretch
+font-size
+
+
+
+
+
+
+
+
+
+
+04.
+Which of the following is a valid value for the loading property in the Image component?
+
+fast
+eager
+slow
+none
+
+
+
+
+
+
+
+
+
+05.
+Which package is used for image optimization in Next.js?
+
+next/image
+react/image
+next/optimize
+react/optimize
+
+
+
+
+
+
+
+
+
+06.
+What is the purpose of the layout property in the Image component?
+
+To define the layout of the image
+To specify the image dimensions
+To add a loading animation to the image
+To enable lazy loading of the image
+
+
+
+
+
+
+
+
+
+07.]]
+Which of the following is a benefit of font subsetting?
+
+Faster loading times for web pages
+Reduced bandwidth usage
+Improved SEO ranking for web pages
+All of the above
+
+
+
+
+
+
+
+
+
+08.
+Which of the following is a valid option for the layout property in the Image component?
+
+stretch
+scale
+fill
+All of the above
+
+
+
+
+
+
+
+
+
+09.]
+What is the purpose of the Font Optimization API in Next.js?
+
+To optimize font files for faster loading
+To dynamically load fonts based on user preferences
+To generate font subsets for specific languages
+To compress font files for smaller file sizes
+
+
+
+
+
+
+
+
+10.
+Which of the following is a valid value for the font-display property in Next.js?
+
+block
+swap
+fallback
+All of the above
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer 
+-----------------------------
+-----------------------------
+
+
+
+
+01.
+To specify the loading priority of the image
+
+The priority property in the Image component allows you to specify the loading priority of the image. This can be useful when loading images that are not immediately visible on the page.
+
+
+
+
+
+
+
+
+02.
+All of the above
+
+The Image component in Next.js provides automatic image optimization, which can lead to faster loading times and reduced bandwidth usage.
+
+
+
+
+
+
+
+03.
+font-weight
+
+The font-weight property can be used to specify the weight of a font in Next.js.
+
+
+
+
+
+
+04.
+eager
+
+The available values for the loading property in the Image component are eager, lazy, and auto.
+
+
+
+
+
+
+05.
+next/image
+
+Next.js provides an optimized Image component that allows for automatic image optimization based on device screen size and browser support. This component is available through the next/image package.
+
+
+
+
+
+
+06.
+To define the layout of the image
+
+The layout property in the Image component allows you to define the layout of the image. 
+The available options are fill, fixed, intrinsic, and responsive.
+
+
+
+
+
+07.]
+Reduced bandwidth usage
+
+Font subsetting can lead to reduced file sizes and therefore reduced bandwidth usage.
+
+
+
+
+
+
+08.
+fill
+
+The available options for the layout property in the Image component are fill, fixed, intrinsic, and responsive.
+
+
+
+
+
+
+09.]
+To dynamically load fonts based on user preferences
+
+The Font Optimization API in Next.js allows you to dynamically load fonts based on user preferences, such as preferred languages or font size.
+
+
+
+
+
+
+
+10.
+swap
+
+The available values for the font-display property in Next.js are auto, block, swap, fallback, and optional.
+
+
+
+

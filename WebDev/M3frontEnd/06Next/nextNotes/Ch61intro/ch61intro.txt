@@ -27,7 +27,7 @@ Need More focus
 
 
 
-Notes 
+Notes in (next js app routing )
 -- if we do console in next js , it will not render in browser console ( because of server side rendering )
 -- "use client" = to convert in client side rendering, then console will work on browser
 
@@ -222,16 +222,25 @@ e. Next.js provides built-in optimizations like code splitting, automatic image 
 
 11. Activity ( fill in the blanks )
 
+
 a. Next.js can assist with ___________ (off-page SEO/client-side rendering/on-page SEO), which involves optimizing your website or application to make it search engine-friendly.
 === on page seo 
 
 
 b. For enhanced application performance, it is suggested to place Client Components at the __________ (top/middle/bottom) levels of your component tree whenever feasible.
-==- bottom
+===  bottom  
 
 
 c. In Next.js, the "use client" directive is placed at the top of a file, above imports, to define the __________(starting point/cut-off point/transition point) where it crosses the boundary from the server-only to the client part.
 === cut off point 
 
+
+
+
+
+Explore again {
+    -- placoing client component at bottom
+    -- cut off point 
+}
 
 

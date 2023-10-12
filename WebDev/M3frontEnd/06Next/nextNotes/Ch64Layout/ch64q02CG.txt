@@ -1,0 +1,284 @@
+01. Layout
+02. CSS Modules 
+03. Global CSS
+04. External Stylesheet 
+05. CSS-in-JS Libraries 
+06. CSS performance
+
+
+
+
+
+
+
+**Q1.1.** What is the primary purpose of layout components in Next.js?
+
+a) To define the overall structure and organization of a web page.
+b) To style individual components within a page.
+c) To handle client-server communication.
+d) To manage state and logic.
+
+
+
+
+
+
+**Q1.2.** In Next.js, which layout component is commonly used for creating a consistent header across multiple pages?
+
+a) `<HeaderLayout>`
+b) `<Link>`
+c) `<head>`
+d) `<Head>`
+
+
+
+
+
+
+
+
+
+
+
+
+**Q2.1.** What is the naming convention for CSS Module files in Next.js?
+
+a) `.css`
+b) `.module.css`
+c) `.styles`
+d) `.module`
+
+
+
+
+**Q2.2.** How does CSS Modules help avoid naming conflicts in Next.js?
+
+a) By using globally scoped class names.
+b) By generating unique class names for each component.
+c) By using inline styles.
+d) By using the `!important` keyword.
+
+
+
+
+
+
+
+
+
+
+**Q3.1.** In Next.js, how can you apply global CSS styles to all pages in your application?
+
+a) Import the CSS file in each individual page.
+b) Use the `createGlobalStyle` API from styled-components.
+c) Add a global attribute to the CSS file.
+d) Include a global.css file in the `public` directory.
+
+
+
+
+
+
+**Q3.2.** What is a potential drawback of using extensive global CSS styles in a Next.js application?
+
+a) Improved maintainability.
+b) Performance issues and CSS conflicts.
+c) Scoped styling.
+d) Enhanced encapsulation.
+
+
+
+
+
+
+
+
+
+
+
+**Q4.1.** Which HTML tag should you use to include an external stylesheet in a Next.js component?
+
+a) `<link>`
+b) `<style>`
+c) `<css>`
+d) `<stylesheet>`
+
+
+
+
+
+
+**Q4.2.** When might you prefer using an external stylesheet over CSS Modules in a Next.js application?
+
+a) When you want to encapsulate styles.
+b) When you need to load styles conditionally.
+c) When you want to avoid server-side rendering.
+d) When you want to generate unique class names.
+
+
+
+
+
+
+
+
+
+
+**Q5.1.** What is the primary benefit of using a CSS-in-JS library like Emotion.js in Next.js?
+
+a) Simplified component structure.
+b) Enhanced server-side rendering performance.
+c) Automatic generation of CSS modules.
+d) Improved JavaScript optimization.
+
+
+
+
+
+**Q5.2.** Which of the following is a CSS-in-JS library commonly used in Next.js for component-level styling?
+
+a) Bootstrap
+b) Tailwind CSS
+c) styled-components
+d) SCSS
+
+
+
+
+
+
+
+
+
+
+**Q6.1.** How can you optimize CSS performance in a Next.js application?
+
+a) By adding more CSS rules to the global stylesheet.
+b) By bundling all CSS into a single file.
+c) By using CSS Modules extensively.
+d) By reducing the number of CSS rules and minimizing CSS file size.
+
+
+
+
+
+
+**Q6.2.** What is one advantage of using CSS-in-JS libraries for styling in terms of performance?
+
+a) Improved caching of CSS files.
+b) Reduced server-side rendering time.
+c) Smaller bundle size.
+d) Reduced need for CSS optimizations.
+
+
+
+
+
+
+
+
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+**Q1.1.** What is the primary purpose of layout components in Next.js?
+   - **Answer:** a) To define the overall structure and organization of a web page.
+
+
+
+**Q1.2.** In Next.js, which layout component is commonly used for creating a consistent header across multiple pages?
+   - **Answer:** d) `<Head>`
+
+
+
+
+
+
+
+**Q2.1.** What is the naming convention for CSS Module files in Next.js?
+   - **Answer:** b) `.module.css`
+
+
+
+
+**Q2.2.** How does CSS Modules help avoid naming conflicts in Next.js?
+   - **Answer:** b) By generating unique class names for each component.
+
+
+
+
+
+
+
+**Q3.1.** In Next.js, how can you apply global CSS styles to all pages in your application?
+   - **Answer:** d) Include a global.css file in the `public` directory.
+
+
+
+**Q3.2.** What is a potential drawback of using extensive global CSS styles in a Next.js application?
+   - **Answer:** b) Performance issues and CSS conflicts.
+
+
+
+
+
+
+
+**Q4.1.** Which HTML tag should you use to include an external stylesheet in a Next.js component?
+   - **Answer:** a) `<link>`
+
+
+
+
+
+**Q4.2.**] When might you prefer using an external stylesheet over CSS Modules in a Next.js application?
+   - **Answer:** b) When you need to load styles conditionally.
+
+
+
+
+
+
+
+
+**Q5.1.** What is the primary benefit of using a CSS-in-JS library like Emotion.js in Next.js?
+   - **Answer:** b) Enhanced server-side rendering performance.
+
+
+
+
+
+**Q5.2.** Which of the following is a CSS-in-JS library commonly used in Next.js for component-level styling?
+   - **Answer:** c) styled-components
+
+
+
+
+
+
+
+
+**Q6.1.** How can you optimize CSS performance in a Next.js application?
+   - **Answer:** d) By reducing the number of CSS rules and minimizing CSS file size.
+
+
+
+
+**Q6.2.** What is one advantage of using CSS-in-JS libraries for styling in terms of performance?
+   - **Answer:** c) Smaller bundle size.
+
+
+
+

@@ -3,11 +3,8 @@
 Which of the following is a valid CSS color function?
 
 color(red)
-
 color-rgb(255, 0, 0)
-
 color-hex(#FF0000)
-
 color-name(red)
 
 
@@ -20,11 +17,8 @@ color-name(red)
 How can you select all <a> elements within a <div> element with a class of "container"?
 
 div.container a
-
 a div.container
-
 div> a.container
-
 div[class=container] a
 
 
@@ -37,11 +31,8 @@ div[class=container] a
 If an element has a width of 100px and a padding of 20px, what will be the total width of the element?
 
 100px
-
 120px
-
 140px
-
 160px
 
 
@@ -54,11 +45,8 @@ If an element has a width of 100px and a padding of 20px, what will be the total
 What is the default value of the CSS margin property?
 
 0px
-
 auto
-
 none
-
 inherit
 
 
@@ -70,11 +58,8 @@ inherit
 If an element has a width of 100px, a padding of 20px, and a border of 10px, what will be the total width of the element?
 
 100px
-
 120px
-
 140px
-
 160px
 
 
@@ -86,11 +71,8 @@ If an element has a width of 100px, a padding of 20px, and a border of 10px, wha
 How do you write a CSS comment?
 
 / comment here /
-
 // comment here
-
 <!-- comment here -->
-
 # comment here
 
 
@@ -101,15 +83,11 @@ How do you write a CSS comment?
 07.
 How can you set the padding for the top and bottom sides of an element to be different?
 
-padding-top: value; padding-bottom:
-
-value;
-
+padding-top: value; 
+padding-bottom: value;
 padding-top-bottom: value;
+padding: value;
 
-padding-top: value; padding: value;
-
-padding: value; padding-top-bottom: value;
 
 
 
@@ -120,11 +98,8 @@ padding: value; padding-top-bottom: value;
 How can you set the background image of an element?
 
 background-image: url(value);
-
 background-color: url(value);
-
 background-position: url(value);
-
 background: url(value);
 
 
@@ -135,11 +110,8 @@ background: url(value);
 What is the default value for the background-repeat property?
 
 repeat
-
 no-repeat
-
 repeat-x
-
 repeat-y
 
 
@@ -150,11 +122,8 @@ repeat-y
 What is the correct way to select all <p> elements with a class of "highlight"?
 
 p.highlight
-
 .highlight p
-
 p[class=highlight]
-
 .highlight.p
 
 
@@ -168,10 +137,6 @@ Anwer
 01.
 div.container a
 
-Justification
-
-This answer is Correct!
-
 To select all <a> elements within a <div> element with a class of "container", you can use the element selector "a" and the class selector "container" of the parent element, separated by a space.
 
 
@@ -181,10 +146,6 @@ To select all <a> elements within a <div> element with a class of "container", y
 02.
 div.container a
 
-Justification
-
-This answer is Correct!
-
 To select all <a> elements within a <div> element with a class of "container", you can use the element selector "a" and the class selector "container" of the parent element, separated by a space
 
 
@@ -192,10 +153,6 @@ To select all <a> elements within a <div> element with a class of "container", y
 
 03.
 120px
-
-71
-
-Justification
 
 This answer is Incorrect! The total width of an element is equal to the width of the element plus twice the value of its horizontal padding. In this case, the total width of the element would be 100px (width) + 20px (left padding) + 20px (right padding) = 120px.
 
@@ -207,10 +164,6 @@ This answer is Incorrect! The total width of an element is equal to the width of
 04.
 0px
 
-Justification
-
-This answer is Correct!
-
 The default value of the CSS margin property is 0px, which means that no space is added outside of an element. You can change this value to add more or less space around an element.
 
 
@@ -220,8 +173,6 @@ The default value of the CSS margin property is 0px, which means that no space i
 
 05.
 160px
-
-Justification
 
 This answer is Incorrect! The total width of an element is equal to the width of the element plus twice the value of its horizontal padding plus twice the value of its horizontal border. In this case, the total width of the element would be 100px (width) + 20px (left padding)+20px (right padding) + 10px (left border) + 10px (right border) = 160px.
 
@@ -235,8 +186,6 @@ This answer is Incorrect! The total width of an element is equal to the width of
 06.
 / comment here /
 
-Justification
-
 This answer is Correct! CSS uses // to create comments, similar to how Java and C++ use /*/ to create multi-line comments.
 
 
@@ -246,13 +195,8 @@ This answer is Correct! CSS uses // to create comments, similar to how Java and 
 
 
 07.
-padding-top: value; padding-
-
-bottom: value;
-
-Justification
-
-This answer is Correct!
+padding-top: value;
+padding-bottom: value;
 
 To set the padding for the top and bottom sides of an element to be different, you can use the CSS padding- top and padding-bottom properties, respectively.
 
@@ -264,13 +208,7 @@ To set the padding for the top and bottom sides of an element to be different, y
 08.
 background-image: url(value);
 
-Justification
-
-This answer is Correct!
-
-To set the background image of an
-
-element, you can use the CSS background-image property. You need to provide a valid URL of the image.
+To set the background image of an element, you can use the CSS background-image property. You need to provide a valid URL of the image.
 
 
 
@@ -278,10 +216,6 @@ element, you can use the CSS background-image property. You need to provide a va
 
 09.
 repeat
-
-Justification
-
-This answer is Correct!
 
 The default value for the background- repeat property is repeat which means the background image will be repeated both horizontally and vertically.
 
@@ -291,8 +225,6 @@ The default value for the background- repeat property is repeat which means the 
 
 10.
 p.highlight
-
-Justification
 
 This answer is Correct! To select all <p> elements with a class of "highlight", you can use the element selector "p" and the class selector "highlight" together, separated by a dot. This is known as a class selector.
 

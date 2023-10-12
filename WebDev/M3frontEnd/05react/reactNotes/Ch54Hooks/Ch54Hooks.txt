@@ -1,0 +1,307 @@
+Life Cycle Method & React Hooks
+
+
+
+
+
+Pre-defined Methods
+
+
+--- constructor()
+--- super()
+--- state
+--- setState
+--- props
+--- render()
+
+--- hasError
+--- ErrorBoundary 
+
+
+--- componentDidMount()
+--- componentDidUpdate()
+--- componentWillUnmount()
+--- componentDidCatch()
+--- componentDidCatach(error, errorInfo)
+
+
+--- shouldComponentUpdate()
+--- getDerivedFromProps()
+--- getSnapshotBeforeUpdate()
+
+
+--- useState()
+--- useEffect()
+--- useContext()
+--- useCallback()
+--- useRef()
+--- useMemo()
+
+
+
+
+
+
+
+Recall 
+--- appendChild()
+--- querySelector()
+
+--- createContext()
+--- createElemnt()
+--- addEventListener()
+--- removeListener()
+
+
+
+
+
+Returning 
+--- jsx
+--- array
+--- fragments 
+
+
+
+Explore 
+-- React.Component
+-- React.Fragment
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+01. Components Lifecycle 
+02. Components LifeCycle Methods 
+03. React Hooks 
+04. useState()
+05. useEffect()
+06. useContext()
+07. useCallback()
+
+
+
+
+
+
+
+
+
+01. Components Lifecycle (
+    -- React component
+)
+
+
+02. Components LifeCycle Methods (
+    -- constructor()
+    -- render ()
+    -- componentDidMount()
+    -- componentDidUpdate()
+    -- componentWillUnmount()
+    -- componentDidCatch()
+)
+
+
+03. React Hooks {
+    -- Why we need hooks 
+    -- How hooks works 
+}
+
+
+04. useState() {
+    -- import 
+    -- syntax 
+}
+
+
+05. useEffect() {
+    -- import
+    -- syntax
+}
+
+
+06. useContext() {
+    -- import 
+    -- syntax
+}
+
+
+07. useCallback() {
+    -- import
+    -- syntax
+}
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+01. Components Lifecycle (
+
+    -- three stages ( 
+        mounting, 
+        updating, 
+        unmounting,
+        error handling 
+    )
+
+)
+
+
+
+
+
+
+
+
+
+02. Components LifeCycle Methods (
+
+    -- constructor() {
+        first method to call in life cycle 
+        state  = initialize
+        bind   = of event handlers 
+    }
+
+
+    -- render () {
+        called after    = constructor()
+        used to #return =  in class component
+        React.Fragment  =  pre defined 
+    }
+
+
+    -- componentDidMount() {
+        called after  = render ()
+
+    }
+
+
+    -- componentDidUpdate() {
+        change in props or update in props = re render the Components
+        change in state or update in state = re render the component
+    }
+
+    -- componentWillUnmount() {
+        cleaning timers, cancelling network requests, cleaning subscriptions 
+    }
+
+    -- componentDidCatch() {
+        called , when error is thrown by child component
+        it takes two parameters 
+        syntax = componentDidCatach(error, errorInfo)
+        error = it is an object 
+        errorInfo = a string & error message 
+    }
+)
+
+
+
+
+
+
+
+
+03. React Hooks {
+    -- Why we need hooks (
+        -- allow functional component to have state 
+        -- 
+    )
+    -- How hooks works 
+}
+
+
+
+
+
+
+04. useState() {
+    -- import 
+    -- syntax 
+    -- to store data & update data 
+    -- to use state 
+    -- replacements of ( state & setState from class component)
+}
+
+
+
+
+
+05. useEffect() {
+    -- import
+    -- syntax
+    -- to fetch data 
+    -- to manage component life cycle 
+    -- replacements of ( )
+}
+
+
+
+
+
+06. useContext() {
+    -- import 
+    -- syntax
+}
+
+
+
+
+
+07. useCallback() {
+    -- import
+    -- syntax
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

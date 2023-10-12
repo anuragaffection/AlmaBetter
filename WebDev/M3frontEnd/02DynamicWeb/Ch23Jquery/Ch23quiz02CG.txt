@@ -1,0 +1,229 @@
+
+
+
+**1. What is jQuery primarily used for?**
+   a) Backend development
+   b) Styling and design
+   c) DOM manipulation and interactivity
+   d) Data storage and retrieval
+   *Answer: c*
+
+
+
+
+**2. Which symbol is commonly used as an alias for the jQuery object?**
+   a) #
+   b) $
+   c) @
+   d) %
+   *Answer: b*
+
+
+
+
+
+**3. How do you include jQuery in an HTML document?**
+   a) <script src="jquery.js"></script>
+   b) <script src="jquery.min.js"></script>
+   c) <link rel="stylesheet" href="jquery.css">
+   d) <link rel="script" href="jquery.js">
+   *Answer: b*
+
+
+
+
+**4. Which jQuery method is used to hide an element with animation?**
+   a) hide()
+   b) fadeOut()
+   c) slideUp()
+   d) toggle()
+   *Answer: b*
+
+
+
+
+
+**5. What does the `text()` method do in jQuery?**
+   a) Changes the text color
+   b) Sets the text content of an element
+   c) Appends text to an element
+   d) Creates a new text element
+   *Answer: b*
+
+
+
+
+
+**6. What is the purpose of the `attr()` method in jQuery?**
+   a) Adds a new attribute to an element
+   b) Removes an attribute from an element
+   c) Changes the value of an attribute
+   d) All of the above
+   *Answer: d*
+
+
+
+
+
+
+**7. Which jQuery method is used to add a class to an element?**
+   a) addClass()
+   b) setClass()
+   c) appendClass()
+   d) modifyClass()
+   *Answer: a*
+
+
+
+
+
+**8. What is the purpose of event delegation in jQuery?**
+   a) Delegating events to the server
+   b) Delegating events to child elements
+   c) Delegating events to the document root
+   d) Delegating events to parent elements
+   *Answer: d*
+
+
+
+
+
+**9. How do you select all elements with the class "example"?**
+   a) $("element.example")
+   b) $("element .example")
+   c) $(".example")
+   d) $("#example")
+   *Answer: c*
+
+
+
+
+
+**10. Which method is used to perform an asynchronous HTTP request in jQuery?**
+    a) httpRequest()
+    b) ajax()
+    c) get()
+    d) request()
+    *Answer: b*
+
+
+
+
+
+**11. What is the purpose of the `animate()` method in jQuery?**
+    a) To add animations to the entire page
+    b) To create custom animations with CSS properties
+    c) To animate images only
+    d) To animate text content
+    *Answer: b*
+
+
+
+
+
+
+
+**12. Which jQuery method is used to remove a class from an element?**
+    a) removeClass()
+    b) deleteClass()
+    c) clearClass()
+    d) discardClass()
+    *Answer: a*
+
+
+
+
+
+**13. Which of the following is a commonly used filter in jQuery?**
+    a) :first
+    b) :beginning
+    c) :initial
+    d) :primary
+    *Answer: a*
+
+
+
+
+
+**14. What is the purpose of the `fadeIn()` method in jQuery?**
+    a) To make an element transparent
+    b) To fade an element in gradually
+    c) To make an element visible suddenly
+    d) To hide an element
+    *Answer: b*
+
+
+
+
+
+
+**15. Which jQuery method is used to retrieve the value of an input field?**
+    a) getValue()
+    b) val()
+    c) retrieve()
+    d) getVal()
+    *Answer: b*
+
+
+
+
+
+**16. How do you bind a click event to a button with the ID "myButton"?**
+    a) $("#myButton").bind("click", function() {...});
+    b) $("#myButton").click(function() {...});
+    c) $("#myButton").event("click", function() {...});
+    d) $("#myButton").addEventListener("click", function() {...});
+    *Answer: b*
+
+
+
+
+
+**17. Which jQuery method is used to stop an ongoing animation?**
+    a) stop()
+    b) pause()
+    c) halt()
+    d) end()
+    *Answer: a*
+
+
+
+
+**18. What does the `slideDown()` method do in jQuery?**
+    a) Increases the height of an element
+    b) Decreases the height of an element
+    c) Slides an element up to hide it
+    d) Slides an element down to show it
+    *Answer: d*
+
+
+
+
+
+**19. Which jQuery method is used to get the HTML content of an element?**
+    a) html()
+    b) getContent()
+    c) innerHTML()
+    d) getHTML()
+    *Answer: a*
+
+
+
+
+**20. What is the purpose of the `empty()` method in jQuery?**
+    a) Removes all event listeners from an element
+    b) Deletes an element from the DOM
+    c) Clears the content of an element
+    d) Empties the browser's cache
+    *Answer: c*
+
+
+
+
+
+
+
+    
+
+
+

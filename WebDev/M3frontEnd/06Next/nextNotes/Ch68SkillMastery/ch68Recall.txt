@@ -1,0 +1,47 @@
+
+
+
+npx create-next-app `my-app`
+
+cd 
+
+
+npm run build 
+npm run dev 
+npm run export
+npm run lint
+ 
+
+
+npm start
+npm test 
+
+
+npm install bootstrap 
+npm i reactstrap
+
+
+
+server-only {
+    -- npm install server-only 
+    -- import server-only
+
+}
+
+
+clinet-only {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

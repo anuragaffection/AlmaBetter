@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 
 
-export default function index() {
+export default function Index() {
 
     const [family, setFamily] = useState([]);
 

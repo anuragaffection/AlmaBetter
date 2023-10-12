@@ -5,3 +5,7 @@ export default function index() {
     <div>index file in user </div>
   )
 }
+
+
+
+// index file will be default route for user folder 

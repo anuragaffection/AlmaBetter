@@ -1,0 +1,165 @@
+
+Security Testing & Deployment
+
+
+
+01. Authentication using iron - session
+02. Testing using cypress 
+03. Deployment of a project 
+
+
+
+
+
+
+01. iron session {
+    -- cookies 
+
+    -- compare with next/auth 
+    -- compare with caching 
+
+    -- it prevent from repeating logging to website 
+    -- server will create cookies
+
+    -- npm install iron-session
+    -- import withIronSession 
+
+    -- req, res 
+
+    -- password
+    -- cookieName 
+    -- cookieOptions 
+    -- secure 
+
+    -- req
+    -- req.session
+    -- req.session.get()
+    -- 
+}
+
+
+
+
+
+
+
+
+02. Testing {
+
+    -- node.js, 
+    -- npm 
+    -- yarn
+    -- next.js
+
+    -- jest 
+    -- cypress
+
+    -- cypress {
+        - npm install cypress --save-dev
+        - cypress.json 
+        - baseUrl 
+
+        - it 
+        - cy.visit()
+        - cy.contains
+        - cy.wait()
+        - cy.get()
+
+        - npm run test 
+
+    }
+}
+
+
+
+
+
+
+
+
+
+03. Deployment {
+
+    -- Vercel {
+        - npm install -g vercel 
+        - vercel init 
+        - vercel 
+        - 
+    }
+
+    -- Netlify 
+    -- AWS 
+}
+
+
+
+
+
+
+
+
+
+04. Best Practices {
+
+    -- httpOnly
+    -- secure 
+    -- XSS, Cross site scripting 
+    -- automatic deployment from github to vercel 
+
+    -- two-factor Authentication
+    -- OAuth 
+    -- 
+}
+
+
+
+
+
+
+Activity true / false {
+
+
+
+    01.  Iron-session is a package used for end-to-end testing in Next.js applications.
+
+
+
+    02.  Iron-session helps to store and manage session data in Next.js applications securely.
+
+
+
+    03.  The cypress.json file in Cypress holds the configuration options for running tests.
+
+
+
+    04.  Iron-session can't be used to protect routes in a Next.js application.
+
+
+
+    05.  The cypress run command runs Cypress tests in the interactive mode.
+
+
+
+
+   Answer
+   01. False
+   02.True
+   03. True
+   04. False
+   05. False
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,17 +1,55 @@
+//
+// Sorting Basic 
+//
+
+
+
+
+/*
+  in this chapter 
+ 
+  Bubble Sort
+  Selection Sort
+  Insertion Sort
+  Merge Sort (Divide and conquer)
+  QuickSort (Divide and Conquer)
+  
+*/
+
+
+
+
+
+/**
+ * explore quiz 
+ * 
+*/
+
+
+
+/**
+ * explore coding 
+ * 
+*/
+
+
+
+/**
+ * explore topics 
+ * 
+*/
+
+
+
+
+
+
 /*
 
 inbuilt sort =  ___.sort( (a, b) => a - b);
 has time complexity of n (log n)
 
 
-Bubble Sort
-Selection Sort
-Insertion Sort
-Merge Sort (Divide and conquer)
-QuickSort (Divide and Conquer)
-
-
-Note -
 
 Mostly in interview they asked about time complexity & Space complexity,
 which algorithm is best between all,

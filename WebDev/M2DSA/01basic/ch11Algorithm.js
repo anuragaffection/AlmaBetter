@@ -1,10 +1,59 @@
 // Getting started with Algorithm
 
 
+
+
+
+
+/* 
+  in this chapter 
+
+  01. symbol data types 
+  02. some special numeric value
+  03. SOME PROPERTIES OF PRIMITIVE DATA STRUCTURE 
+  04. Object vs Map vs Hashmap
+  05. Map in details
+  06. Set in details
+  07. Linked list
+  08. Tree
+  09. Problem of flip coins 
+
+*/
+
+
+
+
+
+
 /**
- *   Sylllabus of this chapter
+ * explore quiz 
  * 
+*/
+
+
+
+
+
+
+/**
+ * explore coding 
  * 
+*/
+
+
+
+
+
+/**
+ * explore topics 
+ * 
+*/
+
+
+
+
+
+/**
  *   What is data structure 
  * 
  *   classification of data structure 
@@ -41,6 +90,10 @@
  *   
 */
 
+
+
+
+
 /**
  * 
  *   What is an algorithm 
@@ -57,23 +110,16 @@
  *   -- Big theta notation
  * 
  * 
- */
-
-
-/* 
- Some more points to discuss
-
-  01. symbol data types 
-  02. some special numeric value
-  03. SOME PROPERTIES OF PRIMITIVE DATA STRUCTURE 
-  04. Object vs Map vs Hashmap
-  05. Map in details
-  06. Set in details
-  07. Linked list
-  08. Tree
-  09. Problem of flip coins 
-
 */
+
+
+
+
+
+
+
+
+
 
 
 // 01.
@@ -163,6 +209,7 @@
 // set do not have key 
 // set has only value stored 
 // both key & value returns value.
+
 
 /*
   

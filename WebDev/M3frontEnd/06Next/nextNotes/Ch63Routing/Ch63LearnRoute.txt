@@ -44,20 +44,25 @@ Routing SetUp in next js {
 }
 
 
+
 Dynamic Routes {
+
     --- parameterized urls 
-    --- context
-    --- useRouter 
+
+    --- context()
+    --- useRouter() 
 
     --- context & useRouter = are same 
     --- getServerSideProps takes context as parameter 
 }
 
 
+
 Nested Routing {
     --- brackets []
     --- index  /
 }
+
 
 
 Programmatic navigation {
@@ -109,9 +114,9 @@ Introduction to Routing in next js (
     --- server side Routing {
         - getServerSideProps
         - getInitialProps   
-        - useRouter 
+        - useRouter()
         - isFallBack
-        - context  
+        - context()  
         - query
         - context.query
         - context - similar to - useRouter()   
@@ -255,24 +260,24 @@ Custom 404 pages {
 
 Activity fill in the blanks {
 
-    Routing in Next.js is based on a __________(hierarchical/file-based/both)  approach, where each file inside the "pages" directory corresponds to a unique route accessible in the application.
+    a.  Routing in Next.js is based on a __________(hierarchical/file-based/both)  approach, where each file inside the "pages" directory corresponds to a unique route accessible in the application.
 
 
-    The Next.js automatic routing system supports __________(SSG/SIngle-page app/scalability), which allows developers to add new pages and features to the application easily without major impacts on the existing codebase.
-
-
-
-    Next.js handles client-side navigation through the use of the built-in __________ (Link/Route/Nav) component from the next/link module, allowing users to navigate between pages without triggering a full page refresh.
+    b.  The Next.js automatic routing system supports __________(SSG/Single-page app/scalability), which allows developers to add new pages and features to the application easily without major impacts on the existing codebase.
 
 
 
-    The getServerSideProps function is used in Next.js for __________(server-side/client-side/static site generation(SSG) ) routing, allowing developers to fetch and process data on the server before rendering a page.
+    c.  Next.js handles client-side navigation through the use of the built-in __________ (Link/Route/Nav) component from the next/link module, allowing users to navigate between pages without triggering a full page refresh.
+
+
+
+    d.  The getServerSideProps function is used in Next.js for __________(server-side/client-side/static site generation(SSG) ) routing, allowing developers to fetch and process data on the server before rendering a page.
 
 
 
     Answer
     file-based
-    scalability
+    scalability]
     Link
     server-side
 }
@@ -289,9 +294,14 @@ Activity fill in the blanks {
 
 Activity true / false  {
 
+
+
     a.  In Next.js, dynamic routing is achieved using placeholders enclosed in angle brackets ([ ]).
 
+
+
     b.  Next.js allows developers to create nested routes by organizing pages in subdirectories, but it does not support hierarchical page structures.
+
 
 
     c.  Next.js only supports static routes, where each page is predefined, and dynamic routing is not possible.
@@ -308,7 +318,7 @@ Activity true / false  {
 
     Answer
     a. True
-    b. False
+    b. False]
     c. False
     d. True
     e. True

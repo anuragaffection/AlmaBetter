@@ -1,0 +1,292 @@
+Next js data Fetching 
+
+
+
+
+
+01.]]
+What is the purpose of the fallback option in getStaticPaths?
+
+a.) To specify which paths should be statically generated
+b.) To enable incremental static regeneration [isr]
+c.) To enable server-side rendering for dynamic routes
+d.) To specify the default fallback value for dynamic routes
+
+
+
+
+
+
+
+
+
+02.]]
+What is the difference between the getStaticProps and getStaticPaths functions in Next.js?
+
+
+a.) getStaticProps is used for fetching data, while getStaticPaths is used for generating dynamic routes.
+b.) getStaticProps is used for server-side rendering, while getStatic Paths is used for client-side rendering.
+c.) getStaticProps is used for pre-rendering at build time, while getStaticPaths is used for generating dynamic routes for pages that don't have static paths.
+d.) Both A and B
+
+
+
+
+
+
+
+
+
+
+
+
+
+03.]]
+What is the purpose of the fallback option in Next.js?
+
+
+It specifies whether to show a loading indicator while data is being fetched
+It specifies whether to fallback to server- side rendering if client-side rendering fails.
+It specifies whether to fallback to a generic error page if data fetching fails.
+None of the above
+
+
+
+
+
+
+
+
+
+
+04.
+Which of the following is a valid way to pass data from getStaticProps to a component?
+
+Using props
+Using context
+Using state
+Using cookies
+
+
+
+
+
+
+
+
+
+
+05.
+Which of the following is a key difference between getServerSide Props and getStaticProps?
+
+a.) getServerSideProps can only be used with dynamic routes
+b.) getStaticProps can only be used with dynamic routes
+c.) getServerSideProps runs on the client side
+d.) getStaticProps generates static HTML at build time
+
+
+
+
+
+
+
+
+06.
+Which Data Fetching method should be used for fetching data that changes frequently?
+
+getStaticProps
+getServerSideProps
+Neither
+Both A and B
+
+
+
+
+
+
+
+07.
+Which of the following is a valid use case for getInitialProps?
+
+Fetching data for a static page
+Fetching data for a dynamic page
+Fetching data for a component that is shared across multiple pages
+Fetching data for a component that is used only on the client side
+
+
+
+
+
+
+
+
+08.
+Which Data Fetching method is used to fetch data during runtime?
+
+getStaticProps
+getServerSideProps
+Neither
+Both A and B
+
+
+
+
+
+
+
+09.
+Which of the following is a limitation of using the getServerSideProps function in Next.js?
+
+It can only fetch data from external APIs.
+It can only be used for pages with dynamic routes.
+It can result in slower performance compared to using getStaticProps.
+Both A and C
+
+
+
+
+
+
+
+10.
+What is caching, and how can it be used to optimize Data Fetching in Next.js?
+
+Caching is a technique to store data in memory or on disk, reducing the need for additional API requests.
+Caching is a technique to fetch data during runtime.
+Caching is a technique to fetch data during build time.
+Caching is a technique to optimize server-side rendering.
+
+
+
+
+
+
+
+
+
+
+
+Answer
+
+01.
+To enable incremental static regeneration
+
+The fallback option in getStaticPaths enables incremental static regeneration, which means that Next.js will generate new versions of the page in the background as users request them. This allows you to serve the latest data without sacrificing performance.
+
+
+
+
+
+
+02.
+getStaticProps is used for fetching data, while getStaticPaths is used for generating dynamic routes.
+
+getStaticProps function is used for fetching data during build time in Next.js for static site generation (SSG). It allows you to fetch external data and pre-render the page as static HTML at build time based on that data. This is particularly useful for pages with dynamic content that can be pre- rendered based on external data, like blog posts, product listings, etc. 
+getStaticPaths function is used for generating dynamic routes for pages that use dynamic parameters. 
+
+
+
+
+
+
+
+
+03.
+It specifies whether to fallback to server-side rendering if client-side rendering fails.
+
+The fallback option in Next.js is used to specify whether to fallback to server- side rendering if client-side rendering fails.
+
+
+
+
+
+
+
+04.
+Using props
+
+The most common way to pass data from getStaticProps to a component is by using props. The data returned by getStaticProps is passed as a prop to the component, which can then use it to render the page.
+
+
+
+
+
+
+
+
+05.
+getStaticProps generates static HTML at build time
+
+getStaticProps generates static HTML at build time, whereas getServerSideProps generates HTML on each request. This means that getStaticProps is better suited for pages that don't change frequently, while getServerSide Props is better suited for pages that change frequently or need access to real-time data.
+
+
+
+
+
+
+
+
+
+06.
+getServerSideProps
+
+getServerSideProps should be used for fetching data that changes frequently.
+
+
+
+
+
+
+
+
+07.
+Fetching data for a component that is shared across multiple pages
+
+getInitialProps can be used to fetch data for a component that is shared across multiple pages, such as a navigation bar or footer. This allows you to reuse the same data fetching logic across multiple pages without duplicating code.
+
+
+
+
+
+
+
+
+08.
+getServerSideProps
+
+getServerSideProps is used to fetch data during runtime.
+
+
+
+
+
+
+
+
+
+
+09.
+It can result in slower performance compared to using getStaticProps.
+
+One of the limitations of using the getServerSideProps function in Next.js is that it can result in slower performance compared to using getStaticProps or getStaticPaths. This is because the data is fetched at runtime for each request, rather than at build time.
+
+
+
+
+
+
+
+
+
+10.
+Caching is a technique to store data in memory or on disk, reducing the need for additional API requests.
+
+Caching can be used to optimize Data Fetching in Next.js by storing data in memory or on disk, reducing the need for additional API requests.
+
+
+
+
+
+
+
+

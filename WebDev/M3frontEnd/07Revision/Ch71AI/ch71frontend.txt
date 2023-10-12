@@ -1,0 +1,442 @@
+
+
+Chapter 1 - Foundations of Web Design
+Chapter 2 - Dynamic Web Design
+Chapter 3 - Tailwind CSS
+Chapter 4 - Mid 
+Chapter 5 - ReactJS Foundations
+Chapter 6 - Next.js Foundations
+
+
+
+Pair Programming with AI {
+    -- Debugging code 
+    -- Concept Explanation 
+    -- Code Refactoring 
+    -- Code Prototyping 
+    -- Efficiency Comparison 
+}
+
+
+
+
+
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
+
+
+
+1 - Foundations of Web Design {
+    -- Semantic HTML
+    -- Forms in HTML
+    -- CSS Box Model
+    -- Responsive Design
+    -- Utilities in Bootstrap
+    -- Responsive Design with Bootstrap
+}
+
+
+
+
+
+2 - Dynamic Web Design {
+    -- Targeting Node with Selectors 
+    -- DOM Method
+    -- DOM Events
+    -- Cross-Browser Compatibility
+    -- Introduction to jQuery
+    -- Introduction to AJAX
+    -- Introduction to Promises
+    -- Introduction to Throttling and Debouncing
+}
+
+
+
+
+
+3 - Tailwind CSS {
+    -- Containers and Break points
+    -- Utility Classes in Tailwind CSS
+    -- Version Control System(Git & Github)
+
+}
+
+
+
+
+4 - Mid {
+
+}
+
+
+
+
+5 - ReactJS Foundations {
+    -- Introduction to JSX
+    -- Functional Components and Class Components
+    -- Props in Reactjs
+    -- Introduction to Routing in Reactjs
+    -- Handling Events in React
+    -- Life Cycle Methods & React Hooks
+    -- Managing State with Redux
+    -- Unit Testing in ReactJS
+}
+
+
+
+
+6 - Next.js Foundations {
+    -- Client-Side Rendering vs. Server-Side Rendering
+    -- Data Fetching in Next.js
+    -- Routing in Next.js
+    -- CSS in JS libraries
+    -- API routes
+    -- Authentication using Iron-Session 
+    -- Testing using Cypress
+}
+
+
+
+
+
+
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
+
+
+
+
+
+
+
+
+1 - Foundations of Web Design {
+
+
+    -- #11 html basic 
+    -- Semantic Html 
+    -- header
+    -- nav 
+    -- main 
+    -- article 
+    -- section 
+    -- aside 
+    -- footer 
+    -- p
+    -- ul 
+    -- ol 
+    -- li 
+    -- table 
+    -- h1, h2, h3, h4, h5, h6
+    -- div 
+    -- span 
+    
+    
+
+
+    -- #12 html advance 
+    -- Forms in html 
+    -- form 
+    -- action 
+    -- GET
+    -- POST 
+    -- input
+    -- textarea 
+    -- select 
+    -- name 
+
+
+
+
+
+    -- #13 css basic 
+    -- CSS Box Model 
+    -- content 
+    -- padding 
+    -- border 
+    -- margin 
+
+
+
+
+    -- #14 css advance 
+    -- Responsive Design 
+    -- media query 
+    -- flex
+    -- grid 
+
+
+
+
+    -- #15 Bootstrap basic 
+    -- Utilities in Bootstrap
+    -- primary
+    -- secondary
+    -- success 
+    -- danger 
+    -- warning 
+
+
+
+
+    -- #16 Bootstrap advance
+    -- Responsive Design with Bootstrap
+
+
+
+    -- #17 Skill Mastery
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+2 - Dynamic Web Design {
+
+    -- #21 Dom basics 
+    -- Targeting node
+    -- DOM Methods
+
+    -- document.querySelector()
+    -- document.querySelectorAll()
+
+    -- getElementById()
+    -- getElementsByClassName()
+    -- getElementsByTagName()
+
+    -- createElement()
+    -- appendChild()
+    -- removeChild()
+    -- innerHTML
+    -- addEventListener()
+
+
+
+
+
+
+    -- #22 Dom Advance 
+    -- Dom Events
+    -- Cross Browser Compatibility
+    -- addEventListener()
+
+
+
+
+
+
+
+    -- #23 jQuery
+    -- jQuery
+    -- AJAX
+
+
+
+
+
+
+    -- #24 Asynchronous 
+    -- Promises
+    -- Throttling 
+    -- Debouncing
+
+    -- then()
+    -- catch()
+    -- try()
+    -- catch()
+
+    -- callback hell 
+    -- pyramid of doom 
+
+
+
+
+
+    -- #25 Skill Mastery 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 - Tailwind CSS {
+
+    -- #31 Tailwind basic 
+    -- Containers
+    -- breakPoints 
+
+    -- #32 Tailwind Advance
+    -- Utility Classes
+
+    -- #33 Github
+    -- Version Control
+}
+
+
+
+
+
+
+
+
+
+
+
+4 - Mid {
+    -- quiz 
+    -- coding 
+    -- project 
+}
+
+
+
+
+
+
+
+
+
+
+5 - ReactJS Foundations {
+
+    -- #51 JSX 
+    -- Introduction to JSX
+    -- Functional Components
+    -- Class Components
+
+
+
+    -- #52 CSP 
+    -- Props
+
+
+
+    -- #53 Routing
+    -- Routing
+
+
+
+    -- #54 Hooks 
+    -- Handling Events
+    -- Life Cycle Method
+    -- React Hooks
+
+
+
+    -- #55 Redux
+    -- Managing State with Redux
+
+
+
+    -- #56 State 
+    -- 
+
+
+
+
+    -- #57 UnitTesting
+    -- 
+
+
+
+    -- #58 Netlify 
+
+
+
+    -- #58 Skill Mastery
+}
+
+
+
+
+
+
+
+
+
+
+
+6 - Next.js Foundations {
+
+    -- #61 Intro 
+    -- Client side Rendering
+    -- Server side Rendering
+
+
+
+    -- #62 Data Fetching
+    -- 
+
+
+
+    -- #63 Routing
+
+
+
+    -- #64 Layout 
+    -- Css in js 
+
+
+
+    -- #65 Optimization 
+    -- 
+
+
+
+    -- #66 Database 
+    -- API routes
+
+
+
+    -- #67 Security 
+    -- Iron Session
+    -- Cypress
+
+
+
+    -- #68 Skill Mastery
+
+
+
+    -- #69 Extra 
+    -- linting 
+    -- 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

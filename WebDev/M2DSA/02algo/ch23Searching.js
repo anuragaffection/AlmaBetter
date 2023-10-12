@@ -1,20 +1,54 @@
+//
+// Searching 
+//
+
+
+
+
+
 /**
+ *   in this chapter 
+ * 
  *   Linear Search
  *   Binary Search 
  *   HashMap
  * 
- *   some important interview questions
+ *   
 */
 
 
 
 
-/** 
- *   Patrons  - 
- *   Sentinel - 
+/**
+ * explore quiz 
  * 
- *  
 */
+
+
+
+/**
+ * explore coding 
+ * 
+*/
+
+
+
+/**
+ * explore topics 
+ * 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,6 +76,8 @@
  *   Real life uses of binary search 
  * 
 */
+
+
 
 let arrLinear = [56, 78, 23, 54, 12, 78, 124];
 let target = 78;

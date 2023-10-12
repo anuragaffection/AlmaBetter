@@ -3,9 +3,6 @@
 // Regular Expressions & Pattern Matching 
 //
 
-// Note - do not do the copy paste of theory part, 
-//        try to recall or answer at your own.
-
 
 
 
@@ -48,9 +45,38 @@
  *  Burrows wheeler transform
  * 
  * 
- *  Quiz & Questions
+ *  
  * 
 */
+
+
+
+/**
+ * explore quiz 
+ * 
+*/
+
+
+
+/**
+ * explore coding 
+ * 
+*/
+
+
+
+/**
+ * explore topics 
+ * 
+*/
+
+
+
+
+
+
+
+
 
 
 

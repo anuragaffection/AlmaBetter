@@ -1,0 +1,63 @@
+
+**1. What is Next.js, and how does it differ from traditional React applications?**
+
+
+**2. Can you explain server-side rendering (SSR) and client-side rendering (CSR) in the context of Next.js?**
+
+
+**3. What is the purpose of the `pages` directory in a Next.js project?**
+
+
+**4. How does Next.js handle routing? What is the significance of the `Link` component in Next.js?**
+
+
+**5. What is dynamic routing in Next.js, and how can you implement it?**
+
+
+**6. How do you create an API route in Next.js, and what are its use cases?**
+
+
+**7. What is the significance of the `_app.js` and `_document.js` files in a Next.js project?**
+
+
+**8. How can you set up and use CSS modules in Next.js for scoped styles?**
+
+
+**9. Explain the purpose of the `getStaticProps` and `getServerSideProps` functions in Next.js. When would you use one over the other?**
+
+
+**10. What is incremental static regeneration (ISR) in Next.js, and how does it work?**
+
+
+**11. How do you deploy a Next.js application to production?**
+
+
+**12. What is the purpose of the `next.config.js` file, and what kind of configurations can you set in it?**
+
+
+**13. How can you optimize a Next.js application for better performance and SEO?**
+
+
+**14. Can you explain what the `getInitialProps` method is used for in Next.js?**
+
+
+**15. What are the benefits of using Next.js for SEO compared to traditional client-side rendered applications?**
+
+
+**16. How can you handle authentication and authorization in a Next.js application?**
+
+
+**17. Explain the concept of middleware in Next.js and how it can be implemented.**
+
+
+**18. What are the potential challenges or issues you might encounter when working with Next.js, and how can you address them?**
+
+
+**19. Can you compare Next.js to other popular JavaScript frameworks, such as React and Vue.js, in terms of use cases and advantages?**
+
+
+**20. Can you describe a project you've worked on using Next.js, highlighting any specific challenges you faced and how you overcame them?**
+
+
+
+

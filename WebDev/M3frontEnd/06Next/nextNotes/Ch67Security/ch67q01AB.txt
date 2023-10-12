@@ -1,0 +1,428 @@
+
+Security & Tesing 
+
+
+
+
+
+01.
+
+What happens when a user's session expires in Iron-Session?
+
+The user is redirected to a login page.
+The user's session data is cleared from the server.
+The user is prompted to re-enter their credentials.
+The user is logged out and their session data is invalidated.
+
+
+
+
+
+
+
+
+
+02.
+Which assertion function is used to check if an element contains specific text in Cypress?
+
+cy.contains()
+cy.get()
+cy.should()
+cy.find()
+
+
+
+
+
+
+
+
+
+
+
+03.
+What is Cypress?
+
+A programming language for testing
+A testing framework for JavaScript applications
+A server-side rendering framework for
+React
+A CSS preprocessor
+
+
+
+
+
+
+
+
+
+04.
+Which command is used to start a Next.js application in production mode after building?
+
+npm start
+npm run build
+npm dev
+npm run dev
+
+
+
+
+
+
+
+
+05.
+How can you run Cypress tests in headless mode?
+
+npx cypress open
+npx cypress run
+npx cypress start
+npx cypress--headless
+
+
+
+
+
+
+
+
+
+06.
+Which package is commonly used to deploy Next.js applications on various platforms, including Vercel, Netlify, and AWS Amplify?
+
+next-build
+next-serverless
+next-deploy
+vercel
+
+
+
+
+
+
+
+
+
+07.
+How can you create a custom command in Cypress?
+
+By writing a separate JavaScript file and importing it into the test files
+By adding the command in the test file directly
+Cypress does not support custom commands
+By using the cy.custom() function
+
+
+
+
+
+
+
+
+
+08.
+What is the primary purpose of cy.visit() in Cypress tests?
+
+To visit a website in the browser
+To initiate a test in the Cypress framework
+To interact with elements on the page
+To make HTTP requests
+
+
+
+
+
+
+
+
+
+09.
+What is the main advantage of serverless deployment for Next.js applications?
+
+Reduced build times
+Lower cost
+Increased performance
+Improved SEO
+
+
+
+
+
+
+
+
+
+10.
+How does Iron-Session protect session data in Next.js?
+
+ans = By using client-side cookies with encrypted data.
+
+
+
+
+
+
+
+
+11.
+How can you install Cypress in a Next.js project?
+
+npm install cypress
+npx create-cypress-tests
+Cypress is included by default in Next.js projects
+npm install --save-dev cypress
+
+
+
+
+
+
+
+
+12.
+Which of the following is a common use case for Iron-Session in Next.js?
+
+Handling user authentication and managing user sessions.
+Encrypting data sent between the client and the server.
+Managing server-side data storage.
+Handling user input validation.
+
+
+
+
+
+
+
+
+13.
+Which command is used to build a Next.js project for production deployment?
+
+npm build
+npm start
+npm deploy
+npm run build
+
+
+
+
+
+
+
+14.
+How can you set up Iron-Session in a Next.js application?
+
+By installing the "iron-session" npm package and adding a configuration object.
+By using built-in Next.js session management features.
+By setting up a custom server-side session management middleware.
+By including Iron-Session as a script tag in the HTML file.
+
+
+
+
+
+
+
+15 .
+What is the purpose of the cy.get() command in Cypress?
+
+To retrieve data from the server
+To get the current URL of the website
+To interact with DOM elements on the page
+To start the test execution
+
+
+
+
+
+
+
+
+
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+
+
+
+Answer 
+
+
+
+01.
+The user is logged out and their session data is invalidated.
+
+When a user's session expires in Iron- Session, the user is logged out, and their session data is invalidated. The user will need to log in again to create a new session and access protected areas of the application. This helps maintain the security of the application by preventing unauthorized access to sensitive data after a session has expired.
+
+
+
+
+
+
+
+02.
+cy.contains()
+
+cy.contains() is used to find an element containing specific text on the page. It can be used to assert that certain text exists within an element.
+
+
+
+
+
+
+03.
+A testing framework for JavaScript applications
+
+Cypress is a powerful end-to-end testing framework for web applications, including Next.js projects. It allows developers to write tests in JavaScript to interact with web elements and simulate user interactions.
+
+
+
+
+
+
+
+04.
+npm start
+
+After building a Next.js application for production using npm run build, the correct command to start the application in production mode is npm start. The start script runs the optimized production build generated during the build process.
+
+
+
+
+
+
+
+
+05.
+npx cypress run
+
+Running npx cypress run executes the Cypress tests in headless mode, meaning it runs the tests without opening the Test Runner interface.
+
+
+
+
+
+
+
+
+06.
+vercel
+
+Vercel (formerly known as ZEIT) is a popular platform for deploying Next.js applications. It provides seamless integration with Next.js, allowing developers to deploy projects easily on Vercel's infrastructure.
+
+
+
+
+
+
+
+
+07.
+By writing a separate JavaScript file and importing it into the test files
+
+To create a custom command in Cypress, you need to write a separate JavaScript file with the desired command logic and then import it into the test files using Cypress.Commands.add().
+
+
+
+
+
+
+
+
+08.
+To visit a website in the browser
+
+cy.visit() is used to navigate to a specific URL (website) in the Cypress Test Runner. It is typically the first command in a test, allowing you to start testing on a specific page.
+
+note [more accurate answer]: To navigate to a specific URL in the application
+
+
+
+
+
+
+
+
+09.
+Lower cost
+
+Serverless deployment of Next.js applications often results in lower costs because it allows developers to pay only for the actual usage of resources. Serverless platforms automatically scale resources based on demand, optimizing cost-efficiency.
+
+
+
+
+
+
+
+
+10.
+By using client-side cookies with encrypted data.
+
+Iron-Session stores session data in client-side cookies with encrypted content. This ensures that session data is secure and cannot be tampered with by the client. The encrypted data is sent back and forth between the client and the server, providing a secure way to manage sessions.
+
+
+
+
+
+
+11.
+npm install --save-dev cypress
+
+To install Cypress in a Next.js project, you need to use npm install --save-dev cypress to add it as a dev dependency.
+
+
+
+
+
+
+
+12.
+Handling user authentication and managing user sessions.
+
+Iron-Session is commonly used in Next.js applications to handle user authentication and manage user sessions. It allows users to log in securely and maintain their session state throughout their interactions with the application.
+
+
+
+
+
+
+
+13 
+npm run build
+
+The correct command to build a Next.js project for production deployment is npm run build. This command compiles the Next.js project and creates an optimized production build, ready to be deployed.
+
+
+
+
+
+
+
+14.
+By installing the "iron-session" npm package and adding a configuration object.
+
+To use Iron-Session in a Next.js application, you need to install the "iron-session" npm package and import it into your code. You then set up a configuration object with options for the session management, including encryption keys and session expiration settings.
+
+
+
+
+
+
+
+
+15.
+To interact with DOM elements on the page
+
+cy.get() is used to locate and interact with DOM elements on the page, such as clicking buttons, typing into input fields, or asserting their content.
+
+
+
+
+
+
+
+
+
+
+
+

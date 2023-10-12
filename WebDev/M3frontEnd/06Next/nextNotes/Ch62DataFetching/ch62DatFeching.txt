@@ -27,6 +27,9 @@ Explore
 
 
 
+https://www.contentful.com/headless-cms/
+
+
 
 
 
@@ -157,8 +160,8 @@ Explore
 
     -- fallback {
         true         = it will search in background to find the paths
-        false        = it will not search, & give error 
-        blocking     = 
+        false        = it will not search, & give error if not found 
+        blocking     = it is called before the initial render 
         revalidate   = runs in background
         revalidate() = runs in background on demand
     }
@@ -286,11 +289,11 @@ pre-rendered
 
 
    Answer
-   getStaticProps
-   getStaticPaths
-   Incremental Static Regeneration
-   Revalidate
-   Secret Token
+   a. getStaticProps
+   b. getStaticPaths
+   c. Incremental Static Regeneration
+   d. Revalidate
+   e. Secret Token
 }
 
 

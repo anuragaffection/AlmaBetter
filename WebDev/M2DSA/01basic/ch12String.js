@@ -4,25 +4,57 @@
 
 
 
+
+
+
 /*
-   *  Introduction to string - (in other module )
-   *  -- what is a string 
-   *  -- why is a string data required 
-   *  -- string declration 
-   *  -- string operations 
-   *  -- working with string 
+   
+  in this chapter 
+
+  01. String introduction 
+  02. multi line string with + operator --- important 
+  03. String method , list 
+  04. String () - function in js
 
 */
 
 
 
 
-/*
-*  01. String introduction 
-*  02. multi line string with + operator --- important 
-*  03. String method , list 
-*  04. String () - function in js
+
+/**
+ * explore quiz 
+ * 
 */
+
+
+
+/**
+ * explore coding 
+ * 
+*/
+
+
+
+/*
+   Explore topics 
+
+    Introduction to string 
+    what is a string 
+    why is a string data required 
+    string declration 
+    string operations 
+    working with string 
+
+*/
+
+
+
+
+
+
+
+
 
 
 
@@ -47,7 +79,7 @@ console.log(str, str1);
 
 
 
-//02.
+// 02.
 
 
 
@@ -131,3 +163,19 @@ toUpperCase():
 
 // 04. 
 console.log("String () function in javascript ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

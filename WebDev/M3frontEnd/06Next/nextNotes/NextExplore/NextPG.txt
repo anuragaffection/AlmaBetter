@@ -1,0 +1,290 @@
+Next Js (page ) by Piyush Garg
+
+
+
+hello-page  = app routing  = by Piyush Garg [01 - 11]
+my-page-app = page routing = by Piyush Garg [12 - last]
+
+
+
+
+
+
+
+
+
+
+
+
+#01 why next js(
+    next js - use - Rust    - to bundle the code 
+    reactjs - use - webpack - to bunlde the code 
+
+    rust - is faster than - webpack
+
+)
+
+
+
+
+
+
+#02 installation (
+    node -v
+    npm -v
+    npx create-next-app@latest my-app
+    cd my-app
+    npm run dev 
+
+)
+
+
+
+
+#02 app structure (
+    next folder    =  build code 
+    node modules   =  installed packages 
+    app folder     =  all code will be here 
+    public folder  =  all static code, visible to public 
+    next.config.js =  dependencies 
+    api  folder    = any code within api , will be server, will be backend 
+
+
+
+)
+
+
+
+
+
+
+
+
+#03 routing (
+
+    Nested Routing (
+
+    )
+
+    Dynamic Routing (
+        index   =  file act as default page  
+        [id]    =  using square brackets 
+        import  =  {useRouter} from  'next/router' 
+        query   =  query.id
+    )
+
+)
+
+
+
+
+
+
+
+
+
+
+
+#04 next  router (
+    useRouter()    = pre defined hooks in next js
+    replace()
+    reload()
+
+    asPath 
+    query
+    push 
+
+
+
+    router.push    = make history 
+    router.replace = does not make history 
+    Link           = next/Link 
+
+
+    custom hooks & login using custom hooks 
+
+)
+
+
+
+
+
+
+
+
+
+#05 Data Fetching (
+    
+    client side data fetching (
+
+    )
+
+    SWR {
+        state while revalidating 
+        useSWR
+    }
+
+)
+
+
+
+
+
+#06 Server Side rendering {
+    getServerSideProps() = a function to export, which returns a props, that is visible to components 
+
+}
+
+
+
+
+
+#07 Static Site Generation (
+    getStaticProps() = a function to make site static (means render it in html )
+    getStaticPath()  = provide id, 
+    fallback = false;
+    works without internet if once loads 
+
+    speed {
+        client side < getServerSideProps < getStaticPath
+    }
+)
+
+
+
+
+
+
+#08 CSS in next js {
+    .module.css 
+
+}
+
+
+
+
+
+#09 Image components {
+
+    --- import Image from 'next/image'
+
+    --- import path of image 
+    --- auto exporting image form public 
+
+
+    --- Image 
+    --- src 
+    --- alt 
+    --- width 
+    --- heigth 
+    --- loader 
+
+
+    --- displaying image using web url {
+    
+        - next js is very strict 
+        - we have to update - next.config.js - file 
+        - where we can allow the specific website, from where we are using the image 
+    }
+
+
+
+    --- next.config.js {
+
+        - images
+        - remotePatterns
+        - protocol 
+        - hostname 
+        - domains 
+
+        - use of regex here 
+        - 
+    }
+
+
+    --- loader {
+        - to download original quality image 
+    }
+
+
+}
+
+
+
+
+
+#10 Authentication using github in nextjs {
+    
+}
+
+
+
+
+#11 Deployment on Vercel {
+
+}
+
+
+
+
+
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+
+
+
+
+
+
+
+#12 App Routing intro {
+
+    -- by default every thing will be server side rendered 
+
+    -- to make client side rendering = we can ue `use client`
+
+    -- index.jsx   in page routing  ====  page.tsx   in app routing 
+
+    --  'use client'  == 
+    --  `use server`  == 
+
+    --  using server  ==  proxy communication
+
+
+
+    -- page.tsx
+    -- layout.tsx 
+
+
+    -- loading.tsx     = 
+    -- error.tsx       = 
+    -- template.tsx    = 
+    -- not-found.tsx   = 
+
+
+    -- loading.tsx   =  when we are fetching data 
+    -- error.tsx     =  need `use client`
+    -- template.tsx  =  css file 
+    -- not-found.tsx =  
+
+
+    --  `@`  = 
+
+    -- vendor lock in = is it neccessary to deploy next js app routed webiste on - vercel 
+
+
+
+
+}
+
+
+
+
+#13 app routing Server components {
+    
+
+}

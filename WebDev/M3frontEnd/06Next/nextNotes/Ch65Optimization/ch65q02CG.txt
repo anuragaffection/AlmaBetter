@@ -1,0 +1,431 @@
+
+
+
+
+
+1. What is the purpose of Automatic Image Optimization in Next.js?
+   a. It optimizes JavaScript code.
+   b. It optimizes images automatically for better performance.
+   c. It enhances SEO.
+   d. It reduces server response time.
+
+
+
+
+
+
+2. Which configuration file is used to configure Automatic Image Optimization in Next.js?
+   a. next.js
+   b. image.config.js
+   c. next.config.js
+   d. config.js
+
+
+
+
+
+
+3. What does the `layout` attribute in the `next/image` component control?
+   a. Image quality
+   b. Image format
+   c. Image layout behavior
+   d. Image size
+
+
+
+
+
+
+4. Which attribute is used to specify the type of placeholder for images in Next.js?
+   a. `loading`
+   b. `placeholder`
+   c. `preload`
+   d. `blur`
+
+
+
+
+
+5. When should you use Manual Image Optimization in Next.js?
+   a. Always, as it's the recommended approach.
+   b. When you need to optimize images automatically.
+   c. When you need specific control over individual images.
+   d. When you want to disable image optimization.
+
+
+
+
+
+
+6. What does the `rel` attribute specify in the context of font preloading in Next.js?
+   a. Image relationship
+   b. Link relationship between the document and link
+   c. Resource element
+   d. Response element
+
+
+
+
+
+
+7. What is the primary role of the `font-display` property in font optimization?
+   a. To specify font color
+   b. To define font weight
+   c. To control font rendering during loading
+   d. To set font size
+
+
+
+
+
+
+8. Which value for the `font-display` property ensures that text remains visible even during font loading?
+   a. `block`
+   b. `fallback`
+   c. `optional`
+   d. `swap`
+
+
+
+
+
+
+9. Which property can be used to add global CSS styles, including `@font-face` rules, in Next.js?
+   a. `style`
+   b. `global-style`
+   c. `style-jsx`
+   d. `style-global`
+
+
+
+
+
+
+10. What does the `deviceSizes` configuration property control in Automatic Image Optimization?
+    a. Screen sizes for responsive images
+    b. Font sizes for text rendering
+    c. Loader options for image loading
+    d. Quality settings for images
+
+
+
+
+
+
+
+11. What does the `responsive` value of the `layout` attribute do in the `next/image` component?
+    a. Centers the image on the page
+    b. Makes the image responsive to different screen sizes
+    c. Applies a grayscale filter to the image
+    d. Sets a fixed width and height for the image
+
+
+
+
+
+
+12. Which type of images should you specify dimensions for to minimize Cumulative Layout Shift (CLS)?
+    a. Local images
+    b. Remote images
+    c. Images with the `responsive` layout
+    d. All of the above
+
+
+
+
+
+
+13. What is the recommended Largest Contentful Paint (LCP) time for a good user experience?
+    a. Less than 1 second
+    b. Less than 2.5 seconds
+    c. Less than 4 seconds
+    d. Less than 10 seconds
+
+
+
+
+
+
+14. Which Next.js component is used to implement blur placeholders for images?
+    a. `<ImagePlaceholder>`
+    b. `<ImageBlur>`
+    c. `<next/image>`
+    d. `<img>`
+
+
+
+
+
+
+15. What is the primary advantage of using the `next/image` component for image optimization in Next.js?
+    a. It automatically optimizes images for better performance.
+    b. It allows you to disable image optimization.
+    c. It supports only local images.
+    d. It loads images synchronously.
+
+
+
+
+
+
+16. Which attribute can be used to prioritize the loading of images in Next.js?
+    a. `preload`
+    b. `priority`
+    c. `loading`
+    d. `srcset`
+
+
+
+
+
+
+17. What is the role of the `placeholder` attribute in the `next/image` component?
+    a. It specifies the image source URL.
+    b. It sets the image layout.
+    c. It defines the type of placeholder to use.
+    d. It determines the image quality.
+
+
+
+
+
+
+18. How can you specify image domains and loaders for remote images in Next.js?
+    a. Use the `remote` attribute in the `next/image` component.
+    b. Configure them in the `next/image` configuration file.
+    c. Specify them in the `next.config.js` file.
+    d. Include them as query parameters in the image URL.
+
+
+
+
+
+
+19. What does the `domains` configuration property specify in Automatic Image Optimization?
+    a. Allowed image file extensions
+    b. Remote image domains for optimization
+    c. Local image directories
+    d. Image sizes for responsive images
+
+
+
+
+
+
+20. Which CSS property can be used to add styling to images in Next.js using `styled-jsx`?
+    a. `style`
+    b. `className`
+    c. `styled`
+    d. `css`
+
+
+
+
+
+
+21. How can you integrate Google Fonts into a Next.js application?
+    a. Import Google Fonts directly in your component files.
+    b. Use the `next/google-fonts` module.
+    c. Include Google Fonts via a CDN link in the HTML document.
+    d. Manually download and include Google Fonts in your project.
+
+
+
+
+
+
+22. What is the purpose of defining `@font-face` rules using `style jsx global` in Next.js?
+    a. To change the font size globally
+    b. To add inline styles to font elements
+    c. To preload fonts
+    d. To include custom fonts in your application
+
+
+
+
+
+
+23. What is the recommended approach for minimizing font usage in single-page applications (SPAs)?
+    a. Load all available fonts to provide more options to users.
+    b. Use system fonts for all text elements.
+    c. Include a custom font for every text element.
+    d. Use font subsetting and load only necessary fonts.
+
+
+
+
+
+
+24. How can you include and use local fonts in a Next.js project?
+    a. Define fonts in the `next.config.js` file.
+    b. Use the `@font-local` directive in CSS.
+    c. Add fonts to the `/public` directory and reference them in CSS.
+    d. Import fonts directly in the component's JavaScript code.
+
+
+
+
+
+
+25. What role does the `tailwind.config.js` file play in incorporating fonts with Tailwind CSS in Next.js?
+    a. It defines font styles and weights.
+    b. It specifies font file paths.
+    c. It configures font loader options.
+    d. It allows you to extend Tailwind CSS with custom fonts and theme settings.
+
+
+
+
+
+
+26. Which technique can be used to efficiently reuse fonts in Next.js?
+    a. Set the `font-display` property to `"swap"`.
+    b. Include font subsets for different page sections.
+    c. Use different fonts on every page for variety.
+    d. Host fonts on multiple CDNs for redundancy.
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+
+
+
+1. What is the purpose of Automatic Image Optimization in Next.js?
+   - **b. It optimizes images automatically for better performance.**
+
+
+
+2. Which configuration file is used to configure Automatic Image Optimization in Next.js?
+   - **c. next.config.js**
+
+
+
+3. What does the `layout` attribute in the `next/image` component control?
+   - **c. Image layout behavior**
+
+
+
+4. Which attribute is used to specify the type of placeholder for images in Next.js?
+   - **d. `blur`**
+
+
+
+5. When should you use Manual Image Optimization in Next.js?
+   - **c. When you need specific control over individual images.**
+
+
+
+6. What does the `rel` attribute specify in the context of font preloading in Next.js?
+   - **b. Link relationship between the document and link**
+
+
+
+7. What is the primary role of the `font-display` property in font optimization?
+   - **c. To control font rendering during loading**
+
+
+
+8. Which value for the `font-display` property ensures that text remains visible even during font loading?
+   - **d. `swap`**
+
+
+
+9. Which property can be used to add global CSS styles, including `@font-face` rules, in Next.js?
+   - **a. `style`**
+
+
+
+10. What does the `deviceSizes` configuration property control in Automatic Image Optimization?
+    - **a. Screen sizes for responsive images**
+
+
+
+11. What does the `responsive` value of the `layout` attribute do in the `next/image` component?
+    - **b. Makes the image responsive to different screen sizes**
+
+
+
+12. Which type of images should you specify dimensions for to minimize Cumulative Layout Shift (CLS)?
+    - **d. All of the above**
+
+
+
+13. What is the recommended Largest Contentful Paint (LCP) time for a good user experience?
+    - **b. Less than 2.5 seconds**
+
+
+
+14. Which Next.js component is used to implement blur placeholders for images?
+    - **c. `<next/image>`**
+
+
+
+15. What is the primary advantage of using the `next/image` component for image optimization in Next.js?
+    - **a. It automatically optimizes images for better performance.**
+
+
+
+16. Which attribute can be used to prioritize the loading of images in Next.js?
+    - **b. `priority`**
+
+
+
+17. What is the role of the `placeholder` attribute in the `next/image` component?
+    - **c. It defines the type of placeholder to use.**
+
+
+
+18. How can you specify image domains and loaders for remote images in Next.js?
+    - **c. Specify them in the `next.config.js` file.**
+
+
+
+19. What does the `domains` configuration property specify in Automatic Image Optimization?
+    - **b. Remote image domains for optimization**
+
+
+
+20. Which CSS property can be used to add styling to images in Next.js using `styled-jsx`?
+    - **a. `style`**
+
+
+
+21. How can you integrate Google Fonts into a Next.js application?
+    - **b. Use the `next/google-fonts` module.**
+
+
+
+22. What is the purpose of defining `@font-face` rules using `style jsx global` in Next.js?
+    - **d. To include custom fonts in your application**
+
+
+
+23. What is the recommended approach for minimizing font usage in single-page applications (SPAs)?
+    - **d. Use font subsetting and load only necessary fonts.**
+
+
+
+24. How can you include and use local fonts in a Next.js project?
+    - **c. Add fonts to the `/public` directory and reference them in CSS.**
+
+
+
+25. What role does the `tailwind.config.js` file play in incorporating fonts with Tailwind CSS in Next.js?
+    - **d. It allows you to extend Tailwind CSS with custom fonts and theme settings.**
+
+
+
+26. Which technique can be used to efficiently reuse fonts in Next.js?
+    - **a. Set the `font-display` property to `"swap"`**

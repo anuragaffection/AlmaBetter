@@ -1,3 +1,10 @@
+//
+// Searching Advance 
+//
+
+
+
+
 /**
  *   ternary search
  *   jump search
@@ -6,19 +13,44 @@
  *   interpolation search 
  *   tri search
  * 
- *   time complexity comparison
+*/
+
+
+
+
+/**
+ * explore quiz 
  * 
- *   comparing value with undefined
+*/
+
+
+
+
+
+/**
+ * explore coding 
  * 
- *   find the largest kth element - problem - check again - code section 
+ * -- find the largest kth element 
+ * 
 */
 
 
 
 /**
- *   honing 
- *   akin
+ * explore topics 
+ *  
+ * time complexity comparison
+ * comparing value with undefined
+ *  
+ * 
 */
+
+
+
+
+
+
+
 
 
 

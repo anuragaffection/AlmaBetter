@@ -1,9 +1,9 @@
 
 
-export default function () {
+export default function Anu () {
 
   return (
 
-    <div> Anurag is my Name. </div>
+    <div> Anu is my Name. </div>
   );
 }

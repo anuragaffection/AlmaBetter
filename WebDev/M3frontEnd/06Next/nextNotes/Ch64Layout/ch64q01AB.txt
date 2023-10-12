@@ -1,3 +1,277 @@
+Next js Layout & Style
+
+
+
+
+
+01.
+Which advantage does Emotion.js provide as a CSS-in-JS library for Next.js?
+
+Easy integration with popular CSS preprocessors like Sass and Less.
+Server-side rendering support for faster initial page loads.
+Automatic detection and resolution of CSSconflicts.
+Automatic detection and resolution of CSS conflicts.
+
+
+
+
+
+
+02.
+How can you enable CSS Modules for a specific CSS file in Next.js?
+
+By naming the file with a .global.css extension.
+By using the global selector in the CSS file.
+By importing the CSS file in the_app.js file.
+By naming the file with a `.module.css` extension.
+
+
+
+
+
+
+
+
+03.]
+How can you scope CSS styles to a specific component in Next.js using styled- components?
+
+By using global CSS classes.
+By importing a CSS file directly into the component. 
+By using the createGlobalStyle API.
+By using tagged template literals with the styled function.
+
+
+
+
+
+
+
+
+
+04.]
+How can you apply Global CSS to a Next.js page with the styled-jsx package?
+
+By using the global attribute inside the styled-jsx template literal.
+By importing the Global CSS file inside the styled-jsx template literal.
+By wrapping the entire JSX content of the page with the styled-jsx/global tag
+By using the styled-jsx-plugin-global npm package.
+
+
+
+
+
+
+
+
+05.
+Which method should you use to apply inline styles in a Next.js component?
+
+Use the <inline> tag with the style attribute.
+Use the style attribute directly on the HTML elements.
+Import the styles using the import statement and apply them using classes.
+Use the css prop provided by Next.js.
+
+
+
+
+
+
+
+
+
+06.
+How do you enable CSS Modules in a Next.js application?
+
+By using the global keyword in the CSS files.
+By installing a separate package using npm or yarn.
+By creating a folder named styles and adding CSS files inside it.
+CSS Modules are automatically enabled in Next.js without any additional setup.
+
+
+
+
+
+
+
+
+07.]
+How does CSS-in-JS improve performance in Next.js applications?
+
+By reducing the number of CSS rules in the application.
+By automatically minifying and compressing CSS styles.
+By dynamically loading CSS styles only when they are needed.
+By optimizing rendering of CSS through server-side rendering.
+
+
+
+
+
+
+
+
+08.]
+To include an External Stylesheet in a Next.js component, which tag should you use?
+
+<link>
+<style>
+<CSS>
+<stylesheet>
+
+
+
+
+
+
+
+
+
+09.
+What happens if you use the same CSS class name in different components in a Next.js application?
+
+ans = It causes a build error, and you need to use unique class names.
+
+
+
+
+
+
+
+10.
+How do you import and use a CSS Module in a Next.js component?
+
+ans = Using the import statement for CSS files as you would with JavaScript files.
+
+
+
+
+
+
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+
+Answer
+
+
+
+01.
+Server-side rendering support for faster initial page loads.
+
+Emotion.js is a CSS-in-JS library that provides excellent support for server- side rendering in Next.js applications. By rendering styles on the server, Emotion.js helps improve initial page load times and enhances SEO performance.
+
+
+
+
+
+02.
+By naming the file with a .module.css extension.
+
+To enable CSS Modules for a specific CSS file in Next.js, you need to name the file with the .module.css extension. This allows you to use local CSS scope and avoid global conflicts with other CSS styles.
+
+
+
+
+
+
+
+03.]
+By using tagged template literals with the styled function.
+
+To scope CSS styles to a specific component in Next.js using styled- components, 
+you can use tagged template literals with the styled function. 
+This allows you to define unique styles for each component in a way that won't interfere with other components in the application.
+
+
+
+
+
+
+04.]
+By wrapping the entire JSX content of the page with the styled- jsx/global tag
+
+To apply Global CSS to a Next.js page using the styled-jsx package, you need to wrap the entire JSX content of the page with the styled-jsx/global tag. This will ensure that the CSS rules are applied globally across the page.
+
+
+
+
+
+
+
+
+05.
+Use the style attribute directly on the HTML elements.
+
+To apply inline styles in a Next.js component, you should use the style attribute directly on the HTML elements. 
+This allows you to apply styles directly to the element in JSX using JavaScript objects.
+
+
+
+
+
+
+
+
+06.
+CSS Modules are automatically enabled in Next.js without any additional setup.
+
+Next.js has built-in support for CSS Modules, so there is no need for any additional setup or installation. You can use CSS Modules directly by naming your CSS files with the .module.css extension.
+
+
+
+
+
+
+
+
+
+07.
+By dynamically loading CSS styles only when they are needed.
+
+CSS-in-JS libraries in Next.js can help improve performance by dynamically loading CSS styles only for the components that are actually used in the application. This eliminates the need to load a single large CSS file for the entire application, reducing the overall bundle size and improving loading times.
+
+
+
+
+
+
+
+
+08.]
+<link>
+
+To include an External Stylesheet in a Next.js component, you should use the tag with the rel attribute set to "stylesheet" and the href attribute pointing to the path of the CSS file. This way, the CSS file will be linked to the component.
+
+
+
+
+
+
+
+
+
+09.
+It causes a build error, and you need to use unique class names.
+
+If you use the same CSS class name in different components, it may cause a class name collision. To avoid this, you should always use unique class names in each component when using CSS Modules.
+
+
+
+
+
+
+10.
+Using the import statement for CSS files as you would with JavaScript files.
+
+To import and use a CSS Module in a Next.js component, you use the import statement just like you would with JavaScript files. 
+Next.js takes care of handling CSS Modules internally.
+
+
+
+
 
 
 

@@ -1,0 +1,183 @@
+security, Testing & Deployment
+
+
+
+
+1. What is the primary purpose of Iron Session in a Next.js application?
+   a. Handling authentication
+   b. Managing session data
+   c. Optimizing images
+   d. Caching static assets
+
+
+
+
+
+
+2. How does Iron Session enhance security for session data?]
+   a. It encrypts and signs session data using a secret key.
+   b. It stores session data on the server.
+   c. It uses HTTPS for all communication.
+   d. It adds two-factor authentication.
+
+
+
+
+
+
+3. Which library is commonly used for installing Iron Session in a Next.js project?
+   a. `npm install session-management`
+   b. `npm install next-auth`
+   c. `npm install iron-session`
+   d. `npm install secure-cookies`
+
+
+
+
+
+
+4. What is the role of the `req` and `res` objects when working with Iron Session?
+   a. `req` represents the server, and `res` represents the client.
+   b. `req` handles HTTP requests, and `res` handles HTTP responses.
+   c. `req` manages session data, and `res` encrypts data.
+   d. `req` and `res` are not used with Iron Session.
+
+
+
+
+
+
+5. Why is testing important in a Next.js application?
+   a. To increase the complexity of the codebase
+   b. To add more features to the application
+   c. To ensure reliability and identify issues
+   d. To reduce the application's performance
+
+
+
+
+
+
+6. Which of the following is a popular testing framework for unit testing in Next.js?
+   a. Cypress
+   b. Jest
+   c. Testing Library
+   d. Mocha
+
+
+
+
+
+
+7. What does Cypress primarily focus on when it comes to testing Next.js applications?
+   a. Unit testing
+   b. End-to-end testing
+   c. Integration testing
+   d. Code coverage analysis
+
+
+
+
+
+
+8. Which command is used to open the Cypress Test Runner in a Next.js project?
+   a. `cypress start`
+   b. `npx cypress open`
+   c. `npm test`
+   d. `npm run cypress`
+
+
+
+
+
+9. What is the purpose of the `cy.visit(url)` command in Cypress?
+   a. To visit a website using a web browser
+   b. To simulate user interactions with a website
+   c. To navigate to a specific URL in the application
+   d. To run a test case in headless mode
+
+
+
+
+
+10. What does the `baseUrl` configuration in Cypress represent?
+    a. The maximum test execution time
+    b. The base URL of the application under test
+    c. The name of the test suite
+    d. The path to the test fixtures
+
+
+
+
+
+
+
+
+
+1. **What is the primary purpose of Iron Session in a Next.js application?**
+   - Answer: b. Managing session data
+
+
+
+2. **How does Iron Session enhance security for session data?**
+   - Answer: a. It encrypts and signs session data using a secret key.
+                It stores & encrypts session at client side 
+
+
+
+
+3. **Which library is commonly used for installing Iron Session in a Next.js project?**
+   - Answer: c. `npm install iron-session`
+
+
+
+
+4. **What is the role of the `req` and `res` objects when working with Iron Session?**
+   - Answer: b. `req` handles HTTP requests, and `res` handles HTTP responses.
+
+
+
+
+5. **Why is testing important in a Next.js application?**
+   - Answer: c. To ensure reliability and identify issues
+
+
+
+
+6. **Which of the following is a popular testing framework for unit testing in Next.js?**
+   - Answer: b. Jest
+
+
+
+
+7. **What does Cypress primarily focus on when it comes to testing Next.js applications?**
+   - Answer: b. End-to-end testing
+
+
+
+
+8. **Which command is used to open the Cypress Test Runner in a Next.js project?**
+   - Answer: b. `npx cypress open`
+   - also note: `npx cypress run` = to run the test case 
+
+
+
+
+9. **What is the purpose of the `cy.visit(url)` command in Cypress?**
+   - Answer: c. To navigate to a specific URL in the application
+
+
+
+
+10. **What does the `baseUrl` configuration in Cypress represent?**
+    - Answer: b. The base URL of the application under test
+
+
+
+
+
+
+
+
+
+

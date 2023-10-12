@@ -1,5 +1,6 @@
 
 
+// Leetcode 48 rotate Image problem 
 
 
 
@@ -12,11 +13,16 @@
     * @param {number[][]} matrix
     * @return{matrix} Do not return anything, modify matrix in-place instead.
     */
+
     var rotate = function (matrix) {
         let n = matrix.length;
 
         for (let i = 0; i < n; i++) {
+            
+            // notes j = i 
+            // finding the transpose only 
             for (let j = i; j < n; j++) {
+
                 // Swap matrix[i][j] and matrix[j][i]
                 let temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
@@ -59,8 +65,6 @@
                 let temp = matrix[i][j];
 
                 newMatrix[j][col - i - 1] = temp;
-
-
             }
         }
 

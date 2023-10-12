@@ -1,0 +1,162 @@
+
+
+1. What is the primary purpose of data fetching in Next.js?
+   a) Styling web pages
+   b) Optimizing database queries
+   c) Obtaining data from various sources
+   d) Managing state in React components
+   (Correct Answer: c)
+
+
+
+
+
+2. Which of the following is NOT a data fetching method in Next.js?
+   a) getServerSideProps
+   b) getStaticMarkup
+   c) getStaticProps
+   d) getStaticPaths
+   (Correct Answer: b)
+
+
+
+
+
+3. When should you consider using server-side rendering (SSR) for data fetching in Next.js?
+   a) When the data changes frequently
+   b) When the data is entirely static
+   c) When SEO is not a concern
+   d) When you want to cache data aggressively
+   (Correct Answer: a)
+
+
+
+
+
+
+
+4. What is the purpose of the `getServerSideProps` function in Next.js?
+   a) To fetch data at build time
+   b) To fetch data on the client side
+   c) To fetch data during server-side rendering
+   d) To define dynamic routes
+   (Correct Answer: c)
+
+
+
+
+
+5. When does `getServerSideProps` execute?
+   a) Only during the initial build
+   b) On every incoming request
+   c) On user interaction
+   d) When a user logs in
+   (Correct Answer: b)
+
+
+
+
+
+6. What type of data is suitable to be fetched using `getServerSideProps`?
+   a) Data that changes frequently
+   b) Static data
+   c) Data that can be pre-rendered
+   d) Data from external APIs
+   (Correct Answer: a)
+
+
+
+
+
+
+7. What is the primary use case for `getStaticProps` in Next.js?
+   a) Fetching data on each request
+   b) Generating dynamic routes
+   c) Pre-rendering static pages with data
+   d) Handling client-side data fetching
+   (Correct Answer: c)
+
+
+
+
+
+8. How does `getStaticProps` differ from `getServerSideProps`?
+   a) `getStaticProps` fetches data on the client side.
+   b) `getServerSideProps` generates static pages.
+   c) `getStaticProps` fetches data at build time.
+   d) `getServerSideProps` is used for dynamic routes.
+   (Correct Answer: c)
+
+
+
+
+
+9. What is the benefit of caching when using `getStaticProps`? --]]
+   a) It reduces the need to revalidate data.
+   b) It fetches data from the server on every request.
+   c) It requires less server-side processing.
+   d) It improves client-side data fetching.
+   (Correct Answer: a)
+
+
+
+
+
+10. What is Incremental Static Regeneration (ISR) in Next.js?
+    a) A technique for server-side rendering only
+    b) A method for invalidating static pages
+    c) A feature for updating static content periodically
+    d) A library for managing data fetching
+    (Correct Answer: c)
+
+
+
+
+11. How does ISR differ from traditional static site generation (SSG) in Next.js?
+    a) ISR only generates dynamic routes.
+    b) ISR revalidates and updates specific pages.
+    c) SSG requires server-side rendering.
+    d) SSG doesn't support caching.
+    (Correct Answer: b)
+
+
+
+
+12. What is the purpose of revalidation in ISR?
+    a) It forces revalidation on every request.
+    b) It schedules updates at fixed intervals.
+    c) It generates static pages.
+    d) It fetches data on the client side.
+    (Correct Answer: b)
+
+
+
+
+
+13. When is client-side data fetching typically used in Next.js?
+    a) During the initial page load
+    b) To fetch static data
+    c) In response to user interactions
+    d) Only for SEO optimization
+    (Correct Answer: c)
+
+
+
+
+14. Which library is commonly used for client-side data fetching in Next.js? --]]
+    a) jQuery
+    b) Axios
+    c) Redux
+    d) GraphQL
+    (Correct Answer: b)
+
+
+
+
+15. How can you handle authentication and authorization in client-side data fetching? --]]
+    a) By using `getServerSideProps` for all data fetching
+    b) By embedding authentication tokens in HTML
+    c) By securing API endpoints and handling user sessions
+    d) By disabling client-side data fetching
+    (Correct Answer: c)
+

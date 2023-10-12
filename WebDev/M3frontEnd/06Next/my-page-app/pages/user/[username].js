@@ -3,7 +3,7 @@ import React from 'react'
 import {useRouter} from 'next/router';
 
 
-export default function username() {
+export default function Username() {
 
     const router = useRouter();  // this will provide lots of thing about, check console 
     

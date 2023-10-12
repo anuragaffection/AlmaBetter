@@ -111,6 +111,8 @@ explore topics {
         -- width 
         -- height 
         -- quality 
+        -- layout 
+        -- placeholder
     }
     
 
@@ -152,10 +154,13 @@ explore topics {
     }
 
 
+
     rel  - relationship bewtween document & link 
     href - 
     type - MIME type 
     swap - a font display property 
+    placeholder = blur = this means that images will be blur , until it fully displayed, blur works if loading time is very long. 
+
 
     
 }
@@ -178,6 +183,10 @@ explore topics {
         -- next/image 
         -- img 
         -- src 
+        -- quality = 
+        -- layout  = responsive 
+        -- placeholder = blur 
+        -- priority = it defines occurrrence 
     }
 
 
@@ -213,6 +222,7 @@ explore topics {
         -- LCP = Largest Contentful Paint
         -- 2.5 sec LCP = good 
         -- 4.0 sec LCP = need improvement  
+        -- greater than 4.0 = very worst, need 10x improvement
     }
 
 
