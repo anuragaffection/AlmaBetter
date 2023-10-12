@@ -1,0 +1,101 @@
+
+API = 
+
+
+AJAX = Asynchronous Javascript and XML 
+
+
+CD   = continuous delivery 
+CDN  = Content Delivery Network 
+
+CI   = continuous integration
+
+CLS  = Cumulative Layout Shift
+
+CMS  = Content management system 
+CORS = 
+
+CSR  = Client Side Rendering
+CSS  = Cascading Style Sheets 
+
+
+
+
+
+
+
+DOM  = Document Object Model 
+DRY  = Don't Repeat Yourself 
+
+
+
+HOC  = Higher Order Components
+HOC  = Higher Order Functions 
+
+HTML = Hyper Text Markup Language 
+
+
+
+
+
+
+
+IIFE = Immediately Invoked Function Expression 
+ISR  = Incremental Static Regeneration
+
+
+
+
+
+
+
+JSON = Javascript Object Notation 
+
+
+
+
+
+
+
+LCP  = Largest Contentful Paint 
+LTS  = Long Term Support 
+
+
+
+
+
+
+MVC  = Model View Controller
+NPM  = Node Package Manager 
+
+
+
+
+
+
+SASS = 
+SEO  = Search Engine Optimization
+
+SPA  = Single Page Application 
+SSG  = Statci Site Generation 
+
+SSR  = Server Side Rendering
+SWR  = Stale While Revalidating
+
+
+
+
+
+
+
+
+
+TTFB = time to the first byte 
+
+
+XSS  = Cross site scripting
+
+
+
+
+
