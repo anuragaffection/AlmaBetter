@@ -440,11 +440,54 @@
 58. render()
 ---
 
-
-
 59. componentDidMount()
 --- 
 
+60. componentWillUnmount
+-- 
 
+61. htttp and Ajax request
+-- 
 
+62. Get request usng Axios 
+--
 
+63. Displaying Data 
+-- 
+
+64. How to post data 
+-- 
+
+65. Deleting using Axios 
+-- 
+
+66. default url in axios 
+-- 
+
+67. creating an instance in axios 
+-- 
+
+68. Weather app outline #7.28.29
+--  
+
+69. Converting template into component #7.34.00 
+-- 
+
+70. handling api #7.53.53
+-- 
+
+71. getting data form api # 8.07.00
+-- 
+
+72. Loader file fetching data #7.25.25
+-- 
+
+73. Recent search bar #8.30.30
+-- 
+
+74. Save recent search in local storage  #08.53.53
+--  window local storage
+-- 
+
+75. Understanding state and its complexity 
+-- 
