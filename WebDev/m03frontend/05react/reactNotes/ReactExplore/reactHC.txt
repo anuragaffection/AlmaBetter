@@ -3,13 +3,119 @@ React by Hitesh Chaudhary
 
 
 
-01. Roadmap
+01. Roadmap {
+
+    - Phantom message problem 
+    - ghost message problem
+
+    - state = store value 
+    - state = a variable 
+
+    - bind
+    - call
+    - apply 
+    - Dom Manipulation 
+
+    - babel 
+    - fibre 
+    - diffing alogrithm 
+    - hydration 
+
+    - react is a library 
+
+    - library   = more freedom 
+    - framework = strict & less freedom
+
+    - JSX 
+    - components 
+    - state 
+    - props 
+    - Hooks
+
+    - SPA = single page application 
+    - MPA = Multiple page appliaton 
+
+    - React Router DOM = a library to maintain routing 
+
+    - Redux          = a library to manage state 
+    - Redux toolkit  = a library to manage state 
+    - Zustand        = a library to manage state 
+    - context api    = a library to manage state 
+
+    - BAAS = backend as a service 
+    - BAAS = appwrite, firebase, superbase 
+
+    - freeapi.app 
+
+    - NextJs = framework built on react 
+    - Remix  = framework built on react 
+    - Gatsby = framework built on react 
+}
 
 
 
 
 
-02. project
+
+
+02. project & installation  {
+
+    - Vs code installation
+    - Node js installation
+
+    - https://react.dev/learn
+
+    - github 
+    - git installation
+    - git init 
+    - git add 
+    - git commit 
+    - git push 
+    - git branch 
+
+    - node -v = to check node version 
+
+    - vite   = a bundler
+    - parcel = a bundler
+
+    - react        = core library 
+    - react-dom    = library for web apps 
+    - react-native = library for mobile apps 
+
+    - npx = node package executor 
+    - npm = node package manager 
+
+    - create-react-app myApp = way to create react app 
+    - create-react-app       = is bulky 
+
+    - package.json  = dependencies  
+    - jest          = testing library
+    - react-scripts = 
+    - web-vitals    = check performance 
+    - scripts       = 
+
+    - start = 
+    - build = 
+    - test  = 
+    - eject = 
+
+    - eslintConfig = 
+    - browswerlist = which browser it is supporting 
+
+    - cd 
+    - npm run start 
+    - npm start 
+    - npm run build 
+
+    - build = convert react file to javascript file 
+
+    - npx create-react-app myApp 
+
+    - npm create vite@latest 
+    - npm install = installing node module 
+    - npm run dev = running the dev server 
+
+}
 
 
 

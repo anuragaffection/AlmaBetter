@@ -491,3 +491,39 @@
 
 75. Understanding state and its complexity 
 -- 
+
+
+76. creating store and reducers (redux )
+--  redux is individula library
+--  require 
+--  redux
+--  createStore()
+--  state 
+--  action 
+--  getState()
+--  
+
+
+
+77. What is redux toolkit 
+-- 
+
+
+
+78. Action 
+--  type 
+--  value 
+--  action.type
+--  action.value 
+--  
+
+79. subscription #09.17.52 
+--  state replace the previous state 
+--  dispath()
+
+
+80. Connect react to redux 
+--  
+
+81. connecting react to store 
+--  
