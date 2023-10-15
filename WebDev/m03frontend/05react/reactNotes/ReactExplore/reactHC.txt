@@ -115,13 +115,30 @@ React by Hitesh Chaudhary
     - npm install = installing node module 
     - npm run dev = running the dev server 
 
+    - project cleaning 
+
 }
 
 
 
 
 
-03. flow & Structure 
+
+
+
+03. flow & Structure {
+
+    - npx create-react-app 
+    - npm create vite@latest 
+
+    - manifest.json = for mobile 
+    - package-lock.json = locking for certain devices 
+
+    - Keep components name - capital 
+    - export default 
+    - 
+
+}
 
 
 
