@@ -77,6 +77,7 @@ React by Hitesh Chaudhary
 
     - vite   = a bundler
     - parcel = a bundler
+    - babel  = a bundler
 
     - react        = core library 
     - react-dom    = library for web apps 
@@ -136,6 +137,16 @@ React by Hitesh Chaudhary
 
     - Keep components name - capital 
     - export default 
+    - .js 
+    - .jsx 
+    - fragment return 
+    - single div return 
+
+    - render()
+    - return()
+    - return{}
+
+    - react-scripts = used to inject js file 
     - 
 
 }
@@ -144,10 +155,25 @@ React by Hitesh Chaudhary
 
 
 
+
 04. Custom React & JSX {
 
-   
+    - setAttribute()
+    - appenChild()
+    - querySelector()
+    - querySelectorAll()
+    - createElement()
+    - innerHTML 
+
+    - React.createElement()
+    - {} = enject variable in jsx 
+    - {} = enject final output 
+    - {} = can not write loop, if, switch etc within it 
+    - {} = evaluated expression 
+    - 
 }
+
+
 
 
 
@@ -155,39 +181,98 @@ React by Hitesh Chaudhary
 
 05. Hooks {
 
+    - useState()
+    - import React, { useState } from 'react';
+    - const [state, setState] = useState(initialValue);
+
+    - useState(), takes some initial value 
+    - useState(), returns an array 
+
+    - state ,    a returned variable ,  current state 
+    - setState , a returned function ,  used to update the state
+    - setState , completely replace the previous state
+    - setState , re - render the components 
+    - setState , have callback to update previous value
+
+    - state, setState = we are free to use any other names 
+
 }
 
 
 
 
 
-06. Virtual DOM, fibre & Reconcilliation {
 
+06. Virtual DOM, fiber & Reconcilliation {
+
+    - createRoot()
+
+    - react-fiber-architecture
+    - https://github.com/acdlite/react-fiber-architecture
+
+    - Reconcilliation vs Render 
+    - is Virtual DOM still in use 
 }
+
+
+
 
 
 
 07. Tailwind & Props {
 
+    - https://vitejs.dev/
+    - https://vitejs.dev/guide/
 
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p
+
+    - D , where to include in package.json [dev dependencies]
+    - npx tailwindcss init -p = generate tailwind.config.js file 
+
+    - className 
+    - htmlfor 
+
+    - props passing & receiving 
 }
 
 
 
 
-08. Counter Interview Questions {
 
+08. Interview Questions {
+    - useState
+    - current value 
+    - previous value
+    - Multiple calling of , setState 
 }
+
+
 
 
 
 09. React project {
+    - simple background changer project 
 
+    - onClick = {someFunction}
+    - onClick = {someFunction()}
+
+    - what is difference between using someFunction & someFunction()
+
+    - someFunction = will give function to onClick
+    - someFunction() = will give value returned by someFunction to onClick
 }
 
 
 
 10. useEffect, useRef, useCallback {
+    - useCallback()
+    - useEffect()
+    - useRef()
+
+    - useCallback(), used for optimize, memoize 
+    - useEffect(), used to call, if any dependencies change 
+    - useRef, store reference 
 
 }
 
