@@ -281,6 +281,8 @@ React by Hitesh Chaudhary
 
 11. Custom Hooks {
     -- useId 
+    -- useEffect
+    -- component reusing 
 
 
 }
