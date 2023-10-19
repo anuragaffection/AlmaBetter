@@ -283,6 +283,43 @@ React by Hitesh Chaudhary
     -- useId 
     -- useEffect
     -- component reusing 
+}
 
 
+
+12. Router {
+    -- third party library
+    -- react-router-dom 
+    -- https://reactrouter.com/en/main
+
+    -- Link 
+    -- NavLink 
+    -- 
+
+    -- Link vs a 
+    -- Link,  replacing anchor tag, a 
+
+    -- Link vs NavLink
+    -- NavLink as extra feature 
+    -- provide isActive, isPending 
+    -- 
+
+    -- RouterProvider 
+    -- RouterProvider,  takes props 
+
+    -- createBrowserRouter, 
+    -- Outlet, it changes 
+
+    -- createRoutesFromChildren
+    -- createRoutesFromElements 
+
+
+    -- Route, 
+    -- Link 
+    -- NavLink
+    -- RouterProvider, 
+    -- createBrowserRouter, 
+    -- createRoutesFromElements 
+    -- useLoaderData()
+    -- useParams()
 }
