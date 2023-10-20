@@ -323,3 +323,19 @@ React by Hitesh Chaudhary
     -- useLoaderData()
     -- useParams()
 }
+
+
+
+
+#13 context api {
+    -- context api 
+    -- redux 
+    -- react-redux 
+    -- react-toolkit (RTK)
+    -- Zustand
+
+    -- above all 5 are state management 
+    -- https://react.dev/reference/react/useContext
+    -- 
+
+}
