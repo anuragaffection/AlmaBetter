@@ -8,6 +8,17 @@ https://www.w3schools.com/react/react_es6_arrow.asp
 
 
 
+extra 
+
+01. tailwind with react & (make video on this )
+https://dev.to/aremusmog/five-tips-to-write-better-tailwind-css-in-react-projects-7oa
+
+
+
+
+
+
+
 
 
 

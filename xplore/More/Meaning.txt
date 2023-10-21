@@ -4,6 +4,7 @@ akin    -
 alias   - substitute for something, an another name 
 
 conundrum - 
+deciphering -
 
 honing  - 
 
@@ -11,6 +12,8 @@ intricacies -
 
 Patrons - 
 purge   - 
+prowess -
+quaint -
 
 
 Sentinel - 

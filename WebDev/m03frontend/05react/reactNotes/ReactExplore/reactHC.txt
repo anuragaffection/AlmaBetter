@@ -336,6 +336,12 @@ React by Hitesh Chaudhary
 
     -- above all 5 are state management 
     -- https://react.dev/reference/react/useContext
-    -- 
 
+    -- themeSwitcher Project 
+    -- 
+}
+
+
+#14 Redux {
+    
 }
