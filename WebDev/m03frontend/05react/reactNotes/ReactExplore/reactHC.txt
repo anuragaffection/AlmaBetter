@@ -342,6 +342,26 @@ React by Hitesh Chaudhary
 }
 
 
-#14 Redux {
+#14 context api  {
+    -- todo app 
+    -- local storage 
     
+}
+
+
+#15 redux {
+    -- flux 
+    -- redux
+    -- react-redux
+    -- reduxToolkit
+
+    -- redux-thuk
+    -- redux-saga 
+    
+    -- store
+    -- reducers
+
+    -- useSelector
+    -- useDispatch 
+
 }
