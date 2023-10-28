@@ -1,0 +1,126 @@
+introduction 
+
+
+
+theme {
+
+}
+
+
+
+
+primary goals {
+    -- NoSQL
+    -- Relational 
+
+    -- DDL
+    -- DML
+    -- DCL
+    -- TCL
+
+    -- 3-Tier architecture
+
+    -- Oracle Database
+    -- Postgre SQL
+    -- SQL Server 
+    -- Microsoft SQL Server
+    -- MongoDB
+    -- MySQL
+    -- MySQL Workbench 
+
+    -- Javascript
+    -- Node.js 
+    -- Express.js
+
+    -- Java 
+    -- Spring 
+    -- Java Server Faces 
+
+    -- Python 
+    -- Django 
+    -- Flask 
+
+    -- Amazon Web Services (AWS)
+    -- Google Cloud Platform (GCP)
+    -- Microsoft Azure 
+    -- Heroku 
+}
+
+
+
+What is backend {
+    Web Server
+
+    Backend Development 
+    -- Server logic
+    -- Database Management
+    -- API Development
+
+    Backend Developer Skills
+    -- Data strucutres & Algorithms
+    -- Programming Lanuage and Frameworks
+    -- Database Management Systems 
+    -- Web Hosting Platforms 
+}
+
+
+
+What is a Database {
+    -- structured collection of data 
+    
+}
+
+Database Management System {
+
+}
+
+Data Language {
+
+}
+
+
+
+Summary {
+    -- What is DNS 
+    -- containerization
+    -- 
+}
+
+
+
+
+Quiz {
+    
+    Activity: Fill in the blanks
+    
+    01. The backend of a web application handles the ___________ (client / server) side logic and data processing.
+    
+    
+    02. A backend developer is responsible for building the ___________ (UI / logic) and server-side components of a web application.
+    
+    
+    03. A Database Management System (DBMS) is a ___________ (software / framework) that enables users to interact with a database.
+    
+    
+    04. In a ___________ (hierarchical / network) DBMS, data is organized in a tree-like structure
+    
+    
+    05. ___________ (distributed / network) DBMS is based on the mathematical model of directed graphs.
+
+
+Answers
+01. server
+02. logic
+03. software
+04. hierarchical
+05. network
+
+
+
+}
+
+
+Task {
+    -- ask linkedin endorsement from Monesh Venkul Sir 
+    -- 
+}

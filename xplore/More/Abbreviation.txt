@@ -1,5 +1,5 @@
 
-API = 
+API = Application Programming Interfaces
 
 
 AJAX = Asynchronous Javascript and XML 
