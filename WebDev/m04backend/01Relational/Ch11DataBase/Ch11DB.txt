@@ -1,0 +1,243 @@
+introduction 
+theme 
+
+
+primary goals {
+    -- Relational 
+    -- NoSQL
+
+
+    -- DDL
+    -- DML
+    -- DCL
+    -- TCL
+
+    -- 3-Tier architecture
+
+    Databases
+    -- Oracle Database
+    -- Postgre SQL
+    -- SQL Server 
+    -- Microsoft SQL Server
+    -- MongoDB
+    -- MySQL
+    -- MySQL Workbench 
+
+
+    Backend Language & Frameworks
+    -- Javascript
+    -- Node.js 
+    -- Express.js
+
+    -- Java 
+    -- Spring 
+    -- Java Server Faces 
+
+    -- Python 
+    -- Django 
+    -- Flask 
+
+
+    Hosting & Cloud 
+    -- Amazon Web Services (AWS)
+    -- Google Cloud Platform (GCP)
+    -- Microsoft Azure 
+    -- Heroku 
+
+
+    RDBMS
+    -- MySQL
+    -- PostgreSQL
+    -- Oracle Database
+    -- Microsoft SQL Server
+
+    NoSQL
+    -- MongoDB
+    -- Couchbase
+    -- Redis 
+    -- Amazon DynamoDB
+    -- Apache Cassandra
+    -- HBase
+    -- Neo4j
+    -- Amazon Neptune
+
+    OODBMS
+    -- ObjectStore
+    -- Versant
+
+    hierarchical DBMS
+    -- IMS, Information Management System
+    
+    Network DBMS
+    -- IDMS, Integrated Data Management System
+
+    Parallel DBMS
+    -- TeraData
+    -- Amazon Redshift
+
+    Distributed DBMS
+    -- Apache Cassandra
+    -- Amazon DynamoDB
+
+}
+
+
+
+What is backend {
+    Web Server
+
+    Backend Development 
+    -- Server logic
+    -- Database Management
+    -- API Development
+
+    Backend Developer Skills
+    -- Data strucutres & Algorithms
+    -- Programming Lanuage and Frameworks
+    -- Database Management Systems 
+    -- Web Hosting Platforms 
+}
+
+
+
+What is a Database {
+    -- structured collection of data 
+    -- flow of data & instructions 
+    -- applications of database 
+    
+}
+
+Database Management System {
+    -- DBMS is a software that interact with databases
+    -- SQL, Structured Query Language 
+    -- Sharding, horizontally partition of a database 
+
+    Types of DBMS
+    -- Relational DBMS (RDBMS),  SQL
+    -- Non Relational DBMS, NoSQL
+    -- Object Oreinted DBMS (OODBMS) 
+    -- hierarchical DBMS 
+    -- Network DBMS
+    -- Parallel DBMS
+    -- distributed DBMS
+
+    3 tier architecture
+    -- Presentation tier
+    -- Application tier 
+    -- Database tier
+
+}
+
+
+
+Data Language {
+    -- it refers to commands that interact with database
+    -- DDL defines schema, 
+    -- DML manipulates data, 
+    -- DCL controls permissions, 
+    -- TCL manages transactions.
+    
+    DDL Data Definition Language
+    -- CREATE
+    -- ALTER
+    -- DROP
+    -- TRUCATE
+    -- COMMENT
+    -- RENAME
+
+    DML Data Manipulation Language
+    -- INSERT
+    -- UPDATE
+    -- DELETE
+    -- MERGE
+    -- CALL
+    -- EXPLAIN PLAN
+    -- SELECT
+
+    DQL Data Query Language
+    -- SELECT
+
+    DCL Data Control Language
+    -- GRANT 
+    -- REVOKE 
+
+    TCL Transation Control Language
+    -- COMMIT 
+    -- ROLLBACK
+    -- SAVEPOINT
+    -- AUTOCOMMIT 
+
+
+
+}
+
+
+
+Quiz {
+    
+    Activity: Fill in the blanks
+    
+    01. The backend of a web application handles the ___________ (client / server) side logic and data processing.
+    
+    02. A backend developer is responsible for building the ___________ (UI / logic) and server-side components of a web application.
+    
+    03. A Database Management System (DBMS) is a ___________ (software / framework) that enables users to interact with a database.
+    
+    04. In a ___________ (hierarchical / network) DBMS, data is organized in a tree-like structure
+    
+    05. ___________ (distributed / network) DBMS is based on the mathematical model of directed graphs.
+
+
+    Answers
+    01. server
+    02. logic
+    03. software
+    04. hierarchical
+    05. network
+
+
+
+
+
+
+    Activity: Crossword Puzzle
+    
+    1. A method used to horizontally partition a database.
+
+    2. This type of DBMS organizes data in a tree-like structure.
+    
+    3. The ________ tier is responsible for storing, managing, and retrieving data.
+
+    4. The ________ tier contains business logic and data processing.
+
+    5. Operation that saves changes made during a transaction.
+    
+    6. The process of minimizing redundancy and improving data integrity
+
+
+    Answers
+    01. Sharding
+    02. hierarchical
+    03. Database
+    04. Application
+    05. COMMENT
+    06. Normalization 
+
+}
+
+
+
+
+Explore & Summary {
+    -- What is DNS 
+    -- containerization
+    -- Sharding
+    -- Normalization
+}
+
+
+
+Task {
+    -- ask linkedin endorsement from Monesh Venkul Sir 
+    -- 
+}

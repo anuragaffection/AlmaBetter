@@ -1,0 +1,64 @@
+
+MongoDB atlas
+MongoDB compass 
+MongoDB cluster 
+MongoDB community server 
+Aggregation pipeline 
+Homebrew 
+
+
+
+MongoDB
+- Document based database
+- NoSQL Database
+- show dbs 
+
+
+
+Relational DB  vs  MongoDB 
+database       -   database
+table          -   collection 
+row            -   Document
+column         -   field / key
+
+
+
+CRUD {
+    C - CREATE
+    R - READ
+    U - UPDATE
+    D - DELETE
+}
+
+
+
+pre defined  keywords {
+    show dbs 
+    use dbName
+
+}
+
+
+
+pre defined Method {
+
+    -- findOne()
+    -- find()
+
+    -- insertOne()
+    -- insertMany()
+
+    -- updateOne()
+    -- updateMany()
+
+    -- delteOne()
+    -- deleteMany()
+
+    -- remove()
+    -- sort()
+    -- skip()
+    -- limit()
+    -- 
+
+}
+
