@@ -87,6 +87,16 @@ Explore & Summary {
 
 }
 
+
 Task {
+    -- field
+    -- function vs attributes [functions do the task, attributes are properties or characteristics]
+    -- multi valued attributes
+    -- data vs database vs DBMS vs Language 
+    -- SQL  vs NoSQL
+    -- SQL vs MySQL
+    -- NoSQL vs  MongoDB
+    -- DBMS vs RDBMS
+    -- 
 
 }
