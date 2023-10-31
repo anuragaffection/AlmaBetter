@@ -1,5 +1,6 @@
 
-API = Application Programming Interfaces
+ACID = Atomicity, Consistency, Isolation, Durability
+API  = Application Programming Interfaces
 
 
 AJAX = Asynchronous Javascript and XML 
@@ -68,10 +69,11 @@ LTS  = Long Term Support
 
 
 MVC  = Model View Controller
+MVVC = Multi Version Concurrency Control 
 NPM  = Node Package Manager 
 
 
-
+RBAC = Role based access control
 
 
 
@@ -82,21 +84,15 @@ SPA  = Single Page Application
 SQL  = Structured Query Language 
 
 SSG  = Static Site Generation 
-
+SSL  = 
 SSR  = Server Side Rendering
 SWR  = Stale While Revalidating
 
-
-
-
-
-
-
-
+TLS  = 
 
 TTFB = time to the first byte 
 
-
+UDFs = User Defined Functions 
 XSS  = Cross site scripting
 
 

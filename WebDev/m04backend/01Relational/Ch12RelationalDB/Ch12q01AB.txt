@@ -1,0 +1,226 @@
+Relational Database MariaDB
+
+
+
+01 
+What is the primary purpose of a primary key in a SQL Server table?
+
+To enforce uniqueness of values in a column
+To create an index for faster data retrieval
+To establish relationships between tables
+To allow NULL values in the column
+
+
+
+
+
+
+02. 
+In MariaDB, which CRUD operation is used to add a new row to a table?
+
+Create
+Read
+Update
+Delete
+
+
+
+
+
+03.
+In a relational database, what is a foreign key?
+
+A key that is used for encryption.
+A key that is used to establish relationships between tables.
+A key that uniquely identifies each row in a table.
+A key that is used to sort data in a table.
+
+
+
+
+
+
+
+04.
+What does CRUD stand for in the context of databases?
+
+Create, Read, Update, Delete
+Copy, Remove, Update, Dump
+Convert, Retrieve, Undo, Delete
+Control, Replace, Undo, Deploy
+
+
+
+
+
+
+05.
+What is the correct syntax for updating a single column in MariaDB?
+
+UPDATE table_name SET column_name = new_value;
+MODIFY table_name column_name = new_value;
+ALTER table_name UPDATE column_name = new_value;
+CHANGE table_name SET column_name = new_value;
+
+
+
+
+
+
+06.
+In SQL Server, which key can have NULL values?
+
+Primary Key
+Foreign Key
+Unique Key
+Candidate Key
+
+
+
+
+
+
+07.
+When using the DELETE statement in MariaDB without a WHERE clause, what will happen?
+
+All records in the table will be deleted.
+An error will occur.
+Only the first record in the table will be deleted.
+The table structure will be deleted.
+
+
+
+
+
+
+08.
+What happens if you omit the WHERE clause in an UPDATE statement?
+
+The UPDATE operation will fail.
+All rows in the table will be updated.
+The first row in the table will be updated.
+An error will be displayed, and the operation will be rolled back.
+
+
+
+
+
+
+09.
+What is the purpose of a foreign key in SQL Server?
+
+To enforce uniqueness of values in a column
+To create an index for faster data retrieval
+To establish relationships between tables
+To allow NULL values in the column
+
+
+
+
+
+
+10.
+Which SQL keyword is used to perform the READ operation in MariaDB?
+
+INSERT
+SELECT
+UPDATE
+DELETE
+
+
+
+
+
+
+
+01 
+To enforce uniqueness of values in a column
+
+The primary key's primary purpose is to enforce uniqueness of values within a column. It ensures that each row in the table has a unique identifier.
+
+
+
+
+
+02
+Create
+
+The Create operation is used to add new data to the database. In MariaDB, you can use the INSERT statement to create and insert new rows into a table.
+
+
+
+
+
+03 
+A key that is used to establish relationships between tables.
+
+A foreign key is a key in one table that establishes a link to the primary key of another table, creating a relationship between the two tables.
+
+
+
+
+
+04
+Create, Read, Update, Delete
+
+CRUD stands for Create, Read, Update, Delete, which are the four basic operations used to manage data in a database.
+
+
+
+
+05
+UPDATE table_name SET column_name = new_value;
+
+The correct syntax for updating a single column in MariaDB is by using the UPDATE statement followed by the table name, SET keyword, the column name, and the new value to assign to that column.
+
+
+
+
+
+06
+Foreign Key
+
+A foreign key can have NULL values, indicating that a particular record in the child table is not associated with any record in the parent table.
+
+
+
+
+
+07.
+All records in the table will be deleted.
+
+When using the DELETE statement in MariaDB without a WHERE clause, all records in the table will be deleted. This can be a dangerous operation as it removes all data from the specified table. It is essential to be cautious while using the DELETE statement without a WHERE clause to avoid unintentional data loss.
+
+
+
+
+08.
+All rows in the table will be updated.
+
+If you omit the WHERE clause in an UPDATE statement, all rows in the table will be updated with the new values specified in the SET clause. This can lead to unintended consequences and should be used with caution.
+
+
+
+
+09
+To establish relationships between tables
+
+A foreign key is used to establish relationships between tables by linking a column in one table to the primary key of another table. It enforces referential integrity in the database.
+
+
+
+
+
+10.
+SELECT
+
+The SELECT keyword is used to perform the READ operation in MariaDB. It allows you to query the database and retrieve specific data from one or more tables based on the conditions specified in the query.
+
+
+
+
+
+
+
+
+

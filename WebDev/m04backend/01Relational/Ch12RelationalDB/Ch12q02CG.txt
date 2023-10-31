@@ -1,0 +1,265 @@
+
+
+1. What does CRUD stand for in the context of databases?
+   a) Create, Read, Update, Delete
+   b) Create, Refresh, Unify, Delete
+   c) Current, Retrieve, Update, Drop
+   d) Change, Record, Utilize, Delete
+
+
+
+
+
+2. Which of the following is not a primary goal in SQL?
+   a) CRUD
+   b) ACID
+   c) Joins
+   d) Storage Engines
+
+
+
+
+3. In a relational database, what is the purpose of primary keys?
+   a) To establish a unique identifier for each row in a table
+   b) To store large binary data
+   c) To create a link between two tables
+   d) To enforce data consistency
+
+
+
+
+
+4. What are foreign keys used for in a database?
+   a) To establish a unique identifier for each row in a table
+   b) To store large binary data
+   c) To create a link between two tables
+   d) To enforce data consistency
+
+
+
+
+
+
+5. Which type of SQL join returns only the rows that have matching values in both tables?
+   a) INNER JOIN
+   b) LEFT JOIN
+   c) RIGHT JOIN
+
+
+
+
+
+6. In an SQL LEFT JOIN, which table's data is all returned, even if there are no matches in the other table?
+   a) The left table
+   b) The right table
+   c) Both tables
+
+
+
+
+
+7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?
+   a) InnoDB
+   b) Aria
+   c) MyRocks
+
+
+
+
+8. Which storage engine is designed for high write-intensive workloads in MySQL/MariaDB?
+   a) InnoDB
+   b) Aria
+   c) MyRocks
+
+
+
+
+
+9. Which property of ACID ensures that a transaction is either completed in its entirety or not at all?
+   a) Atomicity
+   b) Consistency
+   c) Isolation
+   d) Durability
+
+
+
+
+
+10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?
+    a) Atomicity
+    b) Consistency
+    c) Isolation
+    d) Durability
+
+
+
+
+
+
+11. What is the purpose of normalization in a relational database?
+    a) To increase data redundancy
+    b) To create complex queries
+    c) To eliminate redundancy and dependency
+    d) To speed up data retrieval
+
+
+
+
+
+12. Which of the following is an example of an RDBMS (Relational Database Management System)?
+    a) MongoDB
+    b) PostgreSQL
+    c) Cassandra
+    d) Redis
+
+
+
+
+
+13. What is a composite key in SQL?
+    a) A key that is made up of multiple columns
+    b) A key used for indexing purposes
+    c) A key that enforces uniqueness on a single column
+    d) A key that is not used in SQL Server
+
+
+
+
+
+14. Which type of key enforces uniqueness on a column but allows for duplicates within the constraint?
+    a) Primary Key
+    b) Foreign Key
+    c) Unique Key
+    d) Composite Key
+
+
+
+
+
+15. Why was MariaDB created?
+    a) To replace MySQL
+    b) To serve as a fork of MySQL
+    c) To challenge PostgreSQL
+    d) To compete with Microsoft SQL Server
+
+
+
+
+
+16. Which programming language can be used to write user-defined functions in MariaDB?
+    a) Python
+    b) C/C++
+    c) Java
+    d) JavaScript
+
+
+
+
+
+17. What is the default root password during the installation of MariaDB?
+    a) anurag
+    b) root
+    c) password
+    d) admin
+
+
+
+
+
+18. What tool is commonly used to connect to MariaDB for administration and querying?
+    a) phpMyAdmin
+    b) MySQL Workbench
+    c) MariaDB Control Center
+    d) SQLite Manager
+
+
+
+
+
+
+19. Which SQL statement is used to insert new data into a table in MariaDB?
+    a) SELECT
+    b) UPDATE
+    c) INSERT
+    d) DELETE
+
+
+
+
+
+20. What does the SELECT statement do in MariaDB?
+    a) Delete records from a table
+    b) Update existing records in a table
+    c) Retrieve data from a table
+    d) Create a new table
+
+
+
+
+
+
+
+
+1. What does CRUD stand for in the context of databases?
+   Answer: a) Create, Read, Update, Delete
+
+2. Which of the following is not a primary goal in SQL?
+   Answer: c) Joins
+
+3. In a relational database, what is the purpose of primary keys?
+   Answer: a) To establish a unique identifier for each row in a table
+
+4. What are foreign keys used for in a database?
+   Answer: c) To create a link between two tables
+
+5. Which type of SQL join returns only the rows that have matching values in both tables?
+   Answer: a) INNER JOIN
+
+6. In an SQL LEFT JOIN, which table's data is all returned, even if there are no matches in the other table?
+   Answer: a) The left table
+
+7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?
+   Answer: b) Aria
+
+8. Which storage engine is designed for high write-intensive workloads in MySQL/MariaDB?
+   Answer: c) MyRocks
+
+9. Which property of ACID ensures that a transaction is either completed in its entirety or not at all?
+   Answer: a) Atomicity
+
+10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?
+    Answer: b) Consistency
+
+11. What is the purpose of normalization in a relational database?
+    Answer: c) To eliminate redundancy and dependency
+
+12. Which of the following is an example of an RDBMS (Relational Database Management System)?
+    Answer: b) PostgreSQL
+
+13. What is a composite key in SQL?
+    Answer: a) A key that is made up of multiple columns
+
+14. Which type of key enforces uniqueness on a column but allows for duplicates within the constraint?
+    Answer: c) Unique Key
+
+15. Why was MariaDB created?
+    Answer: b) To serve as a fork of MySQL
+
+16. Which programming language can be used to write user-defined functions in MariaDB?
+    Answer: b) C/C++
+
+17. What is the default root password during the installation of MariaDB?
+    Answer: b) root
+
+18. What tool is commonly used to connect to MariaDB for administration and querying?
+    Answer: b) MySQL Workbench
+
+19. Which SQL statement is used to insert new data into a table in MariaDB?
+    Answer: c) INSERT
+
+20. What does the SELECT statement do in MariaDB?
+    Answer: c) Retrieve data from a table
+
+
+
+    

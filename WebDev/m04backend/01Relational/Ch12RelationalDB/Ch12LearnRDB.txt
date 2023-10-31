@@ -1,0 +1,261 @@
+introduction 
+theme 
+
+primary goals {
+    
+    -- CRUD 
+    -- SQL
+    -- primary keys 
+    -- foreign keys
+
+    joins
+    -- INNER JOIN 
+    -- LEFT JOIN 
+    -- RIGHT JOIN
+
+    Storage Engines 
+    -- InnoDB
+    -- Aria 
+    -- MyRocks 
+
+    ACID
+    -- Atomicity
+    -- Consistency
+    -- Isolation 
+    -- Durability 
+
+}
+
+
+Relational database
+SQL Server Keys
+MariaDB
+Installing MariaDB
+CRUD in MariaDB
+
+
+
+
+Relational database {
+
+    -- RDBMS use Relational or SQL model to  manage data 
+    -- tables as Relations
+    -- rows as tuples
+    -- columns as attributes 
+
+    Terminologies
+    -- tables as Relations 
+    -- rows as tuples
+    -- columns as attributes
+    -- SQL is the Language to interact with RDBMS
+    -- Normalization used to eliminate redundancy & dependency
+    -- indexes
+    -- joins 
+
+    Examples of RDBMS
+    -- MySQL
+    -- MariaDB
+    -- PostgreSQL
+    -- Oracle Database 
+    -- Microsoft SQL Server 
+
+}
+
+
+
+SQL Server Keys {
+    -- PRIMARY KEY 
+    -- FOREIGN KEY
+    -- UNIQUE 
+    -- Alternate key 
+    -- Composite key
+    -- candidate key
+    -- Super key
+}
+
+
+
+MariaDB {
+    -- RDBMS
+    -- fork of MySQL
+    -- why MariaDB was crated 
+    -- who is the owner of MariaDB
+    -- support user defined functions written in c/c++
+    -- JSON support
+    -- MVVC = Multi Version Concurrency Control 
+    
+}
+
+
+
+Installing MariaDB {
+    -- root password - anurag 
+    -- MySQL Client
+
+}
+
+
+CRUD in MariaDB {
+
+    -- SHOW DATABASES ; 
+    -- SHOW TABLES ;
+
+    -- CREATE DATABASE <myDatabase>
+    -- CREATE TABLE <myTable> 
+
+    CRUD
+    -- CREATE
+    -- READ
+    -- UPDATE
+    -- DELETE
+
+    Connnecting 
+    -- CREATE DATABASE your_database_name;
+    -- USE your_database_name;
+
+
+    Data Type 
+    -- int 
+    -- varchar(255)
+    -- date 
+    -- YEAR 
+    -- boolean 
+    -- decimal 
+    -- NOT 
+    -- NULL 
+    -- NOT NULL
+    -- 
+
+
+    CREATE
+    -- INSERT
+    -- INSERT INTO 
+    -- VALUES
+
+    READ
+    -- SELECT
+    -- FROM
+    -- WHERE
+    -- SELECT *
+    -- AND 
+
+    UPDATE
+    -- UPDATE
+    -- SET 
+    -- WHERE
+
+    DELETE
+    -- DELETE
+    -- DELETE FROM
+    -- WHERE
+
+
+}
+
+
+{
+    Primary Key	
+    -- A column or set of columns that uniquely identifies each row in a table. It enforces data integrity and creates a unique index.
+    
+    Foreign Key	
+    -- A column or set of columns that links data between two tables, ensuring referential integrity by referencing a primary key in another table.
+    
+    Unique Key (Constraint)	
+    -- Enforces uniqueness on a column or set of columns, allowing for duplicates within the constraint but not within the entire column(s).
+    
+    Alternate Key	
+    -- A candidate key that is not chosen as the primary key, providing an alternative unique constraint for the table.
+    
+    Composite Key	
+    -- A primary key or unique key consisting of multiple columns, where uniqueness is determined by the combination of values in those columns.
+    
+    Candidate Key	
+    -- A set of columns that could potentially serve as the primary key; a table may have multiple candidate keys, one of which is chosen as the primary key.
+    
+    Super Key	
+    -- A set of columns that can uniquely identify rows, but it may include extra columns beyond the minimal set required for uniqueness.
+
+}
+
+
+
+
+Quiz {
+
+    Activity: True or False
+    
+    01. Relational databases store data in a structured manner, using tables with rows and columns.
+    
+    02. Examples of relational databases include MySQL, PostgreSQL, and MongoDB.
+    
+    03. MariaDB was developed by Microsoft Corporation.
+    
+    04. MariaDB does not support SQL queries and transactions.
+    
+    05. MariaDB is a popular open-source relational database management system that is compatible with MySQL.
+    
+    Answers
+    01. True
+    02. False
+    03. False
+    04. False
+    05. True
+
+
+
+
+
+
+    Activity: Fill in the blanks
+    
+    01. CRUD operations stand for ________(create / connect), read, update and delete operations in a database.
+    
+    02. In an INSERT statement, you specify the name of the table after the _______(into / from) keyword.
+    
+    03. In MariaDB, the SELECT statement is used for _________(inserting / retrieving) data from one or more tables.
+    
+    04. The DISTINCT keyword is used to retrieve _________(unique / duplicate) values from a specified column.
+    
+    05. To update specific records, you should use a WHERE clause to specify the ____________(columns / conditions) that need to be updated.
+
+
+    Answers
+    01. Create
+    02. Into
+    03. Retrieving
+    04. Unique
+    05. Conditions
+
+
+
+}
+
+
+Explore & Summary {
+    -- sharding vs Normalization
+    -- MySQL vs MariaDB
+    -- PRIMARY KEY vs UNIQUE
+    -- ACID 
+    -- 
+
+}
+
+
+
+Task {
+    -- field
+    -- indexes
+    -- joins
+
+    -- function vs attributes [functions do the task, attributes are properties or characteristics]
+    -- multi valued attributes
+    -- data vs database vs DBMS vs Language 
+    -- SQL  vs NoSQL
+    -- SQL vs MySQL
+    -- NoSQL vs  MongoDB
+    -- DBMS vs RDBMS
+    -- MariaDB vs MySQL [MariaDB is the fork of MySQL ]
+
+    -- 
+
+}

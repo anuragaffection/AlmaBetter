@@ -23,14 +23,6 @@ column         -   field / key
 
 
 
-CRUD {
-    C - CREATE
-    R - READ
-    U - UPDATE
-    D - DELETE
-}
-
-
 
 pre defined  keywords {
     show dbs 

@@ -1,0 +1,153 @@
+intrduction
+theme 
+
+
+primary goals {
+
+    -- SQL is a language
+
+    -- ORDER BY 
+    -- SUM 
+    -- AVG 
+    -- COUNT 
+    -- MAX 
+    -- MIN 
+    -- GROUP BY 
+
+    -- AUTO_INCREMENT 
+    -- NOT NULL 
+    -- 
+
+}
+
+
+
+
+Filtering and Sorting 
+-- Distinct 
+-- order by
+-- Limit and offset 
+
+Aggregation Function 
+-- count 
+-- sum 
+-- AVG 
+-- max 
+-- min 
+-- group by
+
+Multi table queries with joins 
+-- inner join 
+-- left join 
+-- right join 
+-- full join 
+-- cross or cartesian join 
+
+
+
+------------------------------
+------------------------------
+------------------------------
+
+
+Filtering & Sorting {
+    -- DISTINCT 
+
+    -- ORDER BY
+    -- ASC 
+    -- DESC 
+
+    -- LIMIT 
+    -- OFFSET 
+    -- pagination
+
+}
+
+
+Aggregation function {
+
+    COUNT()
+    -- 
+
+    SUM()
+    -- DISTINCT instructs SUM() to ignore duplicates 
+    -- SUM() returns null if empty 
+    -- by default SUM() calculate all value 
+
+    AVG()
+    -- 
+
+    GROUP BY 
+    -- 
+
+}
+
+
+
+
+
+
+quiz {
+
+    Activity: Fill in the blanks
+    
+    01. To retrieve only unique values from a column in a SQL query, you can use the ________(distinct / unique) keyword.
+    
+    02.  To sort the query results in ascending order based on a specific column, you can use the ________(order by / sort by) keyword.
+    
+    03.  The ________(restrict / limit) clause is used to limit the number of rows returned by a SQL query.
+    
+    04. The ________(skip / offset) clause is used to specify how many rows to skip before starting to retrieve rows in a SQL query.
+    
+    Answers
+    01. Distinct
+    02. Order By
+    03. Limit
+    04. Offset
+
+
+
+
+
+
+     Activity : Guess the word 
+
+     1.  When you want to see the total of a numeric column, you would use this function.
+
+     2. This aggregation function finds the highest value in a column.
+
+     3. An SQL clause used to group rows that have the same values in specified columns.
+     
+     4. The function that computes the arithmetic mean of a numeric column.
+     
+     5. A function that returns the total number of rows that meet a specified condition.
+
+
+     Answers
+     01. SUM
+     02. MAX
+     03. GROUP
+     04. AVG
+     05. COUNT
+
+
+}
+
+
+
+
+
+
+summary & explore {
+    -- GROUP BY 
+    -- 
+
+}
+
+
+
+
+
+task {
+
+}

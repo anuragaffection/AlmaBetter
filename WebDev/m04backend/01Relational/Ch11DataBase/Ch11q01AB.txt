@@ -1,0 +1,201 @@
+Database introduction
+
+
+
+01 
+Which of the following is NOT a characteristic of a database?
+
+Data Independence
+Data Redundancy
+Data Integrity
+Data Security
+
+
+
+
+
+02
+In the 3-tier architecture, what is the primary role of the data tier?
+
+Displaying data to users.
+Processing business logic.
+Storing and managing data.
+Managing user interactions.
+
+
+
+
+03
+What does the term "Backend" refer to in web development?
+
+The visible user interface of a website.
+The client-side programming responsible for handling user interactions.
+The server-side programming responsible for managing data and business logic.
+The process of optimizing a website for search engines.
+
+
+
+
+04
+Which of the following data models is typically used by relational database management systems?
+
+Hierarchical model
+Network model
+Tabular model
+Entity-Relationship Model
+
+
+
+
+
+05
+Which of the following is a typical responsibility of the Backend Developer in web development?
+
+Styling the user interface of the website.
+Validating user input in real-time.
+Storing data in the browser's local storage.
+Retrieving data from the database and processing it.
+
+
+
+
+
+06.
+Which data language is used to define the structure of the database, including tables, columns, and constraints?
+
+DML (Data Manipulation Language)
+DTL (Data Transaction Language)
+DDL (Data Definition Language)
+DCL (Data Control Language)
+
+
+
+
+
+07.
+Which of the following represents the smallest unit of data in a database?
+
+Table
+Field
+Record
+Database
+
+
+
+
+08.
+Which type of DBMS is often used for high- performance, scalable, and distributed systems and may sacrifice some ACID properties for performance?
+
+Relational DBMS (RDBMS)
+Object-Oriented DBMS (OODBMS)
+NoSQL DBMS
+Key-Value Store
+
+
+
+
+
+09.
+Which of the following tasks is NOT a function of a DBMS?
+
+Storing data persistently on disk.
+Ensuring data integrity through validation rules.
+Defining data relationships and constraints.
+Developing front-end user interfaces.
+
+
+
+
+
+10.
+Which database model organizes data into tables with rows and columns?
+
+Hierarchical model
+Network model
+Relational model
+Object-oriented model
+
+
+
+
+
+
+
+Answer 
+
+
+
+01
+Data Redundancy
+
+Data redundancy is the duplication of data within a database, which can lead to inefficiency and inconsistencies. It is considered a drawback in database design because it wastes storage space and can lead to data integrity issues. The other options, Data Independence, Data Integrity, and Data Security, are essential characteristics of a well- designed database.
+
+
+
+02.
+Storing and managing data.
+
+The data tier's primary role is to store and manage data. It handles tasks such as data storage, retrieval, and manipulation, ensuring data integrity and security.
+
+
+
+03.
+The server-side programming responsible for managing data and business logic.
+
+The term "Backend" in web development refers to the server-side of a web application. It includes the code and infrastructure responsible for handling data storage, processing, and business logic. The backend communicates with the database, processes user requests, and returns data to the frontend (client-side) for display.
+
+
+
+04.
+Tabular model
+
+Relational database management systems (RDBMS) are based on the tabular data model, where data is organized into tables with rows and columns. Each table represents an entity, and the columns represent attributes of the entity.
+
+
+
+05.
+Retrieving data from the database and processing it.
+
+The Backend is responsible for managing data, including retrieving data from the database, processing it, and performing operations based on business logic. Styling the user interface (option a) and validating user input in real-time (option b) are typically done on the frontend (client-side). Storing data in the browser's local storage (option c) is also a frontend responsibility.
+
+
+
+06.
+DDL (Data Definition Language)
+
+DDL is used to define the structure of the database, including creating, altering, and dropping tables, defining columns, and setting constraints.
+
+
+
+07.
+Field
+
+In a database, a field is the smallest unit of data. It represents a single piece of information, such as a name, age, or address. Fields are organized into records, and records, in turn, are organized into tables.
+
+
+
+
+08.
+NoSQL DBMS
+
+NoSQL DBMS is often used for high- performance, scalable, and distributed systems. Some NoSQL databases may sacrifice certain ACID properties for improved performance and scalability.
+
+
+
+
+09.
+Developing front-end user interfaces.
+
+While a DBMS may provide some tools or APIs to interact with the database, its primary function is not related to developing front-end user interfaces. DBMS focuses on data storage, retrieval, and management.
+
+
+
+10.
+Relational model
+
+The relational model organizes data into tables, where each table consists of rows (records) and columns (attributes). This model is widely used in modern database management systems and is based on the principles of set theory and first-order predicate logic.
+
+
+
+
+
