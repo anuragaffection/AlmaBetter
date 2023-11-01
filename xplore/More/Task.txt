@@ -1,3 +1,4 @@
 01. react library - linkedin download Setting
 02. is it must to deploy next js application on vercel
 03. vendor lock in video 
+04. syllabus of GCG 3rd year 

@@ -1,26 +1,56 @@
 DBMS by Code Help [Lakshya Kumar ]
 
+
 Notes Link 
 https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
+
 
 
 01. What is DBMS {
     -- data 
     -- information 
     -- types of data 
+    -- Atomicity = complete in single  shot 
+    -- redundancy = duplicate 
+    -- inconsistency = error, unmatch, not same 
     
-
 }
 
 
 
+
 02. DBMS architecture and DBA {
+
+    -- schema = design = blueprint 
+    -- run length encoding 
+
+    -- physical level or internal level 
+    -- logical level or conceptual level
+    -- view level or external level 
+
+    -- instance of db = conditions of db at specific time 
+    -- data model     = way to describe schema of db 
+
+    -- DDL  = definition = drop, create 
+    -- DML  = Manipulation = delete, update, insert,
+    -- JDBC = java data base connectivity 
+    -- ODBC = 
+    -- DBA  = Database Administrator = have access to whole data 
+
+    -- tier 1 architecture = client, server, database  all are at same device 
+    -- tier 2 architecture = client at one device, database at server [client direct calling to db]
+    -- tier 3 architecture = client call to application then application call to server
+
 
 }
 
 
 
 03. ER Model {
+
+    -- Entity Relationship Model
+    -- Works on conceptual or logical level
+    -- Entity = 
 
 }
 
