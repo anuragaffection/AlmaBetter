@@ -49,14 +49,45 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 03. ER Model {
 
     -- Entity Relationship Model
-    -- Works on conceptual or logical level
-    -- Entity = 
+    -- Entity Works on conceptual or logical level
+    -- Entity = object in real world 
 
+    -- ER diagram = graphical representation of ER model
+    -- ER diagram = blueprint of ER model
+    -- Entity set = group of Entity or objects
+    -- Attributes = Properties of Entity
+
+    -- Relationship = relation between Entities 
+    -- Relationship = association between Entities
+
+    -- #2.23.23 diagram here 
+    -- null = no value, not applicable, unknown, missing, not known 
+
+    -- strong Entity = have unique id 
+    -- weak Entity = depend on other strong Entity
+
+    -- Degree of Relation = how many Entities are participating 
+    -- unary relation = single participants
+    -- binary relation = double participants
+    -- ternary relation = triple participants 
+
+    Relationship constraints 
+    -- Mapping cardinality = 
+    -- cardinality ratio   = 
+
+    participation constraints
+    -- Minimum cardinality constraints
+    -- partial participation
+    -- total  participation
+
+    -- #2.49.00 = ER diagram symbol 
 }
 
 
 
 04. Extended ER Features {
+    -- #2.50.12 
+    -- 
 
 
 }
