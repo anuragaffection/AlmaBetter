@@ -91,7 +91,6 @@ MariaDB {
 Installing MariaDB {
     -- root password - anurag 
     -- MySQL Client
-
 }
 
 

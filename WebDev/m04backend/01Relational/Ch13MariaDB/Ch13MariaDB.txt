@@ -24,24 +24,9 @@ primary goals {
 
 
 Filtering and Sorting 
--- Distinct 
--- order by
--- Limit and offset 
-
 Aggregation Function 
--- count 
--- sum 
--- AVG 
--- max 
--- min 
--- group by
-
 Multi table queries with joins 
--- inner join 
--- left join 
--- right join 
--- full join 
--- cross or cartesian join 
+
 
 
 
@@ -51,11 +36,15 @@ Multi table queries with joins
 
 
 Filtering & Sorting {
+
     -- DISTINCT 
+    -- using DISTINCT in multipe column 
 
     -- ORDER BY
     -- ASC 
     -- DESC 
+
+    -- ALTER BY 
 
     -- LIMIT 
     -- OFFSET 
@@ -65,6 +54,12 @@ Filtering & Sorting {
 
 
 Aggregation function {
+    
+    MAX
+    -- 
+
+    MIN
+    -- 
 
     COUNT()
     -- 
@@ -73,13 +68,36 @@ Aggregation function {
     -- DISTINCT instructs SUM() to ignore duplicates 
     -- SUM() returns null if empty 
     -- by default SUM() calculate all value 
+    -- sum on character will give zero 
 
     AVG()
     -- 
 
     GROUP BY 
+    --  group rows with the same values in one or more columns into summary rows.
+    --  eg. Select sum(year) from movies group by director ;
+
+}
+
+
+
+
+Multi table queries with join{
+
+    inner join
     -- 
 
+    left join
+    --  
+
+    right join
+    --  
+
+    full join
+    --  
+
+    cross or cartesian join 
+    -- 
 }
 
 
@@ -131,6 +149,27 @@ quiz {
      05. COUNT
 
 
+
+
+
+     01. An Inner Join returns all rows from both tables, combining them based on a specified condition.
+     
+     02. Cross Joins are generally used when you want to create a Cartesian product intentionally, and they are less common in practical SQL queries.
+     
+     03. A Full Join (Full Outer Join) returns all rows from both tables, including both matching and non-matching rows.
+     
+     04. A Full Join can be emulated by performing a Union of a Left Join and a Right Join between two tables.
+     
+     05.  A Right Join and a Left Join produce the same result if you swap the order of the tables and reverse the direction of the join condition.
+     
+     Answers
+     01. False
+     02. True
+     03. True
+     04. True
+     05. True
+
+
 }
 
 
@@ -149,5 +188,5 @@ summary & explore {
 
 
 task {
-
+    -- pracitcal implementation 2 
 }
