@@ -3,4 +3,11 @@
 
 transaction = every task we do with database is transaction
 transaction = passed or failed (2 outcome only )
-commit = 
+commit = rollback if commit failed
+ACID = Atomicity, Consistency, Isolation, Durability  
+
+
+transaction state {
+    -- 
+
+}
