@@ -50,6 +50,7 @@
             }
 
             // Sort the array based on frequency and fruit order
+            // here it will take the duplicate also 
             const sortedFruits = fruits.slice().sort((a, b) => {
                 if (fruitFrequency.get(a) !== fruitFrequency.get(b)) {
                     return fruitFrequency.get(b) - fruitFrequency.get(a);
@@ -128,6 +129,8 @@
 
 
     {
+        // this one is easy to undestand 
+        
         function printFruitsByFrequency(fruits) {
             const frequency = {}; // Object to store the frequency of each fruit
 
