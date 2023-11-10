@@ -1,29 +1,19 @@
 
 ACID = Atomicity, Consistency, Isolation, Durability
 API  = Application Programming Interfaces
-
-
 AJAX = Asynchronous Javascript and XML 
+AWS  = Amazon Web Services 
 
 
 CD   = continuous delivery 
 CDN  = Content Delivery Network 
-
 CI   = continuous integration
-
 CLS  = Cumulative Layout Shift
-
 CMS  = Content management system 
 CORS = 
-
 CRUD = CREATE, READ, UPDATE, DELETE
-
 CSR  = Client Side Rendering
 CSS  = Cascading Style Sheets 
-
-
-
-
 
 
 
@@ -34,13 +24,7 @@ DRY  = Don't Repeat Yourself
 
 HOC  = Higher Order Components
 HOC  = Higher Order Functions 
-
 HTML = Hyper Text Markup Language 
-
-
-
-
-
 
 
 IIFE = Immediately Invoked Function Expression 
@@ -48,16 +32,7 @@ ISR  = Incremental Static Regeneration
 
 
 
-
-
-
-
 JSON = Javascript Object Notation 
-
-
-
-
-
 
 
 LCP  = Largest Contentful Paint 
@@ -65,31 +40,26 @@ LTS  = Long Term Support
 
 
 
-
-
-
+MQL  = MongoDB Query Language 
 MVC  = Model View Controller
 MVVC = Multi Version Concurrency Control 
+
+
 NPM  = Node Package Manager 
 
-
 RBAC = Role based access control
-
-
+RDF  = Resource Description Framework 
 
 SASS = 
 SEO  = Search Engine Optimization
-
 SPA  = Single Page Application 
 SQL  = Structured Query Language 
-
 SSG  = Static Site Generation 
 SSL  = 
 SSR  = Server Side Rendering
 SWR  = Stale While Revalidating
 
 TLS  = 
-
 TTFB = time to the first byte 
 
 UDFs = User Defined Functions 

@@ -6,6 +6,7 @@ alias   - substitute for something, an another name
 conundrum - 
 deciphering -
 
+Geospatial - 
 honing  - 
 
 intricacies - 

@@ -1,0 +1,84 @@
+
+Introduction to Non Relational Database
+-- Key features of Non Relational Database
+-- Examples of Non Relational Database
+
+Introduction to MongoDB
+-- Advantages of using MongoDB
+-- Disadvantages of using MongoDB
+-- Use Cases for MongoDB
+
+Familiarization with BSON
+-- JSON 
+-- Relation between JSON & MongoDB
+-- BSON
+
+Getting Started with MongoDB
+-- installing MongoDB Compass 
+-- Setting Up MongoDB Atlas 
+-- Connecting MongoDB Compass & Atlas 
+-- Key Components of MongoDB Architecture 
+-- Terminologies in MongoDB
+
+Create & Delete Operations 
+-- Using Mongosh 
+-- using MongoDB Compass
+-- Collections in MongoDB
+-- Querying in MongoDB
+-- indexing 
+-- Dynamic Schemas 
+
+
+
+
+
+
+
+Introduction to Non Relational Database {
+    MQL = MongoDB Query Language 
+    AWS = 
+    RDF = Resource Description Framework 
+    
+    Key features of Non Relational Database
+    -- Schemas less 
+    -- horizontal scaling 
+
+}
+
+
+
+Examples of No Sql Database {
+
+    1.Document type 
+    -- MongoDB
+    -- CouchDB 
+
+    2. Key value type
+    -- Redis 
+    -- Amazon DynamoDB
+
+    3. Graph type 
+    -- Neo4j
+    -- Amazon Neptune 
+
+    4. Column Family 
+    -- Apache Cassandra 
+    -- HBase 
+}
+
+
+
+
+
+
+
+
+
+
+
+Task {
+    -- Relational Database vs Non Relational Database
+    -- Sql vs No Sql
+    -- Google Bigtable 
+
+}

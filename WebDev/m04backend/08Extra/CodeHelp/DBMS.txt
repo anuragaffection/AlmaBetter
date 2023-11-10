@@ -94,7 +94,14 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 
 
 05. How to  think and formulate ER {
-    -- 
+    
+    Steps to make ER diagram
+    -- identify entity sets 
+    -- identify Attributes
+    -- identify the types of Attributes
+    -- Relationship
+    -- constraints - Mapping & participation
+    
 
 }
 
