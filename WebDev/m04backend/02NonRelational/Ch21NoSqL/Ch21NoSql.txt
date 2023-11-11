@@ -3,22 +3,26 @@ Introduction to Non Relational Database
 -- Key features of Non Relational Database
 -- Examples of Non Relational Database
 
+
 Introduction to MongoDB
 -- Advantages of using MongoDB
 -- Disadvantages of using MongoDB
 -- Use Cases for MongoDB
 
+
 Familiarization with BSON
 -- JSON 
--- Relation between JSON & MongoDB
--- BSON
+-- Relation between JSON & MongoDB]]
+-- BSON]]
+
 
 Getting Started with MongoDB
 -- installing MongoDB Compass 
 -- Setting Up MongoDB Atlas 
--- Connecting MongoDB Compass & Atlas 
+-- Connecting MongoDB Compass & Atlas ]]
 -- Key Components of MongoDB Architecture 
 -- Terminologies in MongoDB
+
 
 Create & Delete Operations 
 -- Using Mongosh 
@@ -69,7 +73,47 @@ Examples of No Sql Database {
 
 
 
-Introduction to MongoDB {
+
+
+Advantages of MongoDB {
+    -- Schema-less 
+    -- BSON format  
+    -- Support Sharding 
+}
+
+
+
+
+
+Key Components of MongoDB Architecture  {
+
+    MongoDB Server
+    -- MongoD 
+    -- MongoS 
+    
+    Database
+    -- MongoDB
+
+    Collections
+    -- 
+
+    Document
+    -- BSON
+    -- 
+
+    Index 
+    -- Single field 
+    -- compound 
+    -- Geospatial 
+
+    Replica set 
+    -- 
+}
+
+
+
+
+Terminologies in MongoDB {
     
 }
 
@@ -77,6 +121,31 @@ Introduction to MongoDB {
 
 
 
+Activity {
+
+    fill in the blanks 
+    
+    01. MongoDB is a ____________ (NoSQL / MySQL) database management system that stores data in a JSON-like format called BSON.
+    
+    02. MongoDB is a ____________ (non-relational / relational) database, ensuring efficient joins and complex queries.
+    
+    03. BSON is particularly useful when working with ____________ (large / small) datasets.
+    
+    04. MongoDB Compass is a ____________ (CLI / GUI) used to interact with MongoDB databases.
+    
+    05.  BSON supports additional data types such as ____________ (Date / Integer) which is not directly representable in JSON.
+    
+    Answers
+    01. NoSQL
+    02. Non-relational
+    03. Large
+    04. GUI
+    05. Date
+
+
+
+
+}
 
 
 
@@ -86,6 +155,7 @@ Introduction to MongoDB {
 Task {
     -- Relational Database vs Non Relational Database
     -- Sql vs No Sql
+    -- JSON vs BSON
     -- Google Bigtable 
 
 }

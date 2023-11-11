@@ -4,6 +4,7 @@ API  = Application Programming Interfaces
 AJAX = Asynchronous Javascript and XML 
 AWS  = Amazon Web Services 
 
+BSON = Binary JSON 
 
 CD   = continuous delivery 
 CDN  = Content Delivery Network 
@@ -20,7 +21,7 @@ CSS  = Cascading Style Sheets
 DOM  = Document Object Model 
 DRY  = Don't Repeat Yourself 
 
-
+GUI  = graphical user interface 
 
 HOC  = Higher Order Components
 HOC  = Higher Order Functions 
@@ -28,6 +29,7 @@ HTML = Hyper Text Markup Language
 
 
 IIFE = Immediately Invoked Function Expression 
+IoT  = Internet of Things 
 ISR  = Incremental Static Regeneration
 
 
