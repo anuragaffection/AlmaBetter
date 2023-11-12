@@ -95,7 +95,8 @@ Key Components of MongoDB Architecture  {
     -- MongoDB
 
     Collections
-    -- 
+    -- like table from sql 
+    -- group of document 
 
     Document
     -- BSON
@@ -157,5 +158,6 @@ Task {
     -- Sql vs No Sql
     -- JSON vs BSON
     -- Google Bigtable 
+    -- analogy of sql vs NoSQL 
 
 }
