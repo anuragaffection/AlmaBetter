@@ -115,6 +115,25 @@ Key Components of MongoDB Architecture  {
 
 
 Terminologies in MongoDB {
+
+    field
+    -- represent individual pieces of data 
+
+    BSON
+    -- Binary JSON
+    -- exteded version of JSON
+
+    ID field
+    -- unique id to  each document 
+
+    Cursor 
+    -- 
+
+    Index 
+    -- data structure to improves spped of data querying 
+
+    Aggregation 
+    -- Framework in MongoDB
     
 }
 
@@ -122,7 +141,34 @@ Terminologies in MongoDB {
 
 
 
+Operations in MongoDB {
+
+    -- show databases ; 
+    -- use <myDatabase> ;
+    -- show collections ;
+
+    -- db.createCollection("<myCollection>") ;
+
+    -- db.dropDatabase() ;
+    -- db.<myCollection>.drop() ;
+
+    -- db.<myCollection>.insert({"example" : "data"}) ; 
+    -- db.<myCollection>.insertOne( {"example" : "data"}) ;
+
+    use <myDatabase> 
+    -- to create & use 
+
+    db.<myCollection>.insert({"example" : "data"}) ; 
+    -- insert is deprecated now 
+}
+
+
+
+
+
+
 Activity {
+
 
     fill in the blanks 
     
@@ -146,6 +192,30 @@ Activity {
 
 
 
+
+    Activity: True or False
+    
+    01. When using MongoDB Shell, you can create a new database by running the command create database database_name.
+    
+    02. In MongoDB Shell, the command db.createCollection("collection_name") is used to create a new collection
+    
+    03. Dropping a database in MongoDB using the db.dropDatabase() command will delete all the collections and data within that database.
+    
+    04. When you drop a database in MongoDB, it can be recovered from the recycle bin.
+    
+    05. When creating a collection in MongoDB, you must explicitly define the schema for all fields in advance.
+    
+    06. Dropping a collection in MongoDB will also delete all the indexes associated with that collection.
+    
+    Answers
+    01. False
+    02. True
+    03. True
+    04. False
+    05. False
+    06. True
+
+
 }
 
 
@@ -159,5 +229,7 @@ Task {
     -- JSON vs BSON
     -- Google Bigtable 
     -- analogy of sql vs NoSQL 
+    -- what permission needed in deletig in database using shell 
+    -- mariaDB vs MongoDB
 
 }
