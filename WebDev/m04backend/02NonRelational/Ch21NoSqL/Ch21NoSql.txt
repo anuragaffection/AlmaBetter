@@ -20,8 +20,8 @@ Getting Started with MongoDB
 -- installing MongoDB Compass 
 -- Setting Up MongoDB Atlas 
 -- Connecting MongoDB Compass & Atlas ]]
--- Key Components of MongoDB Architecture 
--- Terminologies in MongoDB
+-- Key Components of MongoDB Architecture ]]
+-- Terminologies in MongoDB]]
 
 
 Create & Delete Operations 
@@ -229,7 +229,7 @@ Task {
     -- JSON vs BSON
     -- Google Bigtable 
     -- analogy of sql vs NoSQL 
-    -- what permission needed in deletig in database using shell 
+    -- what permission needed in deleting in database using shell 
     -- mariaDB vs MongoDB
 
 }

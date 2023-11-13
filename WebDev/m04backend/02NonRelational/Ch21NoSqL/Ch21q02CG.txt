@@ -1,0 +1,222 @@
+
+
+1. **What is a key feature of non-relational databases?**
+   - a. Fixed schema
+   - b. Horizontal scalability
+   - c. Structured query language
+   - d. Table-based data storage
+   - **Answer: b. Horizontal scalability**
+
+
+
+
+
+2. **Which of the following is a use case for a key-value store in non-relational databases?**
+   - a. Content management systems
+   - b. Real-time analytics
+   - c. Session management
+   - d. Complex relationships
+   - **Answer: c. Session management**
+
+
+
+
+
+3. **Which database is a popular document-oriented database suitable for content management systems and catalogs?**
+   - a. CouchDB
+   - b. MongoDB
+   - c. Redis
+   - d. Neo4j
+   - **Answer: b. MongoDB**
+
+
+
+
+
+4. **What is MongoDB's query language called?**
+   - a. SQL
+   - b. MQL (MongoDB Query Language)
+   - c. NoSQL
+   - d. JSON
+   - **Answer: b. MQL (MongoDB Query Language)**
+
+
+
+
+
+5. **What advantage does BSON offer over JSON in MongoDB?**
+   - a. Space inefficiency
+   - b. Slower serialization and deserialization
+   - c. Binary encoding and additional data types
+   - d. Limited compatibility with JSON
+   - **Answer: c. Binary encoding and additional data types**
+
+
+
+
+
+6. **Which component in MongoDB's architecture acts as a router for distributing queries in sharded clusters?**
+   - a. Database
+   - b. Collection
+   - c. mongod process
+   - d. mongos process
+   - **Answer: d. mongos process**
+
+
+
+
+
+7. **What is the primary purpose of an index in MongoDB?**
+   - a. Data storage
+   - b. Efficient data retrieval
+   - c. Schema definition
+   - d. Document organization
+   - **Answer: b. Efficient data retrieval**
+
+
+
+
+
+8. **Which is a key advantage of MongoDB's flexible schema?**
+   - a. Improved query performance
+   - b. Rigidity in data storage
+   - c. Compatibility with SQL databases
+   - d. Ease of adapting to changing data requirements
+   - **Answer: d. Ease of adapting to changing data requirements**
+
+
+
+
+
+9. **What is MongoDB Compass?**
+   - a. Command-line interface (CLI)
+   - b. GUI tool for interacting with MongoDB
+   - c. Programming language
+   - d. NoSQL database
+   - **Answer: b. GUI tool for interacting with MongoDB**
+
+
+
+
+10. **How can you drop an entire database in MongoDB using the shell?**
+    - a. `deleteDatabase("database_name")`
+    - b. `dropDB("database_name")`
+    - c. `db.dropDatabase()`
+    - d. `removeDatabase("database_name")`
+    - **Answer: c. `db.dropDatabase()`**
+
+
+
+
+
+11. **What is the purpose of MongoDB Atlas?**
+    - a. A query language for MongoDB
+    - b. A GUI tool for MongoDB
+    - c. A fully managed cloud database service
+    - d. A NoSQL database model
+    - **Answer: c. A fully managed cloud database service**
+
+
+
+
+
+12. **Which type of NoSQL database is MongoDB classified as?**
+    - a. Key-Value Store
+    - b. Document Store
+    - c. Column-Family Store
+    - d. Graph Database
+    - **Answer: b. Document Store**
+
+
+
+
+
+13. **What does BSON stand for in the context of MongoDB?**
+    - a. Binary Structured Object Notation
+    - b. Binary Serialized Object Network
+    - c. Binary JSON
+    - d. Binary Oriented Schema Notation
+    - **Answer: c. Binary JSON**
+
+
+
+
+
+14. **Which of the following is a disadvantage of MongoDB?**
+    - a. Limited scalability
+    - b. Lack of support for complex transactions
+    - c. Rigid schema design
+    - d. Inefficient read access
+    - **Answer: b. Lack of support for complex transactions**
+
+
+
+
+
+
+15. **In MongoDB, what is the primary role of the `_id` field in a document?**
+    - a. It represents the document's structure
+    - b. It is the primary key for the document
+    - c. It defines the schema for the document
+    - d. It is used for indexing purposes
+    - **Answer: b. It is the primary key for the document**
+
+
+
+
+
+
+16. **What is the primary goal of MongoDB's aggregation framework?**
+    - a. Defining schema for collections
+    - b. Performing complex queries
+    - c. Indexing documents
+    - d. Analyzing and transforming data within the database
+    - **Answer: d. Analyzing and transforming data within the database**
+
+
+
+
+
+
+17. **Which MongoDB component is responsible for managing individual database instances?**
+    - a. MongoDB Server
+    - b. Database
+    - c. Collection
+    - d. mongod process
+    - **Answer: d. mongod process**
+
+
+
+
+
+18. **What is the purpose of sharding in MongoDB?**
+    - a. Storing documents in BSON format
+    - b. Horizontal scaling for handling large volumes of data
+    - c. Creating indexes for efficient querying
+    - d. Performing complex relationship-based queries
+    - **Answer: b. Horizontal scaling for handling large volumes of data**
+
+
+
+
+
+19. **What is the role of a Cursor in MongoDB?**
+    - a. It represents a database
+    - b. It is a binary-encoded format
+    - c. It is a pointer to a result set from a query
+    - d. It is used for horizontal scaling
+    - **Answer: c. It is a pointer to a result set from a query**
+
+
+
+
+20. **Which of the following is a true statement about MongoDB's BSON?**
+    - a. It is a text-based data interchange format
+    - b. It does not support additional data types
+    - c. It is less space-efficient than JSON
+    - d. It extends JSON with binary encoding and additional data types
+    - **Answer: d. It extends JSON with binary encoding and additional data types**
+
+
+
+

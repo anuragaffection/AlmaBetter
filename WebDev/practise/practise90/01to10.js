@@ -130,7 +130,7 @@
 
     {
         // this one is easy to undestand 
-        
+
         function printFruitsByFrequency(fruits) {
             const frequency = {}; // Object to store the frequency of each fruit
 
@@ -156,7 +156,7 @@
     }
 
 
-    
+
 
 
     {
@@ -197,5 +197,112 @@
     }
 
 
+}
 
+
+
+{
+    // 05 
+}
+
+
+
+{
+    // 06 
+}
+
+
+
+{
+    // 07 
+}
+
+
+{
+    // 08 
+}
+
+
+{
+    // 09 
+    {
+        // way 01 
+
+        function longestPalindromicSubstring(s) {
+            if (s === null || s.length === 0) {
+                return "none";
+            }
+
+            let longest = "";
+
+            for (let i = 0; i < s.length; i++) {
+
+                // For odd-length palindromes
+                let palindrome1 = expandAroundCenter(s, i, i);
+                if (palindrome1.length > longest.length) {
+                    longest = palindrome1;
+                }
+
+                // For even-length palindromes
+                let palindrome2 = expandAroundCenter(s, i, i + 1);
+                if (palindrome2.length > longest.length) {
+                    longest = palindrome2;
+                }
+            }
+
+            return longest.length > 2 ? longest : "none";
+        }
+
+
+        function expandAroundCenter(s, left, right) {
+            while (left >= 0 && right < s.length && s[left] === s[right]) {
+                left--;
+                right++;
+            }
+            return s.substring(left + 1, right);
+        }
+
+    }
+
+}
+
+
+{
+    // 10 
+    {
+        function PrimeMover(num) {
+         
+            let counting = 2;
+            let totalPrime = 0;
+
+            while (true) {
+
+                if (isPrime(counting)) {
+                    totalPrime += 1;
+                    if (totalPrime === num) {
+                        return counting;
+                    }
+                }
+                counting++;
+            }
+
+        }
+
+        function isPrime(number) {
+            if (number <= 1) {
+                return false;
+            }
+            if (number === 2) {
+                return true;
+            }
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+    }
 }

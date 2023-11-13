@@ -1,0 +1,170 @@
+
+
+### Introduction to Non-Relational Database:
+1. **What is a Non-Relational Database?**
+2. **Explain the key features of Non-Relational Databases.**
+3. **Can you name a few examples of Non-Relational Databases and their use cases?**
+
+### Introduction to MongoDB:
+4. **What is MongoDB, and how does it differ from traditional relational databases?**
+5. **What are the advantages of using MongoDB over a relational database?**
+6. **Discuss some disadvantages or limitations of MongoDB.**
+7. **Can you provide some use cases where MongoDB would be a suitable choice?**
+
+### Familiarization with BSON:
+8. **Explain what JSON is and how it is related to MongoDB.**
+9. **What is BSON, and why is it used in MongoDB?**
+10. **Discuss the relationship between JSON and MongoDB, and how data is represented in BSON.**
+
+### Getting Started with MongoDB:
+11. **Walk me through the process of installing MongoDB Compass.**
+12. **What steps are involved in setting up MongoDB Atlas?**
+13. **Explain how to connect MongoDB Compass to MongoDB Atlas.**
+14. **What are the key components of MongoDB architecture?**
+15. **Define common terminologies used in MongoDB, such as document, collection, and database.**
+
+### Create & Delete Operations:
+16. **How can you perform create operations using Mongosh and MongoDB Compass?**
+17. **Explain the concept of collections in MongoDB.**
+18. **Discuss the querying capabilities of MongoDB.**
+19. **What is indexing in MongoDB, and why is it important?**
+20. **How does MongoDB handle dynamic schemas?**
+
+
+
+
+
+
+
+1. **What is a Non-Relational Database?**
+   - A non-relational database, or NoSQL database, is a type of database management system that does not rely on the traditional relational database model based on tables and SQL for querying. Instead, it employs a variety of data models, including document-oriented, key-value pairs, column-family, or graph databases, to store and manage data.
+
+
+
+
+2. **Explain the key features of Non-Relational Databases.**
+   - Key features of non-relational databases include flexible schema design, horizontal scalability, efficient handling of large amounts of unstructured data, and support for various data models based on the specific needs of applications.
+
+
+
+
+3. **Can you name a few examples of Non-Relational Databases and their use cases?**
+   - Examples include 
+   MongoDB (document-oriented), 
+   Cassandra (column-family), 
+   Redis (key-value), 
+   Neo4j (graph). 
+
+   Use cases vary; for instance, 
+   MongoDB is often used for content management systems, 
+   Cassandra for time-series data, 
+   Redis for caching, 
+   Neo4j for graph-based data.
+
+
+
+
+4. **What is MongoDB, and how does it differ from traditional relational databases?**
+   - MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. 
+   It differs from traditional relational databases by offering a dynamic schema, horizontal scalability, and better support for unstructured or semi-structured data.
+
+
+
+
+5. **What are the advantages of using MongoDB over a relational database?**
+   - Advantages include a flexible schema, horizontal scalability, support for complex data structures, and easier integration with certain types of applications, especially those dealing with large amounts of unstructured data.
+
+
+
+
+6. **Discuss some disadvantages or limitations of MongoDB.**
+   - Limitations may include lack of support for complex transactions, potential for increased storage space usage due to flexible schemas, and the need for careful consideration of data modeling to avoid performance issues.
+
+
+
+
+7. **Can you provide some use cases where MongoDB would be a suitable choice?**
+   - MongoDB is suitable for content management systems, e-commerce applications, real-time big data analytics, and any scenario where flexibility in data storage and scalability are critical.
+
+
+
+
+8. **Explain what JSON is and how it is related to MongoDB.**
+   - JSON (JavaScript Object Notation) is a lightweight data interchange format. 
+   In MongoDB, data is stored in BSON (Binary JSON), an extension of JSON that includes additional data types like Date and Binary.
+
+
+
+
+9. **What is BSON, and why is it used in MongoDB?**
+   - BSON is a binary representation of JSON-like documents used in MongoDB. It allows for efficient storage and retrieval of data and supports additional data types not natively present in JSON.
+
+
+
+
+10. **Discuss the relationship between JSON and MongoDB, and how data is represented in BSON.**
+    - MongoDB uses a flexible, JSON-like document model for data storage. JSON documents are stored in BSON format, providing binary encoding for efficient data manipulation and storage.
+
+
+
+11. **Walk me through the process of installing MongoDB Compass.**
+    - The process involves downloading MongoDB Compass from the official website, running the installer, and following the installation prompts. After installation, you can launch MongoDB Compass and connect to a MongoDB server.
+
+
+
+
+12. **What steps are involved in setting up MongoDB Atlas?**
+    - Setting up MongoDB Atlas involves creating an account, defining a cluster (specifying cloud provider, region, and configuration), configuring security settings, and connecting to the cluster.
+
+
+
+
+13. **Explain how to connect MongoDB Compass to MongoDB Atlas.**
+    - To connect MongoDB Compass to MongoDB Atlas, obtain the connection string from Atlas, paste it into the Compass connection dialog, and provide necessary credentials.
+
+
+
+
+14. **What are the key components of MongoDB architecture?**
+    - Key components include the mongod process (the MongoDB daemon handling data management), mongos (for sharding), config servers (for sharded clusters), and the WiredTiger storage engine.
+
+
+
+
+15. **Define common terminologies used in MongoDB, such as document, collection, and database.**
+    - A document is a JSON-like data structure, 
+    a collection is a group of documents, and 
+    a database is a container for collections.
+
+
+
+
+16. **How can you perform create operations using Mongosh and MongoDB Compass?**
+    - You can use the `insertOne` or `insertMany` methods in Mongosh or MongoDB Compass to create documents in a collection.
+
+
+
+17. **Explain the concept of collections in MongoDB.**
+    - A collection is a grouping of MongoDB documents.
+     It is the equivalent of an RDBMS table and is used to organize and store documents.
+
+
+
+
+18. **Discuss the querying capabilities of MongoDB.**
+    - MongoDB supports rich query expressions using a JSON-like syntax. You can filter, sort, and project data using methods like `find`, `sort`, and `project`.
+
+
+
+
+19. **What is indexing in MongoDB, and why is it important?**
+    - Indexing in MongoDB involves creating an index on a field, which improves query performance by allowing the database to quickly locate and retrieve data.
+
+
+
+20. **How does MongoDB handle dynamic schemas?**
+    - MongoDB has a dynamic schema, allowing documents in the same collection to have different fields. This flexibility is useful for accommodating changes in data requirements without modifying the entire database schema.
+
+
+
+    
