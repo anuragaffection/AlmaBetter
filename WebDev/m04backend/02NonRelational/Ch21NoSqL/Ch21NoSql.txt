@@ -54,20 +54,51 @@ Introduction to Non Relational Database {
 Examples of No Sql Database {
 
     1.Document type 
-    -- MongoDB
-    -- CouchDB 
+    -- MongoDB  
+    -- CouchDB  
 
     2. Key value type
-    -- Redis 
-    -- Amazon DynamoDB
+    -- Redis  
+    -- Amazon DynamoDB 
 
     3. Graph type 
-    -- Neo4j
-    -- Amazon Neptune 
+    -- Neo4j  
+    -- Amazon Neptune  
 
     4. Column Family 
     -- Apache Cassandra 
     -- HBase 
+}
+
+
+
+use cases {
+
+    MongoDB
+    -- cms, 
+    -- catalogs, 
+    -- real time applications
+
+    CouchDB
+    -- offline availability, 
+    -- decentralized db 
+
+
+    Redis 
+    -- caching, 
+    -- Session management, 
+    -- real time analytics, 
+    -- message queue 
+
+    Amazon DynamoDB
+    -- gaming, 
+    -- IoT
+
+
+    Neo4j
+    -- fraud detection, 
+    -- social Network, 
+    -- recommendation engines 
 }
 
 
@@ -88,8 +119,8 @@ Advantages of MongoDB {
 Key Components of MongoDB Architecture  {
 
     MongoDB Server
-    -- MongoD 
-    -- MongoS 
+    -- MongoD [manage individual instances]
+    -- MongoS [for shared cluster, acts as a router  ]
     
     Database
     -- MongoDB
@@ -108,7 +139,7 @@ Key Components of MongoDB Architecture  {
     -- Geospatial 
 
     Replica set 
-    -- 
+    -- group of MongoDB server 
 }
 
 
@@ -127,7 +158,7 @@ Terminologies in MongoDB {
     -- unique id to  each document 
 
     Cursor 
-    -- 
+    -- iterate through query result
 
     Index 
     -- data structure to improves spped of data querying 
@@ -231,5 +262,6 @@ Task {
     -- analogy of sql vs NoSQL 
     -- what permission needed in deleting in database using shell 
     -- mariaDB vs MongoDB
+    -- mongod vs mongos 
 
 }

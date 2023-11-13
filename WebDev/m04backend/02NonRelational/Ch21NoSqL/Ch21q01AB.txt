@@ -1,0 +1,246 @@
+
+01.
+In MongoDB, data is stored in the form of:
+
+Tables
+
+Documents
+
+Rows
+
+Columns
+
+
+
+
+02.
+How do you create a new database in MongoDB?
+
+Use the use command in the MongoDB Shell.
+
+Use the createDatabase() function in MongoDB Compass.
+
+Databases are automatically created when you insert data for the first time.
+
+MongoDB does not support creating new databases.
+
+
+
+
+
+03.
+Which of the following statements is true about MongoDB documents?
+
+MongoDB documents are equivalent to SQL tables.
+
+Documents in MongoDB must have a predefined schema.
+
+Documents are BSON (Binary JSON) objects.
+
+Each document in MongoDB can belong to multiple collections.
+
+
+
+
+
+04.
+Which of the following is true about MongoDB's data model?
+
+It uses a fixed schema.
+
+It enforces ACID transactions.
+
+It stores data in tabular format.
+
+It supports nested and dynamic schemas.
+
+
+
+
+05.
+When dropping a database in MongoDB, which of the following statements is true?
+
+The data is permanently deleted and cannot be recovered.
+
+The data is moved to a temporary location and can be restored later.
+
+The data is archived in a separate database.
+
+The data is moved to a different collection within the same database.
+
+
+
+
+06.
+What is a primary use-case for MongoDB Compass?
+
+Managing relational databases
+
+Creating complex SQL queries
+
+Visualizing data and building queries for MongoDB
+
+Analyzing big data using map-reduce
+
+
+
+
+07.
+Which of the following is an advantage of using MongoDB?
+
+Strict schema enforcement for data integrity
+
+Limited scalability options
+
+Complex joins for data retrieval
+
+Horizontal scalability for large-scale applications
+
+
+
+
+08.
+What are the advantages of using BSON over JSON in MongoDB?
+
+BSON provides a more compact representation of data, leading to reduced storage and memory usage.
+
+JSON allows for a more efficient query processing in MongoDB.
+
+BSON supports a wider range of data types compared to JSON.
+
+There are no advantages of using BSON over JSON; they are functionally equivalent.
+
+
+
+
+
+09.
+Which of the following data types is supported in BSON but not in JSON?
+
+Integer
+
+String
+
+Date
+
+Binary Data
+
+
+
+
+10.
+What is a replica set in MongoDB?
+
+A mechanism to perform a full backup of the database
+
+A group of MongoDB servers that maintain the same data set
+
+An automated scaling feature for handling increasing traffic
+
+A collection of user accounts with specific access privileges
+
+
+
+
+
+Answer
+01.
+Documents
+
+Justification
+
+In MongoDB, data is stored in the form. of documents. Each document represents a record and is akin to a row in traditional databases. Documents in MongoDB use BSON format and can have a dynamic structure, allowing for more flexibility in data storage.
+
+
+
+
+02.
+Use the use command in the MongoDB Shell.
+
+Justification
+
+In MongoDB, you can create a new database by using the use command in the MongoDB Shell. This command switches to the specified database and creates it if it doesn't already exist.
+
+
+
+
+03.
+Documents are BSON (Binary JSON) objects.
+
+Justification
+
+In MongoDB, data is represented and stored in the form of documents. These documents are BSON objects, which is a binary representation of JSON data. BSON allows MongoDB to efficiently store and manipulate data.
+
+
+
+
+04.
+It supports nested and dynamic schemas.
+
+Justification
+
+MongoDB's data model supports nested and dynamic schemas, meaning that documents within a collection can have different structures and can nest sub- documents and arrays. Unlike traditional relational databases, MongoDB does not require a fixed schema, providing greater flexibility in handling evolving data.
+
+
+
+
+05.
+The data is permanently deleted and cannot be recovered.
+
+Justification
+
+When you drop a database in MongoDB, all the data and collections within that database are permanently deleted and cannot be recovered. It is essential to exercise caution when performing this operation as it can result in data loss.
+
+
+
+
+
+06.
+Visualizing data and building queries for MongoDB
+
+Justification
+
+MongoDB Compass is primarily used for visualizing data stored in MongoDB databases and building queries through a user-friendly graphical interface. It allows users to explore their data, run ad-hoc queries, and analyze collections easily.
+
+
+
+
+07.
+Horizontal scalability for large-scale applications
+
+Justification
+
+One of the key advantages of MongoDB is its ability to horizontally scale, allowing it to handle large amounts of data and traffic efficiently. MongoDB's sharding capabilities distribute data across multiple servers, enabling seamless scalability as the application's demands increase.
+
+
+
+
+08.
+BSON provides a more compact representation of data, leading to reduced storage and memory usage.
+
+Justification
+
+BSON is designed to be more space- efficient and faster to parse than JSON. It includes additional data types and uses binary encoding, which makes it more compact compared to the plain- text representation of JSON. This compactness results in reduced storage requirements and helps MongoDB operate more efficiently with BSON as the storage format.
+
+
+
+
+
+09.
+Binary Data
+
+Justification
+
+BSON supports Binary Data, which allows the storage of binary objects such as images, audio, and other file types. JSON, on the other hand, does not have a native data type for representing binary data. When storing binary data in JSON, it needs to be Base64 encoded.
+
+
+
+
+10.
+A group of MongoDB servers that maintain the same data set
+
+Justification
+
+A replica set in MongoDB is a group of multiple MongoDB servers that replicate data across each other. It provides high availability and data redundancy, ensuring that if one server fails, another can take over to continue serving the application.
+
+
