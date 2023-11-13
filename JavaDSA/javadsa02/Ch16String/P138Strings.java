@@ -53,3 +53,11 @@ public class P138Strings {
     }
     
 }
+
+/*
+ * all predefined function in string 
+ * 
+ * -- chartAt()
+ * -- length()
+ * -- concat()
+ */

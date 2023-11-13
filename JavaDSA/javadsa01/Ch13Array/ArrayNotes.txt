@@ -1,0 +1,4 @@
+int myIntArray [] = new int [10];
+
+char charArray [] = new char[10];
+

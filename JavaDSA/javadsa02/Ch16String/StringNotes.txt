@@ -1,0 +1,16 @@
+ all predefined function in string in java 
+
+ -- chartAt()
+ -- length()
+ -- concat()
+
+ -- toString()
+
+ -- collection.sort()
+
+
+
+
+
+
+
