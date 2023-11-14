@@ -152,3 +152,55 @@
     Note
     -- By default MongoDB add unique id to each document
 }
+
+
+
+
+56:29  use quotes when {
+    -- special characters 
+    -- start with numeric characters
+    -- have spaces 
+    -- have Reseved keywords from MongoDB
+}
+
+
+
+
+58:27 Ordered & unordered inset {
+    -- by default insert is ordered 
+    -- we can change the behaviour by adding flag 
+
+    Note
+    -- {ordered : false }
+    -- add in the  last to change  the default behaviour
+}
+
+
+
+1:04:21 Case - sensitivity {
+    -- collection name are case - sensitive 
+    -- filed name are case - sensitive
+}
+
+
+
+1:06:29 Read operations {
+    -- find()
+    -- findOne()
+
+}
+
+
+
+
+1:09:02 ]]]importing json {
+
+    syntax 
+    -- mongoimport myJsonfile.json -d myDatabase_name -c myCollection_name --jsonArray
+
+    Note
+    -- jsonArray  accepts the import of data expresed with nultiple MongoDB documents within a single json array 
+
+    example 
+    -- mongoimport prouduct.json -d shop -c  prouducts
+}
