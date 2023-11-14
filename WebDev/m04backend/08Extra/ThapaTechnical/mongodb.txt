@@ -1,0 +1,154 @@
+
+00:00 MongoDB {
+    -- Databases
+    -- collections
+    -- documents
+}
+
+
+
+
+0:00 MongoDB {
+    -- MongoDB
+    -- Mongoose 
+    -- Atlas 
+    -- Compass
+    -- 000webO
+}
+
+
+
+
+10:28 MongoDB feature {
+    -- document oriented 
+    -- NoSql db 
+    -- json as read 
+    -- bson as actual 
+    -- unstructured data 
+    -- semi structured data
+
+    -- 10gen - MongoDB - Company 
+    -- Humongous - very  big 
+}
+
+
+
+
+14:22 SQL vs NoSql {
+
+    SQL
+    -- relational
+    -- table 
+    -- structured
+    -- strict  schema
+
+    -- mySql
+    -- postgre SQL
+    -- oracle 
+
+
+    NoSql
+    -- non relational
+    -- document
+    -- unstructured
+    -- semi structured
+    -- schema less 
+
+    -- MongoDB
+    -- cassandra 
+    -- Redis 
+
+    Note
+    -- Inside one collection, we can have multiple documents
+}
+
+
+
+
+22:06 MongoDB Terminologies {
+    documents
+    collections
+    databases
+}
+
+
+
+
+25:20 Key Feature of  MongoDB
+
+
+
+
+27:27 How MongoDB Works {
+    MongoDB server
+
+    Storage engine 
+    -- convert  json to bson
+    -- wired tiger 
+    -- mmap v1
+}
+
+
+
+
+32:12 JSON vs BSON {
+
+    JSON
+    -- Easy to Read & write 
+
+    BSON
+    -- binary json 
+    -- higher speed 
+    -- more data type support 
+    -- not easy to wirte & read 
+    -- light weight 
+}
+
+
+
+
+35:15 installing MongoDB {
+    -- community download server
+    -- shell 
+    -- database tools 
+    -- command line tools
+    -- atlas 
+    -- Compass
+
+    -- mongod --version 
+    -- mongosh --version 
+}
+
+
+
+44:20 Managing database {
+    -- show dbs 
+    -- use <myDatabase_name> 
+    -- db.dropDatabase()
+
+    -- show collections 
+    -- db.createCollection('<myCollection_name>');
+    -- db.<myCollection_name>.drop()
+
+    -- show dbs 
+    -- show databases
+
+    Note 
+    -- You won't see a database listed in the output of the show dbs command until that datbase contains at least one collection with data in it
+}
+
+
+
+
+50:47 inserting operations {
+    -- db.<myCollection_name>.insertOne({});
+    -- db.<myCollection_name>.insertMany( [ {}, {}, {}, .... ])
+    
+    -- db.<myCollection_name>.find()
+    -- db.<myCollection_name>.findOne()
+
+    -- db.<myCollection_name>.find().limit()
+
+    Note
+    -- By default MongoDB add unique id to each document
+}
