@@ -204,3 +204,45 @@
     example 
     -- mongoimport prouduct.json -d shop -c  prouducts
 }
+
+
+
+
+
+
+1:16:12 comparison operator {
+
+    -- $eq = equal to
+    -- $neq = not  equal to 
+
+    -- $gt = greater than
+    -- $gte = greater or equal to
+
+    -- $lt = lesser than
+    -- $lte = lesser or equal to
+
+    -- $in = in 
+    -- $nin  = not in  
+
+
+    syntax
+    -- db.<myCollection_name>.find( {'<myFieldName>' : {$<myOperator> : myValue} })
+
+    example
+    -- db.prouducts.find( { 'price' : { $eq : 699} });
+}
+
+
+
+
+
+1:22:21 introudction to cursors {
+    
+    cursor method 
+    -- count()
+    -- limit()
+    -- skip()
+    -- sort()
+
+
+}
