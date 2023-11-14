@@ -1,0 +1,7 @@
+importing & exporting data 
+
+mongoexport 
+mongoimport 
+
+mongodump
+mongorestore
