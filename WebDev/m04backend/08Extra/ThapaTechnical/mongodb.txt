@@ -244,5 +244,43 @@
     -- skip()
     -- sort()
 
+    Caveats 
+    -- use skip() and sort() with cautions 
+    -- indexing will be greate choice 
+
+}
+
+
+
+
+1:31:25 Logical operator {
+
+    $and
+    $or 
+    $nor 
+    $not 
+
+    syntax $and 
+    -- { $and : [ {condition 1},  {condition 2} ] }
+
+    syntax $or 
+    -- { $or : [ {condition 1},  {condition 2} ] }
+
+    syntax $or 
+    -- { $nor : [ {condition 1},  {condition 2} ] }
+
+    syntax $not 
+    -- { field : { $not : { operator : value } }  } 
+
+
+
+
+    Questions 01 
+    -- find product whose price  is greater than 100 and name equal to diamond ring 
+    -- db.prouducts.find( { $and : [ {'price' : {$gt : 100}} , {'name': 'diamond ring'}]  } )
+
+
+    note 
+    -- by default passing multiple conditions treated as $and 
 
 }
