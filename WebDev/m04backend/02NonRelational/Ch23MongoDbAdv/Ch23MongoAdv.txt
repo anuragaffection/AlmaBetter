@@ -1,0 +1,48 @@
+pagination 
+indexes inf MongoDB
+Aggregation pipeline 
+Aggregation pipeline stages 
+how to run aggregation pipeline 
+how to boost MongoDB aggregation pipeline performance 
+limitations of mongoDb aggregation pipeline 
+
+
+
+
+
+
+pagination {
+
+}
+
+
+indexes inf MongoDB {
+    -- b tree 
+    -- object cannot be an index 
+}
+
+
+Aggregation pipeline
+
+
+Aggregation pipeline stages
+
+
+how to run aggregation pipeline 
+
+
+how to boost MongoDB aggregation pipeline performance 
+
+
+limitations of mongoDb aggregation pipeline 
+
+
+
+
+
+task {
+    -- b tree vs binary tree {
+        - b tree is always sorted 
+        - binary tree may be sorted or not 
+    }
+}

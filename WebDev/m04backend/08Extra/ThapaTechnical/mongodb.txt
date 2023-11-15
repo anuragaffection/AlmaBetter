@@ -274,7 +274,6 @@
 
 
 
-
     Questions 01 
     -- find product whose price  is greater than 100 and name equal to diamond ring 
     -- db.prouducts.find( { $and : [ {'price' : {$gt : 100}} , {'name': 'diamond ring'}]  } )
@@ -283,4 +282,17 @@
     note 
     -- by default passing multiple conditions treated as $and 
 
+}
+
+
+
+
+
+
+
+1.44.12 complex expressions {
+    
+    $expr 
+    -- allow using aggregation expressions within a query 
+    -- { $expr : { operator : [$field, value ] }}
 }
