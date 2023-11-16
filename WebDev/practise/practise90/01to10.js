@@ -223,8 +223,25 @@
 }
 
 
+
 {
     // 09 
+    // 
+    {
+        function titleToNumber(columnTitle) {
+            let result = 0;
+            for (let i = 0; i < columnTitle.length; i++) {
+                const charCode = columnTitle.charCodeAt(i) - 64;
+                result = result * 26 + charCode;
+            }
+            return result;
+        }
+    }
+}
+
+
+{
+    // 10
     {
         // way 01 
 
@@ -267,42 +284,6 @@
 }
 
 
-{
-    // 10 
-    {
-        function PrimeMover(num) {
-         
-            let counting = 2;
-            let totalPrime = 0;
 
-            while (true) {
 
-                if (isPrime(counting)) {
-                    totalPrime += 1;
-                    if (totalPrime === num) {
-                        return counting;
-                    }
-                }
-                counting++;
-            }
 
-        }
-
-        function isPrime(number) {
-            if (number <= 1) {
-                return false;
-            }
-            if (number === 2) {
-                return true;
-            }
-
-            for (let i = 2; i <= Math.sqrt(number); i++) {
-                if (number % i === 0) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-    }
-}
