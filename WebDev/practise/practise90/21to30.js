@@ -69,3 +69,32 @@
 
     }
 }
+
+
+
+{
+    // find square root 
+    function mySqrt(x) {
+        if (x <= 1) return x; // Base case: if x is 0 or 1, return x
+        
+        let left = 0;
+        let right = Math.floor(x / 2) + 1; // Square root of x will not exceed x/2+1
+        
+        while (left < right) {
+            let mid = left + Math.floor((right - left + 1) / 2); // Choose mid rounding up
+    
+            if (mid * mid > x) {
+                right = mid - 1; // Mid is too big, reduce the search range
+            } else {
+                left = mid; // Mid might be the answer, continue search in upper half
+            }
+        }
+        
+        return left; // Return the square root rounded down
+    }
+    
+    // Test cases
+    console.log(mySqrt(4)); // Output: 2
+    console.log(mySqrt(8)); // Output: 2
+    
+}
