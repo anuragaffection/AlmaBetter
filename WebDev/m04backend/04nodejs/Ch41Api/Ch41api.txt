@@ -33,14 +33,32 @@ Project OverView
 Webservice {
     -- APIs = Application programming Interfaces 
     -- HTTP = Hyper text Transfer protocol
-    -- JWT = Json Web tokens 
-    
+    -- JWT  = Json Web tokens 
+    -- WWW  = World Wide Web 
+
 }
 
-Types of Web Services 
--- simple object access protocol (SOAP)
--- Representational State Transfer (REST)
--- GraphQL 
+
+
+
+Types of Web Services {
+
+    simple object access protocol (SOAP) 
+    -- xml  = Extensible markup language 
+    -- http = hyper test transfer protocol
+    -- smtp = 
+    -- tcp  = 
+    -- w3c  = World wide web consortium 
+    -- Json = javascript object notation 
+    -- REST = Representational State Transfer
+
+    Representational State Transfer (REST)
+    -- 
+
+    GraphQL
+
+}
+
 
 What is an API 
 Web API 
@@ -60,3 +78,6 @@ HTTP Methods
 HTTP Status Code 
 
 Project OverView 
+
+
+
