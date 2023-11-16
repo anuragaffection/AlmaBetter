@@ -35,6 +35,14 @@ Webservice {
     -- HTTP = Hyper text Transfer protocol
     -- JWT  = Json Web tokens 
     -- WWW  = World Wide Web 
+    -- xml  = Extensible markup language 
+    -- smtp = 
+    -- tcp  = 
+    -- w3c  = World wide web consortium 
+    -- Json = javascript object notation 
+    -- REST = Representational State Transfer
+    -- uri  = uniform resource identifiers 
+    -- url  = uniform resource locater 
 
 }
 
@@ -44,16 +52,12 @@ Webservice {
 Types of Web Services {
 
     simple object access protocol (SOAP) 
-    -- xml  = Extensible markup language 
-    -- http = hyper test transfer protocol
-    -- smtp = 
-    -- tcp  = 
-    -- w3c  = World wide web consortium 
-    -- Json = javascript object notation 
-    -- REST = Representational State Transfer
+    -- based on xml 
+    -- it is stateful 
 
     Representational State Transfer (REST)
-    -- 
+    -- it is stateless 
+    -- use uri 
 
     GraphQL
 
