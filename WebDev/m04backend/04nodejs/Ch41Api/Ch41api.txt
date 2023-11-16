@@ -1,0 +1,62 @@
+
+Webservice 
+
+Types of Web Services 
+-- simple object access protocol (SOAP)
+-- Representational State Transfer (REST)
+-- GraphQL 
+
+What is an API 
+Web API 
+How API Work 
+
+Types of Web APIs 
+-- RESTful APIs 
+-- GraphQL APIs
+-- WebSocket APIs 
+
+RESTful APIs in details 
+
+API Testing 
+API Testing tools 
+
+HTTP Methods 
+HTTP Status Code 
+
+Project OverView 
+
+
+
+
+
+
+Webservice {
+    -- APIs = Application programming Interfaces 
+    -- HTTP = Hyper text Transfer protocol
+    -- JWT = Json Web tokens 
+    
+}
+
+Types of Web Services 
+-- simple object access protocol (SOAP)
+-- Representational State Transfer (REST)
+-- GraphQL 
+
+What is an API 
+Web API 
+How API Work 
+
+Types of Web APIs 
+-- RESTful APIs 
+-- GraphQL APIs
+-- WebSocket APIs 
+
+RESTful APIs in details 
+
+API Testing 
+API Testing tools 
+
+HTTP Methods 
+HTTP Status Code 
+
+Project OverView 
