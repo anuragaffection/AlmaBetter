@@ -315,7 +315,7 @@
 
 1.52.46 Elements Operator {
     -- https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/
-    
+
     -- $exists 
     -- $type 
     -- $size 
@@ -329,4 +329,34 @@
     $size 
     -- { field : { $size : <array-length> }}
 
+}
+
+
+
+2.04.24 projections {
+    -- 1 for inclusion 
+    -- 0 for exclusion 
+    -- we cannot do inclusion & exclusion at same time 
+    -- id is exception 
+
+    example
+    -- db.comments.find( { 'comments' : {$size : 2}}, {title : 1, author:1} )
+    -- db.comments.find( { 'comments' : {$size : 2}}, {title : 1, author:1, _id:0} )
+}
+
+
+
+
+2.09.59 Embedded document {
+    -- query data inside Embedded document 
+    -- it us dot notation 
+
+    example
+    -- db.comments.find( { comments})
+
+    $all 
+    -- { <field> : { $all : [<value1>, <value2> ...]}}
+
+    $elemMatch
+    -- { <field> : { $elemMatch : [<value1>, <value2> ...]}}
 }
