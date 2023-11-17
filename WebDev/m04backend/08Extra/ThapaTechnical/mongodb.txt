@@ -349,7 +349,7 @@
 
 2.09.59 Embedded document {
     -- query data inside Embedded document 
-    -- it us dot notation 
+    -- it use dot notation 
 
     example
     -- db.comments.find( { comments})
@@ -359,4 +359,40 @@
 
     $elemMatch
     -- { <field> : { $elemMatch : [<value1>, <value2> ...]}}
+}
+
+
+
+2.24.18 update operations {
+    -- updateOne()
+    -- updateMany()
+
+    syntax
+    -- db.<myCollection_name>.updateOne(
+        {filter},
+        {$set : { existingField : newValue, newField : "new Value" , ....}}
+    )
+
+    syntax
+    -- db.<myCollection_name>.updateMany(
+        {filter},
+        {$set : { existingField : newValue , ....}}
+    )
+
+    Note 
+    -- if field is not present, it will create one 
+}
+
+
+
+2.33.34 removing & renaming fields {
+    -- db.<myCollection_name>.updateOne( 
+        {filter},
+        { $unset  : { fieldName : 1}}
+    )
+
+    -- db.<myCollection_name>.updateOne(
+        {filter},
+        { $rename : { oldFieldName :  "newFieldName"}}
+    )
 }
