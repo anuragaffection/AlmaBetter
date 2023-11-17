@@ -43,6 +43,8 @@ Webservice {
     -- REST = Representational State Transfer
     -- uri  = uniform resource identifiers 
     -- url  = uniform resource locater 
+    -- SSL  = 
+
 
 }
 
@@ -58,14 +60,23 @@ Types of Web Services {
     Representational State Transfer (REST)
     -- it is stateless 
     -- use uri 
+    -- resources can be json, xml, html 
+    -- SSL & OAuth 
 
     GraphQL
+    -- 
 
 }
 
 
-What is an API 
+What is an API {
+    -- 
+}
+
+
 Web API 
+
+
 How API Work 
 
 Types of Web APIs 
@@ -82,6 +93,37 @@ HTTP Methods
 HTTP Status Code 
 
 Project OverView 
+
+
+
+Activity {
+
+    Activity: Fill in the blanks
+
+    01. ____________ (Webservice / API) is the acronym for a standardized way of communication between software applications over the internet.
+    
+    02. ____________ (REST / SOAP) web service allows communication using XML messages over HTTP.
+    
+    03. ____________ (JSON / XML) is the primary language used to describe data in a web service.
+    
+    04. ____________ (REST / SOAP) web service allows communication using JSON messages over HTTP.
+    
+    05.HTTP.____________ (HTTP / FTP) protocol commonly used to communicate with web services.
+    
+    Answers
+    01. Web Service
+    02. SOAP
+    03. XML
+    04. REST
+    05. HTTP
+
+
+}
+
+Task {
+    -- JSON-RPC 
+    -- XML-RPC 
+}
 
 
 
