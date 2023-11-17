@@ -224,6 +224,8 @@
     -- $in = in 
     -- $nin  = not in  
 
+    -- $ne 
+
 
     syntax
     -- db.<myCollection_name>.find( {'<myFieldName>' : {$<myOperator> : myValue} })
@@ -295,4 +297,36 @@
     $expr 
     -- allow using aggregation expressions within a query 
     -- { $expr : { operator : [$field, value ] }}
+
+    $gt = greater than
+    $division
+    $multiply
+    $add 
+    $subtract 
+
+    example
+    -- db.sales.find( 
+         { $expr : { $gt : [ {$multiply : ['$quantity', '$price']}], '$targetPrice'}}
+        )
+}
+
+
+
+
+1.52.46 Elements Operator {
+    -- https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/
+    
+    -- $exists 
+    -- $type 
+    -- $size 
+
+    $exists
+    -- { field : { $exists : <boolean> }}
+
+    $type
+    -- { field : { $type : "<bson-data-type" }}
+
+    $size 
+    -- { field : { $size : <array-length> }}
+
 }
