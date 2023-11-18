@@ -30,7 +30,7 @@ Project OverView
 
 
 
-Webservice {
+Some Abbreviation {
     -- APIs = Application programming Interfaces 
     -- HTTP = Hyper text Transfer protocol
     -- JWT  = Json Web tokens 
@@ -44,8 +44,20 @@ Webservice {
     -- uri  = uniform resource identifiers 
     -- url  = uniform resource locater 
     -- SSL  = 
+    -- WSDL = Web Service Definition language
 
 
+}
+
+
+
+Webservice {
+    -- system software to enable communication between different applications
+
+    Three main components 
+    -- Service provider 
+    -- service Registry 
+    -- service requestor 
 }
 
 
@@ -187,15 +199,70 @@ API Testing tools {
     -- SoapUI 
     -- JMeter 
     -- RestAssured
+    -- Junit 
+    -- TestNG 
 
-    Postman
+}
+
+
+
+HTTP Methods {
+
+    http methods
+    -- GET
+    -- POST
+    -- DELETE
+    -- PUT
+    -- PATCH
+    -- HEAD 
+    -- OPTIONS 
+
+    Idempotent 
+    -- GET
+    -- PUT
+    -- PATCH
+    -- DELETE
+
+    Not Idempotent
+    -- POST
     -- 
 }
 
 
 
-HTTP Methods 
-HTTP Status Code 
+
+
+HTTP Status Code {
+
+    Status Codes 
+    -- 1xx  informational 
+    -- 2xx  success 
+    -- 3xx  Redirection 
+    -- 4xx  client error 
+    -- 5xx  server error 
+
+
+    2xx success 
+    -- 200  OK, Request was succesful 
+    -- 201  created 
+    -- 204  No content to send 
+
+    3xx Redirection 
+    -- 301  Moved permanetly 
+
+    4xx client error 
+    -- 400  bad Request or validation error 
+    -- 401  unauthorize 
+    -- 403  forbidden 
+    -- 404  page Not found 
+
+    5xx server error 
+    -- 500  Internal Sever error
+    -- 503  Server unavailable 
+
+}
+
+
 
 
 Project OverView 
@@ -251,11 +318,52 @@ Activity {
 
 }
 
-Task {
-    -- JSON-RPC 
-    -- XML-RPC 
 
+
+
+Notes {
+
+    idempotent 
+    -- meaning that making the same request multiple times should yield the same result.
+
+    JSON-RPC 
+    -- is a lightweight remote procedure call protocol that uses JSON for data encoding.
+
+    XML-RPC 
+    -- is a remote procedure call protocol that uses XML for data encoding.
 }
+
+
+
+
+
+
+RESTful vs Restless {
+
+    RESTful
+    -- use REST architecural style 
+    -- use url to expose business logic 
+    -- supports html, json, text 
+
+
+    Restless
+    -- use SOAP protocol
+    -- use service Interface to expose business logic
+    -- supports xml 
+}
+
+
+
+
+
+Task {
+    -- OAuth
+    -- JWT 
+    -- API
+   
+}
+
+
 
 
 
