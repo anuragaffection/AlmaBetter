@@ -1,0 +1,8 @@
+
+Node js {
+    -- free and open source environment 
+    -- javascript can be used on server 
+    -- sinlge langauge for both backend & frontend 
+}
+
+
