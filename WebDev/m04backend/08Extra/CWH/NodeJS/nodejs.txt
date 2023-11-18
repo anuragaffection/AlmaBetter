@@ -3,6 +3,14 @@ Node js {
     -- free and open source environment 
     -- javascript can be used on server 
     -- javascript language for both backend & frontend 
+    -- single threaded to handle multiple request 
+}
+
+
+
+npm {
+    -- package manager for nodejs
+    -- 
 }
 
 
