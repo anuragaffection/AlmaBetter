@@ -57,21 +57,24 @@ Types of Web Services {
     -- based on xml 
     -- it is stateful 
 
-    Representational State Transfer (REST)
+    Rest 
     -- it is stateless 
     -- use uri 
     -- resources can be json, xml, html 
     -- SSL & OAuth 
+    -- use http methods like  GET, POST, PUT, DELETE
+    
 
     GraphQL
-    -- 
+    -- it is a query language
+    -- reduce over fetching 
+    -- reduce under fetching 
+    -- single endpoint
 
 }
 
 
-What is an API {
-    -- 
-}
+What is an API 
 
 
 Web API 
@@ -79,18 +82,121 @@ Web API
 
 How API Work 
 
-Types of Web APIs 
--- RESTful APIs 
--- GraphQL APIs
--- WebSocket APIs 
 
-RESTful APIs in details 
 
-API Testing 
-API Testing tools 
+Types of Web APIs {
+    
+    Rest 
+    -- it is stateless 
+    -- use uri 
+    -- resources can be json, xml, html 
+    -- SSL & OAuth 
+    -- use http methods like  GET, POST, PUT, DELETE
+    
+
+    GraphQL
+    -- it is a query language
+    -- reduce over fetching 
+    -- reduce under fetching 
+    -- single endpoint
+
+
+    WebSocket APIs
+    -- full duplex communication
+    -- real time chat applications
+}
+
+
+
+
+RESTful APIs in details {
+    -- API that follow REST standard
+    -- 
+
+    Basic format 
+    -- url endpoint
+    -- http verb 
+    -- body messages
+
+    http verbs 
+    -- GET
+    -- POST
+    -- DELETE
+    -- PUT
+    -- PATCH
+
+    URL endpoint
+    -- 
+
+    Status Codes 
+    -- 1xx  informational 
+    -- 2xx  success 
+    -- 3xx  Redirection 
+    -- 4xx  client error 
+    -- 5xx  server error 
+
+
+    2xx success 
+    -- 200  OK, Request was succesful 
+
+    3xx Redirection 
+    -- 301  Moved permanetly 
+
+    4xx client error 
+    -- 400  bad Request 
+    -- 401  unauthorize 
+    -- 403  forbidden 
+    -- 404  page Not found 
+
+    5xx server error 
+    -- 500  Internal Sever error
+    -- 503  Server unavailable 
+}
+
+
+
+
+API Testing {
+
+    Types of API testing 
+    -- unit 
+    -- integration 
+    -- functional 
+    -- load 
+    -- security 
+    -- error handling 
+    -- regression 
+
+    Test setup 
+    -- Postman 
+    -- SOAPUi
+    -- cURL
+
+    Automation of API testing 
+    -- Postman
+    -- Newman 
+    -- RestAssured 
+}
+
+
+
+API Testing tools {
+    -- Postman
+    -- Swagger (OpenAPI)
+    -- Insomnia 
+    -- SoapUI 
+    -- JMeter 
+    -- RestAssured
+
+    Postman
+    -- 
+}
+
+
 
 HTTP Methods 
 HTTP Status Code 
+
 
 Project OverView 
 
@@ -118,11 +224,37 @@ Activity {
     05. HTTP
 
 
+
+
+    Activity: True or False
+
+    01. A Web API (Application Programming Interface) allows different software applications to communicate and interact with each other over the Internet.
+    
+    02. Web APIs define a set of rules and protocols that applications must follow to exchange data and perform actions.
+    
+    03. There are only two types of Web APIs: SOAP APIs and RESTful APIs.
+    
+    04. RESTful APIs (Representational State Transfer) are designed around resources and use standard HTTP methods to interact with those resources.
+    
+    05.  GraphQL APIs allow clients to request only the needed data, making them more flexible and efficient than RESTful APIs.
+    
+    06. SOAP APIs use XML as the format for data exchange and rely on HTTP for communication.
+    
+    Answers
+    01. True
+    02. True
+    03. False
+    04. True
+    05. True
+    06. True
+
+
 }
 
 Task {
     -- JSON-RPC 
     -- XML-RPC 
+
 }
 
 

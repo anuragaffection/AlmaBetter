@@ -363,9 +363,12 @@
 
 
 
+
 2.24.18 update operations {
     -- updateOne()
     -- updateMany()
+    -- $set 
+    -- {filter}
 
     syntax
     -- db.<myCollection_name>.updateOne(
@@ -385,7 +388,15 @@
 
 
 
+
+
 2.33.34 removing & renaming fields {
+    -- updateOne()
+    -- updateMany()
+    -- $unset
+    -- $rename
+    -- {filter}
+
     -- db.<myCollection_name>.updateOne( 
         {filter},
         { $unset  : { fieldName : 1}}
@@ -393,6 +404,19 @@
 
     -- db.<myCollection_name>.updateOne(
         {filter},
-        { $rename : { oldFieldName :  "newFieldName"}}
+        { $rename : { "oldFieldName" :  "newFieldName"}}
     )
+}
+
+
+
+
+2.37.48 updating arrays & Embedded documents {
+    -- updateOne()
+    -- updateMany()
+    -- $pop
+    -- $push 
+    -- $set 
+    -- {filter}
+
 }

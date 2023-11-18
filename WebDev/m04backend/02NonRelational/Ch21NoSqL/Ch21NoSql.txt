@@ -254,6 +254,14 @@ Activity {
 
 
 
+Note {
+    -- json used for data exchange 
+    -- bson used to store data 
+}
+
+
+
+
 Task {
     -- Relational Database vs Non Relational Database
     -- Sql vs No Sql
