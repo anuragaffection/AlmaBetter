@@ -1,0 +1,164 @@
+
+
+### Types of Web Services:
+1. **What protocol is primarily associated with exchanging structured information in the implementation of web services?**
+    - a) SOAP
+    - b) REST
+    - c) GraphQL
+    - d) All of the above
+
+
+
+
+2. **Which web service architecture relies on a stateless communication model and leverages standard HTTP methods for operations?**
+    - a) SOAP
+    - b) REST
+    - c) GraphQL
+    - d) WebSocket
+
+
+
+
+3. **Among the listed options, which web service is known for offering a flexible approach to querying data?**
+    - a) SOAP
+    - b) REST
+    - c) GraphQL
+    - d) WebSockets
+
+
+
+
+### Understanding APIs:
+4. **What does API stand for in the context of web services?**
+    - a) Advanced Programming Interface
+    - b) Application Protocol Interface
+    - c) Application Programming Interface
+    - d) Automated Process Integration
+
+
+
+
+5. **How do APIs typically function in web development?**
+    - a) They enable communication between different software systems.
+    - b) They provide aesthetic design templates.
+    - c) They primarily manage hardware resources.
+    - d) They only interact with databases.
+
+
+
+
+6. **What characterizes a Web API?**
+    - a) It's a programmatic interface that enables communication over the internet.
+    - b) It's exclusively used for web server maintenance.
+    - c) It's a visual interface for users.
+    - d) It's not accessible over the internet.
+
+
+
+
+### Types of Web APIs:
+7. **Which type of API is commonly associated with representing resources as entities and relies on standard HTTP methods for interaction?**
+    - a) RESTful APIs
+    - b) GraphQL APIs
+    - c) WebSocket APIs
+    - d) SOAP APIs
+
+
+
+
+8. **Which API type is known for its capability to efficiently handle real-time data transmission?**
+    - a) RESTful APIs
+    - b) GraphQL APIs
+    - c) WebSocket APIs
+    - d) SOAP APIs
+
+
+
+
+### RESTful APIs:
+9. **What is a fundamental principle of RESTful APIs?**
+    - a) Stateful communication
+    - b) Utilization of non-standard HTTP methods
+    - c) Stateless communication
+    - d) Limited access to resources
+
+
+
+
+10. **Which of the following is NOT a characteristic of RESTful APIs?**
+    - a) Use of standard HTTP methods
+    - b) Stateless communication
+    - c) Focused on binary data exchange
+    - d) Representational data transfer
+
+
+
+
+
+### API Testing:
+11. **What is the primary purpose of API testing in software development?**
+    - a) To validate user interfaces
+    - b) To ensure the security of servers
+    - c) To verify the functionality, reliability, performance, and security of APIs
+    - d) To monitor server uptime
+
+
+
+
+12. **Which tool is commonly used for testing RESTful APIs by allowing testers to create, manage, and execute automated API tests?**
+    - a) Postman
+    - b) Selenium
+    - c) JMeter
+    - d) SOAPUI
+
+
+
+
+### HTTP Methods and Status Codes:
+13. **Which HTTP method is primarily used for retrieving data from a server?**
+    - a) POST
+    - b) PUT
+    - c) GET
+    - d) DELETE
+
+
+
+
+14. **What does an HTTP status code '404' signify?**
+    - a) Unauthorized access
+    - b) Resource not found
+    - c) Successful request
+    - d) Server error
+
+
+
+
+
+Sure, here are the answers corresponding to the questions:
+
+### Types of Web Services:
+1. **Answer: d) All of the above**
+2. **Answer: b) REST**
+3. **Answer: c) GraphQL**
+
+### Understanding APIs:
+4. **Answer: c) Application Programming Interface**
+5. **Answer: a) They enable communication between different software systems.**
+6. **Answer: a) It's a programmatic interface that enables communication over the internet.**
+
+### Types of Web APIs:
+7. **Answer: a) RESTful APIs**
+8. **Answer: c) WebSocket APIs**
+
+### RESTful APIs:
+9. **Answer: c) Stateless communication**
+10. **Answer: c) Focused on binary data exchange**
+
+### API Testing:
+11. **Answer: c) To verify the functionality, reliability, performance, and security of APIs**
+12. **Answer: a) Postman**
+
+### HTTP Methods and Status Codes:
+13. **Answer: c) GET**
+14. **Answer: b) Resource not found**
+
