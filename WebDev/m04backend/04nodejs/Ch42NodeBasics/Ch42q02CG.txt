@@ -27,6 +27,7 @@
 
 
 
+
 4. **Which object in Node.js provides information and control over the current process?**
    a. `global` object  
    b. `window` object  
