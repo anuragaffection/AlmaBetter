@@ -103,6 +103,7 @@ NPX  {
 
     -- "cowsay" 
     -- npx cowsay "Hello"
+    -- i have cowsay versio 1.0 in hp folder
 
     Creation of Node project 
     -- navigate to desired folder 
@@ -114,15 +115,33 @@ NPX  {
 
 
 Modules in Node js {
+    -- module is a piece of code that can be reused across different applications
 
     Core Modules
-    -- 
+    -- by default comes with node js like 
+    -- fs 
+    -- http 
+    -- https 
+    -- path 
+    -- crypto 
+    -- util 
+    -- os 
+    -- events 
 
     Local Modules
-    --
+    -- during development we create like 
+    -- myAdd 
+    -- mySubstract
 
     Third party Modules
-    -- 
+    -- have to install third party module using package manager 
+    -- using modules or code created by other like 
+    -- express.js 
+    -- lodash 
+    -- axios 
+    -- moment.js 
+    -- multer 
+    
 }
 
 
@@ -208,4 +227,6 @@ Notes {
 }
 
 
-Task 
+Task {
+    -- devDependencies vs dependencies
+}
