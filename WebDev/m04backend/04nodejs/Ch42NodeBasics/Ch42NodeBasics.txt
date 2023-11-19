@@ -115,10 +115,21 @@ NPX  {
 
 
 Modules in Node js {
-    -- module is a piece of code that can be reused across different applications
+    module 
+    -- is a piece of code that can be reused across different applications
+
+    Core Module
+    -- by default comes with node js like 
+
+    Local Modules
+    -- during development we create like 
+
+    Third party Modules
+    -- have to install third party module using package manager 
+    -- using modules or code created by other like 
+
 
     Core Modules
-    -- by default comes with node js like 
     -- fs 
     -- http 
     -- https 
@@ -129,13 +140,10 @@ Modules in Node js {
     -- events 
 
     Local Modules
-    -- during development we create like 
     -- myAdd 
     -- mySubstract
 
-    Third party Modules
-    -- have to install third party module using package manager 
-    -- using modules or code created by other like 
+    Third party modules
     -- express.js 
     -- lodash 
     -- axios 
@@ -146,21 +154,64 @@ Modules in Node js {
 
 
 HTTP Modules {
-    -- creating server using http 
+
+    http & https 
+    -- creating server 
+    -- request to server 
+    -- response handling 
+
+    command
+    -- http.createServer()
+    -- setHeader()
+    -- end()
+    -- listen()
+
+    Options & res ] example 01 server ]
+    -- on 
+    -- port 
+    -- method 
+    -- hostname
+    -- path 
 
 }
 
 
+
+
 File system Module {
 
-    Reading file 
+    fs 
+    -- file system
+    -- read 
+    -- write 
+    -- create directory
+
+
+    commands
     -- fs.readFile()
-
-    Writing to a file 
     -- fs.writeFile()
-
-    Creating a directory 
     -- fs.mkdir()
+    -- fs.writeFileSync()
+    -- fs.readFileSync()
+
+
+    Syntax 
+    -- fs.readFile( 
+        "<myFileName.txt" , 
+        "<myCharaterEncodingType>" , 
+        "<myCallbackFunction"
+        );
+
+    -- fs.writeFile( 
+        "<myFileName.txt>" , 
+        "<what to write>" , 
+        "<myCallbackFunction>"
+        );
+
+    -- fs.mkdir( 
+        "<myFolderName" , 
+        "<myCallbackFunction" 
+        );
 
 }
 
@@ -177,14 +228,20 @@ Path Module {
 }
 
 
+
 OS Module {
     -- os.platform()
+    -- os.release()
+    -- os.type()
     -- os.hostname()
     -- os.arch()
     -- os.version()
-    -- os.mem
-
+    -- os.freemem
+    -- os.homedir()
 }
+
+
+
 
 
 Activity {
@@ -210,12 +267,32 @@ Activity {
     04. Disagree
     05. Agree
     06. Agree
+    
+    
+    
 
-
-
+    
+    Activity: Fill in the blanks
+    
+    01. NPX is commonly used for the ________(compilation / creation) of a Node project.
+    
+    02. Node.js ________(local / core) Modules are built-in modules that come with Node.js and provide essential functionality.
+    
+    03.  Node.js ________(local / third-party) Modules are modules created by developers for specific project needs and are not a part of the Node.js core.
+    
+    04. The ________(HTTP / TCP) Module in Node.js is used for building web servers and making HTTP requests.
+    
+    Answers
+    01. Creation
+    02. Core
+    03. Third-Party
+    04. HTTP Module
 
 
 }
+
+
+
 
 
 Notes {
@@ -235,4 +312,5 @@ Notes {
 
 Task {
     -- devDependencies vs dependencies
+    -- HMAC algorithms 
 }
