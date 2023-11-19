@@ -154,13 +154,13 @@ HTTP Modules {
 File system Module {
 
     Reading file 
-    -- 
+    -- fs.readFile()
 
     Writing to a file 
-    -- 
+    -- fs.writeFile()
 
     Creating a directory 
-    -- 
+    -- fs.mkdir()
 
 }
 
@@ -178,6 +178,11 @@ Path Module {
 
 
 OS Module {
+    -- os.platform()
+    -- os.hostname()
+    -- os.arch()
+    -- os.version()
+    -- os.mem
 
 }
 
