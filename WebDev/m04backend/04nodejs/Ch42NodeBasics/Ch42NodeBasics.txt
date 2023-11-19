@@ -213,17 +213,25 @@ File system Module {
         "<myCallbackFunction" 
         );
 
+
+    tools 
+    -- cURL 
+    -- postman 
+
 }
 
 
 
-Path Module {
+Path Module]] {
 
     Normalizing path  
+    -- path.normalize()
 
     Joining paths
+    -- path.join()
 
     Resolvig a path 
+    -- path.resolve()
 
 }
 
@@ -271,6 +279,7 @@ Activity {
     
     
 
+
     
     Activity: Fill in the blanks
     
@@ -287,7 +296,33 @@ Activity {
     02. Core
     03. Third-Party
     04. HTTP Module
-
+    
+    
+    
+    
+    
+    
+    Activity: True or False
+    
+    01. The fs.writeFile() function is synchronous and blocks the event loop until the operation is completed.
+    
+    02. The fs.mkdir() function can be used to create multiple nested directories with a single call.
+    
+    03. The path.join() method always uses forward slashes ("/") as the path separator, regardless of the operating system.
+    
+    04. The path.normalize() method resolves and simplifies a file path, removing any redundant or ".." segments.
+    
+    05. The os.platform() method returns the version of the Node.js runtime.
+    
+    06. The os.hostname() method returns the network hostname of the operating system.
+    
+    Answers
+    01. False
+    02. True
+    03. False
+    04. True
+    05. False
+    06. True
 
 }
 
