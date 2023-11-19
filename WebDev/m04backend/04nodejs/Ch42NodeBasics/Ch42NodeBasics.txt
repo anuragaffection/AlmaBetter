@@ -1,5 +1,4 @@
 
-
 Node js 
 Multi page application 
 Installation of  Node.js & NPM 
@@ -20,43 +19,98 @@ Node js {
     -- javascript can be used on server 
     -- javascript language for both backend & frontend 
     -- single threaded to handle multiple request 
+    -- node js (use chrome v8 engine )
+    -- event driven & non blocking 
 }
+
 
 
 Multi page application {
+    -- MPA = Multi page  application
+    -- SPA = sinlge page application
 
-    Advantages 
-    --
 
-    Disadvantages 
-    -- 
+    Advantages of MPA
+    -- excellent seo 
+    -- excellent browser compatibility 
+    -- simple to build 
+    -- greater security than SPA
+
+    Disadvantages of  MPA
+    -- Time consuming due to server side loading 
+    -- Reduce user experiece 
+    -- did not work well on offline mode 
 }
+
 
 
 Installation of  Node.js & NPM {
+    -- msi file 
+    -- LTS version 
 
+    Installed things 
+    -- node.js runtime
+    -- npm pakage manager 
+    -- online doucemntation shortcut 
+    -- add to path 
+
+    Check
+    -- node --version 
+    -- node -v 
+    -- npm --version 
+    -- npm --v 
 }
 
 
+
 NPM {
+    -- Node package manager
 
     command 
-    -- 
+    -- npm install 
+    -- npm install <pakage-name> 
+    -- npm uninstall <package-name>
+    -- npm update 
 
     package.json 
-    -- 
+    -- default file after npm init 
+    -- projects metadata 
+
+    package.json field 
+    -- name 
+    -- version 
+    -- description 
+    -- main = entry point 
+    -- dependencies 
+    -- devDependencies 
+    -- sripts = set of command 
 }
 
 
 
 YARN {
-
+    -- it also node package manager 
+    -- offline caching 
+    -- parallel processing 
+    -- improved CLI 
 }
+
 
 
 NPX  {
+    -- npx execute code 
+    -- npx released through npm 
 
+    -- "cowsay" 
+    -- npx cowsay "Hello"
+
+    Creation of Node project 
+    -- navigate to desired folder 
+    -- npm init 
+    -- npm install <package-name>
+    -- node <entry-point-file>.js 
 }
+
 
 
 Modules in Node js {
@@ -91,6 +145,7 @@ File system Module {
 }
 
 
+
 Path Module {
 
     Normalizing path  
@@ -106,8 +161,51 @@ OS Module {
 
 }
 
-Activity 
 
-Notes 
+Activity {
+
+    Acitvity: Agree or Disagree
+    
+    01. Node.js is primarily used for client-side scripting in web development.
+    
+    02. Node.js allows JavaScript to run on the server-side.
+    
+    03. In a Single-Page application, the entire content is loaded from the server each time a new page is requested.
+    
+    04. You can skip checking the version of NPM because it's not important.
+    
+    05. Package.json is used to manage dependencies and scripts for a Node.js project.
+    
+    06. Yarn is an alternative to NPM and cannot be used alongside it in the same project.
+    
+    Answers
+    01. Disagree
+    02. Agree
+    03. Disagree
+    04. Disagree
+    05. Agree
+    06. Agree
+
+
+
+
+
+}
+
+
+Notes {
+
+    cosmos
+    -- https://www.cosmos.so/
+
+    XSS
+    -- cross site scripting 
+
+    CSRF
+    -- Cross site request forgery 
+
+
+}
+
 
 Task 
