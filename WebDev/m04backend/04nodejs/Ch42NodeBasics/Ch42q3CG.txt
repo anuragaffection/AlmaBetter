@@ -1,0 +1,202 @@
+
+### Node.js:
+1. What is Node.js? How does it differ from other server-side technologies?
+2. Explain the event-driven architecture of Node.js.
+3. What is the package.json file in Node.js projects? Explain its significance.
+4. How does Node.js handle asynchronous operations? Explain with examples.
+5. What is the purpose of the `process` object in Node.js?
+
+### Multi-page Application:
+1. Contrast between single-page applications (SPA) and multi-page applications (MPA).
+2. Advantages and disadvantages of multi-page applications.
+3. How would you approach SEO optimization for a multi-page application compared to a single-page application?
+
+### Installation of Node.js & NPM:
+1. Explain the steps to install Node.js on different operating systems.
+2. What is npm? How is it related to Node.js?
+3. Can you install multiple versions of Node.js on the same machine? If yes, how?
+
+### NPM, Yarn, and NPX:
+1. Differentiate between npm, Yarn, and npx in Node.js.
+2. When would you choose Yarn over npm, and vice versa?
+3. What are the advantages of using NPX over npm?
+
+### Modules in Node.js:
+1. What are modules in Node.js? How are they different from ES6 modules?
+2. Explain the difference between `require()` and `import` statements in Node.js.
+3. How do you create your own modules in Node.js?
+
+### HTTP Module:
+1. How does the HTTP module work in Node.js?
+2. Explain the basic structure of creating a web server using the HTTP module.
+3. What are the main HTTP methods? Explain each with its purpose.
+
+### File System, Path, and OS Modules:
+1. What is the File System module in Node.js? Provide some common operations performed using it.
+2. How does the Path module work in Node.js? Explain some important methods in this module.
+3. What functionalities does the OS module provide in Node.js? Give examples of its usage.
+
+
+
+
+
+
+
+
+### Node.js:
+
+1. **What is Node.js? How does it differ from other server-side technologies?**
+   Node.js is a runtime environment that allows developers to run JavaScript code on the server-side. It's built on the V8 JavaScript engine from Chrome and uses an event-driven, non-blocking I/O model. This makes it lightweight and efficient for handling concurrent requests. Unlike traditional server-side technologies like PHP or Java, Node.js is single-threaded but uses event loops for handling multiple requests efficiently.
+
+2. **Explain the event-driven architecture of Node.js.**
+   Node.js operates on an event-driven architecture, where actions are initiated by events and callbacks. Events trigger actions, and functions attached to these events are called asynchronously when the event occurs. This enables Node.js to perform non-blocking I/O operations, allowing it to handle multiple concurrent requests without getting blocked.
+
+3. **What is the package.json file in Node.js projects? Explain its significance.**
+   `package.json` is a metadata file in Node.js projects. It contains project details such as name, version, dependencies, scripts, and more. It's crucial as it helps manage project dependencies, specifies scripts for automation, defines project configurations, and facilitates easy sharing and installation of projects.
+
+4. **How does Node.js handle asynchronous operations? Explain with examples.**
+   Node.js uses callbacks, Promises, and async/await to handle asynchronous operations. Callbacks are functions passed as arguments to other functions, executed when an asynchronous operation completes. Promises provide cleaner asynchronous code with a chaining mechanism. Async/await, built on top of Promises, offers a more synchronous style of writing asynchronous code. Example:
+   ```javascript
+   // Callback example
+   fs.readFile('file.txt', (err, data) => {
+       if (err) throw err;
+       console.log(data);
+   });
+
+   // Promise example
+   readFileAsync('file.txt')
+       .then(data => console.log(data))
+       .catch(err => console.error(err));
+
+   // Async/await example
+   async function readAndLog() {
+       try {
+           const data = await readFileAsync('file.txt');
+           console.log(data);
+       } catch (err) {
+           console.error(err);
+       }
+   }
+   ```
+
+5. **What is the purpose of the `process` object in Node.js?**
+   The `process` object provides information and control over the current Node.js process. It contains properties and methods to interact with the current process, such as accessing environment variables, controlling standard input/output, handling signals, and more.
+
+
+
+
+
+
+### Multi-page Application:
+1. **Contrast between single-page applications (SPA) and multi-page applications (MPA).**
+   SPAs load a single HTML page and dynamically update the content, providing a smoother user experience with faster transitions. MPAs consist of multiple HTML pages, each serving different content, leading to full-page reloads when navigating.
+
+2. **Advantages and disadvantages of multi-page applications.**
+   Advantages include better SEO, simpler initial development, clear separation of concerns, and easier caching. Disadvantages may involve slower navigation, less interactivity, and potentially higher server load due to frequent page reloads.
+
+3. **How would you approach SEO optimization for a multi-page application compared to a single-page application?**
+   For an MPA, ensure proper use of meta tags, distinct URLs for different content, and sitemaps for search engine crawlers. SPAs require special techniques like pre-rendering content on the server side or using technologies like server-side rendering (SSR) or static site generators to make the content accessible to search engines.
+
+
+
+
+
+
+
+### Installation of Node.js & NPM:
+1. **Explain the steps to install Node.js on different operating systems.**
+   - For Windows: Download the installer from the Node.js website and follow the installation wizard.
+   - For macOS: Use Homebrew (`brew install node`) or download the macOS installer from the Node.js website.
+   - For Linux: Use package managers like apt (`sudo apt install nodejs`) for Ubuntu/Debian or yum (`sudo yum install nodejs`) for CentOS/Fedora.
+
+2. **What is npm? How is it related to Node.js?**
+   npm (Node Package Manager) is the default package manager for Node.js. It manages project dependencies, allows installation of packages/modules from the npm registry, and helps in project versioning and scripts execution. npm comes bundled with Node.js installation.
+
+3. **Can you install multiple versions of Node.js on the same machine? If yes, how?**
+   Yes, tools like NVM (Node Version Manager) enable installing and managing multiple Node.js versions on the same machine. With NVM, you can easily switch between different Node.js versions, install new versions, and set default versions for different projects.
+
+
+
+
+
+
+### NPM, Yarn, and NPX:
+1. **Differentiate between npm, Yarn, and npx in Node.js.**
+   - npm: Default package manager for Node.js, manages dependencies and scripts.
+   - Yarn: Alternative package manager with faster and consistent dependency resolution.
+   - npx: Executes npm package binaries without installing them globally, allowing for easy one-time command usage.
+
+2. **When would you choose Yarn over npm, and vice versa?**
+   Choose Yarn for faster and deterministic dependency resolution, especially in larger projects. npm is suitable for most projects and is the default choice due to its familiarity and widespread use within the Node.js community.
+
+3. **What are the advantages of using NPX over npm?**
+   NPX allows running CLI tools without the need for global installs. It fetches the tool from the npm registry and runs it, ensuring the use of the latest version without cluttering the global scope with unnecessary packages.
+
+
+
+
+
+
+
+
+### Modules in Node.js:
+1. **What are modules in Node.js? How are they different from ES6 modules?**
+   Modules in Node.js are reusable blocks of code organized into files. They encapsulate functionality and variables and can be exported and imported into other files using `require()` and `module.exports`. ES6 modules, on the other hand, use `import` and `export` statements and have a more standardized syntax compared to Node.js modules.
+
+2. **Explain the difference between `require()` and `import` statements in Node.js.**
+   `require()` is the CommonJS way of importing modules in Node.js. It's synchronous and used to load dependencies dynamically. ES6 `import` statements are asynchronous, statically analyzed, and used in modern JavaScript environments to import modules. `import` supports named exports and default exports, while `require()` doesn't have a direct equivalent for default exports.
+
+3. **How do you create your own modules in Node.js?**
+   To create a module in Node.js, you define functionality within a file and export it for use in other files. For example:
+   ```javascript
+   // myModule.js
+   const myFunction = () => {
+       return 'Hello from my module!';
+   };
+
+   module.exports = myFunction;
+   ```
+   Then, you can import and use this module in another file using `require()`.
+
+### HTTP Module:
+1. **How does the HTTP module work in Node.js?**
+   The HTTP module in Node.js allows creating HTTP servers and making HTTP requests. It provides classes, functions, and events to create servers, handle incoming requests, and send responses.
+
+2. **Explain the basic structure of creating a web server using the HTTP module.**
+   Here's a basic example:
+   ```javascript
+   const http = require('http');
+
+   const server = http.createServer((req, res) => {
+       res.writeHead(200, { 'Content-Type': 'text/plain' });
+       res.end('Hello, world!');
+   });
+
+   server.listen(3000, () => {
+       console.log('Server running at http://localhost:3000/');
+   });
+   ```
+
+3. **What are the main HTTP methods? Explain each with its purpose.**
+   - **GET:** Requests data from a specified resource.
+   - **POST:** Submits data to be processed to a specified resource.
+   - **PUT:** Updates a specified resource.
+   - **DELETE:** Deletes a specified resource.
+   - **PATCH:** Applies partial modifications to a resource.
+
+
+
+
+
+### File System, Path, and OS Modules:
+1. **What is the File System module in Node.js? Provide some common operations performed using it.**
+   The File System module (`fs`) in Node.js allows interacting with the file system. Common operations include reading/writing files, creating directories, deleting files, and managing file permissions.
+
+2. **How does the Path module work in Node.js? Explain some important methods in this module.**
+   The Path module (`path`) provides utilities for working with file and directory paths. Important methods include `path.join()` for joining path segments, `path.resolve()` for resolving paths, and `path.basename()`/`path.dirname()` for getting the file/directory name.
+
+
+
+3. **What functionalities does the OS module provide in Node.js? Give examples of its usage.**
+   The OS module (`os`) provides information about the operating system. Examples include `os.platform()` to get the operating system platform, `os.hostname()` to get the system hostname, `os.totalmem()` to get total system memory, etc.
+

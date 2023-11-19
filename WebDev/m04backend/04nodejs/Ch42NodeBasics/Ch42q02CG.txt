@@ -1,0 +1,166 @@
+
+
+### Node.js:
+1. **What is Node.js primarily used for?**
+   a. Front-end development  
+   b. Server-side scripting  
+   c. Database management  
+   d. Mobile app development  
+
+
+
+
+2. **Which engine powers Node.js for executing JavaScript code?**
+   a. SpiderMonkey  
+   b. V8  
+   c. Chakra  
+   d. Rhino  
+
+
+
+
+3. **Node.js operates on which type of I/O model?**
+   a. Synchronous  
+   b. Asynchronous  
+   c. Multithreaded  
+   d. Sequential  
+
+
+
+4. **Which object in Node.js provides information and control over the current process?**
+   a. `global` object  
+   b. `window` object  
+   c. `process` object  
+   d. `system` object  
+
+
+
+
+### NPM, Yarn, and NPX:
+5. **Which package manager is the default for Node.js?**
+   a. Yarn  
+   b. npm  
+   c. NPX  
+   d. NodePack  
+
+
+
+
+6. **What does NPX primarily facilitate?**
+   a. Package installation  
+   b. Running npm scripts  
+   c. Global package management  
+   d. Execution of CLI tools  
+
+
+
+
+7. **Yarn is preferred over npm for:**
+   a. Faster dependency resolution  
+   b. Better compatibility with Node.js  
+   c. Simplicity of usage  
+   d. Greater number of available packages  
+
+
+
+
+### Modules in Node.js:
+8. **Which statement is used to import modules in Node.js using CommonJS syntax?**
+   a. `import`  
+   b. `use`  
+   c. `include`  
+   d. `require`  
+
+
+
+
+9. **What is the purpose of the `module.exports` statement in Node.js modules?**
+   a. Imports modules  
+   b. Exports modules  
+   c. Defines modules  
+   d. Executes modules  
+
+
+
+
+### HTTP Module:
+10. **Which module in Node.js is used to create HTTP servers and handle requests?**
+    a. `url`  
+    b. `http`  
+    c. `net`  
+    d. `request`  
+
+
+
+
+11. **Which HTTP method is used for requesting data from a specified resource?**
+    a. POST  
+    b. GET  
+    c. PUT  
+    d. DELETE  
+
+
+
+### File System, Path, and OS Modules:
+12. **Which Node.js module provides utilities for working with file and directory paths?**
+    a. `fs`  
+    b. `path`  
+    c. `os`  
+    d. `util`  
+
+
+
+13. **Which method from the OS module returns the total system memory in bytes?**
+    a. `os.totalmem()`  
+    b. `os.freemem()`  
+    c. `os.memory()`  
+    d. `os.systemMemory()`  
+
+
+
+
+
+### Node.js:
+1. **What is Node.js primarily used for?**
+   - Answer: b. Server-side scripting
+
+2. **Which engine powers Node.js for executing JavaScript code?**
+   - Answer: b. V8
+
+3. **Node.js operates on which type of I/O model?**
+   - Answer: b. Asynchronous
+
+4. **Which object in Node.js provides information and control over the current process?**
+   - Answer: c. `process` object
+
+### NPM, Yarn, and NPX:
+5. **Which package manager is the default for Node.js?**
+   - Answer: b. npm
+
+6. **What does NPX primarily facilitate?**
+   - Answer: d. Execution of CLI tools
+
+7. **Yarn is preferred over npm for:**
+   - Answer: a. Faster dependency resolution
+
+### Modules in Node.js:
+8. **Which statement is used to import modules in Node.js using CommonJS syntax?**
+   - Answer: d. `require`
+
+9. **What is the purpose of the `module.exports` statement in Node.js modules?**
+   - Answer: b. Exports modules
+
+### HTTP Module:
+10. **Which module in Node.js is used to create HTTP servers and handle requests?**
+    - Answer: b. `http`
+
+11. **Which HTTP method is used for requesting data from a specified resource?**
+    - Answer: b. GET
+
+### File System, Path, and OS Modules:
+12. **Which Node.js module provides utilities for working with file and directory paths?**
+    - Answer: b. `path`
+
+13. **Which method from the OS module returns the total system memory in bytes?**
+    - Answer: a. `os.totalmem()`
+
