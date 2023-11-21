@@ -1,0 +1,110 @@
+Module 1 Javascript {
+
+    Chapter 01 Basic {
+
+        11. Getting started with programming
+        -- Programming Paradigms – Paradigm Examples for Beginners (freecodecamp.org)
+        -- JavaScript Syntax & Structure | EASEOUT
+
+        12. Introduction to javascript
+        -- A Practical Guide to Symbols in JavaScript | www.thecodebarbarian.com
+        -- What is JavaScript? Complete Introduction with Hello World! Example (guru99.com)
+            
+        13. Javascript Operators
+        -- Spread Operator in JavaScript (stackabuse.com)
+        -- https://www.educative.io/blog/bitwise-and-javascript
+        -- https://www.syncfusion.com/blogs/post 
+        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
+        -- https://codepip.com/games/code-crunchers/
+
+        14. Skill Mastery
+        -- https://javascript.plainenglish.io/what-are-javascript-programming-paradigms-3ef0f576dfdb
+        -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+    }
+
+
+
+
+    Chapter 02 Foundation {
+        
+        21. Javascript Decision Statements 
+        -- https://www.freecodecamp.org/news/the-ternary-operator-in-javascript/
+        -- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+        -- https://studyopedia.com/javascript/decision-making-statements/
+        
+        22. Loops & control statements
+        -- https://dev.to/srsajjad/optimizing-loop-in-javascript-3la
+        -- https://data-flair.training/blogs/javascript-loop-control/
+        -- https://www.mygreatlearning.com/javascript/tutorials/javascript-loop-control
+
+        23. Array & Strings
+        -- https://medium.com/@mystyx/javascript-array-hidden-potential-43c9d31bb1c2
+        -- https://grow.almabetter.com/web-dev/learn/full-stack-web-development/bootcamp-wd-m1-c1-l3/Read
+        -- https://blog.logrocket.com/javascript-array-group-array-grouptomap/
+        -- https://dev.to/ibrahima92/15-must-know-javascript-array-methods-in-2020-1kd8
+        -- https://codeinstitute.net/global/blog/javascript-arrays/
+
+        24. Json & object 
+        -- Javascript Object methods - Webkul Blog
+        -- Introduction to Sets in JavaScript - All You Need to Know (alexdevero.com)
+        -- How to Work With JSON object in Javascript (microverse.org)
+        -- Serializing Objects - JavaScript: The Definitive Guide, 6th Edition [Book] (oreilly.com)
+
+        25. Function basics
+        -- JavaScript: Why Named Arguments are Better than Positional Arguments | by Aditya Agarwal | Bits and Pieces (bitsrc.io)
+        -- JavaScript Functions (javascripttutorial.net)
+        -- JavaScript Functions - Concept to Ease your Web Development Journey - DataFlair (data-flair.training)
+
+        26. Function Advance 
+        -- earn JavaScript Online - Courses for Beginners - javascript.com
+        -- Statements Vs. Expressions (joshwcomeau.com)
+        -- JavaScript Closure: What is it & How do you use it? (hubspot.com)
+
+
+        27. Asynchronous in Javascript 
+        -- Microtask and Macrotask: A Hands-on Approach | by Chidume Nnamdi 🔥💻🎵🎮 | Bits and Pieces (bitsrc.io)
+        -- JavaScript Asynchronous Programming and Callbacks (nodejs.dev)
+        -- Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More (freecodecamp.org)
+        -- http://latentflip.com/loupe/
+        -- Callback Hell Explained For Beginners | Complete Web Development Course #44 - YouTube
+        -- Promises Explained For Beginners | Async-Await & Promise | Web Development Course #45
+
+        28. Basics of Oops 
+        -- https://medium.com/@PitaJ/javascript-inheritance-patterns-179d8f6c143c
+        -- https://www.honeybadger.io/blog/javascript-oop/
+        -- https://dev.to/nehal_mahida/oops-in-javascript-with-easy-to-understand-examples-2ppn
+        -- Difference between proto and prototype - GeeksforGeeks
+
+        29. Skill Mastery 
+        -- 
+
+    }
+
+
+    Chapter 03 Mid {
+        31 Quiz
+        -- 
+        32 Coding 
+        -- 
+    }
+
+
+    Chapter 04 Modern {
+        41. Functional 
+        -- 
+        42. Ecma Script 
+        -- 
+        43. Debugging
+        -- 
+        44. Skill Mastery 
+        -- 
+    }
+
+    Chapter 05 Revision 
+    Chapter 06 End 
+    Chapter 07 Project 
+    Chapter 08 Extra 
+
+
+}

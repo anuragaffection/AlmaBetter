@@ -1,8 +1,8 @@
-https://nodejs.org/en/learn
 
-
-
-Important Links to Explore 
+Important Links to Explore {
+    -- https://nodejs.org/en/learn
+    -- https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
+}
 
 
 
@@ -95,7 +95,6 @@ Module 1 Javascript {
     }
 
 
-
     Chapter 03 Mid {
         31 Quiz
         -- 
@@ -134,16 +133,9 @@ Module 1 Javascript {
 
 
 
-
-
-
-
-
-
 Module 2 DSA {
 
     Chapter 01 Basic {
-
         11. Getting Started With Algorithms
         -- Lecture 20: Amortized Analysis (cornell.edu)
         -- Introduction to Data Structures and Algorithms (developerinsider.co)
@@ -173,7 +165,6 @@ Module 2 DSA {
 
 
     Chapter 02 Algorithm {
-        
         21.Sorting 
         -- Comparison Sorting Visualization (usfca.edu)
         -- Sorting Algorithm Stability - What it is and When it Matters | Thomas Stringer (trstringer.com)
@@ -233,12 +224,9 @@ Module 2 DSA {
 
 
 
-
-
 Module 03 frontend {
     
     Chapter 01. Static Web {
-
         11. HTML Basics
         -- https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html
         -- https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599
@@ -291,6 +279,52 @@ Module 03 frontend {
     }
 
 
+    Chapter 03 Tailwind Css 
+
+    Chapter 04 Mid 
+
+    Chapter 05 React 
+
+    Chapter 06 Next {
+
+        61 Intro 
+        -- https://www.freecodecamp.org/news/nextjs-tutorial/
+        -- https://welearncode.com/beginners-guide-nextjs/
+        -- https://blog.logrocket.com/manage-seo-next-js-with-next-seo/
+        
+        62 Data Fetching 
+        -- https://nextjs.org/docs/pages/building-your-application/data-fetching/building-forms
+        -- https://nextjs.org/docs/pages/building-your-application/data-fetching
+        -- https://javascript.plainenglish.io/how-to-cache-api-calls-in-next-js-f4b6aefa84f1
+        
+        63 Routing 
+        -- https://nextjs.org/docs/pages/building-your-application/routing
+        -- https://www.builder.io/blog/next-13-app-router
+        -- https://www.telerik.com/blogs/nextjs-api-routes-what-need-know
+        
+        64 Layout 
+        -- https://blog.logrocket.com/best-styling-options-nextjs/
+        -- https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/
+        -- https://nextjs.org/blog/styling-next-with-styled-jsx
+        
+        65 Optimization 
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/images
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
+        -- https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
+        
+        66 Database 
+        -- https://upstash.com/blog/best-database-for-nextjs
+        -- https://www.mongodb.com/docs/
+        -- https://daily.dev/blog/authentication-in-nextjs
+        
+        67 Security 
+        -- https://nextjs.org/docs/deployment
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/testing
+        
+        68 Skill Mastery 
+        -- https://radixweb.com/blog/nextjs-vs-react
+        -- https://mobilecoderz.com/blog/next-js-framework-the-next-big-thing-of-2022/
+    }
 
 
  
@@ -315,101 +349,20 @@ Module 06 Career {
 
 
 
-05 React
-     51 Overview of React & JSX
-JavaScript Module Bundler: JavaScript Bundlers: In-Depth Guide - Snipcart
-Package Managers: Package Managers | Hands on React
- 
 
 
 
 
 
 
+Extra {
+    ABCAT
+    AlmaX - AB-CAT (notion.site)
+    React ES6 Arrow Functions (w3schools.com) this keyword difference 
+    JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
+    Kickresume | Best Online Resume & Cover Letter Builder
 
+}
 
-06 Next
-
-     61 Intro 
-Get Started with Next.js: https://www.freecodecamp.org/news/nextjs-tutorial/
-Guide to Next.js: https://welearncode.com/beginners-guide-nextjs/
-Manage SEO in Next.js: https://blog.logrocket.com/manage-seo-next-js-with-next-seo/
- 
-
-     62 Data Fetching 
-Building Forms: https://nextjs.org/docs/pages/building-your-application/data-fetching/building-forms
-Data Fetching: https://nextjs.org/docs/pages/building-your-application/data-fetching
-Caching in Next.js: https://javascript.plainenglish.io/how-to-cache-api-calls-in-next-js-f4b6aefa84f1
-
-
-     63 Routing 
-Next.js Routes (official doc): https://nextjs.org/docs/pages/building-your-application/routing
-Next.js App Router: https://www.builder.io/blog/next-13-app-router
-Next.js API Routes: https://www.telerik.com/blogs/nextjs-api-routes-what-need-know
- 
-
-
-     64 Layout 
-https://blog.logrocket.com/best-styling-options-nextjs/
-https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/
-https://nextjs.org/blog/styling-next-with-styled-jsx
- 
-
-
-
-65 Optimization 
-Image Optimization: https://nextjs.org/docs/pages/building-your-application/optimizing/images
-Font Optimization: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
-Increase the speed of Next.js Apps: https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
-
-
-
-66 Database 
- Best Databases for Next.js: https://upstash.com/blog/best-database-for-nextjs
-MongoDB Database: https://www.mongodb.com/docs/
-Authentication in Next.js: https://daily.dev/blog/authentication-in-nextjs
- 
-
-
- 67 Security 
-Deployment on Vercel: https://nextjs.org/docs/deployment
-Testing: https://nextjs.org/docs/pages/building-your-application/optimizing/testing
- 
-   68 Skill Mastery 
-Next.js vs React.js: https://radixweb.com/blog/nextjs-vs-react
-Next.js big things: https://mobilecoderz.com/blog/next-js-framework-the-next-big-thing-of-2022/
- 
-
-
-
-
-
-
-
-
-
-
-Module 4 
-
-01 Relational Database
-11. Introduction to Database
-Database partitioning? What is it, why should I use it?
-Distributed Database Concepts
- 
-
-
-
-
-ABCAT
-AlmaX - AB-CAT (notion.site)
-
-
-Extra
-React ES6 Arrow Functions (w3schools.com) this keyword difference 
-JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
-Kickresume | Best Online Resume & Cover Letter Builder
-
-
-https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
 
 
