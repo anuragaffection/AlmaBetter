@@ -1,13 +1,14 @@
-01 
+Web services
+
+
+01.
 Which type of web service relies on XML-based messaging and typically uses the SOAP protocol?
 
 REST
-
 JSON-RPC
-
 SOAP
-
 GraphQL
+
 
 
 
@@ -17,12 +18,11 @@ GraphQL
 Which of the following is NOT a benefit of using web services?
 
 Interoperability
-
 Tight coupling between systems
-
 Reusability
-
 Platform independence
+
+
 
 
 
@@ -32,12 +32,11 @@ Platform independence
 Which HTTP methods are commonly used in Web APIs for performing CRUD (Create, Read, Update, Delete) operations?
 
 GET, POST, PUT, DELETE
-
 READ, WRITE, MODIFY, REMOVE
-
 FETCH, ADD, UPDATE, DROP
-
 RECEIVE, SEND, EDIT, ERASE
+
+
 
 
 
@@ -47,12 +46,12 @@ RECEIVE, SEND, EDIT, ERASE
 What does API stand for in the context of web development?
 
 Application Program Interface
-
 Application Programming Interface
-
 Advanced Program Integration
-
 Application Protocol Interface
+
+
+
 
 
 
@@ -62,12 +61,12 @@ Application Protocol Interface
 Which HTTP status code indicates a successful response for a Web API request?
 
 200 OK
-
 404 Not Found
-
 500 Internal Server Error
-
 401 Unauthorized
+
+
+
 
 
 
@@ -77,12 +76,11 @@ Which HTTP status code indicates a successful response for a Web API request?
 Which content type is commonly used for sending structured data in the request body of a Web API call?
 
 application/json
-
 text/plain
-
 application/xml
-
 multipart/form-data
+
+
 
 
 
@@ -92,12 +90,12 @@ multipart/form-data
 Which technology is commonly used for real-time communication between a client and server in a Web API?
 
 WebSocket
-
 HTTP/1.0
-
 REST
-
 XML-RPC
+
+
+
 
 
 
@@ -106,12 +104,10 @@ XML-RPC
 What is a web service?
 
 A physical device used to access the internet.
-
 A software application that runs only on mobile devices.
-
 A standardized way for different software applications to communicate over the internet.
-
 A programming language used for web development.
+
 
 
 
@@ -121,12 +117,12 @@ A programming language used for web development.
 What is the main advantage of using web services for integrating different applications?
 
 Increased application performance
-
 Reduced need for internet connectivity
-
 Simplified development process
-
 Seamless integration of incompatible systems
+
+
+
 
 
 
@@ -135,12 +131,11 @@ Seamless integration of incompatible systems
 Which tool is commonly used for manual testing and exploring APIs?
 
 Postman
-
 Selenium
-
 Jenkins
-
 Jira
+
+
 
 
 
@@ -153,16 +148,12 @@ Answer
 01.
 SOAP
 
-Justification
-
 SOAP (Simple Object Access Protocol) is a type of web service that relies on XML- based messaging. It defines a set of rules for structuring messages and provides a standardized way for applications to communicate and perform remote procedure calls.
 
 
 
 02.
 Tight coupling between systems
-
-Justification
 
 One of the benefits of using web services is interoperability, which allows different systems to communicate regardless of their underlying technologies. Tight coupling between systems, on the other hand, can lead to dependencies and difficulties in maintaining and scaling applications.
 
@@ -171,8 +162,6 @@ One of the benefits of using web services is interoperability, which allows diff
 
 03.
 GET, POST, PUT, DELETE
-
-Justification
 
 HTTP methods such as GET (read), POST (create), PUT (update), and DELETE (delete) are used in Web APIs to perform CRUD operations on resources.
 
@@ -183,8 +172,6 @@ HTTP methods such as GET (read), POST (create), PUT (update), and DELETE (delete
 04.
 Application Programming Interface
 
-Justification
-
 An API (Application Programming Interface) is a set of rules and protocols that allow different software applications to communicate with each other.
 
 
@@ -193,8 +180,6 @@ An API (Application Programming Interface) is a set of rules and protocols that 
 05.
 200 OK
 
-Justification
-
 The 200 OK status code indicates that the request was successful and the server is providing the expected response.
 
 
@@ -202,8 +187,6 @@ The 200 OK status code indicates that the request was successful and the server 
 
 06.
 application/json
-
-Justification
 
 JSON (JavaScript Object Notation) is a widely used format for sending structured data in Web API requests and responses.
 
@@ -214,8 +197,6 @@ JSON (JavaScript Object Notation) is a widely used format for sending structured
 07.
 WebSocket
 
-Justification
-
 WebSocket is a protocol that enables two- way communication between a client and server over a single, long-lived connection, allowing real-time updates and data exchange
 
 
@@ -225,8 +206,6 @@ WebSocket is a protocol that enables two- way communication between a client and
 08.
 A standardized way for different software applications to communicate over the internet.
 
-Justification
-
 A web service is a software component or application that provides a standardized way for different software systems to communicate and interact with each other over the internet. It allows applications to exchange data and perform operations regardless of the programming languages or platforms they are built on.
 
 
@@ -235,8 +214,6 @@ A web service is a software component or application that provides a standardize
 09.
 Seamless integration of incompatible systems
 
-Justification
-
 One of the main advantages of using web services is their ability to enable seamless integration between different applications and systems, even if they are built on different technologies or platforms. Web services provide a standardized way for these systems to communicate and exchange data, overcoming compatibility challenges.
 
 
@@ -244,8 +221,6 @@ One of the main advantages of using web services is their ability to enable seam
 
 10.
 Postman
-
-Justification
 
 Postman is a popular tool for manual testing and exploring APIs. It allows users to send requests, view responses, and analyze API behavior.
 

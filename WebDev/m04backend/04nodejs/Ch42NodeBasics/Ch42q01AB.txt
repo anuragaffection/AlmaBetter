@@ -4,17 +4,11 @@ Node js basic
 01 
 Which NPM command is used to uninstall a package?
 
-Review Later
-
-+
-
 npm remove package-name
-
 npm uninstall package-name
-
 npm delete package-name
-
 npm erase package-name
+
 
 
 
@@ -23,16 +17,9 @@ npm erase package-name
 02.
 Which HTTP method is used to retrieve data from a server in a Node.js HTTP client?
 
-Review Later
-
-+
-
 GET
-
 POST
-
 PUT
-
 DELETE
 
 
@@ -42,16 +29,9 @@ DELETE
 03.
 Which NPM command is used to install project dependencies listed in the package.json file?
 
-Review Later
-
-+
-
 npm add
-
 npm install
-
 npm update
-
 npm upgrade
 
 
@@ -63,15 +43,9 @@ npm upgrade
 Which keyword(s) is/are used to import a module in Node.js?
 
 Include
-
 import
-
 require
-
 use
-
-
-
 
 
 
@@ -82,14 +56,9 @@ use
 05.
 What is Yarn in the context of Node.js?
 
-Review Later
-
 A package manager for Node.js.
-
 A web framework for building Node.js applications.
-
 A version control system for managing Node.js projects.
-
 A programming language used in Node.js development.
 
 
@@ -100,17 +69,14 @@ A programming language used in Node.js development.
 06.
 What does the os module in Node.js provide?
 
-Review Later
-
-+
 
 Operations on external servers
-
 File system operations
-
 Operating system-related functionality
-
 Object serialization
+
+
+
 
 
 
@@ -118,11 +84,8 @@ Object serialization
 In a Node.js HTTP server, how can you extract data from the request URL?
 
 Using the query property
-
 Using the data event
-
 Using the params object
-
 Using the url property
 
 
@@ -134,16 +97,9 @@ Using the url property
 08.
 What is the purpose of the HTTP module in Node.js?
 
-Review Later
-
-+
-
 Handling file operations
-
 Creating and managing a local database
-
 Building user interfaces
-
 Implementing HTTP servers and clients
 
 
@@ -152,16 +108,9 @@ Implementing HTTP servers and clients
 09.
 Which command would you use to run a package using NPX?
 
-Review Later
-
-+
-
 npm run
-
 npx run
-
 npx execute
-
 npx
 
 
@@ -171,16 +120,9 @@ npx
 10.
 What is the purpose of the npm update command?
 
-Review Later
-
-+
-
 It installs a new version of Node.js.
-
 It updates the package.json file.
-
 It updates all installed packages to their latest versions.
-
 It removes all packages from the project.
 
 
@@ -195,8 +137,6 @@ Answer
 01
 npm uninstall package-name
 
-Justification
-
 To uninstall a package, you can use the npm uninstall command followed by the package name.
 
 
@@ -204,8 +144,6 @@ To uninstall a package, you can use the npm uninstall command followed by the pa
 
 02.
 GET
-
-Justification
 
 The GET method is used to retrieve data from a server in an HTTP client. It is commonly used to request resources from a server, such as web pages or API data.
 
@@ -215,10 +153,6 @@ The GET method is used to retrieve data from a server in an HTTP client. It is c
 03.
 npm install
 
-+
-
-Justification
-
 The npm install command is used to install project dependencies listed in the package.json file
 
 
@@ -226,8 +160,6 @@ The npm install command is used to install project dependencies listed in the pa
 
 04.
 import require
-
-Justification
 
 In Node.js, the require & import keywords are used to import a module and make its functionality available in your code.
 
@@ -238,10 +170,6 @@ In Node.js, the require & import keywords are used to import a module and make i
 05.
 A package manager for Node.js.
 
-+
-
-Justification
-
 Yarn is a popular package manager for Node.js and other programming languages. It is used to manage project dependencies, install packages, and handle various package-related tasks efficiently.
 
 
@@ -250,8 +178,6 @@ Yarn is a popular package manager for Node.js and other programming languages. I
 06.
 Operating system-related functionality
 
-Justification
-
 The os module in Node.js provides functions to interact with and gather information about the operating system on which the Node.js application is running.
 
 
@@ -259,8 +185,6 @@ The os module in Node.js provides functions to interact with and gather informat
 
 07.
 Using the url property
-
-Justification
 
 In a Node.js HTTP server, you can extract data from the request URL using the url property of the request object. This property contains the URL string, which can be parsed to extract relevant information.
 
@@ -274,10 +198,6 @@ In a Node.js HTTP server, you can extract data from the request URL using the ur
 08.
 Implementing HTTP servers and clients
 
-+
-
-Justification
-
 The HTTP module in Node.js is used to create HTTP servers and clients, allowing you to handle HTTP requests and responses. It provides classes and methods for building web servers and making HTTP requests to remote servers.
 
 
@@ -285,8 +205,6 @@ The HTTP module in Node.js is used to create HTTP servers and clients, allowing 
 
 09.
 npx
-
-Justification
 
 The "npx" command is used to run binaries from locally installed packages. Simply running "npx" followed by the package name will execute the binary provided by that package.
 
@@ -296,10 +214,6 @@ The "npx" command is used to run binaries from locally installed packages. Simpl
 
 10.
 It updates all installed packages to their latest versions.
-
-+
-
-Justification
 
 The npm update command updates all installed packages to their latest versions as specified in the package.json file.
 
