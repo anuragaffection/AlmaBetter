@@ -37,17 +37,32 @@ Debugging nodejs applications
 
 
 Buffer {
-    -
+    -- temporary memory storage 
+    -- an array of integers 
+    -- 
+
+    Commands 
+    -- Buffer.alloc()
+    -- subarray()
+    -- toString()
+
+    Syntax 
+    -- new Buffer.alloc(<size>)
+    -- new Buffer.alloc([array of intergers])
+    -- new Buffer.alloc( size, text, encodingType);
+    -- subarray(indexIncluded, indexExcluded)
+    -- toString(encodingType, indexIncluded, indexExcluded)
+
 }
 
 
 URL {
-    -
+    --
 }
 
 
 Managing Modules with NPM {
-    -
+    --
 }
 
 
