@@ -32,3 +32,51 @@ Debugging nodejs applications
 
 
 
+
+
+
+
+Buffer {
+    -
+}
+
+
+URL {
+    -
+}
+
+
+Managing Modules with NPM {
+    -
+}
+
+
+Development Dependencies {
+    Automatically Generated files 
+    Installing from package.json 
+    Global Installations 
+    Managing Modules 
+    Listing modules
+    updating modules 
+    uninstalling modules 
+    Auditing Modules 
+}
+
+
+
+Nodemon 
+-- Installing nodemon 
+-- using options 
+-- using configurations 
+-- chalk 
+
+User Defined Modules 
+-- creating 
+-- testing 
+-- saving local module 
+
+Debugging nodejs applications 
+-- using watchers 
+-- using breakpoints 
+
+
