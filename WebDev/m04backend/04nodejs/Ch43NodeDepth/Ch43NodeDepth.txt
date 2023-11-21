@@ -19,7 +19,8 @@ Nodemon
 -- Installing nodemon 
 -- using options 
 -- using configurations 
--- chalk 
+
+chalk 
 
 User Defined Modules 
 -- creating 
@@ -193,11 +194,42 @@ Development Dependencies {
 
 
 
-Nodemon 
--- Installing nodemon 
--- using options 
--- using configurations 
--- chalk 
+Nodemon {
+    
+    Installing nodemon 
+    -- npm install nodemon --global 
+    -- npm install nodemon --save-dev 
+    -- nodemon <server.js>
+    -- nodemon server.js 3006 
+    -- rs & ENTER = restart 
+    -- nodemon --help
+    
+
+    using options]] 
+    -- exec 
+    -- execMap
+    -- ext 
+    -- delay 
+    -- watch 
+    -- ignore 
+    -- verbose 
+
+
+    using configurations 
+    -- nodemon.json 
+}
+    
+
+
+
+
+chalk {
+    -- npm install chalk
+    -- const chalk = require('chalk');
+}
+
+
+
 
 User Defined Modules 
 -- creating 
@@ -207,6 +239,7 @@ User Defined Modules
 Debugging nodejs applications 
 -- using watchers 
 -- using breakpoints 
+
 
 
 
@@ -263,7 +296,41 @@ Actvity {
     03. url
     04. install
     05. npm
+    
+    
+    
+    
+    
+    Activity: Fill in the blanks
+    
+    01. The npm ____________(upgrade / update) command is used to update outdated modules in your project.
+    
+    02. When you want to remove a module from your project, you can use the npm _____________(remove / uninstall) command.
+    
+    03. You can install Nodemon globally using _____________(npm install -g / npm global add).
+    
+    04. Nodemon is primarily used for _____________(automatic restarts / live reloading) in Node.js development. 
+    
+    05. Chalk is a popular library for adding ____________(color / images) to text in the terminal.
+    
+    Answers
+    01. Update
+    02. Uninstall
+    03. npm install -g
+    04. Automatic Restart
+    05. Color
+
+
+}
 
 
 
+
+
+
+example {
+
+    option nodemon
+    -- nodemon --watch server --ext ts --exec ts-node --ignore '*.test.ts' --delay 3 server/server.ts
+    
 }
