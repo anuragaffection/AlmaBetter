@@ -1,0 +1,415 @@
+https://nodejs.org/en/learn
+
+
+
+Important Links to Explore 
+
+
+
+
+
+
+
+Module 1 Javascript {
+
+
+    Chapter 01 Basic {
+
+        11. Getting started with programming
+        -- Programming Paradigms – Paradigm Examples for Beginners (freecodecamp.org)
+        -- JavaScript Syntax & Structure | EASEOUT
+
+        12. Introduction to javascript
+        -- A Practical Guide to Symbols in JavaScript | www.thecodebarbarian.com
+        -- What is JavaScript? Complete Introduction with Hello World! Example (guru99.com)
+            
+        13. Javascript Operators
+        -- Spread Operator in JavaScript (stackabuse.com)
+        -- https://www.educative.io/blog/bitwise-and-javascript
+        -- https://www.syncfusion.com/blogs/post 
+        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
+        -- https://codepip.com/games/code-crunchers/
+
+        14. Skill Mastery
+        -- https://javascript.plainenglish.io/what-are-javascript-programming-paradigms-3ef0f576dfdb
+        -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+    }
+
+
+
+
+    Chapter 02 Foundation {
+        
+        21. Javascript Decision Statements 
+        -- https://www.freecodecamp.org/news/the-ternary-operator-in-javascript/
+        -- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+        -- https://studyopedia.com/javascript/decision-making-statements/
+        
+        22. Loops & control statements
+        -- https://dev.to/srsajjad/optimizing-loop-in-javascript-3la
+        -- https://data-flair.training/blogs/javascript-loop-control/
+        -- https://www.mygreatlearning.com/javascript/tutorials/javascript-loop-control
+
+        23. Array & Strings
+        -- https://medium.com/@mystyx/javascript-array-hidden-potential-43c9d31bb1c2
+        -- https://grow.almabetter.com/web-dev/learn/full-stack-web-development/bootcamp-wd-m1-c1-l3/Read
+        -- https://blog.logrocket.com/javascript-array-group-array-grouptomap/
+        -- https://dev.to/ibrahima92/15-must-know-javascript-array-methods-in-2020-1kd8
+        -- https://codeinstitute.net/global/blog/javascript-arrays/
+
+        24. Json & object 
+        -- Javascript Object methods - Webkul Blog
+        -- Introduction to Sets in JavaScript - All You Need to Know (alexdevero.com)
+        -- How to Work With JSON object in Javascript (microverse.org)
+        -- Serializing Objects - JavaScript: The Definitive Guide, 6th Edition [Book] (oreilly.com)
+
+        25. Function basics
+        -- JavaScript: Why Named Arguments are Better than Positional Arguments | by Aditya Agarwal | Bits and Pieces (bitsrc.io)
+        -- JavaScript Functions (javascripttutorial.net)
+        -- JavaScript Functions - Concept to Ease your Web Development Journey - DataFlair (data-flair.training)
+
+        26. Function Advance 
+        -- earn JavaScript Online - Courses for Beginners - javascript.com
+        -- Statements Vs. Expressions (joshwcomeau.com)
+        -- JavaScript Closure: What is it & How do you use it? (hubspot.com)
+
+
+        27. Asynchronous in Javascript 
+        -- Microtask and Macrotask: A Hands-on Approach | by Chidume Nnamdi 🔥💻🎵🎮 | Bits and Pieces (bitsrc.io)
+        -- JavaScript Asynchronous Programming and Callbacks (nodejs.dev)
+        -- Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More (freecodecamp.org)
+        -- http://latentflip.com/loupe/
+        -- Callback Hell Explained For Beginners | Complete Web Development Course #44 - YouTube
+        -- Promises Explained For Beginners | Async-Await & Promise | Web Development Course #45
+
+        28. Basics of Oops 
+        -- https://medium.com/@PitaJ/javascript-inheritance-patterns-179d8f6c143c
+        -- https://www.honeybadger.io/blog/javascript-oop/
+        -- https://dev.to/nehal_mahida/oops-in-javascript-with-easy-to-understand-examples-2ppn
+        -- Difference between proto and prototype - GeeksforGeeks
+
+        29. Skill Mastery 
+        -- 
+
+    }
+
+
+
+    Chapter 03 Mid {
+        31 Quiz
+        -- 
+        32 Coding 
+        -- 
+    }
+
+
+    Chapter 04 Modern {
+        41. Functional 
+        -- 
+        42. Ecma Script 
+        -- 
+        43. Debugging
+        -- 
+        44. Skill Mastery 
+        -- 
+    }
+
+    Chapter 05 Revision 
+    Chapter 06 End 
+    Chapter 07 Project 
+    Chapter 08 Extra 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Module 2 DSA {
+
+    Chapter 01 Basic {
+
+        11. Getting Started With Algorithms
+        -- Lecture 20: Amortized Analysis (cornell.edu)
+        -- Introduction to Data Structures and Algorithms (developerinsider.co)
+        -- https://towardsdatascience.com/space-and-time-complexity-in-computer-algorithms-a7fffe9e4683?gi=4d78fd69a975
+        -- An Ode to Asymptotic Notations. On the La La Land of algorithms, there… | by Hitesh Kumar | Smelly Code | Medium
+
+        12. Arrays & Strings
+        -- Grow - AlmaBetter
+        -- https://eloquentjavascript.net/index.html
+        -- https://eloquentjavascript.net/04_data.html
+        -- https://www.freecodecamp.org/news/javascript-basics-strings-arrays-objects/
+        -- https://phrase.com/blog/posts/i18n-a-simple-definition/
+
+        13. Introduction to pattern Matching
+        -- https://regex101.com/
+        -- https://stackdiary.com/glossary/z-algorithm/
+        -- https://dataladder.com/guide-to-pattern-matching-what-it-means-and-how-to-do-it/
+        -- https://github.com/foo123/PatternMatchingAlgorithms
+
+        14. Advance Coding 
+        -- 
+
+        15. Skill Mastery 
+        -- 
+
+    }
+
+
+    Chapter 02 Algorithm {
+        
+        21.Sorting 
+        -- Comparison Sorting Visualization (usfca.edu)
+        -- Sorting Algorithm Stability - What it is and When it Matters | Thomas Stringer (trstringer.com)
+        -- Annotated Algorithms: Bubble Sort, Insertion Sort, and Selection Sort | by Spencer Smith | Medium
+        -- Merge sort - Wikipedia
+        -- Quicksort - Wikipedia
+        -- Merge Sort visualize | Algorithms | HackerEarth
+        
+        22. Advance Sorting 
+        -- https://learnersbucket.com/tutorials/algorithms/shell-sort-algorithm-in-javascript/
+        -- https://www.boardinfinity.com/blog/time-complexity-of-sorting-algorithms/
+        -- https://levelup.gitconnected.com/sorting-algorithms-comparing-the-best-and-the-rest-2448129f5b4a
+        -- https://blog.devgenius.io/the-10-common-sorting-algorithms-dbcf253d344a
+
+        13. Searching 
+        -- The Difference Between SHA-1, SHA-2 and SHA-256 Hash Algorithms (thesslstore.com)
+        -- trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings (github.com)
+        -- JavaScript Hash Table – Associative Array Hashing in JS (freecodecamp.org)
+
+        24. Advance Searching 
+        -- https://www.notion.so/Tri-Search-Algorithm-2e553221aeea4f06bd3fe06658ee8287?pvs=21
+        -- https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+        
+        25. Skill Mastery 
+        -- https://www.toptal.com/developers/sorting-algorithms
+        -- https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+        -- https://medium.com/@sujanxchhetri/searching-algorithms-in-javascript-ecb880f70e07
+
+    }
+
+
+
+    Chapter 03 Mid 
+
+
+    Chapter 04 Recursion {
+        41. Recursion 
+        -- MDN web docs: Recursion
+        -- https://dev.to/kalashin1/recursive-functions-in-javascript-b6a
+        -- https://exploringjs.com/es6/ch_tail-calls.html
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Module 03 frontend {
+    
+    Chapter 01. Static Web {
+
+        11. HTML Basics
+        -- https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html
+        -- https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599
+        
+        12. HTML Advance
+        -- https://www.codewithrandom.com/2022/12/10/how-to-add-multimedia-to-html/
+        -- https://www.w3.org/MarkUp/Guide/Advanced.html
+        -- W3C
+
+        13. Css Fundamental
+        -- https://levelup.gitconnected.com/fundamental-css-for-beginners-f44e8b9a5da5
+        -- https://www.htmlgoodies.com/css/css-border-padding-margin/
+        
+        14. Advanced Css Techniques
+        -- https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+        -- https://www.smashingmagazine.com/2022/10/advanced-animations-css/
+        -- https://dev.to/w3tsa/css-display-and-css-position-4ldi
+        
+        15. Bootstrap Basics
+        -- https://medium.com/codingthesmartway-com-blog
+        -- introduction-to-bootstrap-4-flex-layout-flexbox-for-bootstrap-f85405ce5ebf
+        -- https://www.sitepoint.com/bootstrap-grid-mastering-flexbox/
+
+        16. Bootstrap Advance
+        -- 
+
+        17. Skill Mastery
+        -- 
+
+    }
+
+
+
+    Chapter 02. Dyamic Web {
+        21. Dom Basics 
+        -- Custom Elements: Using custom elements - Web APIs | MDN (mozilla.org)
+        --  Attribute Manipulation: How To Modify Attributes, Classes, and Styles in the DOM | DigitalOcean
+
+        22. Dom Advance
+        -- 
+
+        23. jquery 
+        -- 
+
+        24. Asynchronous
+        -- 
+
+        25. Skill Mastery
+        -- 
+    }
+
+
+
+
+ 
+}
+
+
+
+Module 04 backend {
+
+}
+
+
+Module 05 cloud {
+
+}
+
+
+Module 06 Career {
+
+}
+
+
+
+
+05 React
+     51 Overview of React & JSX
+JavaScript Module Bundler: JavaScript Bundlers: In-Depth Guide - Snipcart
+Package Managers: Package Managers | Hands on React
+ 
+
+
+
+
+
+
+
+
+06 Next
+
+     61 Intro 
+Get Started with Next.js: https://www.freecodecamp.org/news/nextjs-tutorial/
+Guide to Next.js: https://welearncode.com/beginners-guide-nextjs/
+Manage SEO in Next.js: https://blog.logrocket.com/manage-seo-next-js-with-next-seo/
+ 
+
+     62 Data Fetching 
+Building Forms: https://nextjs.org/docs/pages/building-your-application/data-fetching/building-forms
+Data Fetching: https://nextjs.org/docs/pages/building-your-application/data-fetching
+Caching in Next.js: https://javascript.plainenglish.io/how-to-cache-api-calls-in-next-js-f4b6aefa84f1
+
+
+     63 Routing 
+Next.js Routes (official doc): https://nextjs.org/docs/pages/building-your-application/routing
+Next.js App Router: https://www.builder.io/blog/next-13-app-router
+Next.js API Routes: https://www.telerik.com/blogs/nextjs-api-routes-what-need-know
+ 
+
+
+     64 Layout 
+https://blog.logrocket.com/best-styling-options-nextjs/
+https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/
+https://nextjs.org/blog/styling-next-with-styled-jsx
+ 
+
+
+
+65 Optimization 
+Image Optimization: https://nextjs.org/docs/pages/building-your-application/optimizing/images
+Font Optimization: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
+Increase the speed of Next.js Apps: https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
+
+
+
+66 Database 
+ Best Databases for Next.js: https://upstash.com/blog/best-database-for-nextjs
+MongoDB Database: https://www.mongodb.com/docs/
+Authentication in Next.js: https://daily.dev/blog/authentication-in-nextjs
+ 
+
+
+ 67 Security 
+Deployment on Vercel: https://nextjs.org/docs/deployment
+Testing: https://nextjs.org/docs/pages/building-your-application/optimizing/testing
+ 
+   68 Skill Mastery 
+Next.js vs React.js: https://radixweb.com/blog/nextjs-vs-react
+Next.js big things: https://mobilecoderz.com/blog/next-js-framework-the-next-big-thing-of-2022/
+ 
+
+
+
+
+
+
+
+
+
+
+Module 4 
+
+01 Relational Database
+11. Introduction to Database
+Database partitioning? What is it, why should I use it?
+Distributed Database Concepts
+ 
+
+
+
+
+ABCAT
+AlmaX - AB-CAT (notion.site)
+
+
+Extra
+React ES6 Arrow Functions (w3schools.com) this keyword difference 
+JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
+Kickresume | Best Online Resume & Cover Letter Builder
+
+
+https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
+
+
