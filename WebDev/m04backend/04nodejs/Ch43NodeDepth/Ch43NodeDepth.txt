@@ -33,7 +33,11 @@ Debugging nodejs applications
 
 
 
-
+Notes {
+    -- cd <changeDrive>
+    -- mkdir <newDirectory>
+    -- touch index.js
+}
 
 
 
@@ -111,6 +115,7 @@ Managing Modules with NPM {
 
     -- npm ls 
     -- npm install <package_name> @<version>
+    -- npm install --production 
     -- npm publish 
 
     file 
@@ -123,15 +128,68 @@ Managing Modules with NPM {
 
 
 Development Dependencies {
+
+    testing tools 
+    -- Mocha 
+    -- jest 
+
+
+    code coverage tools 
+    -- istanbul 
+    -- coveralls 
+
+
+    linting tools
+    -- eslint 
+    -- jshint 
+
+
+    documentaion generators 
+    -- jsDoc
+    -- swagger  
+
+
+    Commands
+    -- npm install <package_name> --save-dev
+    -- npm install --production
+
+
     Automatically Generated files 
+    -- package-lock.json
+    -- node modules 
+
+
     Installing from package.json 
+    -- npm i 
+    -- npm i --production
+
+
     Global Installations 
-    Managing Modules 
+    -- npm i <package_name> -g 
+
+
     Listing modules
+    -- npm ls 
+    -- npm ls --all 
+    -- npm ls <package_name> 
+
+
     updating modules 
+    -- npm outdated 
+    -- npm update
+    -- npm up 
+
+
     uninstalling modules 
+    -- npm uninstall <module_name> 
+    -- npm uninstall -g <module_name>
+
     Auditing Modules 
+    -- npm audit 
+    -- npm audit fix 
 }
+
+
 
 
 
