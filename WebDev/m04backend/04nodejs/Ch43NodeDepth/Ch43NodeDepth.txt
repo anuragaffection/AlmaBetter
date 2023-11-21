@@ -106,7 +106,7 @@ URL {
 
 
 Managing Modules with NPM {
-
+    -- npm i
     -- npm install <package_name> 
     -- npm install <package_name> --save 
     -- npm install <package_name> --save-dev
@@ -116,6 +116,11 @@ Managing Modules with NPM {
 
     -- npm ls 
     -- npm install <package_name> @<version>
+    -- npm publish 
+
+    file 
+    -- package.json 
+    -- package-lock.json 
 }
 
 
