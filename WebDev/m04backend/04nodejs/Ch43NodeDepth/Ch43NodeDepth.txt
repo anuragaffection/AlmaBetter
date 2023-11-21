@@ -36,6 +36,12 @@ Debugging nodejs applications
 
 
 
+
+
+
+
+
+
 Buffer {
     -- temporary memory storage 
     -- an array of integers 
@@ -45,25 +51,75 @@ Buffer {
     -- Buffer.alloc()
     -- subarray()
     -- toString()
+    -- copy()
+
 
     Syntax 
     -- new Buffer.alloc(<size>)
     -- new Buffer.alloc([array of intergers])
     -- new Buffer.alloc( size, text, encodingType);
+
     -- subarray(indexIncluded, indexExcluded)
     -- toString(encodingType, indexIncluded, indexExcluded)
 
+    -- copy(targetBuffer)
+    -- copy(target, targetStart, sourceStart, sourceEnd);
+
 }
+
+
+
+
+
 
 
 URL {
-    --
+    -- Uniform resource locater 
+    
+    Commands
+    -- url.parse()
+    -- url.format()
+    -- url.resolve()
+
+    
+    parsed compoents 
+    -- protocol 
+    -- host 
+    -- pathname 
+    -- query 
+    -- hash 
+
+    url.parse
+    -- convert url into object 
+
+    url.format
+    -- convert object into url 
+
+    url.resolve]]
+    -- resolve relative_url & base_url make absolute_url
+
 }
+
+
+
+
 
 
 Managing Modules with NPM {
-    --
+
+    -- npm install <package_name> 
+    -- npm install <package_name> --save 
+    -- npm install <package_name> --save-dev
+
+    -- npm update <package_name> 
+    -- npm uninstall <package_name>
+
+    -- npm ls 
+    -- npm install <package_name> @<version>
 }
+
+
+
 
 
 Development Dependencies {
