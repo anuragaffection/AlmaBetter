@@ -37,11 +37,6 @@ Debugging nodejs applications
 
 
 
-
-
-
-
-
 Buffer {
     -- temporary memory storage 
     -- an array of integers 
@@ -156,3 +151,61 @@ Debugging nodejs applications
 -- using breakpoints 
 
 
+
+
+
+Practical 01 {
+
+    express 
+    -- framework for node.js
+    
+    mongoose 
+    -- ODM library for Mongodb
+    -- ODM = object data modeling 
+
+    bcrypt 
+    -- library for password hashing 
+    -- salting 
+    -- hashing 
+    
+    jsonwebtoken 
+    -- JWT = json web token 
+    -- authentication and authorization
+
+    dotenv 
+    -- .env 
+    -- environment variables 
+    -- sensitive information 
+    -- api keys 
+}
+
+
+
+
+
+
+
+Actvity {
+
+    Actvity : puzzle 
+
+    1. A popular HTTP method for retrieving data from a server.
+    
+    02. A temporary data storage area often used for efficient data transfer.
+
+    03. Abbreviation for Uniform Resource Locator.
+    
+    04. The command used to install a new package in Node.js using NPM.
+
+    05. A package manager for JavaScript that helps you manage project dependencies.
+
+    answer 
+    01. get
+    02. buffer
+    03. url
+    04. install
+    05. npm
+
+
+
+}
