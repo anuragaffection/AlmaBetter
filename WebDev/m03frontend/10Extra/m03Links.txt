@@ -1,0 +1,106 @@
+
+Module 03 frontend {
+    
+    Chapter 01. Static Web {
+        11. HTML Basics
+        -- https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html
+        -- https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599
+        
+        12. HTML Advance
+        -- https://www.codewithrandom.com/2022/12/10/how-to-add-multimedia-to-html/
+        -- https://www.w3.org/MarkUp/Guide/Advanced.html
+        -- W3C
+
+        13. Css Fundamental
+        -- https://levelup.gitconnected.com/fundamental-css-for-beginners-f44e8b9a5da5
+        -- https://www.htmlgoodies.com/css/css-border-padding-margin/
+        
+        14. Advanced Css Techniques
+        -- https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+        -- https://www.smashingmagazine.com/2022/10/advanced-animations-css/
+        -- https://dev.to/w3tsa/css-display-and-css-position-4ldi
+        
+        15. Bootstrap Basics
+        -- https://medium.com/codingthesmartway-com-blog
+        -- introduction-to-bootstrap-4-flex-layout-flexbox-for-bootstrap-f85405ce5ebf
+        -- https://www.sitepoint.com/bootstrap-grid-mastering-flexbox/
+
+        16. Bootstrap Advance
+        -- 
+
+        17. Skill Mastery
+        -- 
+
+    }
+
+
+
+    Chapter 02. Dyamic Web {
+        21. Dom Basics 
+        -- Custom Elements: Using custom elements - Web APIs | MDN (mozilla.org)
+        --  Attribute Manipulation: How To Modify Attributes, Classes, and Styles in the DOM | DigitalOcean
+
+        22. Dom Advance
+        -- 
+
+        23. jquery 
+        -- 
+
+        24. Asynchronous
+        -- 
+
+        25. Skill Mastery
+        -- 
+    }
+
+
+    Chapter 03 Tailwind Css 
+
+    Chapter 04 Mid 
+
+    Chapter 05 React 
+
+    Chapter 06 Next {
+
+        61 Intro 
+        -- https://www.freecodecamp.org/news/nextjs-tutorial/
+        -- https://welearncode.com/beginners-guide-nextjs/
+        -- https://blog.logrocket.com/manage-seo-next-js-with-next-seo/
+        
+        62 Data Fetching 
+        -- https://nextjs.org/docs/pages/building-your-application/data-fetching/building-forms
+        -- https://nextjs.org/docs/pages/building-your-application/data-fetching
+        -- https://javascript.plainenglish.io/how-to-cache-api-calls-in-next-js-f4b6aefa84f1
+        
+        63 Routing 
+        -- https://nextjs.org/docs/pages/building-your-application/routing
+        -- https://www.builder.io/blog/next-13-app-router
+        -- https://www.telerik.com/blogs/nextjs-api-routes-what-need-know
+        
+        64 Layout 
+        -- https://blog.logrocket.com/best-styling-options-nextjs/
+        -- https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/
+        -- https://nextjs.org/blog/styling-next-with-styled-jsx
+        
+        65 Optimization 
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/images
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
+        -- https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
+        
+        66 Database 
+        -- https://upstash.com/blog/best-database-for-nextjs
+        -- https://www.mongodb.com/docs/
+        -- https://daily.dev/blog/authentication-in-nextjs
+        
+        67 Security 
+        -- https://nextjs.org/docs/deployment
+        -- https://nextjs.org/docs/pages/building-your-application/optimizing/testing
+        
+        68 Skill Mastery 
+        -- https://radixweb.com/blog/nextjs-vs-react
+        -- https://mobilecoderz.com/blog/next-js-framework-the-next-big-thing-of-2022/
+    }
+
+
+ 
+}

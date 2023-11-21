@@ -1,0 +1,80 @@
+Module 2 DSA {
+
+    Chapter 01 Basic {
+        11. Getting Started With Algorithms
+        -- Lecture 20: Amortized Analysis (cornell.edu)
+        -- Introduction to Data Structures and Algorithms (developerinsider.co)
+        -- https://towardsdatascience.com/space-and-time-complexity-in-computer-algorithms-a7fffe9e4683?gi=4d78fd69a975
+        -- An Ode to Asymptotic Notations. On the La La Land of algorithms, there… | by Hitesh Kumar | Smelly Code | Medium
+
+        12. Arrays & Strings
+        -- Grow - AlmaBetter
+        -- https://eloquentjavascript.net/index.html
+        -- https://eloquentjavascript.net/04_data.html
+        -- https://www.freecodecamp.org/news/javascript-basics-strings-arrays-objects/
+        -- https://phrase.com/blog/posts/i18n-a-simple-definition/
+
+        13. Introduction to pattern Matching
+        -- https://regex101.com/
+        -- https://stackdiary.com/glossary/z-algorithm/
+        -- https://dataladder.com/guide-to-pattern-matching-what-it-means-and-how-to-do-it/
+        -- https://github.com/foo123/PatternMatchingAlgorithms
+
+        14. Advance Coding 
+        -- 
+
+        15. Skill Mastery 
+        -- 
+
+    }
+
+
+    Chapter 02 Algorithm {
+        21.Sorting 
+        -- Comparison Sorting Visualization (usfca.edu)
+        -- Sorting Algorithm Stability - What it is and When it Matters | Thomas Stringer (trstringer.com)
+        -- Annotated Algorithms: Bubble Sort, Insertion Sort, and Selection Sort | by Spencer Smith | Medium
+        -- Merge sort - Wikipedia
+        -- Quicksort - Wikipedia
+        -- Merge Sort visualize | Algorithms | HackerEarth
+        
+        22. Advance Sorting 
+        -- https://learnersbucket.com/tutorials/algorithms/shell-sort-algorithm-in-javascript/
+        -- https://www.boardinfinity.com/blog/time-complexity-of-sorting-algorithms/
+        -- https://levelup.gitconnected.com/sorting-algorithms-comparing-the-best-and-the-rest-2448129f5b4a
+        -- https://blog.devgenius.io/the-10-common-sorting-algorithms-dbcf253d344a
+
+        13. Searching 
+        -- The Difference Between SHA-1, SHA-2 and SHA-256 Hash Algorithms (thesslstore.com)
+        -- trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings (github.com)
+        -- JavaScript Hash Table – Associative Array Hashing in JS (freecodecamp.org)
+
+        24. Advance Searching 
+        -- https://www.notion.so/Tri-Search-Algorithm-2e553221aeea4f06bd3fe06658ee8287?pvs=21
+        -- https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+        
+        25. Skill Mastery 
+        -- https://www.toptal.com/developers/sorting-algorithms
+        -- https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+        -- https://medium.com/@sujanxchhetri/searching-algorithms-in-javascript-ecb880f70e07
+    }
+
+
+
+    Chapter 03 Mid 
+
+
+    Chapter 04 Recursion {
+        41. Recursion 
+        -- MDN web docs: Recursion
+        -- https://dev.to/kalashin1/recursive-functions-in-javascript-b6a
+        -- https://exploringjs.com/es6/ch_tail-calls.html
+    }
+
+
+
+
+}
+
+
+
