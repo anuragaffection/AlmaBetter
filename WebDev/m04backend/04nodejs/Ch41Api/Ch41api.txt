@@ -88,9 +88,7 @@ Types of Web Services {
 
 What is an API 
 
-
 Web API 
-
 
 How API Work 
 

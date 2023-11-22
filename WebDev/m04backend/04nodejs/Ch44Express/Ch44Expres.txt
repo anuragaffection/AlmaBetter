@@ -1,0 +1,105 @@
+
+What is an API 
+REST 
+What is an Express 
+Server using Express
+Express Routing 
+Rest API using Express
+Postman for testing api 
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+
+
+
+What is an API {
+    -- Nest , Tesla API 
+    -- https://www.youtube.com/watch?v=bpXgkdOtH0o
+}
+
+
+
+REST {
+    -- URL
+    -- URI 
+}
+
+
+
+What is an Express {
+    -- framework for Node.js 
+    -- middleware 
+    -- templating 
+}
+
+
+
+Server using Express {
+    -- L10serverExp.js [cwh - nodejs - folder ]
+}
+
+
+
+
+Express Routing {
+
+    syntax 
+    -- app.<METHOD>(<PATH>, <HANDLER>)
+
+    example 
+    -- app.get("/", function(){} )
+
+    middleware function
+    -- function that run before or after the route handler 
+    -- problem on example ]] 
+
+    method
+    -- get 
+    -- use 
+    -- post 
+    -- delete
+    -- put 
+    -- patch 
+
+}
+
+
+
+Rest API using Express {
+
+}
+
+
+
+Postman for testing api {
+    -- 
+}
+
+
+
+Activity {
+
+    Activity: Fill in the blanks
+    
+    01. Express.js is a ______________(front-end / back-end) web application framework for Node.js.
+    
+    02. To create a server using Express, you typically start by importing the ______________(server / express) module.
+    
+    03. To listen for incoming requests on a specific _______________(port / url), you can use the listen method.
+    
+    04. One of the methods is ____________(get / put), which is used to retrieve resource representations.
+    
+    05. To update a resource in REST, the ____________(put / patch) HTTP method is often used.
+    
+    Answers
+    01. Backend
+    02. Express
+    03. Port
+    04. GET
+    05. PUT
+}
