@@ -50,6 +50,7 @@ Buffer {
 
     Commands 
     -- Buffer.alloc()
+    -- Buffer.allocUnsafe()
     -- subarray()
     -- toString()
     -- copy()
@@ -93,6 +94,7 @@ URL {
     -- pathname 
     -- query 
     -- hash 
+    -- URLSearchParams 
 
     url.parse
     -- convert url into object 
@@ -250,9 +252,22 @@ User Defined Modules
 -- testing 
 -- saving local module 
 
-Debugging nodejs applications 
--- using watchers 
--- using breakpoints 
+
+Debugging nodejs applications {
+
+    -- using console.log()
+    -- using console.debug()
+    -- using node --inspect <filename>
+    -- chrome dev tools 
+    -- using vs code 
+    -- node inspector 
+    -- ndb 
+
+    using watchers 
+    
+    using breakpoints 
+}
+
 
 
 
