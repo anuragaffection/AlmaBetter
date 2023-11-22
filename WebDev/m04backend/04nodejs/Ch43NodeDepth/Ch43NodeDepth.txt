@@ -124,6 +124,9 @@ Managing Modules with NPM {
     -- npm install --production 
     -- npm publish 
 
+    -- npm init 
+    -- npm init -y 
+
     -- npm fund 
     -- npm audit 
 
@@ -196,6 +199,9 @@ Development Dependencies {
     Auditing Modules 
     -- npm audit 
     -- npm audit fix 
+
+    Escaping to enter value in package.json 
+    -- npm init -y 
 }
 
 
