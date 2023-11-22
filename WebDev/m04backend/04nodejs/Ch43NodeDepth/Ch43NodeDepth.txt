@@ -124,6 +124,9 @@ Managing Modules with NPM {
     -- npm install --production 
     -- npm publish 
 
+    -- npm fund 
+    -- npm audit 
+
     file 
     -- package.json 
     -- package-lock.json 
