@@ -1,0 +1,20 @@
+Express Advanced 
+
+
+Environment Variables 
+-- command line 
+-- less mess 
+
+Express Middleware 
+
+Express Built in Middleware
+-- Express.static 
+-- express.json 
+-- Middleware to a route 
+-- next()
+-- Middleware to all requests 
+
+Error Handling in Express
+-- Default error 
+-- custom error 
+-- Middleware for error Handling

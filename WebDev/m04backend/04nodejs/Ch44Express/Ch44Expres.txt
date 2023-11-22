@@ -102,4 +102,31 @@ Activity {
     03. Port
     04. GET
     05. PUT
+
+
+
+
+    Activity: True or False
+
+    01. Express is a popular Node.js library used for building web servers  and APIs.
+    
+    02. Express routing allows you to define different routes for handling HTTP requests.
+    
+    03. In Express, you cannot define multiple route handlers for the same route to handle different HTTP request methods.
+    
+    04. Express middleware functions can be used to perform tasks such as authentication, logging, or data validation before reaching route handlers.
+    
+    05. Postman is a popular tool for testing APIs by sending HTTP requests and inspecting the responses.
+    
+    06. Postman allows you to save and organize your API requests in collections for easier management.
+    
+    Answers
+    01. True
+    02. True
+    03. False
+    04. True
+    05. True
+    06. True
+
+    
 }
