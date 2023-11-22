@@ -1,0 +1,259 @@
+
+### Buffer
+1. What is a Buffer in Node.js?
+2. How can you convert a Buffer to a string in Node.js?
+3. Explain the difference between Buffers and Streams in Node.js.
+
+### URL
+1. How do you parse a URL in Node.js?
+2. Explain the components of a URL object in Node.js.
+
+### Managing Modules with NPM
+1. What is NPM and what is its role in Node.js?
+2. How do you install dependencies from package.json in Node.js?
+3. Explain the purpose of `package-lock.json` in Node.js projects.
+4. What are development dependencies in package.json?
+5. How can you install a package globally using NPM?
+6. What is the command to update NPM packages to their latest versions?
+7. How do you audit and fix security vulnerabilities in NPM packages?
+8. List some commonly used commands to manage NPM modules.
+
+### Nodemon
+1. What is Nodemon, and why is it used in Node.js development?
+2. How do you install Nodemon globally and locally?
+3. Explain how you can use options and configurations in Nodemon.
+4. What is the purpose of using Nodemon over the Node.js standard runtime?
+
+### Chalk
+1. What is Chalk in Node.js, and why is it used?
+2. How do you style terminal text using Chalk?
+3. Can you explain how to apply different colors and styles to console output using Chalk?
+
+### User Defined Modules
+1. How do you create a custom module in Node.js?
+2. What is the process to test a local Node.js module?
+3. Explain how to save a locally created module for reuse in other projects.
+
+### Debugging Node.js Applications
+1. What debugging tools are available for Node.js?
+2. How do you set and use watchers in Node.js debugging?
+3. Explain the process of setting breakpoints and debugging Node.js applications.
+
+
+
+
+
+
+
+
+
+### Buffer
+1. **What is a Buffer in Node.js?**
+   - A Buffer is a temporary storage for binary data in Node.js. 
+     It's similar to an array of integers but corresponds to raw memory allocation outside the V8 heap. 
+     It's useful for dealing with binary data, such as reading from files or handling network transmissions.
+
+
+
+
+
+2. **How can you convert a Buffer to a string in Node.js?**
+   - You can convert a Buffer to a string using the `toString()` method available on the Buffer object. 
+   For example: `buffer.toString('utf8')` where `'utf8'` is the encoding.
+
+
+
+
+
+3. **Explain the difference between Buffers and Streams in Node.js.**
+   - Buffers are fixed-size chunks of memory used to represent raw binary data, 
+   while Streams are a mechanism for reading or writing data continuously. 
+   Streams provide a way to handle data piece by piece, which is beneficial for large datasets and allows processing data in chunks rather than loading everything into memory at once.
+
+
+
+
+
+
+
+### URL
+1. **How do you parse a URL in Node.js?**
+   - You can parse a URL using the built-in `url` module in Node.js. 
+   The `url.parse()` method can be used to parse URLs into their individual components.
+
+
+
+
+
+2. **Explain the components of a URL object in Node.js.**
+   - The components of a URL object in Node.js include:
+     - `protocol`: The protocol used in the URL (e.g., 'http:', 'https:').
+     - `hostname`: The domain name of the URL.
+     - `pathname`: The path of the URL.
+     - `query`: The query string parameters.
+     - `hash`: The URL fragment identifier.
+
+
+
+
+
+
+### Managing Modules with NPM
+1. **What is NPM and what is its role in Node.js?**
+   - NPM (Node Package Manager) is a package manager for Node.js that allows developers to easily install, manage, and share dependencies or packages. 
+   It's an essential tool for managing project dependencies and facilitating package distribution.
+
+
+
+
+
+2. **How do you install dependencies from package.json in Node.js?**
+   - Running the command `npm install` in the root directory of a Node.js project installs all the dependencies listed in the `package.json` file.
+
+
+
+
+
+3. **Explain the purpose of `package-lock.json` in Node.js projects.**
+   - `package-lock.json` locks the version of installed packages to ensure consistency across different environments. 
+   It records the exact version of each installed package to prevent unintentional upgrades and guarantee that installations are reproducible.
+
+
+
+
+
+4. **What are development dependencies in package.json?**
+   - Development dependencies in `package.json` are packages required during the development process but not in production. T
+   hese often include testing frameworks, build tools, etc., listed under `devDependencies`.
+
+
+
+
+
+5. **How can you install a package globally using NPM?**
+   - To install a package globally using NPM, use the `-g` flag: `npm install -g <package-name>`.
+
+
+
+
+
+6. **What is the command to update NPM packages to their latest versions?**
+   - The command `npm update` updates packages to their latest versions as per the versioning defined in `package.json`.
+
+
+
+
+
+7. **How do you audit and fix security vulnerabilities in NPM packages?**
+   - Running `npm audit` checks for security vulnerabilities in installed packages. 
+   To fix them, use `npm audit fix` if automatic fixing is available, or manually update the packages to secure versions.
+
+
+
+
+
+
+8. **List some commonly used commands to manage NPM modules.**
+   - Common commands include 
+   `npm install`, `npm uninstall`, `npm update`, `npm list`, `npm outdated`, `npm search`, etc.
+
+
+
+
+
+
+### Nodemon
+1. **What is Nodemon, and why is it used in Node.js development?**
+   - Nodemon is a tool used in Node.js development to monitor changes in the source code and automatically restart the server. It saves time by eliminating the need to manually restart the server after code changes.
+
+
+
+
+
+
+2. **How do you install Nodemon globally and locally?**
+   - To install Nodemon globally: `npm install -g nodemon`.
+   - To install it locally as a development dependency: `npm install --save-dev nodemon`.
+
+
+
+
+3. **Explain how you can use options and configurations in Nodemon.**]]]
+   - Options can be passed using command-line arguments or defined in a `nodemon.json` or `nodemon.config.js` file. 
+   These options include specifying the watched directories, ignored files, delay before restarting, etc.
+
+
+
+
+
+4. **What is the purpose of using Nodemon over the Node.js standard runtime?**
+   - Nodemon streamlines the development process by automatically restarting the server upon file changes, which is not a feature of the standard Node.js runtime.
+
+
+
+
+
+### Chalk
+1. **What is Chalk in Node.js, and why is it used?**
+   - Chalk is a Node.js library used for styling terminal text with different colors and styles. It enhances the readability and aesthetics of console output.
+
+
+
+
+
+2. **How do you style terminal text using Chalk?**
+   - You can style terminal text using Chalk by chaining its methods to apply colors, background colors, styles, etc., to the text output.
+
+
+
+
+3. **Can you explain how to apply different colors and styles to console output using Chalk?**
+   - For example, `chalk.red('Hello')` would print 'Hello' in red, and `chalk.bgBlue.bold('World')` would print 'World' with a blue background and bold text.
+
+
+
+
+
+
+### User Defined Modules
+1. **How do you create a custom module in Node.js?**
+   - Create a `.js` file containing functions, objects, or variables you want to export using `module.exports`.
+
+
+
+
+
+2. **What is the process to test a local Node.js module?**
+   - To test a local module, import it into another file using `require()` and use its exported functions or objects in that file. Then run tests to validate its functionality.
+
+
+
+
+
+3. **Explain how to save a locally created module for reuse in other projects.**
+   - You can save a locally created module for reuse by packaging it as an NPM package and publishing it to the NPM registry or by keeping it in a shared repository accessible to other projects.
+
+
+
+
+
+### Debugging Node.js Applications
+1. **What debugging tools are available for Node.js?**
+   - Node.js offers various debugging tools such as the built-in debugger, Node Inspector, Visual Studio Code's debugger, etc.
+
+
+
+
+
+2. **How do you set and use watchers in Node.js debugging?**
+   - Watchers can be set to monitor variables or expressions during debugging. 
+   In Node.js, you can set watchers using breakpoints in debuggers like VS Code, allowing you to track changes in values.
+
+
+
+
+3. **Explain the process of setting breakpoints and debugging Node.js applications.**
+   - Breakpoints can be set in the code using debugging tools like VS Code. When the code reaches a breakpoint, execution pauses, allowing inspection of variables, stack traces, and step-by-step code execution for debugging purposes.
+
+
+   

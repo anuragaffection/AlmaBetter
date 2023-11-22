@@ -1,0 +1,283 @@
+
+
+### Buffer
+1. What is a Buffer in Node.js?
+    - A. A temporary storage for binary data
+    - B. An array of strings for data manipulation
+    - C. A built-in Node.js database
+    - D. A graphical representation of data
+
+
+
+
+2. How can you create a buffer of a specific size in Node.js?
+    - A. `new Buffer(10)`
+    - B. `Buffer.new(10)`
+    - C. `Buffer.alloc(10)`
+    - D. `createBuffer(10)`
+
+
+
+
+3. Which method is used to write to buffers in Node.js?
+    - A. `buf.write()`
+    - B. `buf.add()`
+    - C. `buf.append()`
+    - D. `buf.modify()`
+
+
+
+
+4. How do you convert a buffer to a string in Node.js with a specific encoding?
+    - A. `buf.convertToString()`
+    - B. `buf.stringify()`
+    - C. `buf.toString()`
+    - D. `buf.toText()`
+
+
+
+
+### URL
+5. What method is used in the URL module to parse a URL string and return its components?
+    - A. `url.parseURL()`
+    - B. `url.fetch()`
+    - C. `url.parse()`
+    - D. `url.extract()`
+
+
+
+
+6. How would you format an object containing URL components into a string using the URL module?
+    - A. `url.formatURL()`
+    - B. `url.string()`
+    - C. `url.format()`
+    - D. `url.stringify()`
+
+
+
+
+### Managing Modules with NPM
+7. Which command installs a package and saves it as a development dependency in the package.json file?
+    - A. `npm install <package-name>`
+    - B. `npm install <package-name> --save`
+    - C. `npm install <package-name> --save-dev`
+    - D. `npm install <package-name> --dev`
+
+
+
+
+8. What command is used to uninstall a package from a Node.js project?
+    - A. `npm erase <package-name>`
+    - B. `npm remove <package-name>`
+    - C. `npm uninstall <package-name>`
+    - D. `npm delete <package-name>`
+
+
+
+
+9. Which file keeps track of exact versions of packages installed in a project?
+    - A. `package.json`
+    - B. `version-lock.json`
+    - C. `dependency-lock.json`
+    - D. `package-lock.json`
+
+
+
+
+
+10. What command is used to publish your own package to the NPM registry?
+    - A. `npm share`
+    - B. `npm upload`
+    - C. `npm publish`
+    - D. `npm deploy`
+
+
+
+
+
+### Development Dependencies
+11. What are development dependencies in Node.js?
+    - A. Packages needed for production deployment
+    - B. Packages only required during development
+    - C. Packages necessary for testing and production
+    - D. Modules needed for documentation generation
+
+
+
+
+
+12. How can you install a development dependency in Node.js using npm and add it to the package.json file's devDependencies?
+    - A. `npm add <package-name> --dev`
+    - B. `npm install <package-name> --development`
+    - C. `npm install <package-name> --dev`
+    - D. `npm install <package-name> --save-dev`
+
+
+
+
+
+### Automatically Generated Files
+13. What is the purpose of the package-lock.json file in Node.js?
+    - A. To track installed packages and dependencies
+    - B. To store custom configurations
+    - C. To manage global installations
+    - D. To execute automatic updates
+
+
+
+
+
+14. When does npm create the package-lock.json file in a Node.js project?
+    - A. Only when explicitly requested by the user
+    - B. Automatically when a package is installed
+    - C. When deploying the application to production
+    - D. Only when using npm audit
+
+
+
+
+
+
+### Managing Modules
+15. How can you list all installed modules in a Node.js project using npm?
+    - A. `npm list`
+    - B. `npm modules`
+    - C. `npm show`
+    - D. `npm ls`
+
+
+
+
+
+
+16. What command is used to update all modules to their latest versions in a Node.js project?
+    - A. `npm update`
+    - B. `npm upgrade`
+    - C. `npm outdated`
+    - D. `npm up`
+
+
+
+
+
+
+### Nodemon
+17. What is the purpose of Nodemon in Node.js development?
+    - A. To facilitate manual restarts of the server
+    - B. To automatically restart the server on file changes
+    - C. To manage global installations
+    - D. To optimize server performance
+
+
+
+
+
+18. How can you globally install Nodemon using npm?
+    - A. `npm install -g nodemon`
+    - B. `npm install nodemon --global`
+    - C. `npm nodemon --install -g`
+    - D. `npm nodemon -g install`
+
+
+
+
+
+### Chalk
+19. What is the primary function of the Chalk module in Node.js?
+    - A. Managing file directories
+    - B. Formatting and coloring terminal output
+    - C. Handling HTTP requests
+    - D. Generating test reports
+
+
+
+
+20. How do you add Chalk as a dependency in a Node.js project using npm?
+    - A. `npm install chalk --dependency`
+    - B. `npm add chalk`
+    - C. `npm install chalk`
+    - D. `npm chalk --save`
+
+
+
+
+
+
+
+
+
+Sure, here are the answers to the multiple-choice questions:
+
+### Buffer
+1. What is a Buffer in Node.js?
+    - A. A temporary storage for binary data
+
+2. How can you create a buffer of a specific size in Node.js?
+    - C. `Buffer.alloc(10)`
+
+3. Which method is used to write to buffers in Node.js?
+    - A. `buf.write()`
+
+4. How do you convert a buffer to a string in Node.js with a specific encoding?
+    - C. `buf.toString()`
+
+### URL
+5. What method is used in the URL module to parse a URL string and return its components?
+    - C. `url.parse()`
+
+6. How would you format an object containing URL components into a string using the URL module?
+    - C. `url.format()`
+
+### Managing Modules with NPM
+7. Which command installs a package and saves it as a development dependency in the package.json file?
+    - C. `npm install <package-name> --save-dev`
+
+8. What command is used to uninstall a package from a Node.js project?
+    - C. `npm uninstall <package-name>`
+
+9. Which file keeps track of exact versions of packages installed in a project?
+    - D. `package-lock.json`
+
+10. What command is used to publish your own package to the NPM registry?
+    - C. `npm publish`
+
+
+### Development Dependencies
+11. What are development dependencies in Node.js?
+    - B. Packages only required during development
+
+12. How can you install a development dependency in Node.js using npm and add it to the package.json file's devDependencies?
+    - D. `npm install <package-name> --save-dev`
+
+### Automatically Generated Files
+13. What is the purpose of the package-lock.json file in Node.js?
+    - A. To track installed packages and dependencies
+
+14. When does npm create the package-lock.json file in a Node.js project?
+    - B. Automatically when a package is installed
+
+### Managing Modules
+15. How can you list all installed modules in a Node.js project using npm?
+    - A. `npm list`
+
+16. What command is used to update all modules to their latest versions in a Node.js project?
+    - A. `npm update`
+
+### Nodemon
+17. What is the purpose of Nodemon in Node.js development?
+    - B. To automatically restart the server on file changes
+
+18. How can you globally install Nodemon using npm?
+    - A. `npm install -g nodemon`
+
+### Chalk
+19. What is the primary function of the Chalk module in Node.js?
+    - B. Formatting and coloring terminal output
+
+20. How do you add Chalk as a dependency in a Node.js project using npm?
+    - C. `npm install chalk`
+
+
+
+
+    
