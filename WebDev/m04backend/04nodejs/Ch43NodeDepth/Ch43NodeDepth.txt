@@ -34,6 +34,7 @@ Debugging nodejs applications
 
 
 
+
 Notes {
     -- cd <changeDrive>
     -- mkdir <newDirectory>
@@ -42,10 +43,10 @@ Notes {
 
 
 
+
 Buffer {
     -- temporary memory storage 
     -- an array of integers 
-    -- 
 
     Commands 
     -- Buffer.alloc()
@@ -65,6 +66,10 @@ Buffer {
     -- copy(targetBuffer)
     -- copy(target, targetStart, sourceStart, sourceEnd);
 
+    notes 
+    -- node js Automatically manages memory, but to make it more efficient we can use buffer 
+    -- node js allocate lots of free memory to variables,
+       but to make it more efficient, we can use buffer, and allocate needed memory
 }
 
 
@@ -96,7 +101,7 @@ URL {
     -- convert object into url 
 
     url.resolve]]
-    -- resolve relative_url & base_url make absolute_url
+    -- resolve  relative_url  &  base_url  make  absolute_url
 
 }
 
@@ -321,6 +326,29 @@ Actvity {
     05. Color
 
 
+
+
+
+    Activity: True or False
+    
+    01. You can create a module in Node.js by simply defining a JavaScript file with functions and variables.
+    
+    02. To test a user-defined module, you can import it using the require function and use its functions and variables.
+    
+    03. To use a local module as a dependency in another Node.js project, you need to publish it to the npm registry.
+    
+    04. Watchers in the Node.js debugger allow you to track changes in specific variables and expressions during debugging.
+    
+    05. Breakpoints are markers you can set in your code to pause the execution of a Node.js program at specific locations for inspection.
+    
+    Answers
+    01. True
+    02. True
+    03. False
+    04. True
+    05. True
+
+
 }
 
 
@@ -334,3 +362,18 @@ example {
     -- nodemon --watch server --ext ts --exec ts-node --ignore '*.test.ts' --delay 3 server/server.ts
     
 }
+
+
+
+
+
+
+Task {
+    -- relative url  vs  base url  vs  absolute url
+    -- 
+}
+
+
+
+
+
