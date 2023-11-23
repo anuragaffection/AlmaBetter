@@ -1,0 +1,227 @@
+Node js depth
+
+
+
+
+01.
+Which command is used to start a Node.js application in debugging mode with the inspect flag?
+
+node app.js --debug
+node --inspect app.js
+node --start-debugging app.js
+node --debug app.js
+
+
+
+
+
+
+02.
+Which of the following is NOT a benefit of using Nodemon?
+
+Improved development workflow.
+Automatic restarting of the server on file changes.
+Enhanced security features for Node.js applications.
+Faster feedback loop during development.
+
+
+
+
+
+
+03.
+How can you extract the query parameters from a URL using the url module in Node.js?
+
+Using the url.extractQueryParameters() method.
+Using the url.parse() method and then accessing the query property of the returned object.
+Using the url.query() method.
+Using the url.getQueryParams() method.
+
+
+
+
+
+
+04.
+What is the purpose of the console.log method in debugging Node.js applications?
+
+It sets breakpoints in the code.
+It displays messages in the console.
+It inspects variables and objects.
+It runs code step by step.
+
+
+
+
+
+
+05.
+What is the purpose of the debugger statement in Node.js code?
+
+It starts the debugging process.
+It pauses the code execution and triggers the debugger.
+It displays a message in the console.
+It skips the current iteration of a loop.
+
+
+
+
+
+
+06.
+Why might it be important to specify development dependencies in a separate section of the package.json file?
+
+To reduce the overall file size of the project.
+To improve the performance of the application.
+To prevent conflicts between dependencies.
+To distinguish between dependencies needed for development and production.
+
+
+
+
+
+
+
+07.
+What is the purpose of setting breakpoints in a debugger?
+
+To skip specific lines of code.
+To run the code faster.
+To mark locations for potential issues.
+To disable debugging mode.
+
+
+
+
+
+
+08.
+What are development dependencies in a Node.js project?
+
+Dependencies that are only used during production.
+Dependencies that are required for the development and testing of a project.
+Dependencies that are needed for both development and production.
+Dependencies that are optional and not required for the project.
+
+
+
+
+
+
+
+09.
+Which method is used to create a buffer in Node.js?
+
+newBuffer()
+createBuffer()
+Buffer.alloc()
+makeBuffer()
+
+
+
+
+
+
+
+10.
+What does the url.parse() method in Node.js do?
+
+It encodes a URL string into a valid URI.
+It decodes a URI into a URL string.
+It parses a URL string and returns an object with its components.
+It validates whether a given string is a valid URL.
+
+
+
+
+
+
+
+
+Answer
+
+01.
+node --inspect app.js
+
+The correct syntax for starting a Node.js application in debugging mode with the inspect flag is node --inspect app.js
+
+
+
+
+
+02.
+Enhanced security features for Node.js applications.
+
+Nodemon focuses on improving the development workflow by automatically restarting the server on file changes. It does not directly provide enhanced security features for Node.js applications.
+
+
+
+
+
+03.
+Using the url.parse() method and then accessing the query property of the returned object.
+
+The url.parse() method returns an object with a query property that contains the query parameters of the URL as a string. You can further parse this string using the querystring module or other methods to extract individual parameters.
+
+
+
+
+04.
+It displays messages in the console.
+
+The console.log method is used to print messages and values to the console for debugging and logging purposes.
+
+
+
+
+
+05.
+It pauses the code execution and triggers the debugger.
+
+When a debugger statement is encountered in the code, it pauses the execution and allows you to interactively debug the code using the debugger.
+
+
+
+
+06.
+To distinguish between dependencies needed for development and production.
+
+Specifying development dependencies in a separate section (devDependencies) of the package.json file helps clearly differentiate them from regular dependencies (dependencies) needed for the production environment. This ensures that development dependencies are not included when the application is deployed to production.
+
+
+
+
+
+07.
+To mark locations for potential issues.
+
+Breakpoints are used to mark specific locations in the code where you suspect issues might occur, allowing you to pause execution and inspect variables and states.
+
+
+
+
+
+08.
+Dependencies that are required for the development and testing of a project.
+
+Development dependencies are packages that are necessary during the development and testing phase of a Node.js project but are not required for the production environment. They include tools, libraries, and frameworks used for tasks like testing, linting, building, and documentation.
+
+
+
+
+09.
+Buffer.alloc()
+
+The Buffer.alloc() method is used to create a new buffer from a given size
+
+
+
+
+10.
+It parses a URL string and returns an object with its components.
+
+The url.parse() method in Node.js is used to parse a URL string and return an object containing its various components such as protocol, hostname, port, pathname, query, and more.
+
+
+
+

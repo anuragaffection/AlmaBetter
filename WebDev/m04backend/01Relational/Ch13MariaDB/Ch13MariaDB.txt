@@ -101,20 +101,38 @@ Aggregation function {
 
 Multi table queries with join{
 
-    inner join
+    commands 
+    -- INNER JOIN
+    -- LEFT JOIN
+    -- RIGHT JOIN
+    -- UNION 
+    
+    previous commands
+    -- SELECT
+    -- FROM
+    -- AS 
+    -- ASC
+    -- DESC
+    -- ON 
     -- 
+
+    inner join
+    -- return matching value from both table 
 
     left join
-    --  
+    -- left outer join 
+    -- return left table + common from both table 
 
     right join
-    --  
+    -- right outer join 
+    -- return right table + common from both table 
 
     full join
-    --  
+    -- full outer join 
+    -- combine both table 
 
-    cross or cartesian join 
-    -- 
+    cross join 
+    -- Cartesian join
 }
 
 
@@ -169,22 +187,22 @@ quiz {
 
 
 
-     01. An Inner Join returns all rows from both tables, combining them based on a specified condition.
+    01. An Inner Join returns all rows from both tables, combining them based on a specified condition.
      
-     02. Cross Joins are generally used when you want to create a Cartesian product intentionally, and they are less common in practical SQL queries.
+    02. Cross Joins are generally used when you want to create a Cartesian product intentionally, and they are less common in practical SQL queries.
      
-     03. A Full Join (Full Outer Join) returns all rows from both tables, including both matching and non-matching rows.
+    03. A Full Join (Full Outer Join) returns all rows from both tables, including both matching and non-matching rows.
      
-     04. A Full Join can be emulated by performing a Union of a Left Join and a Right Join between two tables.
+    04. A Full Join can be emulated by performing a Union of a Left Join and a Right Join between two tables.
      
-     05.  A Right Join and a Left Join produce the same result if you swap the order of the tables and reverse the direction of the join condition.
+    05.  A Right Join and a Left Join produce the same result if you swap the order of the tables and reverse the direction of the join condition.
      
-     Answers
-     01. False
-     02. True
-     03. True
-     04. True
-     05. True
+    Answers
+    01. False
+    02. True
+    03. True
+    04. True
+    05. True
 
 
 }
