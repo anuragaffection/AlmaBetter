@@ -48,6 +48,7 @@ Filtering & Sorting {
 
     -- LIMIT 
     -- OFFSET 
+
     -- pagination
 
 }
@@ -56,13 +57,22 @@ Filtering & Sorting {
 Aggregation function {
     
     MAX
-    -- 
+    -- ignore null values 
+    -- return max value
+    -- return null if set is empty
 
     MIN
     -- 
 
+
     COUNT()
-    -- 
+    -- total number of rows 
+    -- total number of non-null values in a column 
+    -- COUNT(expression)
+    -- COUNT(all expression)
+    -- COUNT(distinct expression) = total number of rows, with unique value only 
+    -- COUNT(*) = total number of rows including, row having null value
+
 
     SUM()
     -- DISTINCT instructs SUM() to ignore duplicates 
@@ -70,8 +80,10 @@ Aggregation function {
     -- by default SUM() calculate all value 
     -- sum on character will give zero 
 
+
     AVG()
     -- 
+
 
     GROUP BY 
     --  group rows with the same values in one or more columns into summary rows.

@@ -124,12 +124,14 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 08. ER Model to Relational {
     -- convertig ER modle diagram to Relational model (tabular Model)
     -- 
+    
 }
 
 
 
 09. Normalisation {
-
+    -- #5.34.15
+    -- 
 }
 
 
@@ -166,4 +168,10 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 16. CAP theorem 
 
 
-17. Master slave architecture
+17. Master slave 
+
+
+18. task {
+    -- Generalisation vs Normalisation
+    -- 
+}
