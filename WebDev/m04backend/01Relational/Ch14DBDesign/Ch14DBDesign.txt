@@ -1,0 +1,38 @@
+Database Design 
+-- why Database Design
+-- Database Life cycle 
+-- Logical vs Physical 
+
+schema Design
+-- schema Design implementation 
+--  Why design schemas 
+
+Normalization
+-- Normal forms 
+-- 1NF, 2NF, 3NF implementation
+
+
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+
+Database Design 
+-- why Database Design
+-- Database Life cycle 
+-- Logical vs Physical 
+
+
+schema Design
+-- schema Design implementation 
+--  Why design schemas 
+
+
+Normalization
+-- Normal forms 
+-- 1NF, 2NF, 3NF implementation
+
