@@ -13,7 +13,10 @@ Postman for testing api
 -------------------------------------------------
 -------------------------------------------------
 
-
+Links {
+    -- https://www.npmjs.com/
+    -- 
+}
 
 
 
@@ -56,6 +59,9 @@ Express Routing {
 
     middleware function
     -- function that run before or after the route handler 
+    -- authentication
+    -- logging
+    -- error handling
     -- problem on example ]] 
 
     method
