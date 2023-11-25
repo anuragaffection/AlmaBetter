@@ -1,13 +1,25 @@
 
 
+database transaction
+-- ACID Properties 
+-- transaction state
+-- Defining db transaction
 
-transaction = every task we do with database is transaction
-transaction = passed or failed (2 outcome only )
-commit = rollback if commit failed
-ACID = Atomicity, Consistency, Isolation, Durability  
+Save Point 
+
+Entity Relationship 
+-- ER Model 
+-- ER Diagram Notations 
+
+Cardinality 
+ER Diagram Implementation 
 
 
-transaction state {
-    -- 
+Notes {
+    -- transaction = every task we do with database is transaction
+    -- transaction = passed or failed (2 outcome only )
+    -- commit = rollback if commit failed
+    -- ACID = Atomicity, Consistency, Isolation, Durability  
 
 }
+
