@@ -1,0 +1,115 @@
+Database Design & normalization
+
+
+
+1. **Why is Database Design important?**
+   a. To organize data for efficient storage and retrieval  
+   b. To make the database look visually appealing  
+   c. To create complex queries  
+   d. To enhance database security
+
+
+
+
+
+2. **Which of the following is NOT a phase in the Database Life Cycle?**
+   a. Database Implementation  
+   b. Database Design  
+   c. Database Optimization  
+   d. Database Maintenance
+
+
+
+
+
+3. **What does Logical Database Design primarily focus on?**
+   a. Indexing strategies  
+   b. Physical data storage  
+   c. Business requirements and relationships between data  
+   d. Database security protocols
+
+
+
+
+
+4. **Which best describes Physical Database Design?**
+   a. Creating entity-relationship diagrams  
+   b. Determining data types and storage methods  
+   c. Establishing primary keys  
+   d. Creating views for end-users
+
+
+
+
+
+5. **Why is designing schemas important in a database?**
+   a. It helps in optimizing SQL queries  
+   b. It organizes data in a hierarchical structure  
+   c. It facilitates communication between databases  
+   d. It defines the structure and relationships of data entities
+
+
+
+
+
+6. **Schema design implementation involves:**
+   a. Defining access control for users  
+   b. Defining database tables and their relationships  
+   c. Writing stored procedures  
+   d. Generating random data for testing purposes
+
+
+
+
+
+7. **What is the primary goal of normalization in databases?**
+   a. To eliminate data duplication and inconsistencies  
+   b. To speed up database queries  
+   c. To increase storage space  
+   d. To simplify complex SQL queries
+
+
+
+
+
+8. **Which statement regarding 1NF, 2NF, and 3NF is correct?**
+   a. 2NF eliminates all duplicate data  
+   b. 3NF allows partial dependencies on primary keys  
+   c. 1NF permits repeating groups within records  
+   d. 2NF removes transitive dependencies
+
+
+
+
+
+
+
+
+
+here are the answers:
+
+1. **Why is Database Design important?**
+   Correct answer: a. To organize data for efficient storage and retrieval
+
+2. **Which of the following is NOT a phase in the Database Life Cycle?**
+   Correct answer: c. Database Optimization
+
+3. **What does Logical Database Design primarily focus on?**
+   Correct answer: c. Business requirements and relationships between data
+
+4. **Which best describes Physical Database Design?**
+   Correct answer: b. Determining data types and storage methods
+
+5. **Why is designing schemas important in a database?**
+   Correct answer: d. It defines the structure and relationships of data entities
+
+6. **Schema design implementation involves:**
+   Correct answer: b. Defining database tables and their relationships
+
+7. **What is the primary goal of normalization in databases?**
+   Correct answer: a. To eliminate data duplication and inconsistencies
+
+8. **Which statement regarding 1NF, 2NF, and 3NF is correct?**
+   Correct answer: d. 2NF removes transitive dependencies
+
+

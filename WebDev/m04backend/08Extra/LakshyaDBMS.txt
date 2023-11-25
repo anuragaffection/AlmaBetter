@@ -143,43 +143,47 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
     -- 2NF  = 1NF + no partial dependency 
     -- 3NF  = 2NF + no transitivity dependency 
     -- BCNF = 3NF + no non-trivial dependency
+
+
 }
 
 
 
-10. Acid Properties {
+10.  transaction {
+    -- #6.33.00
+    -- it will be successful or it will rollback to previous state
+    -- it 
 
 }
 
 
 
-11. Atomicity {
+11. Acid Properties {
+    -- #6.40.38
+
+    ACID
+    -- A = Atomicity
+    -- C = Consistency
+    -- I = Isolation
+    -- D = Durability 
+
+    transaction state 
+    -- 
 
 }
+
+
 
 
 
 12. indexing in DBMS
-
-
-
-
 13. NoSQL vs Sql 
-
-
-
 14. types of database 
-
-
-
 15. partition and sharding 
-
-
-
 16. CAP theorem 
-
-
 17. Master slave 
+
+
 
 
 18. task {
