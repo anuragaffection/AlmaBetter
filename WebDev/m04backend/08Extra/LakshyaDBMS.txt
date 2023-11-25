@@ -131,10 +131,18 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 
 09. Normalisation {
     -- #5.34.15
+    -- SRP = single responsibility table 
+
+    anomalies
     -- insertion anomalies 
     -- deletion anomalies
-    -- updatio anomalies
-    -- 
+    -- updation anomalies
+
+    Normal Form 
+    -- 1NF  = have atomic value, 
+    -- 2NF  = 1NF + no partial dependency 
+    -- 3NF  = 2NF + no transitivity dependency 
+    -- BCNF = 3NF + no non-trivial dependency
 }
 
 
