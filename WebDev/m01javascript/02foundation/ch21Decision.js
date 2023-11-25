@@ -59,6 +59,12 @@
 
 
 
+/**
+ *    21. Javascript Decision Statements 
+        -- https://www.freecodecamp.org/news/the-ternary-operator-in-javascript/
+        -- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+        -- https://studyopedia.com/javascript/decision-making-statements/
+ */
 
 
 

@@ -36,6 +36,14 @@
 
 
 
+/**
+    13. Javascript Operators
+        -- Spread Operator in JavaScript (stackabuse.com)
+        -- https://www.educative.io/blog/bitwise-and-javascript
+        -- https://www.syncfusion.com/blogs/post 
+        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
+        -- https://codepip.com/games/code-crunchers/
+ */
 
 
 

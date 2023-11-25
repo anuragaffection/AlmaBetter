@@ -10,16 +10,8 @@ Module 1 Javascript {
         -- A Practical Guide to Symbols in JavaScript | www.thecodebarbarian.com
         -- What is JavaScript? Complete Introduction with Hello World! Example (guru99.com)
             
-        13. Javascript Operators
-        -- Spread Operator in JavaScript (stackabuse.com)
-        -- https://www.educative.io/blog/bitwise-and-javascript
-        -- https://www.syncfusion.com/blogs/post 
-        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
-        -- https://codepip.com/games/code-crunchers/
 
-        14. Skill Mastery
-        -- https://javascript.plainenglish.io/what-are-javascript-programming-paradigms-3ef0f576dfdb
-        -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
 
     }
 
@@ -28,22 +20,11 @@ Module 1 Javascript {
 
     Chapter 02 Foundation {
         
-        21. Javascript Decision Statements 
-        -- https://www.freecodecamp.org/news/the-ternary-operator-in-javascript/
-        -- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
-        -- https://studyopedia.com/javascript/decision-making-statements/
-        
-        22. Loops & control statements
-        -- https://dev.to/srsajjad/optimizing-loop-in-javascript-3la
-        -- https://data-flair.training/blogs/javascript-loop-control/
-        -- https://www.mygreatlearning.com/javascript/tutorials/javascript-loop-control
 
-        23. Array & Strings
-        -- https://medium.com/@mystyx/javascript-array-hidden-potential-43c9d31bb1c2
-        -- https://grow.almabetter.com/web-dev/learn/full-stack-web-development/bootcamp-wd-m1-c1-l3/Read
-        -- https://blog.logrocket.com/javascript-array-group-array-grouptomap/
-        -- https://dev.to/ibrahima92/15-must-know-javascript-array-methods-in-2020-1kd8
-        -- https://codeinstitute.net/global/blog/javascript-arrays/
+        
+
+
+
 
         24. Json & object 
         -- Javascript Object methods - Webkul Blog

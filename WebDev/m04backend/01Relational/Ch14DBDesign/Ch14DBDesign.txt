@@ -20,19 +20,130 @@ Normalization
 -------------------------------------------------
 
 
+Notes {
+    -- distributed Database
+    -- DAAO 
+    -- https://dbschema.com/
+    -- https://app.diagrams.net/
+    -- https://www.vertabelo.com/blog/database-design-guide/
+    -- https://www.databasestar.com/database-normalization/
+    -- BCNF = Boyce Codd Normal Form 
+    -- 
+}
 
-Database Design 
--- why Database Design
--- Database Life cycle 
--- Logical vs Physical 
 
 
-schema Design
--- schema Design implementation 
---  Why design schemas 
 
 
-Normalization
--- Normal forms 
--- 1NF, 2NF, 3NF implementation
+Database Design {
+
+    why Database Design
+    -- 
+    
+    Database Life cycle 
+    -- 1. requirements analysis
+    -- 2. logical design
+    -- 3. Physical design
+    -- 4. implementation
+    -- 5. Modification & maintenance 
+    
+    Logical vs Physical design
+    -- The logical model focuses on data entities, attributes, and relationships, 
+       while the physical model deals with storage, indexes, and optimization.
+
+}
+
+
+
+
+
+schema Design {
+    schema Design implementation
+    --  
+
+    Why design schemas 
+    -- 
+}
+
+
+
+
+
+Normalization {
+    -- minimize data redundancy 
+
+    Normal forms
+    -- 
+    
+    1NF, 2NF, 3NF implementation
+    -- 1NF
+    -- 2NF
+    -- 3NF
+    -- 4NF
+    -- 5NF 
+    -- BCNF 
+
+    1NF (First Normal Form): 
+    -- Ensures that each column contains only atomic (indivisible) values.
+    
+    2NF (Second Normal Form): 
+    -- Further eliminates partial dependencies within a table.
+
+    3NF (Third Normal Form): 
+    -- Eliminates transitive dependencies between columns.
+
+}
+
+
+
+
+
+
+
+Activity {
+    
+    Activity: True or False
+    
+    01. Database design ensures that data is organized, efficient, and easy to manage.
+    
+    02. Database design is a one-time process that doesn't require any updates or modifications over time.
+    
+    03. The logical data model deals with the implementation details and storage considerations of the database.
+    
+    04. Schema design refers to the process of creating a blueprint for organizing and structuring a database.
+    
+    05. The Database Life Cycle consists of only one phase, which is the design phase.
+    
+    Answers
+    01. True
+    02. False
+    03. False
+    04. True
+    05. False
+    
+    
+
+    
+    Activity: Fill in the blanks
+    
+    01. In Database Normalization, the process of organizing data in a database to eliminate _____________(redundancy / complexity) is known as normalization.
+    
+    02. The first normal form (1NF) requires that each column in a table must contain ___________(indexed / atomic) values.
+    
+    03. 3NF Implementation involves removing ______________(transitive / nullable) dependencies.
+    
+    04. In 2NF, a table is typically divided into multiple tables to eliminate data ___________(normalisation / redundancy).
+    
+    05. An attribute is said to be in the ___________(2NF / 3NF) form if it is not transitively dependent on the primary key.
+    
+    Answers
+    01. Redundancy
+    02. Atomic
+    03. Transitive
+    04. Redundancy
+    05. 3NF
+
+
+}
+
 
