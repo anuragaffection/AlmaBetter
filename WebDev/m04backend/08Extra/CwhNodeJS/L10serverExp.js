@@ -23,7 +23,6 @@ app.get('/about', (req, res) => {
 
 
 app.get('/products', function (req, res) {
-
     // we are using & getting request from web 
     const productId = req.params.id
 
@@ -32,14 +31,22 @@ app.get('/products', function (req, res) {
 })
 
 
-
-
 app.get('/products/:id', function (req, res) {
     const productId = req.params.id
     res.send(`Product ID: ${productId}`)
 })
 
 
+app.get('/products/:id/:subid', function (req, res) {
+    const productId = req.params.subid
+    res.send(`Product ID: ${productId}`)
+})
+
+
+// app.use(function (req, res, next) {
+//     console.log(`${req.method} ${req.url}`)
+//     next()
+// })
 
 
 
@@ -51,10 +58,8 @@ const users = [
 
 
 app.get('/users', (req, res) => {
-    res.json(users);
+    res.json(users); // sending data in json format 
 });
-
-
 
 
 app.post('/users', (req, res) => {
@@ -68,10 +73,7 @@ app.post('/users', (req, res) => {
 
 
 
-// app.use(function (req, res, next) {
-//     console.log(`${req.method} ${req.url}`)
-//     next()
-// })
+
 
 
 
