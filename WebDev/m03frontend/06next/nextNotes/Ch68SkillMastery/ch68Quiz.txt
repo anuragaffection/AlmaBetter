@@ -1,0 +1,827 @@
+Next Js skill Mastery
+
+
+
+
+01.
+Which property can be used to specify the loading behavior of the Image component?
+
+loading
+layout
+priority
+quality
+
+
+
+
+
+02.
+How do you enable CSS Modules in a Next.js application?
+
+By using the global keyword in the CSS files.
+By installing a separate package using npm or yarn.
+By creating a folder named styles and adding CSS files inside it.
+CSS Modules are automatically enabled in Next.js without any additional setup.
+
+
+
+
+03.
+How does Next.js enhance SEO compared to client-side rendering (CSR)?
+
+Next.js includes more meta tags
+Next.js uses a special SEO algorithm
+Next.js pre-renders pages on the server- side
+Next.js automatically submits the website to search engines
+
+
+
+
+04.
+What is Iron-Session in Next.js?
+
+A security algorithm for encrypting passwords.
+A security algorithm for encrypting passwords.
+A data storage library for Next.js.
+A framework for handling user authentication in Next.js.
+
+
+
+
+05.
+Can you have multiple Layout components in a Next.js application?
+
+Yes, you can have multiple Layout components, but you can use only one Layout per page.
+No, you can have only one global Layout component for the entire application.
+Yes, you can have multiple Layout components and use them on different pages as needed.
+Yes, you can have multiple Layout components, but they must be nested inside each other.
+
+
+
+
+06.
+How can you access data sent in the request body of a POST request in a Next.js API route?
+
+se the 'req.query' object.
+Use the 'req.params' object
+Use the 'req.body' object.
+Use the 'req.headers' object.
+
+
+
+
+07.
+Which property can be used to specify the quality of the image in the Image component?
+
+quality
+layout
+priority
+loading
+
+
+
+
+08.
+What is Cypress?
+
+A programming language for testing
+A testing framework for JavaScript applications
+A server-side rendering framework for React
+A CSS preprocessor
+
+
+
+
+09.
+What is the purpose of the push method in Next.js programmatic navigation?
+
+To navigate to a new page and keep the previous page in the browser history.
+To navigate to a new page and replace the current page in the browser history.
+To navigate back to the previous page in the browser history.
+To navigate to a new page without modifying the browser history.
+
+
+
+
+10.
+Which directory contains the pages in a Next.js project?
+
+/public
+/src
+/components
+/pages
+
+
+
+
+
+
+
+11.
+How do you initialize the state in a Next.js functional component?
+
+Using the this.state object
+Using the useState hook
+State initialization is not required in functional components
+By assigning a value directly to a variable
+
+
+
+
+
+
+12.
+Which of the following is a benefit of font subsetting?
+
+Faster loading times for web pages
+Reduced bandwidth usage
+Improved SEO ranking for web pages
+All of the above
+
+
+
+
+
+
+13.
+How can you add Metadata to a page in Next.js?
+
+By defining the metadata directly in the component's JSX
+By adding a <meta> tag in the HTML head of the page
+By using the getStaticProps or getServerSideProps functions to fetch metadata dynamically
+By creating a separate JSON file with metadata and importing it in the page component.
+
+
+
+
+
+
+14.
+Which best practice can help minimize API requests in Next.js?
+
+Using caching
+Using incremental static regeneration
+Using client-side data fetching
+All of the above
+
+
+
+
+
+15.
+What is Client-Side Rendering (CSR) in Next.js?
+
+Rendering content on the server and sending the HTML to the client.
+Rendering content on the client side using JavaScript after the initial page load.
+A combination of server-side and client- side rendering.
+Rendering content on the server and sending it to the client using WebSockets.
+
+
+
+
+
+16.
+To include an External Stylesheet in a Next.js component, which tag should you use?
+
+<link>
+<style>
+<CSS>
+<stylesheet>
+
+
+
+
+17.
+Which file extension is commonly used for an External Stylesheet in Next.js?
+
+.CSS
+.jsx
+.SCSS
+.js
+
+
+
+
+
+
+
+
+18.
+What is the difference between the useSWR hook and the getStaticProps function in Next.js?
+
+useSWR is used for client-side data fetching, while getStaticProps is used for server-side data fetching.
+useSWR is used for server-side data fetching, while getStaticProps is used for client-side data fetching.
+useSWR is used for client-side data caching and revalidation, while getStaticProps is used for pre-rendering pages at build time.
+None of the above
+
+
+
+
+
+19.
+How can you set up a custom 404 page in Next.js?
+
+Create a file named 404.js in the pages directory.
+Set the status code to 404 in the getInitialProps method of your custom 404 page.
+Create a file named error-404.js in the pages directory.
+Use the Error component from Next.js and customize the content.
+
+
+
+
+20.
+Which of the following is a valid option for the layout property in the Image component?
+
+stretch
+scale
+fill
+All of the above
+
+
+
+
+
+
+21.
+How do you reference CSS Modules in a Next.js component?
+
+By using the import statement to include the CSS file.
+By using the className attribute with the CSS class name as a string.
+By using the style attribute with the CSS class name as a JavaScript object.
+By using the global attribute with the CSS class name as a string.
+
+
+
+
+
+
+22.
+What are query parameters in Next.js?
+
+A way to pass data from one Next.js page to another through the URL.
+A way to pass data from the server to the client during server-side rendering.
+A way to store data in cookies for client- side access.
+A way to pass data between Next.js components using props.
+
+
+
+
+
+23.
+Which of the following is a limitation of using the getServerSideProps function in Next.js?
+
+It can only fetch data from external APIs.
+It can only be used for pages with dynamic routes.
+It can result in slower performance compared to using getStaticProps.
+Both A and C
+
+
+
+
+
+
+
+24.
+What is the purpose of the getStaticProps function in Next.js?
+
+It fetches data at build time and generates static HTML pages.
+It fetches data at runtime and generates dynamic HTML pages.
+It fetches data from external APIs at runtime.
+Both A and B
+
+
+
+
+
+
+
+25.
+Which hook allows you to trigger a re- render of a Next.js Client Component when a specific variable changes?
+
+useEffect
+useRouter
+useState
+useMemo
+
+
+
+
+
+
+
+26.
+Which of the following is a valid value for the priority property in the Image component?
+
+high
+low
+medium
+All of the above
+
+
+
+
+
+
+
+27.
+Which command is used to open the Cypress Test Runner?
+
+npm start
+npm run test
+npx cypress open
+cypress run
+
+
+
+
+
+
+28.
+What are CSS Modules in Next.js?
+
+External libraries for handling CSS in Next.js applications.
+A way to write global CSS styles in Next.js.
+A mechanism to generate unique class names and scope styles locally in components.
+A tool to automatically generate CSS animations in Next.js.
+
+
+
+
+
+
+29.
+How do you create a dynamic route in Next.js?
+
+Create a folder with square brackets, like [id], inside the "pages" directory.
+Add a "dynamic: true" attribute to the page component.
+Use the "getDynamicRoute()" function from the Next.js API.
+Dynamic routes are automatically created based on the file names.
+
+
+
+
+
+
+30.
+How do you ensure sensitive database credentials (such as username and password) are not exposed in client-side code?
+
+Store the credentials in a separate file and import them into the client-side code.
+Use environment variables to store the credentials and access them in server-side code.
+Hardcode the credentials in the client-side code, but set appropriate access restrictions.
+Encrypt the credentials and store them in local storage.
+
+
+
+
+
+31.
+Which tool can be used to achieve client- side data fetching in Next.js?
+
+Next.js Fetch API
+SWR
+React Query
+All of the above
+
+
+
+
+
+
+32.
+When deploying a Next.js project to Vercel, which configuration file is used to specify advanced deployment settings?
+
+next.config.js
+package.json
+vercel.json
+.env
+
+
+
+
+
+33.
+What is the purpose of the square brackets '[]' in a Next.js dynamic route?
+
+They indicate that the route is a static route.
+They indicate that the route is a dynamic route.
+They are used for array destructuring.
+They are used for defining optional query parameters.
+
+
+
+
+
+34.
+Which command is used to build a Next.js project for production deployment?
+
+npm build
+npm start
+npm deploy
+npm run build
+
+
+
+
+
+
+35.
+What is the purpose of using the [...param] syntax in the file name of the main route in Next.js?
+
+To create a dynamic route that matches any path within the main route.
+To create a static route with fixed parameters.
+To create a route with complex query parameters.
+To create a route for handling API requests.
+
+
+
+
+
+
+40.
+How does CSS-in-JS improve performance in Next.js applications?
+
+By reducing the number of CSS rules in the application.
+By automatically minifying and compressing CSS styles.
+By dynamically loading CSS styles only when they are needed.
+By optimizing rendering of CSS through server-side rendering.
+
+
+
+
+
+
+
+Answer
+
+
+01.
+loading
+
+The loading property can be used to specify the loading behavior of the Image component. The available options are eager, lazy, and auto.
+
+
+
+
+
+02.
+CSS Modules are automatically enabled in Next.js without any additional setup.
+
+Next.js has built-in support for CSS Modules, so there is no need for any additional setup or installation. You can use CSS Modules directly by naming your CSS files with the module.css extension.
+
+
+
+
+
+03.Next.js pre-renders pages on the server-side
+
+In client-side rendering (CSR), the content is generated on the client-side using JavaScript, which may not be as SEO-friendly. Next.js, on the other hand, pre-renders pages on the server-side, generating fully rendered HTML for each page before sending it to the client. This approach makes the content more accessible to search engine crawlers and improves SEO.
+
+
+
+
+04.
+A security algorithm for encrypting passwords.
+
+Iron-Session is a session management library that provides secure cookie- based sessions for Next.js applications. It allows you to manage user sessions and store session data securely on the client-side using cookies.
+
+
+
+
+05.
+Yes, you can have multiple Layout components and use them on different pages as needed.
+
+In Next.js, you can create and use multiple Layout components for different sections or pages of your application. Each page can use a different Layout component based on its specific requirements.
+
+
+
+
+
+06.
+Use the 'req.body' object.
+
+In Next.js API routes, you can access data sent in the request body of a POST request using the 'req.body' object. To do this, you need to use the 'body- parser' middleware or the built-in 'req.body' parsing provided by Next.js.
+
+
+
+
+
+07.
+quality
+
+The quality property can be used to specify the quality of the image in the Image component. The default value is 75.
+
+
+
+
+
+08.
+A testing framework for JavaScript applications
+
+Cypress is a powerful end-to-end testing framework for web applications, including Next.js projects. It allows developers to write tests in JavaScript to interact with web elements and simulate user interactions.
+
+
+
+
+
+09.
+To navigate to a new page and keep the previous page in the browser history.
+
+The push method is used to navigate to a new page and keep the previous page in the browser history. This means users can navigate back to the previous page using the browser's back button.
+
+
+
+
+
+10.
+/pages
+
+In a Next.js project, the pages are stored in the "/pages" directory. Each file inside this directory represents a page accessible through its URL path.
+
+
+
+
+
+
+11.
+Using the useState hook
+
+In Next.js functional components, you can use the useState hook from React to initialize and manage state. It allows you to add state to functional components without the need for a class.
+
+
+
+
+
+
+12.
+Reduced bandwidth usage
+
+Font subsetting can lead to reduced file sizes and therefore reduced bandwidth usage.
+
+
+
+
+
+13.
+By using the getStaticProps or getServerSideProps functions to fetch metadata dynamically
+
+In Next.js, you can add Metadata to a page dynamically by using the getStaticProps or getServerSideProps functions. These functions allow you to fetch data, including Metadata, from an external source or API and pass it as props to the page component. This approach ensures that the Metadata is up-to-date and can be generated based on the page content or data.
+
+
+
+
+
+
+14.
+Using caching
+
+Using caching can help minimize API requests in Next.js
+
+
+
+
+
+15.
+Rendering content on the client side using JavaScript after the initial page load.
+
+Client-Side Rendering (CSR) in Next.js means that the initial HTML page is sent to the client with minimal content, and the rest of the content is generated and rendered on the client side using JavaScript. After the initial page load, subsequent interactions and data fetches are handled on the client side, making the application more dynamic and interactive.
+
+
+
+
+
+16.
+To include an External Stylesheet in a Next.js component, you should use the tag with the rel attribute set to "stylesheet" and the href attribute pointing to the path of the CSS file. This way, the CSS file will be linked to the component.
+
+
+
+
+
+17.
+.CSS
+
+In Next.js, the common file extension used for External Stylesheets is ".css". External stylesheets allow you to separate the styling from the component logic and keep your styles in a separate CSS file.
+
+
+
+
+
+18.
+useSWR is used for client-side data caching and revalidation, while getStaticProps is used for pre- rendering pages at build time.
+
+The useSWR hook in Next.js is used for client-side data caching and revalidation, while the getStaticProps function is used for pre-rendering pages at build time. While both can be used for data fetching, they serve different purposes and are used in different contexts.
+
+
+
+
+
+19.
+Create a file named 404.js in the pages directory.
+
+In Next.js, you can create a custom 404 page by creating a file named 404.js inside the pages directory. Next.js automatically recognizes this file as the custom 404 page and renders it whenever there is a 404 error.
+
+
+
+
+
+20.
+fill
+
+The available options for the layout property in the Image component are fill, fixed, intrinsic, and responsive.
+
+
+
+
+
+21.
+By using the className attribute with the CSS class name as a string.
+
+In Next.js, you reference CSS Modules in a component by using the className attribute and passing the CSS class name as a string. Next.js automatically generates a unique class name that maps to the corresponding CSS module.
+
+
+
+
+
+22.
+A way to pass data from one Next.js page to another through the URL.
+
+Query parameters in Next.js are used to pass data from one page to another by appending them to the URL. They allow you to pass variables, filters, or options to a page, making it easier to share data across different pages.
+
+
+
+
+
+
+
+23.
+It can result in slower performance compared to using getStaticProps.
+
+One of the limitations of using the getServerSideProps function in Next.js is that it can result in slower performance compared to using getStaticProps or getStaticPaths. This is because the data is fetched at runtime for each request, rather than at build time.
+
+
+
+
+
+24.
+It fetches data at build time and generates static HTML pages.
+
+The getStaticProps function in Next.js is used to fetch data at build time and generate static HTML pages. This is useful for pages with content that doesn't change frequently, as it can improve performance and SEO.
+
+
+
+
+
+25.
+useState
+
+The useState() hook is used to manage state within a Next.js Client Component. When the state variable changes, it triggers a re-render of the component with the updated data.
+
+
+
+
+
+26.
+All of the above
+
+The available values for the priority property in the Image component are high, low, and auto.
+
+
+
+
+27.
+npx cypress open
+
+The command npx cypress open is used to open the Cypress Test Runner, where you can see all your test files and run tests interactively.
+
+
+
+
+28.
+A mechanism to generate unique class names and scope styles locally in components.
+
+CSS Modules in Next.js allow you to write CSS styles in a way that generates unique class names and scopes the styles locally within the component. This helps prevent CSS class name collisions and makes your styles more maintainable and modular.
+
+
+
+
+
+
+29.
+Create a folder with square brackets, like [id], inside the "pages" directory.
+
+In Next.js, dynamic routes can be created by placing a file or folder inside the "pages" directory with square brackets, indicating the dynamic part of the URL. For example, creating a file named "[id].js" would allow you to access dynamic routes like "/posts/1" or "/posts/2".
+
+
+
+
+
+
+30.
+Use environment variables to store the credentials and access them in server-side code.
+
+Storing sensitive credentials in client- side code is a security risk since it can be easily accessed and exposed. Instead, using environment variables allows you to store sensitive information outside of the codebase and access them securely on the server- side. This way, the credentials remain hidden from the client-side code and protect against potential security breaches.
+
+
+
+
+
+31.
+SWR
+React Query
+
+SWR and React Query are both tools that can be used to achieve client-side data fetching in Next.js.
+
+
+
+
+
+32.
+vercel.json
+
+The vercel.json file is used to specify advanced deployment settings when deploying a Next.js project to Vercel. It allows developers to configure settings such as headers, redirects, and environment variables specific to the Vercel platform.
+
+
+
+
+
+
+33.
+They indicate that the route is a dynamic route.
+
+In Next.js, square brackets '[ ]' are used to define dynamic routes. By placing square brackets around a part of the route, you can indicate that this part of the URL is dynamic and can receive values as query parameters.
+
+
+
+
+
+
+
+34.
+npm run build
+
+The correct command to build a Next.js project for production deployment is npm run build. This command compiles the Next.js project and creates an optimized production build, ready to be deployed.
+
+
+
+
+
+35.
+To create a dynamic route that matches any path within the main route.
+
+In Next.js, the [...param] syntax is used in the file name of the main route to create a catch-all route, also known as a dynamic route. It allows the main route to match any path that comes after it, and the matched path is accessible as a parameter in the component using the useRouter hook.
+
+
+
+
+
+
+36.
+push adds a new entry to the browser history, while replace replaces the current entry in the history.
+
+The push method adds a new entry to the browser history, allowing users to navigate back to the previous page. On the other hand, the replace method replaces the current entry in the history with the new page, so navigating back will skip the replaced page.
+
+
+
+
+
+
+37.
+Rendering content on the server and sending the HTML to the client.
+
+Server-Side Rendering (SSR) in Next.js refers to the process of rendering the page content on the server and sending the fully rendered HTML to the client. This ensures that the client receives a complete page with all the data pre- rendered, making it more SEO-friendly and providing better performance on the initial page load.
+
+
+
+
+
+
+38.
+By wrapping the entire JSX content of the page with the styled- jsx/global tag
+
+To apply Global CSS to a Next.js page using the styled-jsx package, you need to wrap the entire JSX content of the page with the styled-jsx/global tag. This will ensure that the CSS rules are applied globally across the page.
+
+
+
+
+
+
+
+39.
+Using Next.js guarantees a top ranking on search engines.
+
+While Next.js provides features that can significantly enhance SEO, there are many other factors that influence search engine rankings, such as content quality, backlinks, and user experience. Using Next.js alone does not guarantee a top ranking on search engines.
+
+
+
+
+
+
+40.
+By dynamically loading CSS styles only when they are needed.
+
+CSS-in-JS libraries in Next.js can help improve performance by dynamically loading CSS styles only for the components that are actually used in the application. This eliminates the need to load a single large CSS file for the entire application, reducing the overall bundle size and improving loading times.
+
+
+
+
+
+
