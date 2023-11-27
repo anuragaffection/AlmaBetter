@@ -1,0 +1,207 @@
+
+
+1. **What is an API?**
+    a. Application Programming Interface
+    b. Application Process Interface
+    c. Application Protocol Interface
+    d. Application Programming Integration
+
+
+
+
+
+2. **Which of the following is a principle of RESTful APIs?**
+    a. Statefulness
+    b. Stateless
+    c. Continuous connectivity
+    d. Encapsulation
+
+
+
+
+
+
+3. **What is Express in web development?**
+    a. Database management system
+    b. Front-end framework
+    c. Back-end framework
+    d. Testing tool
+
+
+
+
+
+
+4. **Which of the following is true about an Express server?**
+    a. It only supports JavaScript.
+    b. It is a built-in module in Python.
+    c. It is a lightweight web application framework for Node.js.
+    d. It's exclusively used for HTML rendering.
+
+
+
+
+
+
+5. **Express Routing refers to:**
+    a. Directing traffic on a website
+    b. Managing server hardware
+    c. Defining endpoints and handling HTTP methods
+    d. Optimizing database queries
+
+
+
+
+
+
+6. **How can you create a REST API using Express?**
+    a. By defining routes and their corresponding HTTP methods
+    b. By embedding SQL queries directly in the code
+    c. By using only GET requests
+    d. By writing static HTML files
+
+
+
+
+
+
+7. **What is Postman primarily used for in relation to APIs?**
+    a. Code debugging
+    b. API testing and development
+    c. Database management
+    d. Front-end design
+
+
+
+
+
+
+8. **Which HTTP method is typically used for retrieving data from a RESTful API?**
+    a. POST
+    b. PUT
+    c. GET
+    d. DELETE
+
+
+
+
+
+
+9. **Express.js is based on which programming language?**
+    a. Python
+    b. Java
+    c. JavaScript
+    d. Ruby
+
+
+
+
+
+10. **What role does middleware play in Express?**
+    a. It defines the database structure.
+    b. It mediates communication between the client and server.
+    c. It handles errors in the frontend.
+    d. It extends the functionality of Express by providing additional features.
+
+
+
+
+
+
+11. **Which file in an Express application typically contains route definitions?**
+    a. app.js
+    b. index.html
+    c. routes.js
+    d. server.js
+
+
+
+
+
+
+12. **Which of the following statements is true about the REST architectural style?**
+    a. It relies on keeping the server stateful for improved performance.
+    b. It promotes a client-server architecture with a centralized database.
+    c. It emphasizes statelessness and uniform interfaces for interactions.
+    d. It prioritizes proprietary protocols over standard HTTP methods.
+
+
+
+
+
+13. **What is the primary purpose of the HTTP PUT method in RESTful APIs?**
+    a. To request data from the server
+    b. To delete resources on the server
+    c. To update resources on the server
+    d. To create new resources on the server
+
+
+
+
+
+14. **Which Express method is used to handle POST requests?**
+    a. .get()
+    b. .post()
+    c. .put()
+    d. .delete()
+
+
+
+
+15. **What does the status code '404' signify in the context of HTTP?**
+    a. OK - Successful request
+    b. Unauthorized access
+    c. Resource not found
+    d. Internal server error
+
+
+
+
+
+
+Answer
+
+1. **What is an API?**
+    Answer: a. Application Programming Interface
+
+2. **Which of the following is a principle of RESTful APIs?**
+    Answer: b. Stateless
+
+3. **What is Express in web development?**
+    Answer: c. Back-end framework
+
+4. **Which of the following is true about an Express server?**
+    Answer: c. It is a lightweight web application framework for Node.js.
+
+5. **Express Routing refers to:**
+    Answer: c. Defining endpoints and handling HTTP methods
+
+6. **How can you create a REST API using Express?**
+    Answer: a. By defining routes and their corresponding HTTP methods
+
+7. **What is Postman primarily used for in relation to APIs?**
+    Answer: b. API testing and development
+
+8. **Which HTTP method is typically used for retrieving data from a RESTful API?**
+    Answer: c. GET
+
+9. **Express.js is based on which programming language?**
+    Answer: c. JavaScript
+
+10. **What role does middleware play in Express?**
+    Answer: d. It extends the functionality of Express by providing additional features.
+
+11. **Which file in an Express application typically contains route definitions?**
+    Answer: a. app.js
+
+12. **Which of the following statements is true about the REST architectural style?**
+    Answer: c. It emphasizes statelessness and uniform interfaces for interactions.
+
+13. **What is the primary purpose of the HTTP PUT method in RESTful APIs?**
+    Answer: c. To update resources on the server
+
+14. **Which Express method is used to handle POST requests?**
+    Answer: b. .post()
+
+15. **What does the status code '404' signify in the context of HTTP?**
+    Answer: c. Resource not found

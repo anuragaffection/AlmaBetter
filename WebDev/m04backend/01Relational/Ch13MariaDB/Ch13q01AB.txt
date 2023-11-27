@@ -214,3 +214,8 @@ Filters out duplicate rows from the result set.
 
 Justification The DISTINCT keyword is used to eliminate duplicate rows from the result set, ensuring that only unique rows are returned.
 
+
+
+
+
+
