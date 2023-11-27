@@ -129,6 +129,7 @@
 
 
 
+
 13. **What is the primary purpose of the HTTP PUT method in RESTful APIs?**
     a. To request data from the server
     b. To delete resources on the server
@@ -139,11 +140,13 @@
 
 
 
+
 14. **Which Express method is used to handle POST requests?**
     a. .get()
     b. .post()
     c. .put()
     d. .delete()
+
 
 
 
@@ -205,3 +208,6 @@ Answer
 
 15. **What does the status code '404' signify in the context of HTTP?**
     Answer: c. Resource not found
+
+
+    
