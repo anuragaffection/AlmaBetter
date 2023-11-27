@@ -1,0 +1,239 @@
+Db design
+
+
+
+01.
+Which of the following is a characteristic of a relationship in a logical data model?
+
+It defines the physical storage location of data.
+It represents an attribute of an entity.
+It specifies how data in one entity is related to data in another entity.
+It defines the primary key of a table.
+
+
+
+
+
+
+02.
+What is the primary purpose of a logical data model in database design?
+
+To define the physical storage structures of the database.
+To represent the data at a high level of abstraction without specifying implementation details.
+To specify the relationships between tables in the database.
+To generate SQL code for creating database tables.
+
+
+
+
+
+
+
+03.
+Why is database design important in the development of a database system?
+
+It makes the database system faster.
+It ensures data integrity and accuracy.
+It reduces the cost of hardware.
+It simplifies database operations.
+
+
+
+
+
+
+04.
+Which of the following normal forms deals with the elimination of transitive dependencies?
+
+First Normal Form (1NF)
+Second Normal Form (2NF)
+Third Normal Form (3NF)
+Fourth Normal Form (4NF)
+
+
+
+
+
+
+05.
+What is normalization in the context of database schema design?
+
+It refers to compressing data to reduce storage space.
+It is the process of breaking down complex tables into simpler ones to reduce data redundancy.
+It is the process of encrypting sensitive data.
+It is a method for optimizing query performance.
+
+
+
+
+
+
+
+06.
+During which phase of the database lifecycle is the actual database system built and populated with data?
+
+Design
+Implementation
+Maintenance
+Planning
+
+
+
+
+
+
+
+07.
+What is a primary reason for performing normalization in database design?
+
+To increase data redundancy
+To simplify query complexity
+To minimize data duplication
+To improve data consistency
+
+
+
+
+
+
+
+08.
+In a logical data model, what is an entity?
+
+A physical representation of a database table.
+An attribute within a table.
+A logical representation of a real-world object or concept.
+A database index.
+
+
+
+
+
+
+09.
+In which normal form is a relation considered free from partial dependencies?
+
+First Normal Form (1NF)
+Second Normal Form (2NF)
+Third Normal Form (3NF)
+Boyce-Codd Normal Form (BCNF)
+
+
+
+
+
+
+10.
+Which normal form allows multivalued dependencies to be removed?
+
+First Normal Form (1NF)
+Second Normal Form (2NF)
+Third Normal Form (3NF)
+Fourth Normal Form (4NF)
+
+
+
+
+
+
+
+
+
+Answer
+01.
+It specifies how data in one entity is related to data in another entity.
+
+Relationships in a logical data model specify how data in one entity is related to data in another entity. They describe the associations or connections between entities, which helps define the structure of the database.
+
+
+
+
+
+
+02.
+To represent the data at a high level of abstraction without specifying implementation details.
+
+The primary purpose of a logical data model is to represent the data at a high level of abstraction, without being concerned with the physical implementation details. It defines the structure of the data and the relationships between data elements, providing a clear and abstract view of the data.
+
+
+
+
+
+
+
+03.
+It ensures data integrity and accuracy.
+
+Proper database design ensures data integrity and accuracy by defining relationships, constraints, and data types, which helps prevent data corruption and inconsistencies.
+
+
+
+
+
+
+
+04.
+Third Normal Form (3NF)
+
+Third Normal Form (3NF) deals with the elimination of transitive dependencies, ensuring that attributes are functionally dependent only on the primary key.
+
+
+
+
+
+
+
+05.
+It is the process of breaking down complex tables into simpler ones to reduce data redundancy.
+
+Normalization is the process of organizing data in a database to eliminate redundancy and improve data integrity. It involves breaking down complex tables into simpler ones and establishing relationships between them.
+
+
+
+
+
+
+
+
+06.
+Implementation
+
+In the implementation phase, the database is constructed based on the design specifications, and data is loaded into the database tables.
+
+
+
+
+
+07.
+To improve data consistency
+
+Normalization is performed in database design to improve data consistency by reducing data duplication and ensuring that data is stored in a structured and organized manner.
+
+
+
+
+
+08.
+A logical representation of a real-world object or concept.
+
+In a logical data model, an entity represents a logical abstraction of a real- world object, concept, or thing. Entities are used to model the main objects of interest within the database.
+
+
+
+
+
+
+09.
+Third Normal Form (3NF)
+
+A relation is considered free from partial dependencies when it is in Third Normal Form (3NF). 3NF removes transitive dependencies and ensures that attributes depend only on the primary key.
+
+
+
+
+
+10.
+Fourth Normal Form (4NF)
+
+Fourth Normal Form (4NF) allows for the removal of multivalued dependencies, ensuring that each attribute in a relation is functionally dependent on the primary key.
+
