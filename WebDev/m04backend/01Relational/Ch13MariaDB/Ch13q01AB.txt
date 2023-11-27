@@ -1,0 +1,216 @@
+mariadB
+
+
+01.
+What is the purpose of the ORDER BY clause in a MariaDB query?
+
+To group rows with similar values
+To filter rows based on a condition
+To sort the result set based on one or more columns
+To perform mathematical operations on columns
+
+
+
+
+
+
+02.
+Which of the following aggregate functions in MariaDB is used to calculate the average of numeric column values?
+
+COUNT
+SUM
+AVG
+MAX
+
+
+
+
+
+
+03.
+What is the main difference between LEFT JOIN and RIGHT JOIN?
+
+LEFT JOIN includes unmatched rows from the left table, and RIGHT JOIN includes unmatched rows from the right table.
+LEFT JOIN includes all rows from both tables, and RIGHT JOIN includes only matched rows.
+LEFT JOIN and RIGHT JOIN are identical in functionality.
+LEFT JOIN is not supported in MariaDB, only RIGHT JOIN is available.
+
+
+
+
+
+
+04.
+Which clause is used to group rows in a MariaDB query based on the values in one or more columns?
+
+GROUP BY
+FILTER
+HAVING
+ORDER BY
+
+
+
+
+
+
+05.
+How is the DISTINCT keyword used in a SELECT statement?
+
+It is placed before the column names you want to select.
+It is placed after the FROM clause.
+It is placed before the WHERE clause.
+It is placed within the ORDER BY clause.
+
+
+
+
+
+
+06.
+When using an INNER JOIN in MariaDB, if there is no specified condition using the ON clause, what will be the result?
+
+The query will fail with an error.
+The INNER JOIN will behave like a CROSS JOIN and return the Cartesian product.
+The INNER JOIN will be performed based on the first column of each table.
+The INNER JOIN will return an empty result set
+
+
+
+
+
+
+07.
+Which keyword is used in MariaDB to perform aggregation functions like SUM, AVG, COUNT, МАХ, and MIN in a query?
+
+GROUP
+AGGREGATE
+SELECT
+ORDER BY
+
+
+
+
+
+
+08.
+What is the purpose of the OFFSET clause in a MariaDB query?
+
+It defines the maximum number of rows to retrieve.
+It specifies the starting point from where rows should be retrieved.
+It orders the result set in ascending order.
+It limits the number of columns to retrieve.
+
+
+
+
+
+09.
+Which SQL clause allows you to limit the number of rows returned in a MariaDB query?
+
+LIMIT
+ROWNUM
+TOP
+OFFSET
+
+
+
+
+
+10.What does the DISTINCT keyword do in MariaDB?
+
+Sorts the result set in ascending order.
+Filters out duplicate rows from the result set.
+Joins two or more tables
+Performs mathematical calculations on numeric data.
+
+
+
+
+
+
+
+
+
+Answer
+
+01.
+To sort the result set based on one or more columns
+
+The ORDER BY clause is used to sort the result set based on the specified column(s).
+
+
+02.
+AVG
+
+The AVG function in MariaDB is used to calculate the average of numeric column values. It adds up all the values in the specified column and divides the total by the number of rows to find the average
+
+
+
+
+03.
+LEFT JOIN includes unmatched rows from the left table, and RIGHT JOIN includes unmatched rows from the right table.
+
+LEFT JOIN returns all the rows from the left table and the matching rows from the right table. If there is no match for a row in the left table, NULL values are returned for the right table columns. RIGHT JOIN does the same, but it includes all rows from the right table and the matching rows from the left table.
+
+
+
+
+04.
+GROUP BY
+
+The GROUP BY clause is used to group rows in a MariaDB query based on the values in one or more columns.
+
+
+
+
+
+05.
+
+It is placed before the column names you want to select.
+
+To select distinct values from specific columns, you place the DISTINCT keyword before the column names in the SELECT statement.
+
+
+
+
+
+06.
+The INNER JOIN will behave like a CROSS JOIN and return the Cartesian product.
+
+If there is no specified condition using the ON clause in an INNER JOIN, it will behave like a CROSS JOIN, which returns the Cartesian product of both tables. This means every row from the first table will be paired with every row from the second table.
+
+
+
+
+07.
+SELECT
+
+The SELECT keyword is used in MariaDB to perform aggregation functions like SUM, AVG, COUNT, MAX, and MIN. Aggregation queries allow you to calculate values based on groups of rows in a table.
+
+
+
+
+
+08.
+It specifies the starting point from where rows should be retrieved.
+
+The OFFSET clause is used to specify the starting point or offset from where rows should be retrieved in a result set. It is often used in combination with the LIMIT clause to implement pagination.
+
+
+
+
+
+09.
+LIMIT
+
+The LIMIT clause allows you to specify the maximum number of rows to be returned in the result set.
+
+
+
+
+
+10.
+Filters out duplicate rows from the result set.
+
+Justification The DISTINCT keyword is used to eliminate duplicate rows from the result set, ensuring that only unique rows are returned.
+
