@@ -46,14 +46,47 @@ Environment Variables {
 
 
 
-Express Middleware 
+Express Middleware {
+    -- middleware is function, has the ability to execute any code before or after the routes are executed
+    
+    pplication level middleware
+    -- app.use()
 
-Express Built in Middleware
--- Express.static 
--- express.json 
--- Middleware to a route 
--- next()
--- Middleware to all requests 
+    router level middleware
+    -- router.useL()
+
+    syntax 
+    -- function <myMiddlewareFunctn> (req, res, next)
+
+}
+
+
+Express Built in Middleware {
+    -- express.static
+    -- express.json 
+    -- express.urlencoded  
+    -- express.raw 
+    -- express.text 
+
+    Express.static 
+    -- serves static assets 
+    -- maxAge ]]
+    
+    express.json 
+    -- parses json payloads 
+    -- limit  ]]
+    -- req.body.<Field_Name> 
+
+    Middleware to a route 
+    --  
+    
+    next()
+    
+    Middleware to all requests 
+}
+
+
+
 
 Error Handling in Express
 -- Default error 
@@ -62,3 +95,29 @@ Error Handling in Express
 
 
 
+
+
+
+Activity {
+
+    Activity: Agree or Disagree {
+
+        01. Using environment variables is a secure way to store sensitive information like API keys.
+        
+        02. Storing configuration settings in code is a better practice than using environment variables.
+        
+        03. The command line interface (CLI) is primarily for advanced users and has limited relevance in modern software development.
+        
+        04. A .env file is a security risk because it exposes sensitive configuration data.
+        
+        05. Express middlewares are only used for handling HTTP requests and responses in web applications.
+        
+        Answers
+        01. Agree 
+        02. Disagree
+        03. Disagree
+        04. Disagree
+        05. Disagree
+    }
+
+}
