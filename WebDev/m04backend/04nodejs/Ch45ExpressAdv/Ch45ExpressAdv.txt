@@ -20,6 +20,10 @@ Error Handling in Express
 -- Middleware for error Handling
 
 
+Lik {
+    --  https://selvaganesh93.medium.com/how-node-js-middleware-works-d8e02a936113
+    -- https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786
+}
 
 
 -------------------------------------------------
@@ -48,12 +52,19 @@ Environment Variables {
 
 Express Middleware {
     -- middleware is function, has the ability to execute any code before or after the routes are executed
+
+    Types of Middleware
+    -- app level 
+    -- router level 
+    -- built in 
+    -- error handling
+    -- third party 
     
-    pplication level middleware
+    application level middleware
     -- app.use()
 
     router level middleware
-    -- router.useL()
+    -- router.use()
 
     syntax 
     -- function <myMiddlewareFunctn> (req, res, next)
@@ -76,22 +87,36 @@ Express Built in Middleware {
     -- parses json payloads 
     -- limit  ]]
     -- req.body.<Field_Name> 
+    -- req.headers 
+    -- req.method 
+    -- req.ulr 
 
     Middleware to a route 
-    --  
+    -- 
     
     next()
+    -- callback function
+    -- app.use((err, req, res, next) => {} )
     
     Middleware to all requests 
+    -- 
 }
 
 
 
 
-Error Handling in Express
--- Default error 
--- custom error 
--- Middleware for error Handling
+Error Handling in Express {
+    
+    Default error 
+    -- express automatically detect synchronous code 
+    
+    custom error 
+    
+    Middleware for error Handling
+    -- err.message 
+    -- 
+}
+
 
 
 
@@ -118,6 +143,28 @@ Activity {
         03. Disagree
         04. Disagree
         05. Disagree
+    }
+
+
+
+    Activity: Guess the word {
+        
+        01. A built-in Express.js middleware used for serving static files and assets like CSS and images.
+        
+        02. A built-in Express.js middleware used for parsing JSON payloads sent in the request body.
+        
+        03. A function used inside a middleware to pass control to the next middleware in the stack.
+        
+        04. In Express.js, you can create and handle custom errors by extending this class.
+        
+        05. Adding a middleware function for error handling in Express.js can be done using this method.
+        
+        Answers
+        01. express.static
+        02. express.json
+        03. next()
+        04. Error
+        05. app.use
     }
 
 }
