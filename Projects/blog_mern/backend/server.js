@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 
 const app = Express();
-app.use(Express.json())
+app.use(Express.json()) // middleware to use json 
 
 mongoose.connect("mongodb+srv://anuragaffection07:roqsMh2mrM71eQEX@blogmern.6dvaqhd.mongodb.net/" , {
     dbName : "MERN_2023_YouTube"
@@ -13,12 +13,13 @@ mongoose.connect("mongodb+srv://anuragaffection07:roqsMh2mrM71eQEX@blogmern.6dva
 app.get('/', (req, res) => {
     res.json( {
         success : true, 
-        message : 'User registered successfully',
+        message : 'We are in home route',
         suman : 'Web Dev by Suman'
     })
 })
 
 
+// database schema 
 const userSchema = new mongoose.Schema({
     name : {
         type : String,
@@ -39,22 +40,26 @@ const userSchema = new mongoose.Schema({
     },
 })
 
-
+// creating model, why ?
+// behind the scene it works as class constructors 
 const User = mongoose.model("User", userSchema);
 
 app.post('/api/users/register', async (req, res) => {
+
+    // destructuring , after  recieving from req.body 
     const {name, email, password} = req.body;
 
+    // storing in single variable, the whole json 
     const user = await User.create({
         name, email, password
     })
 
+    //  returning or responses send 
     res.json( {
         success : true, 
-        message : 'we are in home route',
+        message : 'User registered successfully',
         suman : 'Web Dev by Suman',
-        user
-        
+        user 
     })
 })
 
