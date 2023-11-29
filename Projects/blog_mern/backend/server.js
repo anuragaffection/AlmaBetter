@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import Jwt from "jsonwebtoken";
 
+import userRouter from "./routes/user.js";
+
 
 const app = Express();
 app.use(Express.json()) // middleware to use json 
@@ -12,13 +14,7 @@ mongoose.connect("mongodb+srv://anuragaffection07:roqsMh2mrM71eQEX@blogmern.6dva
 }).then(() => console.log("Mongodb is connected"));
 
 
-app.get('/', (req, res) => {
-    res.json({
-        success: true,
-        message: 'We are in home route',
-        suman: 'Web Dev by Suman'
-    })
-})
+
 
 
 // database schema 
@@ -42,9 +38,15 @@ const userSchema = new mongoose.Schema({
     },
 })
 
+
 // creating model, why ?
 // behind the scene it works as class constructors 
 const User = mongoose.model("User", userSchema);
+
+
+app.use('/', userRouter);
+
+
 
 app.post('/api/users/register', async (req, res) => {
 

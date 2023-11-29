@@ -11,4 +11,21 @@ router.get('/', (req, res) => {
 })
 
 
+router.get('/post', (req, res) => {
+    res.json({
+        success: true,
+        message: 'We are in post route',
+        suman: 'Web Dev by Suman'
+    })
+})
+
+
+router.get('/about', (req, res) => {
+    res.json({
+        success: true,
+        message: 'We are in about route',
+        suman: 'Web Dev by Suman'
+    })
+})
+
 export default router;
