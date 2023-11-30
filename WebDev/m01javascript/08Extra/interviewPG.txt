@@ -1,0 +1,23 @@
+javascript interview questions by Piyush Garg 
+
+
+01. hoisting with variables 
+-- Global Execution context 
+
+02. var & let Difference 
+-- hoisting with var & let 
+-- temporal dead zones in javascript
+
+03. hoisting with Function
+-- Execution context 
+-- memory phase 
+-- code phase 
+
+04. iife 
+-- immediately invoked Function
+-- syntax of iife
+
+05. scope of variables
+-- scope of variables in iife 
+-- scope of variables in Function
+
