@@ -22,3 +22,18 @@ Steps
 
 #2.47.00
 
+
+Topics {
+
+    01. MVC 
+    -- model = database modle 
+    -- View = 
+    -- controllers = all function 
+
+    02. dotenv
+    -- to store secret  key 
+
+    03. cors 
+    -- 
+}
+

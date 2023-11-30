@@ -1,5 +1,5 @@
 import Express from "express";
-import { userRegister, userLogin, userLogout, getMyProfile } from "../controllers/user.js";
+import { userRegister, userLogin, userLogout, getMyProfile } from "../controllers/userControllers.js";
 import { isAuthenticated } from "../middleware/auth.js";
 
 

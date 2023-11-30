@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
 import Jwt from "jsonwebtoken";
-import { User } from "../models/users.js";
+import { User } from "../models/usersModel.js";
 import { generateCookie } from "../utils/feature.js";
 
 

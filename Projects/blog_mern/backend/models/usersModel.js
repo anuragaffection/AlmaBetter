@@ -23,4 +23,7 @@ const userSchema = new mongoose.Schema({
 
 // creating model, why ?
 // behind the scene it works as class constructors 
+// const user    = our variable 
+// .model("User", ) = name in mongoDb 
+// .model("User", userSchema) = storing userSchema in user in mongodb 
 export const User = mongoose.model("User", userSchema);

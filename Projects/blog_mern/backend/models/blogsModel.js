@@ -16,7 +16,7 @@ const blogSchema = new mongoose.Schema({
     },
     user : {
         type : mongoose.Schema.Types.ObjectId,
-        ref : "User", // schema name 
+        ref : "User", // schema name from mongoDb 
         require: true
     },
     createdAt: {
