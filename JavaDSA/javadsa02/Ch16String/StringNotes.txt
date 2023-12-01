@@ -1,13 +1,38 @@
  all predefined function in string in java 
 
- -- chartAt()
- -- length()
- -- concat()
 
- -- toString()
- -- toCharArray()
+String {
+    -- chartAt()
+    -- length()
+    -- concat()
+
+    -- equals()
+    -- join()
+
+    -- toString()
+    -- toCharArray()
+}
+
+
+
+StringBuilder {
+    -- append()
+    -- 
+}
+
+
  
- -- collection.sort()
+Some more {
+    -- collection.sort()
+}
+
+
+
+
+difference {
+    -- length vs length()
+    -- String vs StringBuilder 
+ }
 
 
 
