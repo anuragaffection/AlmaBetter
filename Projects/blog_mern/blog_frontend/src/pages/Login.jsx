@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import axios from 'axios';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import context from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
@@ -83,7 +83,7 @@ function Login() {
 
         <div className="d-flex flex-column">
 
-          <h1 className='text-center my-4'>Register New User </h1>
+          <h1 className='text-center my-4'>Login Here  </h1>
 
           <form onSubmit={handleSubmit} className=" d-flex flex-column gap-4">
 

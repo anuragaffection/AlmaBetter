@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import context from './AuthContext'
 
-function AuthState() {
+function AuthState(props) {
 
     const [isAuthenticated, setIsAuthenticated] = useState(false)
     const [user, setUser] = useState("")

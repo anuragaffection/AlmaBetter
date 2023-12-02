@@ -1,13 +1,14 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import axios from 'axios'
-import { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import context from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 function Register() {
 
   const auth = useContext(context);
+  const navigate = useNavigate();
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
@@ -43,6 +44,10 @@ function Register() {
       });
 
       auth.setIsAuthenticated(true)
+
+      setTimeout(() => {
+        navigate('/login')
+      }, 1500);
 
 
     }
@@ -85,7 +90,7 @@ function Register() {
 
         <div className="d-flex flex-column">
 
-          <h1 className='text-center my-4'>Login User  </h1>
+          <h1 className='text-center my-4'>Register Here   </h1>
 
           <form onSubmit={handleSubmit} className=" d-flex flex-column gap-4">
 
