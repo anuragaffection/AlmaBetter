@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
+import axios from 'axios';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import context from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
 
   const auth = useContext(context);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
@@ -14,7 +18,6 @@ function Login() {
 
     try {
       const api = await axios.post(`https://blog-mern-backend-luce.onrender.com/api/users/login`, {
-
         email,
         password
       },

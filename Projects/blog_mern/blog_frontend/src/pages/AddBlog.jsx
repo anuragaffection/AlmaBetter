@@ -1,41 +1,209 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import axios from 'axios'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import context from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
+
 
 function AddBlog() {
+
+  const auth = useContext(context);
+  const navigate = useNavigate();
+
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [imgUrl, setImgUrl] = useState("");
+
+  useEffect(() => {
+
+    const fetchBlog = async () => {
+      const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/blogs/blog/${auth.id}`, {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        withCredentials: true,
+      });
+
+      setTitle(api.data.blog.title)
+      setDescription(api.data.blog.description)
+      setImgUrl(api.data.blog.imgUrl);
+    }
+
+    fetchBlog();
+  }, [auth.id])
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!auth.id) {
+      try {
+        const api = await axios.post(`https://blog-mern-backend-luce.onrender.com/api/blogs/new`, {
+          title,
+          description,
+          imgUrl
+        },
+          {
+            headers: {
+              "Content-Type": "application/json"
+            },
+            withCredentials: true,
+          });
+
+        // console.log(api);
+        toast.success(api.data.message, {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+
+        auth.setIsAuthenticated(true);
+
+        setTimeout(() => {
+          navigate('/profile')
+        }, 1500);
+
+      } catch (error) {
+        // console.error(error)
+        toast.error(error.response.data.message, {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+
+        auth.setIsAuthenticated(false);
+      }
+
+    } else {
+      try {
+        const api = await axios.put(`https://blog-mern-backend-luce.onrender.com/api/blogs/${auth.id}`, {
+          title,
+          description,
+          imgUrl
+        },
+          {
+            headers: {
+              "Content-Type": "application/json"
+            },
+            withCredentials: true,
+          });
+
+        // console.log(api);
+        toast.success(api.data.message, {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+
+        auth.setIsAuthenticated(true);
+
+        setTimeout(() => {
+          navigate('/profile')
+        }, 1500);
+
+        auth.setId("");
+
+      } catch (error) {
+        // console.error(error)
+        toast.error(error.response.data.message, {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+
+        auth.setIsAuthenticated(false);
+      }
+    }
+  }
+
+
   return (
     <>
-      <div className="container">
+      <ToastContainer
+        position="top-right"
+        autoClose={1500}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
 
-        <div className="d-flex flex-column">
+      <div className="container" style={{ width: '45%' }}>
 
-          <h1 className='text-center my-4'>Add New Blog </h1>
+        {
+          (auth.id) ? (
+            <h1 className='text-center my-3'>Edit Blog</h1>) : (
+            <h1 className='text-center my-3'>Add Blog</h1>
+          )
+        }
 
-          <form className=" d-flex flex-column gap-4">
+        <form onSubmit={handleSubmit}>
+          <div className="mb-3 my-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">Title</label>
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              type="text" className="form-control" id="exampletext" aria-describedby="emailHelp"
+            />
 
-            <div className="form-group">
-              <label htmlFor="exampleInputTitle">Title </label>
-              <input type="text" className="form-control" id="exampleInputTitle" aria-describedby="textHelp" placeholder="Enter Title of Blogs " />
-            </div>
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">Description</label>
+            <input
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            />
 
-            <div className="form-group">
-              <label htmlFor="exampleInputDescription">Description </label>
-              <div class="form-outline">
-                <textarea class="form-control" id="exampleInputDescription" rows="6"></textarea>
-              </div>
-            </div>
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword1" className="form-label">imgUrl</label>
+            <input
+              value={imgUrl}
+              onChange={(e) => setImgUrl(e.target.value)}
+              type="text" className="form-control" id="exampleInputPassword1"
+            />
+          </div>
 
-            <div className="form-group">
-              <label htmlFor="exampleInputImageUrl">Image Url </label>
-              <input type="ulr" className="form-control" id="exampleInputImageUrl" placeholder="Enter Image Url" />
-            </div>
+          <div className="d-grid gap-2 my-5">
+            {
+              (auth.id) ? (
+                <button type="submit" className="btn btn-primary">Edit Blog</button>
 
-            <button type="submit" className="btn btn-primary">Submit</button>
+              ) : (
+                <button type="submit" className="btn btn-primary">Add Blog</button>
 
-          </form>
-
-        </div>
-
+              )
+            }
+          </div>
+          
+        </form>
       </div>
-
     </>
   )
 }
