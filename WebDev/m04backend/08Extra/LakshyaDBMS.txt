@@ -6,6 +6,8 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 
 
 
+
+
 01. What is DBMS {
     -- data 
     -- information 
@@ -102,14 +104,18 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
     -- Relationship
     -- constraints - Mapping & participation
     
+    Designing ER modle of Bank System 
+    -- 
 
 }
+
 
 
 06. Designing ER Modle {
     -- #3.46.04
     -- facebook database 
 }
+
 
 
 
@@ -129,7 +135,21 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
 
 
 
-09. Normalisation {
+
+09. SQL in 1-Video {
+
+}
+
+
+
+
+10. Maria Db in 1-video {
+
+}
+
+
+
+11. Normalisation {
     -- #5.34.15
     -- SRP = single responsibility table 
 
@@ -144,21 +164,23 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
     -- 3NF  = 2NF + no transitivity dependency 
     -- BCNF = 3NF + no non-trivial dependency
 
-
 }
 
 
 
-10.  transaction {
+
+
+12. transaction {
     -- #6.33.00
     -- it will be successful or it will rollback to previous state
-    -- it 
-
+    -- 
 }
 
 
 
-11. Acid Properties {
+
+
+13. implmentation of Atomicity and Durability {
     -- #6.40.38
 
     ACID
@@ -166,27 +188,44 @@ https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view
     -- C = Consistency
     -- I = Isolation
     -- D = Durability 
-
-    transaction state 
-    -- 
-
 }
 
 
 
 
 
-12. indexing in DBMS
-13. NoSQL vs Sql 
-14. types of database 
-15. partition and sharding 
-16. CAP theorem 
-17. Master slave 
+14. indexing in DBMS
+
+
+15. NoSQL {
+    -- Not only SQL
+    -- advantages of NoSQL
+    -- horizontal scaling vs vertical scaling
+    -- NoSQL db misconceptions 
+}
+
+
+16. types of database {
+
+}
+
+
+17. clustering in dbms 
+
+18. partioning and sharding
+
+19. patterns 
+
+20. CAP theorem 
+
+21. Master slave 
+
+
 
 
 
 
 18. task {
     -- Generalisation vs Normalisation
-    -- 
+    -- horizontal scaling vs vertical scaling
 }
