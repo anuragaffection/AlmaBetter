@@ -15,11 +15,64 @@ Cardinality
 ER Diagram Implementation 
 
 
+
+
+
 Notes {
     -- transaction = every task we do with database is transaction
     -- transaction = passed or failed (2 outcome only )
-    -- commit = rollback if commit failed
-    -- ACID = Atomicity, Consistency, Isolation, Durability  
+    -- commit   = rollback if commit failed
 
+    -- ACID = Atomicity, Consistency, Isolation, Durability  
+    -- ERD  = Entity Relationship Diagram 
+    -- ER   = Entity Relationship 
 }
+
+
+
+
+
+database transaction {
+
+    commit
+    -- transaction is successful  
+
+    rollback
+    -- transaction is failed 
+    -- return to initial state 
+
+    
+    ACID Properties 
+    -- Atomicity   = transaction cannot be partially executed 
+    -- Consistency = 
+    -- Isolation   = transactions do not interfere with each other
+    -- Durability  = data must be available after crash 
+
+    
+    transaction state
+    -- transaction state = Life cycle state of transaction
+    -- transaction state = begin , end , error , abort
+
+    state
+    -- active state 
+    -- partially commited state
+    -- commited state
+    -- terminated state
+    -- failed state
+    -- aborted state
+    
+    Defining db transaction
+    -- 
+}
+
+
+
+
+Save Point 
+
+Entity Relationship 
+-- ER Model 
+-- ER Diagram Notations 
+
+Cardinality 
 
