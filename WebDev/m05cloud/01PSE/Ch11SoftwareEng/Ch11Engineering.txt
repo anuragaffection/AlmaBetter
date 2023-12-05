@@ -1,0 +1,53 @@
+
+Overview of Software Engineering 
+Software Engineering vs Programing 
+Software Development Life Cycle 
+Software Requiremnts Engineering
+Software Design Principles 
+Software Testing 
+Software Maintenance & Evolution 
+Software Project Management 
+Software Quality Assurance 
+Software Engineering Ethics 
+SDLC Models 
+
+
+
+
+Links {
+    -- 
+}
+
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+
+Overview of Software Engineering 
+Software Engineering vs Programing 
+Software Development Life Cycle 
+Software Requiremnts Engineering
+Software Design Principles 
+Software Testing 
+Software Maintenance & Evolution 
+Software Project Management 
+Software Quality Assurance 
+Software Engineering Ethics 
+SDLC Models 
+
+
+
+
+
+
+
+
+
