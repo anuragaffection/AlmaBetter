@@ -1,0 +1,235 @@
+Software engineering
+
+
+
+01.
+Which software development practice focuses on delivering working software frequently and continuously?
+
+Code Refactoring
+Test-Driven Development
+Pair Programming
+Continuous Delivery
+
+
+
+
+
+
+
+02.
+Which software development approach emphasizes extensive documentation and sequential phases?
+
+Waterfall
+Agile
+RAD
+Spiral
+
+
+
+
+
+
+03.
+What is the software development life cycle (SDLC)?
+
+It is a systematic approach to software development
+It refers to the process of testing software applications
+It is a framework for managing software projects
+It is the documentation of software requirements
+
+
+
+
+
+
+04.
+What is the role of software quality assurance (SQA) in software engineering?
+
+To ensure that software development processes and deliverables meet defined quality standards.
+To design user interfaces and enhance the software's usability.
+To manage project timelines and deliverables.
+To conduct performance testing and optimization.
+
+
+
+
+
+
+
+
+05.
+What does the acronym SDLC stand for in software engineering?
+
+System Design and Logical Control
+Software Development Life Cycle
+Structured Development and Logical Control
+Software Deployment and Lifecycle
+
+
+
+
+
+
+06.
+What is the role of a software architect in the software development process?
+
+To design the overall structure and high-level components of the software system
+To write code and develop software
+To conduct testing and quality assurance
+To manage project timelines and resources
+
+
+
+
+
+
+
+
+07.
+Which software engineering principle states that software should be open for extension but closed for modification?
+
+Liskov Substitution Principle
+Open-Closed Principle
+Single Responsibility Principle
+Dependency Inversion Principle
+
+
+
+
+
+
+08.
+What does CI/CD stand for in software engineering?
+
+Customer Interaction/Client Delivery
+Code Inspection/Code Development
+Continuous Integration/Continuous Deployment
+Control Interface/Code Design
+
+
+
+
+
+
+
+09.
+What is the purpose of version control systems in software engineering?
+
+Managing source code changes and collaboration
+Designing user interfaces
+Writing test cases
+Creating software prototypes
+
+
+
+
+
+
+10.
+What is the purpose of code refactoring in software development?
+
+To improve the structure and design of existing code without changing its external behavior
+To write code and develop software
+To conduct testing and quality assurance
+To manage project timelines and resources
+
+
+
+
+
+
+
+
+Answer
+
+
+01.
+Continuous Delivery
+
+Continuous Delivery is a software development practice that emphasizes the frequent and automated delivery of working software to users. The other options represent different software development practices.
+
+
+
+
+02.
+Waterfall
+
+The Waterfall model follows a sequential approach where each phase is completed before moving to the next. Extensive documentation is a key feature of the Waterfall model.
+
+
+
+
+
+
+03.
+It is a systematic approach to software development
+
+The software development life cycle (SDLC) is a systematic approach to software development that encompasses various phases, including requirements gathering, design, implementation, testing, deployment, and maintenance.
+
+
+
+
+
+04.
+To ensure that software development processes and deliverables meet defined quality standards.
+
+The role of software quality assurance (SQA) is to ensure that software development processes and deliverables meet defined quality standards. It involves establishing quality control measures, conducting audits, and verifying compliance with specifications and industry best practices.
+
+
+
+
+
+
+05.
+Software Development Life Cycle
+
+SDLC stands for Software Development Life Cycle, which represents the process of developing software, including phases such as requirements gathering, design, implementation, testing, deployment, and maintenance.
+
+
+
+
+
+06.
+To design the overall structure and high-level components of the software system
+
+A software architect is responsible for designing the overall structure and high- level components of the software system, ensuring that it meets the required functional and non-functional requirements.
+
+
+
+
+
+07.
+Open-Closed Principle
+
+The Open-Closed Principle states that software entities should be open for extension but closed for modification, meaning that new functionality can be added without modifying existing code. The other options are different principles in software engineering.
+
+
+
+
+
+08.
+Continuous Integration/Continuous Deployment
+
+CI/CD stands for Continuous Integration/Continuous Deployment, which refers to the practice of automatically integrating code changes and deploying software in a continuous and automated manner. The other options do not represent the CI/CD concept.
+
+
+
+
+
+09.
+Managing source code changes and collaboration
+
+Version control systems are used for managing source code changes, enabling collaboration among developers, and keeping track of different versions of software. The other options are not the primary purposes of version control systems.
+
+
+
+
+
+10.
+To improve the structure and design of existing code without changing its external behavior
+
+Code refactoring involves making changes to the internal structure of code to improve readability, maintainability, and performance without altering its external functionality.
+
+
+
+

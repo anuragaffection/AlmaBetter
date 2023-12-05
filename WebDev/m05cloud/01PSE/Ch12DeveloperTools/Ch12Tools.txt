@@ -1,0 +1,206 @@
+
+developer tools
+IDEs 
+Package Managers 
+VCS 
+Git Commands 
+Github 
+Collaborative Development with Github
+Github Advanced Features 
+Advanced Git Techniques
+
+
+
+Links {
+    -- https://almabetter.notion.site/Security-and-GitHub-68f242196a2c4bf69989d23f3da8f15c
+    -- https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code
+    -- https://www.atlassian.com/git/tutorials/advanced-overview
+    -- https://github.com/
+}
+
+
+
+
+Notes {
+    -- Github actions 
+    -- Github projects 
+
+    -- boards and tasks 
+    -- project Tracking 
+    -- task scheduling 
+}
+
+
+
+
+
+Task {
+    -- Git vs Github
+    -- Visual Studio vs Visual Studio Code 
+
+}
+
+
+
+
+
+developer tools {
+    -- DevTools 
+
+    Web Developer Tools 
+    -- Sublime Text 
+    -- Vim 
+    -- Notepad++
+}
+
+
+
+
+
+
+IDEs {
+    -- Integrated Development Environments 
+    
+    IDEs have 
+    -- source code editor 
+    -- build automation 
+    -- Debugger 
+    -- text editor
+    -- compiler 
+    -- code completions 
+    -- Programing language Support
+    -- integrations and plugins 
+
+    Popular IDEs
+    -- Visual Studio 
+    -- Visual Studio code 
+    -- Sublime Text 
+    -- Atom 
+    -- WebStorm 
+    -- Intellij IDEA 
+    -- Eclipse 
+    -- NetBeans 
+    -- XCode 
+    -- Android Studio 
+    -- PyCharm 
+    -- PhpStorm 
+}
+
+
+
+
+
+Package Managers {
+
+    java 
+    -- maven 
+
+    Javascript 
+    -- npm
+    -- yarn
+
+
+    Python 
+    -- pip 
+
+
+    Php 
+    -- composer 
+
+
+    .NET 
+    -- NuGet 
+
+    macOS 
+    -- Homebrew 
+    
+
+    Linux 
+    -- apt-get 
+    -- yum / dnf 
+    -- Snap 
+
+
+    Windows 
+    -- Chocolatey 
+    
+    Multi Language 
+    -- conda 
+}
+
+
+
+
+VCS {
+    -- Version Control System
+    -- Git 
+
+    DVCS 
+    -- Distributed Version Control System
+}
+
+
+
+
+Git Commands {
+    -- git init 
+    -- git clone 
+    -- git add <file> 
+    -- git commit 
+    -- git status 
+    -- git diff 
+    -- git push 
+    -- git pull 
+    -- git branch 
+    -- git checkout 
+    -- git merge 
+    -- git remote 
+    -- git log 
+    -- git reset 
+    -- git stash 
+    -- git rm <file> 
+    -- git mv <old> <new> 
+    -- git help 
+}
+
+
+
+
+Github {
+    -- hosting service for git repositories 
+}
+
+
+Collaborative Development with Github
+
+
+Github Advanced Features 
+
+
+Advanced Git Techniques
+
+
+
+
+Activity [
+    
+    Fill in the blanks
+    
+    01. ___________(IDE/VCS) is a software application that provides tools and features for coding, debugging, and testing software in a unified environment.
+    
+    02. IDEs often integrate with version control systems like  _________(Atom/Git), allowing developers to manage code changes, collaborate with team members, and track the history of code modifications.
+    
+    03. ___________(Integrated development environment/Package manager) is a tool that automates the process of installing, updating, configuring, and removing software packages on a computer system.
+    
+    04. In addition to software installation and updates, some package managers also provide features for ____________(version/dependency) management, allowing users to rollback to previous versions of installed packages if needed.
+    
+    05. The purpose of a ____________(IDE/VCS) is to enable collaboration among developers by allowing them to work on the same codebase simultaneously.
+    
+    Answers
+    01. IDE
+    02. Git
+    03. Package manager
+    04. version
+    05. VCS
+]
+

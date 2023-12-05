@@ -31,21 +31,327 @@ Task {
 
 
 
-Overview of Software Engineering 
-Software Engineering vs Programing 
-Software Development Life Cycle 
-Software Requiremnts Engineering
-Software Design Principles 
-Software Testing 
-Software Maintenance & Evolution 
-Software Project Management 
-Software Quality Assurance 
-Software Engineering Ethics 
-SDLC Models 
 
 
 
 
+Overview of Software Engineering {
+
+    activity 
+    -- analysis 
+    -- Design
+    -- coding 
+    -- Testing
+    -- deployment 
+    -- Maintenance
+
+    importance 
+    -- Quality 
+    -- Reliability 
+    -- efficiency 
+    -- scalability 
+    -- user satisfactio 
+    -- cost effectiveness 
+    -- collaboration & teamwork
+    -- Adaptability & Evolution
+}
+
+
+
+
+
+
+
+
+Software Engineering vs Programming {
+    -- Programming is a part of Software Engineering
+
+    Software Engineering
+    -- focus on whole operation 
+    -- focus on whole Software Development Life Cycle
+
+    Programming
+    -- focus on writing code 
+    -- focus on Software Development
+}
+
+
+
+
+
+
+
+Software Development Life Cycle {
+    -- SDLC
+    -- 6 phases 
+
+    01. analysis
+    -- product owner 
+    -- product manager 
+    -- Bussiness analyst 
+    -- CTO 
+
+    02. Design
+    -- System architect 
+    -- ui/ux designer  
+
+    03. Development
+    -- Front end developer 
+    -- back end developer
+
+    04. Testing
+    -- solutions architect
+    -- QA engineer 
+    -- Tester 
+    -- Devops 
+
+    05. deployment
+    -- Data Administrator 
+    -- Devops 
+
+    06. Maintenance
+    -- Users 
+    -- Tester
+    -- Support Managers 
+}
+
+
+
+
+
+
+
+Software Requiremnts Engineering {
+
+    Types of Requiremnts
+    -- Functional Requiremnts
+    -- Non Functional RequiremntsXZ
+    -- user Requiremnts
+    -- System Requiremnts
+
+    Documenting Requiremnts
+    -- interviews 
+    -- use cases 
+    -- user stories 
+    -- prototyping 
+    -- Document analysis
+    -- Observation 
+    -- Surveys & Quetionnaries 
+}
+
+
+
+
+
+
+
+
+Software Design Principles {
+
+    Architectural Patterns 
+    -- MVC   = Model view Controller 
+    -- Model = data, Bussiness logic, modle of data 
+    -- View  = user interface / frontend 
+    -- Controller = handles user input, logic, Functional
+
+    Design Notations 
+    -- UML Diagram 
+    -- UML  = unified modeling language 
+    -- UML Diagram vs flowcharts 
+    -- 
+}
+
+
+
+
+
+
+Software Testing {
+
+    Types of Testing 
+    -- unit testing 
+    -- integration testing
+    -- System testing
+    -- Acceptance testing
+
+    Test - driven Development
+    -- TDD 
+    -- writing test before writing actual code 
+    
+    Steps in TDD
+    -- write a test 
+    -- run the test 
+    -- write the code 
+    -- run all the tests 
+    -- refactor the code 
+    -- repeat the cycle 
+
+}
+
+
+
+
+
+
+Software Maintenance & Evolution {
+
+    Bugs 
+    -- errors 
+    -- crashes 
+    -- unexpected behavior 
+    -- issues 
+    -- defects 
+
+}
+
+
+
+
+
+
+
+Software Project Management {
+
+    Roles 
+    -- Project manager
+    -- software developer 
+    -- system analyst
+    -- QA engineer
+    -- ui/ux designer
+    -- Database Administrator (DBA)
+    -- Devops engineer
+    -- Tehcnical Writer 
+
+    Project Tracking 
+    -- Gantt Charts 
+    -- agile boards 
+    -- kanban 
+    -- scrum 
+}
+
+
+
+
+Software Quality Assurance {
+    -- QA 
+    -- Quality Assurance
+    
+    quality attributes 
+    -- Reliability
+    -- usability 
+    -- efficiency
+    -- security 
+
+    Techniques for quality Assurance
+    -- Test planning 
+    -- Test case design
+    -- text execution 
+    -- Regression testing
+    -- Automated Testing 
+    -- performance testing
+    -- security testing
+    -- usability testing
+    -- compatibility testing
+    -- Defect Management
+    -- code Reviews 
+}
+
+
+
+
+Software Engineering Ethics {
+    -- Codes of conduct 
+    -- Intellectual property 
+    -- software licensing 
+}
+
+
+
+
+
+SDLC Models {
+    -- waterfall model
+    -- Agile model
+    -- Iterative model
+    -- V-model 
+    -- spiral model
+    -- RAD 
+}
+
+
+
+
+
+
+Activity {
+
+    Activity: True or False
+    
+    01. Software engineering involves applying engineering principles and practices to create high-quality software.
+    
+    02. The Model-View-Controller (MVC) pattern separates the application logic into three components: the model, the view, and the controller.
+    
+    03. Non-functional requirements focus on the specific functions and capabilities that the software system should have.
+    
+    04. UML diagrams and flowcharts are design notations used to represent software designs visually.
+    
+    05. The Software Development Life Cycle (SDLC) analysis phase involves translating software requirements into a detailed system design.
+    
+    Solutions
+    01. True
+    02. True
+    03. False
+    04. True
+    05. False
+
+
+
+
+
+    Activity : Match 
+
+    1. Verifies interactions between different components or modules.
+    -- Integration Testing
+    
+    2. Test the entire software system for functionality, performance, and reliability.
+    -- System Testing
+
+    3. Ensures the software meets user expectations and requirements.
+    -- Acceptance Testing
+    
+    4. Software development approach that emphasizes writing tests before writing the actual code.
+    --  Test-driven development (TDD)
+
+    5. Tests individual components or units of code.
+    -- Unit Testing
+
+
+
+
+
+    Activity: Agree or Disagree
+
+    01. SQA encompasses testing activities and process audits, reviews, and quality monitoring throughout the software development lifecycle.
+    
+    02. SQA is a one-time activity performed just before software release rather than being integrated throughout the entire development lifecycle.
+    
+    03. Software engineers are not responsible for how their code is used after it's developed. Their responsibility ends once the code is delivered to the client or user.
+    
+    04. Using pirated or unlicensed software tools for development is acceptable if it speeds up the development process and reduces costs.
+    
+    05. The Waterfall model's strict sequential approach can be limiting when dealing with evolving requirements, as changes might require revisiting multiple phases.
+    
+    06. The Spiral model is beneficial for projects with high levels of uncertainty, as it involves risk assessment and iterative development to manage uncertainty effectively.
+    
+    Answers
+    01. Agree
+    02. Disagree
+    03. Disagree
+    04. Disagree
+    05. Disagree
+    06. Agree
+
+}
 
 
 
