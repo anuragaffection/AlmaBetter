@@ -35,6 +35,9 @@ Notes {
 
 
 Task {
+    -- pull and merge in github 
+    -- undo the commited code 
+
     -- Git vs Github
     -- Visual Studio vs Visual Studio Code 
 
@@ -168,16 +171,66 @@ Git Commands {
 
 Github {
     -- hosting service for git repositories 
+
+    Cloning 
+    -- git clone <repository_url> 
+    
+    branch
+    -- main 
+    -- master 
+    -- git branch
+    -- git branch <new_branch_name> 
+    -- git checkout <new_branch_name> 
+
 }
 
 
-Collaborative Development with Github
 
 
-Github Advanced Features 
+
+Collaborative Development with Github {
+
+    Pushing 
+    -- git push <remote> <branch> 
+    -- git push <origin> <master> 
+    
+    Pulling 
+    -- git pull <remote> <branch> 
+    -- git pull <origin> <master> 
+
+    Merging 
+    -- git add 
+    -- git commit -m "<some_message>"
+
+    Additional 
+    -- git remote -v 
+    -- git branch -r 
+    -- git checkout -b 
+    -- git fetch <remote> 
+}
 
 
-Advanced Git Techniques
+
+
+
+Github Advanced Features {
+
+    GitHub Actions ]]
+    -- for automating workflows 
+
+    Github pages 
+    -- 
+
+    Github Projects 
+    -- boards and Tasks 
+}
+
+
+
+
+Advanced Git Techniques {
+    -- 
+}
 
 
 
