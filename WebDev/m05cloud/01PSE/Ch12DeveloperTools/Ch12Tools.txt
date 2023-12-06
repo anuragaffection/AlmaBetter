@@ -255,5 +255,32 @@ Activity [
     03. Package manager
     04. version
     05. VCS
+
+
+
+
+
+
+    True or False
+
+    01. Git and GitHub are the same thing.
+    
+    02. Git is only accessible through the command line interface (CLI) and does not have a graphical user interface (GUI).
+    
+    03. GitHub Actions is a feature that allows you to automate workflows, including continuous integration and continuous deployment (CI/CD).
+    
+    04. GitHub Projects is a feature used for managing code versioning and repositories.
+    
+    05. Rebasing is a way to integrate changes from one branch into another by moving the entire commit history of the branch being rebased on top of the target branch.
+    
+    06. If a conflict arises during a rebase, Git automatically resolves the conflict using the changes from the branch being rebased.
+    
+    Answers
+    01. False
+    02. False
+    03. True
+    04. False
+    05. True
+    06. False
 ]
 
