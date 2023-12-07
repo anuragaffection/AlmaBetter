@@ -1,2 +1,1 @@
-# LeetCode Solutions 
-in Javascript & Java
+# LeetCode Solutions in Javascript & Java
