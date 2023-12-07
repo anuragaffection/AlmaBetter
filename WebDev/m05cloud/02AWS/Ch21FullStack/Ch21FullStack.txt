@@ -1,0 +1,72 @@
+
+Full Stack Project 
+Reserve Project
+Components of Reserve Project
+
+
+
+Links {
+   --https://www.breakertimes.com/2023/04/07/the-importance-of-performance-optimization-in-web-development/
+   -- https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security
+}
+
+
+
+
+Notes {
+   
+}
+
+
+
+
+Task {
+
+}
+
+
+
+
+
+Full Stack Project {
+
+    frontend 
+    -- react js 
+
+    backend 
+    -- node js 
+    -- express js 
+
+    Database 
+    -- mongodb 
+    -- mongoose 
+}
+
+
+Overview of Reserve Project 
+Components of Reserve Project
+
+
+
+
+
+Activity {
+    
+    Fill in the blanks
+    01. The __________(front-end/back-end) is responsible for the user interface, design, and user experience in a full-stack project.
+    
+    02. The __________(front-end/back-end) is responsible for the user interface, design, and user experience in a full-stack project.
+    
+    03. _________(Node/React) is a popular JavaScript library for building user interfaces developed by Facebook.
+    
+    04. A _________(primary/foreign) key is a unique identifier for a record in a database table, ensuring each record can be uniquely identified.
+    
+    05. _____________(Middleware/API) in a back-end application refers to software components that sit between the application and the server, often used for tasks like authentication and logging.
+    
+    Answers
+    01. front-end
+    02. back-end
+    03. React
+    04. primary
+    05. Middleware
+}

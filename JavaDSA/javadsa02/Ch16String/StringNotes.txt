@@ -9,6 +9,8 @@ String {
     -- equals()
     -- join()
 
+    -- substring()
+
     -- toString()
     -- toCharArray()
 }

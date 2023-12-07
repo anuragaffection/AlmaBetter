@@ -1,0 +1,226 @@
+Full Stack
+
+
+
+01.
+Which component is responsible for handling HTTP requests and routing in the MERN stack?
+
+MongoDB
+Express.js
+React
+Node.js
+
+
+
+
+02.
+What is a full stack project?
+
+A project that involves using a full set of stackable containers for deployment.
+A project that involves developing both front-end and back-end components of a web application.
+A project that involves creating a comprehensive database schema.
+A project that focuses solely on designing user interfaces.
+
+
+
+
+
+
+03.
+Why is a full stack developer important for a full stack project?
+
+They only focus on one specific aspect of the project, leading to specialization.
+They can communicate effectively with stakeholders.
+They have limited technical skills, making it easier to manage the project.
+They are responsible for creating the entire project, from start to finish.
+
+
+
+
+
+
+04.
+What type of database is MongoDB in the MERN stack?
+
+Relational database
+NoSQL database
+In-memory database
+Key-value database
+
+
+
+
+
+
+05.
+Which database is commonly used in the MERN stack for storing data?
+
+MYSQL
+PostgreSQL
+MongoDB
+SQLite
+
+
+
+
+
+
+06.
+What is the role of Express.js in the MERN stack?
+
+Frontend user interface
+Database management
+Server-side routing and middleware
+State management
+
+
+
+
+
+07.
+What is JSX in the context of React?
+
+A query language for databases.
+A templating engine for server-side rendering.
+A syntax extension for JavaScript used in React components.
+A markup language for creating user interfaces.
+
+
+
+
+
+
+08.
+What is the primary purpose of React in the MERN stack?
+
+Handle server-side logic.
+Manage and display user interfaces.
+Manage database interactions.
+Handle routing and navigation.
+
+
+
+
+
+09.
+What is the purpose of Node.js in the MERN stack?
+
+Managing frontend components
+Handling server-side logic
+Structuring user interfaces.
+Managing CSS styles
+
+
+
+
+
+10.
+Which of the following is used to style React components?
+
+HTML
+CSS
+JSX
+Express.js
+
+
+
+
+
+
+
+Answer
+
+
+01.
+Express.js
+
+Express.js is a backend framework for Node.js that is commonly used in the MERN stack. It handles HTTP requests, routing, and middleware, allowing you to define routes and manage the server-side logic for your application.
+
+
+
+
+
+02.
+A project that involves developing both front- end and back-end components of a web application.
+
+A full stack project involves creating all the necessary components of a web application, including both front-end (user interface) and back-end (server-side logic and database). It encompasses the entire technology stack required to build and deploy a functional web application.
+
+
+
+
+
+03.
+They can communicate effectively with stakeholders.
+
+A full stack developer possesses knowledge of both front-end and back-end technologies, which enables effective communication between various teams involved in the project. They can bridge the gap between design, development, and business aspects of the project.
+
+
+
+
+
+
+04.
+NoSQL database
+
+MongoDB is a NoSQL database, which means it does not use a traditional relational schema. It stores data in a flexible and scalable format, making it suitable for dynamic and rapidly changing applications.
+
+
+
+
+
+05.
+MongoDB
+
+MongoDB is the preferred database in the MERN stack due to its compatibility with JavaScript and JSON-like document format, making it a seamless choice for the backend when working with Node.js and Express.js.
+
+
+
+
+06.
+Server-side routing and middleware
+
+Express.js is a web application framework for Node.js that provides a way to handle server-side routing and middleware functions. It is responsible for handling incoming HTTP requests, defining routes, and processing middleware such as authentication, logging, etc.
+
+
+
+
+
+07.
+A syntax extension for JavaScript used in React components.
+
+JSX (JavaScript XML) is a syntax extension used in React to describe what the Ul should look like. It allows you to write HTML-like code within JavaScript, making it easier to create and render React components
+
+
+
+
+
+08.
+Manage and display user interfaces.
+
+React is a JavaScript library used for building user interfaces. It allows developers to create dynamic and interactive Ul components that efficiently update when data changes. React is responsible for managing the frontend presentation and user experience.
+
+
+
+
+
+
+09.
+Handling server-side logic
+
+Node.js is used in the MERN stack to handle server-side logic and to build scalable and efficient network applications. It allows developers to use JavaScript for both frontend and backend development.
+
+
+
+
+
+10.
+CSS
+
+CSS (Cascading Style Sheets) is commonly used to style React components. You can apply styles using inline styles, CSS modules, or CSS-in-JS libraries like Styled Components to create visually appealing and responsive user interfaces.
+
+
+
+
+
+
+
