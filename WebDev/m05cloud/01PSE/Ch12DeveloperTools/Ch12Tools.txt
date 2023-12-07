@@ -22,7 +22,7 @@ Links {
 
 
 Notes {
-    -- Github actions 
+    -- Github actions ]]
     -- Github projects 
 
     -- boards and tasks 
@@ -228,7 +228,7 @@ Github Advanced Features {
 
 
 
-Advanced Git Techniques {
+Advanced Git Techniques]] {
     -- 
 }
 
