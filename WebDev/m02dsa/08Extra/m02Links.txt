@@ -49,28 +49,10 @@ Module 2 DSA {
         -- trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings (github.com)
         -- JavaScript Hash Table – Associative Array Hashing in JS (freecodecamp.org)
 
-        24. Advance Searching 
-        -- https://www.notion.so/Tri-Search-Algorithm-2e553221aeea4f06bd3fe06658ee8287?pvs=21
-        -- https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+
         
-        25. Skill Mastery 
-        -- https://www.toptal.com/developers/sorting-algorithms
-        -- https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
-        -- https://medium.com/@sujanxchhetri/searching-algorithms-in-javascript-ecb880f70e07
+
     }
-
-
-
-    Chapter 03 Mid 
-
-
-    Chapter 04 Recursion {
-        41. Recursion 
-        -- MDN web docs: Recursion
-        -- https://dev.to/kalashin1/recursive-functions-in-javascript-b6a
-        -- https://exploringjs.com/es6/ch_tail-calls.html
-    }
-
 
 
 

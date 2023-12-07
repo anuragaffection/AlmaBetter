@@ -16,8 +16,11 @@ Postman for testing api
 
 Links {
     -- https://www.npmjs.com/
-    -- 
+    -- https://expressjs.com/en/guide/using-template-engines.html
+    -- https://www.codementor.io/@manashkumarchakrobortty/authentication-and-authorization-in-node-js-19brdvhsyw
 }
+
+
 
 
 

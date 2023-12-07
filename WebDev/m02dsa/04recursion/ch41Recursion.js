@@ -12,6 +12,19 @@
 
 
 
+
+{
+    /*
+        41. Recursion 
+        -- MDN web docs: Recursion
+        -- https://dev.to/kalashin1/recursive-functions-in-javascript-b6a
+        -- https://exploringjs.com/es6/ch_tail-calls.html
+
+    */
+}
+
+
+
 {
     {
         console.log("01. Calculating factorial using recursion");
@@ -174,9 +187,17 @@
     */
 
 
+}
+
+
+
+
+
+{
+    // Quiz 
 
     /*
-  
+
       
       01. Which of the following is NOT required for a recursive function?
 
@@ -306,7 +327,6 @@
             c. It can be faster than iteration
             d. It can be used to solve certain types of problems more easily
   
-
   
   
 
@@ -315,11 +335,8 @@
   
 
   
-  
         2- A linked list
            Yes, that's correct. A linked list is an example of a recursive data structure because each node in the linked list contains a reference to another node, creating a chain-like structure. This recursive definition is what allows for dynamic memory allocation and flexible data structures.
-  
-  
   
   
   
@@ -364,21 +381,5 @@
             Correct! Recursion is generally slower than iteration due to the overhead of creating and managing function calls on the call stack.
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       */
-
-
-
 }

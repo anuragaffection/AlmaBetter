@@ -16,6 +16,13 @@
 */
 
 
+/**
+ *     24. Advance Searching 
+        -- https://www.notion.so/Tri-Search-Algorithm-2e553221aeea4f06bd3fe06658ee8287?pvs=21
+        -- https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
+*/
+
+
 
 
 /**
@@ -155,8 +162,10 @@
 
     }
 
-
 }
+
+
+
 
 {
     {
@@ -265,6 +274,9 @@
 
 
 
+
+
+
 {
     {
         /**
@@ -357,6 +369,9 @@
 
 
 
+
+
+
 /*
 
   agree or diagree
@@ -396,6 +411,8 @@
   05. Agree
 
 */
+
+
 
 
 
@@ -440,6 +457,10 @@
 */
 
 
+
+
+
+
 /*
   true or false - tri search
 
@@ -468,7 +489,14 @@
 */
 
 
-/*
+
+
+
+
+
+
+{
+    /*
     MCQs
         
        01. Which of the following statements about exponential search is NOT true?
@@ -589,39 +617,9 @@
 
 
 
-        
-        11. What is the worst case time complexity of ternary search ?
-            ans = O (log 3 (n) )
 
 
-        12. In ternary search, when should be left pointer be updated ?
-            ans = when the target is between the elements at mid1 & mid2.
 
-
-        13. What is the purpose of jump search algorithm ?
-            ans = to find the index of target element in sorted array
-
-
-        14. How does ternary search differ form binary search?
-            ans = ternary search divide the array into three parts, 
-                  while binary search divide the array into two parts.
-
-
-        15. In Jump search when should the algorithm perform a linear 
-            search within a block?
-            ans = when the current block's last element is greater than the target value.
-   
-        16. What is the purpose of performaing binary search within the 
-            identified search range ?
-            ans = to find the index of target element in a range
-
-
-        17. In exponential search, the search range is doubled in each iteration
-            until.
-            ans = the end of the array is reached
-   
-   
-   
    
    Explanation or Answer 
      
@@ -679,5 +677,45 @@
    If the target element is not found in the array, ternary search returns -1 to indicate the absence of the target.
    
 */
+}
+
+
+
+
+
+
+{
+    /**
+     *   1. What is the worst case time complexity of ternary search ?
+            ans = O (log 3 (n) )
+
+
+        2. In ternary search, when should be left pointer be updated ?
+            ans = when the target is between the elements at mid1 & mid2.
+
+
+        3. What is the purpose of jump search algorithm ?
+            ans = to find the index of target element in sorted array
+
+
+        4. How does ternary search differ form binary search?
+            ans = ternary search divide the array into three parts, 
+                  while binary search divide the array into two parts.
+
+
+        5. In Jump search when should the algorithm perform a linear 
+            search within a block?
+            ans = when the current block's last element is greater than the target value.
+   
+        6. What is the purpose of performaing binary search within the 
+            identified search range ?
+            ans = to find the index of target element in a range
+
+
+        7. In exponential search, the search range is doubled in each iteration
+            until.
+            ans = the end of the array is reached
+     */
+}
 
 

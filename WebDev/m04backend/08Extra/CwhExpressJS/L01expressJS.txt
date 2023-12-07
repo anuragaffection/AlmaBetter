@@ -1,5 +1,0 @@
-npm init 
-
-
-thunder client = postman like extension in vs code 
-json formatter 
