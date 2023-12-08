@@ -1,23 +1,4 @@
 
-Important Links to Explore {
-    -- https://nodejs.org/en/learn
-    -- https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
-}
-
-
-Extra {
-    ABCAT
-    AlmaX - AB-CAT (notion.site)
-    React ES6 Arrow Functions (w3schools.com) this keyword difference 
-    JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
-    Kickresume | Best Online Resume & Cover Letter Builder
-}
-
-
-
-
-
-
 jobs Website {
 
     Indian 
@@ -52,6 +33,24 @@ jobs Website {
     -- https://remoteok.com/
     -- 
 
+}
+
+
+
+
+
+Important Links to Explore {
+    -- https://nodejs.org/en/learn
+    -- https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
+}
+
+
+Extra {
+    ABCAT
+    AlmaX - AB-CAT (notion.site)
+    React ES6 Arrow Functions (w3schools.com) this keyword difference 
+    JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
+    Kickresume | Best Online Resume & Cover Letter Builder
 }
 
 

@@ -1,0 +1,165 @@
+
+Overview of Cloud 
+Cloud Service Models 
+Cloud Deployment Models
+Benefits of Cloud
+Overview of AWS 
+Deploy Frontend [AWS]
+
+
+
+Links {
+    -- https://docs.aws.amazon.com/index.html
+    -- https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
+    -- https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html
+
+}
+
+
+Notes {
+    -- A2A = application to application
+    -- A2P = application to person 
+    -- CLI = command line interface 
+    -- AWS = amazon web service
+    -- GCP = Google cloud platform
+    -- SPA = Single page application
+    -- SSR = server side rendering
+    -- ACLs = access control list 
+    -- SDKs = Software development kits 
+    --  
+}
+
+
+Task {
+    -- IaaS vs PaaS vs SaaS
+    -- Frontend deployment with aws
+    -- explore google cloud platform 
+}
+
+
+
+
+
+
+
+Overview of Cloud {
+    -- on demand access 
+    -- rapid elasticity 
+    -- resource pooling 
+    -- measured uses 
+}
+
+
+
+Cloud Service Models {
+    
+    IaaS 
+    -- infrastructure as a service 
+    -- 
+
+    PaaS 
+    -- platform as a service 
+    -- AWS elastic beanstalk 
+    -- Azure app service
+    -- Google app engine 
+
+    SaaS 
+    -- Software as a service
+    -- CRM = Customer Relationship Management 
+    -- Salesforce(CRM)
+    -- Google Workspace (G suite)
+    -- Microsoft 365
+    -- DropBox 
+    -- 
+
+    IaaS vs PaaS vs SaaS
+    -- IaaS offers infrastructure resources, 
+    -- PaaS provides development platforms, 
+    -- SaaS delivers fully managed software applications. 
+}
+
+
+
+Cloud Deployment Models {
+
+    public Cloud
+    --
+
+    private Cloud
+    -- 
+
+    hybrid Cloud
+    -- combination of public & private cloud
+    -- use public cloud, during peak hour 
+    -- use private cloud, to store sensitive data 
+
+    community Cloud
+    -- 
+
+    multi cloud
+    -- combination of public, private, hybrid, community
+}
+
+
+
+
+
+Benefits of Cloud {
+    -- cost effective 
+    -- scalability 
+    -- low maintenance 
+    -- accessibility 
+    -- security 
+    -- data recovery 
+}
+
+
+
+Overview of AWS {
+    -- amazon elastic compute cloud (EC2)
+    -- amazon simple storage service (S3)
+    -- amazon relational database service (RDS)
+    -- amazon lambda 
+    -- amazon cloudwatch 
+    -- amazon simple notification service (SNS)
+
+}
+
+
+
+
+Deploy Frontend with AWS ]] {
+    -- AWS amplify 
+    -- amplify.yml 
+
+    -- ACLs = access control list 
+    -- SDKs = Software development kits 
+    -- DNS  = Domain name system 
+}
+
+
+
+
+
+
+activity {
+
+    Fill in the blanks
+    
+    01. The main advantage of cloud computing is its ability to provide __________ (linear/elastic) scalability, allowing resources to be quickly increased or decreased based on demand.
+    
+    02. In the __________ (public/private) cloud deployment model, cloud resources are dedicated to a single organization, providing more control and customization options.
+    
+    03. Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are examples of major __________(network/cloud) providers offering a wide range of cloud services.
+    
+    04. One of the key benefits of cloud services is __________(security/scalability), where resources can be rapidly provisioned or de-provisioned based on demand.
+    
+    05. __________ (standardization/customization) is a benefit of cloud services, as users can choose from a range of service offerings and tailor them to their needs.
+    
+    Answers
+    01. elastic
+    02. private
+    03. cloud
+    04. scalability
+    05. customization
+}

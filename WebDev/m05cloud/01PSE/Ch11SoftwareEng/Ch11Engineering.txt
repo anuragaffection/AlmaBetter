@@ -1,6 +1,6 @@
 
 Overview of Software Engineering 
-Software Engineering vs Programing 
+Software Engineering vs Programming 
 Software Development Life Cycle 
 Software Requiremnts Engineering
 Software Design Principles 
@@ -26,7 +26,8 @@ Notes {
 
 
 Task {
-    -- 
+    -- Software Developer vs Software Engineer 
+    -- what is Devops
 }
 
 
@@ -50,7 +51,7 @@ Overview of Software Engineering {
     -- Reliability 
     -- efficiency 
     -- scalability 
-    -- user satisfactio 
+    -- user satisfaction
     -- cost effectiveness 
     -- collaboration & teamwork
     -- Adaptability & Evolution
