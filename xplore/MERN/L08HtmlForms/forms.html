@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+
+
+    <main>
+        <div>
+
+            <pre>
+                01. What is forms ?
+                :- A structure to take different type of inputs form users
+            </pre>
+
+            <pre>
+                02. Some tags in forms :-
+                :- forms, input, label, 
+            </pre>
+
+            <pre>
+                03. input has many types :-
+                :- text, password, radio, checkbox, date, color, email, file, 
+                :- hidden, image, submit, url, reset, button, select, textArea,
+                :- legend, fieldset,  
+            </pre>
+
+
+            <div>
+                04. Basic form
+                <br>
+                <br>
+                <form action="">
+
+                    <label for="email">Enter Email ID</label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <br>
+
+                    <label for="password">Enter Passowrd</label>
+                    <input type="password" name="password" id="password">
+                    <br>
+                    <br>
+
+                    <button type="submit">Submit</button>
+                    <br>
+                    <br>
+
+                </form>
+                <br>
+                <br>
+            </div>
+
+
+            <div>
+                05. Basic form - value attribute
+                <br>
+                <br>
+                <form action="">
+
+                    <label for="email">Enter Email ID</label>
+                    <input type="text" name="email" id="email" value="example@gmail.com">
+                    <br>
+                    <br>
+
+                    <label for="password">Enter Passowrd</label>
+                    <input type="password" name="password" id="password" value="123567">
+                    <br>
+                    <br>
+
+                    <button type="submit">Submit</button>
+                    <br>
+                    <br>
+                </form>
+                <br>
+                <br>
+            </div>
+
+
+            <div>
+                06. Basic form - placeholder attribute
+                <br>
+                <br>
+                <form action="">
+
+                    <label for="email">Enter Email ID</label>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                    <br>
+                    <br>
+
+                    <label for="password">Enter Passowrd</label>
+                    <input type="password" name="password" id="password" placeholder="example">
+                    <br>
+                    <br>
+
+                    <button type="submit">Submit</button>
+                    <br>
+                    <br>
+
+                </form>
+                <br>
+                <br>
+            </div>
+
+
+            <div>
+                <br>
+                07. Date Picker
+                <br>
+                <br>
+                <form action="">
+                    <label for="date">Choose Date </label>
+                    <input type="date" name="Date" id="date">
+                </form>
+                <br>
+                <br>
+            </div>
+
+
+
+            <div>
+                <br>
+                08. select
+                <br>
+                <br>
+                <form action="">
+                    <label for="dish">Choose Your Dish </label>
+                    <select name="Dish" id="dish">
+                        <option value="maggi">Maggi</option>
+                        <option value="kurkure">Kukure</option>
+                        <option value="chips">Chips </option>
+                    </select>
+                    <!-- <input type="date" name="Dish" id="dish"> -->
+                </form>
+                <br>
+                <br>
+            </div>
+
+
+            <div>
+                <br>
+                09. More things
+                <br>
+                <br>
+
+                <Button>I am Button </Button>
+                <br>
+                <br>
+
+                <label for="textarea">Your Feedback</label>
+                <br>
+                <textarea name="textArea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+
+
+
+            <div>
+                <br>
+                <br>
+                10. fieldset
+                <br>
+                <br>
+                <fieldset>
+                    <br>
+                    <form action="">
+
+                        <label for="email">Enter Email ID</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                        <br>
+                        <br>
+
+                        <label for="password">Enter Passowrd</label>
+                        <input type="password" name="password" id="password" placeholder="example">
+                        <br>
+                        <br>
+
+                        <button type="submit">Submit</button>
+                        <br>
+                        <br>
+
+                    </form>
+
+                </fieldset>
+                <br>
+                <br>
+
+            </div>
+
+
+
+            <div>
+                <br>
+                <br>
+                11. fieldset & legend 
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Login Page </legend>
+                    <br>
+                    <form action="">
+
+                        <label for="email">Enter Email ID</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                        <br>
+                        <br>
+
+                        <label for="password">Enter Passowrd</label>
+                        <input type="password" name="password" id="password" placeholder="example">
+                        <br>
+                        <br>
+
+                        <button type="submit">Submit</button>
+                        <br>
+                        <br>
+
+                    </form>
+
+                </fieldset>
+
+            </div>
+
+
+
+
+            <div>
+                <br>
+                <br>
+                12. Some more paractise 
+                <br>
+                <br>
+                <fieldset>
+                    <br>
+                    <form action="">
+                        <br>
+                        <label for="textfield">Text Field : </label>
+                        <input type="text" id="textfield">
+
+                        <br>
+                        <br>
+                        <label for="subscribe">Button : </label>
+                        <Button>Subscribe </Button>
+
+
+                        <!-- Very imporatant concept -->
+                        <!-- use of #name & #for attribute  -->
+                        <!-- here, how for is used to setup radio type -->
+                        <br>
+                        <br>
+                        <label for="gender">Gender  : </label>
+
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+
+
+                        <br>
+                        <br>
+                        <label for="language">Language : </label>
+
+                        <input type="checkbox" name="language" id="hindi">
+                        <label for="hindi">Hindi</label>
+
+                        <input type="checkbox" name="language" id="english">
+                        <label for="english">English</label>
+
+
+                        <br>
+                        <br>
+                        <label for="upload">Upload : </label>
+                        <input type="file" name="upload" id="upload">
+
+
+                        <br>
+                        <br>
+                        <label for="imgButton">Image Button : </label>
+                        <br>
+                        <input type="image" src="anuragaffection.jpg" alt="Anurag Affection" width="50px" height="50px">
+
+
+                    </form>
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+            <pre>
+                Notes
+
+                :- the #id attribute of input & #for attribute of label must have same value or name.
+                :- by default input type is text.
+                
+                :- submit       --  will send all data to server.
+                :- value        --  will set some pre defined value for reference.
+                :- placeholder  --  for faded value in input 
+                :- legend       --  used to give caption, it is proper tag , not a attribute 
+                :- fieldset     --  grouping similar things in forms 
+            </pre>
+
+
+            <pre>
+                Some Questions
+                :- How can we select multiple option from select ?
+                :- Create image as button 
+            </pre>
+
+
+
+        </div>
+
+    </main>
+
+
+    <footer></footer>
+
+</body>
+
+</html>

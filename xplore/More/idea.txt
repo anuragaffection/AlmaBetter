@@ -1,9 +1,0 @@
-
-
--- GayaCollege.app 
--- MUExam.app 
--- All India Exam Paper [AIEP]
--- All College Exam Paper [ACEP]
--- Panchayat App [PA]
-
-
