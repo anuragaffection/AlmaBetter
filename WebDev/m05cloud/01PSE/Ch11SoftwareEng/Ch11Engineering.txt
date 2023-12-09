@@ -155,10 +155,10 @@ Software Design Principles {
     -- View  = user interface / frontend 
     -- Controller = handles user input, logic, Functional
 
-    Design Notations 
+    Design Notations ]]
     -- UML Diagram 
     -- UML  = unified modeling language 
-    -- UML Diagram vs flowcharts 
+    -- UML Diagram vs flowcharts ]]
     -- 
 }
 

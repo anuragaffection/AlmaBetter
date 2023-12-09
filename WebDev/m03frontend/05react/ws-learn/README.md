@@ -1,1 +1,1 @@
-# Learning [WS]
+# Learning [WS Cube Tech]
