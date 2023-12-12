@@ -17,11 +17,17 @@ ER Diagram Implementation
 
 
 
+links {
+    -- https://blog.bytebytego.com/p/ep89-what-does-acid-mean
+}
+
+
+
 
 Notes {
     -- transaction = every task we do with database is transaction
     -- transaction = passed or failed (2 outcome only )
-    -- commit   = rollback if commit failed
+    -- commit      = rollback if commit failed
 
     -- ACID = Atomicity, Consistency, Isolation, Durability  
     -- ERD  = Entity Relationship Diagram 
@@ -29,7 +35,9 @@ Notes {
 }
 
 
-
+Task {
+    --  
+}
 
 
 database transaction {
@@ -44,7 +52,7 @@ database transaction {
     
     ACID Properties 
     -- Atomicity   = transaction cannot be partially executed 
-    -- Consistency = 
+    -- Consistency = preserve database invariants 
     -- Isolation   = transactions do not interfere with each other
     -- Durability  = data must be available after crash 
 
