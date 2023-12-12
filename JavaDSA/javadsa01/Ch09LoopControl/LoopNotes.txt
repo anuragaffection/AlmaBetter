@@ -1,0 +1,12 @@
+
+Way of iterate 
+
+-- for (int num : nums) {
+
+}
+
+-- for (int i = 0; i < nums.length; i++){
+
+}
+
+-- 
