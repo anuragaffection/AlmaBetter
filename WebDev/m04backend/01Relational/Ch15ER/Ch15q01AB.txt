@@ -1,0 +1,233 @@
+Er diagram
+
+
+01.
+What is the purpose of Primary Key in an Entity Relationship Diagram (ERD)?
+
+To establish relationships between entities
+To ensure data integrity and uniqueness of records
+To represent an attribute in an entity
+To denote mandatory attributes in an entity
+
+
+
+
+
+02.
+What is the purpose of the "Crow's Foot" notation in an ER Diagram?
+
+To represent multi-valued attributes.
+To represent weak entities.
+To indicate mandatory relationships.
+To show cardinality in relationships.
+
+
+
+
+
+03.
+Which of the following properties is NOT provided by a database transaction?
+
+Atomicity
+Consistency
+Isolation
+Durability
+
+
+
+
+
+
+04 
+In which transaction state does a transaction rollback all its changes and undo the modifications made to the database?
+
+Active
+Aborted
+Committed
+Inactive
+
+
+
+
+
+
+05.
+What does cardinality represent in a relationship between two entities?
+
+The number of attributes in each entity.
+The number of entities in the database.
+The type of relationship between the entities.
+The number of instances or records in each entity that can be associated with a single instance in the other entity.
+
+
+
+
+
+
+
+06.
+What is a relationship in a database?
+
+A way to connect two separate databases.
+A connection between two entities in a database.
+A type of attribute that stores multiple values.
+A table that stores foreign keys.
+
+
+
+
+
+
+
+07.
+Which SQL statement is used to release a SAVEPOINT named "sp1" in a database management system?
+
+RELEASE sp1;
+RELEASE SAVEPOINT sp1;
+RELEASE SAVEPOINT "sp1";
+FREE SAVEPOINT sp1;
+
+
+
+
+
+
+
+08.
+What does the ROLLBACK TO SAVEPOINT statement do in a database management system?
+
+Completely undo all changes made in a transaction.
+Commit the changes up to the last SAVEPOINT in the transaction.
+Roll back the transaction to the last SAVEPOINT, undoing changes after that point.
+Release the SAVEPOINT, making it inaccessible for further use.
+
+
+
+
+
+
+09.
+What is the primary purpose of an Entity-Relationship (ER) Diagram in database design?
+
+To visualize the physical storage of data in a database.
+To create a blueprint of how tables should be laid out in a database.
+To represent the logical structure of data and the relationships between entities.
+To define the types of queries that can be performed on a database.
+
+
+
+
+
+
+
+10.
+Which of the following is true about SAVEPOINT in a database transaction?
+
+A transaction can have only one SAVEPOINT.
+SAVEPOINT can only be used with the COMMIT statement.
+SAVEPOINT can only be used with the ROLLBACK statement.
+Multiple SAVEPOINTS can be defined in a single transaction.
+
+
+
+
+
+
+
+
+
+
+Answer
+
+
+
+01.
+To ensure data integrity and uniqueness of records
+
+The Primary Key in an Entity Relationship Diagram (ERD) uniquely identifies each record (or entity instance) in a table. It ensures data integrity by preventing duplicate entries and allows for efficient querying and joining of data.
+
+
+
+
+
+02.
+To show cardinality in relationships.
+
+The "Crow's Foot" notation in an ER Diagram is used to indicate cardinality in relationships, representing how many instances of each entity can be associated with instances of another entity.
+
+
+
+
+
+03.
+Durability
+
+Durability is a property of a database system, but it is not directly related to transactions. Durability ensures that once a transaction is committed, its changes are permanent and will survive any subsequent failures, such as system crashes. The other properties-Atomicity, Consistency, and Isolation-are essential characteristics of transactions that ensure data integrity and reliability.
+
+
+
+
+
+
+04.
+Aborted
+
+The aborted state indicates that a transaction has encountered an error or has been explicitly rolled back by the system or the user. In this state, all changes made by the transaction are undone, and the database is reverted to its state before the transaction began.
+
+
+
+
+
+
+05.
+The number of instances or records in each entity that can be associated with a single instance in the other entity.
+
+Cardinality in a relationship defines the number of instances (records) in each entity that can be associated with a single instance in the related entity.
+
+
+
+
+
+
+
+06.
+A connection between two entities in a database.
+
+A relationship in a database is a connection or association between two entities (tables) that defines how they are related to each other.
+
+
+
+
+
+07.
+RELEASE SAVEPOINT sp1;
+
+The correct syntax to release a SAVEPOINT in a transaction is "RELEASE SAVEPOINT savepoint_name;". In this case, the SAVEPOINT is named "sp1".
+
+
+
+
+08.
+Roll back the transaction to the last SAVEPOINT, undoing changes after that point.
+
+ROLLBACK TO SAVEPOINT statement is used to undo all changes made in a transaction after a specific SAVEPOINT. It resets the transaction to the state it was in when the SAVEPOINT was created, effectively discarding any changes made after that point.
+
+
+
+
+
+
+09.
+To represent the logical structure of data and the relationships between entities.
+
+ER diagrams are used to represent the logical structure of data in a database. They visually depict the entities, their attributes, and the relationships between them, helping to understand how data is organized without concerning the physical storage details (A) or specific query types (D).
+
+
+
+
+
+
+10.
+Multiple SAVEPOINTS can be defined in a single transaction.
+
+A transaction can have multiple SAVEPOINTS, each serving as an intermediate marker. You can use these SAVEPOINTS to perform partial rollbacks or to manage complex transaction logic.

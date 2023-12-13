@@ -1,38 +1,82 @@
-intrduction
-theme 
-
-
-primary goals {
-
-    -- SQL is a language
-
-    -- ORDER BY 
-    -- SUM 
-    -- AVG 
-    -- COUNT 
-    -- MAX 
-    -- MIN 
-    -- GROUP BY 
-
-    -- AUTO_INCREMENT 
-    -- NOT NULL 
-    -- 
-
-}
-
-
-
 
 Filtering and Sorting 
 Aggregation Function 
 Multi table queries with joins 
 
 
+Links {
+    -- 
+    -- 
+}
+
+
+Notes  {
+
+    -- SQL is a language
+
+    -- SUM 
+    -- AVG 
+    -- COUNT 
+    -- MAX 
+    -- MIN 
+
+    -- ASC
+    -- DESC
+
+    -- LIMIT
+    -- OFFSET
+
+    -- ALTER BY
+    -- ORDER BY 
+    -- GROUP BY 
+
+    -- AUTO_INCREMENT 
+    -- NOT NULL 
+    -- DISTINCT
+
+    -- SELECT
+    -- UPDATE 
+    -- DELETE
+    -- SET 
+
+
+    -- * 
+    -- AS
+    -- ON
+    -- AND
+    -- USE
+    -- SHOW
+    -- INTO
+    -- FROM
+    -- VALUES 
+    -- WHERE
+
+    -- INNER JOIN
+    -- LEFT JOIN
+    -- RIGHT JOIN
+    -- UNION 
+
+}
+
+
+
+
+Task {
+    -- explore mysql workbench 
+    -- pracitcal implementation 2 
+    -- explore GROUP BY
+}
+
+
+
+
 
 
 ------------------------------
 ------------------------------
 ------------------------------
+
+
 
 
 Filtering & Sorting {
@@ -52,6 +96,9 @@ Filtering & Sorting {
     -- pagination
 
 }
+
+
+
 
 
 Aggregation function {
@@ -95,6 +142,7 @@ Aggregation function {
     -- it is attribute
     -- create a unique number for each row 
 }
+
 
 
 
@@ -212,16 +260,9 @@ quiz {
 
 
 
-summary & explore {
-    -- GROUP BY 
-    -- 
-
-}
 
 
 
 
 
-task {
-    -- pracitcal implementation 2 
-}
+

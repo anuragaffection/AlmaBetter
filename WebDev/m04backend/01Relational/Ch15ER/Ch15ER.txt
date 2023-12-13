@@ -19,6 +19,8 @@ ER Diagram Implementation
 
 links {
     -- https://blog.bytebytego.com/p/ep89-what-does-acid-mean
+    -- https://www.geeksforgeeks.org/flat-nested-distributed-transactions/
+    -- https://www.tutorialspoint.com/dbms/er_diagram_representation.htm
 }
 
 
@@ -70,17 +72,117 @@ database transaction {
     -- aborted state
     
     Defining db transaction
+    -- complete the operations  in one go 
     -- 
 }
 
 
 
 
-Save Point 
+Save Point {
+    -- marker points
 
-Entity Relationship 
--- ER Model 
--- ER Diagram Notations 
+    commands 
+    -- SAVEPOINT 
+    -- ROLLBACK TO SAVEPOINT
+    -- RELEASE SAVEPOINT
+}
 
-Cardinality 
+
+
+
+Entity Relationship {
+    -- entities 
+    -- attributes 
+    -- Relationship
+    -- keys 
+    -- Cardinality
+
+    ER Model 
+    -- data Model Diagram
+    
+    Three important components 
+    -- entities
+    -- attributes
+    -- Relationship
+    
+
+    ER Diagram Notations 
+    -- Link         = line 
+    -- Entity       = Rectangle 
+    -- Weak Entity  = double Rectangle
+    -- Cardinality  = 1, M, 0 
+    -- Attribute    = Oval 
+    -- pirmary key  = Oval + underline 
+
+    -- derived attributes      = dashed oval 
+    -- mulit valued attributes = double oval
+    -- Relationship            = Diamond 
+    -- Weak Relationship       = double Diamond
+    -- total participation     = double line 
+}
+
+
+
+
+Cardinality {
+    -- one to one 
+    -- one to many 
+    -- many to one 
+    -- many to many
+}
+
+
+
+
+
+Activity {
+
+    Activity: Fill in the blanks
+    
+    01. The state of a transaction before any changes are made is called ____________ (active / inactive).
+    
+    02. In ACID properties, 'C' stands for ____________ (consistency / committed).
+    
+    03. The final state of a transaction after successful completion is called ____________ (committed / debited).
+    
+    04. A SAVEPOINT is a named ____________ (rollback / marker) in a transaction.
+    
+    05. After a successful COMMIT, all SAVEPOINTs are ____________ (preserved / released).
+    
+    06. SAVEPOINTs are used to create ____________ (final / immediate) points in a transaction for more granular control.
+    
+    Answers
+    01. Active
+    02. Consistency
+    03. committed
+    04. marker
+    05. released
+    06. immediate
+
+
+
+
+
+    Activity: True or False
+    
+    01. A relationship in an ER Diagram is represented by an arrow pointing from one entity to another.
+    
+    02. Cardinality in an ER Diagram represents the number of occurrences of an entity related to another entity.
+    
+    03. An ER Diagram can have only one entity type.
+    
+    04. Weak entities in an ER Diagram depend on the existence of a strong entity.
+    
+    05. In an ER Diagram, attributes are represented using diamonds.
+    
+    Answers
+    01. False
+    02. True
+    03. False
+    04. True
+    05. False
+
+
+}
 
