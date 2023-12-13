@@ -1,0 +1,119 @@
+
+**Database Transactions:**
+
+1. ACID properties stand for:
+   a) Atomicity, Consistency, Isolation, Derivation
+   b) Aggregation, Consistency, Isolation, Durability
+   c) Atomicity, Consistency, Isolation, Durability
+   d) Atomicity, Continuity, Isolation, Durability
+
+
+
+
+
+2. Transaction State "Partially Committed" occurs:
+   a) Before executing any operations
+   b) After executing all operations successfully
+   c) After executing all operations but before the final commitment
+   d) After a transaction is rolled back
+
+
+
+
+
+
+3. A database transaction is a(n) __________ unit of work performed against a database.
+   a) Physical
+   b) Logical
+   c) Hybrid
+   d) Discrete
+
+
+
+
+
+
+4. Savepoints in a database transaction allow for:]]]
+   a) Only forward movement within the transaction
+   b) Partial rollback within the transaction
+   c) Complete rollback of the transaction
+   d) Pausing and resuming the transaction
+
+
+
+
+
+
+5. The ER model primarily consists of:
+   a) Entities, Rows, and Columns
+   b) Entities, Attributes, and Relationships
+   c) Rows, Attributes, and Tables
+   d) Tables, Attributes, and Relationships
+
+
+
+
+
+
+6. In an ER diagram, the oval-shaped figures represent:
+   a) Entities
+   b) Attributes
+   c) Relationships
+   d) Cardinality
+
+
+
+
+
+
+7. Cardinality in an ER diagram defines the:]]]
+   a) Type of entity
+   b) Type of attribute
+   c) Nature of the relationship between entities
+   d) Number of relationships
+
+
+
+
+
+
+8. ACID stands for Atomicity, Consistency, Isolation, __________.
+9. Transaction state "Aborted" occurs when a transaction encounters an __________ or is intentionally rolled back.
+10. An ER model is a conceptual representation of data using entities, __________, and relationships.
+11. In ER diagrams, cardinality indicates the __________ of relationships between entities.
+12. ER diagram implementation involves converting entities into __________ and attributes into columns.
+
+
+
+
+
+
+
+1. ACID properties stand for:
+   c) Atomicity, Consistency, Isolation, Durability
+
+2. Transaction State "Partially Committed" occurs:
+   c) After executing all operations but before the final commitment
+
+3. A database transaction is a(n) __________ unit of work performed against a database.
+   b) Logical
+
+4. Savepoints in a database transaction allow for:]]]
+   b) Partial rollback within the transaction
+
+5. The ER model primarily consists of:
+   b) Entities, Attributes, and Relationships
+
+6. In an ER diagram, the oval-shaped figures represent:
+   b) Attributes
+
+7. Cardinality in an ER diagram defines the:]]]
+   d) Number of relationships
+
+
+8.  **Durability**
+9.  **error**]] 
+10. **attributes**
+11. **number**]] 
+12. **tables**]] 
+

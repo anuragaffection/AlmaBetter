@@ -25,6 +25,7 @@ To show cardinality in relationships.
 
 
 
+
 03.
 Which of the following properties is NOT provided by a database transaction?
 
@@ -106,8 +107,9 @@ Release the SAVEPOINT, making it inaccessible for further use.
 
 
 
+
 09.
-What is the primary purpose of an Entity-Relationship (ER) Diagram in database design?
+What is the primary purpose of an Entity-Relationship (ER) Diagram in database design?]]
 
 To visualize the physical storage of data in a database.
 To create a blueprint of how tables should be laid out in a database.
@@ -218,7 +220,7 @@ ROLLBACK TO SAVEPOINT statement is used to undo all changes made in a transactio
 
 
 09.
-To represent the logical structure of data and the relationships between entities.
+To represent the logical structure of data and the relationships between entities.]]
 
 ER diagrams are used to represent the logical structure of data in a database. They visually depict the entities, their attributes, and the relationships between them, helping to understand how data is organized without concerning the physical storage details (A) or specific query types (D).
 

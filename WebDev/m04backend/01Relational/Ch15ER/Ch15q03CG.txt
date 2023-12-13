@@ -94,6 +94,8 @@
 
 
 
+
+
 2. **Transaction State:**
 
 
@@ -114,6 +116,7 @@
 
    - **Q6: What is the significance of each transaction state?**
      - Each state reflects a specific phase in the transaction lifecycle, ensuring data consistency, integrity, and the ability to recover from failures.
+
 
 
 
@@ -192,23 +195,33 @@
 
 
 
+
+
 6. **ER Diagram Notations:**
 
 
    - **Q16: Describe commonly used notations in an ER diagram.**
-     - Notations include rectangles for entities, ovals for attributes, diamonds/lines for relationships, underlining for primary keys, etc.
+     - Notations include 
+       rectangles for entities, 
+       ovals for attributes, 
+       diamonds/lines for relationships, 
+       underlining for primary keys, etc.
 
 
 
 
    - **Q17: Explain the symbols used for entities, relationships, attributes, etc.**
-     - Entities represent real-world objects, attributes describe properties of entities, relationships show connections between entities, and keys uniquely identify entities.
+     - Entities represent real-world objects, 
+       attributes describe properties of entities, 
+       relationships show connections between entities, and 
+       keys uniquely identify entities.
 
 
 
 
    - **Q18: How do these notations help in representing relationships between entities?**
      - They visually depict how entities are related, their attributes, and the cardinality of these relationships.
+
 
 
 
