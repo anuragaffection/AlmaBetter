@@ -13,6 +13,7 @@ Links {
 Notes  {
 
     -- SQL is a language
+    -- mysql is a database software 
 
     -- SUM 
     -- AVG 
@@ -34,17 +35,35 @@ Notes  {
     -- NOT NULL 
     -- DISTINCT
 
-    -- SELECT
-    -- UPDATE 
-    -- DELETE
-    -- SET 
+    -- CREATE
+    -- ALTER
+    -- DROP
+    -- TRUCATE
+    -- COMMIT
+    -- RENAME
 
+    -- INSERT
+    -- UPDATE
+    -- DELETE
+    -- MERGE
+    -- CALL
+    -- EXPLAIN PLAN
+    -- SELECT
+    
+    -- GRANT 
+    -- REVOKE 
+
+    -- COMMIT 
+    -- ROLLBACK
+    -- SAVEPOINT
+    -- AUTOCOMMIT 
 
     -- * 
     -- AS
     -- ON
     -- AND
     -- USE
+    -- SET 
     -- SHOW
     -- INTO
     -- FROM

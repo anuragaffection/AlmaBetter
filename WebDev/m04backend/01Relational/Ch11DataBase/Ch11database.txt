@@ -1,8 +1,20 @@
-introduction 
-theme 
+
+Backend
+Database
+Database Management System
 
 
-primary goals {
+
+Links {
+    -- https://borniet.medium.com/database-partitioning-what-is-it-why-should-i-use-it-6c42a4161db2
+    -- https://docs.oracle.com/en/database/oracle/oracle-database/19/admin/distributed-database-concepts.html#GUID-1E67C35A-097D-4BBF-B2A9-F8954A5C603B
+    -- 
+}
+
+
+
+
+Notes {
     -- Relational 
     -- NoSQL
 
@@ -12,6 +24,8 @@ primary goals {
     -- DCL
     -- TCL
 
+    -- 1-Tier architecture]]
+    -- 2-Tier architecture]]
     -- 3-Tier architecture
 
     Databases
@@ -21,7 +35,7 @@ primary goals {
     -- Microsoft SQL Server
     -- MongoDB
     -- MySQL
-    -- MySQL Workbench 
+    -- MySQL Workbench ]]
 
 
     Backend Language & Frameworks
@@ -38,11 +52,18 @@ primary goals {
     -- Flask 
 
 
+
     Hosting & Cloud 
     -- Amazon Web Services (AWS)
     -- Google Cloud Platform (GCP)
     -- Microsoft Azure 
+
+    Hosting 
     -- Heroku 
+    -- Vercel 
+    -- render 
+    -- netlify 
+    -- github pages 
 
 
     RDBMS
@@ -83,6 +104,23 @@ primary goals {
 
 
 
+
+
+Explore & Task {
+    -- What is DNS 
+    -- containerization
+    -- Sharding
+    -- Normalization
+    -- is MySQL Workbench database 
+    -- field vs Record
+    -- is there any COMMENT command in mariadb 
+}
+
+
+
+
+
+
 What is backend {
     Web Server
 
@@ -100,12 +138,19 @@ What is backend {
 
 
 
+
+
+
 What is a Database {
     -- structured collection of data 
     -- flow of data & instructions 
     -- applications of database 
     
 }
+
+
+
+
 
 Database Management System {
     -- DBMS is a software that interact with databases
@@ -122,11 +167,15 @@ Database Management System {
     -- distributed DBMS
 
     3 tier architecture
-    -- Presentation tier
-    -- Application tier 
-    -- Database tier
+    -- Presentation tier [client tier]
+    -- Application tier  [logic or middle tier ]
+    -- Database tier     [ data management]
 
 }
+
+
+
+
 
 
 
@@ -142,7 +191,7 @@ Data Language {
     -- ALTER
     -- DROP
     -- TRUCATE
-    -- COMMENT
+    -- COMMIT
     -- RENAME
 
     DML Data Manipulation Language
@@ -161,15 +210,16 @@ Data Language {
     -- GRANT 
     -- REVOKE 
 
-    TCL Transation Control Language
+    TCL Transaction Control Language
     -- COMMIT 
     -- ROLLBACK
     -- SAVEPOINT
     -- AUTOCOMMIT 
 
-
-
 }
+
+
+
 
 
 
@@ -183,7 +233,7 @@ Quiz {
     
     03. A Database Management System (DBMS) is a ___________ (software / framework) that enables users to interact with a database.
     
-    04. In a ___________ (hierarchical / network) DBMS, data is organized in a tree-like structure
+    04. In a ___________ (hierarchical / network) DBMS, data is organized in a tree-like structure.]]]
     
     05. ___________ (distributed / network) DBMS is based on the mathematical model of directed graphs.
 
@@ -192,10 +242,8 @@ Quiz {
     01. server
     02. logic
     03. software
-    04. hierarchical
+    04. hierarchical]]
     05. network
-
-
 
 
 
@@ -206,7 +254,7 @@ Quiz {
 
     2. This type of DBMS organizes data in a tree-like structure.
     
-    3. The ________ tier is responsible for storing, managing, and retrieving data.
+    3. The ________ tier is responsible for storing, managing, and retrieving data.]]]
 
     4. The ________ tier contains business logic and data processing.
 
@@ -218,26 +266,11 @@ Quiz {
     Answers
     01. Sharding
     02. hierarchical
-    03. Database
+    03. Database]]]
     04. Application
-    05. COMMENT
+    05. COMMIT 
     06. Normalization 
 
 }
 
 
-
-
-Explore & Summary {
-    -- What is DNS 
-    -- containerization
-    -- Sharding
-    -- Normalization
-}
-
-
-
-Task {
-    -- ask linkedin endorsement from Monesh Venkul Sir 
-    -- 
-}

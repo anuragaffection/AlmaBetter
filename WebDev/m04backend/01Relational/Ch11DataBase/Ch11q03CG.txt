@@ -1,30 +1,40 @@
 
 
 1. What are the key differences between relational and NoSQL databases?
-2. When would you choose a relational database over a NoSQL database, and vice versa?
+2. When would you choose a relational database over a NoSQL database, and vice versa?]]]
 3. Explain the purpose of DDL in a database.
 4. List some common DDL commands used in SQL.
-5. How do you create a table using DDL?
+5. How do you create a table using DDL?]]]
+
+
 6. What is the role of DML in a database system?
 7. Provide examples of DML commands and their usage.
 8. What is the significance of DCL in database management?
-9. Explain the difference between GRANT and REVOKE commands in DCL.
+9. Explain the difference between GRANT and REVOKE commands in DCL.]]]
 10. What is the purpose of TCL in a database system?
-11. How do COMMIT and ROLLBACK commands work in managing transactions?
+
+
+11. How do COMMIT and ROLLBACK commands work in managing transactions?]]]
 12. Describe the three tiers of the 3-Tier architecture and their functions.
-13. What are the advantages of using a 3-Tier architecture in web applications?
+13. What are the advantages of using a 3-Tier architecture in web applications?]]]
 14. Compare and contrast Oracle Database, PostgreSQL, SQL Server, and MongoDB.
 15. Explain the primary use cases for each of the mentioned database systems.
+
+
 16. What is the role of Node.js and Express.js in backend development?
 17. Compare Java with Python for backend development, considering Spring, Java Server Faces, Django, and Flask.
 18. Discuss the key features and advantages of Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, and Heroku.
-19. When would you choose one cloud service over another for hosting your application?
+19. When would you choose one cloud service over another for hosting your application?]]]
 20. Explain the differences between a relational database management system (RDBMS) and a NoSQL database.
-21. Provide examples of when you would use an RDBMS and when you would opt for a NoSQL database.
+
+
+21. Provide examples of when you would use an RDBMS and when you would opt for a NoSQL database.]]]
 22. What is a DBMS, and why is it essential for managing databases?
 23. What is SQL, and how is it used in database management?
-24. Define sharding and its role in database scaling.
+24. Define sharding and its role in database scaling.]]]
 25. Describe the main categories of data languages (DDL, DML, DCL, TCL) and their purposes.
+
+
 26. Provide examples of DDL, DML, DCL, and TCL commands and their applications.
 27. What is a database, and how does it differ from a data structure?
 28. Explain the applications of databases in modern software systems.
@@ -35,20 +45,23 @@
 
 1. Key Differences between Relational and NoSQL Databases:
    - Relational databases use a structured schema and tables with predefined relationships, 
-   while NoSQL databases use flexible schemas, including document-based, key-value, column-family, and graph databases.
+     while NoSQL databases use flexible schemas, including document-based, key-value, column-family, and graph databases.
    - Relational databases are ACID compliant, ensuring data integrity, 
    while NoSQL databases may prioritize scalability and flexibility over strict consistency.
 
 
 
 2. Choosing Relational or NoSQL Databases:
-   - Choose a relational database when data has a well-defined structure and consistency is critical, such as in financial applications.
-   - Opt for NoSQL databases when dealing with unstructured or semi-structured data, scalability is a priority, or you need to store and retrieve data quickly.
+   - Choose a relational database when data has a well-defined structure and consistency is critical, 
+     such as in financial applications.
+   - Opt for NoSQL databases when dealing with unstructured or semi-structured data, 
+     scalability is a priority, or you need to store and retrieve data quickly.
 
 
 
 3. Purpose of DDL (Data Definition Language) in a Database:
-   - DDL is used to define the structure of the database, including creating, altering, and deleting tables, defining constraints, and managing indexes.
+   - DDL is used to define the structure of the database, 
+     including creating, altering, and deleting tables, defining constraints, and managing indexes.
 
 
 
@@ -70,10 +83,10 @@
 
 6. Role of DML (Data Manipulation Language):
    - DML is responsible for manipulating data within a database, including operations like 
-   INSERT (to add new data), 
-   UPDATE (to modify existing data), 
-   DELETE (to remove data), 
-   MERGE (to combine data from multiple sources).
+     INSERT (to add new data), 
+     UPDATE (to modify existing data), 
+     DELETE (to remove data), 
+     MERGE (to combine data from multiple sources).
 
 
 
@@ -87,11 +100,11 @@
 8. Significance of DCL (Data Control Language) in Database Management:
    - DCL is responsible for controlling permissions and access to database objects.
    - GRANT is used to provide specific privileges to users or roles, 
-   while REVOKE is used to take those privileges away.
+     while REVOKE is used to take those privileges away.
 
 
 
-9. Difference Between GRANT and REVOKE Commands in DCL:
+9. Difference Between GRANT and REVOKE Commands in DCL:]]]
    - GRANT provides permissions to users or roles, allowing them to perform specific actions on database objects, such as SELECT, INSERT, or UPDATE.
    - REVOKE revokes previously granted permissions, restricting users or roles from performing those actions.
 
@@ -104,9 +117,10 @@
 
 
 
-11. How COMMIT and ROLLBACK Commands Work in Managing Transactions:
+11. How COMMIT and ROLLBACK Commands Work in Managing Transactions:]]]
     - COMMIT saves the changes made during a transaction, making them permanent and ending the transaction.
-    - ROLLBACK reverts the database to the state before the transaction began, discarding any changes made within the transaction.
+    - ROLLBACK reverts the database to the state before the transaction began, 
+      discarding any changes made within the transaction.
 
 
 
@@ -118,7 +132,7 @@
 
 
 
-13. Advantages of Using a 3-Tier Architecture in Web Applications:
+13. Advantages of Using a 3-Tier Architecture in Web Applications:]]]
     - Separation of concerns: It divides the application into manageable components, enhancing maintainability.
     - Scalability: Each tier can be scaled independently to handle load efficiently.
     - Security: Protects sensitive data by placing it in the Database tier, which is not directly accessible from the Presentation tier.
@@ -141,9 +155,13 @@
 
 
 
+
+
 16. Role of Node.js and Express.js in Backend Development:
     - Node.js allows developers to run JavaScript on the server, making it a popular choice for backend development.
     - Express.js is a web application framework for Node.js, simplifying the creation of web applications and APIs.
+
+
 
 
 
@@ -156,11 +174,14 @@
 
 
 
+
+
 18. Key Features and Advantages of Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, and Heroku:
     - AWS offers a wide range of cloud services, including computing, storage, and machine learning.
     - GCP provides advanced machine learning and data analytics capabilities.
     - Azure integrates seamlessly with Microsoft products and services.
     - Heroku simplifies application deployment and management.
+
 
 
 

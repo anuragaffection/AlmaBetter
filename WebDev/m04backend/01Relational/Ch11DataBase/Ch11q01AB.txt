@@ -2,8 +2,7 @@ Database introduction
 
 
 
-01 
-Which of the following is NOT a characteristic of a database?
+01. Which of the following is NOT a characteristic of a database?]]]
 
 Data Independence
 Data Redundancy
@@ -14,8 +13,8 @@ Data Security
 
 
 
-02
-In the 3-tier architecture, what is the primary role of the data tier?
+
+02. In the 3-tier architecture, what is the primary role of the data tier?
 
 Displaying data to users.
 Processing business logic.
@@ -25,8 +24,9 @@ Managing user interactions.
 
 
 
-03
-What does the term "Backend" refer to in web development?
+
+
+03. What does the term "Backend" refer to in web development?
 
 The visible user interface of a website.
 The client-side programming responsible for handling user interactions.
@@ -36,13 +36,16 @@ The process of optimizing a website for search engines.
 
 
 
-04
-Which of the following data models is typically used by relational database management systems?
+
+
+
+04. Which of the following data models is typically used by relational database management systems?
 
 Hierarchical model
 Network model
 Tabular model
 Entity-Relationship Model
+
 
 
 
@@ -60,6 +63,7 @@ Retrieving data from the database and processing it.
 
 
 
+
 06.
 Which data language is used to define the structure of the database, including tables, columns, and constraints?
 
@@ -72,13 +76,16 @@ DCL (Data Control Language)
 
 
 
+
 07.
-Which of the following represents the smallest unit of data in a database?
+Which of the following represents the smallest unit of data in a database?]]]
 
 Table
 Field
 Record
 Database
+
+
 
 
 
@@ -95,6 +102,8 @@ Key-Value Store
 
 
 
+
+
 09.
 Which of the following tasks is NOT a function of a DBMS?
 
@@ -102,6 +111,8 @@ Storing data persistently on disk.
 Ensuring data integrity through validation rules.
 Defining data relationships and constraints.
 Developing front-end user interfaces.
+
+
 
 
 
@@ -121,14 +132,14 @@ Object-oriented model
 
 
 
+
 Answer 
 
-
-
 01
-Data Redundancy
+Data Redundancy]]]
 
 Data redundancy is the duplication of data within a database, which can lead to inefficiency and inconsistencies. It is considered a drawback in database design because it wastes storage space and can lead to data integrity issues. The other options, Data Independence, Data Integrity, and Data Security, are essential characteristics of a well- designed database.
+
 
 
 
@@ -139,10 +150,13 @@ The data tier's primary role is to store and manage data. It handles tasks such 
 
 
 
+
 03.
 The server-side programming responsible for managing data and business logic.
 
 The term "Backend" in web development refers to the server-side of a web application. It includes the code and infrastructure responsible for handling data storage, processing, and business logic. The backend communicates with the database, processes user requests, and returns data to the frontend (client-side) for display.
+
+
 
 
 
@@ -160,6 +174,7 @@ The Backend is responsible for managing data, including retrieving data from the
 
 
 
+
 06.
 DDL (Data Definition Language)
 
@@ -167,10 +182,13 @@ DDL is used to define the structure of the database, including creating, alterin
 
 
 
-07.
+
+
+07.]]]
 Field
 
-In a database, a field is the smallest unit of data. It represents a single piece of information, such as a name, age, or address. Fields are organized into records, and records, in turn, are organized into tables.
+In a database, a field is the smallest unit of data. It represents a single piece of information, such as a name, age, or address. Fields are organized into records, and records in turn are organized into tables.
+
 
 
 
@@ -183,10 +201,13 @@ NoSQL DBMS is often used for high- performance, scalable, and distributed system
 
 
 
+
 09.
 Developing front-end user interfaces.
 
 While a DBMS may provide some tools or APIs to interact with the database, its primary function is not related to developing front-end user interfaces. DBMS focuses on data storage, retrieval, and management.
+
+
 
 
 

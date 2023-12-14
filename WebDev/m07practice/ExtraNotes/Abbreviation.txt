@@ -1,36 +1,73 @@
 
-ACID = Atomicity, Consistency, Isolation, Durability
+Rules {
+    -- 1. sort as number of letter
+    -- 2. then as alphabetical order 
+}
+
+
+
+
+
 API  = Application Programming Interfaces
-AJAX = Asynchronous Javascript and XML 
 AWS  = Amazon Web Services 
+
+ACID = Atomicity, Consistency, Isolation, Durability
+AJAX = Asynchronous Javascript and XML 
+
+
+
+
 
 BSON = Binary JSON 
 
+
+
+
+
 CD   = continuous delivery 
-CDN  = Content Delivery Network 
 CI   = continuous integration
+
+CDN  = Content Delivery Network 
 CLS  = Cumulative Layout Shift
 CMS  = Content management system 
-CORS = 
-CRUD = CREATE, READ, UPDATE, DELETE
 CSR  = Client Side Rendering
 CSS  = Cascading Style Sheets 
 
+CORS = 
+CRUD = CREATE, READ, UPDATE, DELETE
 
 
+
+
+
+DCL  = Data Control Language
+DDL  = Data Definition Language
+DML  = Data Manipulation Language
+DNS  = 
 DOM  = Document Object Model 
 DRY  = Don't Repeat Yourself 
 
+
+
+
 GUI  = graphical user interface 
+
+
+
 
 HOC  = Higher Order Components
 HOC  = Higher Order Functions 
 HTML = Hyper Text Markup Language 
 
 
-IIFE = Immediately Invoked Function Expression 
+
+
+
+
 IoT  = Internet of Things 
 ISR  = Incremental Static Regeneration
+
+IIFE = Immediately Invoked Function Expression 
 
 
 
@@ -51,10 +88,11 @@ NPM  = Node Package Manager
 
 PIP  = Python Package Installer 
 
-RBAC = Role based access control
-RDF  = Resource Description Framework 
 
-SASS = 
+RDF  = Resource Description Framework 
+RBAC = Role based access control
+
+
 SEO  = Search Engine Optimization
 SPA  = Single Page Application 
 SQL  = Structured Query Language 
@@ -63,10 +101,17 @@ SSL  =
 SSR  = Server Side Rendering
 SWR  = Stale While Revalidating
 
+SASS = 
+
+
+TCL  = Transaction control Language
 TLS  = 
 TTFB = time to the first byte 
 
+
 UDFs = User Defined Functions 
+
+
 XSS  = Cross site scripting
 
 

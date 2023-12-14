@@ -2,7 +2,7 @@ mariadB
 
 
 01.
-What is the purpose of the ORDER BY clause in a MariaDB query?
+What is the purpose of the ORDER BY clause in a MariaDB query?]]
 
 To group rows with similar values
 To filter rows based on a condition
@@ -28,7 +28,7 @@ MAX
 
 
 03.
-What is the main difference between LEFT JOIN and RIGHT JOIN?
+What is the main difference between LEFT JOIN and RIGHT JOIN?]]]
 
 LEFT JOIN includes unmatched rows from the left table, and RIGHT JOIN includes unmatched rows from the right table.
 LEFT JOIN includes all rows from both tables, and RIGHT JOIN includes only matched rows.
@@ -54,7 +54,7 @@ ORDER BY
 
 
 05.
-How is the DISTINCT keyword used in a SELECT statement?
+How is the DISTINCT keyword used in a SELECT statement?]]]
 
 It is placed before the column names you want to select.
 It is placed after the FROM clause.
@@ -67,7 +67,7 @@ It is placed within the ORDER BY clause.
 
 
 06.
-When using an INNER JOIN in MariaDB, if there is no specified condition using the ON clause, what will be the result?
+When using an INNER JOIN in MariaDB, if there is no specified condition using the ON clause, what will be the result?]]]
 
 The query will fail with an error.
 The INNER JOIN will behave like a CROSS JOIN and return the Cartesian product.
@@ -139,6 +139,10 @@ To sort the result set based on one or more columns
 The ORDER BY clause is used to sort the result set based on the specified column(s).
 
 
+
+
+
+
 02.
 AVG
 
@@ -147,10 +151,15 @@ The AVG function in MariaDB is used to calculate the average of numeric column v
 
 
 
-03.
+
+
+03.]]]
 LEFT JOIN includes unmatched rows from the left table, and RIGHT JOIN includes unmatched rows from the right table.
 
 LEFT JOIN returns all the rows from the left table and the matching rows from the right table. If there is no match for a row in the left table, NULL values are returned for the right table columns. RIGHT JOIN does the same, but it includes all rows from the right table and the matching rows from the left table.
+
+
+
 
 
 
@@ -164,8 +173,7 @@ The GROUP BY clause is used to group rows in a MariaDB query based on the values
 
 
 
-05.
-
+05.]]]
 It is placed before the column names you want to select.
 
 To select distinct values from specific columns, you place the DISTINCT keyword before the column names in the SELECT statement.
@@ -174,7 +182,7 @@ To select distinct values from specific columns, you place the DISTINCT keyword 
 
 
 
-06.
+06.]]]
 The INNER JOIN will behave like a CROSS JOIN and return the Cartesian product.
 
 If there is no specified condition using the ON clause in an INNER JOIN, it will behave like a CROSS JOIN, which returns the Cartesian product of both tables. This means every row from the first table will be paired with every row from the second table.

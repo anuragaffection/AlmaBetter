@@ -58,7 +58,7 @@
 
 
 
-7. ]] Which of the following is a DML command in SQL?
+7. ]]] Which of the following is a DML command in SQL?
    a. CREATE TABLE
    b. ALTER TABLE
    c. INSERT
@@ -130,6 +130,7 @@
 
 
 
+
 14.]] Which database system is known for its scalability, reliability, and strong ACID compliance?
     a. PostgreSQL
     b. MongoDB
@@ -140,7 +141,7 @@
 
 
 
-15. Which database system is known for being open-source and highly extensible?
+15]]. Which database system is known for being open-source and highly extensible?
     a. PostgreSQL
     b. SQL Server
     c. Oracle Database
@@ -150,7 +151,7 @@
 
 
 
-16. What is the primary use case for SQL Server?
+16.]] What is the primary use case for SQL Server?
     a. Large-scale data processing and financial systems.
     b. Geospatial data and web applications.
     c. Real-time analytics and social media platforms.
@@ -190,7 +191,7 @@
 
 
 
-20. What is the primary advantage of Amazon Web Services (AWS)?
+20.]] What is the primary advantage of Amazon Web Services (AWS)?
     a. Advanced machine learning and data analytics capabilities.
     b. Seamless integration with Microsoft products and services.
     c. Wide range of cloud services, including computing and storage.
@@ -260,7 +261,7 @@
 
 
 
-27. Which of the following is a category of data language?
+27.]] Which of the following is a category of data language?
     a. DDL
     b. HTML
     c. XML

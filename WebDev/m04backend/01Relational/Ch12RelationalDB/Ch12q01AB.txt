@@ -16,12 +16,14 @@ To allow NULL values in the column
 
 
 02. 
-In MariaDB, which CRUD operation is used to add a new row to a table?
+In MariaDB, which CRUD operation is used to add a new row to a table?]]]
 
 Create
 Read
 Update
 Delete
+
+
 
 
 
@@ -55,7 +57,7 @@ Control, Replace, Undo, Deploy
 
 
 05.
-What is the correct syntax for updating a single column in MariaDB?
+What is the correct syntax for updating a single column in MariaDB?]]]
 
 UPDATE table_name SET column_name = new_value;
 MODIFY table_name column_name = new_value;
@@ -143,7 +145,7 @@ The primary key's primary purpose is to enforce uniqueness of values within a co
 
 
 02
-Create
+Create]]]
 
 The Create operation is used to add new data to the database. In MariaDB, you can use the INSERT statement to create and insert new rows into a table.
 

@@ -1,8 +1,23 @@
-introduction 
-theme 
 
-primary goals {
-    
+Relational database
+SQL Server Keys
+MariaDB
+Installing MariaDB
+CRUD in MariaDB
+
+
+
+Links {
+    -- 
+    --
+    --
+}
+
+
+
+
+Notes {
+
     -- CRUD 
     -- SQL
     -- primary keys 
@@ -23,15 +38,33 @@ primary goals {
     -- Consistency
     -- Isolation 
     -- Durability 
-
 }
 
 
-Relational database
-SQL Server Keys
-MariaDB
-Installing MariaDB
-CRUD in MariaDB
+
+
+Task {
+    -- field
+    -- indexes
+    -- joins
+
+    -- function vs attributes [functions do the task, attributes are properties or characteristics]
+    -- multi valued attributes
+    -- data vs database vs DBMS vs Language 
+    -- SQL  vs NoSQL
+    -- SQL vs MySQL
+    -- NoSQL vs  MongoDB
+    -- DBMS vs RDBMS
+    -- MariaDB vs MySQL [MariaDB is the fork of MySQL ]
+
+    -- sharding vs Normalization
+    -- MySQL vs MariaDB
+    -- PRIMARY KEY vs UNIQUE
+    -- ACID 
+    -- 
+
+}
+
 
 
 
@@ -225,36 +258,10 @@ Quiz {
     04. Unique
     05. Conditions
 
-
-
-}
-
-
-Explore & Summary {
-    -- sharding vs Normalization
-    -- MySQL vs MariaDB
-    -- PRIMARY KEY vs UNIQUE
-    -- ACID 
-    -- 
-
 }
 
 
 
-Task {
-    -- field
-    -- indexes
-    -- joins
 
-    -- function vs attributes [functions do the task, attributes are properties or characteristics]
-    -- multi valued attributes
-    -- data vs database vs DBMS vs Language 
-    -- SQL  vs NoSQL
-    -- SQL vs MySQL
-    -- NoSQL vs  MongoDB
-    -- DBMS vs RDBMS
-    -- MariaDB vs MySQL [MariaDB is the fork of MySQL ]
 
-    -- 
 
-}
