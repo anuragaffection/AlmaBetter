@@ -1,37 +1,24 @@
 
 
 1. What is a relational database, and how does it differ from other types of databases?
-
 2. Can you explain the fundamental components of a relational database, such as tables, rows, and columns?
-
-3. What is normalization, and why is it essential in database design?
-
-4. How do indexes improve database performance, and what types of indexes are commonly used?
-
+3. What is normalization, and why is it essential in database design?]]]
+4. How do indexes improve database performance, and what types of indexes are commonly used?]]]
 5. What is the purpose of a primary key in SQL Server, and why is it important?
 
 6. Differentiate between a primary key and a foreign key in SQL Server.
-
-7. Explain the concept of candidate keys and super keys in the context of SQL Server.
-
-8. How does a unique key constraint differ from a primary key constraint?
-
+7. Explain the concept of candidate keys and super keys in the context of SQL Server.]]]
+8. How does a unique key constraint differ from a primary key constraint?]]]
 9. What is MariaDB, and how does it relate to MySQL?
-
 10. Who is the owner of MariaDB, and why was MariaDB created as a fork of MySQL?
 
 11. Can you discuss some key features and advantages of using MariaDB in database management?
-
 12. Walk me through the steps involved in installing MariaDB on a Linux server.
-
 13. How do you set the root password during the installation of MariaDB?
-
 14. What tools or clients can be used to interact with a MariaDB server after installation?
-
 15. Define CRUD operations in the context of database management.
 
 16. Provide examples of SQL statements for performing the CREATE, READ, UPDATE, and DELETE operations in MariaDB.
-
 17. What are the commonly used data types in MariaDB, and how are they specified when creating tables?
 
 
@@ -40,81 +27,107 @@
 
 
 
-1. A relational database is a type of database that uses a relational model for organizing and managing data. It differs from other database types by structuring data into tables with rows and columns.
+1. What is a relational database, and how does it differ from other types of databases?
+-- A relational database is a type of database that uses a relational model for organizing and managing data. 
+   It differs from other database types by structuring data into tables with rows and columns.
 
 
 
 
-2. A relational database consists of tables (also known as relations) where data is organized. Rows represent individual records, and columns represent attributes or fields associated with those records.
+2. Can you explain the fundamental components of a relational database, such as tables, rows, and columns?
+-- A relational database consists of tables (also known as relations) where data is organized. 
+   Rows represent individual records, and 
+   columns represent attributes or fields associated with those records.
 
 
 
 
-3. Normalization is the process of organizing the data in a database to eliminate redundancy and reduce data dependency. It involves breaking down large tables into smaller, related tables to improve data integrity and maintainability.
+3. What is normalization, and why is it essential in database design?]]]
+-- Normalization is the process of organizing the data in a database to 
+   eliminate redundancy and reduce data dependency. 
+   It involves breaking down large tables into smaller, related tables to improve data integrity and maintainability.
 
 
 
 
-4. Indexes are data structures used to improve database query performance. Common index types include B-tree and hash indexes.
-
-
-
-
-
-5. A primary key in SQL Server is a unique constraint on a column or set of columns that ensures each row in a table is uniquely identified. It enforces data integrity and automatically creates a clustered index.
-
-
-
-
-6. A primary key uniquely identifies each row in a table and is used for establishing relationships with other tables. 
-A foreign key is a column or set of columns in one table that references the primary key in another table to create relationships between them.
-
-
-
-
-7. Candidate keys are sets of columns that could be used as the primary key for a table. Super keys are sets of columns that uniquely identify rows but may include more columns than required for uniqueness.
-
-
-
-
-8. A unique key constraint ensures the uniqueness of values within the specified columns but does not enforce a requirement that the columns be non-null.
-
-
-
-
-9. MariaDB is an open-source relational database management system and a fork of MySQL. It is designed to be a drop-in replacement for MySQL, offering improved performance and additional features.
-
-
-
-
-10. MariaDB was created by the original developers of MySQL due to concerns about the direction of MySQL after it was acquired by Oracle. The MariaDB Foundation owns MariaDB.
-
-
-
-
-11. MariaDB offers features like support for user-defined functions written in C/C++, JSON support, and Multi-Version Concurrency Control (MVCC).
+4. How do indexes improve database performance, and what types of indexes are commonly used?]]]
+-- Indexes are data structures used to improve database query performance. 
+   Common index types include B-tree and hash indexes.
 
 
 
 
 
-12. The steps for installing MariaDB on a Linux server typically involve using package managers like YUM or APT. You need to add the MariaDB repository, install the software, and set the root password during installation.
+5. What is the purpose of a primary key in SQL Server, and why is it important?
+-- A primary key in SQL Server is a unique constraint on a column or set of columns that 
+   ensures each row in a table is uniquely identified. 
+   It enforces data integrity and automatically creates a clustered index.
 
 
 
 
-13. During the installation of MariaDB, you can set the root password using the 'mysql_secure_installation' script or by providing it during the installation process.
+6. 
+-- A primary key uniquely identifies each row in a table and is used for establishing relationships with other tables. 
+   A foreign key is a column or set of columns in one table that references the primary key in another table to create relationships between them.
 
 
 
 
-14. After installing MariaDB, you can interact with the server using the 'mysql' client, which allows you to create, modify, and query databases and tables.
+7. 
+-- Candidate keys are sets of columns that could be used as the primary key for a table. 
+   Super keys are sets of columns that uniquely identify rows but may include more columns than required for uniqueness.
+
+
+
+
+8. 
+-- A unique key constraint ensures the uniqueness of values within the specified columns but does not enforce a requirement that the columns be non-null.
+
+
+
+
+9. 
+-- MariaDB is an open-source relational database management system and a fork of MySQL. 
+   It is designed to be a drop-in replacement for MySQL, offering improved performance and additional features.
+
+
+
+
+10. 
+-- MariaDB was created by the original developers of MySQL due to concerns about the direction of MySQL after it was acquired by Oracle. The MariaDB Foundation owns MariaDB.
+
+
+
+
+11. 
+-- MariaDB offers features like support for user-defined functions written in C/C++, JSON support, and Multi-Version Concurrency Control (MVCC).
 
 
 
 
 
-15. CRUD stands for Create, Read, Update, and Delete, which are the fundamental operations in database management. Create involves adding new data, Read retrieves data, Update modifies existing data, and Delete removes data.
+12. 
+-- The steps for installing MariaDB on a Linux server typically involve using package managers like YUM or APT. 
+   You need to add the MariaDB repository, install the software, and set the root password during installation.
+
+
+
+
+13. 
+-- During the installation of MariaDB, you can set the root password using the 'mysql_secure_installation' script or by providing it during the installation process.
+
+
+
+
+14. 
+--  After installing MariaDB, you can interact with the server using the 'mysql' client, which allows you to create, modify, and query databases and tables.
+
+
+
+
+
+15. 
+-- CRUD stands for Create, Read, Update, and Delete, which are the fundamental operations in database management. Create involves adding new data, Read retrieves data, Update modifies existing data, and Delete removes data.
 
 
 
@@ -128,4 +141,6 @@ A foreign key is a column or set of columns in one table that references the pri
 
 
 
-17. Common data types in MariaDB include INT, VARCHAR, DATE, and BOOLEAN. They are specified when creating tables to define the type of data a column can hold and constraints on that data.
+17. 
+-- Common data types in MariaDB include INT, VARCHAR, DATE, and BOOLEAN. 
+   They are specified when creating tables to define the type of data a column can hold and constraints on that data.

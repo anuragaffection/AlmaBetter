@@ -10,11 +10,16 @@
 
 
 
-2. Which of the following is not a primary goal in SQL?
+
+
+2. Which of the following is not a primary goal in SQL?]]]
    a) CRUD
    b) ACID
    c) Joins
    d) Storage Engines
+
+
+
 
 
 
@@ -24,6 +29,8 @@
    b) To store large binary data
    c) To create a link between two tables
    d) To enforce data consistency
+
+
 
 
 
@@ -58,7 +65,7 @@
 
 
 
-7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?
+7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?]]]
    a) InnoDB
    b) Aria
    c) MyRocks
@@ -66,7 +73,7 @@
 
 
 
-8. Which storage engine is designed for high write-intensive workloads in MySQL/MariaDB?
+8. Which storage engine is designed for high write-intensive workloads in MySQL/MariaDB?]]]
    a) InnoDB
    b) Aria
    c) MyRocks
@@ -85,7 +92,7 @@
 
 
 
-10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?
+10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?]]]
     a) Atomicity
     b) Consistency
     c) Isolation
@@ -126,7 +133,7 @@
 
 
 
-14. Which type of key enforces uniqueness on a column but allows for duplicates within the constraint?
+14. Which type of key enforces uniqueness on a column but allows for duplicates within the constraint?]]]
     a) Primary Key
     b) Foreign Key
     c) Unique Key
@@ -146,7 +153,7 @@
 
 
 
-16. Which programming language can be used to write user-defined functions in MariaDB?
+16. Which programming language can be used to write user-defined functions in MariaDB?]]]
     a) Python
     b) C/C++
     c) Java
@@ -156,7 +163,7 @@
 
 
 
-17. What is the default root password during the installation of MariaDB?
+17. What is the default root password during the installation of MariaDB?]]]
     a) anurag
     b) root
     c) password
@@ -203,7 +210,7 @@
 1. What does CRUD stand for in the context of databases?
    Answer: a) Create, Read, Update, Delete
 
-2. Which of the following is not a primary goal in SQL?
+2. Which of the following is not a primary goal in SQL?]]]
    Answer: c) Joins
 
 3. In a relational database, what is the purpose of primary keys?
@@ -218,7 +225,7 @@
 6. In an SQL LEFT JOIN, which table's data is all returned, even if there are no matches in the other table?
    Answer: a) The left table
 
-7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?
+7. Which storage engine is known for its support of full-text search in MySQL/MariaDB?]]]
    Answer: b) Aria
 
 8. Which storage engine is designed for high write-intensive workloads in MySQL/MariaDB?
@@ -227,7 +234,7 @@
 9. Which property of ACID ensures that a transaction is either completed in its entirety or not at all?
    Answer: a) Atomicity
 
-10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?
+10. Which property of ACID guarantees that a database will return to a consistent state after a system failure?]]]
     Answer: b) Consistency
 
 11. What is the purpose of normalization in a relational database?
@@ -245,10 +252,10 @@
 15. Why was MariaDB created?
     Answer: b) To serve as a fork of MySQL
 
-16. Which programming language can be used to write user-defined functions in MariaDB?
+16. Which programming language can be used to write user-defined functions in MariaDB?]]]
     Answer: b) C/C++
 
-17. What is the default root password during the installation of MariaDB?
+17. What is the default root password during the installation of MariaDB?]]]
     Answer: b) root
 
 18. What tool is commonly used to connect to MariaDB for administration and querying?
