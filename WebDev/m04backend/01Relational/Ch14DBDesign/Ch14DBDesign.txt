@@ -7,7 +7,7 @@ schema Design
 -- schema Design implementation 
 -- Why design schemas 
 
-Normalization
+Normalization]]]
 -- Normal forms 
 -- 1NF, 2NF, 3NF implementation
 
@@ -91,12 +91,17 @@ Normalization {
 
     1NF (First Normal Form): 
     -- Ensures that each column contains only atomic (indivisible) values.
+    -- Eliminates repeating groups within a table.
     
     2NF (Second Normal Form): 
     -- Further eliminates partial dependencies within a table.
 
     3NF (Third Normal Form): 
     -- Eliminates transitive dependencies between columns.
+
+    4NF (Fourth Normal form)
+    -- Fourth Normal Form (4NF) allows for the removal of multivalued dependencies, 
+       ensuring that each attribute in a relation is functionally dependent on the primary key.
 
 }
 

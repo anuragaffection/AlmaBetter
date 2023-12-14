@@ -11,6 +11,7 @@
 
 
 
+
 2. Transaction State "Partially Committed" occurs:
    a) Before executing any operations
    b) After executing all operations successfully
@@ -44,6 +45,7 @@
 
 
 
+
 5. The ER model primarily consists of:
    a) Entities, Rows, and Columns
    b) Entities, Attributes, and Relationships
@@ -55,11 +57,13 @@
 
 
 
+
 6. In an ER diagram, the oval-shaped figures represent:
    a) Entities
    b) Attributes
    c) Relationships
    d) Cardinality
+
 
 
 

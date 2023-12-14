@@ -72,7 +72,7 @@ Database Design & normalization
 
 
 
-8. **Which statement regarding 1NF, 2NF, and 3NF is correct?**
+8. **Which statement regarding 1NF, 2NF, and 3NF is correct?**]]]
    a. 2NF eliminates all duplicate data  
    b. 3NF allows partial dependencies on primary keys  
    c. 1NF permits repeating groups within records  

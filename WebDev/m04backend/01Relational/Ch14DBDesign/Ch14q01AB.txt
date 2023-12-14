@@ -1,4 +1,4 @@
-Db design
+Db design & Normalization
 
 
 
@@ -234,7 +234,7 @@ A relation is considered free from partial dependencies when it is in Third Norm
 
 
 10.
-Fourth Normal Form (4NF)
+Fourth Normal Form (4NF)]]]
 
 Fourth Normal Form (4NF) allows for the removal of multivalued dependencies, ensuring that each attribute in a relation is functionally dependent on the primary key.
 

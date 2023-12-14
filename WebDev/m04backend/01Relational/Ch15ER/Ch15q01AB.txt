@@ -1,6 +1,7 @@
 Er diagram
 
 
+
 01.
 What is the purpose of Primary Key in an Entity Relationship Diagram (ERD)?
 
@@ -13,6 +14,7 @@ To denote mandatory attributes in an entity
 
 
 
+
 02.
 What is the purpose of the "Crow's Foot" notation in an ER Diagram?
 
@@ -20,6 +22,7 @@ To represent multi-valued attributes.
 To represent weak entities.
 To indicate mandatory relationships.
 To show cardinality in relationships.
+
 
 
 
@@ -39,6 +42,7 @@ Durability
 
 
 
+
 04 
 In which transaction state does a transaction rollback all its changes and undo the modifications made to the database?
 
@@ -52,13 +56,15 @@ Inactive
 
 
 
+
 05.
-What does cardinality represent in a relationship between two entities?
+What does cardinality represent in a relationship between two entities?]]]
 
 The number of attributes in each entity.
 The number of entities in the database.
 The type of relationship between the entities.
 The number of instances or records in each entity that can be associated with a single instance in the other entity.
+
 
 
 
@@ -80,6 +86,7 @@ A table that stores foreign keys.
 
 
 
+
 07.
 Which SQL statement is used to release a SAVEPOINT named "sp1" in a database management system?
 
@@ -94,8 +101,9 @@ FREE SAVEPOINT sp1;
 
 
 
+
 08.
-What does the ROLLBACK TO SAVEPOINT statement do in a database management system?
+What does the ROLLBACK TO SAVEPOINT statement do in a database management system?]]]
 
 Completely undo all changes made in a transaction.
 Commit the changes up to the last SAVEPOINT in the transaction.
@@ -115,6 +123,7 @@ To visualize the physical storage of data in a database.
 To create a blueprint of how tables should be laid out in a database.
 To represent the logical structure of data and the relationships between entities.
 To define the types of queries that can be performed on a database.
+
 
 
 

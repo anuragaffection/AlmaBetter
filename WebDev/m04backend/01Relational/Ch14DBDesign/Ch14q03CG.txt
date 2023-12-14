@@ -59,7 +59,7 @@
 
 
 
-6. **What are the different Normal Forms in database normalization?**
+6. **What are the different Normal Forms in database normalization?**]]]
    - **1NF (First Normal Form)**: Eliminates repeating groups within a table.
    - **2NF (Second Normal Form)**: Ensures no partial dependencies on a composite primary key.
    - **3NF (Third Normal Form)**: Eliminates transitive dependencies between non-prime attributes and primary keys.
@@ -67,7 +67,7 @@
 
    
 
-7. **Provide examples of implementing 1NF, 2NF, and 3NF.**
+7. **Provide examples of implementing 1NF, 2NF, and 3NF.**]]]
    - *1NF Example*: Transforming a table with repeating groups into separate tables to eliminate redundancy.
    - *2NF Example*: Ensuring all non-key attributes directly relate to the entire primary key, avoiding partial dependencies.
    - *3NF Example*: Removing non-key attributes that depend on other non-key attributes, thus eliminating transitive dependencies.

@@ -1,8 +1,27 @@
 
 
 
+Links {
+    -- https://en.wikipedia.org/wiki/Concurrency_control
+    -- https://www.ibm.com/topics/dbaas
+}
+
+
 Ways to Recall {
     -- 1. read your own notes 
     -- 2. alma better materials 
     -- 3. interview Questions 
+}
+
+
+
+Skill Mastery interview concept {
+    -- What are temporal and spatial database 
+    -- role based modeling  
+    -- life cycle of database design
+    -- database performance tuning 
+    -- different type of dbms 
+    -- transaction state in context of database transaction
+    -- acid properties of a transaction
+    -- different type of attribute 
 }
