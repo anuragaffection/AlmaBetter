@@ -6,3 +6,10 @@
 
 linkedin
 -- ask linkedin endorsement from Monesh Venkul Sir 
+
+
+website for resume {
+    -- https://www.resume.com/
+    -- google docs resume template 
+    -- 
+}

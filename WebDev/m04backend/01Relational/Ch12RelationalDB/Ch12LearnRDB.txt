@@ -8,8 +8,8 @@ CRUD in MariaDB
 
 
 Links {
-    -- 
-    --
+    -- https://www.oracle.com/in/database/what-is-a-relational-database/
+    -- https://www.sqlshack.com/crud-operations-in-sql-server/
     --
 }
 
@@ -50,7 +50,7 @@ Task {
 
     -- function vs attributes [functions do the task, attributes are properties or characteristics]
     -- multi valued attributes
-    -- data vs database vs DBMS vs Language 
+    -- data vs database vs DBMS vs Language(sql) 
     -- SQL  vs NoSQL
     -- SQL vs MySQL
     -- NoSQL vs  MongoDB
@@ -58,7 +58,6 @@ Task {
     -- MariaDB vs MySQL [MariaDB is the fork of MySQL ]
 
     -- sharding vs Normalization
-    -- MySQL vs MariaDB
     -- PRIMARY KEY vs UNIQUE
     -- ACID 
     -- 
@@ -72,14 +71,14 @@ Task {
 Relational database {
 
     -- RDBMS use Relational or SQL model to  manage data 
-    -- tables as Relations
-    -- rows as tuples
+    -- tables  as Relations
+    -- rows    as tuples
     -- columns as attributes 
 
     Terminologies
-    -- tables as Relations 
-    -- rows as tuples
-    -- columns as attributes
+    -- tables  as Relations
+    -- rows    as tuples
+    -- columns as attributes 
     -- SQL is the Language to interact with RDBMS
     -- Normalization used to eliminate redundancy & dependency
     -- indexes
@@ -96,7 +95,9 @@ Relational database {
 
 
 
-SQL Server Keys {
+
+
+SQL Server Keys]]] {
     -- PRIMARY KEY 
     -- FOREIGN KEY
     -- UNIQUE 
@@ -105,6 +106,8 @@ SQL Server Keys {
     -- candidate key
     -- Super key
 }
+
+
 
 
 
@@ -121,10 +124,14 @@ MariaDB {
 
 
 
+
 Installing MariaDB {
+    -- root password - root
     -- root password - anurag 
     -- MySQL Client
 }
+
+
 
 
 CRUD in MariaDB {
@@ -180,12 +187,16 @@ CRUD in MariaDB {
     -- DELETE
     -- DELETE FROM
     -- WHERE
-
-
 }
 
 
-{
+
+
+
+
+
+Difference {
+
     Primary Key	
     -- A column or set of columns that uniquely identifies each row in a table. It enforces data integrity and creates a unique index.
     
@@ -193,21 +204,43 @@ CRUD in MariaDB {
     -- A column or set of columns that links data between two tables, ensuring referential integrity by referencing a primary key in another table.
     
     Unique Key (Constraint)	
-    -- Enforces uniqueness on a column or set of columns, allowing for duplicates within the constraint but not within the entire column(s).
+    -- Enforces uniqueness on a column or set of columns, allowing for duplicates within the constraint but not within the entire column(s). it can be NULL
     
-    Alternate Key	
+    Alternate Key]]]	
     -- A candidate key that is not chosen as the primary key, providing an alternative unique constraint for the table.
     
     Composite Key	
     -- A primary key or unique key consisting of multiple columns, where uniqueness is determined by the combination of values in those columns.
     
-    Candidate Key	
-    -- A set of columns that could potentially serve as the primary key; a table may have multiple candidate keys, one of which is chosen as the primary key.
+    Candidate Key]]]	
+    -- A set of columns that could potentially serve as the primary key; 
+       a table may have multiple candidate keys, one of which is chosen as the primary key.
     
     Super Key	
     -- A set of columns that can uniquely identify rows, but it may include extra columns beyond the minimal set required for uniqueness.
 
 }
+
+
+
+
+Map of keys {
+
+    super key {
+
+        01. candidate key {
+
+            01.A. unique key {
+                -- Alternate key 
+            } 
+
+            01.B. primary key 
+        }
+
+        02. foreign key
+    }
+}
+
 
 
 

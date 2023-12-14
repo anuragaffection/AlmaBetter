@@ -5,9 +5,11 @@ Multi table queries with joins
 
 
 Links {
-    -- 
-    -- 
+    -- https://mariadb.com/kb/en/optimization-and-indexes/
+    -- https://mariadb.com/kb/en/date-time-functions/
 }
+
+
 
 
 Notes  {
@@ -38,7 +40,7 @@ Notes  {
     -- CREATE
     -- ALTER
     -- DROP
-    -- TRUCATE
+    -- TRUNCATE
     -- COMMIT
     -- RENAME
 
@@ -57,6 +59,7 @@ Notes  {
     -- ROLLBACK
     -- SAVEPOINT
     -- AUTOCOMMIT 
+    -- ROLLBACK TO SAVEPOINT
 
     -- * 
     -- AS
@@ -80,20 +83,15 @@ Notes  {
 
 
 
+
 Task {
     -- explore mysql workbench 
     -- pracitcal implementation 2 
-    -- explore GROUP BY
+    --  GROUP BY
 }
 
 
 
-
-
-
-------------------------------
-------------------------------
-------------------------------
 
 
 
@@ -115,6 +113,7 @@ Filtering & Sorting {
     -- pagination
 
 }
+
 
 
 
@@ -143,9 +142,9 @@ Aggregation function {
 
 
     SUM()
+    -- by default SUM() calculate all value 
     -- DISTINCT instructs SUM() to ignore duplicates 
     -- SUM() returns null if empty 
-    -- by default SUM() calculate all value 
     -- sum on character will give zero 
 
 
@@ -172,7 +171,7 @@ Multi table queries with join{
     -- INNER JOIN
     -- LEFT JOIN
     -- RIGHT JOIN
-    -- UNION 
+    -- UNION ]]]
     
     previous commands
     -- SELECT
@@ -232,7 +231,7 @@ quiz {
 
     Activity : Guess the word 
 
-    01.  When you want to see the total of a numeric column, you would use this function.
+    01.  When you want to see the total of a numeric column, you would use this function.]]]
 
     02. This aggregation function finds the highest value in a column.
 
@@ -240,7 +239,7 @@ quiz {
      
     04. The function that computes the arithmetic mean of a numeric column.
      
-    05. A function that returns the total number of rows that meet a specified condition.
+    05. A function that returns the total number of rows that meet a specified condition.]]]
 
 
     Answers
@@ -253,6 +252,7 @@ quiz {
 
 
 
+    Activity : True or False
 
     01. An Inner Join returns all rows from both tables, combining them based on a specified condition.
      
@@ -260,7 +260,7 @@ quiz {
      
     03. A Full Join (Full Outer Join) returns all rows from both tables, including both matching and non-matching rows.
      
-    04. A Full Join can be emulated by performing a Union of a Left Join and a Right Join between two tables.
+    04. A Full Join can be emulated by performing a Union of a Left Join and a Right Join between two tables.]]]
      
     05.  A Right Join and a Left Join produce the same result if you swap the order of the tables and reverse the direction of the join condition.
      
@@ -270,7 +270,7 @@ quiz {
     03. True
     04. True
     05. True
-
+    
 
 }
 

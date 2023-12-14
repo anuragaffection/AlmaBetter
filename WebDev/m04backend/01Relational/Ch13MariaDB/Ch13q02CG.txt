@@ -1,12 +1,14 @@
 
 1. **Filtering and Sorting Query Results:**
 
-   a. Which SQL clause is used to filter rows in a query?
+   a. Which SQL clause is used to filter rows in a query?]]]
       - A) GROUP BY
       - B) ORDER BY
       - C) WHERE
       - D) HAVING
       - Correct Answer: C) WHERE
+
+
 
    b. When would you use the ORDER BY clause in SQL?
       - A) To filter rows based on specific criteria
@@ -19,13 +21,19 @@
 
 
 
+
+
+
 2. **Distinct Keyword:**
+
    a. What does the DISTINCT keyword do in SQL?
       - A) Groups rows that have the same values
       - B) Sorts rows in ascending order
       - C) Eliminates duplicate rows from the result set
       - D) Filters rows based on specified criteria
       - Correct Answer: C) Eliminates duplicate rows from the result set
+
+
 
    b. In which scenario might you use the DISTINCT keyword?
       - A) When performing calculations on numeric columns
@@ -38,13 +46,19 @@
 
 
 
+
+
+
 3. **Limit and Offset:**
+
    a. What is the purpose of the LIMIT clause in SQL?
       - A) To limit the number of rows returned in a query result
       - B) To skip a specified number of rows in the result set
       - C) To filter rows based on specified conditions
       - D) To sort the result set in descending order
       - Correct Answer: A) To limit the number of rows returned in a query result
+
+
 
    b. How does the OFFSET clause work in SQL queries?
       - A) It limits the number of rows to be skipped
@@ -56,13 +70,18 @@
 
 
 
+
+
 4. **Aggregation Functions (Count, Sum, Average, Max, Min):**
-   a. What is the purpose of the COUNT function in SQL?
+
+   a. What is the purpose of the COUNT function in SQL?]]]
       - A) Computes the total of numeric column values
       - B) Counts the number of rows in a result set
       - C) Finds the maximum value within a column
       - D) Calculates the average value of a column
       - Correct Answer: B) Counts the number of rows in a result set
+
+
 
    b. When would you use the SUM function in SQL?
       - A) To count the number of non-null values in a column
@@ -75,7 +94,10 @@
 
 
 
+
+
 5. **Group By:**
+
    a. What does the GROUP BY clause do in SQL?
       - A) Filters rows based on specified conditions
       - B) Sorts rows in ascending order
@@ -83,7 +105,10 @@
       - D) Performs calculations on grouped rows
       - Correct Answer: C) Groups rows that have the same values in specified columns
 
-   b. How is the GROUP BY clause different from the WHERE clause?
+
+
+
+   b. How is the GROUP BY clause different from the WHERE clause?]]]
       - A) GROUP BY is used for filtering, WHERE for grouping
       - B) GROUP BY operates on grouped rows, WHERE filters individual rows
       - C) WHERE clause groups rows based on specified conditions
@@ -95,7 +120,10 @@
 
 
 
+
+
 6. **Multi-table queries with JOINs (Inner Join, Outer Join, Cartesian Join):**
+
    a. What is the main difference between INNER JOIN and OUTER JOIN in SQL?
       - A) INNER JOIN retrieves all records from both tables
       - B) OUTER JOIN retrieves only matching records
@@ -103,10 +131,16 @@
       - D) OUTER JOIN ignores null values in the joined columns
       - Correct Answer: C) INNER JOIN retrieves records with matching values, OUTER JOIN retrieves matching and unmatched records
 
+
+
+
    b. When might you use a Cartesian Join in SQL?
       - A) When you want to retrieve only matching records
       - B) When you want to retrieve all possible combinations of rows from two tables
       - C) When you want to exclude null values from the result set
       - D) When you want to sort the result set based on specified columns
       - Correct Answer: B) When you want to retrieve all possible combinations of rows from two tables
+
+
+
 

@@ -1,17 +1,11 @@
-Of course, here's a concise set of interview questions:
+
 
 1. **Why is Database Design important?**
-
 2. **Explain the Database Life Cycle.**
-
 3. **Differentiate between Logical and Physical Database Design.**
-
 4. **Why is schema design crucial in database development?**
-
 5. **Explain the steps involved in implementing schema design.**
-
 6. **What are the different Normal Forms in database normalization?**
-
 7. **Provide examples of implementing 1NF, 2NF, and 3NF.**
 
 
@@ -19,7 +13,7 @@ Of course, here's a concise set of interview questions:
 
 
 
-Absolutely, here are the answers:
+
 
 1. **Why is Database Design important?**
    Database Design is crucial because it organizes data in a way that facilitates efficient storage, retrieval, and manipulation. It ensures data integrity, reduces redundancy, and supports data consistency, which are essential for optimal database performance.

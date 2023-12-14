@@ -1,88 +1,178 @@
 
 
-**Filtering and Sorting Query Results:**
-- How do you filter data in SQL queries?
-- Explain the difference between WHERE and HAVING clauses.
-- When would you use the ORDER BY clause?
+1. How do you filter data in SQL queries?
+2. Explain the difference between WHERE and HAVING clauses.]]]
+3. When would you use the ORDER BY clause?
+4. What does the DISTINCT keyword do in SQL?
+5. Can you provide an example of when you might use DISTINCT in a query?
 
-**Distinct Keyword:**
-- What does the DISTINCT keyword do in SQL?
-- Can you provide an example of when you might use DISTINCT in a query?
+6. What is the purpose of the LIMIT clause?
+7. How does the OFFSET clause work in SQL queries?
+8. Explain the difference between COUNT and COUNT(*) in SQL.
+9. When would you use SUM, AVG, MAX, and MIN functions in SQL queries?
+10. Can you give an example of using these functions in a query?
 
-**Limit and Offset:**
-- What is the purpose of the LIMIT clause?
-- How does the OFFSET clause work in SQL queries?
-
-**Aggregation Functions (Count, Sum, Average, Max, Min):**
-- Explain the difference between COUNT and COUNT(*) in SQL.
-- When would you use SUM, AVG, MAX, and MIN functions in SQL queries?
-- Can you give an example of using these functions in a query?
-
-**Group By:**
-- What does the GROUP BY clause do in SQL?
-- How is the GROUP BY clause different from the WHERE clause?
-
-**Multi-table queries with JOINs (Inner Join, Left Join, Right Join, Full Join, Cross Join):**
-- Explain the difference between INNER JOIN and OUTER JOIN.
-- When would you use LEFT JOIN, RIGHT JOIN, and FULL JOIN?
-- What is a Cartesian Join and when might it be used?
+11. What does the GROUP BY clause do in SQL?
+12. How is the GROUP BY clause different from the WHERE clause?]]]
+13. Explain the difference between INNER JOIN and OUTER JOIN.
+14. When would you use LEFT JOIN, RIGHT JOIN, and FULL JOIN?
+15. What is a Cartesian Join and when might it be used?
 
 
 
 
 
 
-
-
-
-1. **Filtering and Sorting Query Results:**
-   - Data in SQL queries is filtered using the WHERE clause, which specifies conditions to select specific rows based on criteria. 
-   - The WHERE clause filters rows before the results are grouped or aggregated. 
-   - The ORDER BY clause is used to sort the result set either in ascending or descending order based on specified columns. It's used for arranging the output.
-
-
-
-2. **Distinct Keyword:**
-   - The DISTINCT keyword in SQL eliminates duplicate rows from the result set. It returns unique values for the specified columns in the SELECT statement.
-   - Example: When retrieving a list of unique email addresses from a table to eliminate duplicate entries.
-
-
-
-
-3. **Limit and Offset:**
-   - The LIMIT clause restricts the number of rows returned in a query result.
-   - OFFSET specifies the number of rows to skip before starting to return rows from the result set. Used together with LIMIT, it enables paginated results.
-
-
-
-
-4. **Aggregation Functions (Count, Sum, Average, Max, Min):**
-   - COUNT counts the number of rows in a result set. COUNT(*) counts all rows, while COUNT(column_name) counts non-null values in a specific column.
-   - SUM calculates the total of numeric column values. 
-   - AVG computes the average value of a numeric column. 
-   - MAX finds the maximum value, and MIN finds the minimum value within a column.
-   - Example: `SELECT COUNT(*), SUM(column_name), AVG(column_name), MAX(column_name), MIN(column_name) FROM table_name;`
-
-
-
-
-5. **Group By:**
-   - The GROUP BY clause is used to group rows that have the same values in specified columns.
-   - It's used in conjunction with aggregate functions (like COUNT, SUM) to perform operations on each group separately.
-   - Unlike the WHERE clause that filters individual rows, GROUP BY operates on grouped rows.
-
-
-
-
-
-6. **Multi-table queries with JOINs (Inner Join, Left Join, Right Join, Full Join, Cross Join):**
-   - INNER JOIN retrieves records with matching values in both tables based on a specified condition.
-   - OUTER JOINs (LEFT, RIGHT, FULL) retrieve matching records along with unmatched records from one or both tables.
-   - LEFT JOIN retrieves all records from the left table and matching records from the right table. RIGHT JOIN does the opposite.
-   - FULL JOIN retrieves all records when there is a match in either the left or right table.
-   - Cartesian Join (or Cross Join) produces the Cartesian product of the tables involved, matching every row from one table with every row from another.
+1. **How do you filter data in SQL queries?**
+   Filtering data in SQL queries is commonly done using the `WHERE` clause. 
+   This clause allows you to specify conditions that the data must meet to be included in the query results. 
    
+   For example:
+   ```sql
+   SELECT * FROM table_name WHERE condition;
+   ```
 
 
 
+
+
+
+2. **Explain the difference between WHERE and HAVING clauses.**]]]
+   - `WHERE` is used to filter rows before any groupings are made. 
+      It filters individual rows based on specified conditions.
+   - `HAVING` is used to filter rows after the grouping has occurred. 
+      It filters grouped rows based on specified conditions.
+
+
+
+
+
+
+3. **When would you use the ORDER BY clause?**
+   The `ORDER BY` clause is used to sort the result set based on one or more columns either in ascending (`ASC`) or descending (`DESC`) order. 
+   It's useful when you want the query results to be displayed in a particular order.
+
+
+
+
+
+
+
+4. **What does the DISTINCT keyword do in SQL?**
+   The `DISTINCT` keyword is used to retrieve unique values from a specific column or columns in a table. 
+   It eliminates duplicate rows from the result set.
+
+
+
+
+
+
+
+5. **Can you provide an example of when you might use DISTINCT in a query?**
+   ```sql
+   SELECT DISTINCT column_name FROM table_name;
+   ```
+   This would retrieve distinct values from the specified column in the table.
+
+
+
+
+
+
+
+6. **What is the purpose of the LIMIT clause?**
+   The `LIMIT` clause is used to restrict the number of rows returned by a query. 
+   It's often used in conjunction with `ORDER BY` to retrieve a specific number of rows from the result set.
+
+
+
+
+
+
+7. **How does the OFFSET clause work in SQL queries?**
+   The `OFFSET` clause, used in combination with `LIMIT`, specifies the number of rows to skip before starting to return rows from the query. It is commonly used for pagination.
+   ```sql
+   SELECT * FROM table_name LIMIT 10 OFFSET 20;
+   ```
+   This query would skip the first 20 rows and retrieve the next 10 rows.
+
+
+
+
+
+
+8. **Explain the difference between COUNT and COUNT(*) in SQL.**
+   - `COUNT(column_name)` counts the number of non-null values in the specified column.
+   - `COUNT(*)` counts the total number of rows in a table, including rows with null values.
+
+
+
+
+
+
+9. **When would you use SUM, AVG, MAX, and MIN functions in SQL queries?**
+   - `SUM`: When you want to get the sum of values in a column.
+   - `AVG`: When you want to calculate the average of values in a column.
+   - `MAX`: When you want to find the maximum value in a column.
+   - `MIN`: When you want to find the minimum value in a column.
+
+
+
+
+
+
+10. **Can you give an example of using these functions in a query?**
+    ```sql
+    SELECT 
+     SUM(column_name), 
+     AVG(column_name), 
+     MAX(column_name), 
+     MIN(column_name) 
+    FROM table_name;
+    ```
+
+
+
+
+
+
+
+11. **What does the GROUP BY clause do in SQL?**
+    The `GROUP BY` clause is used to group rows that have the same values in specified columns. 
+    It's often used with aggregate functions to perform calculations on each group separately.
+
+
+
+
+
+
+12. **How is the GROUP BY clause different from the WHERE clause?**
+    - `WHERE` filters individual rows before grouping.
+    - `GROUP BY` groups rows based on common values in specified columns after the filtering has occurred.
+
+
+
+
+
+
+13. **Explain the difference between INNER JOIN and OUTER JOIN.**
+    - `INNER JOIN` returns only the rows that have matching values in both tables.
+    - `OUTER JOIN` returns all rows from both tables and fills in NULLs for missing matches.
+
+
+
+
+
+14. **When would you use LEFT JOIN, RIGHT JOIN, and FULL JOIN?**
+    - `LEFT JOIN`: When you want all records from the left table and matching records from the right table.
+    - `RIGHT JOIN`: When you want all records from the right table and matching records from the left table.
+    - `FULL JOIN`: When you want all records when there is a match in either the left or right table.
+
+
+
+
+
+15. **What is a Cartesian Join and when might it be used?**
+    A Cartesian Join (also known as a cross join) returns the Cartesian product of two tables, meaning it combines each row from the first table with every row from the second table. 
+    It might be used in specific cases where all combinations between two tables are needed, but it should be used cautiously as it can result in a large number of rows.
   

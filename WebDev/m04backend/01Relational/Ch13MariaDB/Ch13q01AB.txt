@@ -1,6 +1,7 @@
 mariadB
 
 
+
 01.
 What is the purpose of the ORDER BY clause in a MariaDB query?]]
 
@@ -79,7 +80,7 @@ The INNER JOIN will return an empty result set
 
 
 
-07.
+07.]]]
 Which keyword is used in MariaDB to perform aggregation functions like SUM, AVG, COUNT, МАХ, and MIN in a query?
 
 GROUP
@@ -104,6 +105,8 @@ It limits the number of columns to retrieve.
 
 
 
+
+
 09.
 Which SQL clause allows you to limit the number of rows returned in a MariaDB query?
 
@@ -111,6 +114,9 @@ LIMIT
 ROWNUM
 TOP
 OFFSET
+
+
+
 
 
 
@@ -131,9 +137,11 @@ Performs mathematical calculations on numeric data.
 
 
 
+
+
 Answer
 
-01.
+01.]]]
 To sort the result set based on one or more columns
 
 The ORDER BY clause is used to sort the result set based on the specified column(s).
@@ -190,7 +198,7 @@ If there is no specified condition using the ON clause in an INNER JOIN, it will
 
 
 
-07.
+07.]]]
 SELECT
 
 The SELECT keyword is used in MariaDB to perform aggregation functions like SUM, AVG, COUNT, MAX, and MIN. Aggregation queries allow you to calculate values based on groups of rows in a table.

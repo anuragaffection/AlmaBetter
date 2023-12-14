@@ -16,7 +16,7 @@ It defines the primary key of a table.
 
 
 02.
-What is the primary purpose of a logical data model in database design?
+What is the primary purpose of a logical data model in database design?]]]
 
 To define the physical storage structures of the database.
 To represent the data at a high level of abstraction without specifying implementation details.
@@ -69,6 +69,7 @@ It is a method for optimizing query performance.
 
 
 
+
 06.
 During which phase of the database lifecycle is the actual database system built and populated with data?
 
@@ -84,7 +85,7 @@ Planning
 
 
 07.
-What is a primary reason for performing normalization in database design?
+What is a primary reason for performing normalization in database design?]]]
 
 To increase data redundancy
 To simplify query complexity
@@ -98,7 +99,7 @@ To improve data consistency
 
 
 08.
-In a logical data model, what is an entity?
+In a logical data model, what is an entity?]]]
 
 A physical representation of a database table.
 An attribute within a table.
@@ -111,7 +112,7 @@ A database index.
 
 
 09.
-In which normal form is a relation considered free from partial dependencies?
+In which normal form is a relation considered free from partial dependencies?]]]
 
 First Normal Form (1NF)
 Second Normal Form (2NF)
@@ -124,7 +125,7 @@ Boyce-Codd Normal Form (BCNF)
 
 
 10.
-Which normal form allows multivalued dependencies to be removed?
+Which normal form allows multivalued dependencies to be removed?]]]
 
 First Normal Form (1NF)
 Second Normal Form (2NF)
@@ -150,7 +151,7 @@ Relationships in a logical data model specify how data in one entity is related 
 
 
 
-02.
+02.]]]
 To represent the data at a high level of abstraction without specifying implementation details.
 
 The primary purpose of a logical data model is to represent the data at a high level of abstraction, without being concerned with the physical implementation details. It defines the structure of the data and the relationships between data elements, providing a clear and abstract view of the data.
@@ -205,7 +206,7 @@ In the implementation phase, the database is constructed based on the design spe
 
 
 07.
-To improve data consistency
+To improve data consistency]]]
 
 Normalization is performed in database design to improve data consistency by reducing data duplication and ensuring that data is stored in a structured and organized manner.
 
@@ -213,7 +214,7 @@ Normalization is performed in database design to improve data consistency by red
 
 
 
-08.
+08.]]]
 A logical representation of a real-world object or concept.
 
 In a logical data model, an entity represents a logical abstraction of a real- world object, concept, or thing. Entities are used to model the main objects of interest within the database.
@@ -224,7 +225,7 @@ In a logical data model, an entity represents a logical abstraction of a real- w
 
 
 09.
-Third Normal Form (3NF)
+Third Normal Form (3NF)]]]
 
 A relation is considered free from partial dependencies when it is in Third Normal Form (3NF). 3NF removes transitive dependencies and ensures that attributes depend only on the primary key.
 

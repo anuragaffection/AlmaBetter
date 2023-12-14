@@ -1,11 +1,11 @@
 Database Design 
 -- why Database Design
 -- Database Life cycle 
--- Logical vs Physical 
+-- Logical vs Physical ]]]
 
 schema Design
 -- schema Design implementation 
---  Why design schemas 
+-- Why design schemas 
 
 Normalization
 -- Normal forms 
@@ -14,17 +14,18 @@ Normalization
 
 
 Links {
-    -- 
+    -- https://dbschema.com/
+    -- https://app.diagrams.net/
+    -- https://www.vertabelo.com/blog/database-design-guide/
+    -- https://www.databasestar.com/database-normalization/
 }
+
+
 
 
 Notes {
     -- distributed Database
     -- DAAO 
-    -- https://dbschema.com/
-    -- https://app.diagrams.net/
-    -- https://www.vertabelo.com/blog/database-design-guide/
-    -- https://www.databasestar.com/database-normalization/
     -- BCNF = Boyce Codd Normal Form 
     -- 
 }
@@ -35,6 +36,7 @@ Notes {
 Task & Explore {
     -- 
 }
+
 
 
 
