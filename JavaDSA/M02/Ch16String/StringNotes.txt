@@ -10,6 +10,10 @@ String Compare {
 }
 
 
+UpperCase {
+    -- '' = single quote , is char type in java 
+    -- "" = double quote , is strig type in java 
+}
 
 
 String {
