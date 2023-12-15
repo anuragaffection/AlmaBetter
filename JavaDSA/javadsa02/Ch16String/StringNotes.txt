@@ -1,4 +1,4 @@
- all predefined function in string in java 
+all predefined function in string in java 
 
 
 String {
@@ -17,9 +17,9 @@ String {
 
 
 
-StringBuilder {
+String Builder {
     -- append()
-    -- 
+    -- length()
 }
 
 
@@ -34,7 +34,10 @@ Some more {
 difference {
     -- length vs length()
     -- String vs StringBuilder 
- }
+    -- equals vs == 
+    -- int vs Integer 
+    -- char vs Character 
+}
 
 
 

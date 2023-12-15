@@ -56,7 +56,7 @@ public class P145StringCompare {
         }
         // equals 
         // a inbuilt function or method in java 
-        // it just compare the value , not the type 
+        // it just compare the value, not the type 
     }
 
 
