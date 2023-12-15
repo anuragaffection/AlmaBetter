@@ -1,24 +1,18 @@
 package JavaDSA.javadsa02.Ch16String;
 
 /**
- * -- problem statements
- * 
  * -- #145
- * 
  * -- Compare string using
  * -- 01. == 
  * -- 02. equals() 
  * 
- * -- == ,      it will strictly compare 
- * -- equals(), it will compare only value 
- * 
- * -- = used to assign 
- * -- == used to compare 
- * 
- * -- inbuilt things
- * -- equal()
- * 
 */
+
+/*
+ * -- 01. == 
+ * -- 02. equals 
+ * -- 03. =  
+ */
 
 
 public class P145StringCompare {
@@ -59,9 +53,6 @@ public class P145StringCompare {
         // it just compare the value, not the type 
     }
 
-
 }
 
 
-// thank you 
-// all the very best 

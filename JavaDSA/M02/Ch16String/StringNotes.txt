@@ -1,4 +1,15 @@
-all predefined function in string in java 
+String Notes 
+
+
+
+
+String Compare {
+    -- 01. =        , used to assign value 
+    -- 02. ==       , used to compare value + data type 
+    -- 3. equalsL() , used to compare only value 
+}
+
+
 
 
 String {

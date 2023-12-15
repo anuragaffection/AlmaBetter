@@ -4,8 +4,11 @@ package JavaDSA.javadsa02.Ch16String;
 /**
  * -- #149
  * -- printing alphabets using string builder 
- * 
- * -- String Builder myString = new String Builder(' ');
+ */
+
+
+/* 
+ * -- StringBuilder myString = new StringBuilder(' ');
  * -- append()
  * -- length()
  * -- toString()
@@ -14,10 +17,11 @@ package JavaDSA.javadsa02.Ch16String;
  * -- we can not append or add in simple string literal 
  * -- we can concatenate in string literal  
  * 
- * 
  */
 
+
 public class P149StringBuilder {
+
     public static void main(String[] args) {
 
         StringBuilder alphabets = new StringBuilder("") ;

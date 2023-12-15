@@ -3,11 +3,17 @@ package JavaDSA.javadsa02.Ch16String;
 
 /*
  * -- #150 
- * -- For a given string convert each of first letter of each word to uppercase
- * 
- * -- toUpperCase()
- * -- 
+ * -- For a given string convert each of first letter of each word to uppercase 
  */
+
+/**
+ * -- toUpperCase()
+ * -- charAt()
+ * -- StringBuilder 
+ * -- append()
+ * -- Character 
+ */
+
 
 public class P150Uppercase {
 
@@ -30,7 +36,6 @@ public class P150Uppercase {
                 sb.append(str.charAt(i));
             }
         }
-
         return sb.toString();
     }
     

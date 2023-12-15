@@ -1,24 +1,16 @@
 package JavaDSA.javadsa02.Ch16String;
 
 
-
 /**
- * -- problem statements 
- * 
  * -- #141  
  * -- Concatenation of string 
- * 
 */
 
 
 /*
- * 
- * -- note
- * 
  * -- + 
  * -- concat()
 */
-
 
 
 public class P141StringConcat {
@@ -37,9 +29,8 @@ public class P141StringConcat {
         System.out.println(fullName2);
         System.out.println(fullName3);
     }
-
     
 }
 
 
-// thank you 
+

@@ -2,12 +2,17 @@ package JavaDSA.javadsa02.Ch16String;
 
 
 /**
- * -- problem statements 
- * 
  * -- #148
  * -- Why string are immutable 
  * 
  */
+
+/*
+ * -- 01. == 
+ * -- 02. equals 
+ * -- 03. =  
+ */
+
 
 public class P148StringImmutable {
 

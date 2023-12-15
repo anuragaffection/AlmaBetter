@@ -2,18 +2,15 @@ package JavaDSA.javadsa02.Ch16String;
 
 
 /**
- * -- problem statements 
- * 
  * -- #147
  * -- Find the largest string 
- * 
- * 
- * -- Notes 
- * -- inbuilt methods =  compareTo() 
- * -- inbuilt methods =  compareToIgnoreCase()
- * 
- * 
 */
+
+
+/**
+ * -- compareTo()
+ * -- compareToIgnoreCase()
+ */
 
 
 public class P147LargestString {
@@ -36,7 +33,6 @@ public class P147LargestString {
         System.out.println(largest);
         System.out.println(largestIgnoreCase);
     }
-    
 }
 
 // a & A both have different value by default 
