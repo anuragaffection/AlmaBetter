@@ -1,4 +1,4 @@
-package JavaDSA.javadsa02.Ch16String;
+
 import java.util.Scanner;
 
 /**
