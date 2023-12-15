@@ -8,19 +8,26 @@ Advanced Querying
 links {
     -- https://www.mongodb.com/basics/crud
     -- https://www.mongodb.com/docs/manual/replication/
-    -- 
+    -- https://docs.mongodb.com/manual/reference/operator/update/
 }
 
 
+
 Notes {
-    -- 
-    -- 
+    -- keep recalling what parameters, method takes 
+    -- toArray()
+    -- drop()
+    -- dropDatabase()
+    -- $set 
+    -- $unset
 }
 
 
 
 Task {
-    -- 
+    -- importing & exporting 
+    -- CSV files vs TSV files 
+    -- practical implementation step 1
 }
 
 
@@ -83,20 +90,169 @@ importing & exporting data ]]]{
 
 
 
+
+
 Querying Data {
-    -- 
+
+    -- show dbs 
+    -- use <myDatabase_name> 
+    -- db.dropDatabase()
+
+    -- show collections 
+    -- db.createCollection('<myCollection_name>');
+    -- db.<myCollection_name>.drop()
+
+    -- show dbs 
+    -- show databases
+
+    -- db.<myCollection_name>.insertOne({});
+    -- db.<myCollection_name>.insertMany( [ {}, {}, {}])
+    
+    -- db.<myCollection_name>.find()
+    -- db.<myCollection_name>.findOne()
+
+    -- db.<myCollection_name>.find().limit()
+
+    Embedded document
+    -- also called as nested document
+    -- when one document store another document
+
+
+    comparison Operator
+    -- $
+    -- $eq  = equal to
+    -- $ne  = not equal to 
+    -- $neq = not equal to 
+    -- $gt  = greater than
+    -- $gte = greater or equal to
+    -- $lt  = lesser than
+    -- $lte = lesser or equal to
+    -- $in  = in ]]]
+    -- $nin = not in  
+
+    -- $set 
+
+
+    cursor method 
+    -- count()
+    -- limit()
+    -- skip()
+    -- sort()
+
+
+    Caveats 
+    -- skip() 
+    -- sort() 
+
+    More method
+    -- pretty()
+
 }
 
 
 
 
 Creating & Manipulating Documents {
-    -- 
+
+    find()
+    -- will return all 
+
+    findOne()
+    -- will return only one 
+    -- return first match
+    -- return null, if no match 
+
+    -- insertOne()
+    -- insertMany()
+
+    -- updateOne()
+    -- updateMany()
+
+    -- deleteOne()
+    -- deleteMany()
 }
 
 
 Advanced Querying {
-    -- 
+    -- monogdb use automatically use $and 
+    -- implicit $and 
+
+    Logical Operator
+    -- $and
+    -- $or 
+    -- $nor 
+    -- $not 
+
+    Querying array fields ]]
+    -- $in 
+    -- $nin
+    -- $all 
+
+    Querying Nested 
+    -- dot notation 
+
+    returning a subsets of field
+    -- inclusion projections vs exclusion projections
+    -- 0 = exclude 
+    -- 1 = include 
+    -- {} = query filter document
+    -- When specifying projections, you cannot mix inclusions and exclusions. 
+       You either have to specify the list of fields to include, or a list of fields to exclude.
+       there is exception for id only. 
+}
+
+
+
+practical implementation step 1 ]]]{
+    -- db.createCollection()
+    -- db.createView()
+    -- $lookup
+    -- $project
+}
+
+
+
+
+
+
+Activity {
+
+    Activity: Fill in the blanks
+
+    01. To create a binary export of a MongoDB database, you can use the _________(mongoexport / mongodump) command
+    
+    02. The _________(mongodump / mongorestore) command is used to restore data from a binary dump created by mongodump.
+    
+    03. The _________($gte / $lt) operator is used to match documents where a field is greater than or equal to a specified value.
+    
+    04. To query for documents where a field matches one of several possible values, you can use the __________(&eq / &in) operator.
+    
+    Answers
+    01. mongodump
+    02. mongorestore
+    03. &gte
+    04. &in
+
+
+
+
+
+    Activity: True or False
+
+    01. In MongoDB, you can create a new document in a collection by using the INSERT command.
+    
+    02. To read documents from a collection in MongoDB, you can use the findOne() method to retrieve a single document.
+    
+    03. When using multiple conditions in a query in MongoDB, the conditions are combined using logical AND by default.
+    
+    04. You can query array fields in MongoDB using the $in operator to find documents where an array field contains any of the specified values.
+    
+    Answers
+    01. False
+    02. True
+    03. True
+    04. True
+
 }
 
 
