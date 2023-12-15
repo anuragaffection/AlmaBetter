@@ -1,7 +1,104 @@
-importing & exporting data 
+importing & exporting data]]] 
+Querying Data 
+Creating & Manipulating Documents 
+Advanced Querying
 
-mongoexport 
-mongoimport 
 
-mongodump
-mongorestore
+
+links {
+    -- https://www.mongodb.com/basics/crud
+    -- https://www.mongodb.com/docs/manual/replication/
+    -- 
+}
+
+
+Notes {
+    -- 
+    -- 
+}
+
+
+
+Task {
+    -- 
+}
+
+
+
+
+importing & exporting data ]]]{
+    -- Data stored as BSON 
+    -- Data viewed as JSON 
+
+    JSON commands 
+    -- mongoimport 
+    -- mongoexport 
+
+    BSON commands
+    -- monogrestore 
+    -- mongodump
+
+    mongodump vs mongorestore
+    -- mongodump can save everything in a single file,
+       while 
+       mongorestore can later be used to completely restore the database.
+    
+    mongodump flag
+    -- archive 
+    -- user 
+    -- db 
+    -- password 
+    -- out 
+    -- collection 
+    -- older 
+
+    mongorestore flag
+    -- host 
+    -- db 
+    -- collection
+    -- username 
+    -- port 
+    -- password
+
+    mongoexport
+    -- from mongo database to local file 
+
+    mongoimport
+    -- from local file to mongodb database
+
+    CSV files vs TSV files 
+    -- 
+
+    commands
+    -- mongoimport
+    -- db 
+    -- collection
+    -- type 
+    -- headerline 
+    -- file 
+    -- 
+
+}
+
+
+
+
+Querying Data {
+    -- 
+}
+
+
+
+
+Creating & Manipulating Documents {
+    -- 
+}
+
+
+Advanced Querying {
+    -- 
+}
+
+
+
+

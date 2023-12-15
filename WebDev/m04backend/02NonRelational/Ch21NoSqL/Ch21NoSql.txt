@@ -34,6 +34,32 @@ Create & Delete Operations
 
 
 
+Links {
+    -- 
+    -- 
+}
+
+
+
+Notes {
+    -- json used for data exchange 
+    -- bson used to store data 
+}
+
+
+
+
+Task {
+    -- Relational Database vs Non Relational Database
+    -- Sql vs No Sql
+    -- JSON vs BSON
+    -- Google Bigtable 
+    -- analogy of sql vs NoSQL 
+    -- what permission needed in deleting in database using shell 
+    -- mariaDB vs MongoDB
+    -- mongod vs mongos
+}
+
 
 
 
@@ -251,25 +277,3 @@ Activity {
 
 
 
-
-
-
-Note {
-    -- json used for data exchange 
-    -- bson used to store data 
-}
-
-
-
-
-Task {
-    -- Relational Database vs Non Relational Database
-    -- Sql vs No Sql
-    -- JSON vs BSON
-    -- Google Bigtable 
-    -- analogy of sql vs NoSQL 
-    -- what permission needed in deleting in database using shell 
-    -- mariaDB vs MongoDB
-    -- mongod vs mongos 
-
-}
