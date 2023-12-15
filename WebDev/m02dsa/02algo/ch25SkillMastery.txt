@@ -1,12 +1,20 @@
 
-
-25. Skill Mastery 
+Skill Mastery Links {
     -- https://www.toptal.com/developers/sorting-algorithms
-     -- https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+    -- https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
     -- https://medium.com/@sujanxchhetri/searching-algorithms-in-javascript-ecb880f70e07
 
+}
 
 
+Skill Mastery interview concept {
+    -- 
+}
+
+
+
+
+Skill Mastery Quiz {
 
 
 01- 
@@ -1045,5 +1053,3 @@ Exponential Search combines the linear search algorithm (for determining the sea
 
 
 
-
-*/

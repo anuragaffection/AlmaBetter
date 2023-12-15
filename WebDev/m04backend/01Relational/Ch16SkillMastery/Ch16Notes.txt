@@ -1,16 +1,9 @@
 
 
 
-Links {
+Skill Mastery Links {
     -- https://en.wikipedia.org/wiki/Concurrency_control
     -- https://www.ibm.com/topics/dbaas
-}
-
-
-Ways to Recall {
-    -- 1. read your own notes 
-    -- 2. alma better materials 
-    -- 3. interview Questions 
 }
 
 

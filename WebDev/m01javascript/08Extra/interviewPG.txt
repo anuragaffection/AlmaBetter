@@ -1,4 +1,4 @@
-javascript interview questions by Piyush Garg 
+javascript interview questions by [Piyush Garg ]
 
 
 01. hoisting with variables 
