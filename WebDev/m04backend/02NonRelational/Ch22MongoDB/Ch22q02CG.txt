@@ -1,0 +1,146 @@
+
+1. Which command is used to create a binary export of all data within a MongoDB instance?
+   - A) mongodump
+   - B) mongorestore
+   - C) mongoexport
+   - D) mongoimport
+
+
+
+
+
+2. To restore data previously dumped from `mongodump`, which command should be used?
+   - A) mongodump
+   - B) mongorestore
+   - C) mongoexport
+   - D) mongoimport
+
+
+
+
+3. What is the purpose of `mongoexport` in MongoDB?
+   - A) Import data into MongoDB
+   - B) Export data from MongoDB
+   - C) Backup the entire MongoDB instance
+   - D) Restore dumped data into MongoDB
+
+
+
+
+4. Which command is used to import data from a JSON file into MongoDB?
+   - A) mongodump
+   - B) mongorestore
+   - C) mongoexport
+   - D) mongoimport
+
+
+
+
+
+5. Which method in MongoDB is used to query individual fields within documents?
+   - A) find()
+   - B) findOne()
+   - C) query()
+   - D) search()
+
+
+
+
+6. Which operator is used for equality comparison in MongoDB?
+   - A) $eq
+   - B) $ne
+   - C) $gt
+   - D) $lt
+
+
+
+
+7. What is the purpose of the `$elemMatch` operator in MongoDB?]]]
+   - A) To query for elements in an array that match multiple criteria
+   - B) To query for elements in an array that match a single criterion
+   - C) To perform text search within array fields
+   - D) To combine multiple queries within a single operation on a collection
+
+
+
+
+8. How do you create new documents in a MongoDB collection?
+   - A) createDocument()
+   - B) insertDocument()
+   - C) addDocument()
+   - D) insertOne() and insertMany()
+
+
+
+
+9. Which method in MongoDB is used to update documents?
+   - A) update()
+   - B) modify()
+   - C) change()
+   - D) updateOne() and updateMany()
+
+
+
+
+10. Which operation is used to remove documents from a MongoDB collection?
+    - A) drop()
+    - B) delete()
+    - C) remove()
+    - D) deleteOne() and deleteMany()
+
+
+
+
+11. How do you construct queries with multiple conditions in MongoDB?
+    - A) Using $and and $or operators
+    - B) Using find() and findOne() together
+    - C) Using $eq and $ne operators
+    - D) Using query() with if-else conditions
+
+
+
+
+12. What is used to query array fields in MongoDB?]]]
+    - A) $array
+    - B) $in
+    - C) $exists
+    - D) $elemMatch
+
+
+
+13. Which method is used to query nested documents in MongoDB?
+    - A) findNested()
+    - B) queryNested()
+    - C) findOne()
+    - D) dot notation with find() or findOne()
+
+
+
+14. How do you limit the fields returned in a MongoDB query?]]]
+    - A) Using filter()
+    - B) Using project()
+    - C) Using limit()
+    - D) Using fields() and exclude()
+
+
+
+
+
+
+
+
+1. A) mongodump
+2. B) mongorestore
+3. B) Export data from MongoDB
+4. D) mongoimport
+5. A) find()
+6. A) $eq
+7. B) To query for elements in an array that match a single criterion
+8. D) insertOne() and insertMany()
+9. D) updateOne() and updateMany()
+10. D) deleteOne() and deleteMany()
+11. A) Using $and and $or operators
+12. D) $elemMatch
+13. D) dot notation with find() or findOne()
+14. B) Using project()
+

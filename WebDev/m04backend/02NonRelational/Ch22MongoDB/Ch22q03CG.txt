@@ -1,0 +1,131 @@
+
+
+1. **How do you import data into MongoDB?**
+2. **What are the different methods for exporting data from MongoDB?**
+3. **Explain the process of importing data from a JSON file into MongoDB using `mongoimport`.**
+
+4. **What is the basic syntax for querying documents in MongoDB?**
+5. **Differentiate between `find()` and `findOne()` methods in MongoDB.**
+6. **Explain the various query operators available in MongoDB.**
+7. **How does indexing improve query performance in MongoDB?**
+
+8. **Describe the process of creating a new document in a MongoDB collection.**
+9. **What are the BSON data types supported in MongoDB?**
+10. **Explain the `insertOne()` and `insertMany()` methods in MongoDB.**
+
+11. **What are aggregation pipelines in MongoDB? How are they useful in advanced querying?**
+12. **Explain the concept of `$lookup` in MongoDB aggregation.**
+13. **Discuss the usage and significance of MongoDB's text search.**
+14. **How do you handle complex queries involving multiple conditions in MongoDB?**
+
+
+
+
+
+1. **How do you import data into MongoDB?**
+   - Data can be imported into MongoDB using the `mongoimport` command-line tool. 
+     It allows importing data from various formats like JSON, CSV, or TSV files into a specified MongoDB collection.
+
+
+
+
+
+2. **What are the different methods for exporting data from MongoDB?**
+   - MongoDB provides the `mongoexport` utility to export data from a collection into JSON or CSV formats. 
+     It allows exporting data based on specific queries or entire collections.
+
+
+
+
+
+3. **Explain the process of importing data from a JSON file into MongoDB using `mongoimport`.**
+   - To import data from a JSON file, use the `mongoimport` command followed by the `--file` flag and specify the JSON file path. 
+     Additional optional flags like `--db` for the database and `--collection` for the target collection can be used.
+
+
+
+
+
+4. **What is the basic syntax for querying documents in MongoDB?**
+   - The basic syntax for querying documents involves using the `find()` method on a collection, 
+     optionally with parameters specifying the criteria for selecting documents.
+
+
+
+
+
+
+5. **Differentiate between `find()` and `findOne()` methods in MongoDB.**
+   - `find()` returns a cursor to all documents matching the query criteria, 
+      while `findOne()` returns the first document that matches the query criteria or `null` if no document is found.
+
+
+
+
+
+6. **Explain the various query operators available in MongoDB.**
+   - MongoDB provides various query operators like `$eq`, `$gt`, `$lt`, `$in`, `$and`, `$or`, etc., 
+     to perform specific comparison or logical operations in queries.
+
+
+
+
+
+7. **How does indexing improve query performance in MongoDB?**]]]
+   - Indexes in MongoDB help in improving query performance by allowing the database to quickly locate documents and reduce the number of documents it needs to examine when fulfilling a query. This is achieved by creating indexes on fields frequently used in queries.
+
+
+
+
+
+8. **Describe the process of creating a new document in a MongoDB collection.**
+   - To create a document, use the `insertOne()` or `insertMany()` methods, 
+     providing a JSON object or an array of JSON objects containing the data to be inserted into the collection.
+
+
+
+
+
+9. **What are the BSON data types supported in MongoDB?**
+   - BSON data types in MongoDB include String, Integer, Double, Boolean, Arrays, Objects, Date, ObjectId, etc.
+
+
+
+
+
+10. **Explain the `insertOne()` and `insertMany()` methods in MongoDB.**
+    - `insertOne()` inserts a single document into a collection, while `insertMany()` can insert multiple documents into a collection at once.
+
+
+
+
+
+11. **What are aggregation pipelines in MongoDB? How are they useful in advanced querying?**]]]
+    - Aggregation pipelines in MongoDB are sequences of data processing operations performed on collections. 
+    They consist of multiple stages like `$match`, `$group`, `$project`, etc., enabling complex transformations, aggregations, and computations.
+
+
+
+
+
+12. **Explain the concept of `$lookup` in MongoDB aggregation.**]]]
+    - `$lookup` is an aggregation stage used for performing a left outer join between documents from two collections, allowing for combining and linking data based on a common field.
+
+
+
+
+
+13. **Discuss the usage and significance of MongoDB's text search.**]]]
+    - MongoDB's text search facilitates efficient searching of text content within a collection. 
+      It supports indexing text fields, language-aware search, and features like stemming and stop words for enhanced search capabilities.
+
+
+
+
+
+14. **How do you handle complex queries involving multiple conditions in MongoDB?**
+    - Complex queries involving multiple conditions in MongoDB can be handled using logical query operators like `$and`, `$or`, and nesting conditions within queries to retrieve documents satisfying specific criteria.
+
+
+
+    

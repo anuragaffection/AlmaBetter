@@ -1,5 +1,24 @@
 int myIntArray [] = new int [10];
 char charArray [] = new char[10];
 
+int intArray [] = {};
+float floatArray [] = {};
+String strArray [] = {};
+
+Scanner sc = new Scanner(system.in);
+sc.nextInt();
+sc.nextFloat();
+sc.nextLine();
 
 Arrays.sort(myArray);
+
+
+syntax {
+    -- 
+}
+
+
+Note {
+    -- no predefined method for array in java 
+    -- check ArrayList & List 
+}

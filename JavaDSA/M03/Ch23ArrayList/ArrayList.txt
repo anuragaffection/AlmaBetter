@@ -1,0 +1,60 @@
+
+
+syntax {
+    -- ArrayList <Integer>   al = new ArrayList<>();
+    -- ArrayList <Float>     al = new ArrayList<>();
+    -- ArrayList <Character> al = new ArrayList<>();
+    -- ArrayList <Boolean>   al = new ArrayList<>();
+    -- ArrayList <Double>    al = new ArrayList<>();
+    -- ArrayList <String>    al = new ArrayList<>();
+
+
+    -- List <Integer>   al = new ArrayList<>();
+    -- List <Float>     al = new ArrayList<>();
+    -- List <Character> al = new ArrayList<>();
+    -- List <Boolean>   al = new ArrayList<>();
+    -- List <Double>    al = new ArrayList<>();
+    -- List <String>    al = new ArrayList<>();
+}
+
+
+
+
+methods {
+
+    -- add (elememt)
+    -- add (index, elememt)
+    -- get (index)
+    -- remove (index)
+    -- remove (elememt)
+    -- set (index, elememt)
+
+    -- contains (elememt)
+    -- indexOf (elememt)
+    -- lastIndexOf (elememt)
+
+    -- size()
+    -- clear()
+    -- isEmpty()
+}
+
+
+
+notes {
+    -- 
+}
+
+
+
+difference {
+
+    01. List vs ArrayList
+    --- List is an iterface 
+    --- ArrayList is a class
+    --- ArrayList is used to implement list 
+    --- LinkedList is used to implement list 
+
+    02. add(index, elememt) vs set(index, elememt)
+    --- add will add, but not remove old one 
+    --- set will add, and remove the olde one 
+}
