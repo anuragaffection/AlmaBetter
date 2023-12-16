@@ -162,17 +162,97 @@
 
 
 
-16. Merging Branches {
+16. Merging Branches #1.24.24 {
+   -- Each branch is independ of other 
+   -- * depict current branch
+   -- we can not delete current branch
+   -- we can rename our existing branch
+   -- both switch and checkout are same 
+   
+   command
+   -- git branch
+   -- git branch <myBranch> 
+   -- git checkout <myBranch> 
+   -- git checkout -b <myBranch> 
+   -- git branch -m <renamingCurrentBranch> 
+   -- git branch -d <deleteBranch> 
 
-    git merge <newBranchName> 
-    -- will merge new branch to main or current branch
+   git merge <newBranchName> 
+   -- will merge new branch to main or current branch
 
+   stash 
+   -- first we have to do git stash , to use git stash apply 
+   -- We can go git git stash , after using git add .
+   -- git stash 
+   -- git stash apply 
     
 }
 
 
 
 
-17 Merge conflict {
-    -- 
+
+17. Merge conflict #1.28.28 {
+   -- this situation occur, when two different branches edit in same file, 
+      and we try to do merge the branch , then merge conflict occur
+   -- we have to manually fix the conflict 
+
+   -- the content comming above the ======, is from current branch
+   -- the content comming below the ======, is from Merging branch
+
+   we have 4 options 
+   -- merge current change
+   -- merge comming change 
+   -- merge both changes 
+   -- compare both 
+}
+
+
+
+
+
+
+18. Git remote #1.41.41 {
+   
+   steps 
+   -- create remote repo 
+   -- pushing code to Github
+   -- git clone 
+   -- git fetch 
+   -- git pull 
+   -- pull request 
+
+   file 
+   -- .gitignore 
+   -- 
+
+   connecting 
+   -- git init 
+   -- git add 
+   -- git commit -m "first commit" 
+   -- git branch -M master 
+   -- git remote add origin https://github.com/anuragaffection/gitdemo.git
+   -- git push -u origin master 
+   -- git fetch origin 
+   -- git merge origin/master
+   -- git pull origin master 
+
+   cloning 
+   -- git clone https://github.com/anuragaffection/gitdemo.git
+   -- 
+
+   git fetch origin
+   -- fetch latest changes from github to local computer 
+   -- after fetching merge the origin/master 
+
+   git pull origin master
+   -- it shortcut of git fetch origin + git merge origin/master 
+   
+}
+
+
+
+
+19. Contributing #2.18.18 {
+   -- 
 }

@@ -16,6 +16,10 @@ Links {
     -- https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code
     -- https://www.atlassian.com/git/tutorials/advanced-overview
     -- https://github.com/
+    -- https://www.vim.org/
+    -- https://www.freecodecamp.org/news/visual-studio-vs-visual-studio-code/
+    -- https://learngitbranching.js.org/
+    -- https://ohmygit.org/
 }
 
 
@@ -39,8 +43,10 @@ Task {
     -- undo the commited code 
 
     -- Git vs Github
-    -- Visual Studio vs Visual Studio Code 
-    -- #42.52
+    -- Visual Studio vs Visual Studio code 
+
+    -- try github copilot
+    -- 
 
 }
 
