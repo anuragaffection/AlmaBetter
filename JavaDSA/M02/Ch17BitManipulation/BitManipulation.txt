@@ -1,0 +1,25 @@
+
+
+Integer.toBinaryString(num)
+-- converting Integer num to binary string 
+
+Integer.bitCount(num)
+-- counting 1 in a Integer num 
+
+
+
+
+all methods {
+    -- toBinaryString()
+    -- bitCount()
+    -- length()
+    -- length
+    -- 
+}
+
+
+
+topics {
+    -- Hamming weight
+    -- https://en.wikipedia.org/wiki/Hamming_weight
+}
