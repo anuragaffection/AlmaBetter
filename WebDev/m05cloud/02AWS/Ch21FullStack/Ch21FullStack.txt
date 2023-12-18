@@ -6,22 +6,27 @@ Components of Reserve Project
 
 
 Links {
-   --https://www.breakertimes.com/2023/04/07/the-importance-of-performance-optimization-in-web-development/
+   -- https://www.breakertimes.com/2023/04/07/the-importance-of-performance-optimization-in-web-development/
    -- https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security
+   -- https://github.com/moneshvenkul/smart-brain-client
+   -- https://github.com/eraydmrcoglu/reactjs-tours-travels-booking-website
+   -- 
 }
 
 
 
 
 Notes {
-   
+   -- 
 }
 
 
 
 
 Task {
-
+    -- make reserve project
+    -- also include stripe payment gateway 
+    -- hemant [asked the link - figma ]
 }
 
 
