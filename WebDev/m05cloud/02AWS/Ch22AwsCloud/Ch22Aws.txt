@@ -38,6 +38,9 @@ Task {
     -- explore google cloud platform 
     -- how to get aws certification for free 
     -- how Middleware work 
+    -- What is Salesforce 
+    -- freelancig.com 
+    -- upwork.com 
     -- 
 }
 
@@ -88,9 +91,14 @@ Cloud Service Models {
 Cloud Deployment Models {
 
     public Cloud
-    --
+    -- aws 
+    -- DropBox
+    -- google drive 
+    -- Microsoft 365 
+    -- 
 
     private Cloud
+    -- specific to its own company 
     -- 
 
     hybrid Cloud
@@ -127,6 +135,8 @@ Overview of AWS {
     -- amazon lambda 
     -- amazon cloudwatch 
     -- amazon simple notification service (SNS)
+    -- amazon DynamoDb 
+    -- 
 
 }
 
