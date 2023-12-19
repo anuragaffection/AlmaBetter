@@ -12,6 +12,7 @@ Links {
     -- https://docs.aws.amazon.com/index.html
     -- https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
     -- https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html
+    -- https://aws.amazon.com/certification/certified-cloud-practitioner/
 
 }
 
@@ -30,10 +31,14 @@ Notes {
 }
 
 
+
 Task {
-    -- IaaS vs PaaS vs SaaS
+    -- IaaS vs PaaS vs SaaS vs on-premises [check some picture ]
     -- Frontend deployment with aws
     -- explore google cloud platform 
+    -- how to get aws certification for free 
+    -- how Middleware work 
+    -- 
 }
 
 

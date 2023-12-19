@@ -17,6 +17,13 @@ Links {
 
 
 Notes {
+   -- AR & VR 
+   -- metaQuest 
+   -- ChatGpt 
+   -- Gemini 
+   -- bard 
+   -- deepFake 
+   -- ChatGpt API
    -- 
 }
 
