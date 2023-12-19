@@ -43,5 +43,5 @@ concept {
     -- number ^ 0 = number
 
     02. XOR of a number with number
-    -- number ^ number = number
+    -- number ^ number = 0
 }

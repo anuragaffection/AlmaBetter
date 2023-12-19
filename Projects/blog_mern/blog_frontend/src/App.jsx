@@ -6,6 +6,7 @@ import Register from './pages/Register'
 import AddBlog from './pages/AddBlog'
 import Profile from './pages/Profile'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import context from './context/AuthContext'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Route path="/addblog" element={<AddBlog />}/>
       <Route path="/profile" element={<Profile />}/>
     </Routes>
+    <Footer/>
     </>
   )
 }

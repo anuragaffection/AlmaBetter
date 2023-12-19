@@ -5,9 +5,9 @@ import context from '../context/AuthContext'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom'
-import { BiLogIn } from 'react-icons/bi'
 import { BiSolidUserCircle } from 'react-icons/bi'
 import { BiLogOut } from 'react-icons/bi'
+
 
 
 function Navbar() {
@@ -65,7 +65,7 @@ function Navbar() {
                 <div className="right">
                     {
                         (!auth.isAuthenticated) &&
-                        <Link to={'/login'} className="items"><h3><BiLogIn /></h3></Link>
+                        <Link to={'/login'} className="items"><h3>Login</h3></Link>
                     }
                     {
                         (!auth.isAuthenticated) &&
