@@ -1,10 +1,22 @@
 
 
+
 Integer.toBinaryString(num)
 -- converting Integer num to binary string 
 
 Integer.bitCount(num)
 -- counting 1 in a Integer num 
+
+
+Bitwise operator {
+    -- & 
+    -- | 
+    -- ^ 
+    -- ~ 
+    -- >>
+    -- << 
+    -- 
+}
 
 
 
@@ -22,4 +34,14 @@ all methods {
 topics {
     -- Hamming weight
     -- https://en.wikipedia.org/wiki/Hamming_weight
+}
+
+
+
+concept {
+    01. XOR of a number with 0
+    -- number ^ 0 = number
+
+    02. XOR of a number with number
+    -- number ^ number = number
 }
