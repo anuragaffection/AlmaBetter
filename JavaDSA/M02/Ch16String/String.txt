@@ -10,24 +10,26 @@ String Compare {
 }
 
 
-UpperCase {
+quote {
     -- '' = single quote , is char type in java 
     -- "" = double quote , is string type in java 
 }
 
 
-String {
+String Method{
     -- chartAt()
     -- length()
     -- concat()
 
     -- equals()
     -- join()
+    -- indexOf()
 
     -- substring()
 
     -- toString()
     -- toCharArray()
+    -- toBinaryString()
 }
 
 

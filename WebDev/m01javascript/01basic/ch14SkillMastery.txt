@@ -6,7 +6,20 @@ Skill Mastery Links {
 
 
 Skill Mastery interview concept {
-       -- 
+
+       -- Math.floor()
+       -- Math.ceil()
+       -- Math.round()
+       -- Math.trunc()
+
+       -- Math.pow()
+       -- Math.sqrt()
+       -- Math.abs()
+
+       -- Math.min()
+       -- Math.max()
+
+       -- Math.random()
        -- 
 }
 

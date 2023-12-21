@@ -1,17 +1,21 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import ArticleApp from '../assets/articleApp.jpg'
 import context from '../context/AuthContext'
+import { Social } from '../constant/social'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from 'react-router-dom'
-import { BiSolidUserCircle } from 'react-icons/bi'
-import { BiLogOut } from 'react-icons/bi'
 
-
+const navbarContainer = `flex justify-between bg-black text-gray-100 text-lg w-full flex-col md:flex-row p-1 gap-2 sticky top-0`;
+const logo = ` text-xl text-yellow-400 font-semibold`;
+const logoImg = 'rounded-full'
+const logoWrapper = `flex justify-center items-center gap-2 ml-4 mt-2 md:mt-0`
+const nav = `flex justify-center items-center list-none gap-4 md:gap-8 mr-0 md:mr-4 xl:mr-8 mb-2 md:mb-0 mt-2 md:mt-0`;
+const navLink = `hover:text-yellow-400 md:text-xl text-lg`;
 
 function Navbar() {
-
     const auth = useContext(context);
     const navigate = useNavigate();
 
@@ -56,37 +60,42 @@ function Navbar() {
                 theme="dark"
             />
 
-            <div className="navbar">
+            <div className={navbarContainer}>
+                <Link to={'/'}>
+                    <div className={logoWrapper}>
+                        <img
+                            className={logoImg}
+                            src={ArticleApp}
+                            alt="Logo"
+                            height={'40px'}
+                            width={'40px'}
+                        />
+                        <div className={logo}>{Social.title}</div>
+                    </div>
+                </Link>
 
-                <div className='left'>
-                    <Link to={'/'} className='items'> <h3>Blog - MERN App</h3></Link>
-                </div>
-
-                <div className="right">
+                <div className={nav}>
                     {
                         (!auth.isAuthenticated) &&
-                        <Link to={'/login'} className="items"><h3>Login</h3></Link>
+                        <Link to={'/login'}><li className={navLink}>Login </li></Link>
                     }
                     {
                         (!auth.isAuthenticated) &&
-                        <Link to={'/register'} className="items"><h3>Register</h3></Link>
+                        <Link to={'/register'}><li className={navLink}>Register </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&
-                        <Link to={'/addblog'} className="items"><h3>AddBlog</h3></Link>
+                        <Link to={'/addblog'}><li className={navLink}>AddBlog </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&
-                        <Link to={'/profile'} className="items"><h3> <BiSolidUserCircle />
-                        </h3></Link>
+                        <Link to={'/profile'}><li className={navLink}>Profile </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&
-                        <div onClick={logout} className="items"><h3> <BiLogOut />
-                        </h3></div>
+                        <li className={navLink} onClick={logout}>Logout </li>
                     }
                 </div>
-
             </div>
         </>
     )

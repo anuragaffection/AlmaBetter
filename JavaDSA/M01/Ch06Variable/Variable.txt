@@ -1,4 +1,4 @@
 
-int mostMinValue = Integer.MIN_VALUE;
-int mostMaxValue = Integer.MAX_VALUE;
+Integer.MIN_VALUE;
+Integer.MAX_VALUE;
 

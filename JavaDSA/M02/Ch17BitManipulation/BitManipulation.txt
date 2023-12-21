@@ -1,11 +1,12 @@
 
 
-
 Integer.toBinaryString(num)
 -- converting Integer num to binary string 
 
 Integer.bitCount(num)
 -- counting 1 in a Integer num 
+
+
 
 
 Bitwise operator {
@@ -24,6 +25,10 @@ Bitwise operator {
 all methods {
     -- toBinaryString()
     -- bitCount()
+}
+
+
+Recall previous {
     -- length()
     -- length
     -- 
@@ -35,6 +40,7 @@ topics {
     -- Hamming weight
     -- https://en.wikipedia.org/wiki/Hamming_weight
 }
+
 
 
 

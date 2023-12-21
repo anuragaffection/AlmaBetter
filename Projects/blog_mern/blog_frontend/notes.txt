@@ -1,0 +1,30 @@
+npm 
+vite 
+express 
+npm run dev 
+npm run build 
+
+
+
+https://tailwindcss.com/docs/guides/vite
+
+
+
+when to prefer anchor tag & link tag {
+    -- for handling social media in footer, its better to go with anchor tag, 
+}
+
+
+anchor tag vs Link tag {
+    -- by default anchor tag fully reload the page 
+    -- Link tag just reload the specific components 
+
+    -- <a> tag: Triggers a full page reload when clicked.
+    -- <Link> component: Handles navigation within the React application without a full page reload.
+    -- 
+}
+
+
+Link vs Route in react js {
+    -- 
+}

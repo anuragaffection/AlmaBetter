@@ -1,0 +1,18 @@
+
+
+
+Math Method {
+       -- Math.floor()
+       -- Math.ceil()
+       -- Math.round()
+
+       -- Math.pow()
+       -- Math.sqrt()
+       -- Math.abs()
+
+       -- Math.min()
+       -- Math.max()
+
+       -- Math.random()
+       -- 
+}

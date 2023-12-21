@@ -1,59 +1,76 @@
-import React from 'react'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import React, { useState } from 'react'
+import Contact from './Contact'
+import PrivacyPolicy from './PrivacyPolicy';
+import { Social } from '../constant/social';
+import { FaYoutube, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
 
+const footerContainer = `bg-black text-gray-200`;
+const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
+const name = `mt-5 md:mt-7 text-light text-yellow-400 text-center text-xl `;
+const nav = `flex justify-center items-center`;
+const navLink = `ml-3 md:mx-5 hover:text-yellow-400 text:sm md:text-xl text-gray-100`;
+const socialMediaWrapper = `flex justify-center items-center mt-3`;
+const socialMediaIcon = `ml-4 md:mx-5 hover:text-yellow-400 text-2xl`;
+const copyright = `mb-5 text-light text-yellow-400 flex flex-col md:flex-row md:gap-3 justify-center items-center`;
 
 function Footer() {
-    return (
-        <>
-            <footer className="bg-dark text-light py-4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <h3>About</h3>
-                            <ul className="list-unstyled">
-                                <li><a href="/about-us" className="text-light">About Us</a></li>
-                                <li><a href="/privacy-policy" className="text-light">Privacy Policy</a></li>
-                                <li><a href="/contact-us" className="text-light">Contact Us</a></li>
-                                <li><a href="/about-developer" className="text-light">About Developer</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-4">
-                            <h3>Social Media</h3>
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="https://facebook.com" className="text-light">
-                                        <FaFacebook /> Facebook
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com" className="text-light">
-                                        <FaTwitter /> Twitter
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com" className="text-light">
-                                        <FaInstagram /> Instagram
-                                    </a>
-                                </li>
-                                {/* Add more social media links with respective icons here */}
-                            </ul>
-                        </div>
-                        <div className="col-md-4">
-                            <h3>Navigation</h3>
-                            <ul className="list-unstyled">
-                                <li><a href="/" className="text-light">Home</a></li>
-                                <li><a href="/add-blog" className="text-light">Add Blog</a></li>
-                                <li><a href="/top-10-blogs" className="text-light">Top 10 Blogs</a></li>
-                                {/* Add more navigation links here */}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <div className='text-center p-2'>Made With Love in India By Anurag Affection </div>
-        </>
+  const [showContact, setShowContact] = useState(false);
+  const [showPolicy, setShowPolicy] = useState(false);
 
-    )
+  const toggleContact = () => {
+    setShowPolicy(false);
+    setShowContact(!showContact);
+
+  };
+
+  const togglePolicy = () => {
+    setShowContact(false);
+    setShowPolicy(!showPolicy);
+  };
+
+
+
+
+  return (
+    <>
+      <footer className={footerContainer}>
+        <div className={footerWrapper}>
+          <div className={name}> {Social.name}</div>
+          <div className={nav}>
+            <div className={navLink}>Home</div>
+            <div className={navLink}>About </div>
+            <div className={navLink} onClick={toggleContact}>Contact </div>
+            <div className={navLink} onClick={togglePolicy}>Privacy </div>
+            <div className={navLink}>Developer</div>
+          </div>
+        </div>
+      </footer >
+
+      <div>
+        {showContact && <Contact />}
+        {showPolicy && <PrivacyPolicy />}
+      </div>
+
+      <div className={footerContainer}>
+        <div className={footerWrapper}>
+          <div className={socialMediaWrapper}>
+            <a className={socialMediaIcon} href={Social.github} target='_blank'><FaGithub /></a>
+            <a className={socialMediaIcon} href={Social.linkedin} target='_blank'><FaLinkedin /></a>
+            <a className={socialMediaIcon} href={Social.youtube} target='_blank'><FaYoutube /></a>
+            <a className={socialMediaIcon} href={Social.twitter} target='_blank'><FaTwitter /></a>
+            <a className={socialMediaIcon} href={Social.facebook} target='_blank'><FaFacebook /></a>
+            <a className={socialMediaIcon} href={Social.instagram} target='_blank'><FaInstagram /></a>
+          </div>
+          <div className={copyright}>
+            <span>&copy; 2023 </span>
+            <span>All rights reserved.</span>
+            <span>A Family of Love & Affection. </span>
+          </div>
+        </div>
+      </div>
+    </>
+
+  )
 }
 
 export default Footer
