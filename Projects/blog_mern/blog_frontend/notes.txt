@@ -6,8 +6,14 @@ npm run build
 
 
 
-https://tailwindcss.com/docs/guides/vite
+installation links {
+    -- https://tailwindcss.com/docs/guides/vite
+}
 
+
+similar apps {
+    -- https://dev.to/
+}
 
 
 when to prefer anchor tag & link tag {

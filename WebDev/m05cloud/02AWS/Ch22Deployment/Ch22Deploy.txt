@@ -1,0 +1,21 @@
+
+
+
+Links {
+    -- https://dev.to/darasimiajewole/real-time-update-strategy-in-web-4a2l
+    -- https://dev.to/msmello_/load-balancing-the-key-to-scaling-your-applications-3jb7
+
+}
+
+
+Notes {
+    -- 
+}
+
+
+
+Task {
+    -- aws command line interface 
+    -- aws certification 
+    -- 
+}
