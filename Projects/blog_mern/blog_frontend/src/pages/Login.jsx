@@ -91,12 +91,7 @@ function Login() {
       <div className={container}>
         <div className={wrapper}>
           <h1 className={title}>Login Here</h1>
-
-         
-
-         
           <form onSubmit={handleSubmit} className={loginForm}>
-
             <div className={labelInputWrapper}>
               <label
                 htmlFor="exampleInputEmail"
@@ -109,11 +104,9 @@ function Login() {
                 type="email"
                 className={inputStyle}
                 id="exampleInputEmail"
-                aria-describedby="emailHelp"
                 placeholder="Enter email"
               />
             </div>
-
             <div className={labelInputWrapper}>
               <label
                 htmlFor="exampleInputPassword"
@@ -129,13 +122,10 @@ function Login() {
                 placeholder="Password"
               />
             </div>
-
             <button className={submitButton}>Submit</button>
           </form>
-
         </div>
       </div>
-
     </>
   )
 }

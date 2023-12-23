@@ -107,7 +107,6 @@ function Register() {
                 type="text"
                 className={inputStyle}
                 id="exampleInputName"
-                aria-describedby="textHelp"
                 placeholder="Enter Name"
               />
             </div>
@@ -120,7 +119,6 @@ function Register() {
                 type="email"
                 className={inputStyle}
                 id="exampleInputEmail"
-                aria-describedby="emailHelp"
                 placeholder="Enter email"
               />
             </div>

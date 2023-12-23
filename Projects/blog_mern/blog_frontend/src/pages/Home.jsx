@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import UserDetail from '../components/UserDetail';
+import articleApp from '../assets/articleApp.jpg'
 import axios from 'axios'
 
 
 const Home = () => {
 
   const [blog, setBlog] = useState([]);
+ 
 
   useEffect(() => {
 
@@ -18,7 +20,7 @@ const Home = () => {
       });
 
       setBlog(api.data.data)
-      
+
     }
 
     fetchBlog();
@@ -27,48 +29,50 @@ const Home = () => {
 
 
 
+  const container = `bg-gray-900 text-gray-200 p-4`;
+  const wrapper = `flex flex-col md:flex-row md:flex-wrap md:items-center md:justify-center gap-7 `;
+  const dataWrapper = `flex flex-col gap-4 bg-gray-950 p-9 rounded-lg md:w-5/12`
+  const imageWrapper = `border border-gray-700 `;
+  const imageStyle = `max-w-full h-48 `;
+  const titleStyle = `text-yellow-400 text-2xl font-semibold`;
+  const dateProfileWrapper = `flex flex-row gap-3`
+  const readMoreStyle = `text-lime-600 hover:text-lime-400`;
+
+
   return (
     <>
-      <div className="container text-center my-5" style={{ width: '56%' }}>
-        {
-          blog.map( (data) => {
+      <div className={container}>
+        <div className={wrapper}>
+          {
+            blog.map((data) => {
+              return (
+                  <div className={dataWrapper} key={data._id} >
 
-            return (
-              <>
-                <div className="card mb-3 bg-secondary text-light my-5" style={{ maxWidth: '760px' }}>
-                  <div className="row g-0">
-
-                    <div
-                      className="col-md-4"
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                      }}
-                    >
+                    <div className={imageWrapper}>
                       <img
-                        src={data.imgUrl}
-                        className="img-fluid rounded-start"
-                        alt="..."
+                        src={(data.imgUrl) ? data.imgUrl : articleApp}
+                        className={imageStyle}
+                        alt="Image"
                       />
                     </div>
 
-                    <div className="col-md-8">
-                      <div className="card-body">
-                        <h2 className="card-title">{data.title}</h2>
-                        <p className="card-text">{data.description}</p>
-                        <p className="card-text"><small >{data.createdAt}</small></p>
-                        <UserDetail id={data.user} />
-                      </div>
+                    <div className={titleStyle}>{data.title}</div>
+
+                    <div className={dateProfileWrapper}>
+                      <div> {new Date(data.createdAt).toLocaleDateString()}</div>
+                      <div> <UserDetail id={data.user} /></div>
                     </div>
 
-                  </div>
-                </div>
-              </>
-            )
+                    <div> {data.description.substring(0, 250)} </div>
+                    <div className={readMoreStyle}>Read More & More </div>
 
-          })
-        }
+                  </div>
+                
+              )
+
+            })
+          }
+        </div>
       </div>
     </>
   )

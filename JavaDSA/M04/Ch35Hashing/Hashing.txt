@@ -1,0 +1,49 @@
+
+
+syntax {
+    -- HashSet <Integer>   al = new HashSet<>();
+    -- HashSet <Float>     al = new HashSet<>();
+    -- HashSet <Character> al = new HashSet<>();
+    -- HashSet <Boolean>   al = new HashSet<>();
+    -- HashSet <Double>    al = new HashSet<>();
+    -- HashSet <String>    al = new HashSet<>();
+
+
+    -- Set <Integer>   al = new HashSet<>();
+    -- Set <Float>     al = new HashSet<>();
+    -- Set <Character> al = new HashSet<>();
+    -- Set <Boolean>   al = new HashSet<>();
+    -- Set <Double>    al = new HashSet<>();
+    -- Set <String>    al = new HashSet<>();
+}
+
+
+
+
+methods {
+    -- add (elememt)
+    -- contains(elememt)
+
+}
+
+
+
+notes {
+    -- 
+}
+
+
+
+
+difference {
+
+    01. set vs HashSet
+    --- set is an iterface 
+    --- HashSet is a class
+    --- HashSet is used to implement set  
+ 
+
+    02. map vs HashMap 
+    -- 
+
+}

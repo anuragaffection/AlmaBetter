@@ -8,13 +8,6 @@ import { Social } from '../constant/social'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-const navbarContainer = `flex justify-between bg-black text-lime-500 text-lg w-full flex-col md:flex-row p-1 gap-2 sticky top-0`;
-const logo = ` text-xl font-semibold text-yellow-400`;
-const logoImg = 'rounded-full'
-const logoWrapper = `flex justify-center items-center gap-2 ml-4 mt-2 md:mt-0`
-const nav = `flex justify-center items-center list-none gap-4 md:gap-8 mr-0 md:mr-4 xl:mr-8 mb-2 md:mb-0 mt-2 md:mt-0`;
-const navLink = `hover:text-lime-300 md:text-xl text-lg font-semibold`;
-
 function Navbar() {
     const auth = useContext(context);
     const navigate = useNavigate();
@@ -44,6 +37,13 @@ function Navbar() {
             navigate('/');
         }, 1500);
     }
+
+    const navbarContainer = `flex justify-between bg-black text-lime-500 text-lg w-full flex-col md:flex-row p-1 gap-2 sticky top-0`;
+    const logo = ` text-xl font-semibold text-yellow-400`;
+    const logoImg = 'rounded-full'
+    const logoWrapper = `flex justify-center items-center gap-2 ml-4 mt-2 md:mt-0`
+    const nav = `flex justify-center items-center list-none gap-4 md:gap-8 mr-0 md:mr-4 xl:mr-8 mb-2 md:mb-0 mt-2 md:mt-0`;
+    const navLink = `hover:text-lime-300 md:text-xl text-lg font-semibold`;
 
     return (
         <>

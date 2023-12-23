@@ -1,10 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import axios from 'axios'
-import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
 import UserDetail from './UserDetail'
 import context from '../context/AuthContext';
+import articleApp from '../assets/articleApp.jpg'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function MyBlogs() {
 
@@ -29,7 +31,6 @@ function MyBlogs() {
 
 
     const deleteBlog = async (id) => {
-
         const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/blogs/${id}`, {
             headers: {
                 "Content-Type": "application/json"
@@ -52,68 +53,81 @@ function MyBlogs() {
 
     const editBlog = async (id) => {
         auth.setId(id);
-        navigate('./addblog')
+        navigate('/addblog')
     }
+
+    const container = `bg-gray-900 text-gray-200 p-4`;
+    const wrapper = `flex flex-col md:flex-row md:flex-wrap md:items-center md:justify-center gap-7 `;
+    const dataWrapper = `flex flex-col gap-4 bg-gray-950 p-9 rounded-lg md:w-5/12`
+    const imageWrapper = `border border-gray-700 `;
+    const imageStyle = `max-w-full h-48 `;
+    const titleStyle = `text-yellow-400 text-2xl font-semibold`;
+    const dateProfileWrapper = `flex flex-row gap-3`
+    const buttonWrapper = 'flex flex-row gap-6 justify-center text-gray-900 font-semibold'
+    const editButton = `bg-lime-500 hover:bg-lime-400 h-12 px-5 rounded-lg`;
+    const deleteButton = 'bg-red-700 hover:bg-red-500 h-12 px-5 rounded-lg'
+  
 
 
 
     return (
         <>
-            <div className="container text-center my-5" style={{ width: '56%' }}>
+            <div className={container}>
+                <div className={wrapper}>
+                    {
+                        blog && blog.map((data) => {
+                            return (
+                                <div className={dataWrapper} key={data._id}>
+                                    <ToastContainer
+                                        position="top-right"
+                                        autoClose={1500}
+                                        hideProgressBar={false}
+                                        newestOnTop={false}
+                                        closeOnClick
+                                        rtl={false}
+                                        pauseOnFocusLoss
+                                        draggable
+                                        pauseOnHover
+                                        theme="dark"
+                                    />
 
-                {
-                    blog && blog.map((data) => {
-
-                        return (
-                            <>
-                                <ToastContainer
-                                    position="top-right"
-                                    autoClose={1500}
-                                    hideProgressBar={false}
-                                    newestOnTop={false}
-                                    closeOnClick
-                                    rtl={false}
-                                    pauseOnFocusLoss
-                                    draggable
-                                    pauseOnHover
-                                    theme="dark"
-                                />
-
-                                <div
-                                    className='card mb-3 bg-secondary text-light my-5'
-                                    style={{ maxWidth: '760px' }}
-                                >
-                                    <div className='row g-0'>
-                                        <div className='col-md-4'
-                                            style={{
-                                                display: 'flex',
-                                                justifyContent: 'center',
-                                                alignItems: 'center'
-                                            }}
-                                        >
-                                            <img src={data.imgUrl} className='img-fluid rounded-start' alt="" />
-                                        </div>
-
-                                        <div className='col-md-8'>
-                                            <div className='card-body'>
-                                                <h2 className='card-title'>{data.title} </h2>
-                                                <p className='card-text'>{data.description} </p>
-                                                <p className='card-text'> {data.createdAt} </p>
-                                                <UserDetail id={data.user} />
-
-                                                <button onClick={() => editBlog(data._id)} className='btn btn-warning mx-2'>Edit</button>
-                                                <button onClick={() => deleteBlog(data._id)} className='btn btn-danger mx-5'>Delete</button>
-
-                                            </div>
-
-                                        </div>
+                                    <div className={imageWrapper}>
+                                        <img
+                                            src={(data.imgUrl) ? data.imgUrl : articleApp}
+                                            className={imageStyle}
+                                            alt="Image"
+                                        />
                                     </div>
-                                </div >
-                            </>
-                        )
-                    })
-                }
-            </div >
+
+
+                                    <div className={titleStyle}>{data.title}</div>
+
+                                    <div className={dateProfileWrapper}>
+                                        <div> {new Date(data.createdAt).toLocaleDateString()}</div>
+                                        <div> <UserDetail id={data.user} /></div>
+                                    </div>
+
+                                    <div> {data.description.substring(0, 250)} </div>
+
+                                    <div className={buttonWrapper}>
+                                        <button
+                                            onClick={() => editBlog(data._id)}
+                                            className={editButton}>
+                                            Edit
+                                        </button>
+                                        <button
+                                            onClick={() => deleteBlog(data._id)}
+                                            className={deleteButton}>
+                                            Delete
+                                        </button>
+                                    </div>
+
+                                </div>
+                            )
+                        })
+                    }
+                </div >
+            </div>
         </>
     )
 }

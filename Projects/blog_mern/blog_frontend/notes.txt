@@ -34,3 +34,27 @@ anchor tag vs Link tag {
 Link vs Route in react js {
     -- 
 }
+
+
+
+code cutted addblog {
+                  <input
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
+                type="text" className={inputStyle} id="exampleInputEmail1"
+              />
+}
+
+
+home {
+    style={{ width: '56%' }}
+    style={{ maxWidth: '760px' }}
+}
+
+
+userDetails {
+    import { BiSolidUserCircle } from 'react-icons/bi';
+import { MdEmail } from 'react-icons/md';
+
+ <h3> {user.email}</h3>
+}
