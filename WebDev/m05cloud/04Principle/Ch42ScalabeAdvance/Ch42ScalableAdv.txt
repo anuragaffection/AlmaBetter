@@ -197,7 +197,8 @@ Scalability and robustness {
     -- Asynchronous processing
 
     robustness
-    -- fail over testing
+    -- fail over testing]]
+    -- fault tolerance ]]
     -- data backup 
 }
 
