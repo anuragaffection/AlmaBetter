@@ -1,50 +1,43 @@
 import React from 'react';
+import { privacy } from '../constant/privacy';
 
 const PrivacyPolicy = () => {
+  const container = `bg-gray-900 text-gray-200 p-4 `;
+  const wrapper = `bg-gray-950 py-4 px-6 m-1 rounded-md`
+  const subHeading = `text-xl mb-4 text-yellow-400`;
+  const paragraphStyle = `mb-4`;
+
   return (
-    <div className="bg-gray-900 text-white p-6">
-      <h2 className="text-2xl font-semibold mb-4">Privacy Policy</h2>
-      <p className="mb-4">
-        Welcome to our article platform! This Privacy Policy outlines how we collect,
-        use, and protect the information you provide while using our service.
-      </p>
+    <div className={container}>
+      <div className={wrapper}>
+        <h2 className={subHeading}>Privacy Policy</h2>
+        <p className={paragraphStyle}>{privacy.privacyPolicy}</p>
+      </div>
 
-      <h3 className="text-xl font-semibold mb-2">Data Collection</h3>
-      <p className="mb-4">
-        To create an account and post articles, we collect personal information including
-        your name, email, and password. We may also collect additional information you
-        provide in your profile.
-      </p>
+      <div className={wrapper}>
+        <h3 className={subHeading}>Data Collection</h3>
+        <p className={paragraphStyle}>{privacy.dataCollection}</p>
+      </div>
 
-      <h3 className="text-xl font-semibold mb-2">Data Usage</h3>
-      <p className="mb-4">
-        Your information is used to identify you as a user, enable account creation,
-        authenticate access to your account, and allow you to post articles.
-        We do not share your personal information with third parties.
-      </p>
+      <div className={wrapper}>
+        <h3 className={subHeading}>Data Usage</h3>
+        <p className={paragraphStyle}>{privacy.dataUsage}</p>
+      </div>
 
-      <h3 className="text-xl font-semibold mb-2">Data Security</h3>
-      <p className="mb-4">
-        We take security measures to protect your information against unauthorized access,
-        alteration, disclosure, or destruction. However, please note that no method of
-        transmission over the internet or electronic storage is completely secure.
-      </p>
+      <div className={wrapper}>
+        <h3 className={subHeading}>Data Security</h3>
+        <p className={paragraphStyle}>{privacy.dataSecurity}</p>
+      </div>
 
-      <h3 className="text-xl font-semibold mb-2">Terms & Conditions</h3>
-      <p className="mb-4">
-        By creating an account and using our platform, you agree to comply with our
-        Terms & Conditions. You are responsible for maintaining the confidentiality
-        of your account information and agree to notify us immediately of any
-        unauthorized use of your account.
-      </p>
+      <div className={wrapper}>
+        <h3 className={subHeading}>Terms & Conditions</h3>
+        <p className={paragraphStyle}>{privacy.termsAndConditons}</p>
+      </div>
 
-      <h3 className="text-xl font-semibold mb-2">Changes to Privacy Policy</h3>
-      <p className="mb-4">
-        We reserve the right to modify this Privacy Policy at any time. Any changes
-        will be effective immediately upon posting the updated policy on this page.
-        Your continued use of our service after any modifications to the Privacy Policy
-        constitutes acceptance of those changes.
-      </p>
+      <div className={wrapper}>
+        <h3 className={subHeading}>Changes to Privacy Policy</h3>
+        <p className={paragraphStyle}>{privacy.changesToPrivacyPolicy}</p>
+      </div>
     </div>
   );
 };

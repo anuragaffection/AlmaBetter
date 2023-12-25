@@ -1,23 +1,45 @@
 import React, { useState } from 'react'
+import AboutApp from './AboutApp';
 import Contact from './Contact'
 import PrivacyPolicy from './PrivacyPolicy';
+import AboutDevloper from './AboutDevloper';
 import { Social } from '../constant/social';
 import { FaYoutube, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
 
 function Footer() {
+  const [showAboutApp, setShowAboutApp] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const [showPolicy, setShowPolicy] = useState(false);
+  const [showAboutDevloper, setShowAboutDeveloper] = useState(false);
 
-  const toggleContact = () => {
+  const toggleAbout = () => {
+    setShowAboutApp(!showAboutApp);
+    setShowContact(false);
     setShowPolicy(false);
+    setShowAboutDeveloper(false);
+    
+  }
+  const toggleContact = () => {
+    setShowAboutApp(false);
     setShowContact(!showContact);
+    setShowPolicy(false);
+    setShowAboutDeveloper(false);
 
   };
 
   const togglePolicy = () => {
+    setShowAboutApp(false);
     setShowContact(false);
     setShowPolicy(!showPolicy);
+    setShowAboutDeveloper(false)
   };
+
+  const toggleDevloper = () => {
+    setShowAboutApp(false);
+    setShowContact(false);
+    setShowPolicy(false);
+    setShowAboutDeveloper(!showAboutDevloper)
+  }
 
   const footerContainer = `bg-black text-lime-500`;
   const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
@@ -35,17 +57,19 @@ function Footer() {
           <div className={name}> {Social.name}</div>
           <div className={nav}>
             <div className={navLink}>Home</div>
-            <div className={navLink}>About </div>
+            <div className={navLink} onClick={toggleAbout}>About </div>
             <div className={navLink} onClick={toggleContact}>Contact </div>
             <div className={navLink} onClick={togglePolicy}>Privacy </div>
-            <div className={navLink}>Developer</div>
+            <div className={navLink} onClick={toggleDevloper}>Developer</div>
           </div>
         </div>
       </footer >
 
       <div>
+        {showAboutApp && <AboutApp/>}
         {showContact && <Contact />}
         {showPolicy && <PrivacyPolicy />}
+        {showAboutDevloper && <AboutDevloper/>}
       </div>
 
       <div className={footerContainer}>
