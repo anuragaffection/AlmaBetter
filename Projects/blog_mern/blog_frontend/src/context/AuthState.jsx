@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import context from './AuthContext'
+import context from './MyContext'
 
 function AuthState(props) {
 

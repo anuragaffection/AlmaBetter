@@ -2,7 +2,7 @@ import React from 'react'
 import { Bio } from '../constant/bio'
 import { skills } from '../constant/skills'
 
-function AboutDevloper() {
+function AboutDeveloper() {
     return (
         <div className="bg-gray-900 text-white min-h-screen py-10">
         <div className="max-w-4xl mx-auto px-6">
@@ -48,4 +48,4 @@ function AboutDevloper() {
     )
 }
 
-export default AboutDevloper
+export default AboutDeveloper

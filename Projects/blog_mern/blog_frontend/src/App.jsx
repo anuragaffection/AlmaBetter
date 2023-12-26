@@ -7,7 +7,7 @@ import AddBlog from './pages/AddBlog'
 import Profile from './pages/Profile'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import context from './context/AuthContext'
+import context from './context/MyContext'
 
 function App() {
 

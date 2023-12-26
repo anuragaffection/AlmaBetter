@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import context from '../context/AuthContext';
+import context from '../context/MyContext';
 import axios from 'axios';
 import MyBlogs from '../components/MyBlogs';
 import { BiSolidUserCircle } from 'react-icons/bi';

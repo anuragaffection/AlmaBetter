@@ -2,15 +2,15 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
 import UserDetail from './UserDetail'
-import context from '../context/AuthContext';
+import context from '../context/MyContext';
 import articleApp from '../assets/articleApp.jpg'
-import { ToastContainer } from 'react-toastify'
+import { ToastContainer, toast   } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 
 function MyBlogs() {
 
-    const [blog, setBlog] = useState([]);
+    const [blog, setBlog] = useState([]); //empty array
     const auth = useContext(context);
     const navigate = useNavigate();
 
@@ -31,7 +31,7 @@ function MyBlogs() {
 
 
     const deleteBlog = async (id) => {
-        const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/blogs/${id}`, {
+        const api = await axios.delete(`https://blog-mern-backend-luce.onrender.com/api/blogs/${id}`, {
             headers: {
                 "Content-Type": "application/json"
             },
@@ -67,9 +67,6 @@ function MyBlogs() {
     const editButton = `bg-lime-500 hover:bg-lime-400 h-12 px-5 rounded-lg`;
     const deleteButton = 'bg-red-700 hover:bg-red-500 h-12 px-5 rounded-lg'
   
-
-
-
     return (
         <>
             <div className={container}>

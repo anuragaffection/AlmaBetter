@@ -1,11 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
-import context from '../context/AuthContext';
+import context from '../context/MyContext';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
 
 
 function AddBlog() {
@@ -27,7 +25,7 @@ function AddBlog() {
         withCredentials: true,
       });
 
-      setTitle(api.data.blog.title)
+      setTitle(api.data.blog.title)//check again
       setDescription(api.data.blog.description)
       setImgUrl(api.data.blog.imgUrl);
     }
@@ -169,7 +167,7 @@ function AddBlog() {
           <div>
             {
               (auth.id) ? (
-                <h1 className={titleStyle}>Edit Blog</h1>) : (
+                <h1 className={titleStyle}>Update Blog</h1>) : (
                 <h1 className={titleStyle}>Add Blog</h1>
               )
             }
@@ -216,7 +214,7 @@ function AddBlog() {
             <div className={labelInputWrapper}>
               {
                 (auth.id) ? (
-                  <button type="submit" className={addBlogButton}>Edit Blog</button>
+                  <button type="submit" className={addBlogButton}>Update Blog</button>
 
                 ) : (
                   <button type="submit" className={addBlogButton}>Add Blog</button>

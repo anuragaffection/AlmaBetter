@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import ArticleApp from '../assets/articleApp.jpg'
-import context from '../context/AuthContext'
+import context from '../context/MyContext'
 import { Social } from '../constant/social'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
@@ -37,6 +37,13 @@ function Navbar() {
             navigate('/');
         }, 1500);
     }
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
 
     const navbarContainer = `flex justify-between bg-black text-lime-500 text-lg w-full flex-col md:flex-row p-1 gap-2 sticky top-0`;
     const logo = ` text-xl font-semibold text-yellow-400`;
@@ -75,21 +82,22 @@ function Navbar() {
                 </Link>
 
                 <div className={nav}>
+                    <Link to={'/'}><li className={navLink} onClick={scrollToTop}>Home </li></Link>
                     {
                         (!auth.isAuthenticated) &&
-                        <Link to={'/login'}><li className={navLink}>Login </li></Link>
+                        <Link to={'/login'}><li className={navLink} onClick={scrollToTop}>Login </li></Link>
                     }
                     {
                         (!auth.isAuthenticated) &&
-                        <Link to={'/register'}><li className={navLink}>Register </li></Link>
+                        <Link to={'/register'}><li className={navLink} onClick={scrollToTop}>Register </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&
-                        <Link to={'/addblog'}><li className={navLink}>AddBlog </li></Link>
+                        <Link to={'/addblog'}><li className={navLink} onClick={scrollToTop}>AddBlog </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&
-                        <Link to={'/profile'}><li className={navLink}>Profile </li></Link>
+                        <Link to={'/profile'}><li className={navLink} onClick={scrollToTop}>Profile </li></Link>
                     }
                     {
                         (auth.isAuthenticated) &&

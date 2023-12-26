@@ -6,6 +6,36 @@ npm run build
 
 
 
+problems {
+
+    fully clear 
+    -- aboutApp
+    -- aboutdeveloper
+    -- footer
+    -- 
+
+
+    contact.jsx 
+    -- need backend send message 
+    -- 
+
+    myblogs 
+    -- edit not working 
+    -- delete not working 
+    -- 
+
+
+}
+
+
+
+
+{
+    https://blog-mern-backend-luce.onrender.com/api/users/login
+}
+
+
+
 installation links {
     -- https://tailwindcss.com/docs/guides/vite
 }
