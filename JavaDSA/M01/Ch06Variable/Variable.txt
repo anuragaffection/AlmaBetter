@@ -1,4 +1,30 @@
 
+Data Types in java {
+    -- char 
+    -- int 
+    -- double 
+    -- long 
+    -- String 
+    -- boolean 
+
+}
+
+
+
+Java Collection Framework {
+    -- Character 
+    -- Integer
+    -- Double
+    -- Boolean 
+
+    problem number 
+    -- #150UpperCase  
+    -- #151StringCompression 
+    -- 
+}
+
+
+
 Integer.MIN_VALUE;
 Integer.MAX_VALUE;
 

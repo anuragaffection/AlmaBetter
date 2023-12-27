@@ -1,8 +1,6 @@
 String Notes 
 
 
-
-
 String Compare {
     -- 01. =        , used to assign value 
     -- 02. ==       , used to compare value + data type 
@@ -16,6 +14,16 @@ quote {
 }
 
 
+char initialization {
+    
+    char myChar = '\0'  
+    -- empty char initialization in java
+    -- here we are storing 0 
+    -- we can store any Character
+    -- 
+}
+
+
 String Method{
     -- chartAt()
     -- length()
@@ -23,6 +31,7 @@ String Method{
 
     -- equals()
     -- join()
+
     -- indexOf()
 
     -- substring()
@@ -30,6 +39,22 @@ String Method{
     -- toString()
     -- toCharArray()
     -- toBinaryString()
+}
+
+
+
+
+
+
+Not a method in java {
+
+    includes()
+    -- available in javascript 
+
+    char myChar = ''
+    -- not possible in java 
+    -- not possible in javascript too 
+    -- let is used in javascript
 }
 
 

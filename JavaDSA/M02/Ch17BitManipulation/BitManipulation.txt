@@ -45,9 +45,11 @@ topics {
 
 
 concept {
-    01. XOR of a number with 0
+    01. XOR with 0
     -- number ^ 0 = number
+    -- char ^ 0 = char 
 
-    02. XOR of a number with number
+    02. XOR with itself 
     -- number ^ number = 0
+    -- char ^ char = 0
 }

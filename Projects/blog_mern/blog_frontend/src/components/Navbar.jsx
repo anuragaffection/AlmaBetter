@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
 import ArticleApp from '../assets/articleApp.jpg'
 import context from '../context/MyContext'
 import { Social } from '../constant/social'
@@ -10,34 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Navbar() {
     const auth = useContext(context);
-    const navigate = useNavigate();
-
-    const logout = async () => {
-        const api = await axios.get('https://blog-mern-backend-luce.onrender.com/api/users/logout', {
-            headers: {
-                "Content-Type": "application/json",
-            },
-            withCredentials: true,
-        });
-
-        toast.success(api.data.message, {
-            position: "top-center",
-            autoClose: 1500,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",
-        });
-
-        auth.setIsAuthenticated(false);
-
-        setTimeout(() => {
-            navigate('/');
-        }, 1500);
-    }
-
+    
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -99,10 +70,7 @@ function Navbar() {
                         (auth.isAuthenticated) &&
                         <Link to={'/profile'}><li className={navLink} onClick={scrollToTop}>Profile </li></Link>
                     }
-                    {
-                        (auth.isAuthenticated) &&
-                        <li className={navLink} onClick={logout}>Logout </li>
-                    }
+                    
                 </div>
             </div>
         </>

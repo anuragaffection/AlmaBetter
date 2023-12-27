@@ -5,45 +5,45 @@ npm run dev
 npm run build 
 
 
+important links {
+  -- https://tailwindcss.com/docs/guides/vite
+  -- https://dev.to/
+  -- https://blog-mern-backend-luce.onrender.com/api/users/login
+}
+
+
+
+
+problems i faced {
+  -- tailwind installation problems [using vite]
+  -- tailwind Class , whitespace-pre-wrap	= for description 
+  -- multiple context provider = we can not do that 
+  -- optimization in footer = by using object inside useState
+}
+
+
+
 
 problems {
 
-    fully clear 
-    -- aboutApp
-    -- aboutdeveloper
-    -- footer
-    -- 
+  fully clear 
+  -- aboutApp
+  -- aboutdeveloper
+  -- footer
+  -- 
 
 
-    contact.jsx 
-    -- need backend send message 
-    -- 
-
-    myblogs 
-    -- edit not working 
-    -- delete not working 
-    -- 
-
+  Issue 
+  -- edit not working [solved]
+  -- delete not working [solved]
+  -- useHistory not working 
+  -- need backend send message 
 
 }
 
 
 
 
-{
-    https://blog-mern-backend-luce.onrender.com/api/users/login
-}
-
-
-
-installation links {
-    -- https://tailwindcss.com/docs/guides/vite
-}
-
-
-similar apps {
-    -- https://dev.to/
-}
 
 
 when to prefer anchor tag & link tag {
@@ -51,40 +51,36 @@ when to prefer anchor tag & link tag {
 }
 
 
-anchor tag vs Link tag {
-    -- by default anchor tag fully reload the page 
-    -- Link tag just reload the specific components 
 
-    -- <a> tag: Triggers a full page reload when clicked.
-    -- <Link> component: Handles navigation within the React application without a full page reload.
-    -- 
+
+anchor tag vs Link tag {
+  -- by default anchor tag fully reload the page 
+  -- Link tag just reload the specific components 
+
+  -- <a> tag: Triggers a full page reload when clicked.
+  -- <Link> component: Handles navigation within the React application without a full page reload.
+  -- 
 }
+
 
 
 Link vs Route in react js {
-    -- 
+    -- both are necessary & depend on each other
 }
 
 
 
-code cutted addblog {
-                  <input
-                value={description}
-                onChange={(e) => setDescription(e.target.value)}
-                type="text" className={inputStyle} id="exampleInputEmail1"
-              />
+
+Why you can not use multiple context wrapper {
+  -- they will cancel out each other 
+  -- will create accesing problems
 }
 
 
-home {
-    style={{ width: '56%' }}
-    style={{ maxWidth: '760px' }}
-}
 
 
-userDetails {
-    import { BiSolidUserCircle } from 'react-icons/bi';
-import { MdEmail } from 'react-icons/md';
 
- <h3> {user.email}</h3>
+removded bootstrap link {
+  --  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  -- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
 }

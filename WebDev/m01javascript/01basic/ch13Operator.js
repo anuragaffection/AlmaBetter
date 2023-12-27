@@ -4,13 +4,14 @@
 
 
 
-
 /**
- * in this chapter 
- *  
- * 
-*/
-
+    13. Links 
+        -- Spread Operator in JavaScript (stackabuse.com)
+        -- https://www.educative.io/blog/bitwise-and-javascript
+        -- https://www.syncfusion.com/blogs/post 
+        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
+        -- https://codepip.com/games/code-crunchers/
+ */
 
 
 
@@ -35,15 +36,6 @@
 */
 
 
-
-/**
-    13. Javascript Operators
-        -- Spread Operator in JavaScript (stackabuse.com)
-        -- https://www.educative.io/blog/bitwise-and-javascript
-        -- https://www.syncfusion.com/blogs/post 
-        -- javascript-string-manipulation-techniques-every-developer-should-know.aspx
-        -- https://codepip.com/games/code-crunchers/
- */
 
 
 
@@ -310,6 +302,7 @@ console.log("Thank You from Anurag Affection");
 
 {
     /*
+        Activity 
 
        01. The assignment operator "=" is used to compare values in JavaScript.
 

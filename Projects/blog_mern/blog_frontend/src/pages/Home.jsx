@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import axios from 'axios'
 import UserDetail from '../components/UserDetail';
 import articleApp from '../assets/articleApp.jpg'
+import context from '../context/MyContext';
 
 const Home = () => {
   const [blog, setBlog] = useState([]);
- 
+  const accessingBlog = useContext(context);
+
   useEffect(() => {
     const fetchBlog = async () => {
       const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/blogs/allblogs`, {
@@ -21,6 +24,13 @@ const Home = () => {
     fetchBlog();
   }, [])
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+    
+  };
 
   const container = `bg-gray-900 text-gray-200 p-4`;
   const wrapper = `flex flex-col md:flex-row md:flex-wrap md:items-center md:justify-center gap-7 `;
@@ -39,32 +49,49 @@ const Home = () => {
           {
             blog.map((data) => {
               return (
-                  <div className={dataWrapper} key={data._id} >
+                <div className={dataWrapper} key={data._id} >
 
-                    <div className={imageWrapper}>
-                      <img
-                        src={(data.imgUrl) ? data.imgUrl : articleApp}
-                        className={imageStyle}
-                        alt="Image"
-                      />
-                    </div>
-
-                    <div className={titleStyle}>{data.title}</div>
-
-                    <div className={dateProfileWrapper}>
-                      <div> {new Date(data.createdAt).toLocaleDateString()}</div>
-                      <div> <UserDetail id={data.user} /></div>
-                    </div>
-
-                    <div> {data.description.substring(0, 250)} </div>
-                    <div className={readMoreStyle}> Read More & More</div>
-
+                  <div className={imageWrapper}>
+                    <img
+                      src={(data.imgUrl) ? data.imgUrl : articleApp}
+                      className={imageStyle}
+                      alt="Image"
+                    />
                   </div>
+
+                  <div className={titleStyle}>{data.title}</div>
+
+                  <div className={dateProfileWrapper}>
+                    <div> {new Date(data.createdAt).toLocaleDateString()}</div>
+                    <div> <UserDetail id={data.user} /></div>
+                  </div>
+
+                  <div>
+                    {
+                      data.description.length > 250
+                        ? `${data.description.substring(0, 251)}...`
+                        : data.description
+                    }
+                  </div>
+                  <div className={readMoreStyle}>
+                    <Link
+                      to={"/viewblog"}
+                      onClick={() => {
+                        accessingBlog.setSingleBlog(data);
+                        scrollToTop()
+                      }}
+                    >
+                      Read More & More
+                    </Link>
+                  </div>
+
+
+                </div>
               )
             })
           }
         </div>
-      </div>
+      </div >
     </>
   )
 }

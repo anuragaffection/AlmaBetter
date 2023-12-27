@@ -16,7 +16,6 @@ function AddBlog() {
   const [imgUrl, setImgUrl] = useState("");
 
   useEffect(() => {
-
     const fetchBlog = async () => {
       const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/blogs/blog/${auth.id}`, {
         headers: {
@@ -25,14 +24,14 @@ function AddBlog() {
         withCredentials: true,
       });
 
-      setTitle(api.data.blog.title)//check again
-      setDescription(api.data.blog.description)
-      setImgUrl(api.data.blog.imgUrl);
+      //console.log(api.data.data.title);
+      setTitle(api.data.data.title)
+      setDescription(api.data.data.description)
+      setImgUrl(api.data.data.imgUrl);
     }
 
     fetchBlog();
   }, [auth.id])
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -43,13 +42,12 @@ function AddBlog() {
           title,
           description,
           imgUrl
-        },
-          {
-            headers: {
-              "Content-Type": "application/json"
-            },
-            withCredentials: true,
-          });
+        }, {
+          headers: {
+            "Content-Type": "application/json"
+          },
+          withCredentials: true,
+        });
 
         // console.log(api);
         toast.success(api.data.message, {
@@ -67,7 +65,7 @@ function AddBlog() {
 
         setTimeout(() => {
           navigate('/profile')
-        }, 1500);
+        }, 1000);
 
       } catch (error) {
         // console.error(error)
@@ -86,18 +84,20 @@ function AddBlog() {
       }
 
     } else {
+
+
+
       try {
         const api = await axios.put(`https://blog-mern-backend-luce.onrender.com/api/blogs/${auth.id}`, {
           title,
           description,
           imgUrl
-        },
-          {
-            headers: {
-              "Content-Type": "application/json"
-            },
-            withCredentials: true,
-          });
+        }, {
+          headers: {
+            "Content-Type": "application/json"
+          },
+          withCredentials: true,
+        });
 
         // console.log(api);
         toast.success(api.data.message, {
@@ -115,7 +115,7 @@ function AddBlog() {
 
         setTimeout(() => {
           navigate('/profile')
-        }, 1500);
+        }, 1000);
 
         auth.setId("");
 
@@ -167,7 +167,8 @@ function AddBlog() {
           <div>
             {
               (auth.id) ? (
-                <h1 className={titleStyle}>Update Blog</h1>) : (
+                <h1 className={titleStyle}>Update Blog</h1>
+              ) : (
                 <h1 className={titleStyle}>Add Blog</h1>
               )
             }
@@ -179,8 +180,8 @@ function AddBlog() {
               <input
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                type="text" 
-                className={inputStyle} 
+                type="text"
+                className={inputStyle}
                 id="titleText"
               />
             </div>
@@ -190,8 +191,8 @@ function AddBlog() {
               <input
                 value={imgUrl}
                 onChange={(e) => setImgUrl(e.target.value)}
-                type="text" 
-                className={inputStyle} 
+                type="text"
+                className={inputStyle}
                 id="imageUrl"
               />
             </div>

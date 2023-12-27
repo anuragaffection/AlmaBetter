@@ -3,58 +3,55 @@ import { useNavigate } from 'react-router-dom';
 import AboutApp from './AboutApp';
 import Contact from './Contact'
 import PrivacyPolicy from './PrivacyPolicy';
-import AboutDevloper from './AboutDeveloper';
+import AboutDeveloper from './AboutDeveloper';
 import { Social } from '../constant/social';
-import { FaYoutube, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
+import {
+  FaYoutube,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebook
+} from 'react-icons/fa'
+
 
 function Footer() {
   const navigate = useNavigate();
 
-  const [showAboutApp, setShowAboutApp] = useState(false);
-  const [showContact, setShowContact] = useState(false);
-  const [showPolicy, setShowPolicy] = useState(false);
-  const [showaboutDeveloper, setShowAboutDeveloper] = useState(false);
+  const [showSection, setShowSection] = useState({
+    showAboutApp: false,
+    showContact: false,
+    showPolicy: false,
+    showAboutDeveloper: false,
+  });
+
 
   const scrollToTop = () => {
     navigate('/');
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
-    setShowAboutApp(false);
-    setShowContact(false);
-    setShowPolicy(false);
-    setShowAboutDeveloper(false);
+    setShowSection({
+      showAboutApp: false,
+      showContact: false,
+      showPolicy: false,
+      showAboutDeveloper: false,
+    });
   };
 
-  const toggleAbout = () => {
-    setShowAboutApp(!showAboutApp);
-    setShowContact(false);
-    setShowPolicy(false);
-    setShowAboutDeveloper(false);
 
-  }
-  const toggleContact = () => {
-    setShowAboutApp(false);
-    setShowContact(!showContact);
-    setShowPolicy(false);
-    setShowAboutDeveloper(false);
+
+  const toggleSection = (section) => {
+    setShowSection((prevState) => ({
+      ...prevState,
+      showAboutApp: section === 'aboutApp'  ? !prevState.showAboutApp : false,
+      showContact: section === 'contact' ? !prevState.showContact : false,
+      showPolicy: section === 'policy' ? !prevState.showPolicy : false,
+      showAboutDeveloper: section === 'aboutDeveloper' ? !prevState.showAboutDeveloper : false,
+    }));
 
   };
-
-  const togglePolicy = () => {
-    setShowAboutApp(false);
-    setShowContact(false);
-    setShowPolicy(!showPolicy);
-    setShowAboutDeveloper(false)
-  };
-
-  const toggleDevloper = () => {
-    setShowAboutApp(false);
-    setShowContact(false);
-    setShowPolicy(false);
-    setShowAboutDeveloper(!showaboutDeveloper)
-  }
 
   const footerContainer = `bg-black text-lime-500`;
   const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
@@ -72,19 +69,19 @@ function Footer() {
           <div className={name}> {Social.name}</div>
           <div className={nav}>
             <div className={navLink} onClick={scrollToTop}>Home</div>
-            <div className={navLink} onClick={toggleAbout}>About </div>
-            <div className={navLink} onClick={toggleContact}>Contact </div>
-            <div className={navLink} onClick={togglePolicy}>Privacy </div>
-            <div className={navLink} onClick={toggleDevloper}>Developer</div>
+            <div className={navLink} onClick={() => toggleSection('aboutApp')}>About{' '} </div>
+            <div className={navLink} onClick={() => toggleSection('contact')}>Contact{' '} </div>
+            <div className={navLink} onClick={() => toggleSection('policy')}>Privacy{' '}</div>
+            <div className={navLink} onClick={() => toggleSection('aboutDeveloper')}>Developer</div>
           </div>
         </div>
       </footer >
 
       <div>
-        {showAboutApp && <AboutApp />}
-        {showContact && <Contact />}
-        {showPolicy && <PrivacyPolicy />}
-        {showaboutDeveloper && <AboutDevloper />}
+        {showSection.showAboutApp && <AboutApp />}
+        {showSection.showContact && <Contact />}
+        {showSection.showPolicy && <PrivacyPolicy />}
+        {showSection.showAboutDeveloper && <AboutDeveloper />}
       </div>
 
       <div className={footerContainer}>
