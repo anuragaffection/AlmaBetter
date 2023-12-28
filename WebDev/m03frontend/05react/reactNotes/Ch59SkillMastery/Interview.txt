@@ -7,8 +7,7 @@ Website links {
 
 
 
-Important questions from 
-https://www.interviewbit.com/react-interview-questions/ {
+InterviewBit{
     
     01. 
     -- react follows unidirectional data binding or data flow.

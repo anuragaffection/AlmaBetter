@@ -1,11 +1,5 @@
 Layout & Styles 
 
-
-
-
-
-
-
 01. Layout
 02. CSS Modules 
 03. Global CSS
@@ -15,9 +9,22 @@ Layout & Styles
 
 
 
+Links {
+    -- https://blog.logrocket.com/best-styling-options-nextjs/
+    -- https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/
+    -- https://nextjs.org/blog/styling-next-with-styled-jsx
+}
 
 
 
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
 
 
 
@@ -58,13 +65,7 @@ Layout & Styles
 
 
 
-
-
-
-
-
 02. CSS Modules Feature {
-
     -- Modularity 
     -- Local Scope 
     -- No Global Name Space 
@@ -77,13 +78,7 @@ Layout & Styles
 
 
 
-
-
-
-
-
 02. CSS Modules Setup in Next js {
-
     -- `filename.module.css`
     --  Components styling 
     --  Components modules 
@@ -93,12 +88,7 @@ Layout & Styles
 
 
 
-
-
-
-
 03. Global CSS {
-
     --  apply on whole app 
     --  `globals.css`
     --  import next/ head
@@ -111,24 +101,14 @@ Layout & Styles
 
 
 
-
-
-
 04. External Stylesheet {
-
-    
-
-
+    -- 
 }
 
 
 
 
-
-
-
 05. CSS-in-JS Libraries {
-
     - Styled Components
     - Emotion 
     - Material UI 
@@ -140,9 +120,7 @@ Layout & Styles
 
 
 
-
 06. CSS performance {
-
     -- Minimize css size 
     -- remove unncessary spaces, line breaks
     -- use CSS sprites to combine image & icons 
@@ -158,9 +136,6 @@ Layout & Styles
     -- 
 
 }
-
-
-
 
 
 

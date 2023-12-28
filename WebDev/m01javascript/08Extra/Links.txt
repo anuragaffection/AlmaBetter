@@ -1,0 +1,21 @@
+Module 1 Javascript {
+
+
+
+        27. Asynchronous in Javascript 
+        -- Microtask and Macrotask: A Hands-on Approach | by Chidume Nnamdi 🔥💻🎵🎮 | Bits and Pieces (bitsrc.io)
+        -- JavaScript Asynchronous Programming and Callbacks (nodejs.dev)
+        -- Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More (freecodecamp.org)
+        -- http://latentflip.com/loupe/
+        -- Callback Hell Explained For Beginners | Complete Web Development Course #44 - YouTube
+        -- Promises Explained For Beginners | Async-Await & Promise | Web Development Course #45
+
+        28. Basics of Oops 
+        -- https://medium.com/@PitaJ/javascript-inheritance-patterns-179d8f6c143c
+        -- https://www.honeybadger.io/blog/javascript-oop/
+        -- https://dev.to/nehal_mahida/oops-in-javascript-with-easy-to-understand-examples-2ppn
+        -- Difference between proto and prototype - GeeksforGeeks
+
+ 
+
+}

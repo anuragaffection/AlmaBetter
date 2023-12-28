@@ -1,10 +1,6 @@
 
 Working with Database 
 
-
-
-
-
 01. API routes 
 02. Connecting to a Database 
 03. Fetching Data from Database 
@@ -14,95 +10,32 @@ Working with Database
 
 
 
-
-
-
-
-
-01. API routes {
-    -- creating an api route 
-    -- different http methods 
-    -- query parameters
-    -- 
+Links {
+    -- https://upstash.com/blog/best-database-for-nextjs
+    -- https://www.mongodb.com/docs/
+    -- https://daily.dev/blog/authentication-in-nextjs
 }
 
 
-
-
-02. Connecting to a Database {
-    -- Connecting to database 
-    -- querying data 
-
-}
-
-
-
-03. Fetching Data from Database {
-    -- 
-}
-
-
-
-
-04. Assets in NextJS {
-    -- static assets 
-    -- importing assets 
-    -- optimizing assets 
-    -- 
-}
-
-
-
-
-05. MetaData in NextJS {
-    -- 
-}
-
-
-
-06. Best practices with Assets & metadata {
-    -- Assets
-    -- MetaData
-}
-
-
-
-
-
-07. Note {
+Notes {
     -- database  = mongoDB, postgreSQL, mySQL,
     -- libraries = mongoose, sequelize 
-
     -- api route = RESTful APi, GraphQL
-
     -- postman   = to test the api 
     -- mySQL     = relational database        = data stored in form of table 
     -- mongoDB   = non - relational database  = data stored in document based 
-
     -- POST  = a method 
-
     -- req = request 
     -- res = response 
-    -- 
-
 }
 
 
 
-
-
-08. Recall {
-    -- json vs JSON 
+Task {
+    - json vs JSON 
     -- env file 
     -- 
 }
-
-
-
-
---------------------------------------------------
---------------------------------------------------
-
 
 
 

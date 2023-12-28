@@ -1,4 +1,6 @@
 
+[ChatGpt ]
+
 **1. What is Next.js, and how does it differ from traditional React applications?**
 
 

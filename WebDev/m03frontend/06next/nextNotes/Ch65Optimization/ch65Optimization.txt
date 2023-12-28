@@ -1,19 +1,50 @@
 Optimization in Next js 
 
-
-
-
-
 01. Overview of Optimization
 02. Image Optimization
 03. Font Optimization
 
 
 
+Links {
+    -- https://nextjs.org/docs/pages/building-your-application/optimizing/images
+    -- https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
+    -- https://stackoverflow.blog/2022/12/20/best-practices-to-increase-the-speed-for-next-js-apps/
+      
+}
 
 
 
-explore topics {
+Notes {
+    01. Overview of Optimization 
+    - Automatic Image Optimization
+    - Manual Image Optimization
+    - preloading fonts 
+    - Font Display
+    
+    02. Image Optimization 
+    - Image Component 
+    - Local Image
+    - Remote Image
+    - Domains 
+    - Priority 
+    - Sizing 
+    - Styling 
+    
+    03. Font Optimization 
+    - Google fonts 
+    - font in head 
+    - single page usage 
+    - local font 
+    - font with tailwind 
+    - preloading
+    - resuing fonts 
+}
+
+
+
+
+Task {
     -- MIME type 
     -- CORS setting 
 }
@@ -22,76 +53,9 @@ explore topics {
 
 
 
-
-
-
 01. Overview of Optimization {
 
-    - Automatic Image Optimization
-    - Manual Image Optimization
-    
-    - preloading fonts 
-    - Font Display
-    
-}
-
-
-
-
-
-
-
-02. Image Optimization {
-
-    - Image Component 
-    - Local Image
-    - Remote Image
-    - Domains 
-    - Priority 
-    - Sizing 
-    - Styling 
-   
-}
-
-
-
-
-
-03. Font Optimization {
-
-    - Google fonts 
-    - font in head 
-    - single page usage 
-    - local font 
-    - font with tailwind 
-    - preloading
-    - resuing fonts 
-   
-}
-
-
-
-
-
-
---------------------------------------
---------------------------------------
---------------------------------------
--------------------------------------
-
-
-
-
-
-
-
-
-01. Overview of Optimization {
-
-
-
-    - Automatic Image Optimization {
-
+    Automatic Image Optimization {
         -- next.config.js 
         -- deviceSizes 
         -- imageSizes 
@@ -100,11 +64,7 @@ explore topics {
         -- loader 
     }
 
-
-
-
-    - Manual Image Optimization {
-
+    Manual Image Optimization {
         -- next/image 
         -- src 
         -- alt 
@@ -114,12 +74,8 @@ explore topics {
         -- layout 
         -- placeholder
     }
-    
 
-
-
-    - preloading fonts {
-
+    preloading fonts {
         -- next/head 
         -- link 
         -- rel 
@@ -129,30 +85,21 @@ explore topics {
         -- crossOrgin
     }
 
-
-
-
-    - Font Display {
-
+    Font Display {
         -- swap 
-
         -- Head next/head 
         -- link 
         -- rel 
         -- href 
         -- type 
         -- media 
-
         -- style jsx global 
-
         -- font-face 
         -- src 
         -- format 
         -- url 
         -- font-display 
-
     }
-
 
 
     rel  - relationship bewtween document & link 
@@ -161,12 +108,7 @@ explore topics {
     swap - a font display property 
     placeholder = blur = this means that images will be blur , until it fully displayed, blur works if loading time is very long. 
 
-
-    
 }
-
-
-
 
 
 
@@ -178,8 +120,7 @@ explore topics {
 
 02. Image Optimization {
 
-
-    - Image Component {
+    Image Component {
         -- next/image 
         -- img 
         -- src 
@@ -190,34 +131,26 @@ explore topics {
     }
 
 
-    - Local Image {
-
+    Local Image {
         -- .jpg
         -- .png 
         -- .webp
-
         -- await import()
         -- require()
         -- import 
-
         -- blurDataURL 
         -- placeholder
     }
 
+    Remote Image
 
-
-    - Remote Image
-
-
-
-    - domains {
+    domains {
         -- loader 
         -- src 
     }
 
 
-
-    - priority {
+    priority {
         -- priority 
         -- LCP = Largest Contentful Paint
         -- 2.5 sec LCP = good 
@@ -226,16 +159,11 @@ explore topics {
     }
 
 
-
-
-    - Sizing {
-
+    Sizing {
         -- can cause Layout shift Problem 
         -- CLS = Cumulative Layout Shift
-
         -- 0.1 CLS  = good 
         -- 0.25 CLS = need improvement
-
         -- fill 
         -- static asset 
         -- width & height 
@@ -243,14 +171,10 @@ explore topics {
     }
 
 
-
-
-    - Styling {
-
+    Styling {
         -- className 
         -- style 
         -- styled-jsx 
-
     }
    
 }
@@ -265,49 +189,37 @@ explore topics {
 
 03. Font Optimization {
 
-    - Google fonts {
+    Google fonts {
         -- next/font 
         -- next/font/google 
         -- Inter 
         -- subsets 
         -- weight 
         -- style 
-
     }
 
 
-
-    - font in head {
+    font in head {
         -- `style jsx global`
         -- html 
-
     }
 
+    single page usage 
 
-
-    - single page usage 
-
-
-
-    - local font {
+    local font {
         -- next/font/local 
         -- src
         -- 
     }
 
-
-
-    - font with tailwind {
+    font with tailwind {
         -- next/font
         -- require
         -- tailwind.config.js
         -- 
     }
 
-    - preloading {
-
-    }
-
+    - preloading 
     - resuing fonts 
    
 }
@@ -319,39 +231,25 @@ explore topics {
 
 
 
-
-
-
-
-
 Activity true or false {
 
-    NextJS provides an Automatic Image Optimization feature that automatically generates multiple image sizes and formats based on device size and resolution to improve website performance.
+    01. NextJS provides an Automatic Image Optimization feature that automatically generates multiple image sizes and formats based on device size and resolution to improve website performance.
 
-
-
-    The ideal Largest Contentful Paint (LCP) score, which measures how quickly a webpage loads its main content, is 2.75 seconds or less.
-
-
+    02. The ideal Largest Contentful Paint (LCP) score, which measures how quickly a webpage loads its main content, is 2.75 seconds or less.
     
-    NextJS provides a unique feature specific to it, called Dynamic Imports, which allows you to split your code into small chunks and load them on demand, leading to performance improvements, especially on mobile devices.
+    03. NextJS provides a unique feature specific to it, called Dynamic Imports, which allows you to split your code into small chunks and load them on demand, leading to performance improvements, especially on mobile devices.
 
+    04. The font-display property in NextJS allows you to control how fonts are displayed while they are loading, and by default, NextJS sets it to swap.
 
-    The font-display property in NextJS allows you to control how fonts are displayed while they are loading, and by default, NextJS sets it to swap.
-
-
-    NextJS doesn't provide any feature to specify the image size, quality, and format, giving you more control over image optimization.
-
-
+    05. NextJS doesn't provide any feature to specify the image size, quality, and format, giving you more control over image optimization.
 
 
    Answers
-
-    True
-    False
-    False
-    True
-    False
+   1. True
+   2. False
+   3. False
+   4. True
+   5. False
 }
 
 

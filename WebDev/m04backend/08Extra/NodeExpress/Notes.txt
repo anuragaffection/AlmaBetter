@@ -1,1 +1,18 @@
-[by CWH]
+[By Code With Harry ]
+
+
+npm {
+    -- package manager for nodejs
+    -- 
+}
+
+
+
+Task {
+    -- callback 
+    -- promises 
+    -- asynchronous 
+    -- async, defer, await 
+}
+
+

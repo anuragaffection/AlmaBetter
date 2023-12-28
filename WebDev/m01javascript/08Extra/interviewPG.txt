@@ -1,6 +1,9 @@
 javascript interview questions by [Piyush Garg ]
 
 
+Part 01
+--
+
 01. hoisting with variables 
 -- Global Execution context 
 
@@ -20,4 +23,10 @@ javascript interview questions by [Piyush Garg ]
 05. scope of variables
 -- scope of variables in iife 
 -- scope of variables in Function
+
+
+
+
+Part 02 
+-- 
 

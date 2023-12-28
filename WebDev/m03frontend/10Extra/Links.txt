@@ -1,0 +1,41 @@
+
+Module 03 frontend {
+    
+    Chapter 01. Static Web {
+        11. HTML Basics
+        -- https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html
+        -- https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599
+        
+        12. HTML Advance
+        -- https://www.codewithrandom.com/2022/12/10/how-to-add-multimedia-to-html/
+        -- https://www.w3.org/MarkUp/Guide/Advanced.html
+        -- W3C
+
+        13. Css Fundamental
+        -- https://levelup.gitconnected.com/fundamental-css-for-beginners-f44e8b9a5da5
+        -- https://www.htmlgoodies.com/css/css-border-padding-margin/
+        
+        14. Advanced Css Techniques
+        -- https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+        -- https://www.smashingmagazine.com/2022/10/advanced-animations-css/
+        -- https://dev.to/w3tsa/css-display-and-css-position-4ldi
+        
+        15. Bootstrap Basics
+        -- https://medium.com/codingthesmartway-com-blog
+        -- introduction-to-bootstrap-4-flex-layout-flexbox-for-bootstrap-f85405ce5ebf
+        -- https://www.sitepoint.com/bootstrap-grid-mastering-flexbox/
+
+        16. Bootstrap Advance
+        -- 
+
+        17. Skill Mastery
+        -- 
+
+    }
+
+
+
+
+
+ 
+}

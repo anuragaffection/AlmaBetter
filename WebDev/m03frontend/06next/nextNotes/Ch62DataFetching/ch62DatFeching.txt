@@ -1,9 +1,5 @@
 Data Fetching 
 
-
-
-
-
 01. Overview of Data Fetching
 02. getServerSideProps
 03. getStaticProps
@@ -14,23 +10,30 @@ Data Fetching
 
 
 
-
-
-Explore 
---  getInitialProps - (deprecating )
---  next / link 
---  next / router 
---  Caching with SSR 
---  headless CMS
---  generating path on demand 
---  revalidate - used to change default behaviour of getServerSideProps
+Links {
+    -- https://nextjs.org/docs/pages/building-your-application/data-fetching/building-forms
+    -- https://nextjs.org/docs/pages/building-your-application/data-fetching
+    -- https://javascript.plainenglish.io/how-to-cache-api-calls-in-next-js-f4b6aefa84f1
+    -- https://www.contentful.com/headless-cms/
+}
 
 
 
-https://www.contentful.com/headless-cms/
+Notes {
+    -- 
+}
 
 
-
+Task {
+    --  getInitialProps - (deprecating )
+    --  next / link 
+    --  next / router 
+    --  Caching with SSR 
+    --  headless CMS
+    --  generating path on demand 
+    --  revalidate - used to change default behaviour of getServerSideProps
+ 
+}
 
 
 
@@ -68,12 +71,6 @@ https://www.contentful.com/headless-cms/
         - revalidate = a property 
     }
 )
-
-
-
-
-
-
 
 
 
@@ -118,8 +115,6 @@ https://www.contentful.com/headless-cms/
     }
 
 )
-
-
 
 
 
@@ -200,7 +195,6 @@ https://www.contentful.com/headless-cms/
 
 
 
-
 05. Incremental Static Regeneration (
 
     -- why ISR {
@@ -238,37 +232,28 @@ https://www.contentful.com/headless-cms/
 
 
 
+07. Activity (fill in the blanks ) {
 
+    01.  Static Generation (SG) generates HTML at ________(build/run/request) time rather than run time.
+    
+    02.  The function used in Next.js for Server-Side Rendering (SSR) is called ________ (getServerProps/getServerSideProps/getServerSide).
+    
+    03.  When using getStaticProps, the function is executed on the ________ (client/server/both).
+    
+    04.  getStaticProps generates both HTML and ________(javascript/JSON/CSS)  files, which a CDN can cache for better performance.
+    
+    05.  Static Generation (SG) is a great approach for pages that can be ________(pre-rendered/client-rendered/server-rendered), such as marketing pages, blog posts, and e-commerce product listings.
+    
+    
+    Answer
+    01. Build
+    02. getServerSideProps
+    03. server
+    04. JSON
+    05. pre-rendered
 
+}
 
-
-
-07. Activity (fill in the blanks )
-
-
-01.  Static Generation (SG) generates HTML at ________(build/run/request) time rather than run time.
-
-
-02.  The function used in Next.js for Server-Side Rendering (SSR) is called ________ (getServerProps/getServerSideProps/getServerSide).
-
-
-03.  When using getStaticProps, the function is executed on the ________ (client/server/both).
-
-
-04.  getStaticProps generates both HTML and ________(javascript/JSON/CSS)  files, which a CDN can cache for better performance.
-
-
-05.  Static Generation (SG) is a great approach for pages that can be ________(pre-rendered/client-rendered/server-rendered), such as marketing pages, blog posts, and e-commerce product listings.
-
-
-
-Answer
-
-Build
-getServerSideProps
-server
-JSON
-pre-rendered
 
 
 

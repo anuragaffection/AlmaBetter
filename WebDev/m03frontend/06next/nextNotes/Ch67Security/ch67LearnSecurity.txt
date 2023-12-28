@@ -1,15 +1,25 @@
 
 Security Testing & Deployment
 
-
-
 01. Authentication using iron - session
 02. Testing using cypress 
 03. Deployment of a project 
 
 
+Links {
+    -- https://nextjs.org/docs/deployment
+    -- https://nextjs.org/docs/pages/building-your-application/optimizing/testing       
+}
 
 
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
 
 
 01. iron session {
