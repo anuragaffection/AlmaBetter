@@ -1,0 +1,84 @@
+
+Github Actions {
+  
+    -- by Raghav Pal (Youtube)
+    -- What are Github Actions Step by Step for beginners Hindi 
+
+
+    Topics 
+    -- Github Actions
+    -- How to use github actions
+    -- github actions terms - events, workflows, jobs, steps 
+
+
+    Github Actions
+    -- feature in github to create custom automated workflows
+    -- automate SDLC workflows
+    -- implement ci cd devops 
+    -- run a task on a specific events
+    -- 
+
+
+    SDLC (software Development Life Cycle) - 6 pahses 
+    -- analysis
+    -- design
+    -- Coding or development
+    -- Testing
+    -- deployment
+    -- Maintenance
+
+
+    CI tools
+    -- Jenkin 
+    -- Circle ci 
+    -- gitlab 
+
+
+    Demo 
+    -- Create a new repositories or choose existing one 
+    -- go to github actions 
+    -- click on "create a workflows"
+    -- create a folder .github/workflows
+    -- create a .yml file 
+    -- .yml 
+    -- https://gist.github.com/weibeld/f136048d0a82aacc063f42e684e3c494
+    -- https://jsonformatter.org/yaml-formatter
+    -- add workflow in content fle 
+    -- commit and push 
+    -- go to main page of repository 
+    -- go to actions 
+    -- select the workflow from filter 
+    -- check the logs and results 
+    -- we can create multiple jobs 
+
+
+    Terms 
+    -- name:   = name of the workflow
+    -- on:     = needs event or activity like push, pull, issues,  
+    -- jobs:   = what to do on event 
+    -- runs-on: = on which machine it should run like ubuntu-latest 
+    -- steps:   = actual things to do in jobs 
+    -- needs: 
+
+
+    Extra terms 
+    -- workflow = collections of jobs defined in yml file 
+    -- events   = any activity 
+    -- jobs     = collections of steps 
+    -- steps    = actions to be taken , command, scripts, 
+    -- chained jobs = 
+
+
+    example to print hello world {
+        name: hello-world
+        on: push
+        jobs:
+          my-job:
+            runs-on: ubuntu-latest
+            steps:
+              - name: my-step
+                run: echo "Hello World!"
+    }
+    
+
+}

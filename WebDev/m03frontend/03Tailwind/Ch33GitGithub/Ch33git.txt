@@ -1,0 +1,1 @@
+deployment of static website on github projects 

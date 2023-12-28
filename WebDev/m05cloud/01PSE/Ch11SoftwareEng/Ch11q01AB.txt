@@ -16,7 +16,7 @@ Continuous Delivery
 
 
 
-02.
+02.]]
 Which software development approach emphasizes extensive documentation and sequential phases?
 
 Waterfall
@@ -85,13 +85,14 @@ To manage project timelines and resources
 
 
 
-07.
+07.]]
 Which software engineering principle states that software should be open for extension but closed for modification?
 
 Liskov Substitution Principle
 Open-Closed Principle
 Single Responsibility Principle
 Dependency Inversion Principle
+
 
 
 
@@ -125,7 +126,8 @@ Creating software prototypes
 
 
 
-10.
+
+10.]]]
 What is the purpose of code refactoring in software development?
 
 To improve the structure and design of existing code without changing its external behavior

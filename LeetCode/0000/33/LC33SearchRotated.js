@@ -13,7 +13,6 @@
     // using single loop 
 
 
-
     /**
      * @param {number[]} nums
      * @param {number} target

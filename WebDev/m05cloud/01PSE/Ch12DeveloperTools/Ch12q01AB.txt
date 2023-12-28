@@ -1,0 +1,240 @@
+Common Developers tools & Advance GitHub
+
+
+
+
+01.
+What is the purpose of GitHub Projects?
+
+To track and manage issues in a repository
+To automate workflows and tasks
+To manage project boards and tasks
+To review and approve code changes
+
+
+
+
+
+
+02.
+What is the purpose of forking a repository on GitHub?
+
+To create a backup copy of a repository
+To merge changes from one branch to another
+To create a new branch in a repository
+To copy a repository under your GitHub account
+
+
+
+
+
+
+03.
+What is GitHub Actions?
+
+A code editor
+A version control system (VCS)
+A continuous integration and automation platform
+A package manager
+
+
+
+
+
+
+
+04.
+Which of the following is a popular package manager for JavaScript?
+
+Pip
+Npm
+Maven
+Composer
+
+
+
+
+
+
+
+05.
+What is the purpose of the "git revert" command?
+
+Discards uncommitted changes
+Reverts a commit from the branch
+Creates a new branch from a specific commit
+Lists the commits in a branch
+
+
+
+
+
+
+
+
+06.
+Which of the following features are commonly found in code editors and IDEs?
+
+Syntax highlighting
+Code auto-completion
+Version control integration
+All of the above
+
+
+
+
+
+
+
+07.
+What is a merge conflict in version control?
+
+An error that occurs during the commit process
+Incompatibilities between different versions of the VCS software
+Conflicting changes made to the same code by different developers
+An issue that arises when integrating code from a branch into the main branch
+
+
+
+
+
+
+
+08.
+What is the purpose of branching in a version control system?
+
+To synchronize code changes between developers
+To track the progress of project tasks
+To create isolated workspaces for new features or bug fixes
+To automate the process of code review
+
+
+
+
+
+
+
+
+09.
+What is the purpose of a GitHub repository?
+
+To store and manage code
+To deploy applications
+To create virtual environments
+To run automated tests
+
+
+
+
+
+
+
+10.
+Which of the following package managers is used for managing packages in Java projects?
+
+Pip
+Npm
+Maven
+Composer
+
+
+
+
+
+
+
+
+
+Answer
+
+
+01.
+To manage project boards and tasks
+
+GitHub Projects is a feature that helps you organize and manage tasks, issues, or features using Kanban-style boards. It allows you to create custom project boards, add cards representing tasks, and track progress.
+
+
+
+
+
+02.
+To copy a repository under your GitHub account
+
+Forking a repository on GitHub creates a copy of the original repository under your GitHub account. It allows you to freely experiment with and make changes to the repository without affecting the original project.
+
+
+
+
+
+03.
+A continuous integration and automation platform
+
+GitHub Actions is a powerful platform for automating workflows, including continuous integration and deployment, in your GitHub repositories.
+
+
+
+
+
+04.
+Npm
+
+Npm (Node Package Manager) is a widely used package manager for JavaScript and Node.js. It allows developers to easily install, manage, and share packages and dependencies for their JavaScript projects
+
+
+
+
+
+
+05.
+Reverts a commit from the branch 
+
+Git revert undoes a specific commit by creating a new commit that undoes the changes introduced by the original commit. It is a safe way to reverse the effects of a commit while preserving the commit history.
+
+
+
+
+06.
+All of the above
+
+Syntax highlighting, code auto-completion, and version control integration are commonly found features in both code editors and IDEs. These features enhance productivity, code readability, and collaboration.
+
+
+
+
+
+07.
+Conflicting changes made to the same code by different developers
+
+A merge conflict occurs when two or more developers make conflicting changes to the same code in a version control system. Conflicts arise when the system cannot automatically determine which changes to keep. Developers must resolve these conflicts manually by reviewing the conflicting code and deciding how to combine the changes.
+
+
+
+
+08.
+To create isolated workspaces for new features or bug fixes
+
+Branching allows developers to create separate workspaces within a version control system. This helps isolate changes for specific features or bug fixes, allowing parallel development without interfering with the main codebase. Branches can be merged back into the main branch once the changes are complete and tested.
+
+
+
+
+
+09.
+To store and manage code
+
+A GitHub repository is a central location where you can store and manage your code, collaborate with others, and track changes using Git.
+
+
+
+
+
+10.
+Maven
+
+Maven is a popular package manager and build tool for Java projects. It manages dependencies and helps in building, testing, and deploying Java applications.
+
+
+
+
+
+

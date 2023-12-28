@@ -12,14 +12,23 @@ Advanced Git Techniques
 
 
 Links {
-    -- https://almabetter.notion.site/Security-and-GitHub-68f242196a2c4bf69989d23f3da8f15c
-    -- https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code
+
+    AB 
     -- https://www.atlassian.com/git/tutorials/advanced-overview
-    -- https://github.com/
+    -- https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code
+    -- https://almabetter.notion.site/Security-and-GitHub-68f242196a2c4bf69989d23f3da8f15c
+
+    Extra 
     -- https://www.vim.org/
+    -- https://github.com/
     -- https://www.freecodecamp.org/news/visual-studio-vs-visual-studio-code/
     -- https://learngitbranching.js.org/
     -- https://ohmygit.org/
+
+    Related File 
+    -- Ch33git.txt 
+    -- Ch33gitPW.txt 
+
 }
 
 
@@ -46,6 +55,7 @@ Task {
     -- Visual Studio vs Visual Studio code 
 
     -- try github copilot
+    -- try blackbox ai 
     -- 
 }
 
@@ -54,9 +64,7 @@ Task {
 
 
 developer tools {
-    -- DevTools 
 
-    Web Developer Tools 
     -- Sublime Text 
     -- Vim 
     -- Notepad++
@@ -107,6 +115,8 @@ Package Managers {
     Javascript 
     -- npm
     -- yarn
+    -- bun 
+    -- 
 
     Python 
     -- pip 
@@ -152,16 +162,17 @@ Git Commands {
     -- git add <file> 
     -- git commit 
     -- git status 
-    -- git diff 
+    -- git diff ]]
     -- git push 
     -- git pull 
     -- git branch 
     -- git checkout 
+    -- git switch 
     -- git merge 
-    -- git remote 
+    -- git remote ]]
     -- git log 
-    -- git reset 
-    -- git stash 
+    -- git reset ]]
+    -- git stash ]]
     -- git rm <file> 
     -- git mv <old> <new> 
     -- git help 
@@ -181,7 +192,8 @@ Github {
     -- master 
     -- git branch
     -- git branch <new_branch_name> 
-    -- git checkout <new_branch_name> 
+    -- git checkout <branch_name> 
+    -- git switch <branch_name> 
 }
 
 
@@ -192,20 +204,24 @@ Collaborative Development with Github {
 
     Pushing 
     -- git push <remote> <branch> 
-    -- git push <origin> <master> 
+    -- git push origin <master> 
+    -- git push origin <main> 
     
     Pulling 
     -- git pull <remote> <branch> 
     -- git pull <origin> <master> 
 
     Merging 
-    -- git add 
+    -- git add . 
+    -- git add <fileName>
     -- git commit -m "<some_message>"
+    -- git merge <branch_name> 
 
-    Additional 
+    Additional ]]]
     -- git remote -v 
     -- git branch -r 
     -- git checkout -b 
+    -- git checkout -b <loaclBranch> <remote> / <remoteBranch> 
     -- git fetch <remote> 
 }
 
@@ -215,11 +231,11 @@ Collaborative Development with Github {
 
 Github Advanced Features {
 
-    GitHub Actions ]]
+    GitHub Actions ]]]
     -- for automating workflows 
     -- .github/workflows
     -- .yml 
-    -- 
+    -- how to store secrets environment variables on github 
 
     Github pages 
     -- publish static apps to github.io 
@@ -232,14 +248,17 @@ Github Advanced Features {
 
 
 Advanced Git Techniques]] {
-    -- Rebasing
-    -- What is  cherry picking 
+    Rebasing
+    -- diff view in github
+
+    What is  cherry picking 
+    -- 
 }
 
 
 
 
-Activity [
+Activity {
     
     Fill in the blanks
     
@@ -249,7 +268,7 @@ Activity [
     
     03. ___________(Integrated development environment/Package manager) is a tool that automates the process of installing, updating, configuring, and removing software packages on a computer system.
     
-    04. In addition to software installation and updates, some package managers also provide features for ____________(version/dependency) management, allowing users to rollback to previous versions of installed packages if needed.
+    04.]]] In addition to software installation and updates, some package managers also provide features for ____________(version/dependency) management, allowing users to rollback to previous versions of installed packages if needed. 
     
     05. The purpose of a ____________(IDE/VCS) is to enable collaboration among developers by allowing them to work on the same codebase simultaneously.
     
@@ -269,13 +288,13 @@ Activity [
 
     01. Git and GitHub are the same thing.
     
-    02. Git is only accessible through the command line interface (CLI) and does not have a graphical user interface (GUI).
+    02.]]] Git is only accessible through the command line interface (CLI) and does not have a graphical user interface (GUI).
     
     03. GitHub Actions is a feature that allows you to automate workflows, including continuous integration and continuous deployment (CI/CD).
     
     04. GitHub Projects is a feature used for managing code versioning and repositories.
     
-    05. Rebasing is a way to integrate changes from one branch into another by moving the entire commit history of the branch being rebased on top of the target branch.
+    05.]]] Rebasing is a way to integrate changes from one branch into another by moving the entire commit history of the branch being rebased on top of the target branch.
     
     06. If a conflict arises during a rebase, Git automatically resolves the conflict using the changes from the branch being rebased.
     
@@ -286,5 +305,7 @@ Activity [
     04. False
     05. True
     06. False
-]
+}
+
+
 

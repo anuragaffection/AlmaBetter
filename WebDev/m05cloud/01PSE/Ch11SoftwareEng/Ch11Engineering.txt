@@ -9,28 +9,30 @@ Software Maintenance & Evolution
 Software Project Management 
 Software Quality Assurance 
 Software Engineering Ethics 
-SDLC Models 
+SDLC Models ]]]
 
 
 
 
 Links {
-    -- 
+    -- https://medium.com/software-engineering
+    -- https://medium.com/@mygreatlearning/8-tips-on-how-to-be-an-effective-software-engineer-f314e0ed4fd3
 }
 
 
 
 Notes {
-    -- 
+    -- UML = unified modeling language
+    -- SQA = Software quality Assurance
 }
 
 
 Task {
     -- Software Developer vs Software Engineer 
+    -- UML diagrams vs flowcharts
     -- what is Devops
+    -- what is DevSecOps 
 }
-
-
 
 
 
@@ -151,7 +153,7 @@ Software Design Principles {
 
     Architectural Patterns 
     -- MVC   = Model view Controller 
-    -- Model = data, Bussiness logic, modle of data 
+    -- Model = data, Bussiness logic, model of data 
     -- View  = user interface / frontend 
     -- Controller = handles user input, logic, Functional
 
@@ -270,13 +272,58 @@ Software Engineering Ethics {
 
 
 
-SDLC Models {
-    -- waterfall model
-    -- Agile model
-    -- Iterative model
-    -- V-model 
-    -- spiral model
-    -- RAD 
+SDLC Models]]] {
+    -- way to develop application
+    -- hybrid model 
+
+    Agile model
+    -- 
+
+    waterfall model
+    -- sequential design process
+    -- moves in straight line from one phase to the next 
+    -- 
+
+    Interative Waterfall model 
+    -- 
+    
+    Iterative model
+    -- small cycle
+    -- combine both waterfall + Agile 
+
+    prototype model
+    -- First prototype is created, when client is unsure about, what they need 
+
+    incremental model 
+    -- 
+
+    Evolutionary model
+    -- 
+    
+    V-model 
+    -- verification and validation model
+    -- follows a linear progression
+    -- extension of waterfall  
+    -- waterfall model with testing at  each development
+    
+    RAD 
+    -- rapid application development
+    -- rapid prototyping
+    -- iterative development
+    -- quick development
+    -- user involvement 
+    
+    spiral model
+    -- combine waterfall & iterative 
+    -- follows a linear progression 
+    -- risk analysis at each iterations 
+    -- suits project with high uncertainity 
+    -- suits project with changing requirements
+    -- works well in complex, large and expnesive projects 
+    -- not suitable for smaller of low budget projects 
+
+
+
 }
 
 
@@ -296,7 +343,7 @@ Activity {
     
     04. UML diagrams and flowcharts are design notations used to represent software designs visually.
     
-    05. The Software Development Life Cycle (SDLC) analysis phase involves translating software requirements into a detailed system design.
+    05.]] The Software Development Life Cycle (SDLC) analysis phase involves translating software requirements into a detailed system design.
     
     Solutions
     01. True
@@ -340,9 +387,9 @@ Activity {
     
     04. Using pirated or unlicensed software tools for development is acceptable if it speeds up the development process and reduces costs.
     
-    05. The Waterfall model's strict sequential approach can be limiting when dealing with evolving requirements, as changes might require revisiting multiple phases.
+    05.]]] The Waterfall model's strict sequential approach can be limiting when dealing with evolving requirements, as changes might require revisiting multiple phases.
     
-    06. The Spiral model is beneficial for projects with high levels of uncertainty, as it involves risk assessment and iterative development to manage uncertainty effectively.
+    06.]]] The Spiral model is beneficial for projects with high levels of uncertainty, as it involves risk assessment and iterative development to manage uncertainty effectively.
     
     Answers
     01. Agree

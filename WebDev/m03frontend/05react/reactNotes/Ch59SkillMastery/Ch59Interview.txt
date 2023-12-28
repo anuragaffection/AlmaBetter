@@ -7,7 +7,8 @@ Website links {
 
 
 
-Important questions from https://www.interviewbit.com/react-interview-questions/ {
+Important questions from 
+https://www.interviewbit.com/react-interview-questions/ {
     
     01. 
     -- react follows unidirectional data binding or data flow.
@@ -38,4 +39,9 @@ Important questions from https://www.interviewbit.com/react-interview-questions/
     -- why react use two virtual dom 
     -- inefficient updating = when due to small changes, the appliaction re render everything 
     -- React uses two virtual DOMs to render the user interface
+
+    09. 
+    -- What are the differences between controlled and uncontrolled components
+    -- what is ref 
+    -- 
 }

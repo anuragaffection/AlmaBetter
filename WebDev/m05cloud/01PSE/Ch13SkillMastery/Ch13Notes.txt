@@ -1,0 +1,125 @@
+Skill Mastery 
+-- Ch11 Software Engineering 
+-- Ch12 Developer Tools & Github 
+
+
+
+Links {
+    -- https://sesync-ci.github.io/advanced-git-lesson/index.html
+    -- https://azure.microsoft.com/en-in/solutions/devops/tutorial/#understanding
+}
+
+
+
+Notes {
+    -- npm = node package manager 
+    -- pip = python installer package 
+    -- VCS = Version Control System 
+    -- Github Actions = automate Tasks 
+}
+
+
+
+Task {
+    -- some testing framework 
+    -- 
+}
+
+
+
+Interview Prep {
+    
+    Agile Methodology 
+    -- an approach to Software Development
+    -- 
+
+
+    Types of Testing 
+    -- unit Testing
+    -- integration Testing]]
+    -- system Testing
+    -- acceptance Testing]]
+
+    Other type of testing [Ch11 Software engineering]
+    -- automated testing
+    -- compatibility testing
+    -- functional testing
+    -- performace testing
+    -- Reliability testing
+    -- Regression testing
+    -- security testing
+    -- usability testing
+
+    scalability testing [ Ch41 Scalable system]
+    -- load Tesing 
+    -- stress testing
+    -- performace testing
+    -- capacity testing
+    -- scalability testing
+    -- failover testing
+    -- database testing
+    -- network testing
+    -- coud based testing
+    -- real use monitoring
+
+
+
+    Benefits of Software Maintenance 
+    -- bug fixing 
+    -- security updates 
+    -- compatibility with new platforms 
+
+
+    MVC Pattern 
+    -- Model View Controller
+    -- seprate the application code into three main components
+    -- 1. Model
+    -- 2. view
+    -- 3. controller
+
+
+    Use Case of Test Driven Development  
+    -- jest & mocha 
+    -- 
+
+
+    Managing Branches 
+    -- git branch <branch_name> 
+    -- git checkout <branch_name> 
+    -- git switch <branch_name> 
+    -- git branch
+    -- git branch -d <branch_name> 
+    -- git branch -D <branch_name> 
+    -- git branch -m <new_branch_name> ]]
+
+    Managing Pull Request 
+    -- merge method = merge commit, squash, rebase ]]
+    -- 
+
+
+
+    Using Git hooks for automating commit ]]] {
+
+        Hook types 
+        -- pre-commit
+        -- pre-recieve 
+        -- post-commit 
+        -- post-recieve
+
+        Hook setup 
+        -- .git/hooks
+        -- .sample 
+        -- 
+
+
+    }
+
+   
+
+
+}
+
+
+
+
+
