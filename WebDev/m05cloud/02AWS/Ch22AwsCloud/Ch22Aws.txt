@@ -25,7 +25,9 @@ Notes {
     -- GCP = Google cloud platform
     -- SPA = Single page application
     -- SSR = server side rendering
-    -- ACLs = access control list 
+    -- CRM = Customer Relationship Management 
+    -- VMs = virtual Machines
+    -- ACLs = access control lists 
     -- SDKs = Software development kits 
     --  
 }
@@ -33,13 +35,14 @@ Notes {
 
 
 Task {
-    -- IaaS vs PaaS vs SaaS vs on-premises [check some picture ]
-    -- Frontend deployment with aws
+    -- IaaS vs PaaS vs SaaS vs on-premises]]] [check some picture ]
+    -- public vs private vs hybrid vs community ]]]
+    -- Frontend deployment with aws 
     -- explore google cloud platform 
     -- how to get aws certification for free 
     -- how Middleware work 
     -- What is Salesforce 
-    -- freelancig.com 
+    -- freelancing.com 
     -- upwork.com 
     -- 
 }
@@ -59,32 +62,49 @@ Overview of Cloud {
 
 
 
+
 Cloud Service Models {
     
     IaaS 
     -- infrastructure as a service 
-    -- 
+    -- foundational layer 
+    -- provide virtual computing service 
+    -- we rent IT infrastructure
+    -- we rent virtual machine (VMs)
+    -- we rent cpu, memory, storage 
+    -- block Storage  = Amazon EBS, Azure Disk 
+    -- object Storage = Amazon S3, Azure Blob Storage 
+    -- File Storage   = Amazon EFS, Azure Files 
+    -- eg.  Amazon EC2, Azure VMs, Google Compute Engine 
+
 
     PaaS 
     -- platform as a service 
+    -- Auto Scaling 
     -- AWS elastic beanstalk 
     -- Azure app service
     -- Google app engine 
 
+
     SaaS 
     -- Software as a service
-    -- CRM = Customer Relationship Management 
+    -- highest layer of cloud
+    -- we get ready to use application
+    -- Customer Relationship Management 
     -- Salesforce(CRM)
     -- Google Workspace (G suite)
     -- Microsoft 365
     -- DropBox 
     -- 
 
+
     IaaS vs PaaS vs SaaS
-    -- IaaS offers infrastructure resources, 
+    -- IaaS offers   infrastructure resources, 
     -- PaaS provides development platforms, 
     -- SaaS delivers fully managed software applications. 
 }
+
+
 
 
 
@@ -98,8 +118,11 @@ Cloud Deployment Models {
     -- 
 
     private Cloud
-    -- specific to its own company 
-    -- 
+    -- dedicated to single organization
+    -- resources are not stored to other organization
+    -- private cloud is expensive
+    -- used when strict data privacy needed 
+    -- used by financial, healthcare, government agencies 
 
     hybrid Cloud
     -- combination of public & private cloud
@@ -107,6 +130,7 @@ Cloud Deployment Models {
     -- use private cloud, to store sensitive data 
 
     community Cloud
+    -- shared by multiple organization
     -- 
 
     multi cloud
@@ -128,15 +152,17 @@ Benefits of Cloud {
 
 
 
+
 Overview of AWS {
     -- amazon elastic compute cloud (EC2)
     -- amazon simple storage service (S3)
     -- amazon relational database service (RDS)
     -- amazon lambda 
-    -- amazon cloudwatch 
+    -- amazon cloudwatch ]]
     -- amazon simple notification service (SNS)
     -- amazon DynamoDb 
-    -- 
+    -- AWS amplify ]]
+    -- AWS CDK ]]
 
 }
 
@@ -144,7 +170,8 @@ Overview of AWS {
 
 
 Deploy Frontend with AWS ]] {
-    -- AWS amplify 
+    -- Amazon S3 
+    -- AWS amplify ]]
     -- amplify.yml 
 
     -- ACLs = access control list 
@@ -154,6 +181,10 @@ Deploy Frontend with AWS ]] {
 
 
 
+
+Try it Yourself]] {
+    -- static file Deployment on AWS 
+}
 
 
 
