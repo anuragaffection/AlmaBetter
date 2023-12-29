@@ -1,0 +1,40 @@
+AWS (by Piyush Garg)
+
+
+01. What is Serverless {
+
+    Monolith
+    -- We configure machine at our own 
+    -- EC2 is not available in aws free tier 
+    -- EC2 is expensive than AWS lambda
+    -- ASG = Auto Scalling Group 
+
+    Serverless
+    -- AWS lambda = Serverless
+    -- we do not have to worry about configuration of machine in serverless
+    -- platform automatically manage our code 
+    -- Serverless is Paas (platform as a service )
+    -- AWS lambda pricing Mumbai 
+    -- API Gateway 
+    -- Serverless framework to manage Serverless
+    -- https://www.serverless.com/framework
+
+
+    Drawback of serverless
+    -- it is stateless
+    -- can increase the datbase const 
+    -- we can not make socket connection 
+    
+}
+
+
+
+
+02. Serverless framework with nodejs {
+    -- https://www.serverless.com/framework
+
+    Why we need Serverless framework
+    -- we can not use Github Deployed code  
+    -- we can not visual studio code 
+}
+
