@@ -43,7 +43,7 @@ CRUD = CREATE, READ, UPDATE, DELETE
 DCL  = Data Control Language
 DDL  = Data Definition Language
 DML  = Data Manipulation Language
-DNS  = 
+DNS  = Domain Name System 
 DOM  = Document Object Model 
 DRY  = Don't Repeat Yourself 
 
@@ -58,7 +58,7 @@ GUI  = graphical user interface
 HOC  = Higher Order Components
 HOC  = Higher Order Functions 
 HTML = Hyper Text Markup Language 
-
+HTTP = Hyper Text Transfer Protocol 
 
 
 
@@ -97,7 +97,7 @@ SEO  = Search Engine Optimization
 SPA  = Single Page Application 
 SQL  = Structured Query Language 
 SSG  = Static Site Generation 
-SSL  = 
+SSL  = Secure Socket Layer 
 SSR  = Server Side Rendering
 SWR  = Stale While Revalidating
 
@@ -105,7 +105,7 @@ SASS =
 
 
 TCL  = Transaction control Language
-TLS  = 
+TLS  = Transport Layer security
 TTFB = time to the first byte 
 
 

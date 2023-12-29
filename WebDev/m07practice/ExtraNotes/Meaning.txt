@@ -8,6 +8,8 @@ Conundrum =  Puzzle
 Deciphering   = Interpretation
 Discrepancies = fault
 
+exemplify =
+
 Geospatial = Spatial
 
 Honing = Refining

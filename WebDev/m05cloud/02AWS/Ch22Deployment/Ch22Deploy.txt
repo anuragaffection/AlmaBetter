@@ -1,16 +1,37 @@
+Full Stack Project Deployment on AWS 
+-- Relevance of Frontend
+-- Frontend of Reserve Project
+-- Deployment of Reserve Project
 
 
 
 Links {
     -- https://dev.to/darasimiajewole/real-time-update-strategy-in-web-4a2l
     -- https://dev.to/msmello_/load-balancing-the-key-to-scaling-your-applications-3jb7
-
 }
+
+
 
 
 Notes {
-    -- 
+    -- figma 
+
+    -- Redux
+    -- Redux thunk 
+    -- Redux toolkit 
+
+    -- stripe payment gateway 
+
+    -- Vercel 
+    -- Netlify 
+    -- Render 
+
+    -- Amazon alexa 
+    -- CloudFront 
+
+    -- Microservice vs Monolith vs Serverless 
 }
+
 
 
 
@@ -18,4 +39,68 @@ Task {
     -- aws command line interface 
     -- aws certification 
     -- 
+}
+
+
+
+
+Relevance of Frontend {
+    -- UI Design 
+    -- UX 
+    -- User Interaction 
+    -- Routing & Navigationn 
+    -- Connection with backend
+    -- State Management
+    -- Integration with third party library 
+
+    three layer [3 tier architecture]
+    -- 01. Presentaional layer
+    -- 02. Database layer
+    -- 03. Application layer 
+
+}
+
+
+
+
+Frontend of Reserve Project {
+    -- 
+}
+
+
+
+
+Deployment of Reserve Project {
+    -- AWS command line interface (CLI)
+    -- Amazon Machine Image (AMI )
+    -- SSH 
+    -- Set up Reverse proxy (Apache , NginX)
+    -- Configure DNS (Domain name system)
+    -- SSL = Secure Socket Layer 
+    -- TLS = Transport layer security
+    -- HTTP = Hyper text Transfer Protocol
+    -- ACLs = access control lists 
+}
+
+
+
+
+activity {
+
+    Fill in the blanks
+
+    01. Frontend development contributes to optimizing the user __________ (experience/code), reducing load times, and improving overall performance.
+    
+    02. User __________(experiences/interfaces) created through frontend development should be visually appealing, consistent, and aligned with the project's overall design.
+    
+    03. In the context of deployment, __________(production/testing) refers to the environment where the application will be accessible to users.
+    
+    04. Before deploying a full-stack project, it's important to ensure that it has undergone thorough __________ (production/testing) to catch any bugs or issues.
+    
+    Answers
+    01. experience
+    02. interfaces
+    03. production
+    04. testing
+    
 }
