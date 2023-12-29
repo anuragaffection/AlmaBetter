@@ -1,0 +1,86 @@
+Skill Mastery 
+-- Ch21 Full Stack 
+-- Ch22 AWS Cloud
+-- Ch23 deployment
+
+
+
+Links {
+    -- https://docs.aws.amazon.com/
+    -- https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/
+    -- 
+}
+
+
+
+Notes {
+    -- amazon cloudwatch 
+    -- expense management in AWS 
+    -- XSS  = Cross Site Scripting 
+    -- DDoS = Distributed Denial of Service 
+    -- CSRF
+    -- caching mechanisms 
+    -- AWS Glacier, Backup 
+}
+
+
+
+Task {
+    -- 
+    -- 
+}
+
+
+
+Interview Prep {
+
+    Well designed Frontend 
+    -- fast loading pages 
+    -- 
+
+    Frontend Vulnerabilities ]]
+    -- XSS attacks 
+    -- DDoS attacks
+    -- Input Validation 
+    -- https vs http 
+    -- CSP  = content Security policy 
+    -- CORS = Cross origin Resource sharing 
+    -- Authentication 
+    -- Authorization 
+    -- 
+
+    Challenges in Deploying ]]
+    -- database schema changes 
+    -- Scaling 
+    -- load balancing 
+    -- api key storing 
+    -- doawntime minimization 
+
+    Security Considerations ]]
+    -- encypt data 
+    -- TLS = Transport Layer Security
+    -- SSL = Security Socket Layer 
+    -- MFA = Multi Factor Authentication
+    -- prevent SQL injection 
+    -- sanitize user inputs 
+    -- prevent XSS attacks
+    -- secure Session handling 
+    -- prevent Session hijacking 
+    -- api rate limiting 
+    -- CSRF protection ]]
+    -- security headers ]]
+    -- 
+
+    Virtualization 
+    -- VMs = Virtual Machines 
+    -- Resource pooling 
+    -- 
+
+    Migrating to cloud 
+    -- 
+    
+    Traditional vs Cloud hosting 
+    -- 
+}
+
+

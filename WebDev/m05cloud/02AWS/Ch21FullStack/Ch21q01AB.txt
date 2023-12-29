@@ -2,13 +2,14 @@ Full Stack
 
 
 
-01.
+01.]]
 Which component is responsible for handling HTTP requests and routing in the MERN stack?
 
 MongoDB
 Express.js
 React
 Node.js
+
 
 
 
@@ -26,7 +27,7 @@ A project that focuses solely on designing user interfaces.
 
 
 
-03.
+03.]]
 Why is a full stack developer important for a full stack project?
 
 They only focus on one specific aspect of the project, leading to specialization.
@@ -77,6 +78,7 @@ State management
 
 
 
+
 07.
 What is JSX in the context of React?
 
@@ -97,6 +99,7 @@ Handle server-side logic.
 Manage and display user interfaces.
 Manage database interactions.
 Handle routing and navigation.
+
 
 
 
@@ -131,8 +134,7 @@ Express.js
 Answer
 
 
-01.
-Express.js
+01. Express.js]]
 
 Express.js is a backend framework for Node.js that is commonly used in the MERN stack. It handles HTTP requests, routing, and middleware, allowing you to define routes and manage the server-side logic for your application.
 
@@ -150,7 +152,7 @@ A full stack project involves creating all the necessary components of a web app
 
 
 03.
-They can communicate effectively with stakeholders.
+They can communicate effectively with stakeholders.]]
 
 A full stack developer possesses knowledge of both front-end and back-end technologies, which enables effective communication between various teams involved in the project. They can bridge the gap between design, development, and business aspects of the project.
 

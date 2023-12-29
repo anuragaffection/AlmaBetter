@@ -1,0 +1,206 @@
+Full Stack deployment
+
+
+01.
+What is the primary goal of UX design?
+
+Making the interface visually appealing
+Maximizing server performance
+Improving user satisfaction and usability
+Enhancing backend security
+
+
+
+
+
+02.
+What is the primary purpose of integrating backend APIs in a full-stack application?
+
+Enhancing the user interface
+Managing client-side state
+Enabling communication between frontend and backend
+Implementing design patterns
+
+
+
+
+
+03 
+Which of the following is typically responsible for handling client-side routing in a single-page application (SPA)?
+
+Server
+Database
+Browser
+API
+
+
+
+
+
+04 
+Which of the following is NOT a primary goal of good Ul design?
+
+Aesthetics and Visual Appeal
+Consistency and Familiarity
+Complexity and Confusion
+Usability and User Efficiency
+
+
+
+
+
+05.]]]
+In a backend framework like Express.js, how can you define a route that handles both GET and POST requests for the "/users" path?
+
+app.route('/users', 'GET', 'POST', ...)
+app.get('/users', ...).
+app.route('/users').get(...).post(...)
+app.handle('/users', …)
+
+
+
+
+
+06.
+What does the term "UI" stand for in Ul design?
+
+User Interaction
+User Interface
+User Integration
+User Interpretation
+
+
+
+
+07.]]]
+Which of the following is NOT a common format for data exchange between frontend and backend in API requests and responses?
+
+JSON
+XML
+YAML
+HTML
+
+
+
+
+08.
+What does "Responsive Design" refer to in UX?
+
+A design that responds to user feedback quickly
+Designing interfaces for various screen sizes and devices
+Designing interfaces that change color based on user preferences
+Creating designs that load quickly on slow internet connections
+
+
+
+
+
+09.
+What is the primary purpose of a state management library like Redux?
+
+To manage the routing of an application.
+To handle asynchronous operations in an application.
+To centralize and manage the state of an application.
+To improve the performance of database queries.
+
+
+
+
+
+
+10.
+What is routing in the context of web development?
+
+Styling the user interface
+Managing data storage
+Navigating between different pages or views
+Handling server-side logic
+
+
+
+
+
+
+Answer
+
+01.
+Improving user satisfaction and usability
+
+The primary goal of UX design is to create user-centric interfaces that enhance user satisfaction and usability, making it easier and more enjoyable for users to interact with a product or service.
+
+
+
+
+
+02.
+Enabling communication between frontend and backend
+
+Integrating backend APIs allows the frontend and backend of an application to communicate and exchange data, enabling the frontend to request and receive information from the backend.
+
+
+
+
+03.
+Browser
+
+In a single-page application (SPA), client- side routing is managed by the browser using JavaScript. The browser updates the URL and dynamically loads content without requiring a full page refresh.
+
+
+
+
+04.
+Complexity and Confusion
+
+Good Ul design aims to simplify the user experience and reduce complexity, not increase it. Complexity and confusion are contrary to the principles of good Ul design.
+
+
+
+
+05.]]]
+app.route('/users').get(...).post(...)
+
+In Express.js, you can use the app.route() method to define multiple route handlers for a single path. The .get(...) and .post(...) methods can be chained to define handlers for GET and POST requests, respectively.
+
+
+
+06.
+User Interface
+
+Ul stands for User Interface. It refers to the graphical layout, visual elements, and overall design of a software application that users interact with.
+
+
+
+
+07.]]]
+HTML
+
+While HTML is a markup language used for rendering web content in browsers, JSON, XML, and YAML are commonly used formats for data exchange between frontend and backend in API communication.
+
+
+
+
+08.
+Designing interfaces for various screen sizes and devices
+
+Responsive design refers to the practice of designing interfaces that adapt and respond effectively to different screen sizes and devices, providing a consistent and optimal user experience across platforms.
+
+
+
+
+09.
+To centralize and manage the state of an application.
+
+Redux is a state management library that centralizes the application's state and provides a predictable way to manage and update that state throughout the application.
+
+
+
+
+10.
+Navigating between different pages or views
+
+Routing refers to the process of determining which component or view should be displayed when a user clicks on a link or enters a specific URL. It allows for navigation between different parts of a web application without the need to refresh the entire page.
+
+
+
+
+

@@ -1,0 +1,200 @@
+AWS cloud
+
+
+01.
+Which of the following is not a characteristic of cloud computing?
+
+Scalability
+Cost savings
+Limited accessibility
+On-demand self-service
+
+
+
+
+02.
+What is Amazon EC2 used for?
+
+Data warehousing
+Content delivery
+Scalable compute capacity
+Email delivery
+
+
+
+
+03.
+What is a key benefit of cloud computing?
+
+Higher upfront costs
+Limited scalability
+Reduced hardware maintenance
+Slower deployment
+
+
+
+
+04.
+What does AWS stand for?
+
+Advanced Web Services
+Amazon Web Services
+Advanced Web Solutions
+All web Services
+
+
+
+
+
+05.
+Which cloud deployment model involves sharing physical hardware with other organizations?
+
+Public cloud
+Private cloud
+Hybrid cloud
+Community cloud
+
+
+
+
+06.
+What is the main benefit of cloud elasticity?
+
+Reducing data security risks
+Minimizing the need for backups
+Automatically adjusting resource capacity
+Eliminating the need for internet connectivity
+
+
+
+
+
+07.
+Which AWS service is used to store and retrieve data objects such as images, videos, and documents?
+
+Amazon RDS
+Amazon EC2
+Amazon S3
+Amazon SQS
+
+
+
+
+08.
+Which of the following database engines is NOT supported by Amazon RDS?
+
+MYSQL
+PostgreSQL
+MongoDB
+Oracle
+
+
+
+
+
+09.
+Which cloud deployment model is suitable for an organization that requires high security and control?
+
+Public cloud
+Private cloud
+Hybrid cloud
+Community cloud
+
+
+
+
+
+10.
+Which AWS service provides a managed relational database service?
+
+Amazon RDS
+Amazon S3
+Amazon EC2
+Amazon Lambda
+
+
+
+
+
+
+
+Answer
+
+01.
+Limited accessibility
+
+Cloud computing is characterized by its high accessibility, allowing users to access resources from anywhere with an internet connection. Limited accessibility is not a characteristic of cloud computing.
+
+
+
+02.
+Scalable compute capacity
+
+Amazon EC2 provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers by providing virtual servers called instances.
+
+
+
+
+03.
+Reduced hardware maintenance
+
+Cloud computing eliminates the need for organizations to maintain and manage physical hardware infrastructure. This reduces costs and operational efforts associated with hardware maintenance, upgrades, and repairs.
+
+
+
+
+04.
+Amazon Web Services
+
+AWS stands for Amazon Web Services, which is a cloud computing platform provided by Amazon.
+
+
+
+
+05.
+Public cloud
+
+In a public cloud, resources are shared among multiple organizations or users over the internet. This model offers cost savings and scalability but may have less control over security compared to private or hybrid clouds.
+
+
+
+
+06.
+Automatically adjusting resource capacity
+
+Cloud elasticity allows resources to be automatically scaled up or down based on demand, ensuring optimal performance and cost efficiency.
+
+
+
+
+07.
+Amazon S3
+
+Amazon Simple Storage Service (Amazon S3) is a scalable storage service that allows users to store and retrieve data objects, often used for hosting static assets, backup and archiving, and content distribution.
+
+
+
+
+08.
+MongoDB
+
+
+Amazon RDS primarily supports relational database engines like MySQL, PostgreSQL, SQL Server, and Oracle. MongoDB is a NoSQL database engine and is not directly supported by Amazon RDS. However, Amazon offers another service called Amazon DocumentDB, which is compatible with MongoDB.
+
+
+
+
+
+09.
+Private cloud
+
+A private cloud is dedicated to a single organization, providing greater control, security, and customization. This model is suitable for organizations with stringent security requirements.
+
+
+
+
+
+10.
+Amazon RDS
+
+Amazon Relational Database Service (Amazon RDS) is a managed database service that makes it easier to set up, operate, and scale a relational database in the cloud.
