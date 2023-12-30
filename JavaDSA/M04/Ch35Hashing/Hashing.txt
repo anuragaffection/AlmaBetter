@@ -1,36 +1,176 @@
+Hashing 
+-- Map
+-- Set 
 
 
-syntax {
-    -- HashSet <Integer>   al = new HashSet<>();
-    -- HashSet <Float>     al = new HashSet<>();
-    -- HashSet <Character> al = new HashSet<>();
-    -- HashSet <Boolean>   al = new HashSet<>();
-    -- HashSet <Double>    al = new HashSet<>();
-    -- HashSet <String>    al = new HashSet<>();
+
+Map 
+-- HashMap
+-- LinkedHashMap 
+-- TreeMap 
+
+Set 
+-- HashSet 
+-- LinkedHashSet 
+-- TreeSet 
 
 
-    -- Set <Integer>   al = new HashSet<>();
-    -- Set <Float>     al = new HashSet<>();
-    -- Set <Character> al = new HashSet<>();
-    -- Set <Boolean>   al = new HashSet<>();
-    -- Set <Double>    al = new HashSet<>();
-    -- Set <String>    al = new HashSet<>();
+
+Map {
+
+    key can be 
+    -- Character
+    -- Integer
+    -- String
+    -- Float
+    -- Double
+    -- Boolean
+
+    value can be 
+    -- Character
+    -- Integer
+    -- String
+    -- Float
+    -- Double
+    -- Boolean
+
+
+    01. HashMap {
+        -- import.java.util.HashMap
+        -- HashMap < key, value> hm = new HashMap<>();
+
+        methods
+        -- put(key, value)
+        -- get(key)
+        -- containsKey(key)
+        -- remove(key)
+        -- size()
+        -- isEmpty()
+        -- clear()
+        -- keySet()
+        -- entrySet()  
+    }
+
+
+    02. LinkedHashMap {
+        -- import.java.util.LinkedHashMap
+        -- LinkedHashMap < key, value> lhm = new LinkedHashMap<>();
+
+        methods
+        -- put(key, value)
+        -- get(key)
+        -- containsKey(key)
+        -- remove(key)
+        -- size()
+        -- isEmpty()
+        -- clear()
+    }
+
+
+    03. TreeMap {
+        -- import.java.util.TreeMap
+        -- TreeMap <key, value> tm = new TreeMap <>();
+
+        methods
+        -- put(key, value)
+        -- get(key)
+        -- containsKey(key)
+        -- remove(key)
+        -- size()
+        -- isEmpty()
+        -- clear()
+    }
+
+
+    04. HashMap vs LinkedHashMap vs TreeMap
+    -- HashMap = random fashion 
+    -- LinkedHashMap = according to insertion of keys 
+    -- TreeMap = according to ascending order of keys 
+
+    05. 
+    -- Map < key, value > m = new HashMap <>();
+    -- Map < key, value > m = new LinkedHashMap <>();
+    -- Map < key, value > m = new TreeMap <>();
+
+    06. some more 
+    -- get(key)
+    -- getOrDefault(key, defaultValue);
+    -- entrySet() = set of value + key 
+    -- keySet()   = set of key 
+
 }
 
 
 
 
-methods {
-    -- add (elememt)
-    -- contains(elememt)
+
+
+Set {
+
+    elememt can be 
+    -- Character
+    -- Integer
+    -- String
+    -- Float
+    -- Double
+    -- Boolean
+
+    01. HashSet {
+        -- import.java.util.HashSet 
+        -- HashSet  <elememt> hs = new HashSet<>();
+
+        methods
+        -- add(elememt)
+        -- contains(elememt)
+        -- remove(elememt)
+        -- size()
+        -- isEmpty()
+        -- clear()
+    }
+
+
+    02. LinkedHashSet {
+        -- import.java.util.LinkedHashSet 
+        -- LinkedHashSet  <elememt> lhs = new LinkedHashSet<>();
+
+        methods
+        -- add(elememt)
+        -- contains(elememt)
+        -- remove(elememt)
+        -- size()
+        -- isEmpty()
+        -- clear()
+    }
+
+
+    03. TreeSet {
+        -- import.java.util.TreeSet 
+        -- TreeSet  <elememt> ts = new TreeSet<>();
+
+        methods
+        -- add(elememt)
+        -- contains(elememt)
+        -- remove(elememt)
+        -- size()
+        -- isEmpty()
+        -- clear()
+    }
+
+
+    04. HashSet vs LinkedHashSet vs TreeSet
+    -- HashSet = random fashion 
+    -- LinkedHashSet = according to insertion of elememt
+    -- TreeSet = according to ascending order of elememt
+
+    05. 
+    -- Set < elememt > s = new HashSet <>();
+    -- Set < elememt > s = new LinkedHashSet <>();
+    -- Set < elememt > s = new TreeSet <>();
 
 }
 
 
 
-notes {
-    -- 
-}
 
 
 

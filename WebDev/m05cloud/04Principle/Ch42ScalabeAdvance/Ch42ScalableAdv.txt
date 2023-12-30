@@ -137,7 +137,7 @@ DevSecOps {
 
     Ops 
     -- CD
-    -- IaC = infrastructure as code 
+    -- infrastructure as code (IaC)
     -- Monitoring 
 
     -- shift-left approach 

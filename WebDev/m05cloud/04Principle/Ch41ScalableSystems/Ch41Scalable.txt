@@ -1,0 +1,53 @@
+Scalable Systems 
+-- Scalability 
+-- Types of Scalability
+-- Scalability Technique 
+-- Scalability Testing 
+-- Tools for Scalability Testing
+-- Cloud Scalability
+-- Scalability in Web Development 
+-- Case Study [Netflix]
+-- Bottlenecks 
+-- Overcome Bottlenecks
+-- Test Scalability of Applications 
+
+
+
+Links {
+    -- https://dzone.com/articles/application-scalability-how-to-do-efficient-scalin
+    -- https://gearheart.io/articles/how-build-scalable-web-applications/
+    -- 
+}
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+Scalability 
+
+Types of Scalability
+
+Scalability Technique 
+
+Scalability Testing 
+
+Tools for Scalability Testing
+
+Cloud Scalability
+
+Scalability in Web Development 
+
+Case Study [Netflix]
+
+Bottlenecks 
+
+Overcome Bottlenecks
+
+Test Scalability of Applications 
