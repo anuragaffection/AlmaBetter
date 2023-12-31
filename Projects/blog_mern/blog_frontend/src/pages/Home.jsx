@@ -5,6 +5,7 @@ import UserDetail from '../components/UserDetail';
 import articleApp from '../assets/articleApp.jpg'
 import context from '../context/MyContext';
 
+
 const Home = () => {
   const [blog, setBlog] = useState([]);
   const accessingBlog = useContext(context);
@@ -29,7 +30,7 @@ const Home = () => {
       top: 0,
       behavior: 'smooth',
     });
-    
+
   };
 
   const container = `bg-gray-900 text-gray-200 p-4`;
@@ -44,6 +45,7 @@ const Home = () => {
 
   return (
     <>
+     
       <div className={container}>
         <div className={wrapper}>
           {

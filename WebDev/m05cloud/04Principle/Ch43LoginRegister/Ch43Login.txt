@@ -1,19 +1,198 @@
 Topics 
+-- Federated Login and Registration
+-- Single Sign-On
+-- OAuth 2.0
+-- OpenID Connect
 -- 
 
 
 
 Links {
-    -- 
+    -- https://www.strongdm.com/blog/identity-as-a-service
+    -- https://www.oracle.com/in/security/cloud-security/what-is-saml/
 }
 
 
 
 Notes {
-    -- 
+    -- identity providers (IdPs)
+    -- service providers (SPs)
+    -- single sign-on (SSO)
+    -- Proof key for code Exchange (PKCE)
 }
 
 
 Task {
+    -- Implement federated login using OAuth2.0 with identity provider Google
+}
+
+
+
+
+
+
+Federated Login and Registration {
+    -- Federated login and registration, also known as single sign-on (SSO),
+    -- based on authentication protocols such as Security Assertion Markup Language (SAML) or OpenID Connect (OIDC).
+    
+    Option for federated Login & Register 
+    -- Firebase
+    -- React Google Login
+    -- Auth0
+    -- OKTA
+    -- AWS Amplify 
+    
+    firebase login project ]]
+    -- 
+} 
+
+
+
+
+
+Single Sign-On {
+    -- SSO = Single Sign On 
+    -- SSO = Single Sign out 
+    -- SAML = Security Assertion Markup Language
+
+    How SSO works 
+    -- User authentication request 
+    -- Identity provider (IdPs)
+    -- user authentication
+    -- authentication at IdPs
+    -- token issuance 
+    -- acces to application
+    -- session management 
+    -- Single sign out 
+    
+    Do SSO project]]
     -- 
 }
+
+
+
+
+OAuth2.0 ]] {
+    
+    Key participants 
+    -- resource owner   (end-user)
+    -- client   (application)
+    -- resource server   (where the user's data  stored)
+    -- Authorization server  (server of IdPs)
+
+    OAuth 2.0 Flow (Grant Types )
+    -- Authorization code flow 
+    -- implicit flow ]]
+    -- Resource owner credentials flow 
+    -- client credentials flow 
+    -- Device Authorization flwo 
+
+    Access Tokens
+    -- Bearer Tokens
+    -- JWT (Json web token)
+
+    Scope
+    -- a parameter in OAuth2.0
+
+    Security Considerations
+    -- 
+
+}
+
+
+
+
+OpenID Connect {
+    -- OIDC = Open ID Connect
+    -- it is an identity layer built on top of OAuth2.0
+
+    01. Roles 
+    -- Resource owner  (end-user)
+    -- client   (application, apps)
+    -- Authorization server  (server of IdPs)
+
+    02. Endpoints 
+    -- Authorization Endpoints
+    -- Tokens Endpoints
+    -- user info Endpoints
+    -- 
+
+    03. Tokens
+    -- Id token (JWT)
+    -- Access Token 
+
+
+    04. Scopes 
+    -- parameter (permissions or claims)
+
+    05. Flow types 
+    -- Authorization code flow
+    -- implicit flow [deprecated] ]]
+    -- hybrid flow
+
+    06. client types
+    -- public client
+    -- confidential client
+    -- PKCE (Proof Key for Code Exchange )
+
+    07. Discovery Endpoints
+    -- 
+
+    08. ID token validation 
+    -- 
+}
+
+
+
+
+
+Activity {
+
+    Fill in the blanks.
+
+    01. Federated login allows users to access multiple services using a _______________( federated / local) identity.
+    
+    02. Single Sign-On (SSO) simplifies user authentication by requiring users to log in _______________( once / repeatedly).
+    
+    03. One advantage of federated login is that users don't need to remember multiple passwords. _______________(true / false)
+    
+    04. User registration in federated systems can be simplified by using _______________ (CAPTCHA or social registration) tools.
+    
+    05. To enable federated login, you need to establish a trust relationship between your application and the chosen _______________( DNS / identity ) provider.
+    
+    Answers
+    01. Federated
+    02. once
+    03. true
+    04. Social registration
+    05. Identity
+
+
+
+    True or False
+    
+    01. OAuth 2.0 requires the sharing of the user's credentials (e.g., username and password) with third-party applications.
+    
+    02. OAuth 2.0 can be used for single sign-on (SSO) to access multiple services with a single set of credentials.
+    
+    03. OAuth 2.0 is a protocol that defines the user interface for login and consent screens.
+    
+    04. OIDC is an extension of OAuth 2.0 and provides identity information about the end user.
+    
+    05. OIDC defines different grant types, such as "authorization code," "implicit," and "password," for various authentication scenarios.
+    
+    06.  OIDC is primarily used for securing APIs and microservices.
+    
+    Answers
+    01. False
+    02. True
+    03. False
+    04. True
+    05. True
+    06. False
+}
+
+
+
+
+

@@ -149,6 +149,7 @@
    --- git checkout -b <branchName> === to switch & create a new branch.
    --- git branch -m <ReBranchName> === to rename the current branch.
    --- git branch -d <branchName>   === to delete the branch.
+   --- git branch -D <branchName>   === to delete teh branch [force]
    --- git branch -a                === display all branches.
    --- git switch <branchName>      === to switch branches.
 

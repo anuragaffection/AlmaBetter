@@ -21,13 +21,12 @@ function Login() {
       const api = await axios.post(`https://blog-mern-backend-luce.onrender.com/api/users/login`, {
         email,
         password
-      },
-        {
-          headers: {
-            "Content-Type": "application/json"
-          },
-          withCredentials: true,
-        });
+      }, {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        withCredentials: true,
+      });
 
       toast.success(api.data.message, {
         position: "top-center",
@@ -47,8 +46,7 @@ function Login() {
       }, 1000);
 
 
-    }
-    catch (error) {
+    } catch (error) {
       toast.error(error.response.data.message, {
         position: "top-center",
         autoClose: 1500,
@@ -90,7 +88,7 @@ function Login() {
 
       <div className={container}>
         <div className={wrapper}>
-          <h1 className={title}>Login Here</h1>
+          <h1 className={title}>Login With Email </h1>
           <form onSubmit={handleSubmit} className={loginForm}>
             <div className={labelInputWrapper}>
               <label

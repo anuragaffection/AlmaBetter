@@ -4,12 +4,13 @@ import context from '../context/MyContext';
 import axios from 'axios';
 import MyBlogs from '../components/MyBlogs';
 import { BiSolidUserCircle, BiLogOut } from 'react-icons/bi';
-import { MdEmail } from 'react-icons/md';
+import { MdEmail, MdPhone } from 'react-icons/md';
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 
 const Profile = () => {
+
   const auth = useContext(context)
   const navigate = useNavigate();
 
@@ -79,6 +80,7 @@ const Profile = () => {
 
       <div className={container}>
         <div className={wrapper}>
+          
           <div className={iconsStyle}> <BiSolidUserCircle /> {" "} {auth.user.name}</div>
           <div className={iconsStyle}> <MdEmail /> {" "} {auth.user.email}</div>
           {

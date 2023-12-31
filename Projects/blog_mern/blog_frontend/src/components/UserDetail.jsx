@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const UserDetail = ({id}) => {
-    const [user, setUser] = useState({})
+    const [oneUser, setOneUser] = useState({}) // storing object 
     useEffect(() => {
         const fetchUser = async () => {
             const api = await axios.get(`https://blog-mern-backend-luce.onrender.com/api/users/${id}`, {
@@ -11,7 +11,7 @@ const UserDetail = ({id}) => {
                 },
                 withCredentials: true,
             });
-            setUser(api.data.data)
+            setOneUser(api.data.data)
         }
         fetchUser();
     }, [])
@@ -19,7 +19,7 @@ const UserDetail = ({id}) => {
 
     return (
         <>
-            <h3> {user.name}</h3>
+            <h3> {oneUser.name}</h3>
         </>
     )
 }

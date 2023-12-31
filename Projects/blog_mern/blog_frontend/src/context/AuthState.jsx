@@ -7,9 +7,9 @@ import context from './MyContext'
 function AuthState(props) {
 
     const [isAuthenticated, setIsAuthenticated] = useState(false)
-    const [user, setUser] = useState("")
+    const [user, setUser] = useState({});
     const [id, setId] = useState("")
-    const [singleBlog, setSingleBlog] = useState("");
+    const [singleBlog, setSingleBlog] = useState({});
 
     return (
         <context.Provider

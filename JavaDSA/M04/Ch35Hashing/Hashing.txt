@@ -47,8 +47,6 @@ Map {
         -- size()
         -- isEmpty()
         -- clear()
-        -- keySet()
-        -- entrySet()  
     }
 
 
@@ -97,6 +95,8 @@ Map {
     -- getOrDefault(key, defaultValue);
     -- entrySet() = set of value + key 
     -- keySet()   = set of key 
+    -- values()   = array of value 
+    -- 
 
 }
 

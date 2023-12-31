@@ -95,6 +95,7 @@ function Register() {
         theme="dark"
       />
 
+
       <div className={container}>
         <div className={wrapper}>
           <h1 className={title}>Register Here   </h1>
@@ -137,6 +138,7 @@ function Register() {
           </form>
         </div>
       </div>
+
 
     </>
   )
