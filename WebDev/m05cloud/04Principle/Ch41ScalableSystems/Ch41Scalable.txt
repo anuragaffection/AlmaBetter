@@ -1,14 +1,14 @@
 Scalable Systems 
 -- Scalability 
 -- Types of Scalability
--- Scalability Technique 
+-- Scalability Technique ]]
 -- Scalability Testing 
 -- Tools for Scalability Testing
 -- Cloud Scalability
 -- Scalability in Web Development 
 -- Case Study [Netflix]
--- Bottlenecks 
--- Overcome Bottlenecks
+-- Bottlenecks ]]
+-- Overcome Bottlenecks]]
 -- Test Scalability of Applications 
 
 
@@ -20,34 +20,222 @@ Links {
 }
 
 
+
 Notes {
-    -- 
+    -- Distributed data processing
+    -- Apache kafka 
+    -- Apache Cassandra 
+    -- lazy and Dynamic loading [react optimization]
+    -- Kafka = async messaging-based framework.
 }
+
 
 
 Task {
+    -- Monolith vs microservices
+    -- clinet side caching
+    -- clinet side rnderig vs Server side rendering 
+    -- What is bottlenecks
+}
+
+
+
+Scalability {
     -- 
 }
 
 
-Scalability 
+Types of Scalability {
+    -- vertical scalability    (scaling up)
+    -- horizaontal scalability (scaling out)
+    -- Elastic Scalability     (scaling auto )
+}
 
-Types of Scalability
 
-Scalability Technique 
 
-Scalability Testing 
 
-Tools for Scalability Testing
+Scalability Technique {
+    -- load balancing ]
+    -- caching 
+    -- Statless design ]
+    -- elastic infrastructure 
+    -- database sharding 
+    -- Asynchronous processing ]
+    -- Distributed computing 
+    -- microservices architecture ]
+}
 
-Cloud Scalability
 
-Scalability in Web Development 
 
-Case Study [Netflix]
+Scalability Testing {
+    -- load testing 
+    -- stress testing
+    -- performance testing 
+    -- capactity testing
+    -- scalability testing 
+    -- faiover testing
+    -- database testing 
+    -- Network testing 
+    -- Cloud based testing
+    -- Real user monitoring 
+}
 
-Bottlenecks 
 
-Overcome Bottlenecks
 
-Test Scalability of Applications 
+Tools for Scalability Testing {
+    -- Apache Jmeter 
+    -- Gatling 
+    -- Locust 
+    -- BlazeMeter 
+    -- Loader.io 
+    -- Artillery 
+    -- Tsung 
+
+    load testing tools 
+    -- applications Jmeter
+    -- Gatling 
+    -- locust 
+    -- Artillery
+    -- Tsung
+    
+    cloud based load testing
+    -- BlazeMeter
+    -- Loader.io 
+    
+    Written in Language 
+    -- Galing = Scala 
+    -- Locust = Python 
+}
+
+
+
+Cloud Scalability {
+
+    Provider 
+    -- AWS 
+    -- Microsoft azure 
+    -- Google cloud platform 
+    -- IBM cloud
+
+    Cloud native architecture
+    -- microservices architecture
+    -- containerization ]]
+    -- container orchestration ]]
+    -- elastic infrastructure 
+    -- event driven architecture ]]
+    -- monitoring and analytics 
+}
+
+
+Scalability in Web Development  {
+    -- CDNs ]]
+    -- caching
+
+    Frontend scaling 
+    -- performance optimization 
+    -- Responsive design
+    -- client side caching
+    -- Content Deivery Network
+    -- Asynchronous Operations 
+
+    Backend Scaling 
+    -- Scalable architecture
+    -- horizaontal scaling (scaling out )
+    -- database optimization
+    -- caching
+    -- caching layers 
+    -- queueing system (task queue) ]
+    -- Distributed file Systems
+}
+
+
+Case Study [Netflix] {
+    -- Concurrency ]
+    -- Fault tolerance 
+    -- 
+}
+
+
+Bottlenecks]] {
+    
+    problems 
+    -- Poor code quality 
+    -- choosing wrong database type 
+    -- Not caching enough 
+    -- Load balancer config ]]
+    -- choosing wrong api type 
+    -- Sync Vs Async 
+
+    API type ]]
+    -- Rest api
+    -- GraphQL 
+}
+
+
+
+Overcome Bottlenecks {
+    -- identify bottlenecks
+    -- optimize bottlenecks components 
+    -- Scale vertically, horizaontally
+    -- implement caching
+    -- optimize database performance 
+    -- use Asynchronous processing
+    -- Leverge cloud service
+    -- Monitor, test, iterate 
+    -- optimize code and architecture
+}
+
+
+
+Test Scalability of Applications {
+    -- 
+}
+
+
+
+
+Activity {
+
+    True/False:
+    
+    01. Scalability testing helps identify performance bottlenecks and optimize system performance.
+    
+    02. Load balancing is a technique to distribute incoming network traffic across multiple servers.
+    
+    03. Vertical scalability involves adding more machines or servers to distribute the workload.
+    
+    04. Scalability is the ability of a system to handle increased workload without performance degradation.
+    
+    05. Elastic scalability manually adjusts resources based on real-time demand.
+
+    06. Elastic scalability automatically adjusts resources based on real-time demand.
+    
+    Solutions
+    01. True
+    02. True
+    03. False
+    04. True
+    05. False
+    06. True 
+
+
+    
+    01. Increasing the capacity of a system by adding more instances or nodes to distribute the workload.
+    
+    02. An architectural approach where applications are broken down into smaller, independent services that can be scaled individually.
+    
+    03. A popular streaming service that has successfully implemented scalable architecture using cloud computing and microservices.
+    
+    04. A cloud computing platform that offers a wide range of scalable services and tools.
+
+    5. Globally distributed networks of servers that cache and deliver web content to users based on their geographical location.
+
+
+    answer 
+    01. horizaontal scaling (scaling out )
+    02. microservices architecture
+    03. Netflix
+    04. AWS
+    05. Content Delivery Network
+
+}
