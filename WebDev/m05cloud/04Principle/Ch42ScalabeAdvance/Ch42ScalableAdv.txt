@@ -14,17 +14,24 @@ Topics
 
 
 Links {
-    -- 
+    -- https://www.scrum.org/resources/blog/dependency-management-good-bad-ugly
+    -- https://aws.amazon.com/blogs/devops/load-test-applications-in-cicd-pipeline/
 }
 
 
 Note {
-    -- #21.31 
+    -- performance optimization technique
+    -- Scalability technique
+    -- parallelication 
+    -- concurrency
+    -- compression 
+    -- Minification
 }
 
 
 Task {
     -- principle of minimalism.
+    -- 
 }
 
 
@@ -33,13 +40,12 @@ Task {
 
 Agile methodologies {
     -- scrum   = time target of task
-    -- kanban = what to do 
-    -- XP     = extreme Programing
-    -- LSD    = time saving form extra uncessary task like meeting 
-    -- FDD    = Feature Drive Development
-
-    -- sprints =
-    -- LSD = Learn software Development
+    -- kanban  = what to do 
+    -- sprints = iteration 
+    -- XP  = extreme Programing
+    -- LSD = time saving form extra uncessary task like meeting 
+    -- LSD = Lean software Development
+    -- FDD = Feature Drive Development
     -- JIT = Just in time 
     -- 
 }
@@ -89,6 +95,8 @@ CI/CD {
 
     why CI & CD
     -- infrastructure as code 
+    -- rapid feedback 
+    -- 
 }
 
 
@@ -103,8 +111,8 @@ Coding standards & ( SOLID Principle) {
     SOLID Principle]]]
     -- S = SRP = Single Responsibility Principle
     -- O = OCP = Open closed principle
-    -- L = LSP = Liskov Substitution Principle
-    -- I = ISP = interface Segregation Principle
+    -- L = LSP = Liskov Substitution Principle ]]
+    -- I = ISP = interface Segregation Principle ]]
     -- D = DIP = Dependency inversion principle
 
     Solid principle
@@ -140,7 +148,7 @@ DevSecOps {
     -- infrastructure as code (IaC)
     -- Monitoring 
 
-    -- shift-left approach 
+    -- shift-left approach ]]
     -- 
 }
 
@@ -149,7 +157,7 @@ DevSecOps {
 
 
 Performance optimization techniques {
-    -- CDNs = continuous delivery network 
+    -- CDNs = content delivery network
     
     Techniques
     -- Optimize the code [good algorithm]
@@ -160,6 +168,7 @@ Performance optimization techniques {
     -- compressing file and code 
     -- minimizing white spaces in code 
     -- use of CDNs
+
 }
 
 
@@ -171,11 +180,11 @@ Security best practices {
 
     security methods 
     -- MFA = Multi factor authentication 
-    -- RBAC = Role based Acces control 
+    -- RBAC = Role based Access control 
     -- regular updates
     -- secure network configuration 
-    -- IDS = Intrusion detection system
-    -- IPS = Intrusion Prevention system
+    -- IDS = Intrusion detection system]]
+    -- IPS = Intrusion Prevention system]]
     -- Data encryption 
     -- robust password 
     -- privacy & anonymization 
@@ -200,6 +209,8 @@ Scalability and robustness {
     -- fail over testing]]
     -- fault tolerance ]]
     -- data backup 
+    -- error handling 
+    -- load testing
 }
 
 
@@ -212,6 +223,7 @@ Automation to increase performance {
 
 
 Activity {
+
 
     Fill in the blanks:
 
@@ -226,11 +238,12 @@ Activity {
     05. CI/CD helps in automating the software __________ (delivery/development) process.
     
     Answers
-    01. Individuals, interactions
+    01. Individuals, interactions]]
     02. Iterative
     03. Failing test
     04. Functionality
     05. Delivery
+
 
 
 
@@ -246,7 +259,7 @@ Activity {
     
     05. Minification is the process of simplifying code by removing unnecessary characters, such as whitespaces and comments.
     
-    06. Content Delivery Networks (CDNs) improve website performance by moving content closer to the end users.
+    06. Content Delivery Networks (CDNs) improve website performance by moving content closer to the end users.]]] doubt]
     
     Answers
     01. True
@@ -255,5 +268,29 @@ Activity {
     04. True
     05. True
     06. False
+
+
+
+    Agree or Disagree
+    
+    01. Regularly updating software and applying security patches can prevent all security vulnerabilities.
+    
+    02. Encrypting data only during transmission (in transit) is enough to protect it.
+    
+    03. Redundancy and failover mechanisms are essential for building a robust system.
+    
+    04. Load balancing is only necessary when traffic exceeds the capacity of a single server.]]
+    
+    05. Automating server provisioning and scaling is only necessary for large-scale applications.
+    
+    06. Implementing auto-scaling based on predefined thresholds can eliminate the need for capacity planning.]]
+    
+    Answers
+    01. Disagree
+    02. Disagree
+    03. Agree
+    04. Disagree
+    05. Disagree
+    06. Agree
 }
 

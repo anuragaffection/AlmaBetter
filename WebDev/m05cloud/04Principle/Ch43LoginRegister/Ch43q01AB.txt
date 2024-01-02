@@ -1,0 +1,248 @@
+
+Federated Login
+
+
+
+
+
+01 
+Which of the following is NOT a potential advantage of implementing Federated Login in a web application?
+
+Simplified user registration process.
+Reduced risk of storing user passwords.
+Increased control over user data.
+Enhanced user experience with Single Sign-On (SSO).
+
+
+
+
+
+
+
+
+
+02.
+What is OAuth 2.0 primarily used for?
+
+User authentication
+Authorization and access delegation
+Data encryption
+Password management
+
+
+
+
+
+
+
+
+03.
+Which of the following is an example of an identity provider (IdP) used in Federated Login/Register?
+
+Google
+MySQL Database
+HTML Form
+jQuery Library
+
+
+
+
+
+
+
+
+04.
+What is OpenID Connect primarily used for?
+
+Email communication
+Authentication and Single Sign-On (SSO)
+File sharing
+Network security
+
+
+
+
+
+
+
+
+05.
+What is Single Sign-On (SSO)?
+
+It is a security mechanism that requires users to enter their credentials multiple times for different applications.
+It is a system that allows users to access multiple applications with a single set of credentials.
+It is a method of authentication that uses biometric data for access.
+It is a protocol for secure file transfer.
+
+
+
+
+
+
+
+
+06.
+In Federated Login/Register, what is the role of a relying party (RP)?
+
+The service that hosts user identity and provides authentication.
+The service that hosts user identity and provides authentication.
+The entity that requests and relies on the user's identity information.
+The process of creating and managing user accounts
+
+
+
+
+
+
+
+
+07.
+What is Federated Login in the context of a web application?
+
+Allowing users to log in using only their email address.
+Allowing users to log in using social media accounts.
+Allowing users to log in using credentials from an identity provider.
+Allowing users to log in using biometric authentication.
+
+
+
+
+
+
+
+08.
+Which protocol is commonly used for implementing Federated Login/Register?
+
+FTP (File Transfer Protocol)
+SMTP (Simple Mail Transfer Protocol)
+OAuth (Open Authorization)
+DNS (Domain Name System)
+
+
+
+
+
+
+
+
+09.
+Which protocol is commonly used for implementing Single Sign-On (SSO) in web applications?
+
+HTTP
+LDAP
+OAuth
+FTP
+
+
+
+
+
+
+
+
+10.
+Which of the following is NOT a benefit of Single Sign- On (SSO)?
+
+Improved user experience
+Enhanced security
+Reduced password fatigue
+Increased complexity in managing user accounts
+
+
+
+
+
+Answer
+
+
+
+01.
+Increased control over user data.
+
+Implementing Federated Login involves relying on an external identity provider for user authentication, which may reduce direct control over user data compared to handling it internally.
+
+
+
+
+02.
+Authorization and access delegation
+
+OAuth 2.0 is primarily used for authorization and access delegation. It allows a user to grant a third-party application limited access to their resources without sharing their credentials.
+
+
+
+
+03.
+Google
+
+An identity provider (IdP) is a trusted service that authenticates users and provides their identity information to other services. Google is an example of an IdP that allows users to log in to various websites using their Google credentials.
+
+
+
+
+
+04.
+Authentication and Single Sign-On (SSO)
+
+OpenID Connect is a protocol designed for authentication and Single Sign-On (SSO) purposes. It allows users to authenticate once and access multiple applications without having to log in separately to each one.
+
+
+
+
+
+05.
+It is a system that allows users to access multiple applications with a single set of credentials.
+
+Single Sign-On (SSO) is a system that enables users to log in once and gain access to multiple applications or services without being prompted to log in again for each of them.
+
+
+
+
+
+06.
+The entity that requests and relies on the user's identity information.
+
+The relying party (RP) is the service or application that relies on the identity information provided by the identity provider (IdP) to authenticate and authorize users. The RP requests and uses the user's identity information for access control and personalization purposes.
+
+
+
+
+
+07.
+Allowing users to log in using credentials from an identity provider.
+
+Federated login involves allowing users to log in to a web application using their existing credentials from an external identity provider, such as Google, Facebook, or Microsoft. This eliminates the need for the web app to store and manage user credentials.
+
+
+
+
+
+
+08.
+OAuth (Open Authorization)
+
+OAuth is a widely used protocol for implementing Federated Login/Register. It allows a user to grant a third-party application limited access to their resources without sharing their credentials. This is commonly used for social logins and other forms of federated authentication.
+
+
+
+
+
+09.
+OAuth
+
+OAuth (Open Authorization) is a common protocol used for implementing SSO in web applications. It allows third-party applications to access user data without exposing passwords.
+
+
+
+
+
+10.
+Increased complexity in managing user accounts
+
+One of the benefits of SSO is simplified user account management, not increased complexity.
+
+
+
+
+
+
