@@ -1,0 +1,204 @@
+Scalable best practices
+
+
+
+01.
+What is the primary purpose of conducting. feasibility study in software engineering?
+
+To identify potential risks and challenges
+To evaluate the technical feasibility of the project
+To determine the economic viability of the project
+To define the project scope and objectives
+
+
+
+
+
+02.
+What is the primary goal of version control in software development?
+
+Ensuring software security
+Managing software documentation
+Tracking changes and facilitating collaboration
+Improving software performance
+
+
+
+
+
+03.
+What is the primary purpose of software documentation?
+
+To satisfy regulatory requirements
+To facilitate code reuse
+To ensure effective collaboration
+To provide guidance for maintenance and future development
+
+
+
+
+
+04.
+Which software development methodology is characterized by a sequential and linear approach?
+
+Waterfall methodology
+Iterative development
+Rapid application development (RAD)
+Continuous integration (CI)
+
+
+
+
+
+05.
+Which software testing technique focuses on assessing how well the software performs under real-world conditions?
+
+Unit testing
+Integration testing
+System testing
+Acceptance testing
+
+
+
+
+
+06.
+Which software development practice involves the division of work into small, manageable units called tasks or user stories?
+
+Task breakdown
+Work decomposition
+User story estimation
+Work breakdown structure (WBS)
+
+
+
+
+
+07.
+What is the purpose of a retrospective meeting in Agile software development?
+
+To plan the next sprint
+To review and reflect on the completed sprint
+To showcase the developed features to stakeholders
+To conduct a formal project closure
+
+
+
+
+
+
+08.
+What is the primary benefit of using design patterns in software development?
+
+Improved code performance
+Enhanced software security
+Faster development time
+Reusable and maintainable code
+
+
+
+
+
+09.
+What is the purpose of conducting a code review in software development?
+
+To validate user requirements
+To ensure code meets coding standards
+To evaluate software performance
+To document project progress
+
+
+
+
+
+10.
+Which type of software testing verifies if the software meets the specified requirements?
+
+Unit testing
+Integration testing
+System testing
+Acceptance testing
+
+
+
+
+
+Answer
+01.
+To determine the economic viability of the project
+
+Feasibility studies assess the economic, technical, and operational aspects of a software project to determine its economic viability, considering factors such as costs, benefits, and risks.
+
+
+
+
+02.
+Tracking changes and facilitating collaboration
+
+Version control systems help track changes to source code, facilitate collaboration among team members, and enable seamless integration of code changes.
+
+
+
+
+03.
+To provide guidance for maintenance and future development
+
+Software documentation helps in understanding the software's architecture, design, functionality, and usage, providing essential guidance for maintenance, troubleshooting, and future development efforts.
+
+
+
+
+04.
+Continuous integration (CI)
+
+Continuous integration involves frequently integrating code changes into a shared repository, accompanied by automated builds, tests, and deployments, enabling smaller, incremental releases.
+
+
+
+
+05.
+System testing
+
+System testing evaluates the behavior and performance of a complete software system in a real-world environment to ensure its proper functioning and adherence to requirements.
+
+
+
+
+06.
+Work breakdown structure (WBS)
+
+The work breakdown structure (WBS) involves breaking down the project work into smaller, manageable units called tasks or user stories, facilitating planning and task allocation.
+
+
+
+
+07.
+To review and reflect on the completed sprint
+
+Retrospective meetings in Agile allow the team to review the previous sprint, discuss challenges, successes, and areas for improvement, and make adjustments to enhance future sprints.
+
+
+
+
+
+08.
+Reusable and maintainable code
+
+Design patterns provide reusable solutions to common software design problems, enabling the development of modular, flexible, and maintainable code.
+
+
+
+
+09.
+To ensure code meets coding standards
+
+Code reviews help ensure that code adheres to established coding standards, maintains code quality, and follows best practices.
+
+
+
+
+
+10.
+Acceptance testing
+
+Acceptance testing is performed to verify that the software meets the specified requirements and obtains approval from the stakeholders or end users.

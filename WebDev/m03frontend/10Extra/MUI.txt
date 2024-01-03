@@ -1,0 +1,90 @@
+Material UI 
+
+-- Stack 
+-- Typography 
+-- Box 
+-- Items  
+-- Container 
+-- Toolbar 
+-- Divider 
+-- Badge 
+-- 
+
+
+
+
+
+MUI functions 
+-- useStyle 
+-- makeStyles 
+
+-- title 
+-- tagline 
+
+-- fontSize
+-- flexGrow 
+
+
+
+
+
+
+Badge
+-- badgeContent 
+-- color
+-- 
+
+
+
+
+
+Icons 
+-- IconButton 
+-- MenuIcon
+-- DeleteIcon 
+-- 
+
+
+
+
+properties 
+-- spacing 
+-- direction 
+-- divider 
+-- orientation 
+-- variant 
+-- color
+-- size 
+-- startIcon 
+-- endIcon 
+-- style 
+
+-- disableRipple 
+-- disableElevation
+-- 
+
+
+-- flexItem
+-- flexWrap 
+-- useFlexGap 
+
+-- maxWidth 
+-- 
+
+-- xs
+-- sm
+-- md 
+-- lg 
+
+
+-- sx 
+
+-- p 
+-- m 
+-- 
+
+-- fontSize 
+-- fontWeight 
+-- paddingRight 
+-- paddingLeft 
+-- color 

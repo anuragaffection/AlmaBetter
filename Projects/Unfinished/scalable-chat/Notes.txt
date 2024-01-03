@@ -1,0 +1,5 @@
+aiven 
+tourborepo
+socket.io 
+node js 
+redis 
