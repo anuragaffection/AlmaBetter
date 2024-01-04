@@ -2,7 +2,7 @@ Material UI
 
 -- Stack 
 -- Typography 
--- Box 
+-- Box    = https://mui.com/system/react-box/
 -- Items  
 -- Container 
 -- Toolbar 
@@ -77,7 +77,8 @@ properties
 -- lg 
 
 
--- sx 
+sx 
+-- The sx prop is used to apply custom styling
 
 -- p 
 -- m 
