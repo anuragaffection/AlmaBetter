@@ -20,7 +20,6 @@ Enhanced user experience with Single Sign-On (SSO).
 
 
 
-
 02.
 What is OAuth 2.0 primarily used for?
 
