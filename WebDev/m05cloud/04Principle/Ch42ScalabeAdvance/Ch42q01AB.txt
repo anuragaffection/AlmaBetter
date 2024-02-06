@@ -3,12 +3,13 @@ Scalable best practices
 
 
 01.
-What is the primary purpose of conducting. feasibility study in software engineering?
+What is the primary purpose of conducting, feasibility study in software engineering?]]]
 
 To identify potential risks and challenges
 To evaluate the technical feasibility of the project
 To determine the economic viability of the project
 To define the project scope and objectives
+
 
 
 
@@ -26,6 +27,7 @@ Improving software performance
 
 
 
+
 03.
 What is the primary purpose of software documentation?
 
@@ -38,8 +40,10 @@ To provide guidance for maintenance and future development
 
 
 
+
+
 04.
-Which software development methodology is characterized by a sequential and linear approach?
+Which software development methodology is characterized by a sequential and linear approach?]]]
 
 Waterfall methodology
 Iterative development
@@ -50,13 +54,15 @@ Continuous integration (CI)
 
 
 
+
 05.
-Which software testing technique focuses on assessing how well the software performs under real-world conditions?
+Which software testing technique focuses on assessing how well the software performs under real-world conditions?]]]
 
 Unit testing
 Integration testing
 System testing
 Acceptance testing
+
 
 
 
@@ -74,8 +80,9 @@ Work breakdown structure (WBS)
 
 
 
+
 07.
-What is the purpose of a retrospective meeting in Agile software development?
+What is the purpose of a retrospective meeting in Agile software development?]]]
 
 To plan the next sprint
 To review and reflect on the completed sprint
@@ -88,12 +95,13 @@ To conduct a formal project closure
 
 
 08.
-What is the primary benefit of using design patterns in software development?
+What is the primary benefit of using design patterns in software development? ]]]
 
 Improved code performance
 Enhanced software security
 Faster development time
 Reusable and maintainable code
+
 
 
 
@@ -123,9 +131,73 @@ Acceptance testing
 
 
 
+11. 
+Which development practice focuses on delivering value to the customer through small, incremental releases?
+
+Continuous integration (CI)
+Continuous delivery (CD)
+Scrum
+Lean software development
+
+
+
+
+
+12.
+Which type of software maintenance involves fixing software defects without changing its functionality?
+
+Adaptive maintenance
+Corrective maintenance
+Perfective maintenance
+Preventive maintenance
+
+
+
+
+
+
+13.
+Which practice involves breaking down software development tasks into smaller, manageable units called user stories?
+
+Test-driven development (TDD)
+Continuous integration (CI)
+Feature-driven development (FDD)
+Scrum
+
+
+
+
+
+
+14.
+Which practice involves reorganizing existing code to improve its structure and readability without changing its external behavior?
+
+Code refactoring
+Pair programming
+Continuous integration (CI)
+Test-driven development (TDD)
+
+
+
+
+
+15.
+Which testing technique verifies the functionality of individual software components?
+
+System testing
+Integration testing
+Unit testing
+Acceptance testing
+
+
+
+
+
+
+
 Answer
 01.
-To determine the economic viability of the project
+To determine the economic viability of the project ]]]
 
 Feasibility studies assess the economic, technical, and operational aspects of a software project to determine its economic viability, considering factors such as costs, benefits, and risks.
 
@@ -149,7 +221,7 @@ Software documentation helps in understanding the software's architecture, desig
 
 
 04.
-Continuous integration (CI)
+Continuous integration (CI) ]]]
 
 Continuous integration involves frequently integrating code changes into a shared repository, accompanied by automated builds, tests, and deployments, enabling smaller, incremental releases.
 
@@ -157,7 +229,7 @@ Continuous integration involves frequently integrating code changes into a share
 
 
 05.
-System testing
+System testing ]]]
 
 System testing evaluates the behavior and performance of a complete software system in a real-world environment to ensure its proper functioning and adherence to requirements.
 
@@ -173,7 +245,7 @@ The work breakdown structure (WBS) involves breaking down the project work into 
 
 
 07.
-To review and reflect on the completed sprint
+To review and reflect on the completed sprint ]]]
 
 Retrospective meetings in Agile allow the team to review the previous sprint, discuss challenges, successes, and areas for improvement, and make adjustments to enhance future sprints.
 
@@ -182,7 +254,7 @@ Retrospective meetings in Agile allow the team to review the previous sprint, di
 
 
 08.
-Reusable and maintainable code
+Reusable and maintainable code ]]]
 
 Design patterns provide reusable solutions to common software design problems, enabling the development of modular, flexible, and maintainable code.
 
@@ -202,3 +274,44 @@ Code reviews help ensure that code adheres to established coding standards, main
 Acceptance testing
 
 Acceptance testing is performed to verify that the software meets the specified requirements and obtains approval from the stakeholders or end users.
+
+
+
+11.
+Continuous delivery (CD)
+
+Continuous delivery focuses on continuously delivering software in small, incremental releases, ensuring that it is always in a releasable state.
+
+
+
+
+12.
+Corrective maintenance
+
+Corrective maintenance involves identifying and fixing defects or bugs in software without introducing new functionality or changing its existing behavior.
+
+
+
+
+13.
+Scrum
+
+Scrum is an Agile framework that involves breaking down software development tasks into smaller units called user stories, which are prioritized and completed in iterative sprints.
+
+
+
+
+14.
+Code refactoring
+
+Code refactoring involves restructuring and improving code without changing its external behavior, resulting in cleaner, more maintainable code.
+
+
+
+
+
+15.
+Unit testing
+
+Unit testing focuses on testing individual software components or units to ensure they function as intended. It involves testing small, isolated portions of code.
+

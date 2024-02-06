@@ -4,6 +4,7 @@ Topics
 -- Test-driven development (TDD)
 -- CI/CD
 -- Coding standards & ( SOLID Principle)
+-- DevOps 
 -- DevSecOps
 -- Performance optimization techniques
 -- Security best practices
@@ -31,7 +32,7 @@ Note {
 
 Task {
     -- principle of minimalism.
-    -- 
+    -- taptic engine in apple 
 }
 
 
@@ -45,7 +46,7 @@ Agile methodologies {
     -- XP  = extreme Programing
     -- LSD = time saving form extra uncessary task like meeting 
     -- LSD = Lean software Development
-    -- FDD = Feature Drive Development
+    -- FDD = Feature Driven Development
     -- JIT = Just in time 
     -- 
 }
@@ -66,8 +67,19 @@ Test-driven development (TDD) {
     -- 05. Refactor ]]
     -- 06. repeat [from 01]
 
+    Tools 
     -- JUnit  for Java
     -- pytest for Python.
+
+    Refactor
+    -- in Refactor, devlopers remove duplication, unwanted spaces, code restructuring, improve readability  
+
+    Why TDD 
+    -- atutomated test 
+    -- quality assurance 
+    -- faster feedback loop 
+    -- modular coding 
+    -- refactoring 
 }
 
 
@@ -77,7 +89,7 @@ Test-driven development (TDD) {
 
 CI/CD {
     -- CI = continuous integration
-    -- CD = continuous Delivery 
+    -- CD = continuous Delivery / deployment
 
     CI
     -- design 
@@ -92,11 +104,17 @@ CI/CD {
     -- release 
     -- maintain 
     -- operate 
+    -- deploy 
+
 
     why CI & CD
-    -- infrastructure as code 
+    -- infrastructure as code (IaC)]]
     -- rapid feedback 
-    -- 
+
+    Notes
+    -- CD is extension of CI 
+    -- staging is a step before the production release 
+    -- full testing is done on staging  environment 
 }
 
 
@@ -106,7 +124,10 @@ CI/CD {
 Coding standards & ( SOLID Principle) {
     
     Coding standards
-    -- 
+    -- Consistency 
+    -- readability
+    -- maintainability 
+    -- team collaboration
 
     SOLID Principle]]]
     -- S = SRP = Single Responsibility Principle
@@ -115,11 +136,23 @@ Coding standards & ( SOLID Principle) {
     -- I = ISP = interface Segregation Principle ]]
     -- D = DIP = Dependency inversion principle
 
+    SOLID Principle
+    -- SRP = Each class or module should have a single responsibility
+    -- OCP =  open for extension but closed for modification.
+    -- LSP = you should be used any derived class instead of base class without modification 
+    -- ISP = client should be forced to depend on interfaces, they do not use 
+    -- DIP = high level module should not depend on low level module, both should depend on abstraction 
+
+
     Solid principle
     -- mostly followed in Oops concept 
     -- loose coupling 
     -- decoupling 
-    -- 
+    --
+
+    Notes 
+    -- base, super, parent, classes are same 
+    -- derived, sub, child, classes are same  
 }
 
 
@@ -138,7 +171,7 @@ DevSecOps {
     -- Automated testing
     -- code Review 
 
-    Sec 
+    Sec ]]
     -- SAST = static application Security testing
     -- DAST = Dynamic application Security testing
     -- Security assessments 
@@ -148,6 +181,7 @@ DevSecOps {
     -- infrastructure as code (IaC)
     -- Monitoring 
 
+    Notes 
     -- shift-left approach ]]
     -- 
 }
@@ -163,12 +197,11 @@ Performance optimization techniques {
     -- Optimize the code [good algorithm]
     -- caching [memoization]
     -- database optimization [indexing]
-    -- reduce network latency 
+    -- reduce network latency [use CDNs]
     -- parallel processing [ async, concurrency]
     -- compressing file and code 
     -- minimizing white spaces in code 
     -- use of CDNs
-
 }
 
 
@@ -201,7 +234,7 @@ Scalability and robustness {
     -- vertical scaling
     -- horizontal scaling
     -- auto Scaling 
-    -- Distributed architecture
+    -- Distributed architecture]]]
     -- caching
     -- Asynchronous processing
 
@@ -211,13 +244,34 @@ Scalability and robustness {
     -- data backup 
     -- error handling 
     -- load testing
+
+    Distributed architecture
+    -- sharding 
+    -- indexing 
+    -- data replication [storing copy]
+    -- normalization 
+
+    Bootlenecks 
+    -- 
 }
 
 
 
 
 Automation to increase performance {
+    -- Borg , google automation system 
     -- 
+
+    Automation 
+    -- automate repetitive tasks 
+    -- workflow and process automation
+    -- data processign and analysis 
+    -- IT opeations and infrastructure automation 
+    -- customer service automation 
+    -- Support service automation 
+    -- Testing automation 
+    -- Monitoring automation 
+    -- Alerting automation  
 }
 
 
@@ -229,7 +283,7 @@ Activity {
 
     01. Agile software development focuses on __________ (documentation/Individuals) and __________(interactions/process).
     
-    02. Scrum is an example of an __________ (Iterative/Waterfall) Agile methodology.
+    02. Scrum is an example of an __________ (Iterative/Waterfall) Agile methodology.]]]
     
     03. The first step in TDD is to write a ____________(passing test/failing test).
     
@@ -239,10 +293,10 @@ Activity {
     
     Answers
     01. Individuals, interactions]]
-    02. Iterative
+    02. Iterative]]
     03. Failing test
-    04. Functionality
-    05. Delivery
+    04. Functionality]]
+    05. Delivery]]
 
 
 
@@ -259,7 +313,7 @@ Activity {
     
     05. Minification is the process of simplifying code by removing unnecessary characters, such as whitespaces and comments.
     
-    06. Content Delivery Networks (CDNs) improve website performance by moving content closer to the end users.]]] doubt]
+    06. Content Delivery Networks (CDNs) improve website performance by moving content closer to the end users.
     
     Answers
     01. True
@@ -267,7 +321,7 @@ Activity {
     03. False
     04. True
     05. True
-    06. False
+    06. True
 
 
 

@@ -1,12 +1,10 @@
 /*
    margin & margin collapse = calculation of margin 
-
    padding & padding element width = why we set box-sizing = border box
 
-
-   Note: Remember that the height and width properties do not include padding, borders, or margins! 
+   Note: Remember that by default the height and width properties do not include 
+   padding, borders, or margins! 
    They set the height/width of the area inside the padding, border, and margin of the element!
-   
 
 */
 
@@ -18,29 +16,10 @@ p {
 
 
 
-
-
-
-/* inline  */
-#inline div {
-    display: inline;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin: 20px;
-    border: 3px solid blue;
-    background-color: aqua;
-}
-
-#inline {
-    background-color: yellow;
-}
-
-
 /* 
-  height and Width does not work on inline display & neither on their children 
+  height and Width does not work on inline display 
 
-  padding & margin does not work on inline display, but their children will take that paddig & margin 
+  padding & margin  work on inline display, 
 
   same thing happened on span tag,  because span tag is inline element by default - so height and width does not work 
 
@@ -48,27 +27,48 @@ p {
 
 */
 
+#inline {
+    background-color: yellow;
+    display: inline;
+    height: 700px;
+    width: 500px;
+}
+
+/* inline  */
+#inline div {
+    display: inline;
+    width: 550px;
+    height: 550px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid blue;
+    background-color: rgb(189, 82, 33);
+}
+
 
 
 
 
 /* block  */
+/*  the combined selector #block div is looking for <div> elements 
+that are descendants of an element with the ID of "block". */
+
+#block {
+    background-color: yellow;
+    display: block;
+    height: 700px;
+    width: 500px;
+}
+
 #block div {
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 100px;
     padding: 10px;
     margin: 20px;
     border: 3px solid blue;
     background-color: aqua;
-
 }
-
-#block {
-    background-color: yellow;
-}
-
-
 
 
 
@@ -94,6 +94,11 @@ p {
 
 
 /* run in  */
+#run-in {
+    background-color: yellow;
+    display: run-in;
+}
+
 #run-in div {
     display: run-in;
     height: 50px;
@@ -104,9 +109,7 @@ p {
     background-color: aqua;
 }
 
-#run-in {
-    background-color: yellow;
-}
+
 
 
 
@@ -114,7 +117,6 @@ p {
 
 /* 
    display : none 
-
    it will hide the div 
 
 */
@@ -128,14 +130,7 @@ p {
 
 
 
-
-
-
-
-
 /* flex  */
-
-
 .inside {
     min-width: 50px;
     min-height: 50px;
@@ -145,15 +140,9 @@ p {
 }
 
 
-
-
 .box1 {
     background-color: yellow;
 }
-
-
-
-
 
 .box2 {
     display: flex;
@@ -163,9 +152,6 @@ p {
     border: 2px solid black;
 }
 
-
-
-
 .box3 {
     display: inline-flex;
     /* flex-direction = row == by default */
@@ -173,9 +159,6 @@ p {
     background-color: yellow;
     border: 2px solid black;
 }
-
-
-
 
 .box4 {
     display: flex;
@@ -185,7 +168,6 @@ p {
 
 }
 
-
 .box5 {
     display: flex;
     /* flex-direction: row; */
@@ -194,22 +176,16 @@ p {
 
 }
 
-
-
 .box6 {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .box7 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: 2px solid black;
-    
-
 }
 
 

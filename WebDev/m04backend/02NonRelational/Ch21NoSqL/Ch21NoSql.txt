@@ -17,6 +17,7 @@ Familiarization with BSON
 
 
 Getting Started with MongoDB
+-- installing MongoDB community server ]]
 -- installing MongoDB Compass 
 -- Setting Up MongoDB Atlas 
 -- Connecting MongoDB Compass & Atlas ]]

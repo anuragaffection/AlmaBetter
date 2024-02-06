@@ -1,0 +1,48 @@
+
+Objects & Json topics {
+    -- Objects
+    -- Objects Methods 
+    -- Set
+    -- Map 
+    -- JSON 
+}
+
+
+
+array {
+    -- push()
+    -- pop()
+    -- includes()
+    -- indexOf()
+    -- shift()
+    -- unshift()
+    -- map()
+    -- reduce()
+    -- find()
+    -- filter()
+    -- 
+}
+
+
+Set {
+    -- add()
+    -- delete()
+    -- has()
+    -- size()
+    -- forEach()
+    -- 
+}
+
+
+Map {
+    -- set(key, value)
+    -- get(key)
+    -- has()
+    -- clear()
+    -- size()
+    -- forEach()
+    -- 
+}
+
+
+

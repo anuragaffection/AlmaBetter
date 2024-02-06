@@ -1,0 +1,64 @@
+MongoDB interview Question by Simpli Code 
+-- 
+
+01. Explain what is MongoDB & its feature. 
+02. What are some alternative of NoSQL database 
+03. Types of NoSQL database
+04. How does MongoDB store data 
+
+5.1 How do you create schema in MongoDB 
+5.2 Is MongoDB schema less 
+
+6.1 How is MongoDB different from SQL & how it is better than MySQL
+6.2 Horizontal Scaling vs Vertical Scaling vs Auto Scaling 
+6.3 What is cap theorem ]]]
+6.4 What is replication & sharding 
+
+7.0  What is different data model in MongoDB ]]]
+7.1  Embedded vs Reference 
+
+8.0  How Does indexing work in MongoDB ]]]
+
+09. Replication & Sharding ]]]
+10. Explain Horizontal vs Vertical Scaling 
+11. When should we embed one document with another ]]]
+
+12.0 What is replica sets ]]]
+12.1 Primary vs Secondary replica sets 
+
+13. What is the use of capped collection ]]
+14. How can you store images, videos & other large file ]]]
+
+15.0 Explain aggregation in MongoDB ]]]
+15.1 aggregation pipeline 
+15.2 map reduce operation 
+15.3 Single purpose aggregation
+15.4 Match vs Group vs Sort 
+
+16. What is mean by _id field 
+
+17.0 some utilities for backup & restoring  
+17.1 mongoimport vs mongoexport vs mongodump vs mongorestore 
+
+18. Can you explain about map reduce process in MongoDB ]]]
+19. How mongodb ensure high availability of data 
+20. Role of profiler in mongodb ]]] 
+21. Can we use regular expression in mongodb
+
+22. How do you search for document in which a specific field has one or more values ]]]
+
+23. command to insert document in a collection 
+24. diffrence betwwen $all vs $in ]]]
+
+25. slave node vs master node 
+
+26. What is shard key & mention the sharded cluster ]] 
+27. $lookup in MongoDB
+28. pros and cons of normalizing data in MongoDB
+29. advanatage of using mongodb
+30. application of mongodb
+
+
+
+
+

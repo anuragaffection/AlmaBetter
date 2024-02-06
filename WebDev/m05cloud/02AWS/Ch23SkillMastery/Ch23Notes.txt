@@ -32,7 +32,7 @@ Task {
 
 
 
-Interview Prep {
+Skill Mastery Interview Prep {
 
     Well designed Frontend 
     -- fast loading pages 

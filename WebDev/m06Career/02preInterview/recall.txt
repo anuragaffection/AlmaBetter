@@ -1,5 +1,0 @@
-Ways to Recall {
-    -- 1. read your own notes 
-    -- 2. alma better materials 
-    -- 3. interview Questions 
-}

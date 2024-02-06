@@ -87,7 +87,7 @@ MVVC = Multi Version Concurrency Control
 NPM  = Node Package Manager 
 
 PIP  = Python Package Installer 
-
+P2P  = Peer to Peer
 
 RDF  = Resource Description Framework 
 RBAC = Role based access control

@@ -16,10 +16,7 @@ Module 03 frontend {
         -- https://www.htmlgoodies.com/css/css-border-padding-margin/
         
         14. Advanced Css Techniques
-        -- https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
-        -- https://www.smashingmagazine.com/2022/10/advanced-animations-css/
-        -- https://dev.to/w3tsa/css-display-and-css-position-4ldi
-        
+
         15. Bootstrap Basics
         -- https://medium.com/codingthesmartway-com-blog
         -- introduction-to-bootstrap-4-flex-layout-flexbox-for-bootstrap-f85405ce5ebf

@@ -104,6 +104,8 @@ Querying Data {
 
     -- show dbs 
     -- show databases
+    -- show collections 
+    
 
     -- db.<myCollection_name>.insertOne({});
     -- db.<myCollection_name>.insertMany( [ {}, {}, {}])
@@ -112,6 +114,15 @@ Querying Data {
     -- db.<myCollection_name>.findOne()
 
     -- db.<myCollection_name>.find().limit()
+
+    keywords in mongodb
+    -- db 
+    -- d 
+    -- c
+    -- dbs 
+    -- databases
+    -- collections
+
 
     Embedded document
     -- also called as nested document

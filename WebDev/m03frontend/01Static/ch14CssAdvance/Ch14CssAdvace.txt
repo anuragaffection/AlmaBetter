@@ -1,0 +1,105 @@
+
+Advance CSS Techniques
+-- Display 
+-- Flexbox 
+-- Position 
+-- Responsive web design 
+-- Media Queries 
+-- Transitios & transforms 
+-- Animations 
+
+
+
+Links {
+    -- https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+    -- https://www.smashingmagazine.com/2022/10/advanced-animations-css/
+    -- https://dev.to/w3tsa/css-display-and-css-position-4ldi   
+}
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+
+01. Display {
+
+    diplay
+    -- inline 
+    -- block 
+    -- inline-block
+    -- none 
+    -- run-in ]]]
+    -- table 
+    -- flex 
+    -- grid 
+    
+
+
+    properties 
+
+    01. inline   
+    --- height & width does not work
+    --- element arranged inline or same line
+    --- mostly used for image & text styling 
+
+    02. block     
+    --- height & width work,
+    --- element arranged in stack 
+
+    03. inline-block
+    --- height & width work, 
+    --- element arranged in inline
+
+    04. non 
+    --- does not take space 
+    --- hide the element
+
+
+    Notes 
+    -- height and Width does not work on inline display 
+    -- padding & margin work on inline display
+    -- same thing happened on span tag, because span tag is inline element by default 
+    -- so height and width does not work in span tag 
+    -- But if we change display from inline to block , then height & width will work 
+
+}
+
+
+
+
+02. Flexbox {
+    -- 1D model 
+    -- main axis 
+    -- cross axis 
+    -- main start 
+    -- main end 
+    -- cross start 
+    -- cross end 
+
+    parent element
+    -- display : flex / inline-flex 
+    -- flexDirection : 
+    -- 
+
+    diplay
+    -- flex 
+    -- inline-flex 
+    -- 
+}
+
+03. Position 
+
+04. Responsive web design 
+
+05. Media Queries 
+
+06. Transitios & transforms
+
+07. Animations 

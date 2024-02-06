@@ -4,11 +4,17 @@
 Skill Mastery Links {
     -- https://en.wikipedia.org/wiki/Concurrency_control
     -- https://www.ibm.com/topics/dbaas
+    -- https://www.interviewbit.com/sql-interview-questions/
+    -- https://www.indeed.com/career-advice/interviewing/rdbms-interview-questions
+    -- https://www.interviewkickstart.com/interview-questions/relational-databases-interview-questions
+    
 }
 
 
 
-Skill Mastery interview concept {
+
+
+Skill Mastery Interview Prep {
     -- What are temporal and spatial database 
     -- role based modeling  
     -- life cycle of database design

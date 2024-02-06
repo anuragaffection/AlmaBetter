@@ -1,0 +1,39 @@
+
+InterviewBit{
+    -- https://www.interviewbit.com/react-interview-questions/
+    
+    01. 
+    -- react follows unidirectional data binding or data flow.
+
+    02. 
+    -- React uses virtual dom for rendering the view 
+    -- MVC = Model View Controller [architecture ]
+
+    03. 
+
+    04. 
+    -- what is tuple 
+    -- The useState(0) will return a tuple 
+    -- useState hook returns an array of two items
+
+    05. 
+
+    06. 
+    -- Why we need jsx 
+    -- what the jsx is providing 
+    -- 
+
+    07. 
+    -- 
+
+    08. 
+    -- why we need virtual dom 
+    -- why react use two virtual dom 
+    -- inefficient updating = when due to small changes, the appliaction re render everything 
+    -- React uses two virtual DOMs to render the user interface
+
+    09. 
+    -- What are the differences between controlled and uncontrolled components
+    -- what is ref 
+    -- 
+}

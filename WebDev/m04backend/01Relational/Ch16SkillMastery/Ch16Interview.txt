@@ -1,7 +1,0 @@
-
-
-Extra interview links {
-    -- https://www.interviewbit.com/sql-interview-questions/
-    -- https://www.indeed.com/career-advice/interviewing/rdbms-interview-questions
-    -- https://www.interviewkickstart.com/interview-questions/relational-databases-interview-questions
-}
