@@ -1,8 +1,9 @@
 javascript interview questions by [Piyush Garg ]
 
 
-Part 01
---
+Part 01 topics [Important video ]
+-- hoisting
+-- 
 
 01. hoisting with variables 
 -- Global Execution context 
@@ -27,6 +28,7 @@ Part 01
 
 
 
-Part 02 
--- 
+Part 02 [Important Video]
+-- event loop 
+-- timeout 
 

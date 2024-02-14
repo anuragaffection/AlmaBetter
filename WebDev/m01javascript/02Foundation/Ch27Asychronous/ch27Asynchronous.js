@@ -1,9 +1,5 @@
-//
+
 // Asynchronous in javascript 
-// 
-
-
-
 
 /**
  * 
@@ -28,17 +24,11 @@
 */
 
 
-
-
-
-
 /**
  * explore quiz - 01, 02, 03 
  * 
  * 
 */
-
-
 
 
 /**
@@ -48,17 +38,10 @@
 */
 
 
-
-
 /**
  * explore topics  - out of the box 
  * 
 */
-
-
-
-
-
 
 
 
@@ -68,23 +51,15 @@
 
 
 
-
-
-
 // 02.  
 // multi threaded programming language 
 // java, c++, python are multi threaded programming language
 
 
 
-
-
-
-
 // 03. 
 // callback queue 
 // task queue
-
 /*  
     JavaScript engine place the Some task() function is into a queue 
     called a callback queue or a task queue
@@ -93,45 +68,40 @@
 
 
 
-
-
-
 // 04. 
 // callback stack
 
 
 
+/* 
+ 05. 
 
+ setTimeout()
 
+ if you need to run a function only one time then use setTimeout
 
+ syntax :- setTimeout(function, delayTime)
+ syntax :- setTimeout(function, delaytime, argument1, argument2, argument3 );
 
-// 05. 
-// setTimeout()
-
-// if you need to run a function only one time then use setTimeout
-
-// syntax :- setTimeout(function, delayTime)
-// syntax :- setTimeout(function, delaytime, argument1, argument2, argument3 );
-
-
-
-
+*/
 
 
 
 
 
-// 06. 
+
+
+// 06.
 // setInterval()
 
 // if you need to run a function multiple time then use setInterval
 
-// setInterval is self calling function 
+// setInterval is self calling function
 // setInterval need to stop, otherwise program will go infinite number of times
 // seInteval is perpetual, (means programs will runs, until memory runs out)
 
-// setInterval (function, dalayTime);
-// setInterval (function, delayTime, argument1, argument2, argument3 )
+// setInterval(function, dalayTime);
+// setInterval(function, delayTime, argument1, argument2, argument3)
 
 
 
@@ -147,13 +117,12 @@
 
 console.log("Hello World ");
 
-function greet(){
+function greet() {
     console.log("Hello Friends");
-} 
+}
 
 
 setTimeout(greet, 3000); // function call using setTimeout or Asynchronous calling 
-
 
 console.log("Namastey World");
 greet(); // simple function call or normally we call 
@@ -165,7 +134,7 @@ greet(); // simple function call or normally we call
 // by passing arguments using setTimeout
 
 
-function greetHello(name, message ){
+function greetHello(name, message) {
     console.log(`Hello ${name}, ${message}`);
 
 }
@@ -193,13 +162,13 @@ let minutes = time.getMinutes();
 let seconds = time.getSeconds();
 let timeNow = `${hours} : ${minutes} : ${seconds}`;
 
-function displayTime (){
+function displayTime() {
     console.log(`Now the time is ${timeNow}`);
 }
 
 let intervalId = setInterval(displayTime, 2000);
 
-setTimeout(function (){
+setTimeout(function () {
     clearInterval(intervalId)
 }, 6000);
 
@@ -221,10 +190,10 @@ setTimeout(function (){
 // stop set interval after five times, using clearInterval
 let count = 0;
 
-function countDisplay (){
+function countDisplay() {
     count++;
     console.log("count = ", count);
-    if(count ===5){
+    if (count === 5) {
         clearInterval(intervalId2);
         console.log("Interval Stopped ");
     }
@@ -238,11 +207,11 @@ let intervalId2 = setInterval(countDisplay, 1000);
 // 11.
 // synchronous vs Asynchronous
 
-/* 
+/*
  Synchronous programming refers to a traditional programming approach
- where tasks are executed sequentially (one after the other). 
+ where tasks are executed sequentially (one after the other).
 
- In contrast, asynchronous programming allows for 
+ In contrast, asynchronous programming allows for
  multiple tasks to be executed concurrently without blocking the main thread or UI.
 
 */
@@ -287,9 +256,8 @@ let intervalId2 = setInterval(countDisplay, 1000);
    Promise.all([promise1,promise2])
 
 
-
-
 */
+
 
 
 
@@ -298,6 +266,8 @@ let intervalId2 = setInterval(countDisplay, 1000);
   What is async & await ?
 
 */
+
+
 
 
 /* 

@@ -1,0 +1,369 @@
+
+Top 10 interview questions for javascript [by Tanay Pratap]
+
+01. setTimeout 
+02. event loop 
+03. promise.resolve()
+04. micro task 
+
+05. placement of javascript file 
+06. async vs defer 
+07. critical rendering path 
+08. blocking vs non blocking 
+
+09. let, var & const difference 
+10. reference error 
+11. block scoping, global scoping 
+
+12. closures definition 
+13. closures working 
+14. testig closures in debugger 
+
+15. functional programming
+16. pure function
+17. poly fill (map, filter, reduce)
+18. compose 
+19. curying 
+20. higher order function 
+
+21. this keyword 
+22. call, bind, apply 
+23. working of this 
+
+28. react vs angular vs view 
+29. nextjs vs react js 
+20. nextjs vs gatsby 
+
+21. ssr vs csr 
+22. spa vs mpa 
+
+23. virtual dom 
+24. reconciliation 
+25. fiber 
+
+25. prototypical inheritance 
+26. multi level inheritance
+27. class 
+28. constructor 
+
+
+29. promises, async, await, callback  
+30. parallel request 
+31. when "then" happen after applying await 
+32. sequential request
+33. callback hell 
+34. pyramid of doom 
+35. state management in promise 
+
+36. Debounce vs Throttle 
+
+
+
+
+1. Can you explain how `setTimeout` works in JavaScript and provide an example of its usage?
+
+2. **What is the event loop in JavaScript, and how does it help in handling asynchronous operations?**
+
+3. How does `Promise.resolve()` differ from `new Promise()`? Can you provide an example of using `Promise.resolve()`?]]]
+
+4.  What are microtasks in JavaScript, and how do they differ from macrotasks?]]]
+
+5. How does the placement of JavaScript files affect page loading performance?]]]
+
+6.  Explain the differences between `async` and `defer` attributes when loading external JavaScript files.]]]
+
+7.  What is the critical rendering path, and how does JavaScript execution affect it?]]]
+
+8.  Can you explain the concepts of blocking and non-blocking code execution in JavaScript?
+
+9.  What are the differences between `let`, `var`, and `const` in JavaScript in terms of scoping and reassignment?
+
+10. When does a reference error occur in JavaScript, and how can it be handled?
+
+11. Explain the concepts of block scoping and global scoping in JavaScript.
+
+12. What is a closure in JavaScript, and why are they useful?]]]
+
+13. Can you explain how closures work in JavaScript with an example?]]]
+
+14. How can you test closures using a debugger tool in JavaScript?]]]
+
+15. What is functional programming, and how does it differ from imperative programming?]]]
+
+16. Define a pure function in JavaScript and explain its characteristics.]]]
+
+17. What is a polyfill in JavaScript, and can you provide examples for implementing `map`, `filter`, and `reduce` polyfills?]]]
+
+18. Explain the concept of function composition in JavaScript.]]]
+
+19. What is currying, and how is it implemented in JavaScript?]]]
+
+20. Define a higher-order function in JavaScript and provide examples.
+
+21. How does the `this` keyword behave in different contexts in JavaScript?]]]
+
+22. Explain the differences between `call`, `bind`, and `apply` methods in JavaScript.]]]
+
+23. Describe the mechanisms behind how the `this` keyword works in JavaScript.]]]
+
+24. Compare and contrast React, Angular, and Vue.js in terms of features, performance, and ecosystem.
+
+25. What are the differences between Next.js and React.js? When would you choose one over the other?
+
+26. Compare Next.js and Gatsby in terms of their features, use cases, and performance.
+
+27. Explain the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) in web development.
+
+28. Compare Single-Page Applications (SPAs) and Multi-Page Applications (MPAs) in terms of architecture and performance.
+
+29.  What is the Virtual DOM, and how does it improve performance in frameworks like React?
+
+30.  Describe the reconciliation  process & difing algorithms in React and its significance in rendering updates efficiently.
+
+31.  What is React Fiber, and how does it enhance the performance of React applications?]]]
+
+32.  Explain the concept of prototypical inheritance in JavaScript and provide an example.]]]
+
+33.  Describe multi-level inheritance and how it can be achieved in JavaScript.
+
+34. What is the `class` keyword in JavaScript, and how does it relate to classical inheritance?
+
+35.  Explain the role of the `constructor` method in JavaScript classes and how it differs from regular functions.
+
+36.  Compare and contrast promises, async/await, and callbacks in JavaScript for handling asynchronous operations.]]]
+
+37. How can you make parallel requests in JavaScript, and what are the benefits?
+
+38. Explain the timing of the `then` method invocation after applying `await` in async functions.
+
+39. Describe how you would make sequential requests in JavaScript, and discuss potential drawbacks.
+
+40. What is callback hell, and how can it be mitigated in JavaScript code?
+
+41. Explain the concept of the pyramid of doom and how it relates to nested callbacks.]]]
+
+42. Discuss strategies for managing state in promise-based asynchronous code.
+
+43. Compare and contrast debounce and throttle techniques in JavaScript for managing event handling.
+
+
+
+
+
+
+answer 
+
+01. 
+
+
+
+2. **What is the event loop in JavaScript, and how does it help in handling asynchronous operations?**
+
+   The event loop is a crucial part of JavaScript's concurrency model. It's responsible for handling asynchronous operations in JavaScript by continuously monitoring the call stack and the task queue.
+
+   Here's how it works:
+   - JavaScript is single-threaded, meaning it can only execute one piece of code at a time.
+   - Asynchronous operations such as I/O operations, timers, and event listeners are handled separately from the main execution thread.
+   - When an asynchronous operation is encountered, it's offloaded to the browser's APIs (in the case of web browsers) or the Node.js runtime environment (in the case of server-side JavaScript).
+   - Once the asynchronous operation is completed, a corresponding event is placed in the task queue.
+   - The event loop continuously checks if the call stack is empty. If it is, it takes the first event from the task queue and pushes it onto the call stack for execution.
+   - This process continues, allowing JavaScript to handle asynchronous operations without blocking the main thread.
+
+   The event loop ensures that JavaScript remains responsive and can handle non-blocking I/O operations efficiently.
+
+
+
+
+
+3. **How does `Promise.resolve()` differ from `new Promise()`? Can you provide an example of using `Promise.resolve()`?**
+
+   `Promise.resolve()` and `new Promise()` both create Promise objects, but they differ in how they handle the resolution of those promises.
+
+   - `new Promise()`: This constructor is used to create a new Promise object. It takes a function as an argument, which in turn takes two parameters: `resolve` and `reject`. Inside this function, you perform asynchronous operations, and when they are completed, you call `resolve()` to fulfill the promise, or `reject()` to reject it.
+
+     Example:
+     ```javascript
+     const promise = new Promise((resolve, reject) => {
+         // Perform asynchronous operation
+         setTimeout(() => {
+             resolve('Operation completed successfully');
+         }, 2000);
+     });
+     ```
+
+   - `Promise.resolve()`: This method creates a Promise object that is resolved with the given value. It's commonly used to wrap a synchronous value or another promise into a promise.
+
+     Example:
+     ```javascript
+     const resolvedPromise = Promise.resolve('Resolved value');
+     ```
+
+   The difference is that `new Promise()` is used when you have asynchronous operations to perform and you want to manually control when to resolve or reject the promise, while `Promise.resolve()` is used when you already have a value or another promise that you want to wrap into a promise.
+
+   Here's an example demonstrating the difference:
+   ```javascript
+   // Using new Promise() ]]]
+   const promise1 = new Promise((resolve, reject) => {
+       // Simulating an asynchronous operation
+       setTimeout(() => {
+           resolve('Promise 1 resolved');
+       }, 2000);
+   });
+
+   // Using Promise.resolve() ]]]
+   const promise2 = Promise.resolve('Promise 2 resolved');
+
+   promise1.then(result => console.log(result)); // Output: Promise 1 resolved (after 2 seconds)
+   promise2.then(result => console.log(result)); // Output: Promise 2 resolved (immediately)
+   ```
+
+   In this example, `promise1` is created using `new Promise()` and resolves after 2 seconds, while `promise2` is created using `Promise.resolve()` and resolves immediately with the provided value.
+
+
+
+
+4. **What are microtasks in JavaScript, and how do they differ from macrotasks?**
+
+   Microtasks and macrotasks are both types of tasks in JavaScript's event loop, but they differ in terms of when they are executed and their priority.
+
+   - **Macrotasks**:]]]
+     - Macrotasks include tasks such as script execution, setTimeout, setInterval, and I/O operations.
+     - Macrotasks are placed in the task queue and are executed after the call stack is empty.
+     - Examples of macrotasks include processing user input, rendering, and setTimeout callbacks.
+
+   - **Microtasks**:]]]
+     - Microtasks are tasks with higher priority than macrotasks.
+     - They include tasks such as promise callbacks (created by methods like `then`, `catch`, `finally`), mutation observer callbacks, and `queueMicrotask` API.
+     - Microtasks are executed immediately after the current macrotask and before the next macrotask or rendering.
+     - Microtasks are designed for handling asynchronous operations with higher priority, allowing for smoother user interactions and more predictable behavior.
+
+   Here's a simplified representation of the event loop:
+
+   1. Execute macrotask (script execution).
+   2. Check for microtasks:
+      - Execute all microtasks in the microtask queue.
+   3. Check for user input and other macrotasks.
+   4. If there are macrotasks, execute them one by one.
+   5. Repeat the process.
+
+   Understanding the distinction between microtasks and macrotasks is essential for managing asynchronous operations effectively in JavaScript and ensuring the responsiveness of web applications.
+
+
+
+5. **How does the placement of JavaScript files affect page loading performance?**
+
+   The placement of JavaScript files can significantly impact page loading performance. Here's how:]]]
+
+   - **Blocking Page Rendering**: JavaScript execution is typically blocking, meaning that the browser has to pause rendering the page while it loads and executes JavaScript. If JavaScript files are placed in the `<head>` of the HTML document without any attributes (`async` or `defer`), they will be fetched and executed before the browser continues parsing the HTML and rendering the page content. This can lead to a delay in rendering and a slower perceived page load time.
+
+   - **Load Time**: Placing JavaScript files at the top of the HTML document (inside the `<head>` tag) can increase load time because the browser has to download and execute these scripts before it can render any visible content to the user. This can result in longer initial load times, especially for larger JavaScript files or slower network connections.
+
+   - **Page Interactivity**: If JavaScript files are loaded and executed synchronously, they can delay user interaction with the page. For example, if a JavaScript file contains code that manipulates the DOM or adds event listeners, the user may experience delays in being able to interact with elements on the page until the JavaScript has finished executing.
+
+
+   To mitigate these issues and improve page loading performance:]]]
+
+   - **Use Asynchronous Loading**: Use the `async` or `defer` attributes when including external JavaScript files in your HTML. This allows the browser to continue parsing and rendering the page while fetching and executing the JavaScript asynchronously.
+   `async`]] downloads the script asynchronously and executes it as soon as it's available, 
+   while `defer`]] downloads the script asynchronously but defers execution until after the HTML has been parsed. 
+   This can improve perceived page load times and overall responsiveness.
+
+   - **Minify and Concatenate Scripts**: Minify and concatenate multiple JavaScript files into a single file to reduce the number of HTTP requests and decrease load time. This can also help improve caching efficiency.
+
+   - **Optimize Delivery**: Use a Content Delivery Network (CDN) to deliver JavaScript files closer to the user, reducing latency and improving load times. Additionally, consider enabling compression (e.g., gzip) to reduce file size and optimize caching headers to leverage browser caching.
+
+   By carefully considering the placement and loading strategy of JavaScript files, developers can optimize page loading performance and create faster, more responsive web experiences for users.
+
+
+
+
+6. **Explain the differences between `async` and `defer` attributes when loading external JavaScript files.**
+
+   Both `async` and `defer` attributes are used to load external JavaScript files asynchronously, but they differ in their execution timing and behavior:
+
+   - **`async` Attribute**:]]
+     - The `async` attribute tells the browser to download the script asynchronously while continuing to parse the HTML document.
+     - Once the script is downloaded, it will be executed asynchronously as soon as possible, regardless of whether the HTML parsing is complete or not.]]
+     - Scripts with the `async` attribute can execute in any order relative to other scripts or DOMContentLoaded event, depending on when they finish downloading.
+     - Use `async` for scripts that don't depend on the DOM being fully loaded or other scripts, and where execution order doesn't matter.
+     - Example:
+       ```html
+       <script src="script.js" async></script>
+       ```
+
+   - **`defer` Attribute**:]]
+     - The `defer` attribute also tells the browser to download the script asynchronously while continuing to parse the HTML document.
+     - However, scripts with the `defer` attribute are executed in the order they appear in the HTML document, after the HTML parsing is complete but before the DOMContentLoaded event fires.]]
+     - Use `defer` for scripts that need to be executed in a specific order relative to other scripts or before the DOMContentLoaded event.
+     - Example:
+       ```html
+       <script src="script.js" defer></script>
+       ```
+
+   It's important to note that both `async` and `defer` attributes only apply to external script files (i.e., scripts with a `src` attribute). Inline script elements and scripts without the `src` attribute are always executed synchronously and block HTML parsing.
+
+   Choosing between `async` and `defer` depends on the specific requirements of your script and its dependencies. If your script doesn't depend on the DOM and can execute independently, `async` might be more suitable. If execution order or dependency on DOMContentLoaded is important, `defer` is the better choice.
+
+
+
+
+
+7. **What is the critical rendering path, and how does JavaScript execution affect it?**
+
+   The critical rendering path refers to the sequence of steps browsers take to convert HTML, CSS, and JavaScript into pixels on the screen. Understanding this path is crucial for optimizing web page performance.
+
+
+   The critical rendering path consists of several key steps:
+
+   1. **HTML Parsing**: The browser parses the HTML document to create the DOM (Document Object Model), which represents the structure of the web page.
+   2. **CSS Parsing and Styling**: CSS files are parsed to create the CSSOM (CSS Object Model), which represents the styles applied to the DOM elements. The DOM and CSSOM are then combined to create the render tree, which contains only the visible elements and their styles.
+   3. **Layout**: The browser calculates the layout of each element on the page, determining their size and position relative to each other.
+   4. **Paint**: Finally, the browser paints the pixels on the screen based on the render tree and layout information.
+
+
+   JavaScript execution can affect the critical rendering path in several ways:
+
+   - **Render Blocking**: JavaScript execution can block rendering, especially if it manipulates the DOM or CSSOM. When the browser encounters a script tag, it typically stops parsing and rendering until the script has been downloaded, parsed, and executed. This can delay the rendering of content and make the page appear slower to users.
+   - **DOM Manipulation**: JavaScript often manipulates the DOM dynamically, adding, removing, or modifying elements. These DOM manipulations can trigger reflows and repaints, impacting rendering performance.
+   - **Asynchronous Loading**: Asynchronous loading techniques, such as using the `async` or `defer` attributes on script tags, can help mitigate render blocking by allowing scripts to download and execute without blocking HTML parsing and rendering.
+
+
+   To optimize the critical rendering path and improve page loading performance:
+
+   - Minimize render-blocking JavaScript by deferring non-essential scripts or using asynchronous loading techniques.
+   - Optimize JavaScript code for performance, especially code that manipulates the DOM.
+   - Consider lazy loading]]] or code splitting]]] to load JavaScript only when needed, reducing initial page load time.
+   - Use browser developer tools to identify and address performance bottlenecks in the critical rendering path.
+
+   By understanding and optimizing the critical rendering path, developers can create faster, more responsive web pages that provide a better user experience.
+
+
+
+
+8. **Can you explain the concepts of blocking and non-blocking code execution in JavaScript?**
+
+   Blocking and non-blocking code execution refer to the behavior of code when it interacts with I/O operations or other asynchronous tasks.
+
+   - **Blocking Code Execution**:
+     - In blocking code execution, a particular operation blocks the execution of the subsequent code until it completes.
+     - When a blocking operation is encountered, the entire execution thread is paused until the operation finishes.
+     - Examples of blocking operations in JavaScript include synchronous file I/O, synchronous network requests, and heavy computation tasks.
+     - Blocking code can lead to poor performance and responsiveness, especially in web applications, as it can make the UI unresponsive during long-running tasks.
+
+   - **Non-blocking Code Execution**:
+     - In non-blocking code execution, operations are designed to not block the execution of subsequent code.
+     - Non-blocking operations typically utilize asynchronous programming techniques to perform tasks concurrently with other code execution.
+     - Asynchronous operations delegate tasks to background threads or utilize event-driven architectures to handle I/O operations without blocking the main execution thread.
+     - Non-blocking code allows the application to remain responsive and handle multiple tasks simultaneously.
+     - Examples of non-blocking operations in JavaScript include asynchronous functions, Promises, and event listeners.
+
+   JavaScript is inherently single-threaded, meaning that it can only execute one operation at a time. However, non-blocking code execution allows JavaScript applications to perform I/O operations efficiently without blocking the main thread, thereby improving overall responsiveness and performance.
+
+
+
+
+
+
+
+
+

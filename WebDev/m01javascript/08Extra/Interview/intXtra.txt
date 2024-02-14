@@ -1,0 +1,5 @@
+01. null vs undefined 
+02. closures 
+03. lexical scope 
+04. is setTimeout() higher order function
+05. 

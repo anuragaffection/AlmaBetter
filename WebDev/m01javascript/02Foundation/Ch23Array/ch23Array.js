@@ -34,7 +34,7 @@
  *  19. join ()
  *  20. reverse ()
  *  21. sort ()
- *  21. flat ()
+ *  21. flat ()     --- revise again 
  * 
  *  22. array with object --- important topics 
  *  23. spread operators  --- important topics - used both for iteration & concatenation
@@ -42,7 +42,8 @@
  *  25. iterating over multi dimensional array 
  *  26. for of
  *  27. for in
- *  28. Working of javascript 
+ *  28. foreach()
+ *  29. Working of javascript 
  * 
 */
 
