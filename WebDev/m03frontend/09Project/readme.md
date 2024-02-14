@@ -1,5 +1,5 @@
-## Github 
+### Github 
 https://github.com/anuragaffection/resume_builder
 
-## Live 
+### Live 
 https://resume-builder-anurag.vercel.app/
