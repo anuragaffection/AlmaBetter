@@ -8,22 +8,16 @@
 </head>
 
 <body>
-
     <!-- task 01  -->
     <h2>Task 1 = DOM Manipulation</h2>
     <button id="changeColorBtn">Change Color</button>
     <div id="colorDiv" style="width: 200px; height: 100px; margin-top: 10px; border: solid 0.2rem"></div>
     <button id="appendParagraphBtn">Append Paragraph</button>
 
-
-
-
     <!-- Task 2: Event Listeners and Event Object -->
     <h2>Task 2: Event Listeners and Event Object</h2>
     <button id="clickBtn">Click Me</button>
     <p id="clickCount">Button clicked 0 times.</p>
-
-
 
     <!-- Task 3: Event Propagation and Event Delegation -->
     <h2>Task 3: Event Propagation and Event Delegation</h2>
@@ -31,7 +25,6 @@
         <button>Button 1</button>
         <button>Button 2</button>
     </div>
-
 </body>
 
 
@@ -44,33 +37,22 @@
     const appendParagraphBtn = document.getElementById('appendParagraphBtn');
 
     changeColorBtn.addEventListener('click', function (event){
-
         let random = Math.random();
-
         let letters = '0123456789ABCDE'
-
         let color = '#';
-
         for (let i = 0; i < 6; i++){
             color += letters[Math.floor(random * 16)];
         }
-
         colorDiv.style.backgroundColor = color;
 
     });
 
-
     appendParagraphBtn.addEventListener('click', function(event){
-
         const newParagraph = document.createElement('p');
         newParagraph.textContent = "Your are Awesome";
-
         colorDiv.appendChild(newParagraph);
 
     });
-
-
-
 
 
 
@@ -79,7 +61,6 @@
     const clickCount = document.getElementById('clickCount');
 
     let count = 0;
-
     clickBtn.addEventListener('click', function (event){
         count ++;
         clickCount.textContent = `Button clicked ${count} times`;  
@@ -87,40 +68,24 @@
 
 
 
-
-
-
-
-
     // task 03
     const parentDiv = document.getElementById('parentDiv');
-    const buttons = parentDiv.querySelectorAll('button'); // selecting all buttons form parentdiv only
+    const buttons = parentDiv.querySelectorAll('button'); 
+    // selecting all buttons form parentdiv only
 
     for (let i = 0; i < buttons.length ; i++){
-
         buttons[i].addEventListener('click', function(event){
             alert(` ${event.target.textContent} clicked`);
-
         })
     }
 
-
-
-
     // event delegation = to shorten the above code 
     parentDiv.addEventListener('click', function(){
-
         if (event.target.tagName === 'BUTTON'){
             alert(`${event.target.textContent} clicked by using delegation`);
         }
-
     })
 
-
-
-
-
 </script>
-
 
 </html>

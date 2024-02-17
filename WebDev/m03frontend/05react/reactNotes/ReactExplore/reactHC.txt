@@ -1,25 +1,23 @@
 React by Hitesh Chaudhary 
 
 
-
-
 01. Roadmap {
 
-    - Phantom message problem 
-    - ghost message problem
+    - Phantom message problem ]]
+    - ghost message problem ]]
 
     - state = store value 
     - state = a variable 
 
-    - bind
-    - call
-    - apply 
+    - bind ]]
+    - call ]]
+    - apply ]]
     - Dom Manipulation 
 
-    - babel 
-    - fibre 
+    - babel ]]
+    - fibre ]]
     - diffing alogrithm 
-    - hydration 
+    - hydration ]]
 
     - react is a library 
 
@@ -75,9 +73,9 @@ React by Hitesh Chaudhary
 
     - node -v = to check node version 
 
-    - vite   = a bundler
-    - parcel = a bundler
-    - babel  = a bundler
+    - vite   = a bundler ]]
+    - parcel = a bundler ]]
+    - babel  = a bundler ]]
 
     - react        = core library 
     - react-dom    = library for web apps 
@@ -91,7 +89,7 @@ React by Hitesh Chaudhary
 
     - package.json  = dependencies  
     - jest          = testing library
-    - react-scripts = 
+    - react-scripts = used to inject js file ]]
     - web-vitals    = check performance 
     - scripts       = 
 
@@ -117,7 +115,6 @@ React by Hitesh Chaudhary
     - npm run dev = running the dev server 
 
     - project cleaning 
-
 }
 
 
@@ -133,6 +130,7 @@ React by Hitesh Chaudhary
     - npm create vite@latest 
 
     - manifest.json = for mobile 
+    - manifest.json = fro chrome extension too ]]
     - package-lock.json = locking for certain devices 
 
     - Keep components name - capital 
@@ -146,9 +144,8 @@ React by Hitesh Chaudhary
     - return()
     - return{}
 
-    - react-scripts = used to inject js file 
+    - react-scripts = used to inject js file ]]
     - 
-
 }
 
 
@@ -168,7 +165,7 @@ React by Hitesh Chaudhary
     - React.createElement()
     - {} = enject variable in jsx 
     - {} = enject final output 
-    - {} = can not write loop, if, switch etc within it 
+    - {} = can not write - for loop, while loop, if, switch, etc within it 
     - {} = evaluated expression 
     - 
 }
@@ -191,11 +188,10 @@ React by Hitesh Chaudhary
     - state ,    a returned variable ,  current state 
     - setState , a returned function ,  used to update the state
     - setState , completely replace the previous state
-    - setState , re - render the components 
-    - setState , have callback to update previous value
+    - setState , re-render the components 
+    - setState , have callback to update previous value ]]
 
     - state, setState = we are free to use any other names 
-
 }
 
 
@@ -206,11 +202,9 @@ React by Hitesh Chaudhary
 06. Virtual DOM, fiber & Reconcilliation {
 
     - createRoot()
-
     - react-fiber-architecture
     - https://github.com/acdlite/react-fiber-architecture
-
-    - Reconcilliation vs Render 
+    - Reconcilliation vs Render ]]
     - is Virtual DOM still in use 
 }
 
@@ -227,24 +221,27 @@ React by Hitesh Chaudhary
     - npm install -D tailwindcss postcss autoprefixer
     - npx tailwindcss init -p
 
-    - D , where to include in package.json [dev dependencies]
-    - npx tailwindcss init -p = generate tailwind.config.js file 
+    - D, where to include in package.json [dev dependencies]
+    - npx tailwindcss init -p = generate `tailwind.config.js` file 
 
-    - className 
-    - htmlfor 
+    - className = class 
+    - htmlfor = for 
 
     - props passing & receiving 
+    - props vs state 
 }
 
 
 
 
 
-08. Interview Questions {
+
+08. Interview Questions]] {
     - useState
     - current value 
     - previous value
-    - Multiple calling of , setState 
+    - Multiple calling of, setState 
+    - callback function in useState()
 }
 
 
@@ -256,16 +253,23 @@ React by Hitesh Chaudhary
 
     - onClick = {someFunction}
     - onClick = {someFunction()}
+    - onClick = {() => someFunction()}
 
-    - what is difference between using someFunction & someFunction()
+    - what is difference between all there 
 
     - someFunction = will give function to onClick
-    - someFunction() = will give value returned by someFunction to onClick
+    - someFunction() = will give value returned value by someFunction to onClick & rende immediately
+    - {() => someFunction()} =  will execute the function and then pass it's return value to onClick
+
+    Notes 
+    -- Use onClick={someFunction}  when you want to assign the function directly as the event handler.
+    -- Avoid onClick={someFunction()}  because it calls the function immediately during render.
+    -- Use onClick={() => someFunction()}  when you need to pass arguments to the function or when you need to prevent immediate invocation.
 }
 
 
 
-10. useEffect, useRef, useCallback {
+10. useEffect, useRef, useCallback ]]]]]{
     - useCallback()
     - useEffect()
     - useRef()
@@ -294,10 +298,10 @@ React by Hitesh Chaudhary
 
     -- Link 
     -- NavLink 
-    -- 
+    -- a 
 
     -- Link vs a 
-    -- Link,  replacing anchor tag, a 
+    -- Link, replacing anchor tag, a 
 
     -- Link vs NavLink
     -- NavLink as extra feature 
@@ -305,23 +309,26 @@ React by Hitesh Chaudhary
     -- 
 
     -- RouterProvider 
-    -- RouterProvider,  takes props 
+    -- RouterProvider, takes props 
 
     -- createBrowserRouter, 
-    -- Outlet, it changes 
+    -- Outlet, it changes ]]]
 
     -- createRoutesFromChildren
     -- createRoutesFromElements 
 
 
-    -- Route, 
+    -- Route,
+    -- Routes 
+    -- BrowserRouter 
     -- Link 
     -- NavLink
-    -- RouterProvider, 
-    -- createBrowserRouter, 
-    -- createRoutesFromElements 
-    -- useLoaderData()
-    -- useParams()
+    -- RouterProvider]]
+    -- createBrowserRouter]]
+    -- createRoutesFromElements ]]]
+    -- useLoaderData()]]]
+    -- useParams()]]]
+    -- useSearchParams()]]]
 }
 
 
@@ -342,11 +349,15 @@ React by Hitesh Chaudhary
 }
 
 
+
+
 #14 context api  {
     -- todo app 
     -- local storage 
     
 }
+
+
 
 
 #15 redux {
@@ -355,19 +366,20 @@ React by Hitesh Chaudhary
     -- react-redux
     -- reduxToolkit
 
-    -- redux-thuk
-    -- redux-saga 
+    -- redux-thunk]]
+    -- redux-saga ]]
     
     -- store
     -- reducers
 
     -- useSelector
     -- useDispatch 
-
+    -- createStore 
+    -- 
 }
 
 
 
-#16 {
-    
-}
+
+
+#16 

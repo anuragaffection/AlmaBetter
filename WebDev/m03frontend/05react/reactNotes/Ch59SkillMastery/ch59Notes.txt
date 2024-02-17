@@ -1,0 +1,18 @@
+
+01. Recall used teachnology {
+    -- babel
+    -- context api
+    -- flux
+    -- react
+    -- react-hook-forms
+    -- react-icons
+    -- react-redux
+    -- react-router-dom
+    -- redux
+    -- redux-saga
+    -- redux-thunk
+    -- redux-toolkit
+    -- Zustand
+}
+
+

@@ -1,0 +1,93 @@
+01. Introuduction to DOM basics 
+02. Targeting NOdes With Selectors 
+03. DOM Methods 
+04. Adding Text & HTML Content 
+05. Adding inline style 
+06. Editing Attributes 
+07. Working with Classes 
+
+
+
+Links {
+    -- https://developer.mozilla.org/en-US/docs/Web/API/Web_Components/Using_custom_elements
+    -- https://www.digitalocean.com/community/tutorials/how-to-modify-attributes-classes-and-styles-in-the-dom
+}
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+
+
+01. Introuduction to DOM basics {
+    -- document 
+}
+
+
+02. Targeting NOdes With Selectors {
+    -- getElementById()
+    -- getElementsByTagName()
+    -- getElementsByClassName()
+    -- querySelector()
+    -- querySelectorAll()
+}
+
+
+03. DOM Methods {
+    -- createElement()
+    -- appendChild()
+    -- removeChild()
+    -- 
+}
+
+
+
+04. Adding Text & HTML Content {
+    -- textContent 
+    -- innerHTML 
+    -- 
+}
+
+
+
+
+05. Adding inline style {
+
+    syntax 
+    -- <elementName>.style.<propertyName> = "properValue" 
+    
+    eg. 
+    -- <elementName>.style.backgroundColor = "red" 
+    -- <elementName>.style.fontSize = "14px" 
+    -- 
+}
+
+
+
+
+06. Editing Attributes {
+    -- setAttribute()
+    -- getAttribute()
+    -- removeAttribute()
+
+    -- custom attributes 
+} 
+
+
+
+
+07. Working with Classes {
+    -- className 
+    -- classList 
+    -- classList.add()
+    -- classList.remove()
+    -- classList.toggle()
+    -- classList.contains()
+}

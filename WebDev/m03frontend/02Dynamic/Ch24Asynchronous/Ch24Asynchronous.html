@@ -11,13 +11,8 @@
 
 
 <body>
-
-
     <input type="text" name="" id="input">
-
-
     <div class="container">
-
     </div>
 
     <!-- 
@@ -33,7 +28,6 @@
         and wait for previous task to complete,
         but we can solve this by doing asychronous 
 
-
         ajax = asynchronous javascript and xml
     -->
 
@@ -44,10 +38,7 @@
     <script>
 
         /*
-          
            short notes of some predefined keyword & methods 
-
-
 
 
            fetch()              -- making http request
@@ -102,11 +93,9 @@
         */
 
 
-        
+
         /*
-
            WebSocket 
-
 
            new WebSocket()
            ws://
@@ -122,24 +111,13 @@
            onclose()
            onerror()
 
-
-
         */
 
 
 
-
-
-
-
-
         // callback
-
         {
-
             // this Function,  that will , performs an asynchronous operation
-
-
             // taking two parameters
             // url      = <https://api.example.com/data>
             // callback = it is a function = coming as handleData()  
@@ -176,17 +154,7 @@
             // <https://api.example.com/data>   == as url 
             // handleData function              == callback 
             fetchData('<https://api.example.com/data>', handleData);
-
-
         }
-
-
-
-
-
-
-
-
 
 
 
@@ -195,10 +163,7 @@
 
         // promises example 01 
         {
-
-
             let executor = function (resolve, reject) {
-
                 setTimeout(() => {
                     resolve({ data: "You are awesome" });
                     reject("there is an error here ");
@@ -206,57 +171,38 @@
                     //first resolve will happen 
                     // if resolve failed to execute , then reject will execute 
                 }, 2000);
-
             }
 
 
 
             // new Promsie = here a constructor 
-
             let promise = new Promise(executor);
-
             // .then  = will include resolve 
             // .catch = will include error 
             promise.then((response) => {
                 console.log(response);
+            }).catch((err) => {
+                console.log(err);
             })
-                .catch((err) => {
-                    console.log(err);
-                })
-
-
-
         }
-
-
-
 
 
 
         // promises example 02 
         {
-
             // Function that returns a promise
-
             function fetchData(url) {
-
                 return new Promise((resolve, reject) => {
-
                     // Simulating an asynchronous request
                     setTimeout(() => {
                         const data = { message: 'Data fetched successfully' };
-
                         resolve(data);
                         // Resolve the promise with the fetched data
-
                         reject(new Error('Failed to fetch data'));
                         // to simulate a rejection
                     }, 2000);
-
                 });
             }
-
-
 
             // Using the promise
             // fetchData = will return promise, 
@@ -264,22 +210,14 @@
             fetchData('<https://api.example.com/data>')
                 .then(data => {
                     console.log(data.message);
-                })
-                .catch(error => {
+                }).catch(error => {
                     console.error(error);
                 });
-
         }
 
 
 
-
-        
-
-
-
         {
-
             // Function to fetch data from the API using promises
             function fetchData(url) {
                 return new Promise((resolve, reject) => {
@@ -312,44 +250,24 @@
                     console.error('Error fetching data:', error);
                     // Handle the error
                 });
-
-
         }
-
-
-
-
-
-
-
-
-
 
 
         // promises chaining 
         // when one call is independ on other data 
-
-
         {
-
-
             // Function that returns a promise to fetch data
             function fetchData(url) {
-
                 return new Promise((resolve, reject) => {
-
                     // setTimeOut is =  Simulating an asynchronous request
                     setTimeout(() => {
-
                         const data = { message: 'Data fetched successfully' };
                         resolve(data);
-
                         // we are not using reject here 
                     }, 2000);
 
                 });
             }
-
 
 
             // Chaining promises
@@ -358,16 +276,12 @@
 
             fetchData('<https://api.example.com/data>')
                 .then(data => { // this data = is coming fetchdata 
-
                     console.log(data.message);
-
                     // Returning a new promise for the next operation
                     return fetchData('<https://api.example.com/other-data>');
                 })
                 .then(otherData => { // this otherData = is coming from previous return
-
                     console.log(otherData.message);
-
                     // Returning a new promise for the next operation
                     return fetchData('<https://api.example.com/more-data>');
                 })
@@ -377,42 +291,26 @@
                 .catch(error => {
                     console.error(error);
                 });
-
-
         }
-
-
-
-
 
 
         // throttling & Debouncing 
         // function throttle() { }
         // function debounce() { }
 
-
         // Promises with async await
-       
- 
-
-
 
         // throttling = pause the execution
         // debouncing = delay the execution 
-
 
         // Throttling ensures that a function is called at regular intervals 
         // while 
         // debouncing delays the function invocation until a pause in activity.
 
 
-        
-
-
         // throttling
         function throttle(func, delay) {
             let timeoutId;
-
             return function () {
                 if (!timeoutId) {
                     timeoutId = setTimeout(() => {
@@ -422,26 +320,16 @@
                 }
             };
         }
-
         const throttledFn = throttle(apiCall, 100);
-
         input.addEventListener('input', throttledFn);
 
 
 
-
-
-
-
-
         // debouncing 
-
         const handleChange = (event) => {
             console.log('Calling api with value');
         }
-
         const debounce = (fn, delay) => {
-
             let timer;
             return function (event) {
                 clearTimeout(timer);
@@ -451,11 +339,9 @@
             }
 
         }
-
-        document.getElementById('input').addEventListener('input', debounce(handleChange, 500));
-
-
-
+        document.getElementById('input').addEventListener(
+            'input', debounce(handleChange, 500)
+        );
     </script>
 
 </body>

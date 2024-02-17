@@ -2,12 +2,7 @@
 
 
 01. What is React js ?
---- a javascript library, 
---- managed by facebook,
---- open source,
---- used for frontend ui, 
---- React Native 
-
+--- 
 
 
 
@@ -43,22 +38,11 @@
 --- pick any one out of three
 
 
-
-06. Environment setup
---- Download node js
---- Download npm (most of time comes with node)
---- node -v (to check the version or downloaded)
---- npm -v ( to check the version of npm downloaded)
---- Download VS code 
-
-
+06. Environment setup & project setup 
+--- 
 
 07. Creating react or downloading react app
---- npm install -g create-react-app   (ye pc me globally download ho gya)
---- create-react-app --version (to check the react version you downloaded )
-
-
-
+--- 
 
 08. Creating my react app under some folder 
 ---  create-react-app myReactApp
@@ -79,12 +63,10 @@
 10. Directory(folder) structure of react app 
 
 --- node module (all library are here, auto generated )
-
 --- public (single html file in public)
 --- index.html (from public = we wil not change her, everything will render here)
 --- progressive web app - pwa
 --- manifest file ( used for progressive web app - pwa - add to home scree, will install app on home screen)
- 
 --- src (we will be doing our task here )
 --- package.json (all dependencies are here )
 
@@ -233,7 +215,7 @@
 
 
 
-27. Event binding in react
+27. Event binding in react ]]]
 --- using arrow function call
 --- using bind keyword
 --- using bind keyword in constructor 

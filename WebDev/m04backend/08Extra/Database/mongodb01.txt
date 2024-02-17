@@ -1,10 +1,51 @@
 MongoDB by Thapa Technical 
 
+notes {
+    -- remove()
+}
+
+
+
+Tools    
+- MongoDB atlas
+- MongoDB compass 
+- MongoDB cluster ]]
+- mongosh 
+- mongod 
+- mongodb shell
+- 
+- MongoDB community server 
+- Aggregation pipeline ]]
+- Homebrew 
+
+
+Relational DB  vs  MongoDB 
+database       -   database
+table          -   collection 
+row            -   Document
+column         -   field / key
+
+
+
+pre defined Method {
+
+    -- remove()
+    -- sort()
+    -- skip()
+    -- limit()
+    -- 
+}
+
+
+
+
+
 
 00:00 MongoDB {
     -- Databases
     -- collections
     -- documents
+    -- NoSql
 }
 
 
@@ -16,6 +57,7 @@ MongoDB by Thapa Technical
     -- Atlas 
     -- Compass
     -- 000webO
+    -- mongoclient 
 }
 
 
@@ -29,6 +71,7 @@ MongoDB by Thapa Technical
     -- unstructured data 
     -- semi structured data
 
+    History of MongoDB :
     -- 10gen - MongoDB - Company 
     -- Humongous - very  big 
 }
@@ -42,8 +85,9 @@ MongoDB by Thapa Technical
     -- relational
     -- table 
     -- structured
-    -- strict  schema
+    -- strict schema
 
+    SQL db
     -- mySql
     -- postgre SQL
     -- oracle 
@@ -56,27 +100,33 @@ MongoDB by Thapa Technical
     -- semi structured
     -- schema less 
 
+    NoSql db
     -- MongoDB
     -- cassandra 
     -- Redis 
 
-    Note
+    Note [all have same meaning ]
     -- Inside one collection, we can have multiple documents
+    -- collection is group of document
+    -- collection is collection of document
 }
 
 
 
 
 22:06 MongoDB Terminologies {
-    documents
-    collections
     databases
+    collections
+    documents
 }
 
 
 
 
-25:20 Key Feature of  MongoDB
+25:20 Key Feature of  MongoDB {
+    -- replica set 
+    -- 
+}
 
 
 
@@ -117,8 +167,8 @@ MongoDB by Thapa Technical
     -- atlas 
     -- Compass
 
-    -- mongod --version 
-    -- mongosh --version 
+    -- mongod --version ]]
+    -- mongosh --version ]]
 }
 
 
@@ -126,7 +176,7 @@ MongoDB by Thapa Technical
 44:20 Managing database {
     -- show dbs 
     -- use <myDatabase_name> 
-    -- db.dropDatabase()
+    -- db.dropDatabase() ]]]
 
     -- show collections 
     -- db.createCollection('<myCollection_name>');
@@ -134,6 +184,7 @@ MongoDB by Thapa Technical
 
     -- show dbs 
     -- show databases
+    -- show collections
 
     Note 
     -- You won't see a database listed in the output of the show dbs command until that datbase contains at least one collection with data in it
@@ -158,7 +209,7 @@ MongoDB by Thapa Technical
 
 
 
-56:29  use quotes when {
+56:29  use quotes when]]] {
     -- special characters 
     -- start with numeric characters
     -- have spaces 
@@ -168,7 +219,7 @@ MongoDB by Thapa Technical
 
 
 
-58:27 Ordered & unordered inset {
+58:27 Ordered & unordered insert {
     -- by default insert is ordered 
     -- we can change the behaviour by adding flag 
 
@@ -179,7 +230,7 @@ MongoDB by Thapa Technical
 
 
 
-1:04:21 Case - sensitivity {
+1:04:21 Case sensitivity ]]]{
     -- collection name are case - sensitive 
     -- filed name are case - sensitive
 }
@@ -189,18 +240,21 @@ MongoDB by Thapa Technical
 1:06:29 Read operations {
     -- find()
     -- findOne()
-
 }
 
 
 
 
-1:09:02 ]]]importing json {
+1:09:02 importing json]]] {
+    -- importing & exporting works on terminal only 
 
     syntax 
     -- mongoimport myJsonfile.json -d myDatabase_name -c myCollection_name --jsonArray
 
     Note
+    -- database = -d 
+    -- collection = - c 
+    -- type = jsonArray, 
     -- jsonArray  accepts the import of data expresed with nultiple MongoDB documents within a single json array 
 
     example 
@@ -248,7 +302,7 @@ MongoDB by Thapa Technical
     -- skip()
     -- sort()
 
-    Caveats 
+    Caveats ]]]
     -- use skip() and sort() with cautions 
     -- indexing will be greate choice 
 
@@ -278,7 +332,7 @@ MongoDB by Thapa Technical
 
 
 
-    Questions 01 
+    Questions 01 ]]
     -- find product whose price  is greater than 100 and name equal to diamond ring 
     -- db.prouducts.find( { $and : [ {'price' : {$gt : 100}} , {'name': 'diamond ring'}]  } )
 
@@ -294,13 +348,16 @@ MongoDB by Thapa Technical
 
 
 
-1.44.12 complex expressions {
+1.44.12 complex expressions ]]]{
     
     $expr 
     -- allow using aggregation expressions within a query 
     -- { $expr : { operator : [$field, value ] }}
 
     $gt = greater than
+    $gte 
+    $lt 
+    $lte 
     $division
     $multiply
     $add 
@@ -308,14 +365,14 @@ MongoDB by Thapa Technical
 
     example
     -- db.sales.find( 
-         { $expr : { $gt : [ {$multiply : ['$quantity', '$price']}], '$targetPrice'}}
+         { $expr : { $gt : [ {$multiply : ['<quantity>', '<price>']}], '<targetPrice>ltw1'}}
         )
 }
 
 
 
 
-1.52.46 Elements Operator {
+1.52.46 Elements Operator ]]]{
     -- https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/
 
     -- $exists 
@@ -335,26 +392,26 @@ MongoDB by Thapa Technical
 
 
 
-2.04.24 projections {
+2.04.24 projections]]] {
     -- 1 for inclusion 
     -- 0 for exclusion 
     -- we cannot do inclusion & exclusion at same time 
     -- id is exception 
 
     example
-    -- db.comments.find( { 'comments' : {$size : 2}}, {title : 1, author:1} )
-    -- db.comments.find( { 'comments' : {$size : 2}}, {title : 1, author:1, _id:0} )
+    -- db.comments.find( {'comments' : {$size : 2}},  {title : 1, author:1} )
+    -- db.comments.find( {'comments' : {$size : 2}},  {title : 1, author:1, _id:0} )
 }
 
 
 
 
-2.09.59 Embedded document {
+2.09.59 Embedded document ]]]{
     -- query data inside Embedded document 
     -- it use dot notation 
 
     example
-    -- db.comments.find( { comments})
+    -- db.comments.find( {comments} )
 
     $all 
     -- { <field> : { $all : [<value1>, <value2> ...]}}
@@ -419,6 +476,40 @@ MongoDB by Thapa Technical
     -- $pop
     -- $push 
     -- $set 
+    -- $unset
     -- {filter}
 
+    updating at last in array [this will add new document in a collection]
+    -- db.<myCollection_name>.updateOne(
+        {filter},
+        {$push : { 'field' : 'value' } }
+    )
+
+    removing from last in array[removing a document from a collection]
+    -- db.<myCollection_name>.updateOne(
+        {filter},
+        {$pop : { 'field' : 'value' }}
+    )
+
+    setting a new field in a document 
+    -- db.<myCollection_name>.updateOne(
+        { _id : 'id_value'},
+        {$set : {'newFieldName' : 'newFieldValue}}
+    )
+
+    removing a field in a document 
+    -- db.myCollection_name.updateOne(
+        {_id : 'id_value'},
+        {$unset : {'fieldName' : 1} }
+    )
+
+    set & $. ]]]] postional operator (nested updating )
+    -- db.<myCollection_name>.updateOne(
+        {filter},
+        {$set : {'field.$.text' : 'updated text' }}
+    )
 }
+
+
+
+

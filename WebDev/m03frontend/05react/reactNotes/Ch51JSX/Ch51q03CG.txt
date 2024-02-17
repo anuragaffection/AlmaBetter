@@ -1,60 +1,26 @@
 
-
-
 1. What is React, and why is it popular for building user interfaces?
 2. Explain the key features of React.
 3. What is the difference between React and other JavaScript frameworks or libraries?
-
-
-
-
-
-
 
 4. How do you create a new React application?
 5. What is the significance of the `ReactDOM.render` method in React?
 6. Explain the React component lifecycle.
 
-
-
-
-
-
 7. What is JSX, and how does it differ from regular JavaScript?
 8. Can JSX code be directly executed by browsers? Why or why not?
-
-
-
-
 
 9. How do you import external libraries or modules in a React component?
 10. What is the purpose of the `import` statement in React?
 
-
-
-
-
 11. How do you export a component in React?
 12. Explain the difference between default and named exports in React.
-
-
-
-
 
 13. What is Babel, and why is it commonly used in React development?
 14. How does Babel help with writing modern JavaScript code in React applications?
 
-
-
-
-
 15. What is the Virtual DOM in React, and why is it important?
 16. Explain the process of how React uses the Virtual DOM to improve performance.
-
-
-
-
-
 
 
 

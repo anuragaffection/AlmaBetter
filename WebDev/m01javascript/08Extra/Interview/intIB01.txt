@@ -1,0 +1,101 @@
+Javascript MCQs Question by Interview Bit 
+--- https://www.interviewbit.com/javascript-mcq/
+
+
+01. Javascript is an _______ language?
+--- object oriented 
+
+
+02. Upon encountering empty statements, what does the Javascript Interpreter do?
+--- ignore the statements 
+
+
+03. eval()
+--- The eval() function evaluates the expression passed into it as a parameter and returns the result after evaluation.
+
+
+04. switch()
+--- Switch performs an ‘===’ based comparison, i.e both the value of the expression and its datatype is compared.
+
+
+05. What keyword is used to check whether a given property is valid or not?
+--- The `in` keyword is used to check whether the given property is valid or not in Javascript.
+
+
+06. What is the use of the <noscript> tag in Javascript?
+--- The <noscript> tag is displayed by non-Javascript browsers only
+
+
+07. clousres in details ]]
+
+08. Any NULL value of operator will always return typeof object.
+
+09. What does the Javascript “debugger” statement do?
+--- it acts as a breakpoints in a programm 
+
+10. Math.max() , Math.min()
+--- The Math.max() method returns  -Infinity value by default 
+--- the Math.min() method returns  Infinity value by default 
+
+11. Math.MIN_VALUE , Math.MAX_VALUE 
+--- 
+
+12. NaN === NaN
+--- false 
+--- In Javascript, NaN is not considered to be equal to NaN even after using the strict equality operator.
+
+
+13. NaN == NaN ]]]
+--- 
+
+
+14. typeof(NaN)
+--- Number 
+
+15. typeof(undefined) ]]]
+--- 
+
+16. typeof(NULL)
+--- object
+
+
+17. toLocateString()
+--- ‘toLocateString()’ method in JS returns a localized string representation of an object.
+
+
+18. Serialization
+--- Object Serialization is the process in which an object or data structure is translated into a format suitable for transferral over a network, or storage.
+
+
+19. The 3 basic object attributes in Javascript are:
+--- Class,  prototype,  object's extensible flag.
+
+
+20. log(parseInt("123Hello"));
+--- 123 
+
+21. log(parseInt("Hello123"));
+--- NaN
+
+22. How are objects compared when they are checked with the strict equality operator?
+--- In Javascript, objects are passed by reference and hence the strict equality operator compares their references.
+
+
+23. Which object in Javascript doesn’t have a prototype? ]]]
+--- base object
+
+
+
+
+24. What will be the output of the following code snippet?]]]
+    function test(...args) {
+       console.log(typeof args);
+    }
+    test(12);
+--- The `…args` parameter allows us to collect all remaining arguments into an array, and in Javascript typeof an array is an object.
+
+
+
+25. 
+
+

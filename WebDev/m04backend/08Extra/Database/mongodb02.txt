@@ -1,0 +1,42 @@
+[MongoDB by Thapa Technical ]
+
+
+
+Notes {
+    -- filter , is nothing like predefined things, just your customized filter you want to apply 
+
+}
+
+
+
+
+2.50.00 Delete Opeations {
+    -- deleteOne()
+    -- delete 
+
+    -- db.<myCollection_name>.deleteOne(
+        {filter}
+    )
+
+    -- db.<myCollection_name>.delete(
+        {filter}
+    )
+
+    example
+    -- db.myCollection_name.deleteOnde(
+        { 'price' : 55}
+    )
+}
+
+
+
+
+
+
+2.54.22 Indexes in MongoDB {
+    -- What are indexes 
+    -- Benefits of indexes
+    -- Managing indexes 
+    -- Unique, Test Index 
+    -- When not to use indexes 
+}

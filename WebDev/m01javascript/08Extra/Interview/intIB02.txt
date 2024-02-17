@@ -1,0 +1,114 @@
+Javascript Interview Question by interviewbit 
+--- for freshers 
+--- https://www.interviewbit.com/javascript-interview-questions/
+
+
+
+Task {
+    -- higher order function vs clousres
+    -- is setTimeout higher order function 
+}
+
+
+
+02. Hoisting 
+--- Variable initializations are not hoisted, 
+--- only variable declarations are hoisted
+--- To avoid hoisting, use “use strict” on top of the code
+
+
+
+03. Why do we use the word “debugger” in javascript?]]
+
+
+06. implicit type coersion 
+--- All values except `false, 0, 0n, -0, “”, null, undefined, NaN` are truthy values.
+
+
+
+08. isNaN() ]]
+--- isNaN try to convert into number 
+--- typeof(NaN) is number
+--- Not a Number = NaN
+
+--- isNaN("Hello")  // Returns true
+--- isNaN(345)   // Returns false
+--- isNaN('1')   // Returns false,  
+--- isNaN(true)  // Returns false, 
+--- isNaN(false)  // Returns false
+--- isNaN(undefined) // Returns true
+
+
+
+09. pass by value & pass by reference
+--- primitive data types are passed by value
+--- non-primitive data types are passed by reference.
+--- pass by value = string, number, boolean, bigInt,  
+--- pass by reference = array, object, 
+
+
+
+10. What is an Immediately Invoked Function in JavaScript?]]]
+--- does not have function name 
+--- just have function keyword
+--- syntax, (
+      function(){
+      }
+    )()
+
+
+12. Explain Higher Order Functions in javascript.]]]
+--- takes function as an arguments
+--- or returns  a function
+
+
+
+13. Explain `this` keyword ]]] check again 4 example given]]]
+--- The “this” keyword refers to the object that the function is a property of.
+--- The value of  “this” keyword will always depend on the object that is invoking the function.
+
+
+14. Self invoking function ]]]
+--- 
+
+
+15. call, bind, apply ]]]]
+--- 
+
+
+16. test() vs exec()
+--- both are regex method 
+--- test() returns true or false
+--- exec() return pattern or empty
+
+
+17. What is currying in JavaScript? ]]]
+--- a technique to transform a function of arguments n, to n functions of one or fewer arguments.
+
+
+19. Explain Scope and Scope Chain in javascript.
+--- 
+
+
+20. clousres ]]]
+--- an ability of a function to remember the variables and functions that are declared in its outer scope.
+
+
+22. What are object prototypes? ]]]easy example availables]
+--- 
+
+
+23. callback function 
+--- Functions that are used as an argument to another function are called callback functions.
+
+
+25. memoization 
+--- 
+
+
+27. constructor ]]]]
+--- 
+
+
+30. What do you mean by BOM?
+--- Browser Object Model 

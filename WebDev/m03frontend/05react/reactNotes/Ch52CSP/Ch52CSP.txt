@@ -195,7 +195,7 @@ C.  State
 
 
 02. updating state
--- stae, this.stae, setState() = in class component
+-- stae, this.state, setState() = in class component
 -- useState = in functional component
 
 
