@@ -1,14 +1,11 @@
 
 
 
-
 01. What is the correct way to remove an attribute from an element using the DOM?
    a. removeAttribute
    b. deleteAttribute
    c. removeElementAttribute
    d. deleteElementAttribute
-
-
 
 
 
@@ -23,8 +20,7 @@
 
 
 
-
-03. What happens if you assign an invalid CSS property to element.style?
+03. What happens if you assign an invalid CSS property to element.style?]]]
    a. The invalid property is ignored.
    b. An error is thrown.
    c. The style attribute of the element is cleared.
@@ -34,8 +30,7 @@
 
 
 
-
-04. What is the difference between textContent and innerHTML?
+04. What is the difference between textContent and innerHTML?]]]
    a. textContent can only be used for adding plain text, while innerHTML can handle HTML content.
    b. textContent automatically escapes HTML entities, while innerHTML does not.
    c. textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
@@ -68,7 +63,7 @@
 
 
 
-07. How can you remove an inline style from a DOM element using JavaScript?
+07. How can you remove an inline style from a DOM element using JavaScript?]]]
    a. element.style.removeStyle("color");
    b. element.style.unset("color");
    c. element.style.clearStyle("color");
@@ -110,10 +105,7 @@
 
 
 
-
-
-
-
+Answer 
 
 
 01. What is the correct way to remove an attribute from an element using the DOM?
@@ -122,10 +114,10 @@
 02. Which of the following is the correct way to add multiple inline styles to a DOM element?
    Answer: c. element.style.cssText = "color: red; background: blue; font-size: 16px;";
 
-03. What happens if you assign an invalid CSS property to element.style?
+03. What happens if you assign an invalid CSS property to element.style? ]]]
    Answer: a. The invalid property is ignored.
 
-04. What is the difference between textContent and innerHTML?
+04. What is the difference between textContent and innerHTML? ]]]
    Answer: c. textContent updates the text content of an element, while innerHTML updates the HTML content, including tags and markup.
 
 05. Which DOM method is used to add a child element to a parent element?
@@ -134,7 +126,7 @@
 06. How can you add an inline style to a DOM element using JavaScript?
    Answer: c. element.style.color = "red";
 
-07. How can you remove an inline style from a DOM element using JavaScript?
+07. How can you remove an inline style from a DOM element using JavaScript? ]]]]
    Answer: d. element.style.removeProperty("color");
 
 08. What does DOM stand for?

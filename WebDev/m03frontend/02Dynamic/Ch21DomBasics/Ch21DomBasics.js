@@ -4,16 +4,18 @@
 }
 
 
-
 {
     // 02. Targeting Node with different selectors
+
+
     /*
-        selecting single element
-             
         getElementById()
-        --  takes id as string parameters
-        --  return null = if no id is found 
-        --  id shoud be unique = if we added the same id to multiple places , then it will returns only first id it encounter
+        -- takes id as string parameters
+        -- return null = if no id is found 
+        -- it select single element
+        -- id shoud be unique,  
+           if we added the same id to multiple places, 
+           then it will returns only first id it encounter
     */
     var intro = document.getElementById('intro');
     intro.innerHTML = "Updated whole content of 1. Introduction ";
@@ -22,22 +24,16 @@
     /*
       getElementsByTagName()
       -- takes html tag as string parameters
-      -- returns collection of html tag 
+      -- returns array of html tag 
       -- html collection = nodeList
       -- we can perform iteration here 
       -- returned nodelist work on real time, or live 
       -- it case in-sensitive 
-    
-      // this will select all p tag element, 
-      // we can target one by one for each
-      // indexing will start from 0
-    
-      // if you want to see each paragraph
-      // got to browser console
-      // write console.log(tagP)
-    
+      -- this will select all p tag element, 
+         we can target one by one for each
+        indexing will start from 0
+      
     */
-
     var tagP = document.getElementsByTagName('p');
     tagP[0].innerHTML = "Upated paragraph 00";
     tagP[1].textContent = "Upated paragraph 01"
@@ -47,28 +43,26 @@
     */
 
     // by using .innerHTML, 
-    // we can't write any html tags special characters  like below
+    // we can't write any html tags & special characters, 
+    // as it will takes semantic meanings 
     tagP[2].innerHTML = "<p>Updated paragraph 02 with textContent</p>"
 
-    // but in .textContent, everything is allowed 
+    // but in .textContent, everything is allowed, all will appear as text 
     tagP[3].textContent = "<p>Updated paragraph 03 with textContent</p>"
     tagP[4].textContent = "<p>Updated paragraph 04 with textContent</p>"
 
     // check the output in browser console
-    // biggest problem here 
+    // biggest problem here ]]]
 
-
-
-    // by doing one by one 
-    // we can use iteration , do the same work
+    // tagP is array 
+    // we can use iteration too, 
     for (let i = 0; i < tagP.length; i++) {
         console.log(tagP[i].textContent);
         // this will provide, all paragraph content in console
-        // keep in mind, of previous updated paragraph 
-
         // here, we are printing to console
-        // semiliary we can update to html, web pages 
+        // similarly we can update to html, web pages 
     }
+
 
 
 
@@ -77,11 +71,11 @@
       -- non live collection 
       -- static html collection
       -- returns empty collection 
-    
       -- it return a collection, not an array 
-      -- we can convert to an array, by using = Array.from(), spread synatax [...collection]
-    
-      -- can use any iteration like = for of, forEach; 
+      -- we can convert to an array, 
+         by using = Array.from(), 
+         spread synatax [...collection]
+      -- for iteration use = for of, forEach; 
     
     */
     let myClass = document.getElementsByClassName("myClass");
@@ -91,12 +85,14 @@
 
 
 
+
     /*
        querySelector ()
        -- takes css type selector as parameters 
        -- select only first element found 
        -- return null, if not found 
     */
+
 
     /*
       querySelectorAll()
@@ -114,28 +110,31 @@
         // check browser console
         // two classes, high & highlight were showing 
     });
-
+    // classList vs className
 }
 
 
 
+
+
+
 {
-
     // 03. DOM Methods 
-    // appendChild
-    // it appends the specified node as the last child of the target parent node 
-
-    // creating div
+    
+    // createElement 
+    // create new element 
     var tagDiv = document.createElement('div');
 
-    // giving content within div 
+    // adding text content content within div 
     tagDiv.textContent = "Dynamic content in div ";
 
-    // giving styling 
+    // giving in line styling 
     tagDiv.style.backgroundColor = "yellow";
 
-    // appendig, or where to add the created div
-    // this will append to within the body tag, last 
+
+
+    // appendChild
+    // it appends the specified node as the last child of the target parent node 
     document.body.appendChild(tagDiv);
 
     /**
@@ -155,7 +154,6 @@
 
     */
     let newDiv = document.createElement('div');
-
     newDiv.textContent = "Creating new div with some text ";
     newDiv.style.backgroundColor = "aqua";
 
@@ -164,15 +162,16 @@
     parentDiv.appendChild(newDiv);
 
 
+
     // removeChild
     /**
-        // removeChild()
+        removeChild()
       
         var elementToRemove = elementsByTagName[0];
         elementToRemove.parentNode.removeChild(elementToRemove);
 
-        // parentNode   --- predifined 
-        // removeChild  --- is predifined 
+        parentNode   --- predifined 
+        removeChild  --- is predifined 
 
     */
 
@@ -189,6 +188,8 @@
     // removeChild = predefined 
     // both are used to remove 
 }
+
+
 
 
 
@@ -230,9 +231,13 @@
 
 
 
+
+
 {
     // 05. adding inline style 
 }
+
+
 
 
 
@@ -248,22 +253,20 @@
 }
 
 
+
+
+
 {
     // 07. Working with classes 
 }
 
 
 
+
+
 /**
- * 
- *  attributes vs properties 
- *  
- *  innerHtml vs textContent
- *  dom vs bom 
- *  document vs window
- * 
  *   some points 
- *   == window is parent of document 
+ *   == window is parent of document (docuement vs window )
  *   == can we add class,id, using set attribute = yes 
  * 
  *   classList.add('') = will change or update  css class of html tag

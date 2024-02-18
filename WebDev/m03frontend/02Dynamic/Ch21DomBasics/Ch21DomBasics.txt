@@ -15,12 +15,20 @@ Links {
 
 
 Notes {
-    -- 
+    -- innerHTML vs innerText vs textContent
+    -- className vs classList
+    -- collections vs array 
+    -- remove() vs removeChild()
+    -- DOM vs BOM 
+    -- attributes  vs properties
+    -- document vs window
+    -- removeAttribute() vs removeProperty()
 }
 
 
+
 Task {
-    -- 
+    -- recall the sytax of setAttribute
 }
 
 
@@ -58,15 +66,22 @@ Task {
 
 
 
-05. Adding inline style {
 
-    syntax 
+05. Adding inline style {
+    -- removeProperty()
+
+    syntax of adding one css 
     -- <elementName>.style.<propertyName> = "properValue" 
+
+    syntax of adding multipe css 
+    -- <elementName>.style.cssText = "color: red; background: blue; font-size: 16px;";
     
     eg. 
     -- <elementName>.style.backgroundColor = "red" 
     -- <elementName>.style.fontSize = "14px" 
-    -- 
+
+    eg. 
+    -- element.style.cssText = "color: red; background: blue; font-size: 16px;"; 
 }
 
 

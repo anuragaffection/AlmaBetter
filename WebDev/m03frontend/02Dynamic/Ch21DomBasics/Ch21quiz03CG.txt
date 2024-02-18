@@ -1,27 +1,27 @@
 Some More Questions
 
 
-1. What is the Document Object Model (DOM)?
+1. What is the Document Object Model (DOM)?]]
 
-2. How does the DOM represent HTML/XML documents?
+2. How does the DOM represent HTML/XML documents?]]
 
-3. Explain the difference between the DOM and HTML source code.
+3. Explain the difference between the DOM and HTML source code.]]]
 
-4. What are DOM nodes?
+4. What are DOM nodes?]]]
 
-5. What is the purpose of the `document` object in the DOM?
+5. What is the purpose of the `document` object in the DOM?]]]
 
 6. How can you select elements using CSS selectors in the DOM?
 
 7. What is the significance of the `getElementById` method in the DOM?
 
-8. How can you access and modify attributes using the DOM?
+8. How can you access and modify attributes using the DOM? ]]]
 
 9. Describe the concept of parent and child nodes in the DOM hierarchy.
 
-10. How would you traverse the DOM tree using JavaScript?
+10. How would you traverse the DOM tree using JavaScript? ]]]
 
-11. What is event delegation in the context of the DOM?
+11. What is event delegation in the context of the DOM?]]]
 
 12. Explain how you can dynamically create elements using the DOM.
 
@@ -33,15 +33,13 @@ Some More Questions
 
 16. How can you manipulate the CSS styles of DOM elements?
 
-17. Explain the concept of reflow and repaint in the context of DOM updates.
+17. Explain the concept of reflow and repaint in the context of DOM updates.]]]
 
 18. What is the purpose of the `querySelector` method in the DOM?
 
-19. How does asynchronous loading of scripts affect the DOM?
+19. How does asynchronous loading of scripts affect the DOM? ]]]
 
-20. Describe the difference between the DOMContentLoaded and load events.
-
-
+20. Describe the difference between the DOMContentLoaded and load events.]]]]
 
 
 
@@ -51,12 +49,15 @@ Some More Questions
 
 
 
-1. What is the Document Object Model (DOM)?
+
+
+1. What is the Document Object Model (DOM)? ]]]
 
    Answer: 
       The Document Object Model (DOM) is a programming interface 
-      provided by web browsers that allows scripts to dynamically access 
-      and manipulate the content, structure, and style of HTML or XML documents.
+      provided by web browsers 
+
+      It allows scripts to dynamically access and manipulate the content, structure, and style of HTML or XML documents.
 
       It represents the document as a hierarchical tree of objects, 
       where each object corresponds to a part of the document, such as 
@@ -68,14 +69,14 @@ Some More Questions
 
 
 
-
-
-2. How does the DOM represent HTML/XML documents?
+2. How does the DOM represent HTML/XML documents? ]]
 
    Answer: 
       The DOM represents HTML/XML documents as a hierarchical tree structure.
+
       Each element, attribute, and text content in the document is represented 
       by a node in the tree. 
+
       Nodes are organized in a parent-child relationship, forming a structure 
       that mirrors the structure of the document.
 
@@ -84,10 +85,7 @@ Some More Questions
 
 
 
-
-
-
-3. Explain the difference between the DOM and HTML source code.
+3. Explain the difference between the DOM and HTML source code.]]]
 
    Answer: 
       The DOM is a representation of the parsed HTML or XML document 
@@ -104,10 +102,7 @@ Some More Questions
 
 
 
-
-
-
-4. What are DOM nodes?
+4. What are DOM nodes? ]]]
 
    Answer: 
       DOM nodes are the individual elements that make up the hierarchical 
@@ -122,19 +117,13 @@ Some More Questions
 
 
 
-
-
-
-5. What is the purpose of the `document` object in the DOM?
+5. What is the purpose of the `document` object in the DOM?]]]
 
    Answer: 
       The `document` object is a core part of the DOM and represents 
       the entire HTML or XML document. 
       It provides methods and properties that allow scripts to access, 
       create, modify, and delete elements and content within the document.
-
-
-
 
 
 
@@ -156,9 +145,6 @@ Some More Questions
 
 
 
-
-
-
 7. What is the significance of the `getElementById` method in the DOM?
 
    Answer: 
@@ -171,15 +157,12 @@ Some More Questions
 
 
 
-
-
-
-
-8. How can you access and modify attributes using the DOM?
+8. How can you access and modify attributes using the DOM? ]]]
+   Also recall setAttribute() & getAttribute() .
 
    Answer: 
        You can access and modify attributes using the DOM by using properties 
-       of DOM nodes. 
+       of its nodes. 
        
        For example, to access the `href` attribute of an anchor element, 
        you can use `element.href`. To modify an attribute, 
@@ -189,11 +172,7 @@ Some More Questions
 
 
 
-
-
-
-
-9. Describe the concept of parent and child nodes in the DOM hierarchy.
+9. Describe the concept of parent and child nodes in the DOM hierarchy.]]
 
    Answer: 
        In the DOM hierarchy, parent nodes are nodes that contain other nodes 
@@ -208,8 +187,7 @@ Some More Questions
 
 
 
-
-10. How would you traverse the DOM tree using JavaScript?
+10. How would you traverse the DOM tree using JavaScript? ]]]
 
     Answer: 
        You can traverse the DOM tree using various methods like 
@@ -225,9 +203,7 @@ Some More Questions
 
 
 
-
-
-11. What is event delegation in the context of the DOM?
+11. What is event delegation in the context of the DOM?]]]]]]]
 
     Answer: 
       Event delegation is a technique in which a single event 
@@ -236,8 +212,6 @@ Some More Questions
       
       This is useful for dynamically added elements or elements
       in a list where applying individual listeners might be impractical.
-
-
 
 
 
@@ -254,8 +228,6 @@ Some More Questions
       
       After creating the element, you can use methods like `appendChild` 
       to add it to the DOM.
-
-
 
 
 
@@ -281,9 +253,6 @@ Some More Questions
 
 
 
-
-
-
 14. How can you attach event listeners to DOM elements?
 
     Answer: 
@@ -297,10 +266,6 @@ Some More Questions
 
 
 
-
-
-
-
 15. What is the difference between `textContent` and `innerHTML`?
 
     Answer: 
@@ -309,8 +274,6 @@ Some More Questions
       
       `innerHTML` retrieves or sets the entire HTML content of an element, 
       including HTML tags and their content.
-
-
 
 
 
@@ -334,9 +297,7 @@ Some More Questions
 
 
 
-
-
-17. Explain the concept of reflow and repaint in the context of DOM updates.
+17. Explain the concept of reflow and repaint in the context of DOM updates.]]]
 
     Answer: 
       Reflow (or layout) occurs when changes to the DOM structure or 
@@ -348,9 +309,6 @@ Some More Questions
       appearance of elements. 
       
       Both reflow and repaint can be resource-intensive and affect performance.
-
-
-
 
 
 
@@ -371,9 +329,7 @@ Some More Questions
 
 
 
-
-
-19. How does asynchronous loading of scripts affect the DOM?
+19. How does asynchronous loading of scripts affect the DOM?]]]
 
     Answer: 
       Asynchronous loading of scripts allows other resources to continue 
@@ -389,9 +345,7 @@ Some More Questions
 
 
 
-
-
-20. Describe the difference between the DOMContentLoaded and load events.
+20. Describe the difference between the DOMContentLoaded and load events.]]]]
 
     Answer: 
        The `DOMContentLoaded` event is fired when the initial HTML 
@@ -405,3 +359,6 @@ Some More Questions
         `DOMContentLoaded` triggers earlier, 
         making it suitable for running scripts that depend on the structure of the page, 
         while `load` waits for all resources to be ready.
+
+
+      
