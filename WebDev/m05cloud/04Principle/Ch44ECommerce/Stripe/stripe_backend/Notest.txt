@@ -1,0 +1,15 @@
+
+Technology required 
+-- Node js 
+-- Express js 
+-- CORS, a middleware 
+-- UUID , unique id generator 
+-- dotenv , for env 
+-- nodemon 
+-- React js 
+-- Stripe payment Gateway 
+
+
+Commands 
+-- npm init 
+-- 
