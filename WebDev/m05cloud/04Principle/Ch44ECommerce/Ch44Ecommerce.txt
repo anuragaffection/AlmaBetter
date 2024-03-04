@@ -1,0 +1,125 @@
+Integration of E-Commerce Tools 
+-- Introudction to Payment Gateway 
+-- How to setup Payment Gateway Module 
+-- Introudction to Shopify 
+-- Integrating Shopify into a web app 
+-- Introudction to Wix 
+-- Introudction to WordPress 
+-- Introudction to Stripe payment
+
+
+
+Link {
+    -- https://www.skyflow.com/post/multiple-payment-gateways
+    -- https://www.wpbeginner.com/wordpress-security/
+}
+
+
+Notes {
+    -- toLocaleString()
+    -- OAuth 
+    -- OAuth 2.0 
+}
+
+
+Task {
+    -- Stripe Payment Integration
+    -- paytm Payment Integration
+    -- setup wordpress e-commerce with paypal 
+}
+
+
+
+Introudction to Payment Gateway {
+    -- how does the Payment gateway works 
+}
+
+
+
+How to setup Payment Gateway Module {
+    -- Paytm payment setup 
+    -- Stripe payment setup
+}
+
+
+
+Introudction to Shopify {
+    -- 
+}
+
+
+
+Integrating Shopify into a web app {
+    -- Webhooks 
+    -- 
+}
+
+
+
+Introudction to Wix {
+    -- similar blogger 
+    -- 
+}
+
+
+
+Introudction to WordPress {
+    -- CMS = content management system 
+    -- check code with harry youtube video 
+}
+
+
+Introudction to stripe payment {
+    -- check Hitesh Chaudhary youtube video 
+}
+
+
+
+
+Activity  {
+
+    Fill in the blanks
+    
+    01. Payment Gateway is a service that acts as a ___________(mediator/shopping cart) between an online store and a payment processor, securely transmitting payment data.
+    
+    02. The primary function of a payment gateway is to ___________(expedite/secure) transactions by encrypting sensitive information like credit card numbers.
+    
+    03. The payment processor, also known as an ___________(investment/acquiring) bank, communicates with the customer's issuing bank to authorize or decline the transaction.
+    
+    04. The payment processor's response is sent back through the payment gateway to the ___________(merchant/courier) and the customer.
+    
+    05. Customers can store their card information securely with some payment gateways to enable ___________(random/recurring) payments in the future.
+    
+    Answers
+    01. service
+    02. secure
+    03. acquiring
+    04. merchant
+    05. recurring
+
+
+
+    Agree/Disagree
+    
+    01. Shopify provides a wide range of e-commerce features and is suitable for businesses of all sizes.
+    
+    02. Wix Corvid (Wix Code) allows you to create dynamic web applications using JavaScript.
+    
+    03. Wix offers limited customization options, and you can't make significant design changes to templates.
+    
+    04. WordPress is primarily a social media platform for connecting with friends and sharing photos.
+    
+    05. WordPress requires no coding skills, and anyone can easily build a website using it.
+    
+    06. WordPress is primarily used for e-commerce and doesn't support blogging or content management.
+    
+    Answers
+    01. Agree
+    02. Agree
+    03. Disagree
+    04. Disagree
+    05. Disagree
+    06. Disagree
+}
+
+

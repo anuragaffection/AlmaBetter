@@ -1,0 +1,157 @@
+UIUX Design Principle 
+-- Overview of UI UX design
+-- UX Goals & Quality Components 
+-- Design Evaluation 
+-- Usability Testing 
+-- Wireframing 
+-- Frames, Layers & Basic Shapes 
+-- Design Prototyping 
+-- 
+
+
+Links {
+    -- https://bootcamp.uxdesign.cc/fundamental-principles-of-ui-ux-design-3b1434e90a99
+    -- https://www.figma.com/resource-library/how-to-create-a-persona/
+}
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+
+Overview of UI UX design {
+
+    01. UIUX Design Concept 
+    -- User Centered Design
+    -- consistency 
+    -- simplicity
+    -- Accessibility 
+    -- Feedback 
+    -- flexibility 
+
+    02. process of UIUX design
+    -- Research 
+    -- Strategy 
+    -- Generate Wireframe 
+    -- Product Prototype 
+    -- Design
+    -- Usability Testing 
+    -- Implementation 
+
+    03. Tools for UIUX design
+    -- Sketch 
+    -- AdobeXd 
+    -- figma
+    -- Invision
+    -- Axure 
+    -- Marvel   
+}
+
+
+
+
+UX Goals & Quality Components {
+
+    01. UX Goals
+    -- Usability
+    -- Accessibility
+    -- Functionality 
+    -- Engagement 
+
+
+    02. Quality Components
+    -- Visual design
+    -- Navigation 
+    -- Performance 
+    -- Content 
+    -- Accessibility
+    -- Security 
+
+}
+
+
+
+
+Design Evaluation {
+
+    Design Principle
+    -- Usability Testing
+    -- Heuristics Evaluation
+    -- Expert Review 
+    -- AB Testing 
+
+    Heuristics Principle
+    -- Visibility of System Status 
+    -- Match between system & real world 
+    -- User control & freedom 
+    -- Consistency & Standards 
+    -- Error Prevention 
+    -- Recongnition rather than recall 
+    -- flexibility &  efficiency 
+    -- aesthetics & minimalist
+    -- Recover from error 
+    -- Help & documentation 
+}
+
+
+Usability Testing {
+
+    Steps 
+    -- create interactive Prototype
+    -- share the Prototype
+    -- Recruit test participants 
+    -- Prepare a test script & Tasks 
+    -- setup testing environment 
+    -- conduct the Usability test
+    -- debrief & collect Feedback
+    -- analyze the result 
+    -- iterate and refine the design
+}
+
+
+Wireframing {
+
+}
+
+
+Frames, Layers & Basic Shapes {
+
+}
+
+
+Design Prototyping {
+
+}
+
+
+
+
+
+Activity {
+
+    Fill in the blanks:
+
+    01. The user-centered approach in UI/UX design focuses on putting ______ (business goals / aesthetics / users)at the center of the design process. 
+    
+    02. UI/UX design principles emphasize the importance of creating interfaces that are simple, clear, and _______. (complex / cluttered / engaging)
+    
+    03. Consistency in UI/UX design ensures that users encounter ______ (inconsistent / familiar / innovative) design patterns and interactions throughout the interface. 
+    
+    04. Visual hierarchy in UI/UX design helps guide users' attention by using elements such as size, color, and _______. (randomness / uniformity / typography)
+    
+    05. Accessibility and inclusivity in UI/UX design involve considering factors such as color contrast, alternative text for images, and ensuring compatibility with ______ technologies. (legacy / assistive / outdated)
+    
+    Answers
+    01. users
+    02. engaging
+    03. familiar
+    04. typography
+    05. assistive ]]
+}

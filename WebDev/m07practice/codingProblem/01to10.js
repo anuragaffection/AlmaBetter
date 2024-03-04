@@ -5,16 +5,11 @@
 
 
 
-
-
-
 {
     // 02.
     // Dynamic Programming 
     // climbing stair problem
 }
-
-
 
 
 
@@ -25,12 +20,9 @@
 
 
 
-
-
-
 {
     // 04. 
-    // type = hard 
+    // level = hard 
     // sort fruits 
 
 
@@ -83,11 +75,8 @@
 
 
 
-
     // way 02 
-
     {
-
         function sortFruitsByFrequency(fruits) {
             const fruitFrequency = new Map();
 
@@ -121,16 +110,12 @@
         const fruits = ['apple', 'banana', 'banana', 'cherry', 'apple', 'banana', 'cherry', 'cherry', 'cherry'];
         const result = sortFruitsByFrequency(fruits);
         console.log(result); // Output: ['cherry', 'banana', 'apple']
-
     }
-
-
 
 
 
     {
         // this one is easy to undestand 
-
         function printFruitsByFrequency(fruits) {
             const frequency = {}; // Object to store the frequency of each fruit
 
@@ -157,12 +142,9 @@
 
 
 
-
-
     {
         function sortFruitsByFrequency(fruits) {
             const fruitFrequency = {};
-
             // Count the frequency of each fruit
             fruits.forEach(fruit => {
                 fruitFrequency[fruit] = (fruitFrequency[fruit] || 0) + 1;
@@ -193,10 +175,7 @@
         const fruits = ['apple', 'banana', 'banana', 'cherry', 'apple', 'banana', 'cherry', 'cherry', 'cherry'];
         const result = sortFruitsByFrequency(fruits);
         console.log(result); // Output: ['cherry', 'banana', 'apple']
-
     }
-
-
 }
 
 
@@ -244,14 +223,11 @@
     // 10
     {
         // way 01 
-
         function longestPalindromicSubstring(s) {
             if (s === null || s.length === 0) {
                 return "none";
             }
-
             let longest = "";
-
             for (let i = 0; i < s.length; i++) {
 
                 // For odd-length palindromes

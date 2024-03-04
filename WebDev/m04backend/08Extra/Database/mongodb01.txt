@@ -10,10 +10,11 @@ Tools
 - MongoDB atlas
 - MongoDB compass 
 - MongoDB cluster ]]
-- mongosh 
 - mongod 
+- mongos
+- mongo 
+- mongosh 
 - mongodb shell
-- 
 - MongoDB community server 
 - Aggregation pipeline ]]
 - Homebrew 
@@ -452,6 +453,7 @@ pre defined Method {
 2.33.34 removing & renaming fields {
     -- updateOne()
     -- updateMany()
+    -- $set
     -- $unset
     -- $rename
     -- {filter}
@@ -479,7 +481,7 @@ pre defined Method {
     -- $unset
     -- {filter}
 
-    updating at last in array [this will add new document in a collection]
+    updating at last in array [this will add new document at filter in a collection]
     -- db.<myCollection_name>.updateOne(
         {filter},
         {$push : { 'field' : 'value' } }

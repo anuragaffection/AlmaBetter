@@ -4,7 +4,7 @@ String Notes
 String Compare {
     -- 01. =        , used to assign value 
     -- 02. ==       , used to compare value + data type 
-    -- 3. equalsL() , used to compare only value 
+    -- 3. equals() , used to compare only value 
 }
 
 
@@ -62,6 +62,7 @@ Not a method in java {
 String Builder {
     -- append()
     -- length()
+    -- newStringBuilder()
 }
 
 

@@ -1,8 +1,7 @@
 // Object & Json 
 
+
 /**
- * in this chapter 
- * 
  * -- 01. Object Literal 
  * -- 02. Object Constructor 
  * -- 03. Nested Object
@@ -10,36 +9,12 @@
  * -- 05. Adding Property 
  * -- 06. Delete property 
  * -- 07. keys, values, entries 
- * -- 08. 
+ * -- 08. iterating set 
+ * -- 09. iterating map 
+ * -- 10. iterating object s
  *  
  * 
 */
-
-
-
-
-/**
- * explore quiz 
- * 
- * 
-*/
-
-
-
-/**
- * explore coding 
- * -- problem number 03 - medium - finding the value of nested object
- * 
-*/
-
-
-
-/**
- * explore topics 
- * 
-*/
-
-
 
 
 
@@ -51,9 +26,9 @@
 console.log("01. Creating object by object literal method");
 
 let person = {
-    name : "Anurag",
-    age : 21,
-    3 : 1,
+    name: "Anurag",
+    age: 21,
+    3: 1,
 };
 
 console.log(person.name);
@@ -95,15 +70,15 @@ console.log(person1["age"]);
 console.log("03. javascript nested object ");
 
 let cricketer = {
-    hisName : "Sachin 10",
-    isCaptain : false,
-    playIPL : true,
-    address : {
-        pin : 829204,
-        city : "Mumbai",
-        state : "Maharashtra"
+    hisName: "Sachin 10",
+    isCaptain: false,
+    playIPL: true,
+    address: {
+        pin: 829204,
+        city: "Mumbai",
+        state: "Maharashtra"
     },
-    total100 : 100,
+    total100: 100,
 };
 
 
@@ -192,7 +167,70 @@ console.log(allCrickValue);
 
 
 
-// 08.
+
+
+// 08. 
+// on set 
+const mySet = new Set([1, 2, 3, 4, 5]);
+
+// Using forEach
+mySet.forEach((value) => {
+    console.log(value);
+});
+
+// Using for...of loop
+for (const value of mySet) {
+    console.log(value);
+}
+
+
+
+
+
+// 09. 
+// on map 
+const myMap = new Map();
+myMap.set('a', 1);
+myMap.set('b', 2);
+myMap.set('c', 3);
+
+// Using forEach with destructuring
+myMap.forEach((value, key) => {
+    console.log(key, value);
+});
+
+// Using for...of loop
+for (const [key, value] of myMap) {
+    console.log(key, value);
+}
+
+
+
+
+
+// 10 
+// on object 
+const myObject = { a: 1, b: 2, c: 3 };
+
+// Using for...in loop
+for (const key in myObject) {
+    if (Object.hasOwnProperty.call(myObject, key)) {
+        const value = myObject[key];
+        console.log(key, value);
+    }
+}
+
+// Using Object.entries
+for (const [key, value] of Object.entries(myObject)) {
+    console.log(key, value);
+}
+
+// Using Object.keys
+Object.keys(myObject).forEach((key) => {
+    const value = myObject[key];
+    console.log(key, value);
+});
+
 
 
 

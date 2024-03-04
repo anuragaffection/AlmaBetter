@@ -16,7 +16,6 @@ DELETE
 
 
 
-
 2
 What is the purpose of React's forward refs feature?
 
@@ -75,8 +74,7 @@ Consistent deployment and isolation
 
 
 
-6
-What is the primary goal of versioning in API design?
+6. What is the primary goal of versioning in API design?
 
 To maintain a single API version indefinitely.
 To ensure backward compatibility.
@@ -91,8 +89,7 @@ To confuse API consumers.
 
 
 
-7
-Which of the following is NOT a RESTful constraint?
+7. Which of the following is NOT a RESTful constraint?
 
 Statelessness
 HATEOAS (Hypermedia as the Engine of Application State)
@@ -268,8 +265,7 @@ A popular Node.js library for managing asynchronous tasks
 
 
 
-19
-What is a 'closure' in the context of Node.js?
+19. What is a 'closure' in the context of Node.js?
 
 A mechanism for securely storing sensitive data
 A function with access to its own scope, as well as the outer (enclosing) function's scope

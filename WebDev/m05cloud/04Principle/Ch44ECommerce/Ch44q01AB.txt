@@ -1,0 +1,216 @@
+01.
+Which of the following is a primary function of a payment gateway?
+
+Storing customer data.
+Providing discounts on products.
+Processing and authorizing online payments.
+Creating marketing campaigns.
+
+
+
+
+
+02.
+How does Shopify handle payments from customers?
+
+It only accepts cash on delivery
+It provides a secure payment gateway to process online payments
+It requires customers to mail in checks for payment
+It offers cryptocurrency payments only
+
+
+
+
+
+03.
+What role does a payment gateway play in the overall e-commerce process?
+
+It manages inventory.
+It designs the website.
+It handles customer service.
+It facilitates secure online payments.
+
+
+
+
+
+
+04.
+Which of the following is true about Wix's App Market?
+
+It only offers apps for mobile devices
+It provides tools for advanced programming
+It offers additional features and functionalities for Wix websites
+It is used to design graphics and images
+
+
+
+
+05.
+How does a payment gateway ensure the security of payment information?
+
+By publicly displaying payment details.
+By encrypting sensitive payment data.
+By sharing payment information on social media.
+By storing payment information in plain text.
+
+
+
+
+
+06.
+What is the WordPress Dashboard?
+
+The physical hardware where a WordPress site is hosted
+The area where website visitors leave comments
+The user interface for managing and customizing a WordPress site
+A type of WordPress theme
+
+
+
+
+
+07.
+What is WordPress?
+
+A social media platform
+A content management system (CMS)
+An e-commerce platform
+A video streaming service
+
+
+
+
+08.
+What is the primary purpose of a Payment Gateway Module?
+
+To store customer payment information.
+To manage inventory and product listings.
+To facilitate secure online payment transactions.
+To provide customer support.
+
+
+
+
+
+09.
+What is a payment gateway?
+
+A physical location where money is stored.
+An online platform for buying and selling goods and services.
+A software application that facilitates online transactions by processing payment information securely.
+A type of credit card.
+
+
+
+
+
+10.
+Which type of websites can be created using Wix?
+
+Only e-commerce websites
+Only blogs
+Static and dynamic websites
+Only social networking sites
+
+
+
+
+
+
+
+
+Answer
+
+01.
+Processing and authorizing online payments.
+
+The primary function of a payment gateway is to process and authorize online payments securely, ensuring that the transaction is legitimate and the customer's payment information is protected.
+
+
+
+
+
+02.
+It provides a secure payment gateway to process online payments
+
+Shopify integrates with various payment gateways that allow online stores to securely process payments from customers using credit cards, digital wallets, and other online payment methods.
+
+
+
+
+
+
+03.
+It facilitates secure online payments.
+
+A payment gateway's main role is to enable secure online transactions by processing payment information, ensuring a smooth and safe payment process for customers.
+
+
+
+
+
+04.
+It offers additional features and functionalities for Wix websites
+
+Wix's App Market provides users with a variety of apps that can be integrated into their websites to add extra features and functionalities.
+
+
+
+
+
+05.
+By encrypting sensitive payment data.
+
+Payment gateways use encryption techniques to protect sensitive payment information, making it unreadable to unauthorized parties during transmission.
+
+
+
+
+
+06.
+The user interface for managing and customizing a WordPress site
+
+The WordPress Dashboard is the admin area of a WordPress site. It provides tools and controls for managing content, appearance, plugins, users, and more.
+
+
+
+
+07.
+A content management system (CMS)
+
+WordPress is a popular open-source content management system (CMS) that allows users to create, manage, and publish digital content, such as websites, blogs, and online stores.
+
+
+
+
+
+08.
+To facilitate secure online payment transactions.
+
+A Payment Gateway Module's primary purpose is to securely process and authorize online payment transactions between a customer and a merchant. It ensures that sensitive payment information is transmitted securely and helps prevent fraud.
+
+
+
+
+09.
+A software application that facilitates online transactions by processing payment information securely.
+
+A payment gateway is a software application that acts as an intermediary between an e-commerce website and a bank, securely processing payment information such as credit card details to complete online transactions.
+
+
+
+
+
+10.
+Static and dynamic websites
+
+Wix supports the creation of a wide range of websites, including static (informational) websites as well as dynamic websites with interactive elements.
+
+
+
+
+
+
+
+

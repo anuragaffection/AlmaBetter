@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple Chat Application </title>
+</head>
+
+<body>
+
+    <div>
+        <div style="display: flex; flex-direction: column; gap: 1rem; margin: 1rem; padding: 1rem; background-color: aquamarine;">
+            <div style="text-align: center;">Received Chat </div>
+            <div id="receivedMessage"></div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 1rem; background-color:lightblue; margin: 1rem; padding: 1rem;">
+            <input type="text" name="sendMessage" id="sendMessage" style="height: 2rem; padding: 10px;">
+            <button onclick='handleSendMessage()' style="height: 30px; width: max-content;">Send Message </button>
+        </div>
+    </div>
+
+    <script>
+
+        const wss = new WebSocket('ws://localhost:3000');
+
+        wss.onopen = () => {
+            console.log("Web Socket Connected frontend");
+        }
+
+        wss.onmessage = (message) => {
+            // console.log("received message = ", message.data)
+            const receivedMessage = message.data;
+            const para = document.createElement('p')
+            para.textContent = receivedMessage;
+            document.getElementById('receivedMessage').appendChild(para)
+        }
+
+
+        function handleSendMessage() {
+            const sendMessage = document.getElementById('sendMessage');
+            const sendMessageValue = sendMessage.value;
+            wss.send(sendMessageValue);
+            sendMessage.value = '';
+        }
+    </script>
+</body>
+
+</html>

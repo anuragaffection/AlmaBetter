@@ -10,7 +10,7 @@ Javascript MCQs Question by Interview Bit
 --- ignore the statements 
 
 
-03. eval()
+03. eval()  ]]]
 --- The eval() function evaluates the expression passed into it as a parameter and returns the result after evaluation.
 
 
@@ -18,11 +18,11 @@ Javascript MCQs Question by Interview Bit
 --- Switch performs an ‘===’ based comparison, i.e both the value of the expression and its datatype is compared.
 
 
-05. What keyword is used to check whether a given property is valid or not?
+05. What keyword is used to check whether a given property is valid or not?]]
 --- The `in` keyword is used to check whether the given property is valid or not in Javascript.
 
 
-06. What is the use of the <noscript> tag in Javascript?
+06. What is the use of the <noscript> tag in Javascript?]]
 --- The <noscript> tag is displayed by non-Javascript browsers only
 
 
@@ -33,7 +33,7 @@ Javascript MCQs Question by Interview Bit
 09. What does the Javascript “debugger” statement do?
 --- it acts as a breakpoints in a programm 
 
-10. Math.max() , Math.min()
+10. Math.max(), Math.min()
 --- The Math.max() method returns  -Infinity value by default 
 --- the Math.min() method returns  Infinity value by default 
 
@@ -63,11 +63,11 @@ Javascript MCQs Question by Interview Bit
 --- ‘toLocateString()’ method in JS returns a localized string representation of an object.
 
 
-18. Serialization
+18. Serialization]]
 --- Object Serialization is the process in which an object or data structure is translated into a format suitable for transferral over a network, or storage.
 
 
-19. The 3 basic object attributes in Javascript are:
+19. The 3 basic object attributes in Javascript are:]]]
 --- Class,  prototype,  object's extensible flag.
 
 

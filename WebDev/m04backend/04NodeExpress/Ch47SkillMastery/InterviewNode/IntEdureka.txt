@@ -1,0 +1,338 @@
+Source 
+-- Youtube [Nodejs Interview questions by Edureka]
+
+
+Rule 
+-- Try to Answer at your own 
+-- If Failed then see the youtube video
+
+
+
+
+01. Difference between JavaScript & Nodejs
+-- 
+
+
+02. What is node.js 
+-- framework for JavaScript
+-- Open source environment to run JavaScript on server side 
+-- developed on chromeV8 engine 
+
+
+03. Benefits of node.js 
+-- Non blocking IO 
+-- Single threaded with Asynchronous execution 
+-- cross platforms
+
+
+04. Angular vs node.js
+-- Angular is framework for JavaScript
+-- node.js is environment for JavaScript
+
+
+05. Why node.js is single threaded 
+-- Due to JavaScript, which is single threaded 
+-- Nodejs has Asynchronous or parallel execution 
+-- Nodejs has Non blocking IO execution 
+
+
+06. How node.js Work ]]
+-- Nodejs is not a server in itself
+-- we can create server in Nodejs using https 
+-- node js work on single threaded event loop,  ]]
+-- it is environment to compile JavaScript code 
+-- nodejs is Virtual Machines 
+-- nodejs is Virtual Machines using (v8Engine)
+
+
+07. Where nodejs used 
+-- server side programming
+-- database interactions 
+-- 
+
+
+08. Types of api function in nodejs]]
+-- two types of function
+-- a. Asynchronous [Non blocking]
+-- b. Synchronous [blocking]
+-- eg. http is Asynchronous
+
+
+09. Asynchronous vs NonBlocking ]]]
+-- 
+
+
+10. what is package.json 
+-- like manifest file 
+-- 
+
+
+11. Event driven programming
+-- use event like onclick etc to execute function 
+-- it follow publish-subscribe architecture 
+
+
+12. What is Event loop & how does it work ]]
+-- a parallel or Asynchronous programming way 
+-- it follow publish-subscribe architecture
+-- eg. it is like setTimeout, etc 
+-- Task Queue / callback Queue
+-- 
+
+
+13. REPL in context of nodejs ]]
+-- R = Read 
+-- E = Evaluate 
+-- P = Print 
+-- L = Loop 
+-- Read = first it read the input, covernt it into JavaScript data structure, store in memory 
+-- Evaluate = Evaluate the stored data structure
+-- Print = Print the result 
+-- Loop = Loop, if needed 
+
+
+14. Task that can done through event loop 
+-- heavy computations 
+-- input & output 
+-- any blocking code 
+
+
+15. How control flow controls the function in nodejs ]]]
+-- first define the order of execution
+-- collect data if needed
+-- limit the concurrency 
+-- start the next step 
+
+
+16. Test Pyramid 
+-- includes, unit test, integration test, end to end test 
+
+
+17. error first callback in nodejs]]]
+-- the first parameter will be error 
+-- eg. myCallbackfn(erro, success)
+
+
+18. module.exports 
+-- it exports all the related code as module 
+-- it can be used by other module  
+
+
+19. Reactor pattern in nodejs]]]
+-- it is a concept of non blocking i/o operations 
+-- it provide handler to each i/o operations
+-- result in generation of  event Queue or Task Queue
+
+
+20. Front end vs backend development 
+-- 
+
+
+21. LTS release of nodejs
+-- it is type of version 
+-- Long term support 
+-- 
+
+
+22. Security implementation 
+-- authentication 
+-- error handling 
+
+
+23. callback hell ]]]
+-- called Pyramid of doom 
+-- nested callback function 
+-- hard to read & debug 
+-- slow 
+
+
+24. libuv ]]]
+-- library for nodejs 
+-- 
+
+
+25. middleware in nodejs ]]]
+-- it has access to both request & response 
+-- can invoke next middleware
+-- can end the request-reponse cycle 
+-- 
+
+
+26. url module ]]]
+-- it is in-built module 
+-- it has method like parse, format etc. 
+-- we can divide the url into different parts 
+-- .host 
+-- .pathname 
+-- .search 
+-- .query 
+
+
+27. ESLint 
+-- Open source project for JavaScript
+-- Good tools to find bugs 
+
+
+28. why nodejs use v8 enginer 
+--  speed 
+
+
+29. control flow function
+-- first define the order of execution
+-- collect data if needed
+-- limit the concurrency 
+-- invoke the next step 
+
+
+30. List down the arguments that async.queue takes as input ]]
+-- async.queue(taskFunction, concurrencyValue)
+
+
+31. spawn() & fork()  ]]]
+-- spawn() is used to launch a new process 
+-- fork() is special instances of spawn()
+
+
+32. global objects in node js 
+-- availble to all module 
+-- it can be anythings like strings, objects, function
+-- global variable must be declared with global scope 
+
+
+33. stub ]]
+-- a small program or function
+-- used in testing 
+
+
+34. assert , how it work in nodejs ]]
+-- assert is used to write a test 
+-- provide feedback, when fail 
+-- inbuilt in nodejs
+
+
+35. explain process to implement test Pyramid in terms of http APIs ]]]
+-- a higher number of unit test needed 
+-- end to end test should be less in number 
+-- 
+
+
+36. expres js 
+-- framework for nodejs 
+-- provides middleware functions 
+-- it is developed on nodejs middleware called 'connect' 
+
+
+37. process.nextTick() vs setImmediate() ]]]
+-- both are function of timers 
+-- process.nextTick , it does not wait 
+-- setImmediate(), it wait for previous execution, and go for task Queue
+
+
+38. buffer class in nodejs ]]]
+-- used for storing raw data 
+-- it store outside the v8Engine
+-- it is a global class 
+
+
+39. how nodejs handle child threads ]] 
+-- by default nodejs does not expose child threads
+-- for child threads use spawn()
+-- also, we have to import 'childProcess' explictly 
+
+
+40. stream in nodejs ]]]
+-- it is an object
+-- collection of similar data 
+-- it can be used to read & write data 
+-- eg. Readable, Writable, Duplex, Transform 
+
+
+
+41. NODE_ENV 
+-- environment variable 
+-- tells us about current running mode of application 
+
+
+42. readFile vs createReadStream 
+-- readFile , is fully buffer , memory extensive
+-- createReadStream , is partially buffer, memory effective 
+
+
+43. various timing function in nodejs
+-- setTimeout
+-- clearTimeout 
+-- setInterval 
+-- clearInterval 
+-- setImmediate 
+-- clearImmediate 
+-- process.nextTick
+-- 
+
+
+44. punycode in nodejs 
+-- inbuilt in nodejs
+-- it is encoding language 
+-- convert utf-8 to ascii 
+
+
+45. nodejs vs ajax 
+-- nodejs : server side programming 
+-- ajax : client side programming (like, fetch, axios,  etc.)
+
+
+46. does nodejs provide debugger 
+-- yes , built-in debugger available 
+-- it provide simple TCP based debugger interface 
+
+
+47. exist code of nodejs
+-- unused 
+-- fatal error
+-- uncaught fatal exception 
+-- interanl exception handler run time failure 
+-- internal JavaScript Evaluation failure
+
+
+
+48. event emitter ]]]
+-- it is nodejs class 
+-- it used to emit event like ()
+
+
+49. is cryptography supported in nodejs
+-- yes it has crypto module 
+-- eg. cipher,  decipher, sign, verify 
+
+
+50. why express 'app' & 'server' should be kept seprate 
+-- faster execution 
+-- easy to debug and maintain 
+
+
+
+
+
+Follow Up questions
+
+01. IO
+-- input / output 
+
+02. compiler vs Interpretetr vs transpiler 
+-- compile = execute whole code at once
+-- Interpret = line by line execution
+-- Transpile = 
+
+03. is Nodejs Interpretetr or compiler 
+
+04. Asynchronous vs Non blocking 
+
+05. concurrency 
+-- how times the things get called 
+
+06. e2e test 
+-- end to end test 
+
+07. TCP vs UDP 
+-- Transmission control protocol 
+-- User datagram protocol 
+

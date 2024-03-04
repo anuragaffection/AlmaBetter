@@ -23,7 +23,7 @@ Notes {
     )
 
     example
-    -- db.myCollection_name.deleteOnde(
+    -- db.myCollection_name.deleteOne(
         { 'price' : 55}
     )
 }

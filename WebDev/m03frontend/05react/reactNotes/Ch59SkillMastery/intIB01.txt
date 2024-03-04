@@ -1,0 +1,97 @@
+React js interview Questions 
+
+
+InterviewBit Beginner {
+    -- https://www.interviewbit.com/react-interview-questions/
+    
+
+    01. what is react 
+    -- react follows unidirectional data binding or data flow.
+
+
+    02. advantage of react 
+    -- React uses virtual dom for rendering the view 
+    -- MVC = Model View Controller [architecture ]
+
+
+    03. Limitations of react 
+    -- 
+
+    04. useState()
+    -- what is tuple 
+    -- The useState(0) will return a tuple 
+    -- useState hook returns an array of two items
+
+
+    05. keys in react 
+    -- 
+
+
+    06. what is jsx 
+    -- Why we need jsx 
+    -- what the jsx is providing 
+    -- 
+
+
+    07. functional vs class components
+    -- 
+
+
+    08. What is virtual dom 
+    -- why we need virtual dom 
+    -- why react use two virtual dom ]]
+    -- inefficient updating = when due to small changes, the appliaction re render everything 
+    -- React uses two virtual DOMs to render the user interface
+
+
+    09. controlled vs uncontrolled components]]
+    -- what is ref 
+    -- useRef() vs createRef
+    -- 
+
+    10. props in react 
+    -- immutable 
+    -- props are the data passed from a parent component into a child component.
+
+
+    11. state vs props 
+    -- state = mutable 
+    -- props = immutable
+
+
+    12. Side effect of react components]]]
+    -- Effect with cleanup 
+    -- Effect without cleanup
+
+
+    13. prop driling 
+
+
+    14. What is error boundaries 
+    -- 
+
+
+    15. what is react hooks 
+
+
+    16. expalin React hooks  
+    -- can we use hooks in class component = No
+
+
+    19. refs 
+    -- ref = property in html tag 
+    -- useRef()
+    -- createRef
+    -- why we need refs 
+    -- what is problem with refs 
+    -- <myRef>.current.value = way to access value 
+    -- 
+
+
+    20. what are custom hooks ]]]
+    -- why we need custom hooks 
+    -- how it replace higher order component
+    --  
+    
+}
+

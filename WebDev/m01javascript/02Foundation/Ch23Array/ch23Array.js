@@ -1,11 +1,6 @@
-//
+
 //  arrays 
-// 
-// string - is moved to another module (Module 02 , chapter 01, ) 
-
-
-
-
+//  String in other module (module 02)
 
 
 
@@ -45,45 +40,8 @@
  *  28. foreach()
  *  29. Working of javascript 
  * 
-*/
-
-
-
-
-/**
- * explore quiz 
  * 
 */
-
-
-
-/**
- * explore coding 
- * 
-*/
-
-
-
-/**
- * explore topics 
- * 
-*/
-
-
-
-/**
- *  23. Array & Strings
-        -- https://medium.com/@mystyx/javascript-array-hidden-potential-43c9d31bb1c2
-        -- https://grow.almabetter.com/web-dev/learn/full-stack-web-development/bootcamp-wd-m1-c1-l3/Read
-        -- https://blog.logrocket.com/javascript-array-group-array-grouptomap/
-        -- https://dev.to/ibrahima92/15-must-know-javascript-array-methods-in-2020-1kd8
-        -- https://codeinstitute.net/global/blog/javascript-arrays/
- */
-
-
-
-
-
 
 
 
@@ -94,13 +52,10 @@
 
 
 
-
-
 // 02. 
 // Types of an array
 // one dimensional array 
 // multi dimensional array 
-
 
 
 

@@ -1,14 +1,10 @@
-//
+
 // string
-// 
-
-
-
+// array in other module (module 01 )
 
 
 
 /*
-   
   in this chapter 
 
   01. String introduction 
@@ -22,22 +18,8 @@
 
 
 
-/**
- * explore quiz 
- * 
-*/
-
-
-
-/**
- * explore coding 
- * 
-*/
-
-
-
 /*
-   Explore topics 
+   Task 
 
     Introduction to string 
     what is a string 
@@ -53,13 +35,13 @@
 
 
 
+// 01. String introduction 
 
 
 
 
-
-// 01. 
-console.log("01. multi line string with + operator ")
+// 02. 
+console.log("02. multi line string with + operator ")
 
 let str = "Hello this is going to be multi line statements " + 
           "Using + operator " + 
@@ -76,19 +58,8 @@ console.log(str, str1);
 
 
 
-
-
-
-// 02.
-
-
-
-
-
-
-
 //03.
-console.log("02. String Method");
+console.log("03. String Method");
 
 /*
 

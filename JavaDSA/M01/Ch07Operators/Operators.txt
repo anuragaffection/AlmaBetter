@@ -1,6 +1,5 @@
 
 
-
 Math Method {
        -- Math.floor()
        -- Math.ceil()

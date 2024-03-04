@@ -4,6 +4,8 @@ const stripe = require("stripe")(process.env.STRIPE_SK);
 const uuid = require("uuid");
 const dotenv = require("dotenv")
 
+// is stripe_private_key working in this file 
+
 const app = express();
 dotenv.config();
 

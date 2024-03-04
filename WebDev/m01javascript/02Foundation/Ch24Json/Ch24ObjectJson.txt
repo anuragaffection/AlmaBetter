@@ -8,6 +8,12 @@ Objects & Json topics {
 }
 
 
+Objects{
+    -- Object.keys()
+    -- Object.values()
+    -- Object.entries()
+}
+
 
 array {
     -- push()
@@ -20,7 +26,8 @@ array {
     -- reduce()
     -- find()
     -- filter()
-    -- 
+    -- forEach()
+    -- for...of
 }
 
 
@@ -30,7 +37,7 @@ Set {
     -- has()
     -- size()
     -- forEach()
-    -- 
+    -- for...of
 }
 
 
@@ -41,7 +48,7 @@ Map {
     -- clear()
     -- size()
     -- forEach()
-    -- 
+    -- for...of
 }
 
 

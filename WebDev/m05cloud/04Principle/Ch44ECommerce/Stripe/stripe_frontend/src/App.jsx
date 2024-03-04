@@ -35,7 +35,7 @@ function App() {
     <>
       <h1>Stripe Payment Integration </h1>
       <StripeCheckout
-        stripeKey={import.meta.env.REACT_APP_STRIPE_KEY} // Add your own test key here
+        stripeKey={import.meta.env.VITE_STRIPE_KEY} // Add your own test key here
         token={makePayment}
         name="Buy Stripe Test Code "
         amount={product.price * 100}
@@ -52,3 +52,6 @@ function App() {
 }
 
 export default App
+
+// importin env file in frontend 
+// import.meta.process.env 

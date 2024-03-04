@@ -5,8 +5,8 @@ Javascript Interview Question by interviewbit
 
 
 Task {
-    -- higher order function vs clousres
-    -- is setTimeout higher order function 
+    -- higher order function vs closure
+    -- is setTimeout higher order function , 
 }
 
 
@@ -26,7 +26,7 @@ Task {
 
 
 
-08. isNaN() ]]
+08. isNaN() ]]]] 
 --- isNaN try to convert into number 
 --- typeof(NaN) is number
 --- Not a Number = NaN
@@ -90,7 +90,7 @@ Task {
 --- 
 
 
-20. clousres ]]]
+20. closure ]]]
 --- an ability of a function to remember the variables and functions that are declared in its outer scope.
 
 
@@ -112,3 +112,7 @@ Task {
 
 30. What do you mean by BOM?
 --- Browser Object Model 
+
+
+31. is setTimeout higher order function
+--- No 

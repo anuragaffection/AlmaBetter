@@ -1,10 +1,6 @@
 // Getting started with Algorithm
 
 
-
-
-
-
 /* 
   in this chapter 
 
@@ -19,36 +15,6 @@
   09. Problem of flip coins 
 
 */
-
-
-
-
-
-
-/**
- * explore quiz 
- * 
-*/
-
-
-
-
-
-
-/**
- * explore coding 
- * 
-*/
-
-
-
-
-
-/**
- * explore topics 
- * 
-*/
-
 
 
 

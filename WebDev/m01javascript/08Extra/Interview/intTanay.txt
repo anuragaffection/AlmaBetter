@@ -30,7 +30,7 @@ Top 10 interview questions for javascript [by Tanay Pratap]
 22. call, bind, apply 
 23. working of this 
 
-28. react vs angular vs view 
+28. react vs angular vs vue 
 29. nextjs vs react js 
 20. nextjs vs gatsby 
 

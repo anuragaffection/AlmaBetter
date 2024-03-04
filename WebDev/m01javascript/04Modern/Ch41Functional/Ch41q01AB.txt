@@ -1,0 +1,228 @@
+Functional programming 
+
+
+
+01. What will be the output of the following code?
+
+const person = {
+    name: 'Lydia'
+};
+function sayHi(age) {
+    return ${this.name} is ${age}';
+}
+console.log(sayHi.call(person, 21));
+console.log(sayHi.bind(person, 21));
+
+
+"undefined is 21"  "Lydia is 21"
+function(){}       function(){}
+"Lydia is 21"      "Lydia is 21"
+"Lydia is 21"      "function(){}”
+
+
+
+
+
+
+02. What will be the output of the following code?
+
+function dog(string) {
+    console.log(string);
+}
+dog("Bark");
+var animal = dog;
+animal("meow");
+animal.myProperty = "black";
+console.log(animal.myProperty);
+
+
+"Bark"   "meow"      "black"
+"Bark"   "meow"      undefined
+"Bark"    undefined  "black"
+undefined "meow"     "black”
+
+
+
+
+
+
+03. Which of the following is/are example(s) of Immutable Objects in JavaScript?
+
+String
+Date
+Symbol
+Array
+
+
+
+
+
+04. What is functional programming?
+
+A programming paradigm designed to handle pure mathematical functions
+A process of building software with shared state and mutable data
+A way of programming with side-effects
+A programming approach focused on writing simple functions
+
+
+
+
+
+05. What is the characteristic of primitive types in JavaScript?
+
+Mutable
+Strongly Mutable
+Strongly Immutable
+Weakly Immutable
+
+
+
+
+
+
+06. Which of the following are benefits of immutability in javascript?
+
+Improved security
+Increased performance
+Better code organization
+All of the above
+
+
+
+
+
+07. What is the main advantage of functional programming in solving complex problems?
+
+Reusability of code
+Decreased code length
+Improved code readability
+Increased code maintainability
+
+
+
+
+
+08. What will be the output of the following code?
+
+const numbers = [1, 2, 3, 4, 5];
+const result = numbers.filter(num => num % 2 === 0).map(num => num * 2).reduce((acc, num) => acc + num, 0);
+console.log(result);
+
+6
+10
+12
+20
+
+
+
+
+
+
+09. How does functional programming improve the software development process?
+
+By increasing code redundancy
+By reducing modularity
+By decreasing maintainability
+By improving modularity
+
+
+
+
+
+10. Which of followings are pure functions?
+
+function add(a, b) {
+    return a + b; 
+}
+
+
+const sum = 0;
+function addToSum(a) { sum + a; }
+
+
+const rounding = true;
+function divide(a, b) {
+const result = a / b;
+if (rounding) {
+result = parseInt(result); }
+return result;
+
+
+function lucky Number() {
+    return parseInt(Math.random() * 10); 
+}
+
+
+
+
+
+
+
+
+Answer
+
+
+01. "Lydia is 21" , "function(){}"
+In the first console.log statement, the call() method is used to invoke the sayHi() function with the 'person' object as the context and 21 as the argument. Therefore, the function will return "Lydia is 21".
+In the second console.log statement, the bind() method is used to create a new function that has 'person' as its context and 21 as its argument, but it doesn't invoke the function. Therefore, a new function object will be returned instead of a string.
+
+
+
+
+02. "Bark" "meow" "black"
+The code defines a function dog that logs its argument to the console. The function is called twice with different arguments. Then a property myProperty with value "black" is added to the animal function object, and its value is logged to the console. The output of the code will be "Bark" "meow" "black".
+
+
+
+
+03. String & Symbol
+Both Strings and Symbols are examples of immutable objects in JavaScript. Once a string or symbol is created, its value cannot be changed
+
+
+
+
+04. A programming paradigm designed to handle pure mathematical functions
+Functional programming is a programming paradigm that uses pure mathematical functions to build software. It avoids changing state and mutable data, and instead focuses on immutable data structures. It emphasizes the use of functions as first-class citizens and aims to write more concise and modular code.
+
+
+
+
+05. Weakly Immutable
+Weakly immutable means that a value can be changed, but only under certain circumstances or conditions
+
+
+
+
+06. All of the above
+Immutable data structures offer benefits such as improved security, increased performance, and better code organization. By using immutable data structures, it is more difficult for attackers to manipulate data or inject malicious code, and immutable data structures can be cached and reused more efficiently for improved performance. Additionally, immutable data structures can help improve code organization and readability by making it easier to reason about the state of the program and the flow of data.
+
+
+
+
+07. Reusability of code
+The main advantage of functional programming in solving complex problems is the reusability of code. By using pure functions and immutable data structures, functional programming allows for more modular and reusable code, which can be easily adapted to solve different problems
+
+
+
+
+08. 12
+The given code uses array methods filter, map, and reduce to compute a result from an array of numbers. The filter method is used to create a new array containing only the even numbers from the original array [2, 4]. The map method is used to create a new array containing the doubled values of each number in the filtered array [4, 8]. Finally, the reduce method is used to compute the sum of the numbers in the mapped array, starting from an initial value of 0. Therefore, the correct answer is 12.
+
+
+
+
+09.By improving modularity
+Functional programming improves the software development process by improving modularity. By using pure functions and immutable data structures, functional programming makes it easier to reason about and test code, allowing for more modular code that can be easily reused. Additionally, functional programming reduces side effects and the reliance on mutable data, which can increase the maintainability of the code over time.
+
+
+
+
+
+10.
+function add(a, b) {
+   return a + b;
+}
+
+Only function A is a pure function because it satisfies the conditions of being deterministic, having no side-effects, and not modifying any external state or data. It always returns the same output for the same input and does not have any side effects. Rest funcrtions do not satisfy all the conditions of being a pure function.
+
+

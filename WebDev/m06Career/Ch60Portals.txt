@@ -1,0 +1,39 @@
+jobs Website {
+
+    Indian 
+    -- https://www.naukri.com/
+    -- https://in.indeed.com/
+    -- https://internshala.com/student/dashboard
+    -- https://www.linkedin.com/in/anuragaffection/
+    -- 
+
+    
+    Arab Countries 
+    -- https://www.bayt.com/
+    -- https://www.naukrigulf.com/mnj/
+    -- 
+
+
+    Europe & America 
+    -- https://www.glassdoor.com/member/
+    -- https://www.dice.com/
+    -- https://stackoverflow.com/jobs/companies
+    -- https://github.com/about/careers
+    -- https://githubinc.jibeapply.com/jobs
+    -- https://www.angellist.com/
+    -- https://www.techcareers.com/
+    -- WellFound 
+
+    Remote Friendly 
+    -- https://www.hackerrank.com/careers/
+    -- https://weworkremotely.com/
+    -- https://remote.co/
+    -- https://www.flexjobs.com/
+    -- https://remoteok.com/
+    -- Remotebase 
+    -- https://thecodedose.com/blog/websites-to-find-remote-tech-jobs/
+
+}
+
+
+

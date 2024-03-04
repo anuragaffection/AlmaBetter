@@ -1,0 +1,34 @@
+
+Regex & Debugging
+- 01. Regular expressions
+- 02. Bracket expressions
+- 03. Regex methods 
+- 04. Assertions 
+- 05. Regex flags 
+- 06. Quantifiers 
+- 07. Debugging 
+
+
+Activity {
+    
+    Fill in the blanks 
+
+    01. Regular expressions are patterns of characters used to search for 
+        and match specific _______(words / strings / characters) of text.
+
+    02. Regular expressions can be used to perform a wide range of text 
+        processing tasks, such as finding and extracting data from web pages,
+        validating user input in forms, and parsing _______(HTML / Log / XML) files.
+
+    03. Regular expressions are highly _______(efficient / portable / flexible) 
+        and customizable.
+
+    04. Special characters and syntax can be used to match any combination of 
+        characters, from simple strings to complex _______(URL / patterns / phone numbers).
+
+    Answers
+    01. Strings
+    02. Log
+    03. Flexible
+    04. Patterns
+}

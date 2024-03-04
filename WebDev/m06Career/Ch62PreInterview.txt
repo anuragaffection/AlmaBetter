@@ -6,8 +6,9 @@ Ways to Recall {
 
 
 
-Tips {
-    -- Never Give up 
-    -- Be interactive 
-    -- Do not forget to greet 
+
+interview Website {
+    -- https://www.interviewbit.com/
+    -- https://prepinsta.com/home/
+    -- 
 }

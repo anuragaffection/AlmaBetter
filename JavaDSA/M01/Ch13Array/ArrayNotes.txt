@@ -10,7 +10,9 @@ sc.nextInt();
 sc.nextFloat();
 sc.nextLine();
 
+
 Arrays.sort(myArray);
+
 
 
 syntax {

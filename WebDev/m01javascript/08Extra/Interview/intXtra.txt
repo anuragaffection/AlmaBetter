@@ -2,4 +2,5 @@
 02. closures 
 03. lexical scope 
 04. is setTimeout() higher order function
-05. 
+05. promise 
+06. callback functions 

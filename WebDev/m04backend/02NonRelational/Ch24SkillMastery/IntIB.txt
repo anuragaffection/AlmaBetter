@@ -1,0 +1,168 @@
+MongoDB interview Question By Interview Bit 
+-- for beginners 
+-- https://www.interviewbit.com/mongodb-interview-questions/
+
+
+
+Recall {
+    -- aggregation pipeline
+    -- $lookup in MongoDB
+}
+
+
+
+
+01. advanatage of MongoDB
+-- written in c++ 
+
+
+02. document
+
+
+03. collection
+-- Group of documents is called collection
+
+
+04. database in mongodb
+-- Group of collections form database 
+
+
+
+05. Difference ]]
+
+mongo,  mongosh,   
+-- mongo = MongoDB shell 
+-- mongosh = modern mongodb shell 
+
+compass vs Atlas 
+-- compass = GUI  tool for MongoDB
+-- Atlas = Server for cloud database storage 
+
+mongod vs mongos 
+-- mongod = process daemon to start operations 
+-- mongos = it is query router 
+
+
+
+06. How does scale - out occur in MongoDB ]]]
+-- config server 
+-- application driver 
+-- mogos  (query router)
+-- shard (data)
+
+
+07. feature of MongoDB
+-- indexing
+-- aggregation]]
+-- sharding
+-- replication 
+-- 
+
+
+08. adding data in mongodb
+-- insertOne({})
+-- insertMany([])
+
+
+09. updating data in MongoDB
+-- updateOne({<filterQuery>}, {<toUpdateWith>})
+-- updateMany()
+
+
+10. deleting 
+-- deleteOne({filter})
+-- deleteMany({filter})
+
+
+11. querying 
+-- find({})
+
+
+12. data types in MongoDB]]
+-- null 
+-- boolean = true / false 
+-- number 
+-- string 
+-- regular expression 
+-- array 
+-- embedded document
+-- Object id
+-- code 
+
+
+
+
+
+Intermediate Question {
+
+    01. querying 
+
+    02. indexing in details ]]
+    -- createIndex 
+    -- .explain 
+    
+    
+    03. Geospatial Indexes ]]
+    -- 2dShere 
+    -- 2d.2dSphere
+    
+    
+    04. process of  sharding ]] 
+    
+    05. $set & $unset 
+    -- in document 
+}
+
+
+
+
+
+
+Advanced Question {
+
+    01. 
+
+
+    02. 
+
+
+    03. aggregation pipeline
+    -- Suppose we have a collection named orders 
+       with documents representing orders, 
+       each containing fields like customer, total, and items. 
+       We want to calculate the total sales amount per customer.
+    
+    -- db.orders.aggregate([
+        {
+            $group: {
+                _id: "$customer",
+                totalSales: { $sum: "$total" }
+            }
+        }
+    ]);
+
+    -- This aggregation pipeline will output documents containing 
+       the _id of each customer and their corresponding totalSales.
+
+
+}
+
+
+
+
+
+
+MCQS {
+
+    01. Which of these is not a built-in role that grants permissions for database users in MongoDB?
+    -- write 
+
+    10. MongoDB also supports user-defined indexes on multiple fields called ____________
+    -- compound
+
+    11. With hash-based partitioning, two documents with _____ shard key values are unlikely to be part of the same chunk.
+    -- close
+
+
+}
+

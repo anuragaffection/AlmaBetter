@@ -1,0 +1,176 @@
+Functional Programming 
+-- What  is functional Programming
+-- Pure functions 
+-- First class objects 
+-- Higher order functions 
+-- function composition 
+-- Immutability in javascript
+-- Declarative & imperative 
+-- Benefits of functional Programming
+
+
+
+Links 
+-- https://medium.com/sessionstack-blog/how-javascript-works-recursion-in-javascript-what-it-is-and-how-it-is-used-eef3d734f20d
+-- https://opensource.com/article/17/6/functional-javascript
+
+
+
+Notes 
+-- object.freeze()
+-- currying
+-- 
+
+predefined
+-- readLine()
+-- charCodeAt()
+-- fromCharCode()
+
+
+
+
+task {
+    
+    problems
+    -- is leap year 
+    -- to lower case without any predefined functions 
+    -- length of last words 
+
+    library to explore 
+    -- immutable.js 
+    -- lodash 
+    -- ramda 
+}
+
+
+
+
+
+Functional Programming {
+    -- javascript is object oriented Programming
+    -- after ES5 & ES6, we can do functional Programming too 
+    -- it highlights pure function, Immutability, higher order function
+}
+
+
+
+What  is functional Programming {
+    -- it is a programming paradigm which utilize function as building blocks 
+    -- in functional programming, functions are first class citizen 
+    -- avoid mutable state 
+    -- relies on Immutability
+    
+    characteristics in functional programming
+    -- fist class citizen
+    -- Immutability
+    -- statelessness
+    -- pure function
+    -- higher order function
+    -- lazy evaluation 
+    -- recursion
+    -- expression oriented
+
+}
+
+
+
+Pure functions {
+    -- It always produce the same result given the same input and have no side effects
+    -- It does not change external state 
+    -- 
+}
+
+
+
+First class objects]]] {
+    -- Functions can be treated like any other value because they are first-class objects in JavaScript.
+
+    task 
+    -- closure
+    -- higher order function
+    -- first class object
+    -- first class citizen
+    -- closure vs higher order function
+}
+
+
+
+
+Higher order functions {
+    -- takes one more function as arguments 
+    -- returns other function
+    -- currying, enables the creation of customized functions based on a typical pattern.
+
+    task 
+    -- currying vs closure vs higher order function vs chaining ]]
+}
+
+
+
+function composition {
+    -- it is a approach where the output of one function passed to anther function & so on until the last execution 
+
+    compose ]]
+    -- use .reduceRight()
+
+    pipe ]]
+    -- use .reduce()
+}
+
+
+
+Immutability in javascript{
+    -- Strings, number, boolean are Immutable
+    -- object & array are mutable
+}
+
+
+Declarative & imperative {
+    -- Declarative approach what to do 
+    -- imperative approach how to do 
+}
+
+
+Benefits of functional Programming{
+
+}
+
+
+
+
+Activity {
+
+    One Word 
+
+    1. A technique in functional programming where functions call themselves to solve problems.
+
+    2. A characteristic of functional programming where values assigned to a variable cannot be altered after the assignment.
+    
+    3. In JavaScript, functions are considered __________ objects, allowing them to be treated as values and passed around like any other value.
+    
+    4. __________ Evaluation is a strategy in functional programming where values are computed only when necessary to optimize resource usage.
+
+    answer 
+    01. recursion
+    02. Immutable
+    03. first class 
+    04. Lazy 
+
+
+    Activity: Fill in the blanks
+    
+    01. Functional programming can make use of __________ (classes / objects / declarative) and imperative programming paradigms.
+    
+    02. In declarative programming, you tell the computer what you want, and it finds a way to make it happen without the control structure or algorithm used to get there being stated __________ (explicitly / specifically / implicitly).
+    
+    03. Declarative code in functional programming sometimes involves manipulating data without the need of explicit loops or conditionals by employing higher-order functions like __________ (map / forEach / loop), reduce, and filter.
+    
+    
+    04. __________ (Inheritance / Modularity / Abstraction) programming is emphasized in functional programming, which makes the code simpler to read and comprehend.
+    
+    Answers
+    01. declarative
+    02. explicitly
+    03. map
+    04. Modularity
+}
