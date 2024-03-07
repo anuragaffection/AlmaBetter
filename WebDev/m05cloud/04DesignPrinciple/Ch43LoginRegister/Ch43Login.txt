@@ -24,6 +24,7 @@ Notes {
 
 Task {
     -- Implement federated login using OAuth2.0 with identity provider Google
+    -- identity provider vs service provider
 }
 
 
@@ -190,6 +191,14 @@ Activity {
     04. True
     05. True
     06. False
+}
+
+
+Task {
+
+    Identity provider vs service provider 
+    -- Identity provider verify identity, eg. like google, facebook, microsoft, github 
+    -- service provider, is host app, which we have build 
 }
 
 

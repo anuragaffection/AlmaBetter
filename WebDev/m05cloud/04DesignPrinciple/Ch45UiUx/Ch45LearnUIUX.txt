@@ -53,6 +53,13 @@ Overview of UI UX design {
     -- Invision
     -- Axure 
     -- Marvel   
+    -- Proto.io 
+    -- Balsamiq
+    -- Origami Studio 
+    -- Principle
+    -- Framer 
+    -- html, css, javascript 
+    -- Pen & paper 
 }
 
 
