@@ -12,6 +12,7 @@ UIUX Design Principle
 Links {
     -- https://bootcamp.uxdesign.cc/fundamental-principles-of-ui-ux-design-3b1434e90a99
     -- https://www.figma.com/resource-library/how-to-create-a-persona/
+    -- 
 }
 
 
@@ -83,7 +84,7 @@ Design Evaluation {
 
     Design Principle
     -- Usability Testing
-    -- Heuristics Evaluation
+    -- Heuristics Evaluation]]
     -- Expert Review 
     -- AB Testing 
 
@@ -154,4 +155,54 @@ Activity {
     03. familiar
     04. typography
     05. assistive ]]
+
+
+
+
+
+    Agree or Disagree:
+    
+    01. Is design evaluation solely focused on assessing the effectiveness and efficiency of a design?
+    
+    02. One common method used in design evaluation is user testing, where users perform specific tasks to assess the usability of a design.
+    
+    03. Are usability metrics, such as satisfaction, the only factors considered in evaluating the ease of use and learnability of a design?
+    
+    04. A heuristic evaluation involves assessing a design based on established principles and guidelines.
+    
+    05. Is post-test evaluation the only method used to gather feedback from users after they have interacted with a design?
+    
+    Answers
+    01. Disagree
+    02. Agree
+    03. Disagree
+    04. Agree
+    05. Disagree
+
+
+
+
+
+
+    True or False
+
+    01. Wireframing is the final step in the UI/UX design process.
+    
+    02. Wireframes are interactive prototypes that allow users to interact with a website or app.
+    
+    03. Frames can be nested within other frames to create complex layouts and structures.
+    
+    04. Basic shapes can be used as placeholders during the early design stages to represent more detailed elements.
+    
+    05. The use of layers in design applications is primarily for aesthetic purposes and does not impact the usability of a design.
+    
+    06. Design prototypes are primarily created for client presentations and stakeholder meetings.
+    
+    Answers
+    01. False
+    02. False
+    03. True
+    04. True
+    05. False
+    06. False
 }

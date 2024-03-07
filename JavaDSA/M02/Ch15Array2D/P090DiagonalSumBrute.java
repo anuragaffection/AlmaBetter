@@ -1,6 +1,6 @@
 // package JavaDSA.javadsa02.Ch15Array2D;
 
-public class P90DiagonalSumBrute {
+public class P090DiagonalSumBrute {
     
     /*
      *   we have to find diagonal sum 

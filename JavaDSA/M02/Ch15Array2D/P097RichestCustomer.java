@@ -1,4 +1,4 @@
-public class P97RichestCustomer {
+public class P097RichestCustomer {
 
     // LeetCode 1672
     /*

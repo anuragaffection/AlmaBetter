@@ -2,7 +2,7 @@
 
 // LeetCode 1572
 
-public class P91DiagonalSumOpt {
+public class P091DiagonalSumOpt {
 
     // optimised code to find diagonal sum 
 

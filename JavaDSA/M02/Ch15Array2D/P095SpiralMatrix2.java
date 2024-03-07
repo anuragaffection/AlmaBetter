@@ -1,6 +1,6 @@
 // package JavaDSA.javadsa02.Ch15Array2D;
 
-public class P95SpiralMatrix2 {
+public class P095SpiralMatrix2 {
 
     /*
      * 

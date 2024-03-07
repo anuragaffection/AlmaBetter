@@ -15,7 +15,7 @@
  * --- Integers in each column are sorted in ascending from top to bottom.
  */
 
-public class P96SearchMatrix2 {
+public class P096SearchMatrix2 {
 
     public static boolean search(int matrix[][], int target){
 

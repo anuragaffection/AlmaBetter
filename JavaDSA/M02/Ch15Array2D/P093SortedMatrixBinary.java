@@ -1,6 +1,6 @@
 // package JavaDSA.javadsa02.Ch15Array2D;
 
-public class P93SortedMatrixBinary {
+public class P093SortedMatrixBinary {
 
     // here , we are going to optimise the previous solution
 

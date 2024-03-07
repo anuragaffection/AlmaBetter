@@ -8,7 +8,6 @@ Integer.bitCount(num)
 
 
 
-
 Bitwise operator {
     -- & 
     -- | 
@@ -16,7 +15,7 @@ Bitwise operator {
     -- ~ 
     -- >>
     -- << 
-    -- 
+    -- >>>
 }
 
 
@@ -52,4 +51,8 @@ concept {
     02. XOR with itself 
     -- number ^ number = 0
     -- char ^ char = 0
+
+    03.  ~0  =  1111 1111
+    04.  -1  =  1111 1111
+    05.   1  =  0000 0001
 }

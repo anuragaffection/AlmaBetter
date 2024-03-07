@@ -32,7 +32,7 @@ public class P153BinarySystem01 {
     }
 
     public static void main(String args[]) {
-        int binaryNumber = 101;
+        int binaryNumber = 11111111;
         int result = binaryToDecimal(binaryNumber);
         System.out.println(result);
     }

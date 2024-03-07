@@ -21,7 +21,7 @@
  * 
 */
 
-public class P92SortedMatrixBrute {
+public class P092SortedMatrixBrute {
 
     public static void search(int matrix[][], int target) {
 
