@@ -1,0 +1,664 @@
+
+Airtel Frontend
+
+
+
+
+01.
+What is React?
+
+A JavaScript framework for building web applications.
+A Python library for data analysis.
+A database management system.
+A markup language for creating web pages.
+
+
+
+
+
+02.
+What is JSX in React?
+
+JavaScript XML for defining component structure
+A lightweight JavaScript framework.
+A database query language
+A data validation library.
+
+
+
+
+
+03.
+Which HTTP header is used to indicate the type of data a resource contains when a URL is clicked?
+
+Content-Encoding
+Content-Type
+Content-Length
+Cache-Control
+
+
+
+
+
+
+04.
+What is the primary advantage of using a virtual DOM in modern web development?
+
+It provides a physical representation of the web page.
+It is less memory-intensive than the Real DOM.
+It reduces the need for reflows and repaints.
+It is faster than the Real DOM.
+
+
+
+
+
+05.
+Which operation is more performance-intensive in the Real DOM?
+
+Reading from the Real DOM.
+Writing to the Real DOM.
+There is no performance difference between reading and writing.
+It depends on the browser used.
+
+
+
+
+06.
+Which HTML element is used to create an ordered list?
+
+<ul>
+<li>
+<ol>
+<dl>
+
+
+
+
+
+07.
+In the context of Real DOM, what is a "Reflow"?
+
+A process that updates the Real DOM.
+A process that re-renders the entire web page.
+A process that calculates the layout and positioning of elements.
+A process that fetches data from the server.
+
+
+
+
+
+08.
+How does Virtual DOM differ from the real DOM?
+
+Virtual DOM is a physical representation of the DOM structure
+Virtual DOM is faster but less flexible.
+Real DOM is an abstract representation of the DOM structure.
+Virtual DOM is an in-memory representation optimized for updates.
+
+
+
+
+
+
+09.
+Which hook is used to manage component-level state in a functional component?
+
+useProps
+useEffects
+useState
+useContext
+
+
+
+
+
+10.
+Which HTML element is considered a block-level element by default?
+
+<span>
+<a>
+<p>
+<strong>
+
+
+
+
+
+
+11.
+When you apply inline CSS to an element, where should you place the style attribute?
+
+Inside the element's opening tag
+Inside the element's closing tag.
+Outside of the element.
+Inside the HTML <head> section.
+
+
+
+
+
+
+12.
+If conflicting rules have the same specificity, which rule takes precedence in CSS?
+
+The last rule in the stylesheet
+The rule with the shortest selector
+The rule with the longest selector
+The rule with the highest specificity
+
+
+
+
+
+
+13.
+What is Virtual DOM in the context of web development?
+
+A virtual reality framework
+An abstract representation of the actual DOM
+A virtual private network
+A web-based document storage system
+
+
+
+
+
+14.
+Which JavaScript method is commonly used to manipulate the Real DOM efficiently?
+
+document.createElement
+innerHTML
+document.write
+document.getElementById
+
+
+
+
+
+15.
+What is the primary characteristic of the Real DOM?
+
+It is an abstract representation of the web page.
+It is a virtual representation of the web page
+It is a physical representation of the web page.
+It is a lightweight version of the web page.
+
+
+
+
+
+
+16.
+What is the primary purpose of React hooks?
+
+To write class-based components
+To manage state and side effects in functional components
+To optimize rendering performance
+To define component props
+
+
+
+
+
+
+17.
+What is the primary purpose of the Virtual DOM?
+
+To create interactive 3D graphics
+To facilitate server-side rendering
+To improve the performance of DOM updates
+To create web components
+
+
+
+
+
+18.
+What does the "render" method in a React component return?
+
+A list of props
+The component's state
+The component's structure (UI).
+A callback function.
+
+
+
+
+
+19.
+What does DNS stand for in the context of clicking a URL?
+
+Domain Network System
+Digital Network Service
+Domain Name Server
+Domain Name System
+
+
+
+
+
+20.
+Which component of a URL is responsible for identifying a specific resource on the server, such as a file or page?
+
+Host
+Port
+Query
+Path
+
+
+
+
+
+21.
+How can you pass data from a parent component to a child component in React?
+
+Using the "props" system
+Using the "state" variable.
+By directly modifying the child component's data.
+By using a global variable.
+
+
+
+
+
+22.
+What is the purpose of the useEffect hook in React?
+
+To define component props
+To manage component-level state
+To perform side effects in functional components
+To render components
+
+
+
+
+
+
+23.
+Which HTML element is used to define the structure of an HTML document by providing the title, links to external resources, and other metadata?
+
+<head>
+<body>
+<title>
+<html>
+
+
+
+
+
+24.
+What is the specificity value of the following selector? #main.container.content
+
+0,0,3,0
+0,1,2,0
+0,1,0,2
+0,0,2,1
+
+
+
+
+
+25.
+In React, what is the purpose of "state"?
+
+To store global application data.
+To manage component properties.
+To control the routing of the application.
+To style the components.
+
+
+
+
+
+26.
+What is the specificity value for the following inline style rule? <p style="color: red;">This is a paragraph.
+</p>
+
+0,0,0,1
+0,0,1,0
+0,1,0,0
+1,0,0,0
+
+
+
+
+
+
+
+27.
+Consider the following selectors. Which one has the highest specificity?
+
+#header .menu a
+body.page.menu a
+div#header div.menu a
+.menu a:hover
+
+
+
+
+
+
+28.
+What is the purpose of the <meta> tag in HTML?
+
+Define character encoding for the document
+Embed external stylesheets
+Create a link to an external website
+Insert a horizontal rule
+
+
+
+
+
+29.
+In HTML, which attribute is used to specify the alternate text for an image, which is displayed when the image cannot be loaded?
+
+src
+alt
+title
+href
+
+
+
+
+
+
+30.
+Which hook allows you to access the Redux store and dispatch actions in a React component?
+
+useContext
+useReducer
+useRedux
+useStore
+
+
+
+
+
+
+
+
+Anwer
+
+
+01.
+A JavaScript framework for building web applications.
+
+React is a JavaScript library for building user interfaces for web applications
+
+
+
+
+
+
+02.
+JavaScript XML for defining component structure
+
+JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your React components.
+
+
+
+
+
+
+03.
+Content-Type
+
+The Content-Type header specifies the type of data a resource contains, such as HTML, image, or text, helping the browser interpret and display the content correctly
+
+
+
+
+04.
+It reduces the need for reflows and repaints.
+
+The virtual DOM helps optimize performance by minimizing the number of changes that need to be made to the Real DOM, thereby reducing reflows and repaints.
+
+
+
+
+05.]]]]
+There is no performance difference between reading and writing.
+
+Writing to the Real DOM is typically more performance-intensive because it involves making changes to the actual web page structure, leading to reflows and repaints.
+
+
+
+
+
+06. <ol>
+
+The <ol> element is used to create an ordered (numbered) list. <ul> is used for unordered (bulleted) lists, <li> represents list items, and <dl> is used for definition lists.
+
+
+
+
+
+
+07.
+A process that calculates the layout and positioning of elements.
+
+Reflow is the process where the browser calculates the layout and positioning of elements on the web page, which can be triggered by changes in the Real DOM.
+
+
+
+
+
+08.
+Virtual DOM is an in-memory representation optimized for updates.
+
+Virtual DOM is an in-memory representation designed for efficient updates, while the real DOM is the actual browser representation of the document structure.
+
+
+
+
+
+09.
+useState
+
+useState is used to manage component- level state in a functional component, allowing you to declare and update state variables.
+
+
+
+
+
+10.
+<p>
+
+By default, the <p> element is a block-level element, which means it starts on a new line and takes up the full width of its container.
+
+
+
+
+
+11.
+Inside the element's opening tag
+
+The style attribute is placed within the opening tag of the HTML element you want to style. For example: <p style="color: blue;">This is a blue paragraph.</p>
+
+
+
+
+
+
+12.
+The last rule in the stylesheet
+
+When conflicting rules have the same specificity, the last rule in the stylesheet takes precedence. This is known as the "Cascading" aspect of CSS.
+
+
+
+
+
+
+13.
+An abstract representation of the actual DOM
+
+The Virtual DOM is an in-memory representation of the actual Document Object Model (DOM) in web development. It is used to improve the efficiency of updating the actual DOM by minimizing direct manipulation.
+
+
+
+
+
+
+14.
+document.createElement
+
+document.createElement allows you to create new HTML elements in memory without triggering immediate reflows or repaints, making it more efficient for Real DOM manipulation.
+
+
+
+
+
+15.
+It is a physical representation of the web page.
+
+The Real DOM is a physical, tangible representation of the web page's structure in memory, consisting of all the HTML elements.
+
+
+
+
+
+16.
+To manage state and side effects in functional components
+
+React hooks, like useState and useEffect, are used to manage state and side effects in functional components, making it easier to reuse and maintain the component's logic.
+
+
+
+
+
+17.
+To improve the performance of DOM updates
+
+The Virtual DOM is primarily used to optimize the performance of updating the actual DOM by reducing the number of real DOM manipulations.
+
+
+
+
+
+
+18.
+The component's structure (UI).
+
+The "render" method in a React component returns the component's structure, which defines the user interface.
+
+
+
+
+
+
+19.
+Domain Name System
+
+The Domain Name System (DNS) is responsible for translating human- readable domain names into IP addresses, allowing your browser to locate the correct server when you click a URL.
+
+
+
+
+
+20.
+Path
+
+The path component of a URL identifies a specific resource on the server, such as a file or page. It follows the domain or host name in the URL.
+
+
+
+
+
+
+21.
+Using the "props" system
+
+Data is passed from a parent component to a child component in React using the "props" system.
+
+
+
+
+
+
+22.
+To perform side effects in functional components
+
+useEffect is used to perform side effects in functional components, such as data fetching, DOM manipulation, or setting up subscriptions.
+
+
+
+
+
+
+23.
+<head>
+
+The <head> element is used to define the structure of an HTML document by providing metadata such as the title, links to external resources (e.g., stylesheets and scripts), and other information that is not directly displayed in the web page. Options B, C, and D represent elements that are contained within the <head> section.
+
+
+
+
+
+
+
+24.
+0,1,2,0
+
+A selector with specificity (0, 1, 2, 0) has 0 inline styles, 1 ID selector, 2 class/attribute/pseudo-class selectors, and 0 element selectors.
+
+
+
+
+
+
+25.
+To manage component properties.
+
+In React, "state" is used to manage component-specific data and properties.
+
+
+
+
+
+
+26.
+1,0,0,0
+
+Inline styles have the highest specificity. In this case, there is one inline style, so the specificity is (1,0,0,0).
+
+
+
+
+
+
+27.
+div#header div.menu a
+
+The specificity is calculated as (0,1,1,3) for option 3. It has an ID selector (#header), one class selector (.menu), and three element selectors (div and a) in the selector chain, giving it the highest specificity.
+
+
+
+
+
+
+28.
+Define character encoding for the document
+
+The <meta> tag is primarily used to define the character encoding for the HTML document, ensuring proper rendering of text and special characters. Option B is related to the <link> tag for external stylesheets, option C is related to the <a> tag for creating links, and option D is related to the <hr> tag for horizontal rules.
+
+
+
+
+
+
+29.
+alt
+
+he alt attribute is used to specify the alternate text for an image. This text is displayed when the image cannot be loaded or by screen readers to describe the image to visually impaired users. Options A, C, and D are used for different purposes related to images and links.
+
+
+
+
+
+30.
+useContext
+
+useContext can be used to access the Redux store and dispatch actions in a React component when combined with the useDispatch function.

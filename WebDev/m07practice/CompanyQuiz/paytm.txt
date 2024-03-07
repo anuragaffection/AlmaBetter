@@ -1,0 +1,678 @@
+Paytm frontend
+
+
+
+
+01.
+Which format is commonly used to exchange data between the client and the server in AJAX applications?
+
+XML
+HTML
+JSON
+CSS
+
+
+
+
+
+
+02.
+Which of the following is NOT a way to handle asynchronous operations in JavaScript?
+
+Promises
+Callbacks
+Synchronous functions
+Async/await
+
+
+
+
+
+
+
+03.
+What is the primary purpose of debouncing in JavaScript?
+
+To limit the rate at which a function is called repeatedly.
+To execute a function immediately upon triggering an event.
+To prevent all events from triggering a function.
+To ensure event handlers are registered only once.
+
+
+
+
+
+04.
+What does AJAX stand for?
+
+Asynchronous JavaScript and XML
+Active JavaScript and XML
+Advanced JavaScript and XHTML
+Asynchronous JavaScript and XHTML
+
+
+
+
+
+05.
+Which JavaScript event is commonly used to trigger an AJAX request?
+
+click
+load
+change
+submit
+
+
+
+
+
+06.
+What is the difference between null and undefined in JavaScript?
+
+They are interchangeable and can be used in place of each other<br>
+null represents the absence of a value, while undefined represents an uninitialized variable<br>
+null is a primitive value, and undefined is an object<br>
+null is used for function return values, and undefined is used for variable assignments
+
+
+
+
+
+
+07.
+Which HTML5 element is used for semantic structuring of the main content of a web page?
+
+<section>
+<article>
+<div>
+<main>
+
+
+
+
+
+08.
+What is the purpose of an index in a database?
+
+To store large binary data
+To encrypt sensitive data
+To optimize data retrieval by providing fast access to rows in a table
+To define table relationships
+
+
+
+
+
+
+09.
+Which of the following is not a property of a relational database system?
+
+ACID compliance
+Data redundancy
+Data consistency
+Data integrity
+
+
+
+
+
+10.
+What is the purpose of the setTimeout function in JavaScript?
+
+To delay the execution of code for a specified time
+To execute code immediately
+To create an infinite loop
+To handle errors in asynchronous code
+
+
+
+
+
+11.
+What does the async keyword do when used in front of a function declaration?
+
+It makes the function run synchronously
+It indicates that the function will return a Promise
+It adds a delay to the function execution
+It throws an error
+
+
+
+
+
+12.
+What is the purpose of the JOIN clause in SQL?
+
+To merge two tables into one
+To create a new table
+To perform a cross-product of two tables
+To combine rows from two or more tables based on a related column
+
+
+
+
+
+13.
+Which HTML5 element is used to embed external web content within a web page?
+
+<iframe>
+<external>
+<embed>
+<source>
+
+
+
+
+
+
+14.
+What is the purpose of the bind method in JavaScript?
+
+To create a new object<br>
+To bind a function to a context, creating a new function with a fixed this value<br>
+To concatenate two strings<br>
+To call a function immediately after its creation
+
+
+
+
+
+
+
+15.
+In throttling, what does the "throttle" time represent?
+
+The minimum time required for a function to execute.
+The maximum time between two consecutive function calls.
+The time interval during which a function will be repeatedly called.
+The duration between the first and last event in a burst.
+
+
+
+
+
+
+
+16.
+What is the purpose of the SQL GROUP BY clause?
+
+To filter rows in a table
+To sort rows in a table
+To group rows that have the same values in specified columns
+To join multiple tables
+
+
+
+
+
+
+
+17.
+When debugging a JavaScript issue, what is a breakpoint?
+
+A visual indicator in the code editor.
+A line of code that automatically halts execution.
+A tool to measure the execution time of code.
+A type of error in JavaScript.
+
+
+
+
+
+
+18.
+In the browser's Developer Tools, which tab is typically used for inspecting JavaScript variables, setting breakpoints, and stepping through code?
+
+Elements
+Console
+Sources
+Network
+
+
+
+
+
+
+19.
+Which of the following methods is used to iterate over the properties of an object?
+
+for...in loop<br>
+forEach method<br>
+map method<br>
+while loop
+
+
+
+
+
+
+20.
+What is the purpose of the XMLHttpRequest.readyState property in AJAX?
+
+It stores the response data from the server.
+It tracks the current state of an AJAX request.
+It specifies the HTTP method to use.
+It sets the timeout for the AJAX request.
+
+
+
+
+
+
+
+21.
+What is the primary purpose of asynchronous JavaScript?
+
+To make the code run faster
+To execute tasks concurrently
+To simplify debugging
+To prevent code from running
+
+
+
+
+
+
+22.
+What is the result of the following JavaScript code snippet?
+console.log(1 + '1' 1);
+
+1
+10
+111
+'11’
+
+
+
+
+
+
+
+23.
+Which object is commonly used to perform AJAX requests in JavaScript?
+
+DOMObject
+XMLHttpRequest
+AJAXRequest
+HTTPObject
+
+
+
+
+
+
+
+24.
+What does the term "callback hell" refer to in asynchronous JavaScript?
+
+A pattern for writing clean and organized asynchronous code
+A situation where callback functions are deeply nested, making code hard to read and maintain
+A built-in JavaScript function for handling asynchronous operations
+A method for handling synchronous code
+
+
+
+
+
+
+25.
+Which SQL statement is used to add a new column to an existing table?
+
+INSERT COLUMN
+ADD COLUMN
+ALTER TABLE
+CREATE COLUMN
+
+
+
+
+
+
+26.
+Which of the following methods is used to handle errors in a Promise?
+
+catch()
+finally()
+reject()
+resolve()
+
+
+
+
+
+
+27.
+In an async/await function, what does the await keyword do?
+
+It delays the execution of the function
+It forces the function to run synchronously
+It pauses the function until the awaited Promise is resolved
+It throws an error
+
+
+
+
+
+28.
+What is a primary key in a relational database?
+
+A key used for encryption
+A key used for sorting data
+A unique identifier for a record in a table
+A key used for indexing text data
+
+
+
+
+
+
+29.
+Which normal form eliminates partial dependencies?
+
+First Normal Form (1NF)
+Second Normal Form (2NF)
+Third Normal Form (3NF)
+Boyce-Codd Normal Form (BCNF)
+
+
+
+
+
+30.
+What is a closure in JavaScript?
+
+A function that can be called without providing any arguments<br>A function that can be called without providing any arguments<br>
+A function that returns another function<br>
+A function that has access to variables from its containing function even after that function has finished executing<br>
+A function that is defined inside another function
+
+
+
+
+
+
+
+
+Answer
+
+
+01.
+JSON
+
+JSON (JavaScript Object Notation) is commonly used to exchange data between the client and the server in AJAX applications due to its lightweight and easy-to-parse nature.
+
+
+
+
+
+02.
+Synchronous functions
+
+Synchronous functions are not used to handle asynchronous operations but instead run sequentially, potentially blocking the main thread.
+
+
+
+
+
+03.
+To limit the rate at which a function is called repeatedly.
+
+Debouncing is used to limit the frequency of function calls, ensuring that a function is called after a specific delay following the last event. This can be helpful in scenarios like input validation or search suggestions.
+
+
+
+
+
+04.
+Asynchronous JavaScript and XML
+
+AJAX stands for Asynchronous JavaScript and XML. It is a set of web development techniques used to create asynchronous web applications that can send and receive data from a server without requiring a full page reload.
+
+
+
+
+
+05. click
+
+The click event is commonly used to trigger an AJAX request. For example, a user clicking a button can trigger an AJAX request to fetch data from a server and update a webpage without a full page reload.
+
+
+
+
+
+
+06.
+null represents the absence of a value, while undefined represents an uninitialized variable<br>
+
+null is a value that represents the intentional absence of any object value. It is often used to indicate that a variable should have no value. undefined means a variable has been declared but has not yet been assigned a value, or a function has no return value.
+
+
+
+
+
+
+07.
+<main>
+
+The <main> element is used to represent the main content of a web page. It is a key component for creating semantically meaningful HTML5 structures.
+
+
+
+
+
+
+08.
+To optimize data retrieval by providing fast access to rows in a table
+
+Indexes are used in a database to optimize data retrieval by providing a fast way to access rows in a table, similar to the way an index in a book helps you quickly find information.
+
+
+
+
+
+
+09.
+Data redundancy
+
+Data redundancy is not a property of a relational database system. In fact, relational databases are designed to minimize data redundancy through normalization techniques.
+
+
+
+
+
+
+10.
+To delay the execution of code for a specified time
+
+The setTimeout function is used to schedule the execution of a function or a code block after a specified delay in milliseconds.
+
+
+
+
+
+11.
+It indicates that the function will return a Promise
+
+When the async keyword is used in front of a function declaration, it indicates that the function will return a Promise, allowing asynchronous operations within the function.
+
+
+
+
+12.
+To combine rows from two or more tables based on a related column
+
+The JOIN clause in SQL is used to combine rows from different tables based on a related column. It allows you to retrieve data from multiple tables as a single result set.
+
+
+
+
+
+
+13. <iframe>
+
+The <iframe> element is used to embed external web content within a web page, such as maps, videos, or other websites.
+
+
+
+
+
+
+14.
+To bind a function to a context, creating a new function with a fixed this value<br>
+
+The bind method is used to create a new function that, when called, has its this value fixed to a specific object, allowing you to control the context in which the function is executed.
+
+
+
+
+
+
+15.
+The maximum time between two consecutive function calls.
+
+Throttling ensures that a function is called at a maximum rate of once per "throttle" time, preventing it from executing too frequently.
+
+
+
+
+
+
+16.
+To group rows that have the same values in specified columns
+
+The SQL GROUP BY clause is used to group rows in a result set based on the values in specified columns.
+
+
+
+
+
+
+17.
+A visual indicator in the code editor.
+
+A breakpoint is a marker set in the code that tells the debugger to pause execution when that line of code is reached.
+
+
+
+
+
+18.
+Sources
+
+The "Sources" tab in Developer Tools is used for debugging JavaScript code, setting breakpoints, and inspecting variables during code execution.
+
+
+
+
+
+
+19.
+for...in loop<br>
+
+The for...in loop is used to iterate over the properties (keys) of an object. It allows you to loop through the enumerable properties of an object.
+
+
+
+
+
+
+
+20.
+It tracks the current state of an AJAX request.
+
+The XMLHttpRequest.readyState property is used to track the current state of an AJAX request. It allows you to monitor the progress of the request and determine when it's complete.
+
+
+
+
+
+
+
+21.
+To execute tasks concurrently
+
+Asynchronous JavaScript allows tasks to run concurrently without blocking the main execution thread, making it suitable for tasks like fetching data, performing animations, and handling user input without freezing the user interface.
+
+
+
+
+
+
+22. 10
+
+In JavaScript, the + operator is used for both addition and string concatenation. When you use it between a number and a string, JavaScript converts the number to a string and performs concatenation. So, 1 + '1' results in the string '11'. When you then subtract 1 from '11', JavaScript attempts to convert '11' back to a number, which results in the number 10.
+
+
+
+
+
+
+23.
+XMLHttpRequest
+
+The XMLHttpRequest object is commonly used to perform AJAX requests in JavaScript. It allows you to send HTTP requests to a server and retrieve data asynchronously.
+
+
+
+
+
+24.
+A situation where callback functions are deeply nested, making code hard to read and maintain
+
+
+Callback hell, also known as "pyramid of doom," occurs when asynchronous code has deeply nested callback functions, making it difficult to read and maintain.
+
+
+
+
+
+25.
+ALTER TABLE
+
+
+The ALTER TABLE statement is used to modify an existing table, which includes adding new columns.
+
+
+
+
+
+26.
+catch()
+
+The catch() method is used to handle errors (rejections) in a Promise, allowing you to specify what should happen in case of an error.
+
+
+
+
+
+27.
+It pauses the function until the awaited Promise is resolved
+
+The await keyword is used to pause the execution of an async function until the awaited Promise is resolved or rejected, allowing for non-blocking, asynchronous code.
+
+
+
+
+
+28.
+A unique identifier for a record in a table
+
+A primary key is a field (or a set of fields) in a table that uniquely identifies each record in that table.
+
+
+
+
+
+29.
+Third Normal Form (3NF)
+
+Third Normal Form (3NF) eliminates partial dependencies in a relational database, ensuring that each non-key attribute depends on the primary key.
+
+
+
+
+
+30.
+A function that has access to variables from its containing function even after that function has finished executing<br>
+
+A closure is a function that has access to variables from its containing (enclosing) function, even after that function has finished executing. It "closes over" those variables, allowing them to be accessed and modified.
