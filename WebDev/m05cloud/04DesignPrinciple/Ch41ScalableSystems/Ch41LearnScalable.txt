@@ -32,16 +32,19 @@ Notes {
 
 
 Task {
-    -- Monolith vs microservices
-    -- clinet side caching
-    -- clinet side rnderig vs Server side rendering 
+    -- Monolith vs microservices ]]]
+    -- client side caching
+    -- server side caching
+    -- client side rendering vs Server side rendering 
     -- What is bottlenecks
+    -- load vs stress testing
+    -- 
 }
 
 
 
 Scalability {
-    -- 
+    -- ability of a system to handle the increased workload without experiencing a degradation in performance. 
 }
 
 
@@ -49,6 +52,10 @@ Types of Scalability {
     -- vertical scalability    (scaling up)
     -- horizaontal scalability (scaling out)
     -- Elastic Scalability     (scaling auto )
+
+    Notes 
+    -- load balancing technique is used in horizaontal scaling
+    -- 
 }
 
 
@@ -57,13 +64,14 @@ Types of Scalability {
 Scalability Technique {
     -- load balancing ]
     -- caching 
-    -- Statless design ]
+    -- Stateless design ]]]]
     -- elastic infrastructure 
     -- database sharding 
     -- Asynchronous processing ]
-    -- Distributed computing 
+    -- Distributed computing ]
     -- microservices architecture ]
 }
+
 
 
 
@@ -73,12 +81,13 @@ Scalability Testing {
     -- performance testing 
     -- capactity testing
     -- scalability testing 
-    -- faiover testing
+    -- failover testing
     -- database testing 
     -- Network testing 
     -- Cloud based testing
     -- Real user monitoring 
 }
+
 
 
 
@@ -92,18 +101,18 @@ Tools for Scalability Testing {
     -- Tsung 
 
     load testing tools 
-    -- applications Jmeter
+    -- Apache Jmeter
     -- Gatling 
     -- locust 
     -- Artillery
     -- Tsung
     
-    cloud based load testing
+    load testing + cloud based 
     -- BlazeMeter
     -- Loader.io 
     
     Written in Language 
-    -- Galing = Scala 
+    -- Gatling = Scala 
     -- Locust = Python 
 }
 
@@ -117,7 +126,7 @@ Cloud Scalability {
     -- Google cloud platform 
     -- IBM cloud
 
-    Cloud native architecture
+    Cloud native architecture]]]]
     -- microservices architecture
     -- containerization ]]
     -- container orchestration ]]
@@ -127,36 +136,47 @@ Cloud Scalability {
 }
 
 
+
 Scalability in Web Development  {
     -- CDNs ]]
     -- caching
+    -- DDOS protection 
+
+    CDNs
+    -- distributed network of server
+    -- 
 
     Frontend scaling 
     -- performance optimization 
     -- Responsive design
-    -- client side caching
+    -- client side caching = local storage & browser caching
     -- Content Deivery Network
-    -- Asynchronous Operations 
+    -- Asynchronous Operations = lazy & Dynamic loading
 
     Backend Scaling 
     -- Scalable architecture
     -- horizaontal scaling (scaling out )
     -- database optimization
-    -- caching
-    -- caching layers 
-    -- queueing system (task queue) ]
+    -- caching = on memory 
+    -- caching layers ]]
+    -- queueing system (task queue) ]]]
     -- Distributed file Systems
+
+    
 }
 
 
-Case Study [Netflix] {
+Scalability Case Study of Netflix {
     -- Concurrency ]
     -- Fault tolerance 
-    -- 
+    -- Apache kafka
+    -- Apache Cassandra
 }
 
 
-Bottlenecks]] {
+
+Bottlenecks {
+    -- A bottleneck is a point of congestion in a production system that stops or severely slows the system.
     
     problems 
     -- Poor code quality 
@@ -166,9 +186,11 @@ Bottlenecks]] {
     -- choosing wrong api type 
     -- Sync Vs Async 
 
-    API type ]]
+    API type ]
     -- Rest api
     -- GraphQL 
+    -- SOAP 
+    -- 
 }
 
 
@@ -187,8 +209,17 @@ Overcome Bottlenecks {
 
 
 
+
 Test Scalability of Applications {
-    -- 
+    -- Define scalability requirements 
+    -- identify key scenarios 
+    -- set up scalable test environment 
+    -- load testing
+    -- stress testing
+    -- scalability testing
+    -- analyze result 
+    -- make improvements 
+    -- repeat is needed 
 }
 
 
@@ -206,7 +237,7 @@ Activity {
     
     04. Scalability is the ability of a system to handle increased workload without performance degradation.
     
-    05. Elastic scalability manually adjusts resources based on real-time demand.
+    05. Elastic scalability manually adjusts resources based on real-time demand.]]]
 
     06. Elastic scalability automatically adjusts resources based on real-time demand.
     
@@ -219,8 +250,11 @@ Activity {
     06. True 
 
 
+
     
-    01. Increasing the capacity of a system by adding more instances or nodes to distribute the workload.
+    One word 
+
+    01. Increasing the capacity of a system by adding more instances or nodes to distribute the workload.]]]
     
     02. An architectural approach where applications are broken down into smaller, independent services that can be scaled individually.
     
@@ -239,3 +273,7 @@ Activity {
     05. Content Delivery Network
 
 }
+
+
+
+
