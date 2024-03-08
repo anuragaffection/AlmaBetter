@@ -1,4 +1,4 @@
-MongoDB by Thapa Technical 
+MongoDB by [Thapa Technical]
 
 notes {
     -- remove()

@@ -7,6 +7,11 @@ Rule
 -- If Failed then see the youtube video
 
 
+task {
+    -- non blocking vs Asynchronous
+    -- what is module
+    -- 
+}
 
 
 01. Difference between JavaScript & Nodejs
@@ -15,6 +20,7 @@ Rule
 
 02. What is node.js 
 -- framework for JavaScript
+-- run time environment for JavaScript
 -- Open source environment to run JavaScript on server side 
 -- developed on chromeV8 engine 
 
@@ -42,7 +48,7 @@ Rule
 -- node js work on single threaded event loop,  ]]
 -- it is environment to compile JavaScript code 
 -- nodejs is Virtual Machines 
--- nodejs is Virtual Machines using (v8Engine)
+-- nodejs is Virtual Machines built using (v8Engine)
 
 
 07. Where nodejs used 
@@ -177,7 +183,7 @@ Rule
 --  speed 
 
 
-29. control flow function
+29. control flow function]]]
 -- first define the order of execution
 -- collect data if needed
 -- limit the concurrency 
@@ -224,7 +230,7 @@ Rule
 
 37. process.nextTick() vs setImmediate() ]]]
 -- both are function of timers 
--- process.nextTick , it does not wait 
+-- process.nextTick() , it does not wait 
 -- setImmediate(), it wait for previous execution, and go for task Queue
 
 
@@ -294,9 +300,56 @@ Rule
 
 
 
+
 48. event emitter ]]]
 -- it is nodejs class 
 -- it used to emit event like ()
+
+In **Node.js**, the **EventEmitter** class allows you to handle events on the backend side. If you've worked with JavaScript in the browser, you're familiar with how user interactions are managed through events like mouse clicks, keyboard presses, and mouse movements. Similarly, on the backend, Node.js provides the **events module**, which includes the `EventEmitter` class for handling custom events.
+
+Here's how you can use the `EventEmitter`:
+
+**Initialize the EventEmitter**:
+   First, import the `events` module and create an instance of `EventEmitter`:
+   ```javascript
+   const EventEmitter = require('events');
+   const eventEmitter = new EventEmitter();
+   ```
+
+**Register Event Listeners**:
+   - Use the `on` method to add a callback function that will execute when a specific event is triggered.
+   - For example, let's create a custom event named "start" and log a message when it occurs:
+     ```javascript
+     eventEmitter.on('start', () => {
+       console.log('started');
+     });
+     ```
+
+**Trigger Events**:
+   - Use the `emit` method to trigger an event. When you run `eventEmitter.emit('start')`, the event handler function is executed, and you'll see the "started" message in the console.
+   - You can also pass arguments to the event handler by providing additional arguments to `emit()`:
+     ```javascript
+     eventEmitter.on('start', (number) => {
+       console.log(`started ${number}`);
+     });
+     eventEmitter.emit('start', 23); // Output: "started 23"
+     ```
+
+**Additional Methods**:
+   - The `EventEmitter` object provides other methods:
+     - `once()`: Adds a one-time listener.
+     - `removeListener()` / `off()`: Removes an event listener.
+     - `removeAllListeners()`: Clears all listeners for an event.
+
+Remember that the `EventEmitter` calls all listeners synchronously in the order they were registered, ensuring proper sequencing and avoiding race conditions. If needed, listener functions can switch to asynchronous mode using `setImmediate()` or `process.nextTick()`.
+
+Source: 
+(1) The Node.js Event emitter. https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter.
+(2) Using Event Emitters in Node.js | DigitalOcean. https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js.
+(3) What is EventEmitter in Node.js - GeeksforGeeks. https://www.geeksforgeeks.org/what-is-eventemitter-in-node-js/.
+(4) How to Use Event Emitters in Node.js - MUO. https://www.makeuseof.com/nodejs-event-emitters/.
+(5) Events | Node.js v21.6.2 Documentation. https://nodejs.org/api/events.html.
+
 
 
 49. is cryptography supported in nodejs
@@ -324,7 +377,7 @@ Follow Up questions
 
 03. is Nodejs Interpretetr or compiler 
 
-04. Asynchronous vs Non blocking 
+04. Asynchronous vs Non blocking ]]
 
 05. concurrency 
 -- how times the things get called 
