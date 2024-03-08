@@ -1,0 +1,1260 @@
+
+Mid Quiz Cloud
+
+
+
+01.
+Which of the following features are commonly found in code editors and IDEs?
+
+Syntax highlighting
+Code auto-completion
+Version control integration
+All
+
+
+
+
+
+
+
+02.
+Which software development approach promotes adaptive planning, evolutionary development, and early delivery?]]]
+
+RAD
+Waterfall
+Agile
+Spiral
+
+
+
+
+
+
+03.
+Which of the following package managers is used for managing packages in Java projects?
+
+Pip
+Npm
+Maven
+Composer
+
+
+
+
+
+
+
+04.
+What is the purpose of code reviews in GitHub?
+
+To enforce coding standards and maintain code quality.
+To track and manage project tasks.
+To report and resolve bugs and issues.
+To automatically test code changes.
+
+
+
+
+
+
+
+05.
+What does AWS stand for?
+
+Advanced Web Services
+Amazon Web Services
+Advanced Web Solutions
+All web Services
+
+
+
+
+
+
+06.
+What is the purpose of a package manager in software development?
+
+It helps in managing code formatting
+It automates the testing process.
+It assists in version control.
+It manages project dependencies.
+
+
+
+
+
+
+
+07.
+What is the purpose of GitHub Projects?
+
+To track and manage issues in a repository
+To automate workflows and tasks
+To manage project boards and tasks
+To review and approve code changes
+
+
+
+
+
+
+08.
+Which cloud deployment model involves sharing physical hardware with other organizations?
+
+Public cloud
+Private cloud
+Hybrid cloud
+Community cloud
+
+
+
+
+
+
+
+09.
+How does cloud computing affect collaboration among teams?
+
+Limits remote access
+Hinders real-time communication
+Enhances collaboration and remote access
+Increases physical meetings
+
+
+
+
+
+
+
+10.
+What is cloud computing?
+
+Storing data on local servers
+Sharing files through physical media
+Accessing and managing resources over the internet
+Using standalone applications on a computer
+
+
+
+
+
+
+11.
+What is the role of a software architect in the software development process?
+
+To design the overall structure and high-level components of the software system
+To write code and develop software.
+To conduct testing and quality assurance
+To manage project timelines and resources
+
+
+
+
+
+
+
+12.
+Which of the following is a characteristic of cloud scalability?
+
+Limited resources
+Fixed capacity
+On-demand resource allocation
+Manual scaling only
+
+
+
+
+
+
+
+
+13.
+Which software development approach emphasizes extensive documentation and sequential phases?
+
+Waterfall
+Agile
+RAD
+Spiral
+
+
+
+
+
+
+14.
+Why is a full stack developer important for a full stack project?]]]
+
+They only focus on one specific aspect of the project, leading to specialization.
+They can communicate effectively with stakeholders.
+They have limited technical skills, making it easier to manage the project.
+They are responsible for creating the entire project, from start to finish.
+
+
+
+
+
+
+15.
+Which software development methodology emphasizes continuous integration, automated testing, and frequent delivery of working software?]]]
+
+Waterfall
+DevOps
+Agile
+RAD
+
+
+
+
+
+
+16.
+Which Git command is used to view the commit history of a branch?
+
+git branch
+git log
+git status
+git diff
+
+
+
+
+
+
+17.
+Which tool can be used for state management in large React applications?
+
+Redux
+Express.js
+MongoDB
+Angular
+
+
+
+
+
+
+18.
+What is a pull request in GitHub?
+
+A request to merge changes from a branch to another
+A request for code review
+A request for access to a repository
+A request to revert a commit
+
+
+
+
+
+
+19.
+What advantage does cloud computing offer in terms of global accessibility?
+
+Restricted access to local users only
+Limited network availability
+Seamless global access to applications and data
+Increased latency for remote users
+
+
+
+
+
+20.
+In a backend framework like Express.js, how can you define a route that handles both GET and POST requests for the "/users" path?]]]
+
+app.route('/users', 'GET', 'POST', ...)
+app.get('/users', ...).
+app.route('/users').get(...).post(...)
+app.handle('/users', …)
+
+
+
+
+
+
+21.
+What does the term "UI" stand for in Ul design?
+
+User Interaction
+User Interface
+User Integration
+User Interpretation
+
+
+
+
+
+22.
+Which AWS service provides a managed relational database service?
+
+Amazon RDS
+Amazon S3
+Amazon EC2
+Amazon Lambda
+
+
+
+
+
+
+23.
+What is the primary purpose of a state management library like Redux?
+
+To manage the routing of an application.
+To handle asynchronous operations in an application.
+To centralize and manage the state of an application.
+To improve the performance of database queries.
+
+
+
+
+
+
+24.
+Which of the following is NOT a software development methodology?
+
+Agile
+RAD
+SDLC
+HTML
+
+
+
+
+
+
+25.
+What is the role of software quality assurance (SQA) in software engineering?
+
+To ensure that software development processes and deliverables meet defined quality standards.
+To design user interfaces and enhance the software's usability.
+To manage project timelines and deliverables.
+To conduct performance testing and optimization.
+
+
+
+
+
+
+
+26.
+What does CI/CD stand for in software engineering?
+
+Customer Interaction/Client Delivery
+Code Inspection/Code Development
+Continuous Integration/Continuous Deployment
+Control Interface/Code Design
+
+
+
+
+
+
+27.
+Which phase of the software development life cycle involves coding and unit testing?
+
+Requirements Gathering
+Design
+Analysis
+Implementation
+
+
+
+
+
+
+28.
+What does "Responsive Design" refer to in UX?
+
+A design that responds to user feedback quickly
+Designing interfaces for various screen sizes and devices
+Designing interfaces that change color based on user preferences
+Creating designs that load quickly on slow internet connections
+
+
+
+
+
+29.
+What is GitHub Actions?
+
+A code editor
+A version control system (VCS)
+A continuous integration and automation platform
+A package manager
+
+
+
+
+
+30.
+Which HTTP method is typically used to create new resources on the server?
+
+GET
+POST
+PUT
+DELETE
+
+
+
+
+
+31.
+Which of the following database engines is NOT supported by Amazon RDS?
+
+MYSQL
+PostgreSQL
+MongoDB
+Oracle
+
+
+
+
+
+32.
+What is a job in GitHub Actions?
+
+A unit of work in a workflow
+A separate repository
+A branch in version control
+A user account on GitHub
+
+
+
+
+
+
+33.
+Which of the following is not a core service offered by AWS?
+
+Amazon EC2
+Amazon S3
+Amazon Prime
+Amazon RDS
+
+
+
+
+
+
+34.
+What is a merge conflict in version control?
+
+An error that occurs during the commit process
+Incompatibilities between different versions of the VCS software
+Conflicting changes made to the same code by different developers
+An issue that arises when integrating code from a branch into the main branch
+
+
+
+
+
+
+
+35.
+What is the primary characteristic of cloud computing?
+
+High latency
+Limited scalability
+On-premises deployment
+On-demand self-service
+
+
+
+
+
+
+36.
+What is the primary purpose of an Integrated Development Environment (IDE)?
+
+Managing code repositories
+Writing and editing code
+Running and debugging code
+All of the above
+
+
+
+
+
+37.
+Which software testing technique focuses on testing individual units or components of software?
+
+Unit testing
+Integration testing
+System testing
+Acceptance testing
+
+
+
+
+
+
+
+38.
+What is the purpose of software documentation?
+
+To design the user interface
+To provide information and instructions for using and maintaining the software
+To write code and develop software
+To conduct testing and quality assurance
+
+
+
+
+
+
+39.
+What benefit does cloud computing offer in terms of disaster recovery?
+
+Increased data loss
+Slower recovery times
+Reduced downtime
+Limited data backup
+
+
+
+
+
+40.
+Which event can trigger a GitHub Actions workflow?]]]
+
+A commit pushed to a branch
+A pull request opened
+A pull request opened
+All of the above
+
+
+
+
+
+41.
+Which cloud provider is known for its Elastic Compute Cloud (EC2) service?
+
+Microsoft Azure
+Google Cloud Platform
+IBM Cloud
+Amazon Web Services (AWS)
+
+
+
+
+
+
+42.
+What is the purpose of software documentation?
+
+To provide information about the software's design, functionality, and usage
+To manage software development projects and teams
+To conduct performance testing and optimization
+To develop software prototypes and proof of concepts
+
+
+
+
+
+43.
+What is the purpose of forking a repository on GitHub?
+
+To create a backup copy of a repository
+To merge changes from one branch to another
+To create a new branch in a repository
+To copy a repository under your GitHub account
+
+
+
+
+
+44.
+What is the purpose of middleware in Express.js?
+
+Displaying content on the frontend
+Handling server-side routing
+Managing database connections
+Executing functions in the request-response cycle
+
+
+
+
+
+
+45.
+Which of the following is NOT a distributed version control system]]]
+
+Git
+Subversion (SVN)
+Mercurial
+Perforce
+
+
+
+
+
+46.
+What does "git cherry-pick" do?]]]
+
+Merges multiple branches into one
+Creates a new branch from a specific commit
+Reverts a commit from the branch
+Applies a specific commit from one branch to another
+
+
+
+
+47.
+Which database is commonly used in the MERN stack for storing data?
+
+MySQL
+PostgreSQL
+MongoDB
+SQLite
+
+
+
+
+
+
+
+48.
+What is a full stack project?
+
+A project that involves using a full set of stackable containers for deployment.
+A project that involves developing both front-end and back-end components of a web application.
+A project that involves creating a comprehensive database schema.
+A project that focuses solely on designing user interfaces.
+
+
+
+
+
+
+49.
+What is the primary purpose of requirements gathering in software engineering?
+
+To write code and develop software
+To design the user interface
+To elicit and document the needs and expectations of stakeholders
+To conduct testing and quality assurance
+
+
+
+
+
+50.
+Which GitHub feature is used for automating workflows and continuous integration/continuous deployment (CI/CD)?
+
+GitHub Actions
+GitHub Projects
+GitHub Issues
+GitHub Gists
+
+
+
+
+51.
+Which language is commonly used to define workflows in GitHub Actions?
+
+JavaScript
+Python
+YAML
+Java
+
+
+
+
+
+
+52.
+What is the main benefit of cloud elasticity?
+
+Reducing data security risks
+Minimizing the need for backups
+Automatically adjusting resource capacity
+Eliminating the need for internet connectivity
+
+
+
+
+
+53.
+What is the primary purpose of React in the MERN stack?
+
+Handle server-side logic.
+Manage and display user interfaces.
+Manage database interactions.
+Handle routing and navigation.
+
+
+
+
+
+54.
+What is a key benefit of cloud computing?
+
+Higher upfront costs
+Limited scalability
+Reduced hardware maintenance
+Slower deployment
+
+
+
+
+
+55.
+Which cloud deployment model is suitable for an organization that requires high security and control?
+
+Public cloud
+Private cloud
+Hybrid cloud
+Community cloud
+
+
+
+
+
+56.
+Which term refers to the practice of designing Uls that work well on different devices and screen sizes?
+
+Universal Design
+Adaptive Design
+Responsive Design
+Inclusive Design
+
+
+
+
+
+57.
+Which of the following is used to style React components?
+
+HTML
+CSS
+JSX
+Express.js
+
+
+
+
+
+
+58.
+Which component of the MERN stack is responsible for managing packages and dependencies?]]]
+
+MongoDB
+Express.js
+React
+Node.js
+
+
+
+
+
+
+
+59.
+What is the purpose of branching in a version control system?
+
+To synchronize code changes between developers
+To track the progress of project tasks
+To create isolated workspaces for new features or bug fixes
+To automate the process of code review
+
+
+
+
+
+
+
+60.
+What is Git?
+
+A code editor
+A version control system (VCS)
+A programming language
+An integrated development environment (IDE)
+
+
+
+
+
+
+61.
+What is routing in the context of web development?
+
+Styling the user interface
+Managing data storage
+Navigating between different pages or views
+Handling server-side logic
+
+
+
+
+
+62.
+Which package manager is commonly used with Node.js for managing frontend dependencies in a React project?
+
+npm
+Yarn
+pip
+Composer
+
+
+
+
+
+
+63.
+Which AWS service is used to host and scale applications, websites, and services?
+
+Amazon S3
+Amazon RDS
+Amazon EC2
+Amazon SQS
+
+
+
+
+
+
+64.
+What is the primary goal of software engineering?
+
+Writing efficient code
+Designing user interfaces
+Conducting market research
+Developing high-quality software
+
+
+
+
+
+
+65.
+What is AWS Lambda?
+
+A fully managed container orchestration service.
+A serverless compute service that runs code in response to events.
+A relational database service.
+A messaging and queueing service.
+
+
+
+
+
+
+66.
+What is the primary goal of software testing?
+
+Finding defects and ensuring software quality
+Writing documentation
+Creating user interfaces
+Managing project timelines
+
+
+
+
+
+
+67.
+Which of the following is a popular package manager for JavaScript?
+
+Pip
+Npm
+Maven
+Composer
+
+
+
+
+
+68.
+What is the purpose of a GitHub repository?
+
+To store and manage code
+To deploy applications
+To create virtual environments
+To run automated tests
+
+
+
+
+
+
+
+69.
+What is the difference between software engineering and computer science?
+
+Software engineering focuses on software development processes, while computer science focuses on the theoretical aspects of computation.
+Software engineering is about hardware design, while computer science deals with software development.
+Software engineering is a subset of computer science.
+There is no difference between software engineering and computer science.
+
+
+
+
+
+70.
+What is Amazon RDS?
+
+A managed NoSQL database service in AWS.
+A managed relational database service in AWS.
+A container orchestration service in AWS.
+A machine learning service in AWS.
+
+
+
+
+
+
+71.
+Which feature of GitHub is used for code review?
+
+GitHub Actions
+GitHub Projects
+Pull Requests
+Issues
+
+
+
+
+
+72.
+What is the primary purpose of integrating backend APIs in a full-stack application?
+
+Enhancing the user interface
+Managing client-side state
+Enabling communication between frontend and backend
+Implementing design patterns
+
+
+
+
+
+
+
+73.
+Which command is used to discard local changes and revert to the last committed version of a file in Git?]]]]]
+
+git commit
+git reset
+git checkout
+git revert
+
+
+
+
+
+
+
+74.
+What is the role of the front-end in a full stack project?
+
+Handling server-side logic and database operations.
+Designing user interfaces and managing client-side interactions.
+Managing network infrastructure and security.
+Optimizing database performance.
+
+
+
+
+
+
+75.
+Which component is responsible for handling HTTP requests and routing in the MERN stack?
+
+MongoDB
+Express.js
+React
+Node.js
+
+
+
+
+
+
+
+76.
+What is the purpose of software maintenance?
+
+To design software architectures and frameworks
+To fix bugs and enhance software functionality
+To manage project timelines and deliverables
+To analyze user needs and create software requirements
+
+
+
+
+
+
+77.
+What is the purpose of version control systems in software engineering?
+
+Managing source code changes and collaboration
+Designing user interfaces
+Writing test cases
+Creating software prototypes
+
+
+
+
+
+
+78.
+What does the term "UX" stand for in the context of UI/UX design?
+
+User Experience
+User Xperience
+User Expertise
+User Extension
+
+
+
+
+
+
+79.
+Which of the following technologies might be used in a full stack project?]]]]
+
+HTML and CSS
+Python and Java
+React and Angular
+All of the above
+
+
+
+
+
+
+80.
+Which of the following is typically responsible for handling client-side routing in a single-page application (SPA)?]]]
+
+Server
+Database
+Browser
+API
+
+
+
+
+
+
+
+81.
+Which of the following is NOT a primary goal of good Ul design?
+
+Aesthetics and Visual Appeal
+Consistency and Familiarity
+Complexity and Confusion
+Usability and User Efficiency
+
+
+
+
+
+
+82.
+What is the purpose of Node.js in the MERN stack?
+
+Managing frontend components
+Handling server-side logic
+Structuring user interfaces
+Managing CSS styles
+
+
+
+
+
+
+83.
+What is Amazon EC2 used for?
+
+Data warehousing
+Content delivery
+Scalable compute capacity
+Email delivery
+
+
+
+
+
+84.
+What is JSX in the context of React?
+
+A query language for databases.
+A templating engine for server-side rendering.
+A syntax extension for JavaScript used in React components.
+A markup language for creating user interfaces.
+
+
+
+
+
+85.
+Which of the following is NOT a common format for data exchange between frontend and backend in API requests and responses?]]]]
+
+JSON
+XML
+YAML
+HTML
+
+
+
+
+
+
+86.
+What is the purpose of code refactoring in software development?
+
+To improve the structure and design of existing code without changing its external behavior
+To write code and develop software
+To conduct testing and quality assurance
+To manage project timelines and resources
+
+
+
+
+
+
+87.
+What is the role of software testing in the software development process?
+
+To manage software configurations and versions
+To design user interfaces and enhance usability
+To identify defects and ensure software quality
+To document software requirements and specifications
+
+
+
+
+
+88.
+Code editors are typically lightweight and have fewer features compared to IDEs.
+
+True
+False
+
+
+
+
+
+89.
+Which software engineering principle states that software should be open for extension but closed for modification?
+
+Liskov Substitution Principle
+Open-Closed Principle
+Single Responsibility Principle
+Dependency Inversion Principle
+
+
+
+
+
+
+90.
+Which tool is commonly used for version control in software development?
+
+npm
+Visual Studio Code
+Git
+Jenkins
+
+
+
+
+
+
+
+Answer
+
+01. All of the above 
+02. Agile 
+03. Maven 
+04. to enforce coding standards and maintain code quality
+05. Amazon web services 
+06. It manages project dependencies
+07. to manage projects boards & tasks
+08. Public cloud
+09. enhances collaboration and remote access 
+10. Accessing and managing resources over the internet 
+11. To design the overall structure and high level components of the software system
+12. On demand resource allocation 
+13. Waterfall
+14. They can communicate effectively with stakeholders
+15. Agile 
+16. git log 
+17. Redux 
+18. A request to merge changes from a branch to another 
+19. Seamless global acces to applications & data 
+20. app.route('/users').get(...).postL(...)
+21. user interface
+22. Amazon RDS
+23. to centralize and manage the state of an application
+24. HTML
+25. to ensure that software development processes and deliverables meet defined quality standards
+26. continuous integration / continuous deployment
+27. Implementation
+28. Designing interface for various screen sizes and devices
+29. a continuous integratin and automation platform
+30. POST
+31. MongoDB
+32. a unit of work in a workflow
+33. Amazon Prime
+34. Conflicting changes mad to the same code by different developers
+35. ON demand self service
+36. All of the above 
+37. Unit testing 
+38. To provide information and instructions for using and maintaining the software
+39. Reduced downtime
+40. A commit pushed to the branch
+41. Amazon Web service(AWS)
+42. To provide information about the software design, functionality & usage
+43. To copy a repository under your GitHub account
+44. Executing functions in the request-response cycle
+45. Perforce]]
+46. Applies a specific commit from one branch to another]]]
+47. MongoDB
+48. A project that involves developing both frontend and backend component of web application
+49. To elicit and document needs and expectations of stakeholders
+50. GitHub Actions
+51. YAML
+52. Automatically adjusting resources capacity
+53. Manage and display user interface
+54. Reduced hardware maintenance
+55. Private cloud
+56. Responsive design
+57. CSS
+58. Node.js
+59. To create isolated workspaces for new features or bug fixes
+60. A version control system (VCS)
+61. Navigating between  different pages or Version
+62. npm
+63. Amazon EC2
+64. Developing high quality software
+65. A serverless compute service that runs code in response ot events
+66. Finding defects and ensuring software quality
+67. Npm
+68. to sotre and manage code 
+69. Software engineering focuses on software development process, while compute science focuses on the theoretical aspects of computation
+70. A managed relational database service in AWS
+71. pull request
+72. Enabling communication between frontend and backend
+73. git checkout
+74. Designing user interface and managing client side interactions
+75. Express.js 
+76. to fix bugs and enhance software functionality
+77. Managing source code changes and collaboration
+78. User Experience
+79. All of the above
+80. Browser
+81. Complexity and Confusion
+82. Handling server side logic
+83. Scalable compute capacity
+84. A syntax extension for JavaScript used in react component
+85. HTML
+86. To improve the structure and design of existing code without changing its external behavior
+87. To identify defects and ensure software quality
+88. True
+89. open closed principle
+90. Git 
+
+
+
+
