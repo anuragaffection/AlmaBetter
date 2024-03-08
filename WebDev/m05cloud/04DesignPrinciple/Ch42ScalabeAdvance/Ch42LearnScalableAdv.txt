@@ -27,6 +27,7 @@ Note {
     -- concurrency
     -- compression 
     -- Minification
+    -- coupling
 }
 
 
@@ -40,15 +41,18 @@ Task {
 
 
 Agile methodologies {
+    -- Agile is set of interative & collaborative method 
+    -- 
+
     -- scrum   = time target of task
     -- kanban  = what to do 
     -- sprints = iteration 
     -- XP  = extreme Programing
     -- LSD = time saving form extra uncessary task like meeting 
+
     -- LSD = Lean software Development
     -- FDD = Feature Driven Development
     -- JIT = Just in time 
-    -- 
 }
 
 
@@ -67,7 +71,7 @@ Test-driven development (TDD) {
     -- 05. Refactor ]]
     -- 06. repeat [from 01]
 
-    Tools 
+    Testing Tools 
     -- JUnit  for Java
     -- pytest for Python.
 
@@ -75,11 +79,16 @@ Test-driven development (TDD) {
     -- in Refactor, devlopers remove duplication, unwanted spaces, code restructuring, improve readability  
 
     Why TDD 
-    -- atutomated test 
     -- quality assurance 
+    -- code maintainability
     -- faster feedback loop 
-    -- modular coding 
+    -- collaboration & communication
+    -- continuous integration & delivery
     -- refactoring 
+    -- cultural alignment 
+    -- modular coding 
+    -- atutomated test 
+ 
 }
 
 
@@ -110,6 +119,8 @@ CI/CD {
     why CI & CD
     -- infrastructure as code (IaC)]]
     -- rapid feedback 
+    -- quality assurance
+    -- 
 
     Notes
     -- CD is extension of CI 
@@ -132,22 +143,22 @@ Coding standards & ( SOLID Principle) {
     SOLID Principle]]]
     -- S = SRP = Single Responsibility Principle
     -- O = OCP = Open closed principle
-    -- L = LSP = Liskov Substitution Principle ]]
+    -- L = LSP = Liskov Substitution Principle 
     -- I = ISP = interface Segregation Principle ]]
-    -- D = DIP = Dependency inversion principle
+    -- D = DIP = Dependency inversion principle]]
 
     SOLID Principle
     -- SRP = Each class or module should have a single responsibility
-    -- OCP =  open for extension but closed for modification.
-    -- LSP = you should be used any derived class instead of base class without modification 
+    -- OCP = open for extension but closed for modification.
+    -- LSP = you should use any derived class instead of base class without modification 
     -- ISP = client should be forced to depend on interfaces, they do not use 
     -- DIP = high level module should not depend on low level module, both should depend on abstraction 
 
 
     Solid principle
     -- mostly followed in Oops concept 
-    -- loose coupling 
-    -- decoupling 
+    -- loose coupling ]]
+    -- decoupling ]]
     --
 
     Notes 
@@ -252,7 +263,7 @@ Scalability and robustness {
     -- normalization 
 
     Bootlenecks 
-    -- 
+    -- A bottleneck is a point of congestion in a production system that stops or severely slows the system.
 }
 
 
@@ -265,7 +276,7 @@ Automation to increase performance {
     Automation 
     -- automate repetitive tasks 
     -- workflow and process automation
-    -- data processign and analysis 
+    -- data processing and analysis 
     -- IT opeations and infrastructure automation 
     -- customer service automation 
     -- Support service automation 
@@ -281,15 +292,15 @@ Activity {
 
     Fill in the blanks:
 
-    01. Agile software development focuses on __________ (documentation/Individuals) and __________(interactions/process).
+    01. Agile software development focuses on __________ (documentation/Individuals) and __________(interactions/process).]]
     
     02. Scrum is an example of an __________ (Iterative/Waterfall) Agile methodology.]]]
     
     03. The first step in TDD is to write a ____________(passing test/failing test).
     
-    04. The failing test should initially cover the desired ____________ (functionality/implementation details) of the production code.
+    04. The failing test should initially cover the desired ____________ (functionality/implementation details) of the production code.]]
     
-    05. CI/CD helps in automating the software __________ (delivery/development) process.
+    05. CI/CD helps in automating the software __________ (delivery/development) process.]]]
     
     Answers
     01. Individuals, interactions]]
