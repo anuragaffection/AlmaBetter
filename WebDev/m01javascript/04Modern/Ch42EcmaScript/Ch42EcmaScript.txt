@@ -1,14 +1,24 @@
+EcamScript 5 & 6 
+-- ES5 concepts 
+-- ES6 concepts
+-- Introduction to ES modules 
+-- Deffferet types of javscript module system 
+-- why is understanding of the JS module system important 
+
 
 
 
 Links {
-    -- 
+    -- https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/
+    -- https://www.digitalocean.com/community/tutorials/js-modules-es6
 }
 
 
 
 Notes {
-    -- 
+    -- spread operator vs rest operator
+    -- AMD 
+    -- UMD 
 }
 
 

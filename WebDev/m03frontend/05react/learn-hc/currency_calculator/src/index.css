@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    margin: auto;
+    padding: 2px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 3px;
+    margin: 3px;
+}
+

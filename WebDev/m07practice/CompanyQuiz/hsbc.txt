@@ -1,467 +1,243 @@
 HSBC
 
 
-
-1 
-Which HTTP method should be used for safe and idempotent read-only operations in a RESTful API?
-
-POST
-GET
-PUT
-DELETE
+1. Which HTTP method should be used for safe and idempotent read-only operations in a RESTful API?
+   a) POST
+   b) GET
+   c) PUT
+   d) DELETE
 
 
 
+2. What is the purpose of React's forward refs feature?
+   a) It is used to pass props to child components.
+   b) It is used to create a reference to a DOM element or a child component.
+   c) It is used to share state between sibling components.
+   d) It is used to define the PropTypes of a component.
 
 
 
-
-2
-What is the purpose of React's forward refs feature?
-
-It is used to pass props to child components.
-It is used to create a reference to a DOM element or a child component.
-It is used to share state between sibling components.
-It is used to define the PropTypes of a component.
+3. Which communication protocol is commonly used for inter-service communication in microservices?
+   a) FTP
+   b) HTTP/HTTPS
+   c) SMTP
+   d) Telnet
 
 
 
+4. What does the 'Event Loop' in Node.js do?
+   a) Manages database connections
+   b) Handles asynchronous operations and callbacks
+   c) Controls routing in Express.js
+   d) Performs DOM manipulation
 
 
 
-
-3 
-Which communication protocol is commonly used for inter-service communication in microservices?
-
-FTP
-HTTP/HTTPS
-SMTP
-Telnet
-
-
-
-
-
-
-
-
-4
-What does the 'Event Loop' in Node.js do?
-
-Manages database connections
-Handles asynchronous operations and callbacks
-Controls routing in Express.js
-Performs DOM manipulation
-
-
-
-
-
-
-5
-What is the primary advantage of containerization technologies like Docker in a microservices environment?
-
-Easier service discovery
-Simplified inter-service communication
-Improved scalability
-Consistent deployment and isolation
-
-
-
-
-
-
+5. What is the primary advantage of containerization technologies like Docker in a microservices environment?
+   a) Easier service discovery
+   b) Simplified inter-service communication
+   c) Improved scalability
+   d) Consistent deployment and isolation
 
 
 
 6. What is the primary goal of versioning in API design?
-
-To maintain a single API version indefinitely.
-To ensure backward compatibility.
-To discourage API usage.
-To confuse API consumers.
-
-
-
-
-
-
+   a) To maintain a single API version indefinitely.
+   b) To ensure backward compatibility.
+   c) To discourage API usage.
+   d) To confuse API consumers.
 
 
 
 7. Which of the following is NOT a RESTful constraint?
+   a) Statelessness
+   b) HATEOAS (Hypermedia as the Engine of Application State)
+   c) SOAP (Simple Object Access Protocol)
+   d) Resource Identification
 
-Statelessness
-HATEOAS (Hypermedia as the Engine of Application State)
-SOAP (Simple Object Access Protocol)
-Resource Identification
 
 
+8. What is the purpose of the 'util.promisify' function in Node.js?
+   a) To create custom utility functions
+   b) To convert callback-based functions into Promises
+   c) To format dates and times
+   d) To serialize JSON data
 
 
 
+9. Which architectural pattern is often used to ensure data consistency across microservices?
+   a) Event Sourcing
+   b) Shared Database
+   c) Remote Procedure Call (RPC)
+   d) Monolithic Database
 
 
 
-8
-What is the purpose of the 'util.promisify' function in Node.js?
+10. In React, what is the purpose of the dangerouslySetinnerHTML attribute?
+    a) It is used to set the component's inner text content.
+    b) It is used to insert raw HTML into a component, potentially introducing a security risk.
+    c) It is used to define inline styles for a component
+    d) It is used to create a new DOM element in React
 
-To create custom utility functions
-To convert callback-based functions into Promises
-To format dates and times
-To serialize JSON data
 
 
+11. Which design principle encourages microservices to be small and focused on a single capability or function?
+    a) Service Abstraction
+    b) Code Duplication
+    c) Single Responsibility Principle
+    d) Monolithic Integration
 
 
 
-9
-Which architectural pattern is often used to ensure data consistency across microservices?
+12. Which of the following is a characteristic of a well-designed microservice?
+    a) Large codebase
+    b) High coupling with other services
+    c) Independent data storage
+    d) Tight integration with monolithic systems
 
-Event Sourcing
-Shared Database
-Remote Procedure Call (RPC)
-Monolithic Database
 
 
+13. What is the purpose of the shouldComponentUpdate lifecycle method in React?
+    a) It is used to determine if a component should re-render when its state or props change.
+    b) It is used to set the initial state of a component.
+    c) It is used to fetch data from an API.
+    d) It is used to force a re-render of a component.
 
 
 
+14. What is the primary challenge of ensuring data consistency in a microservices architecture?
+    a) Use of distributed transactions
+    b) Event-driven architecture
+    c) Data replication
+    d) Isolation
 
 
 
+15. What is a potential drawback of using microservices architecture?
+    a) Increased development speed
+    b) Complex inter-service communication
+    c) Reduced scalability
+    d) Simplified deployment
 
-10
-In React, what is the purpose of the dangerouslySetinnerHTML attribute?
 
-It is used to set the component's inner text content.
-It is used to insert raw HTML into a component, potentially introducing a security risk.
-It is used to define inline styles for a component
-It is used to create a new DOM element in React
 
+16. What is the purpose of the "Content Negotiation" mechanism in HTTP when designing APIs?
+    a) To determine the language in which the response should be provided.
+    b) To negotiate payment terms for API usage.
+    c) To choose the format or representation of the response data.
+    d) To decide whether an API request is authorized.
 
 
 
+17. Which HTTP status code should be used when a resource is successfully created in a RESTful API?
+    a) 200 OK
+    b) 201 Created
+    c) 204 No Content
+    d) 202 Accepted
 
 
 
-
-
-11 
-Which design principle encourages microservices to be small and focused on a single capability or function?
-
-Service Abstraction
-Code Duplication
-Single Responsibility Principle
-Monolithic Integration
-
-
-
-
-
-
-
-
-12
-Which of the following is a characteristic of a well-designed microservice?
-
-Large codebase
-High coupling with other services
-Independent data storage
-Tight integration with monolithic systems
-
-
-
-
-
-
-
-
-13
-What is the purpose of the shouldComponentUpdate lifecycle method in React?
-
-It is used to determine if a component should re-render when its state or props change.
-It is used to set the initial state of a component.
-It is used to fetch data from an API.
-It is used to force a re-render of a component.
-
-
-
-
-
-
-14
-What is the primary challenge of ensuring data consistency in a microservices architecture?
-
-Use of distributed transactions
-Event-driven architecture
-Data replication
-Isolation
-
-
-
-
-
-
-
-
-
-15
-What is a potential drawback of using microservices architecture?
-
-Increased development speed
-Complex inter-service communication
-Reduced scalability
-Simplified deployment
-
-
-
-
-
-
-
-
-16
-What is the purpose of the "Content Negotiation" mechanism in HTTP when designing APIs?
-
-To determine the language in which the response should be provided.
-To negotiate payment terms for API usage.
-To choose the format or representation of the response data.
-To decide whether an API request is authorized.
-
-
-
-
-
-
-
-
-17
-Which HTTP status code should be used when a resource is successfully created in a RESTful API?
-
-
-200 OK
-201 Created
-204 No Content
-202 Accepted
-
-
-
-
-
-
-
-18
-What is a 'callback hell' in Node.js?
-
-A debugging tool for Node.js applications
-A pattern used to manage callbacks in a clean and organized way
-A situation where multiple nested callbacks make the code unreadable and hard to maintain
-A popular Node.js library for managing asynchronous tasks
-
-
-
-
+18. What is a 'callback hell' in Node.js?
+    a) A debugging tool for Node.js applications
+    b) A pattern used to manage callbacks in a clean and organized way
+    c) A situation where multiple nested callbacks make the code unreadable and hard to maintain
+    d) A popular Node.js library for managing asynchronous tasks
 
 
 
 19. What is a 'closure' in the context of Node.js?
+    a) A mechanism for securely storing sensitive data
+    b) A function with access to its own scope, as well as the outer (enclosing) function's scope
+    c) A Node.js package manager
+    d) A design pattern for routing in Express.js
 
-A mechanism for securely storing sensitive data
-A function with access to its own scope, as well as the outer (enclosing) function's scope
-A Node.js package manager
-A design pattern for routing in Express.js
 
 
+20. How do you connect a React component to the Redux store?
+    a) Use the connect function from the react-redux library.
+    b) Manually update the state in the component.
+    c) Use the useState hook from React.
+    d) Create a new Redux store instance in the component
 
 
 
+21. What is the primary purpose of the 'Buffer' class in Node.js?
+    a) To read and write files
+    b) To parse JSON data
+    c) To handle binary data directly
+    d) To create custom JavaScript classes
 
 
 
+22. What is the role of the "Rate Limiting" in API design?
+    a) To make the API difficult to use.
+    b) To encourage API consumers to make as many requests as possible.
+    c) To prevent abuse and protect server resources.
+    d) To ensure that API endpoints are not versioned.
 
-20
-How do you connect a React component to the Redux store?
 
-Use the connect function from the react-redux library.
-Manually update the state in the component.
-Use the useState hook from React.
-Create a new Redux store instance in the component
 
+23. What is the purpose of the Redux store's dispatch method?
+    a) To create a new action
+    b) To update the state by applying a reducer
+    c) To subscribe to state changes
+    d) To initialize the store
 
 
 
+24. In microservices, which authentication method is more challenging due to the stateless nature of services?
+    a) Token-based authentication
+    b) Basic authentication
+    c) Certificate-based authentication
+    d) OAuth
 
 
 
+25. What is the purpose of the "idempotency" principle in API design?
+    a) To make the API endpoints as complex as possible.
+    b) To ensure that multiple identical requests have the same effect as a single request.
+    c) To increase the rate limits for API consumers.
+    d) To encourage clients to make non-GET requests.
 
 
-21
-What is the primary purpose of the 'Buffer' class in Node.js?
 
-To read and write files
-To parse JSON data
-To handle binary data directly
-To create custom JavaScript classes
+26. What is the key difference between React. PureComponent and React.Component?
+    a) React PureComponent has a shouldComponentUpdate method, while React. Component does not.
+    b) React PureComponent only re-renders when state or props change, while React Component re-renders on any change.
+    c) React PureComponent is more performant in terms of re-rendering than React.Component
+    d) React PureComponent is a deprecated class in React.
 
 
 
+27. What is the purpose of the context API inReact?
+   a) To pass data down the component tree without explicitly passing props.
+   b) To create global variables that can be accessed from any component.
+   c) To manage the state of a component.
+   d) To handle routing in React applications.
 
 
 
+28. Which middleware is commonly used in Redux for handling asynchronous actions?
+    a) Redux Logger
+    b) Redux Thunk
+    c) Redux Saga
+    d) Redux DevTools
 
 
-22.
-What is the role of the "Rate Limiting" in API design?
 
-To make the API difficult to use.
-To encourage API consumers to make as many requests as possible.
-To prevent abuse and protect server resources.
-To ensure that API endpoints are not versioned.
+29. What is the role of an API Gateway in a microservices architecture?
+    a) Load balancing
+    b) Service orchestration
+    c) Service discovery
+    d) Caching
 
 
 
-
-
-
-
-
-
-
-23
-What is the purpose of the Redux store's dispatch method?
-
-To create a new action
-To update the state by applying a reducer
-To subscribe to state changes
-To initialize the store
-
-
-
-
-
-
-
-
-
-
-
-24
-In microservices, which authentication method is more challenging due to the stateless nature of services?
-
-Token-based authentication
-Basic authentication
-Certificate-based authentication
-OAuth
-
-
-
-
-
-
-
-25
-What is the purpose of the "idempotency" principle in API design?
-
-To make the API endpoints as complex as possible.
-To ensure that multiple identical requests have the same effect as a single request.
-To increase the rate limits for API consumers.
-To encourage clients to make non-GET requests.
-
-
-
-
-
-
-
-26
-What is the key difference between React. PureComponent and React.Component?
-
-React PureComponent has a shouldComponentUpdate method, while React. Component does not.
-React PureComponent only re-renders when state or props change, while React Component re-renders on any change.
-React PureComponent is more performant in terms of re-rendering than React.Component
-React PureComponent is a deprecated class in React.
-
-
-
-
-
-
-
-27
-What is the purpose of the context API in React?
-
-To pass data down the component tree without explicitly passing props.
-To create global variables that can be accessed from any component.
-To manage the state of a component.
-To handle routing in React applications.
-
-
-
-
-
-
-
-
-
-
-
-28
-Which middleware is commonly used in Redux for handling asynchronous actions?
-
-Redux Logger
-Redux Thunk
-Redux Saga
-Redux DevTools
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-29
-What is the role of an API Gateway in a microservices architecture?
-
-Load balancing
-Service orchestration
-Service discovery
-Caching
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-30
-In Redux, what is the purpose of a reducer?
-
-To define the action creators
-To update the state based on dispatched actions
-To define the store's initial state
-To create middleware for async actions
-
-
+30. In Redux, what is the purpose of a reducer?
+    a) To define the action creators
+    b) To update the state based on dispatched actions
+    c) To define the store's initial state
+    d) To create middleware for async actions
 
 
 

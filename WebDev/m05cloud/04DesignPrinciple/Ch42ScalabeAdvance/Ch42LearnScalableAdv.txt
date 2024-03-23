@@ -277,7 +277,7 @@ Automation to increase performance {
     -- automate repetitive tasks 
     -- workflow and process automation
     -- data processing and analysis 
-    -- IT opeations and infrastructure automation 
+    -- IT operations and infrastructure automation 
     -- customer service automation 
     -- Support service automation 
     -- Testing automation 

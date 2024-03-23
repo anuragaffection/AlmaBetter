@@ -1,8 +1,0 @@
-export const privacy = {
-    privacyPolicy : "Welcome to our article platform! This Privacy Policy outlines how we collect, use, and protect the information you provide while using our service." ,
-    dataCollection : "To create an account and post articles, we collect personal information including your name, email, and password. We may also collect additional information you provide in your profile.",
-    dataUsage : "Your information is used to identify you as a user, enable account creation, authenticate access to your account, and allow you to post articles. We do not share your personal information with third parties.",
-    dataSecurity : "We take security measures to protect your information against unauthorized access alteration, disclosure, or destruction. However, please note that no method of transmission over the internet or electronic storage is completely secure.",
-    termsAndConditons : "By creating an account and using our platform, you agree to comply with our Terms & Conditions. You are responsible for maintaining the confidentiality of your account information and agree to notify us immediately of any unauthorized use of your account.",
-    changesToPrivacyPolicy : " We reserve the right to modify this Privacy Policy at any time. Any changes will be effective immediately upon posting the updated policy on this page. Your continued use of our service after any modifications to the Privacy Policy constitutes acceptance of those changes."
-};

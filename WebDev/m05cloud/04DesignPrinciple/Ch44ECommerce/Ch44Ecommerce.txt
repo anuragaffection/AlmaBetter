@@ -66,6 +66,12 @@ Introudction to Wix {
 Introudction to WordPress {
     -- CMS = content management system 
     -- check code with harry youtube video 
+    -- localhost/wordpress
+
+    -- Database name
+    -- Database username
+    -- Database password
+    -- Database host
 }
 
 

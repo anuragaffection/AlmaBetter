@@ -16,7 +16,7 @@ Links {
 
 Notes {
     -- identity providers (IdPs)
-    -- service providers (SPs)
+    -- service providers (SPs)]]
     -- single sign-on (SSO)
     -- Proof key for code Exchange (PKCE)
 }
@@ -24,7 +24,7 @@ Notes {
 
 Task {
     -- Implement federated login using OAuth2.0 with identity provider Google
-    -- identity provider vs service provider
+    -- identity provider vs service provider]]
 }
 
 
@@ -62,7 +62,7 @@ Single Sign-On {
     -- user authentication
     -- authentication at IdPs
     -- token issuance 
-    -- acces to application
+    -- access to application
     -- session management 
     -- Single sign out 
     
@@ -172,17 +172,17 @@ Activity {
 
     True or False
     
-    01. OAuth 2.0 requires the sharing of the user's credentials (e.g., username and password) with third-party applications.
+    01. OAuth 2.0 requires the sharing of the user's credentials (e.g., username and password) with third-party applications.]]]
     
     02. OAuth 2.0 can be used for single sign-on (SSO) to access multiple services with a single set of credentials.
     
-    03. OAuth 2.0 is a protocol that defines the user interface for login and consent screens.
+    03. OAuth 2.0 is a protocol that defines the user interface for login and consent screens.]]]
     
     04. OIDC is an extension of OAuth 2.0 and provides identity information about the end user.
     
     05. OIDC defines different grant types, such as "authorization code," "implicit," and "password," for various authentication scenarios.
     
-    06.  OIDC is primarily used for securing APIs and microservices.
+    06.  OIDC is primarily used for securing APIs and microservices.]]]]
     
     Answers
     01. False
@@ -192,6 +192,7 @@ Activity {
     05. True
     06. False
 }
+
 
 
 Task {

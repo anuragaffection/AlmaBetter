@@ -288,26 +288,17 @@ function remove() {
 
 
 
-
-
-
-
-
-
 // javascript travel in two ways 
 // 01. bubbling (is by default )
 // 02. capturing 
 
 
-
 /*
+   element.addEventListener('eventtype', listenerFunction, false); 
+   // Event bubbling phase (default)
 
    element.addEventListener('eventype', listenerFunction, true); 
    // Event capturing phase
-
-
-   element.addEventListener('eventtype', listenerFunction, false); 
-   // Event bubbling phase (default)
 
 */
 
@@ -319,6 +310,7 @@ function remove() {
  *   -- in capturing = useCapture === true (we have to set )
 */
 
+// bubbling 
 document.getElementById("outer").addEventListener("click", function () {
     alert("Outer div clicked (Bubbling phase)");
 }, false); // UseCapture set to false (default) for bubbling
@@ -330,11 +322,11 @@ document.getElementById("middle").addEventListener("click", function () {
 document.getElementById("inner").addEventListener("click", function () {
     alert("Inner div clicked (Bubbling phase)");
 }, false); // UseCapture set to false (default) for bubbling
+// flow = 
 
 
 
-
-
+// capturing 
 document.getElementById("outer").addEventListener("click", function () {
     alert("Outer div clicked (Capturing phase)");
 }, true); // UseCapture set to true for capturing
@@ -346,7 +338,7 @@ document.getElementById("middle").addEventListener("click", function () {
 document.getElementById("inner").addEventListener("click", function () {
     alert("Inner div clicked (Capturing phase)");
 }, true); // UseCapture set to true for capturing
-
+// flow =  
 
 
 
@@ -357,7 +349,7 @@ document.getElementById("inner").addEventListener("click", function () {
 
   event propagation 
   -- also called as event flow
-  -- direction in each event is working 
+  -- direction in which each event is working 
 
 
   // bubbling vs capturing
@@ -371,38 +363,35 @@ document.getElementById("inner").addEventListener("click", function () {
 
 
 
-
-
-
 /*
-
    practical implemenation 02 
-
-
 */
-
-let boxes = document.querySelectorAll('.box');
 
 function handleClick(event) {
     console.log("after click = ", event.target.textContent);
 }
 
-
 function handleMouseEnter(event) {
     console.log('after mouse enter = : ', event.target.textContent);
 }
-
 
 function handleMouseLeave(event) {
     console.log('after mouse leave = ', event.target.textContent);
 }
 
-
+let boxes = document.querySelectorAll('.box');
 for (let i = 0; i < boxes.length; i++) {
     boxes[i].addEventListener('click', handleClick);
     boxes[i].addEventListener('mouseenter', handleMouseEnter);
     boxes[i].addEventListener('mouseleave', handleMouseLeave);
 }
+
+// const boxes = document.querySelectorAll('.box');
+// boxes.forEach(box => {
+//   box.addEventListener('click', handleClick);
+//   box.addEventListener('mouseenter', handleMouseEnter);
+//   box.addEventListener('mouseleave', handleMouseLeave);
+// });
 
 
 
