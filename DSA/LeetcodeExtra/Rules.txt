@@ -1,10 +1,13 @@
 
 
 LeetCode Rules
-
 01. Multiple Solution are available afer the gap of 12 lines 
 02. Solution are in Javascript & Java.
 
+
+Update 
+-- adding all solution here is waste of time 
+-- only add those problem which , you were not able to solve in first attempt 
 
 
 Java Solution Rules
@@ -16,10 +19,15 @@ Java Solution Rules
 
 Before Giving Up 
 --- First think of brute force way 
---- at least give 1 hours before going for Solution
+--- at least give 1 hours / 40 minutes  before going for Solution
 --- you are here to build logic & solve problem
 --- do not try to rememeber
 
+
+
+What to solve 
+-- complete your own DSA course 
+-- Striver DSA sheets 
 
 
 
