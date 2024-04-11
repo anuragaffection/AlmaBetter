@@ -1,23 +1,35 @@
-int myIntArray [] = new int [10];
-char charArray [] = new char[10];
+
+Declarations 
+-- int myIntArray [] = new int [10];
+-- char charArray [] = new char[10];
+
 
 int intArray [] = {};
 float floatArray [] = {};
 String strArray [] = {};
 
-Scanner sc = new Scanner(system.in);
-sc.nextInt();
-sc.nextFloat();
-sc.nextLine();
 
 
-Arrays.sort(myArray);
+Input 
+-- Scanner sc = new Scanner(system.in);
+-- sc.nextInt();
+--  sc.nextFloat();
+-- sc.nextLine();
 
 
 
-syntax {
-    -- 
-}
+Inbuilt methods 
+-- Arrays.sort(myArray);
+-- Arrays.binarySearch(myArray, value); 
+
+
+
+
+Notes 
+-- indexOf = not supported in java array 
+-- indexOf = supported in java string
+-- Arrays.binarySearch(myArray, value) = return index 
+
 
 
 Note {

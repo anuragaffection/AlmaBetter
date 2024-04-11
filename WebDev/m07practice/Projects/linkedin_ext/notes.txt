@@ -1,0 +1,22 @@
+
+00. Resources 
+-- https://www.thedevbook.com/writing-a-simple-ai-powered-chrome-extension-for-linkedin/
+-- https://dev.to/boodyvo/writing-a-simple-ai-powered-chrome-extension-for-linkedin-3omj
+
+
+
+01.  content_scripts have access to browser dom 
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.linkedin.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+
