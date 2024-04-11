@@ -1,0 +1,719 @@
+
+Zing HR
+
+
+
+
+01.
+When should you use a stateful component in React?
+
+When the component is simple and doesn't need to manage data
+When the component needs to manage its own data and respond to state changes
+When the component doesn't need to render anything
+When the component relies solely on external data
+
+
+
+
+
+
+
+02.
+Which of the following is true regarding stateless components in React?
+
+They cannot accept props
+They can manage their own data using the state property
+They must be defined using the class keyword
+They receive data via props and do not have internal state
+
+
+
+
+
+
+03.
+What is React.js primarily used for?
+
+Server-side scripting
+Building user interfaces
+Database management
+Network communication
+
+
+
+
+
+
+04.
+What is the purpose of the useCallback hook in React?
+
+To create a new component instance.
+To memoize a callback function.
+To manage component state.
+To conditionally render components.
+
+
+
+
+
+
+
+05.
+How do you destructure an object in a React component's function parameter?
+
+Using the this keyword.
+Using square brackets
+Using curly braces
+Using the import statement
+
+
+
+
+
+
+06.
+When might you use a Higher Order Component (HOC) in a React application?
+
+To create stateful components
+To handle form submissions
+To share behavior between components
+To define custom CSS styles
+
+
+
+
+
+
+
+07.
+What is the purpose of the React Router library?
+
+To manage state in React components
+To create animations in React applications
+To handle routing and navigation in single-page applications
+To manage global application data
+
+
+
+
+
+
+
+08.
+How can you pass data from a parent component to a child component in React?
+
+Use the this.props object
+Use the setState method
+Use the this.state object
+Use the this.childProps object
+
+
+
+
+
+
+
+09.
+What is a stateful component in React?
+
+A component that doesn't store any data
+A component that manages and stores its own data
+A component that doesn't render anything
+A component that relies on external data
+
+
+
+
+
+
+
+10.
+What is the key prop used for in a list of React elements?
+
+It defines the component's name
+It specifies the element's position in the list
+It provides a unique identifier for each element in the list
+It sets the color of the element
+
+
+
+
+
+
+
+11.
+What is a Higher Order Component (HOC) in React?
+
+A component that renders HTML elements
+A function that takes a component and returns a new component
+A built-in React component for handling forms
+A component that manages state and props automatically
+
+
+
+
+
+
+12.
+What is the purpose of the rest operator (...) in JavaScript?
+
+To spread an array into individual elements.
+To concatenate two arrays.
+To remove elements from an array.
+To access the first element of an array.
+
+
+
+
+
+
+
+13.
+Which method is called when a React component is first created?
+
+componentDidMount
+componentDidUpdate
+componentDidUpdate
+constructor
+
+
+
+
+
+
+
+14.
+What is the purpose of the render method in a React component?
+
+To perform AJAX requests
+To define the component's initial state
+To specify how the component should be displayed
+To update the component's state
+
+
+
+
+
+
+
+15.
+What is the behavior of the rest operator when used with function parameters?
+
+It must always be the last parameter in a function.
+It collects all function arguments into an array.
+It can only collect numeric arguments.
+It can only collect a fixed number of arguments.
+
+
+
+
+
+
+
+16.
+What is object destructuring in React?
+
+A way to create objects in React components.
+A method to break down complex objects into simpler ones.
+A feature to merge two objects into one.
+A way to rename object properties.
+
+
+
+
+
+
+
+17.
+Which hook is used to share state logic between components in React?
+
+useState
+useContext
+useReducer
+useEffect
+
+
+
+
+
+
+18.
+In React, what is the virtual DOM?
+
+A separate DOM used for styling
+A physical representation of the HTML DOM
+A lightweight copy of the HTML DOM
+A virtual reality interface for web development
+
+
+
+
+
+
+
+19.
+When should you use the useLayoutEffect hook instead of the useEffect hook?
+
+Always, as it's more performant.
+When you need to perform a layout-related side effect.
+When you want to run code after rendering is committed to the screen.
+useLayoutEffect should never be used.
+
+
+
+
+
+
+
+20.
+How do you typically use a Higher Order Component (HOC) with a component in React?
+
+Wrap the component with the HOC function
+Import the HOC as a child of the component
+Pass the HOC as a prop to the component
+Use the HOC as a replacement for the component
+
+
+
+
+
+
+21.
+Which of the following statements about the useEffect hook is true?
+
+useEffect runs synchronously after rendering.
+useEffect can only be used in class components.
+useEffect is used for handling side effects in functional components.
+useEffect can replace the need for state management.
+
+
+
+
+
+
+22.
+How can you use the rest operator to combine two arrays into one?
+
+array1.concat(array2)
+array1 + array2
+array1.push(...array2)
+array1 = [...array1, ...array2]
+
+
+
+
+
+
+23.
+In React, what is the recommended way to fetch data from a server?
+
+Use fetch API within the render method
+Use the componentDidMount lifecycle method
+Use the constructor method
+Use the componentWillUpdate lifecycle method
+
+
+
+
+
+
+24.
+What is the purpose of the useMemo hook in React?
+
+To create a new instance of a component.
+To memoize the result of an expensive computation.
+To manage component state.
+To render a component conditionally.
+
+
+
+
+
+
+25.
+Which keyword is used to define a stateless component in React?
+
+class
+stateless
+function
+component
+
+
+
+
+
+
+26.
+What is JSX in React?
+
+JavaScript Extended Syntax
+JavaScript XML
+JavaScript Exports
+JavaScript XHR
+
+
+
+
+
+
+27.
+How can you handle user input in React forms?
+
+Use the onClick event
+Use the onSubmit event
+Use the onChange event
+Use the oninput event
+
+
+
+
+
+
+
+28.
+Which of the following uses the rest operator correctly to collect multiple function arguments into an array?
+
+function sum(...numbers) { return numbers.reduce((total, num) => total + num); }
+function sum(numbers) { return ...numbers.reduce((total, num) => total + num); }
+function sum([...numbers]) { return numbers.reduce((total, num) => total + num); }
+function sum(...numbers) { return [...numbers].reduce((total, num) => total + num); }
+
+
+
+
+
+
+29.
+What is a stateless component in React?
+
+A component that cannot be rendered
+A component that manages its own data using the state property
+A component that doesn't store any data
+A component that relies on external data
+
+
+
+
+
+30.
+How can you use the rest operator to extract specific elements from an array in JavaScript?
+
+const [first, ...rest] = myArray;
+const [...rest, first] = myArray;
+const [...rest] = myArray, first;
+const [first] = myArray, ...rest;
+
+
+
+
+
+
+
+
+Answer
+
+01.
+When the component needs to manage its own data and respond to state changes
+
+You should use a stateful component in React when the component needs to manage its own data and respond to state changes. Stateful components are used when you need to maintain and update internal state.
+
+
+
+
+
+
+02.
+They receive data via props and do not have internal state
+
+Stateless components in React receive data via props and do not have internal state. They are primarily responsible for rendering based on the data they receive.
+
+
+
+
+
+
+03.
+Building user interfaces
+
+React.js is a JavaScript library used for building user interfaces and managing the state of UI components efficiently.
+
+
+
+
+
+
+04.
+To memoize a callback function.
+
+useCallback is used to memoize a callback function, ensuring that the callback does not change between renders unless its dependencies change. This can help in optimizing performance when passing callbacks to child components.
+
+
+
+
+
+
+05.
+Using curly braces
+
+In React, you can destructure an object in a component's function parameter by using curly braces. For example, you can destructure props like this: function MyComponent({ prop1, prop2 })
+
+{...}.
+
+
+
+
+
+
+
+06.
+To share behavior between components
+
+HOCs are commonly used to share behavior and functionality between multiple components
+
+
+
+
+
+
+07.
+To handle routing and navigation in single- page applications
+
+React Router is a library used to handle routing and navigation in single-page applications built with React.
+
+
+
+
+
+08.
+Use the this.props object
+
+You can pass data from a parent component to a child component in React by using the props property.
+
+
+
+
+
+09.
+A component that manages and stores its own data
+
+A stateful component in React is a component that manages and stores its own data using the state property. It can hold and update data over time, which makes it capable of responding to changes in its internal state.
+
+
+
+
+
+
+10.
+It provides a unique identifier for each element in the list
+
+The key prop is used to provide a unique identifier for each element in a list, helping React identify and update elements efficiently.
+
+
+
+
+
+
+
+11.
+A function that takes a component and returns a new component
+
+A HOC is a function that takes a component and returns a new component with enhanced functionality.
+
+
+
+
+12.
+To spread an array into individual elements.
+
+The rest operator (...) in JavaScript is used to spread an array into individual elements. It allows you to extract the remaining elements of an array into a new array, function parameters, or object properties.
+
+
+
+
+
+13.
+constructor
+
+The constructor method is called when a React component is first created. It's used for initializing state and other setup.
+
+
+
+
+
+
+14.
+To specify how the component should be displayed
+
+The render method is used to describe what the component should render to the DOM.
+
+
+
+
+
+
+15.
+It collects all function arguments into an array.
+
+The rest operator in function parameters collects all the remaining function arguments into an array, regardless of their data types or how many arguments are passed.
+
+
+
+
+
+
+16.
+A method to break down complex objects into simpler ones.
+
+Object destructuring in React is a technique for breaking down complex objects (like props or state) into simpler ones by extracting specific properties from the object. It allows you to extract and use only the properties you need, making your code more concise and readable.
+
+
+
+
+
+
+
+17.
+useContext
+
+useContext hook is used to access shared state and logic between components when using the Context API. It allows components to subscribe to changes in a global context and access its values.
+
+
+
+
+
+
+18.
+A lightweight copy of the HTML DOM
+
+The virtual DOM is a lightweight, in-memory representation of the HTML DOM. React uses it to optimize rendering performance.
+
+
+
+
+
+
+19.
+When you need to perform a layout-related side effect.
+
+useLayoutEffect is similar to useEffect, but it runs synchronously after all DOM mutations. It should be used when you need to perform a side effect that relies on the layout of the elements in the DOM.
+
+
+
+
+
+20.
+Wrap the component with the HOC function
+
+You wrap the component with the HOC function to enhance its functionality.
+
+
+
+
+
+21.
+useEffect is used for handling side effects in functional components.
+
+useEffect is used for handling side effects, such as data fetching, subscriptions, or manually changing the DOM, in functional components. It runs asynchronously after rendering.
+
+
+
+
+
+
+22.
+array1 = [...array1, ...array2]
+
+You can use the rest operator to combine two arrays by spreading their elements into a new array as shown in option 4. Options 1 and 3 are valid but do not use the rest operator. Option 2 is incorrect syntax.
+
+
+
+
+
+
+23.
+Use the componentDidMount lifecycle method
+
+The componentDidMount lifecycle method is a common place to fetch data from a server in React, as it ensures that the component has been rendered to the DOM.
+
+
+
+
+
+
+24.
+To memoize the result of an expensive computation.
+
+useMemo is used to memoize the result of an expensive computation, ensuring that the computation is only executed when the dependencies change. It helps improve the performance of your components by avoiding unnecessary recalculations.
+
+
+
+
+
+
+25.
+function
+
+In modern React, you define a stateless functional component using the function keyword. This type of component is also known as a functional component.
+
+
+
+
+
+26.
+JavaScript XML
+
+JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code.
+
+
+
+
+
+
+27.
+Use the onChange event
+
+The onChange event is commonly used to handle user input in React forms, allowing you to capture and update input values.
+
+
+
+
+
+
+
+28.
+function sum(...numbers) { return numbers.reduce((total, num) => total + num);
+
+}
+
+Option 1 correctly uses the rest operator to collect multiple function arguments into the numbers array. Options B and C are incorrect syntax, and option D creates a new array unnecessarily.
+
+
+
+
+
+
+29.
+A component that doesn't store any data
+
+A stateless component in React, also known as a functional component, does not manage its own data using the state property. Instead, it receives data via its props and renders based on that data. It doesn't have internal state.
+
+
+
+
+
+
+
+30.
+const [first, ...rest] = myArray;
+
+Option 1 demonstrates the correct usage of the rest operator to extract specific elements from an array. It assigns the first element of myArray to first and spreads the remaining elements into the rest array. The other options have incorrect syntax.
+
+
+
+
+
+
+
+
+
+

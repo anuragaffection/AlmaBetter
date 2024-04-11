@@ -1,0 +1,703 @@
+
+India Mart
+
+
+01.
+In Node.js, what is the primary role of the npm package manager?
+
+To run JavaScript on the client-side
+To install and manage Node.js packages and dependencies
+To create and manage virtual environments
+To build user interfaces
+
+
+
+
+
+02.
+In the MVC architecture, what is the primary responsibility of the View?
+
+Managing the database
+Handling user input
+Rendering data for presentation
+Controlling application flow
+
+
+
+
+
+03.
+What will happen if you omit the second argument in useEffect?
+
+The effect will run on every render
+The effect will never run
+It will result in a syntax error
+The effect will run only once
+
+
+
+
+
+04.
+In the context of MVC, what does "Loose Coupling" refer to?
+
+Tight integration between Model and View
+Strong dependency between Controller and View
+Minimal dependency and interaction between components
+No separation of concerns
+
+
+
+
+
+
+05.
+Which component in MVC is responsible for handling user input and controlling the flow of the application?
+
+Model
+Controller
+View
+Database
+
+
+
+
+
+
+06.
+What is the primary purpose of the Model in the MVC architecture?
+
+Handling user interface and user input
+Controlling the flow of the application
+Managing data and business logic
+Rendering and displaying data
+
+
+
+
+
+
+
+07.
+What is the primary purpose of the useEffect hook in React?
+
+Managing component state
+Handling user input
+Performing side effects in function components
+Defining component props
+
+
+
+
+
+
+08.
+Which of the following data structures is suitable for implementing a breadth-first search (BFS) algorithm?
+
+Stack
+Queue
+Heap
+Linked List
+
+
+
+
+
+
+09.]]]
+Which of the following is NOT a valid way to include an external module in Node.js?
+
+require('./my-module')
+import MyModule from './my-module'
+require('my-module')
+import { MyModule } from 'my-module’
+
+
+
+
+
+10.
+What data structure follows the Last-In-First-Out (LIFO) principle?
+
+Stack
+Queue
+Linked List
+Array
+
+
+
+
+
+
+11.
+In Redux, what is the purpose of an action creator?
+
+To define the structure of the state
+To specify how the state should change
+To manage asynchronous operations
+To create a store instance
+
+
+
+
+
+
+12.
+What does the second argument of useEffect specify?
+
+A function to run when the effect is triggered
+An array of dependencies
+A boolean value for conditional execution
+A string representing the effect's name
+
+
+
+
+
+
+13.
+Which of the following is not a part of the Redux store API?
+
+getState()
+dispatch()
+subscribe()
+connect()
+
+
+
+
+
+
+
+14.
+In Node.js, what does the event loop do?
+
+Handles incoming HTTP requests
+Manages asynchronous operations and callbacks
+Executes synchronous code only
+Serves as a database management system
+
+
+
+
+
+
+15.
+What is the primary purpose of the Buffer class in Node.js?
+
+To handle file I/O operations
+To work with binary data directly
+To parse JSON data
+To manage asynchronous control flow
+
+
+
+
+
+
+
+
+16.
+Which of the following operations is NOT typically associated with a stack?
+
+Push
+Pop
+Enqueue
+Peek
+
+
+
+
+
+
+
+17.
+What data structure follows the First-In-First-Out (FIFO) principle?
+
+Stack
+Queue
+Linked List
+Tree
+
+
+
+
+
+
+
+18.
+In which phase of a component's lifecycle does useEffect run?
+
+Mounting
+Updating
+Unmounting
+All of the above
+
+
+
+
+
+
+19.
+What is the purpose of the os module in Node.js?
+
+To manage child processes
+To handle networking operations
+To interact with the operating system's environment
+To create web servers
+
+
+
+
+
+
+
+20.
+What is the purpose of the EventEmitter class in Node.js?
+
+To read and write files asynchronously
+To handle HTTP requests and responses
+To emit and listen for custom events
+To manage child processes
+
+
+
+
+
+
+21.
+What is the primary purpose of a MongoDB sharded cluster?
+
+Data replication
+Data distribution
+Data encryption
+Data compression
+
+
+
+
+
+
+
+22.
+What is the recommended approach to securely manage MongoDB passwords in a production environment?
+
+Storing plaintext passwords in configuration files
+Encrypting passwords with a simple algorithm
+Using environment variables
+Hashing and salting passwords
+
+
+
+
+
+
+
+23.
+What is the purpose of the Redux middleware 'redux- thunk'?
+
+To enable time-travel debugging
+To manage asynchronous actions in Redux
+To optimize the performance of Redux store
+To handle routing in Redux applications
+
+
+
+
+
+
+24.
+Which operation in a stack allows you to view the top element without removing it?
+
+Push
+Pop
+Enqueue
+Peek
+
+
+
+
+
+
+25.
+In a Redux store, what is the purpose of the 'reducer' function?
+
+To define the initial state of the store
+To handle side effects and asynchronous actions
+To specify how the application's state changes in response to actions
+To connect the React components to the store
+
+
+
+
+
+
+26.
+How can you perform cleanup in a useEffect?
+
+By returning a cleanup function from the effect
+By using the clearEffect function
+By setting a cleanup flag in the component's state
+Cleanup is not necessary in useEffect
+
+
+
+
+
+
+27.
+In Node.js, what is the purpose of the cluster module?
+
+To create cryptographic hashes
+To manage and distribute child processes across multiple CPU cores
+To establish secure WebSocket connections
+To handle routing in Express.js applications
+
+
+
+
+
+
+28.
+Which of the following is an advantage of using the MVC architecture?
+
+Tight coupling between components
+Code organization and separation of concerns
+Increased difficulty in testing and maintenance
+Slower development process
+
+
+
+
+
+
+
+29.
+Which data structure is used in managing function calls and recursion?
+
+Stack
+Queue
+Linked List
+Array
+
+
+
+
+
+
+
+30.
+In MongoDB, what is the role of the "mongos" process in a sharded cluster?
+
+Store data
+Handle authentication
+Route client requests
+Manage the configuration
+
+
+
+
+
+
+
+
+
+Answer
+
+
+01.
+To install and manage Node.js packages and dependencies
+
+The npm package manager in Node.js is primarily used for installing, managing, and sharing Node.js packages and their dependencies. It simplifies the process of working with third-party libraries and modules.
+
+
+
+
+
+02.
+Rendering data for presentation
+
+The View in MVC is responsible for rendering and displaying data to the user. It handles the presentation logic.
+
+
+
+
+
+
+03.
+The effect will run on every render
+
+If you omit the second argument (the dependencies array), the effect will run on every render of the component. This can lead to unnecessary and potentially performance- degrading executions if not managed properly
+
+
+
+
+
+04.
+Minimal dependency and interaction between components
+
+"Loose coupling" in MVC refers to a minimal and non-dependent interaction between the Model, View, and Controller, which promotes modularity and maintainability.
+
+
+
+
+
+05.
+Controller
+
+The Controller in MVC is responsible for handling user input, making decisions about the application's behavior, and controlling the flow of the application.
+
+
+
+
+
+06.
+Managing data and business logic
+
+The Model in MVC is responsible for managing the application's data and business logic. It encapsulates the data and provides methods for interacting with it.
+
+
+
+
+
+07.
+Performing side effects in function components
+
+The main purpose of the useEffect hook is to perform side effects in function components. Side effects can include data fetching, DOM manipulation, and other operations that don't directly affect the component's render. It's used to introduce lifecycle and side effect behavior to functional components.
+
+
+
+
+
+
+08.
+Queue
+
+BFS is typically implemented using a queue because it follows the FIFO principle, exploring nodes in a breadth-first order.
+
+
+
+
+
+
+09.
+import { MyModule } from 'my-module'
+
+In Node.js, you can use require() to include external modules. The import statement is used in ECMAScript modules (ESM), and the correct syntax for ESM would be something like import MyModule from './my-module'.
+
+
+
+
+
+
+10.
+Stack
+
+Stacks follow the Last-In-First-Out (LIFO) principle, meaning the last element added to the stack is the first one to be removed.
+
+
+
+
+
+
+
+11.
+To specify how the state should change
+
+Action creators are functions that create and return action objects, which specify how the application's state should change.
+
+
+
+
+
+
+12.
+An array of dependencies
+
+The second argument of useEffect is an array of dependencies. It determines when the effect should be re-run. If the dependencies change between renders, the effect will be re-executed. If the array is empty, the effect runs once after the initial render.
+
+
+
+
+
+
+
+13.
+connect()
+
+The connect() function is not part of the Redux store API; it is used in React-Redux to connect React components to the Redux store. The other three (getState(), dispatch(), and subscribe()) are part of the store API.
+
+
+
+
+
+
+
+14.
+Manages asynchronous operations and callbacks
+
+The event loop in Node.js is responsible for managing asynchronous operations and callbacks. It allows Node.js to execute non-blocking I/O operations efficiently, making it well-suited for handling a large number of concurrent connections.
+
+
+
+
+
+
+15.
+To work with binary data directly
+
+The Buffer class in Node.js is used to work with binary data directly. It allows you to handle raw binary data, which is particularly useful when dealing with file I/O, network operations, and other tasks that involve manipulating binary data.
+
+
+
+
+
+
+16.
+Enqueue
+
+
+Enqueue is an operation associated with queues, not stacks. Stacks use the Push and Pop operations.
+
+
+
+
+
+
+
+17.
+Queue
+
+Queues follow the First-In-First-Out (FIFO) principle, meaning the first element added to the queue is the first one to be removed.
+
+
+
+
+
+18.
+All of the above
+
+useEffect can be used to run code during all phases of a component's lifecycle. It can run when the component is mounted, updated, or unmounted depending on the dependencies and configuration passed to it.
+
+
+
+
+
+19.
+To interact with the operating system's environment
+
+The os module in Node.js is used to interact with the operating system's environment. It provides information about the system's resources, such as CPU, memory, and network interfaces.
+
+
+
+
+
+
+20.
+To emit and listen for custom events
+
+The EventEmitter class in Node.js is used for emitting and listening to custom events within your applications. It allows you to create custom event-driven architectures and is often used for building event-driven systems and modules.
+
+
+
+
+
+
+21.
+Data distribution
+
+In a MongoDB sharded cluster, the primary purpose is to distribute data across multiple servers or shards, enabling horizontal scaling and improved query performance.
+
+
+
+
+
+22.
+Hashing and salting passwords
+
+Storing passwords in a secure and hashed form, along with the use of salt, is a best practice for securely managing passwords in MongoDB.
+
+
+
+
+
+23.
+To manage asynchronous actions in Redux
+
+Redux Thunk is a middleware that allows you to write action creators that return a function instead of an action object. This function can perform asynchronous operations and dispatch actions when the operations are complete.
+
+
+
+
+
+
+24.
+Peek
+
+The Peek operation in a stack allows you to view the top element without removing it.
+
+
+
+
+
+
+25.
+To specify how the application's state changes in response to actions
+
+Reducers are pure functions that specify how the application's state changes in response to actions.
+They take the current state and an action as input and return a new state.
+
+
+
+
+
+
+
+26.
+By returning a cleanup function from the effect
+
+You can perform cleanup in a useEffect by returning a function from the effect. This function will be executed when the component is unmounted or when the dependencies change, allowing you to clean up any resources or subscriptions.
+
+
+
+
+
+
+
+27.
+To manage and distribute child processes across multiple CPU cores
+
+The cluster module in Node.js is used to manage and distribute child processes across multiple CPU cores, making it easier to utilize the full processing power of a machine for improved performance and scalability.
+
+
+
+
+
+
+28.
+Code organization and separation of concerns
+
+One of the primary advantages of MVC is its ability to separate concerns and improve code organization, making it easier to maintain and test applications.
+
+
+
+
+
+
+29.
+Stack
+
+Stacks are often used to manage function calls and recursion, allowing for the return of values from nested function calls.
+
+
+
+
+
+
+30.
+Route client requests
+
+The "mongos" process acts as a query router, directing client requests to the appropriate shard in a sharded cluster.
+
+
+
