@@ -18,8 +18,8 @@ Notes {
     -- toArray()
     -- drop()
     -- dropDatabase()
-    -- $set 
-    -- $unset
+    -- $set ]]
+    -- $unset]]
 }
 
 
@@ -62,10 +62,11 @@ importing & exporting data ]]]{
     mongorestore flag
     -- host 
     -- db 
+    -- password
     -- collection
     -- username 
     -- port 
-    -- password
+    
 
     mongoexport
     -- from mongo database to local file 
@@ -117,8 +118,8 @@ Querying Data {
 
     keywords in mongodb
     -- db 
-    -- d 
-    -- c
+    -- d ]]
+    -- c  ]]
     -- dbs 
     -- databases
     -- collections
@@ -140,8 +141,8 @@ Querying Data {
     -- $lte = lesser or equal to
     -- $in  = in ]]]
     -- $nin = not in  
-
-    -- $set 
+    -- $set =
+    -- $unset = 
 
 
     cursor method 
@@ -185,7 +186,7 @@ Creating & Manipulating Documents {
 
 
 Advanced Querying {
-    -- monogdb use automatically use $and 
+    -- monogdb automatically use $and 
     -- implicit $and 
 
     Logical Operator

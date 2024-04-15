@@ -1,0 +1,233 @@
+
+Life cycle Methods & React Hooks  
+
+
+
+1.
+When should you use the useCallback hook in React?
+
+To create a new callback function on every render
+To prevent unnecessary re-renders of child components
+To memoize expensive calculations
+To handle AJAX requests
+
+
+
+
+
+
+2.
+What is the purpose of the second argument (dependencies) in the useEffect hook?
+
+To define the initial state of the component.
+To specify the state variables the effect depends on.
+To pass additional props to the effect function.
+To handle errors that occur within the effect.
+
+
+
+
+
+
+3.
+Which of the following is the correct way to use the useState hook?
+
+const [count, setCount] = useState(0);
+const count = useState(0);
+const [count, setState] = useState(0);
+const { count, setCount } = useState(0);
+
+
+
+
+
+
+4.
+When is the componentWillUnmount lifecycle method called?
+
+After the component has been added to the DOM.
+Before the component is removed from the DOM.
+Before the component is updated.
+After the component has been updated.
+
+
+
+
+
+
+
+5.
+Which lifecycle method is called whenever the state or props of a component are updated?
+
+componentWillMount()
+componentDidMount()
+componentWillUpdate()
+componentDidUpdate()
+
+
+
+
+
+
+
+6.
+What is the primary purpose of React Hooks?
+
+To manipulate the DOM directly
+To handle AJAX requests
+To provide a way to use state and other React features without writing a class
+To create reusable components
+
+
+
+
+
+
+7.
+Which of the following lifecycle methods is called before a component is rendered for the first time?
+
+componentWillMount()
+componentDidMount()
+componentWill Unmount()
+componentDidUpdate()
+
+
+
+
+
+
+8.
+How can you handle errors in React components?
+
+By using try-catch blocks inside the render method.
+By using the errorBoundary prop on components.
+By using the componentDidCatch lifecycle method.
+By logging errors to the console manually.
+
+
+
+
+
+
+
+9.
+What is the difference between useState and useReducer hooks in React?
+
+useState is used for managing state in functional components, while useReducer is used for class components.
+useState is used for simple state management, while useReducer is used for more complex state management with logic.
+There is no difference between useState and useReducer.
+useState is a built-in hook, while useReducer needs to be imported from a separate package.
+
+
+
+
+
+
+
+10.
+Which Hook can be used to share state data between multiple components without passing props through each level?
+
+useReducer
+useContext
+useState
+useEffect
+
+
+
+
+
+
+
+Answer
+
+1.
+To create a new callback function on every render
+
+This answer is incorrect. The useCallback hook is used to create a new callback function on every render. It is useful when you need to pass a stable reference of a function to child components to avoid unnecessary re-renders.
+
+
+
+
+2.
+To specify the state variables the effect depends on.
+
+This answer is correct. The second argument of the useEffect hook is an array of dependencies. By specifying the state variables that the effect depends on, you can control when the effect should be re-run. If any of the specified state variables change, the effect will be triggered again.
+
+
+
+
+
+3.
+const [count, setCount] = useState(0);
+
+This answer is correct. The correct syntax for using the useState hook is to use array destructuring to assign the state variable and the corresponding state setter function. The initial state value (in this case, 0) is passed as an argument to useState
+
+
+
+
+
+4.
+Before the component is removed from the DOM.
+
+This answer is correct. componentWill Unmount is called just before the component is removed from the DOM and destroyed. It is a good place to clean up any resources or subscriptions used by the component.
+
+
+
+
+
+
+
+5.
+componentDidUpdate()
+
+This answer is correct. componentDidUpdate() is called after the component has been re-rendered due to changes in its state or props. It is commonly used for tasks that should be performed after the update, such as updating the DOM or making additional API calls based on the updated data.
+
+
+
+
+
+
+
+6.
+To provide a way to use state and other React features without writing a class
+
+This answer is correct. React Hooks provide a way to use state and other React features like lifecycle methods, context, and side effects without writing a class. It allows functional components to have state and lifecycle functionalities.
+
+
+
+
+
+
+7.
+componentWillMount()
+
+This answer is correct. componentWillMount() is called before the initial rendering of a component. However, it is now considered deprecated in favor of using the constructor or componentDidMount() for performing any setup or initialization tasks.
+
+
+
+
+
+
+8.
+By using the componentDidCatch lifecycle method.
+
+This answer is correct. The componentDidCatch method is a lifecycle method introduced in React 16 to handle errors that occur during rendering in a component's tree. When an error is thrown in a component's render, componentDidMount, or componentDidUpdate methods of any child component, the nearest ancestor with componentDidCatch will capture the error and display a fallback UI. This helps prevent the entire application from crashing due to errors in a specific component.
+
+
+
+
+
+
+9.
+useState is used for simple state management, while useReducer is used for more complex state management with logic.
+
+This answer is incorrect. The difference between useState and useReducer is that useState is used for simple state management, where the state can be updated directly, whereas useReducer is used for more complex state management that involves state transitions based on actions and logic.
+
+
+
+
+
+10.
+useContext
+
+This answer is correct. The useContext Hook allows you to share state data between multiple components by creating a shared context and accessing it within any component that subscribes to that context.

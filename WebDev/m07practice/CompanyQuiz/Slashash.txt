@@ -1,0 +1,695 @@
+Slashash
+
+
+
+01.
+What is a common way to handle errors when making API requests in React?
+
+Using the try...catch statement
+Ignoring errors and continuing execution
+Logging errors to the console
+Displaying error messages to the user
+
+
+
+
+
+
+02.
+What is CORS in the context of web APIs?
+
+Cross-Origin Request Sharing
+Cross-Origin Resource Sharing
+Cross-Origin Response Sharing
+Cross-Origin Resource Security
+
+
+
+
+
+
+03.
+What is the purpose of the Bootstrap grid system?
+
+Managing databases
+Styling text
+Creating responsive layouts
+Handling server-side logic
+
+
+
+
+
+
+04.
+What is a callback function in Node.js?
+
+A function that calls another function
+A function passed as an argument to another function
+A function that returns a value
+A function used for error handling
+
+
+
+
+
+
+05.
+What is a replica set in MongoDB?
+
+A group of MongoDB collections grouped together for efficient queries.
+A method for encrypting data at rest in MongoDB.
+A set of multiple MongoDB servers that maintain copies of the same data.
+A way to index data in MongoDB for faster retrieval.
+
+
+
+
+
+
+06.
+Which of the following statements is true about MongoDB?
+
+MongoDB is a relational database management system.
+MongoDB stores data in tables with fixed schemas.
+MongoDB uses a document-oriented data model.
+MongoDB supports complex JOIN operations.
+
+
+
+
+
+
+07.
+What does API stand for in the context of web development?
+
+Application Programming Interface
+Advanced Programming Interface
+Application Protocol Interface
+Advanced Protocol Interface
+
+
+
+
+
+
+08.
+Which HTTP method is typically used for retrieving data from a server in a RESTful API?
+
+POST
+GET
+PUT
+DELETE
+
+
+
+
+
+
+09.
+Which HTTP status code represents a successful HTTP request in which the server has fulfilled the request?
+
+200 OK
+404 Not Found
+500 Internal Server Error
+401 Unauthorized
+
+
+
+
+
+
+
+10.
+Which SQL function is used to find the maximum value in a column?
+
+AVG()
+MIN()
+MAX()
+SUM()
+
+
+
+
+
+
+11.
+What is normalization in the context of database design?
+
+Adding redundancy to improve query performance.
+Simplifying the data model by removing all relationships.
+Structuring a database to minimize data duplication and ensure data integrity.
+Creating a database without any constraints or rules.
+
+
+
+
+
+
+12.
+What does the SQL statement SELECT * FROM employees; do?
+
+Deletes all records from the employees table.
+Updates all records in the employees table.
+Retrieves all records and columns from the employees table.
+Inserts a new record into the employees table.
+
+
+
+
+
+
+13.
+What is the purpose of the SQL WHERE clause?
+
+To specify the order of the query results.
+To group rows based on a specific column.
+To filter rows based on a condition.
+To join multiple tables together.
+
+
+
+
+
+
+14.
+What is the purpose of the fetch API in JavaScript?
+
+To fetch data from a remote server using HTTP requests
+To fetch data from a local file
+To fetch data from the React component state
+To fetch data from a database directly
+
+
+
+
+
+
+15.
+Which of the following is not a valid MySQL data type?
+
+INT
+DECIMAL
+STRING
+DATE
+
+
+
+
+
+
+
+
+16.
+In React, what is the purpose of the axios library when working with APIs?
+
+To create and manage state in components
+To style React components
+To make HTTP requests to APIs
+To render components on the server
+
+
+
+
+
+
+
+
+17.
+What is the purpose of an SQL JOIN operation?
+
+To create a new table with merged data from two tables.
+To perform a union operation on two tables.
+To combine rows from two or more tables based on a related column.
+To delete rows from one table that match rows in another table.
+
+
+
+
+
+
+18.
+What is React's purpose for using the "key" prop when rendering lists of elements?
+
+It provides a unique identifier for CSS styling.
+It helps React identify which items have changed, added, or removed when re-rendering a list.
+It controls the order in which list items are displayed.
+It is used to define custom keyboard shortcuts for list items.
+
+
+
+
+19.
+What is the purpose of the Express Router?
+
+To route physical network traffic to an Express application.
+To define routes and handlers for specific URL paths in an Express application.
+To handle database operations in an Express application.
+To set up SSL encryption for an Express server.
+
+
+
+
+
+
+
+20.
+What is sharding in MongoDB?
+
+A technique for encrypting data in transit between MongoDB servers.
+A method for creating nested documents in MongoDB collections.
+A way to distribute data across multiple servers to improve scalability.
+A mechanism for defining schema in MongoDB collections.
+
+
+
+
+
+21.
+In React, which hook is commonly used to make API requests?
+
+useState
+useEffect
+useAPI
+useRequest
+
+
+
+
+
+
+22.
+What is the primary key in a MySQL table?
+
+A unique identifier for each row in the table.
+A column that stores the date and time a row was inserted.
+A column that stores a summary of the data in the table.
+A column that allows NULL values.
+
+
+
+
+
+
+23.
+What does SQL stand for?
+
+Structured Query Language
+Standard Query Language
+System Query Language
+Simple Query Language
+
+
+
+
+
+
+24.
+What is middleware in Express.js?
+
+A database schema for defining data structures.
+A type of HTTP request method.
+A function that handles requests and responses in the middleware stack.
+A template engine for rendering HTML in Express applications.
+
+
+
+
+
+
+25.
+Which SQL statement is used to delete data from a MySQL table?
+
+REMOVE
+ERASE
+DELETE
+DROP
+
+
+
+
+
+
+26.
+In React, how can you pass data from a parent component to a child component when making an API request in the parent?
+
+Using props
+Using state
+Using fetch
+Using axios
+
+
+
+
+
+
+27.
+What is the purpose of the Bootstrap 5 utility class "d-none"?
+
+It makes an element visible.
+It hides an element on all screen sizes.
+It sets an element's display property to "block".
+It changes an element's background color.
+
+
+
+
+
+
+
+28.
+Which SQL command is used to insert data into a MySQL table?
+
+ADD
+INSERT INTO
+UPDATE
+MODIFY
+
+
+
+
+
+29.
+Which HTTP methods are commonly used in RESTful APIs for performing CRUD (Create, Read, Update, Delete) operations?
+
+GET, POST, PUT, DELETE
+FETCH, ADD, UPDATE, REMOVE
+READ, WRITE, MODIFY, ERASE
+RECEIVE, SEND, ALTER, DELETE
+
+
+
+
+
+
+
+30.
+Which module in Node.js is used for creating web servers?
+
+fs
+http
+path
+OS
+
+
+
+
+
+
+
+
+
+Answer
+
+01.
+Using the try...catch statement
+
+Using the try...catch statement is a common way to handle errors when making API requests in React, allowing you to gracefully handle errors and prevent crashes.
+
+
+
+
+
+02.
+Cross-Origin Resource Sharing
+
+CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers that allows or restricts web pages in one domain from making requests to a different domain.
+
+
+
+
+
+03.
+Creating responsive layouts
+
+The Bootstrap grid system is used to create responsive and flexible page layouts.
+
+
+
+
+04.
+A function passed as an argument to another function
+
+In Node.js, callback functions are functions passed as arguments to other functions and are commonly used for asynchronous operations.
+
+
+
+
+05.
+A set of multiple MongoDB servers that maintain copies of the same data.
+
+A replica set in MongoDB is a group of multiple MongoDB servers that work together to ensure high availability and data redundancy. Each server in the replica set maintains a copy of the same data, and if one server goes down, the others can continue serving data, providing fault tolerance.
+
+
+
+
+
+06.
+MongoDB uses a document-oriented data model.
+
+MongoDB is a NoSQL database that uses a document-oriented data model to store data in flexible, schema-less documents, typically in BSON format (Binary JSON). Unlike traditional relational databases, MongoDB does not use tables with fixed schemas, and it does not support complex JOIN operations.
+
+
+
+
+
+
+
+07.
+Application Programming Interface
+
+API stands for Application Programming Interface. It is a set of rules and protocols that allow different software applications to communicate with each other.
+
+
+
+
+
+
+08.
+GET
+
+The HTTP GET method is typically used for retrieving data from a server in a RESTful API.
+
+
+
+
+
+
+
+09.
+200 OK
+
+The HTTP status code 200 OK indicates that the server has successfully processed the request.
+
+
+
+
+
+
+
+10.
+MAX()
+
+The MAX() function is used to find the maximum value in a column.
+
+
+
+
+
+
+11.
+Structuring a database to minimize data duplication and ensure data integrity.
+
+Normalization is the process of organizing a database to reduce data redundancy and maintain data integrity by defining relationships between tables.
+
+
+
+
+
+
+
+12.
+Retrieves all records and columns from the employees table.
+
+The "SELECT * FROM employees;" statement retrieves all rows and columns from the "employees" table.
+
+
+
+
+
+
+13.
+To filter rows based on a condition.
+
+The WHERE clause is used to filter rows from a table based on a specified condition.
+
+
+
+
+
+14.
+To fetch data from a remote server using HTTP requests
+
+The fetch API in JavaScript is used to make HTTP requests to fetch data from a remote server.
+
+
+
+
+
+
+15.
+STRING
+
+In MySQL, the correct data type for text and string values is VARCHAR, TEXT, or CHAR, not STRING.
+
+
+
+
+
+16.
+To make HTTP requests to APIs
+
+The axios library is commonly used in React to make HTTP requests to APIs
+
+
+
+
+
+17.
+To combine rows from two or more tables based on a related column.
+
+A JOIN operation is used to combine rows from different tables based on a related column.
+
+
+
+
+
+
+18.
+It helps React identify which items have changed, added, or removed when re- rendering a list.
+
+The "key" prop is used in React to help it identify which items in a list have changed, been added, or removed when re-rendering. It's crucial for efficient updates of lists in React.
+
+
+
+
+
+
+
+19.
+To define routes and handlers for specific URL paths in an Express application.
+
+The Express Router is used to define routes and their corresponding handlers for specific URL paths in an Express application. It helps organize the code and manage different endpoints by grouping them based on their functionality.
+
+
+
+
+
+
+20.
+A way to distribute data across multiple servers to improve scalability.
+
+Sharding is a MongoDB technique used to horizontally partition data across multiple servers or nodes to improve scalability and distribute the workload. It allows MongoDB to handle large amounts of data and high write and read loads.
+
+
+
+
+
+
+21.
+useEffect
+
+useEffect hook is commonly used in React to perform side effects, such as making API requests, when a component renders or updates.
+
+
+
+
+
+
+22.
+A unique identifier for each row in the table.
+
+The primary key is a column or set of columns that uniquely identifies each row in a table.
+
+
+
+
+
+
+23.
+Structured Query Language
+
+SQL stands for Structured Query Language, which is a domain-specific language used for managing and querying relational databases.
+
+
+
+
+
+
+24.
+A function that handles requests and responses in the middleware stack.
+
+In Express.js, middleware are functions that are executed in the request-response cycle. They have access to the request object (req), the response object (res), and the next middleware function in the stack. Middleware can be used for tasks like authentication, logging, and error handling.
+
+
+
+
+
+
+
+25.
+DELETE
+
+The "DELETE" statement is used to remove rows from a MySQL table.
+
+
+
+
+
+
+26.
+Using props
+
+You can pass data from a parent component to a child component in React using props.
+
+
+
+
+
+
+27.
+It hides an element on all screen sizes.
+
+The "d-none" class in Bootstrap 5 is used to hide an element on all screen sizes. It sets the "display" property to "none" to achieve this.
+
+
+
+
+
+
+
+28.
+INSERT INTO
+
+The "INSERT INTO" command is used to add new rows of data into a MySQL table.
+
+
+
+
+
+
+29.
+GET, POST, PUT, DELETE
+
+The most commonly used HTTP methods in RESTful APIs for CRUD operations are GET (Read), POST (Create), PUT (Update), and DELETE (Delete)
+
+
+
+
+
+
+30.
+http
+
+The 'http' module in Node.js is used for creating HTTP servers.
+

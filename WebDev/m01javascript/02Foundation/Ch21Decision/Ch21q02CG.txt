@@ -1,0 +1,97 @@
+quiz 02 CG
+
+
+
+
+1. What is the purpose of an `if` statement in JavaScript?
+   a. To define a function
+   b. To declare a variable
+   c. To control the flow of code based on a condition
+   d. To create a loop
+
+
+   
+
+
+2. Which of the following statements is true about the `if-else` statement?
+   a. It can have multiple `else` blocks.
+   b. It can only have one `if` block and one `else` block.
+   c. It can have multiple `if` blocks.
+   d. It can't have an `else` block.
+
+
+   
+
+
+3. What is the purpose of nested `if` statements?
+   a. To improve code performance
+   b. To make the code more readable
+   c. To check multiple conditions sequentially
+   d. To create an infinite loop
+
+
+   
+
+
+4. Which control structure is used to replace a series of `if-else` statements when you need to select one option among many?
+   a. for loop
+   b. switch statement
+   c. while loop
+   d. do-while loop
+
+
+   
+
+
+
+5. In a JavaScript `switch` statement, when should you use the `break` statement?
+   a. Before each `case` label
+   b. After each `case` block
+   c. Only when you want to exit the `switch` statement
+   d. When you want to combine multiple `case` values
+
+
+   
+
+
+
+6. What is the result of the following expression: `x > 5 ? "A" : "B"` if `x` is equal to 3?
+   a. "A"
+   b. "B"
+   c. Error
+   d. undefined
+
+
+   
+
+
+
+7. Which of the following values is considered "falsy" in JavaScript?
+   a. 0
+   b. " "
+   c. NaN
+   d. All of the above
+
+
+
+
+
+
+8. What is the correct way to compare two values for both value and type equality in JavaScript?
+   a. `==`
+   b. `===`
+   c. `=`
+   d. `!=`
+
+
+
+
+Answers:
+1. c - to control the flow of code based on condition 
+2. a - it can have multipel else blocks 
+3. c - to check multiple conditions sequentially 
+4. b - switch statements 
+5. c - only when you want to exit the 'switch' statements
+6. b - B
+7. d - all of the above 
+8. b - `===`

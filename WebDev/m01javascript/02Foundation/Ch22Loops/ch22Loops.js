@@ -1,6 +1,6 @@
-//
+
 // Loops & control statements in javascript 
-//
+
 
 
 
@@ -30,19 +30,6 @@
 
 
 /**
- * explore quiz 
- * 
- * -- 01 ab 
- * -- 02 cg
- * -- 03 cg 
- * 
-*/
-
-
-
-
-
-/**
  * explore coding 
  * 
 */
@@ -63,17 +50,16 @@
 
 
 /**
- *    22. Loops & control statements
-        -- https://dev.to/srsajjad/optimizing-loop-in-javascript-3la
-        -- https://data-flair.training/blogs/javascript-loop-control/
-        -- https://www.mygreatlearning.com/javascript/tutorials/javascript-loop-control
- */
+   Links 
+   -- https://dev.to/srsajjad/optimizing-loop-in-javascript-3la
+   -- https://data-flair.training/blogs/javascript-loop-control/
+   -- https://www.mygreatlearning.com/javascript/tutorials/javascript-loop-control
+*/
 
 
 
 
 /*
-
 
   01. for {
     -- syntax 
@@ -170,64 +156,30 @@
 
 
 
+/*
+   Activity - true or false 
+    
+   01.  The variable in the for...of loop is assigned the value of the __________ (previous / next / random) element in the iterable object.
+    
+   02.  The for...in loop iterates over __________ (enumerable / inherited / private) properties of an object.
+    
+   03.  In a for...of loop, the loop will continue to execute until the __________ (iterator / variable / condition) has no more values to return.
+    
+   04.  The while loop in JavaScript executes the loop body __________ (at least once / multiple times / never) if the condition is true initially.
+    
+   05.  The condition in a do...while loop is checked __________ (before each iteration / after each iteration / only once at the beginning).
+    
+    
+   Answers
+   01.  next
+   02.  enumerable
+   03.  iterator
+   04.  multiple times
+   05.  after each iteration
+    
+*/
 
 
-
-{
-    /*
-       activity - guess the words 
-
-
-
-
-    */
-}
-
-
-
-
-
-
-
-{
-
-    /*
-       Activity - true or false 
-    
-    
-    
-       01.  The variable in the for...of loop is assigned the value of the __________ (previous / next / random) element in the iterable object.
-    
-    
-    
-       02.  The for...in loop iterates over __________ (enumerable / inherited / private) properties of an object.
-    
-    
-    
-        03.  In a for...of loop, the loop will continue to execute until the __________ (iterator / variable / condition) has no more values to return.
-    
-    
-    
-        04.  The while loop in JavaScript executes the loop body __________ (at least once / multiple times / never) if the condition is true initially.
-    
-    
-    
-        05.  The condition in a do...while loop is checked __________ (before each iteration / after each iteration / only once at the beginning).
-    
-    
-    
-    Answers
-    01.  next
-    02.  enumerable
-    03.  iterator
-    04.  multiple times
-    05.  after each iteration
-    
-    
-    
-    */
-
-}
 
 
 

@@ -1,0 +1,28 @@
+Skill Mastery Links {
+       -- https://javascript.plainenglish.io/what-are-javascript-programming-paradigms-3ef0f576dfdb
+       -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+}
+
+
+
+Skill Mastery interview concept {
+
+       -- Math.floor()
+       -- Math.ceil()
+       -- Math.round()
+       -- Math.trunc()
+
+       -- Math.pow()
+       -- Math.sqrt()
+       -- Math.abs()
+
+       -- Math.min()
+       -- Math.max()
+
+       -- Math.random()
+       -- 
+}
+
+
+
+

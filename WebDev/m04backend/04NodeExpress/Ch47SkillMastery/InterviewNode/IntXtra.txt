@@ -1,7 +1,0 @@
-01. Event emitter 
-02. REPL
-03. setImmediate vs setNextTick 
-04. process in nodejs 
-05. Asynchronous vs NonBlocking
-06. Control flow 
-07. callback 

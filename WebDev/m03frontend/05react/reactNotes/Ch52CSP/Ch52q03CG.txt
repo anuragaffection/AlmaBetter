@@ -55,9 +55,6 @@
 
 
 
-
-
-
 1. **What is a component in React?**
    
    A component in React is a reusable building block that encapsulates a piece of user interface (UI) and its functionality.
