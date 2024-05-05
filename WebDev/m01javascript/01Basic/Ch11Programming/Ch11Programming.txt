@@ -1,0 +1,60 @@
+Gettig Started With Programming 
+
+1. Full stack web development 
+2. Understanding the web 
+3. Programming
+4. Programming Language 
+5. program structure 
+6. Environment setup 
+7. First program
+
+
+
+Links {
+    -- https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/
+    -- https://www.easeout.co/blog/2020-10-19-javascript-syntax-structure/
+}
+
+
+Notes {
+    -- 
+}
+
+
+Task {
+    -- 
+}
+
+
+
+1. Full stack web development {
+
+    Server Technologies 
+    -- 
+}
+
+
+2. Understanding the web 
+3. Programming
+4. Programming Language 
+5. program structure 
+
+6. Environment setup {
+
+    bundler 
+    --  
+}
+
+7. First program
+
+
+
+
+Activity : {
+
+    A. Guess the word 
+
+
+    B. True or false 
+
+}

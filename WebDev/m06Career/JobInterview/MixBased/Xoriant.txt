@@ -1,0 +1,233 @@
+
+Xoriant Frontend Interview questions
+
+01. **Singleton Pattern and When to Use it**:
+02. **jQuery Experience**:
+03. **What if You Are Missing the Deadline for a Critical Task**:
+04. **How Do We Progress with Development, the First Few Steps**:
+05. **Data Types in JavaScript**:
+06. **Is Symbol a Data Type in JavaScript**:
+07. **Hoisting**:
+08. **How Do You Confirm the Code Is Clean/Good Practice and How to Restrict**:
+09. **Immediately Invoked Function Expression**:
+10. **What Is the Problem without `<HTML5>`**:
+11. **What Are Web Workers**:
+12. **Local Session, Local Storage, and Cookies Difference? What Is Size**:
+13. **HTML5 New Features**:
+14. **Multiple `<headers />`**:
+15. **How Can We Use JavaScript ES6 Inheritance**:
+16. **What Are Generator Functions and Write One Example**:
+17. **What Are Immediately Invoked Function Expression, Write One Example**:
+18. **How to Apply Styles on Last 2 Divs**:
+19. **Arrow Function**:
+20. **When Should We Not Use the Arrow Function**:
+21. **Spread Operator and Rest Operator**:
+22. **How Many States Are There for Promise**:
+23. **ReactJS and React Native Difference**:
+24. **How Do You Create Refs in ReactJS**:
+25. **What Happens If You Try to Update States Directly**:
+26. **Advantages of Using Flux**:
+27. **Redux Thunk and Saga**:
+28. **What Are Synthetic Events**:
+29. **Create Todo App in ReactJS**:
+
+
+
+
+
+
+Answer by ChatGpt 
+
+
+
+1. **Singleton Pattern**: It's a design pattern where a class has only one instance and provides a global point of access to that instance. It's used when you want to ensure a single instance of a class exists in the system, like for managing resources that are shared across the application, such as a database connection or a logger.
+
+
+
+2. **jQuery Experience**: I have experience using jQuery for DOM manipulation and handling events in web development projects.
+
+
+
+3. **Missing Deadline for Critical Task**: If I'm missing a deadline for a critical task, I would immediately communicate with the stakeholders, explain the situation, and discuss potential solutions to mitigate the impact. This could involve reassigning tasks, adjusting priorities, or seeking additional resources if possible.
+
+
+
+4. **Progressing with Development - First Steps**: The initial steps in development typically involve understanding the requirements, breaking them down into smaller tasks, setting up the development environment, and creating a basic project structure. This is followed by implementing core functionality and continuously testing and iterating on it.
+
+
+
+5. **Data Types in JavaScript**: JavaScript has several data types including `number`, `string`, `boolean`, `object`, `function`, `undefined`, and `null`.
+
+
+
+6. **Symbol as a Data Type in JavaScript**: Yes, `Symbol` is a data type introduced in ES6. It's used to create unique identifiers.
+
+
+
+7. **Hoisting**: Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they are declared in the code.
+
+
+
+8. **Confirming Clean Code/Good Practice**: Code cleanliness and good practices can be confirmed through code reviews, following coding standards and style guides, using linters and static code analysis tools, and writing unit tests.
+
+
+
+9. **Immediately Invoked Function Expression (IIFE)**: It's a JavaScript design pattern where a function is declared and invoked immediately after its definition. Example: `(function() { console.log('IIFE executed'); })();`
+
+
+
+10. **Problem without `<HTML5>`**: Without the `<HTML5>` doctype declaration, modern browsers may not render the page correctly and may fall back to quirks mode, causing inconsistent rendering and behavior across different browsers.
+
+
+
+
+11. **Web Workers**: Web Workers are a browser feature that allows JavaScript code to run in background threads, separate from the main execution thread. They enable concurrent execution and can improve performance by offloading tasks such as heavy computations or long-running processes to background threads.
+
+
+
+12. **Local Session, Local Storage, and Cookies Difference**: 
+    - Local session storage: Stores data temporarily for a particular session, data is cleared when the session ends or the browser is closed.
+    - Local storage: Stores data persistently across browser sessions until explicitly cleared by the user or the web application.
+    - Cookies: Store small pieces of data sent from a website and stored on the user's device, often used for session management, user preferences, and tracking. Cookies have size limitations compared to local storage.
+
+
+
+
+13. **HTML5 New Features**: Some new features introduced in HTML5 include `<canvas>` for drawing graphics, `<video>` and `<audio>` elements for embedding media, `<localstorage>` and `<sessionstorage>` for client-side storage, `<nav>`, `<header>`, `<footer>`, `<section>`, `<article>`, `<aside>` for semantic markup, and support for new input types and attributes.
+
+
+
+
+14. **Multiple `<headers />`**: In HTML, having multiple `<header>` elements is valid, but each document should contain only one main `<header>` that typically includes introductory content or navigation for the entire page.
+
+
+
+
+15. **JavaScript ES6 Inheritance**: In ES6, inheritance can be achieved using the `class` syntax and the `extends` keyword. Here's an example:
+
+    ```javascript
+    class Animal {
+      constructor(name) {
+        this.name = name;
+      }
+      
+      speak() {
+        console.log(`${this.name} makes a noise.`);
+      }
+    }
+    
+    class Dog extends Animal {
+      speak() {
+        console.log(`${this.name} barks.`);
+      }
+    }
+    
+    const dog = new Dog('Buddy');
+    dog.speak(); // Output: Buddy barks.
+    ```
+
+
+
+
+
+16. **Generator Functions**: Generator functions in JavaScript allow you to define an iterator by using the `function*` syntax. They can pause execution and return intermediate results using the `yield` keyword. Here's an example:
+
+    ```javascript
+    function* generateSequence() {
+      yield 1;
+      yield 2;
+      yield 3;
+    }
+    
+    const generator = generateSequence();
+    
+    console.log(generator.next().value); // Output: 1
+    console.log(generator.next().value); // Output: 2
+    console.log(generator.next().value); // Output: 3
+    ```
+
+
+
+
+
+17. **Immediately Invoked Function Expression (IIFE) Example**:
+    ```javascript
+    (function() {
+      console.log('This is an IIFE');
+    })();
+    ```
+
+
+
+
+18. **Styling Last 2 Divs with CSS**:
+    ```css
+    div:nth-last-child(-n+2) {
+      /* Styles for the last 2 divs */
+    }
+    ```
+
+
+
+
+19. **Arrow Function**: Arrow functions are a concise syntax for writing function expressions in JavaScript. They have implicit returns and lexical `this`. Example: 
+    ```javascript
+    const add = (a, b) => a + b;
+    ```
+
+
+
+
+20. **When Not to Use Arrow Functions**: Arrow functions should not be used in situations where you need dynamic `this` context, such as object methods or constructors.
+
+
+
+
+21. **Spread Operator and Rest Operator**: 
+    - Spread operator (`...`) is used to expand elements of an array or properties of an object.
+    - Rest operator (`...`) is used to collect multiple elements of an array or parameters of a function into a single array.
+
+
+
+
+22. **Promise States**: Promises in JavaScript have three states: `pending`, `fulfilled`, and `rejected`.
+
+
+
+23. **ReactJS vs React Native Difference**: ReactJS is a JavaScript library for building user interfaces for web applications, while React Native is a framework for building native mobile applications using JavaScript and React.
+
+
+
+24. **Creating Refs in ReactJS**: Refs in ReactJS can be created using the `React.createRef()` method or by using callback refs. Example:
+    ```javascript
+    class MyComponent extends React.Component {
+      constructor(props) {
+        super(props);
+        this.myRef = React.createRef();
+      }
+      render() {
+        return <div ref={this.myRef} />;
+      }
+    }
+    ```
+
+
+
+25. **Updating States Directly**: Directly mutating the state object in React can lead to unexpected behavior and should be avoided. Instead, use `setState()` method to update state.
+
+
+
+26. **Advantages of Using Flux**: Flux architecture provides a unidirectional data flow, which makes it easier to understand and debug large-scale applications. It also promotes separation of concerns by clearly defining data flow and update logic.
+
+
+
+27. **Redux Thunk and Saga**: Redux Thunk and Redux Saga are middleware libraries for Redux that allow handling asynchronous actions. Redux Thunk uses plain JavaScript functions as action creators, while Redux Saga uses generators to manage asynchronous flow.
+
+
+
+28. **Synthetic Events**: Synthetic events are a cross-browser wrapper around native browser events in React. They provide a consistent interface for handling events and are optimized for performance.
+
+
+
+29. **Create Todo App in ReactJS**: Creating a Todo app involves defining components for adding, editing, and deleting tasks, managing state using React's state or Redux, and handling user interactions such as clicks and input changes. The exact implementation would depend on specific requirements and preferences.
+

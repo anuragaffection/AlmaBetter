@@ -1,0 +1,67 @@
+Managing State with Redux & Redux toolkit
+- Introduction to redux 
+- Why do we need redux 
+- How to get started with redux
+- How to create redux store 
+- How to change the store 
+- Redux store with Redux toolkit
+- Handle Asynchronous code using actions creators 
+- How to handle side effects 
+
+
+
+
+Links {
+    - https://redux.gitbook.io/docs/advanced/asyncactions
+    - https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/
+    - https://www.copycat.dev/blog/react-redux/
+}
+
+
+Notes {
+    - 
+}
+
+
+Task {
+    - Checkout Anu-store project 
+    - State in redux is immutable, then how we update state , & how it works 
+    - architecture or working principle of redux 
+}
+
+
+
+
+Introduction to redux {
+    - Single Source of truth 
+    - State is Read-only & immutable ]
+    - Changes are made by pure functions 
+    - unidirectional data flow 
+    - travel debugging, middleware, 
+}
+
+
+Why do we need redux {
+    - Centralized state management 
+    - Single source of truth
+    - predicatable state updates ]
+    - 
+}
+
+
+How to get started with redux
+
+
+How to create redux store 
+
+
+How to change the store 
+
+
+Redux store with Redux toolkit
+
+
+Handle Asynchronous code using actions creators 
+
+
+How to handle side effects 

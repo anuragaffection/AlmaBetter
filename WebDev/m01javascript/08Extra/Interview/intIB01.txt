@@ -2,6 +2,12 @@ Javascript MCQs Question by Interview Bit
 --- https://www.interviewbit.com/javascript-mcq/
 
 
+
+Notes 
+-- statements definitions 
+-- 
+
+
 01. Javascript is an _______ language?
 --- object oriented 
 
@@ -27,18 +33,24 @@ Javascript MCQs Question by Interview Bit
 
 
 07. clousres in details ]]
+-- clousres are function within function with lexical scope , means have variables access outside 
+
 
 08. Any NULL value of operator will always return typeof object.
 
+
 09. What does the Javascript “debugger” statement do?
 --- it acts as a breakpoints in a programm 
+
 
 10. Math.max(), Math.min()
 --- The Math.max() method returns  -Infinity value by default 
 --- the Math.min() method returns  Infinity value by default 
 
+
 11. Math.MIN_VALUE , Math.MAX_VALUE 
 --- 
+
 
 12. NaN === NaN
 --- false 
@@ -83,7 +95,6 @@ Javascript MCQs Question by Interview Bit
 
 23. Which object in Javascript doesn’t have a prototype? ]]]
 --- base object
-
 
 
 

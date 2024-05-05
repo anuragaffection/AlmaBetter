@@ -1,4 +1,0 @@
-Status - Pending 
-
-01. react form 
-02. form validation 

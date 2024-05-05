@@ -217,7 +217,6 @@ This answer is correct. The componentDidCatch method is a lifecycle method intro
 
 
 
-
 9.
 useState is used for simple state management, while useReducer is used for more complex state management with logic.
 
@@ -226,8 +225,9 @@ This answer is incorrect. The difference between useState and useReducer is that
 
 
 
-
 10.
 useContext
 
 This answer is correct. The useContext Hook allows you to share state data between multiple components by creating a shared context and accessing it within any component that subscribes to that context.
+
+

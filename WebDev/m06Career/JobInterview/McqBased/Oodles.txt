@@ -1,0 +1,32 @@
+oodles Technologies
+-- https://www.oodlestechnologies.com/
+
+
+Job title 
+-- Node js Backend Developer 
+
+
+Round 01 = Online Assesssment 
+Duration = 1 hour
+Level = Easy 
+
+
+20 MCQs 
+-- 5 Javascript 
+-- 5 Node js 
+-- 5 Reasoning 
+-- 5 English Grammar 
+
+
+Javascript topics
+-- Closures 
+-- this keyword 
+-- array 
+-- type conversion 
+-- function declaration 
+
+
+Node js 
+-- Closures
+-- Import 
+-- export 

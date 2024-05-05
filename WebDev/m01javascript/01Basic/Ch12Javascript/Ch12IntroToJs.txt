@@ -1,0 +1,26 @@
+
+introduction to javascript
+-- What is javascript
+-- Role of javascript
+-- Interactions 
+-- Variables 
+-- Data Types 
+-- Special Types in javascript
+-- 
+
+
+
+Links {
+    -- https://thecodebarbarian.com/a-practical-guide-to-symbols-in-javascript.html
+    -- https://www.guru99.com/introduction-to-javascript.html
+    -- https://javascript.info/intro
+}
+
+
+Notes {
+    -- 
+}
+
+Task {
+    -- 
+}

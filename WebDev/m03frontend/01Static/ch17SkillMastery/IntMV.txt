@@ -1,7 +1,6 @@
 HTML Interview Question [ by Monesh Venkul ]
 
-
-Topics 
+Topics
 01. HTML
 02. html Advance
 03. css 
@@ -9,22 +8,29 @@ Topics
 05. Bootstrap
 06. Bootstrap  advance
 
+Links 
+-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model
 
+Task 
+-- attribute vs properties
+-- Semantic tag vs unsemantic tag 
+-- block vs inline element
+-- tag vs element
 
-Task {
-    -- attribute vs properties
-}
-
+Question
+-- What is by default value of box sizing in css 
+-- 
 
 
 01. HTML Basics
 
 1. What is HTML?
--- HTML (HyperText Markup Language) is the standard markup language used to create and design web pages. It describes the structure of web pages using markup.
+-- HTML (HyperText Markup Language) is the standard markup language used to create and design web pages.  It describes the structure of web pages using markup.
+
 
 
 2. Describe the basic structure of an HTML document.
--- An HTML document starts with a <!DOCTYPE html> declaration, followed by an <html> element that encloses the <head> and <body> sections. The <head> contains meta-information and links to scripts and stylesheets, while the <body> contains the content of the page.
+-- An HTML document starts with a <!DOCTYPE html> declaration, followed by an <html> element that encloses the <head> and <body> sections.  The <head> contains meta-information and links to scripts and stylesheets, while the <body> contains the content of the page.
 
 
 3. What is the difference between <div> and <span>?

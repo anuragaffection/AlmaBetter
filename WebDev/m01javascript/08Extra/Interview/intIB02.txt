@@ -10,15 +10,25 @@ Task {
 }
 
 
+Task Answer {
+    1. Higher order function vs closure
+    -- Higher order function takes function as parameter
+    -- closure is a function written inside function with lexical scope 
+}
+
 
 02. Hoisting 
 --- Variable initializations are not hoisted, 
 --- only variable declarations are hoisted
 --- To avoid hoisting, use “use strict” on top of the code
+--- eg. var x, = variable initializations
+--- eg. x = 20, = variable declarations
+--- eg. var x = 20, = variable initializations + declarations
 
 
 
 03. Why do we use the word “debugger” in javascript?]]
+
 
 
 06. implicit type coersion 
@@ -51,10 +61,13 @@ Task {
 10. What is an Immediately Invoked Function in JavaScript?]]]
 --- does not have function name 
 --- just have function keyword
---- syntax, (
-      function(){
-      }
+--- syntax, 
+    ( 
+        function(){
+
+        }
     )()
+
 
 
 12. Explain Higher Order Functions in javascript.]]]
@@ -64,12 +77,17 @@ Task {
 
 
 13. Explain `this` keyword ]]] check again 4 example given]]]
---- The “this” keyword refers to the object that the function is a property of.
+--- define this keyword
+--- https://www.interviewbit.com/javascript-interview-questions/#this-keyword
+--- The “this” keyword refers to the object, that the function is a property of.
 --- The value of  “this” keyword will always depend on the object that is invoking the function.
+--- 
+
 
 
 14. Self invoking function ]]]
---- 
+--- same as Immediately Invoked function
+
 
 
 15. call, bind, apply ]]]]
