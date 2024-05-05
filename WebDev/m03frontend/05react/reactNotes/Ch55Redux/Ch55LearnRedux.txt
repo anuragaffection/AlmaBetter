@@ -10,6 +10,12 @@ Managing State with Redux & Redux toolkit
 
 
 
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+
+
 
 Links {
     - https://redux.gitbook.io/docs/advanced/asyncactions
@@ -18,18 +24,34 @@ Links {
 }
 
 
+
 Notes {
+
+    - arrow syntax  in ES6 
+    - default paramter in 
+
+    - avoid impure task in redux
+    - avoid Asynchronous task in redux
+
+    - use middleware, to do Asynchronous task in redux 
+    - do only pure & synchronous task 
+
+    - do not update, state directly in redux 
     - 
 }
 
 
+
 Task {
+    - redux vs react-redux vs redux toolkit
     - Checkout Anu-store project 
     - State in redux is immutable, then how we update state , & how it works 
     - architecture or working principle of redux 
 }
 
-
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
 
 
 Introduction to redux {
@@ -41,27 +63,102 @@ Introduction to redux {
 }
 
 
+
 Why do we need redux {
     - Centralized state management 
     - Single source of truth
     - predicatable state updates ]
+    - application scalability 
+    - time travle debugging
+    - middleware & ecosystem 
     - 
 }
 
 
-How to get started with redux
 
 
-How to create redux store 
 
 
-How to change the store 
+How to get started with redux {
+    - npx 
+    - npm 
+}
 
 
-Redux store with Redux toolkit
 
 
-Handle Asynchronous code using actions creators 
+
+How to create redux store {
+    - createStore 
+    - createStore() takes three parameters 
+    - createStore(reducer,  State, optional)
+    - createStore(reducer function, Initial state, middleware)
+
+    - reducer function () takes two parameters
+    - reducer function(state, action )
+    - we can set Initial state in reducer too, if we do not want to set in createStore()
+    - reducer get called when we pass in createStore()
+
+    - subscribe()
+    - getState()
+    - dispatch()
+
+    Notes 
+    - subscribe() & getState(), is these are inbuilt part of redux 
+}
 
 
-How to handle side effects 
+
+
+How to change the store {
+    - createStore()
+    - dispatch()
+    - subscribe()
+    - getState()
+    - type
+    - payload
+
+    - the only way to change the store is by dispatching actions 
+    - action , is an object 
+    - 
+}
+
+
+
+
+Redux store with Redux toolkit {
+
+    react-redux 
+    - useDispathch()
+
+    reduxjs/toolkit
+    - configureStore()
+    - createSlice()
+    - combineReducers() 
+    - reducer
+    - reducers 
+    - name 
+    - initialState
+    - action
+    - action.payload
+
+    install 
+    - react-redux 
+    - reduxjs/@toolkit 
+}
+
+
+
+
+
+
+Handle Asynchronous code using actions creators {
+    - useEffect()
+    - componentDidMount()
+}
+
+
+
+
+
+How to handle side effects ]]

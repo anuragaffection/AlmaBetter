@@ -1,0 +1,238 @@
+Managing State with redux
+
+
+
+
+01.
+In ReactJS, what is the recommended way to change the store based on user interactions?
+
+set the setState() method
+Call the this.updateStore() function
+Dispatch actions to update the store
+Use the localStorage object
+
+
+
+
+02.]]]
+What is the purpose of an Index Route in managing state with Redux?
+
+To define the root URL of the application.
+To handle routing for different components based on the URL path.
+To create an index of all the reducers used in the application.
+To define the initial state of the Redux store.
+
+
+
+
+
+
+03.
+Which of the following components are essential in a Redux application?
+
+Action, Reducer, and Store.
+Action, Container, and Middleware.
+State, Reducer, and Provider.
+Provider, Container, and Middleware.
+
+
+
+
+
+
+04.
+Which of the following statements best describes the purpose of using action creators for handling asynchronous code in ReactJS?
+
+Action creators help in creating Redux actions that are used to dispatch data to the reducers.
+Action creators help in managing the state of the components in React.
+Action creators are used to handle asynchronous tasks such as API calls and dispatch the results to Redux store.
+Action creators are solely responsible for updating the view layer in React.
+
+
+
+
+
+
+
+05.
+Which of the following components is a part of the Redux architecture?
+
+Reducers
+Prototypes
+Bundlers
+Decorators
+
+
+
+
+
+
+06.
+Why is it important to handle side effects properly when managing state with Redux?
+
+To avoid potential bugs and errors
+To improve the performance of the application
+To maintain a clean and readable codebase
+All of the above
+
+
+
+
+
+
+07.
+In which lifecycle method of a class component should you handle side effects when managing state with Redux?
+
+componentDidMount
+componentDidUpdate
+componentWillMount
+componentWill Unmount
+
+
+
+
+
+
+
+08.]]]]
+In which lifecycle method of a React component is it appropriate to dispatch an action creator for fetching data from an API?
+
+componentDidMount
+componentDidUpdate
+componentWillMount
+render
+
+
+
+
+
+
+
+09.
+What is the purpose of a Redux store in a React.js application?
+
+To manage the state of the entire application.
+To create actions and reducers for React components.
+To handle asynchronous operations in React components.
+To improve the performance of React components.
+
+
+
+
+
+
+10.
+Which React hook allows you to connect a component to the Redux store?
+
+useEffect()
+useSelector()
+useStore()
+connect()
+
+
+
+
+
+
+
+
+
+Answer
+
+01.
+Dispatch actions to update the store
+
+This answer is correct. In ReactJS applications with Redux, the recommended way to update the store based on user interactions is to dispatch actions. Actions are plain JavaScript objects that describe what happened and contain the necessary information to update the store in response to user interactions or other events.
+
+
+
+
+
+02.
+To handle routing for different components based on the URL path.
+
+
+This answer is incorrect. An Index Route in managing state with Redux is used to handle routing for different components based on the URL path. It helps in rendering the appropriate components and managing the application's navigation.
+
+
+
+
+
+03.
+Action, Reducer, and Store.
+
+This answer is correct. In a Redux application, the three essential components are: Action: Represents an object with a "type" property that describes the type of action being performed. It is used to carry information from the application to the Redux store. Reducer: A pure function that takes the current state and an action as input and returns the new state based on the action type. It specifies how the state should change in response to actions. Store: The single source of truth that holds the application state. It is responsible for dispatching actions to the reducers and updating the state based on their responses.
+
+
+
+
+
+
+04.
+Action creators are used to handle asynchronous tasks such as API calls and dispatch the results to Redux store.
+
+This answer is correct. Action creators in ReactJS are commonly used to handle asynchronous tasks, such as making API calls, and then dispatching the received data to the Redux store. This allows the application to manage the state more efficiently and separate the asynchronous logic from the view layer.
+
+
+
+
+
+05.
+Reducers
+
+This answer is correct. Reducers are a fundamental part of the Redux architecture. A reducer is a pure function responsible for specifying how the application's state changes in response to dispatched actions. It takes the current state and an action as input and returns a new state based on the action type. Reducers play a crucial role in maintaining the immutability of the application state.
+
+
+
+
+
+06.
+All of the above
+
+This answer is correct. Handling side effects properly when managing state with Redux is crucial for various reasons. By managing side effects correctly, you can avoid potential bugs and errors that may arise due to improper handling of asynchronous tasks or resource cleanup. It also helps improve the performance of the application by ensuring that unnecessary side effects are minimized. Additionally, well-organized code that properly handles side effects leads to a clean and readable codebase, making it easier to maintain and extend the application over time.
+
+
+
+
+
+
+07.
+componentDidMount
+
+This answer is correct. In class components, you handle side effects when managing state with Redux in the componentDidMount lifecycle method. This method is called once, immediately after the component has been rendered to the DOM. It's an ideal place to perform tasks that need to be done only once when the component is mounted, like initializing data or making API calls.
+
+
+
+
+
+
+08.
+componentDidMount
+
+This answer is incorrect. The appropriate lifecycle method to dispatch an action creator for fetching data from an API is componentDidMount. This method is called after the component has been rendered to the screen, making it suitable for initiating asynchronous tasks like API calls.
+
+
+
+
+
+09.
+To manage the state of the entire application.
+
+This answer is correct. The primary purpose of a Redux store is to manage the state of the entire application. It provides a single source of truth for the state and makes it accessible to all React components.
+
+
+
+
+
+
+10.
+useSelector()
+
+This answer is correct. useSelector() is a React hook provided by the react-redux library that allows components to extract data from the Redux store. It provides a way to select and subscribe to specific parts of the Redux state, making it available to the component.
+
+
+
+
+
+
+Thank You 
