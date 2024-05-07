@@ -1,0 +1,108 @@
+
+Error Handling & Debugging & Unit Testing
+- Error handling
+- Javascript Errors in React 
+- Debugging Tools
+- Console & Debugging 
+- React Error Boundaries 
+- Catching & handling errors 
+- React Error and their Solutions
+- Unit Testing 
+- React Testing Library
+- Types of unit testing 
+- How to perform testing 
+- Examples of testing 
+
+
+
+Links {
+    - https://legacy.reactjs.org/docs/testing.html
+    - https://blog.bitsrc.io/complete-guide-to-unit-tests-with-react-af6ed372244b
+}
+
+
+Notes {
+    - 
+}
+
+
+Task {
+    - 
+}
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+
+Error handling {
+    - Error Boundaries
+    - componentDidCatch()
+    - try catcth 
+    - Promise.catcth()
+
+    - react-error-boundary 
+    - react-dev-tools 
+    - chrome-dev-tools 
+    - jest 
+    - react-testing-library 
+}
+
+
+
+Javascript Errors in React {
+    - syntax error
+    - reference error
+    - type error 
+    - runtime error 
+    - network error
+    - Promise or aysnchronous error
+    - 
+}
+
+
+Debugging Tools {
+    - 
+}
+
+
+Console & Debugging 
+
+
+React Error Boundaries 
+
+
+Catching & handling errors
+
+
+React Error and their Solutions
+
+
+Unit Testing 
+
+
+React Testing Library
+
+
+Types of unit testing 
+
+
+How to perform testing 
+
+
+Examples of testing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

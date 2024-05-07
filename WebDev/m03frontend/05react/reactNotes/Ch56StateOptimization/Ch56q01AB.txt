@@ -1,0 +1,233 @@
+
+01.
+
+How is a context created in React?
+
+By using the React.createContext() function
+By using the React.useContext() hook
+By using the React.Context.Provider component
+By using the React.Context.Consumer component
+
+
+
+
+
+02.
+Which React function is used for code splitting?
+
+React.lazy()
+React.split()
+React.load()
+React.import()
+
+
+
+
+
+
+03.
+How can a component consume data from the context in React?
+
+By using the this.context property
+By passing the data as props to the component
+By using the useContext() hook
+By importing the context object directly
+
+
+
+
+
+04.
+How can you provide data to the child components using the Context API?
+
+By passing the data as props to each child component individually
+By wrapping the child components with the Context.Provider component and providing the data as a value prop
+By calling the this.context property within each child component
+By importing the context object directly within each child component
+
+
+
+
+
+05.
+Which of the following is true regarding the dependencies array in useMemo and useCallback?
+
+The dependencies array is optional and can be omitted.
+The dependencies array should always contain all variables used inside the function.
+The dependencies array determines when the memoized value or function should be recalculated.
+The dependencies array is used to specify the initial values of the memoized value or function.
+
+
+
+
+
+
+06.
+How can you mitigate the issue of Props drilling?
+
+Use global state management libraries like Redux
+Utilize React's Context API
+Implement component composition patterns like Render Props or Higher-Order Components (HOCs)
+All of the above
+
+
+
+
+
+
+07.
+What is Props drilling in React?
+
+Passing data from parent component to child component
+Passing data from child component to parent component
+Passing data through multiple levels of nested components
+Passing data between sibling components
+
+
+
+
+
+
+08.
+Which of the following statements about useMemo is true?
+
+It should be used to handle side effects.
+It is equivalent to useState for managing state.
+It accepts a function and returns a memoized value.
+It should always be used instead of regular function calls.
+
+
+
+
+
+
+09.
+In a functional component, how is local state managed?
+
+By using the useState hook.
+By defining a state object using the this.state syntax.
+By using the localState variable.
+Functional components cannot have local state
+
+
+
+
+
+
+
+10.
+Which React API can be used to resolve prop drilling?
+
+Redux
+Context API
+React Router
+Axios
+
+
+
+
+
+
+
+Answer
+
+
+
+01.
+By using the React.createContext() function
+
+This answer is correct. The React.createContext() function is used to create a new context object in React. It returns an object with two properties: Provider and Consumer. The Provider component is used to provide the data to the consuming components, and the Consumer component is used to access the data from the context.
+
+
+
+
+
+02.
+React.lazy()
+
+This answer is correct. React.lazy() is the correct function to implement code splitting in React. It allows you to dynamically import components and load them lazily when needed.
+
+
+
+
+
+03.
+By using the useContext() hook
+
+This answer is correct. In functional components, the useContext() hook is used to consume data from the context. It accepts the context object as an argument and returns the current context value. By using this hook, a component can access the data stored in the context without the need for prop drilling.
+
+
+
+
+
+
+04.
+By wrapping the child components with the Context.Provider component and providing the data as a value prop
+
+This answer is correct. To provide data to the child components using the Context API, the child components need to be wrapped with the Context.Provider component. The Provider component accepts a value prop, which is used to provide the data. The child components can then consume the data from the context using the useContext() hook or the Consumer component.
+
+
+
+
+
+
+
+05.
+The dependencies array determines when the memoized value or function should be recalculated.
+
+This answer is correct. The dependencies array in useMemo and useCallback is used to determine when the memoized value or function should be recalculated. If any of the dependencies in the array change, the memoized value or function will be re-evaluated. Omitting the dependencies array or providing an empty array means the value or function will only be computed once during the initial render.
+
+
+
+
+
+
+06.
+All of the above
+
+This answer is correct. To mitigate the issue of Props drilling, you can use various techniques. Global state management libraries like Redux allow you to centralize and share state across components. React's Context API provides a way to share state between components without explicitly passing props through each level. Component composition patterns like Render Props and Higher-Order Components (HOCs) enable you to extract and encapsulate the prop- passing logic, making it more reusable and maintainable.
+
+
+
+
+
+
+07.
+Passing data through multiple levels of nested components
+
+This answer is correct. Props drilling refers to the process of passing data from a parent component to a deeply nested child component through intermediate components. It happens when a component needs to pass data to its child, which, in turn, needs to pass it to its child, and so on. This can result in excessive prop passing and can be considered a code smell.
+
+
+
+
+
+
+
+08.
+It accepts a function and returns a memoized value.
+
+This answer is incorrect. The useMemo hook accepts a function and returns a memoized value. It is useful when you want to memoize the result of a computation and avoid recomputing the value unnecessarily.
+
+
+
+
+
+
+09.
+By using the useState hook.
+
+This answer is correct. In functional components, local state is managed using the useState hook, which is a built-in React hook. The useState hook allows functional components to declare and update local state variables.
+
+
+
+
+
+
+
+10.
+Context API
+
+This answer is correct. The Context API in React provides a way to share data across the component tree without passing the data through each component explicitly. It helps in resolving prop drilling by allowing components to access data directly from the context, eliminating the need to pass the data through intermediate components.
+
+
+

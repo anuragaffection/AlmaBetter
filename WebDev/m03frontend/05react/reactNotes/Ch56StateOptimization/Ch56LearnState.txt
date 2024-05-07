@@ -1,0 +1,164 @@
+Sate Management & Optimisation 
+
+1. Local State 
+2. Props Drilling
+3. Resolving prop drilling by using context api
+4. Optimizing React apps
+5. Throttling 
+6. Debouncing 
+7. Avoid using Index as a key for map
+8. Code Splitting using React.Lazy & suspense
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+
+
+Links {
+    - https://www.geeksforgeeks.org/lifting-state-up-in-reactjs/
+    - https://blog.logrocket.com/optimizing-performance-react-app/
+}
+
+
+
+
+Notes {
+    - state Management library = Redux, MobX, zustand , recoil 
+    - ES6 classes 
+
+}
+
+
+
+Task {
+    - Code Splitting
+    - Lazy loading 
+    - server side rendering 
+
+    What is 
+    - pure function 
+    - pure components
+
+    Differenece 
+    - local state vs global state 
+    - useCallback vs useMemo
+    - Throttling vs Debouncing
+    - 
+
+    library
+    -- immer.js 
+    -- immutable.js 
+    
+
+    project 01 
+    - project using context-api = /webdev/m05PSE/07project/blog_mern
+
+    project 02 
+    - project using react optimizatin technique 
+
+    project 03 
+    - project using the concept of Throttling & Debouncing
+
+
+    Task projects  
+    - create todo application =./05react/learn-hc/todo
+    - create todo application using redux = ./05react/learn-hc/todo-redux
+}
+
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+
+
+1. Local State {
+    - state within a sinlge components = local state 
+    - react re-renders the components whenever the state changes 
+    - 
+}
+
+
+
+
+2. Props Drilling {
+    - It is situation which arrive on passing the data through multiple nested components
+    - 
+}
+
+
+
+
+3. Resolving prop drilling by using context api {
+    - createContext ()
+    - Provider 
+    - Consumer 
+    - children
+    - useContext()
+
+    - createContext(),  takes optional parameter as initial state or value
+    - createContext(),  use to create context 
+    - useContext(),  use to access state provided by provider 
+    - Must wrapp the components to provide access to global state  
+
+    - context Api vs useContext() 
+    - 
+
+    project using context 
+    - blog_mern
+    - entertainment-web-app 
+}
+
+
+
+
+4. Optimizing React apps {
+    - useMemo()
+    - useCallback()
+
+    syntax 
+    - useMemo( compute function, array of dependencies);
+
+    Memoization 
+    - 
+
+    referential & functional equality 
+    - 
+
+    useMemo vs useCallback
+    - useMemo caches the result of the function execution
+    - useCallback caches the memoized version of the provided function
+
+    project using useMemo & useCallback]]]
+    - 
+}
+
+
+
+5. Throttling {
+    - This mechanism restricts the frequency of calls to a function within a particular time interval, ignoring any additional calls made during that time.
+}
+
+
+
+6. Debouncing {
+    - A debounce function is invoked only after a specific interval of time has elapsed since its previous invocation.
+}
+
+
+
+7. Avoid using Index as a key for map]]] {
+    - the key is used to identify DOM elements.
+    - using index as key can cause problem 
+    - 
+}
+
+
+
+8. Code Splitting using React.Lazy & suspense {
+    - 
+}
+
