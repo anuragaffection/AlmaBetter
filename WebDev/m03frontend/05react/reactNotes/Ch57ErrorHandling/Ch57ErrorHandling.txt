@@ -62,30 +62,67 @@ Javascript Errors in React {
 }
 
 
+
 Debugging Tools {
+    - Broser developer tools 
+    - Chrome developer tools ,  ctrl + shift + i
+    - React developer tools 
+    - logging library, debug or loglevel 
+    - Error boundaries 
+    - React Profiler 
+    - Testing = jest, enzyme, react-testing-library
+
+}
+
+
+
+
+Console & Debugging {
+    - 
+
+    Debugging
+    - console.log()
+    - console.debug()
+    - console.info()
+    - console.error()
+
+
+    - console.group()
+    - console.groupEnd()
+    - console.groupCollapsed()
     - 
 }
 
 
-Console & Debugging 
+
+React Error Boundaries {
+    - Error Boundaries
+
+    - project implementation 
+}
 
 
-React Error Boundaries 
 
+Catching & handling errors {
+    - try-catcth
+}
 
-Catching & handling errors
 
 
 React Error and their Solutions
 
 
+
 Unit Testing 
+
 
 
 React Testing Library
 
 
+
 Types of unit testing 
+
 
 
 How to perform testing 

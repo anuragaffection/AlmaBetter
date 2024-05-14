@@ -1,0 +1,23 @@
+Resources used for this quiz 
+-- https://www.boot.dev/
+
+
+01. Go code generally runs ____ than interpreted languages and compiles ____ than other compiled languages like C and Rust.
+--  faster, faster 
+
+
+02. Does Go generally execute faster than C & Rust?
+--  No 
+
+
+03. What's one of the purposes of the Go runtime?
+--  to cleanup unused memory 
+
+
+04. What does the size of a type indicate?
+--  Bits 
+
+
+05. Why would you use the 'initial' section of an `if` statement?
+-- to keep the code concise and limited to scope 
+-- https://www.boot.dev/lessons/84e5481a-ca9c-40a3-ad0f-64d275226859

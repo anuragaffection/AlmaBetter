@@ -1,0 +1,83 @@
+
+Links {
+    - https://www.boot.dev/
+    - https://www.boot.dev/learn/learn-golang
+    - https://www.geeksforgeeks.org/golang-project-ideas/
+}
+
+
+fmt   = formatting package 
++     = for concatenation 
+:=    = used for short assignment
+:=    = called as walrus operator
+var   = variable initialization 
+
+
+print formatting {
+    - %s    = string 
+    - %d    = int 
+    - %q 
+    - %v    = by default 
+    - %f    = float  
+    - %.2f  = float to two decimal only 
+    - %t    = boolean 
+    - %T
+}
+
+
+escape characters {
+    -   \n 
+    -   
+}
+
+
+fmt print type {
+    - Println()
+    - Print()
+    - Sprintf()
+}
+
+
+Method in go 
+- len ()
+- float64()
+
+
+Data types
+- bool 
+- string 
+- int , int8, int16, int32, int64
+- float32, float64
+- complex64, complex128
+- byte ]]
+- rune ]]
+- uint uint8 uint16 uint32 uint64 uintptr
+
+
+
+Notes 
+-- The value of a declared variable with no assignment will be its zero value.
+-- Go, C, and Rust are all languages where the code is first converted to machine code by the compiler before it's executed.
+
+
+Task {
+    - Compiler vs Interpreter vs transpiler 
+    - Code execution in java vs Go 
+    - 
+}
+
+
+
+
+
+EXAMPLES OF COMPILED LANGUAGES
+Go
+C
+C++
+Rust
+
+
+EXAMPLES OF INTERPRETED LANGUAGES
+JavaScript
+Python
+Ruby

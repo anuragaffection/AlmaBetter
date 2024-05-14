@@ -1,0 +1,46 @@
+Typescript by Hitesh Chaudhary 
+
+what ts does 
+- type checking 
+- ts code transpile to js
+- Typescript playground 
+
+installation 
+- via npm 
+- npm install typescript --save-dev
+- npm install -g typescript 
+
+ts config setting 
+ts playground 
+- https://www.typescriptlang.org/play/
+
+
+
+Types {
+    - 29.05 
+
+    Types in ts 
+    - Number 
+    - String 
+    - Boolean 
+    - Any 
+    - Undefined 
+    - Null 
+    - Void
+    - Object 
+    - Array 
+    - Tuples 
+    - Never
+    - Unknown 
+    - 
+
+    syntax 
+    - let variableName : type = value 
+}
+
+
+
+
+function {
+    - #53.24
+}
