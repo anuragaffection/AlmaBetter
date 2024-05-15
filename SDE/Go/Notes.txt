@@ -1,5 +1,6 @@
 
 Links {
+    - https://www.w3schools.com/go
     - https://www.boot.dev/
     - https://www.boot.dev/learn/learn-golang
     - https://www.geeksforgeeks.org/golang-project-ideas/
@@ -11,17 +12,21 @@ fmt   = formatting package
 :=    = used for short assignment
 :=    = called as walrus operator
 var   = variable initialization 
-
+nil   = 
 
 print formatting {
+    - %v    = print the value of variable
+    - %T    = print Type of variable
+
     - %s    = string 
+    - %q    = double quoted string 
+
     - %d    = int 
-    - %q 
-    - %v    = by default 
+
     - %f    = float  
     - %.2f  = float to two decimal only 
     - %t    = boolean 
-    - %T
+
 }
 
 
@@ -34,12 +39,16 @@ escape characters {
 fmt print type {
     - Println()
     - Print()
+    - Printf()
     - Sprintf()
+    - Fprintf()
 }
 
 
 Method in go 
 - len ()
+- append()
+- copy()
 - float64()
 
 
@@ -52,32 +61,32 @@ Data types
 - byte ]]
 - rune ]]
 - uint uint8 uint16 uint32 uint64 uintptr
+- 
+
+
+
 
 
 
 Notes 
+-- The default value for int is 0, and the default value for string is "".
+-- https://www.w3schools.com/go/go_arrays.php
 -- The value of a declared variable with no assignment will be its zero value.
+-- The make()function is the right way to create an empty map. If you make an empty map in a different way and write to it, it will causes a runtime panic.
+-- https://www.w3schools.com/go/go_maps.php
 -- Go, C, and Rust are all languages where the code is first converted to machine code by the compiler before it's executed.
 
 
 Task {
     - Compiler vs Interpreter vs transpiler 
     - Code execution in java vs Go 
-    - 
+    - slice vs array in go 
+    - array vs slice vs struct vs maps 
+    - range in go 
+    - make in go 
 }
 
 
 
 
-
-EXAMPLES OF COMPILED LANGUAGES
-Go
-C
-C++
-Rust
-
-
-EXAMPLES OF INTERPRETED LANGUAGES
-JavaScript
-Python
-Ruby
+Thank You 

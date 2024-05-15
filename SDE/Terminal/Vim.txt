@@ -1,0 +1,61 @@
+
+
+
+
+
+
+commands 
+- i   = to enter insert mode 
+- esc = to exit insert mode 
+- 
+
+
+
+- :wq =  to save & exit vim, after esc 
+
+
+https://chatgpt.com/c/020115f5-fa33-41b4-8b26-9a883f64b05f
+
+
+Basic movement:
+
+h: Move the cursor one character to the left.
+j: Move the cursor one line down.
+k: Move the cursor one line up.
+l: Move the cursor one character to the right.
+w: Move the cursor to the beginning of the next word.
+b: Move the cursor to the beginning of the previous word.
+e: Move the cursor to the end of the current word.
+0: Move the cursor to the beginning of the line.
+$: Move the cursor to the end of the line.
+G: Move to the end of the file.
+gg: Move to the beginning of the file.
+:n: Move to line number 'n'.
+Editing:
+
+i: Insert text before the cursor.
+a: Append text after the cursor.
+A: Append text at the end of the line.
+o: Open a new line below the current line.
+O: Open a new line above the current line.
+x: Delete the character under the cursor.
+dd: Delete the current line.
+yy: Copy the current line.
+p: Paste the copied or deleted text after the cursor.
+Searching:
+
+/search_term: Search forward for 'search_term'.
+?search_term: Search backward for 'search_term'.
+n: Move to the next search result.
+N: Move to the previous search result.
+Saving and quitting:
+
+:w: Save the file.
+:q: Quit Vim.
+:wq or :x: Save and quit.
+:q!: Quit without saving.
+Miscellaneous:
+
+u: Undo the last change.
+Ctrl + r: Redo the last undone change.
+:help command: Get help for a specific command.
