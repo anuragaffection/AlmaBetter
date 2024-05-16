@@ -41,9 +41,9 @@ type Director struct {
 
 
 
-
 // movies slice , like array 
 var movies []Movie 
+
 
 
 // get movies 
@@ -107,7 +107,6 @@ func updateMovie ( w http.ResponseWriter, r *http.Request){
 	}
 	http.Error(w, "Movie not found", http.StatusNotFound)
 }
-
 
 
 

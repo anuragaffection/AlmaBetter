@@ -4,6 +4,8 @@ Links {
     - https://www.boot.dev/
     - https://www.boot.dev/learn/learn-golang
     - https://www.geeksforgeeks.org/golang-project-ideas/
+
+    - https://masteringbackend.com/posts/software-architecture-with-golang
 }
 
 
@@ -87,6 +89,36 @@ Task {
 }
 
 
+
+
+
+Go Project Setup {
+    - go version = to check version 
+    - go mod init <project_name>
+    - go 
+}
+
+
+
+
+
+Go Blog {
+    - simple project setup in go 
+    - 
+}
+
+
+
+Mongdb setup with go {
+    -- go get go.mongodb.org/mongo-driver
+    -- go get go.mongodb.org/mongo-driver/mongo
+
+
+    -- import 
+    "context"
+	"log"
+
+}
 
 
 Thank You 
