@@ -4,7 +4,7 @@ Links {
     - https://www.boot.dev/
     - https://www.boot.dev/learn/learn-golang
     - https://www.geeksforgeeks.org/golang-project-ideas/
-
+    - https://zerotomastery.io/blog/golang-practice-projects/
     - https://masteringbackend.com/posts/software-architecture-with-golang
 }
 
@@ -54,6 +54,12 @@ Method in go
 - float64()
 
 
+special function in go {
+    - main()
+    - init()
+}
+
+
 Data types
 - bool 
 - string 
@@ -65,6 +71,25 @@ Data types
 - uint uint8 uint16 uint32 uint64 uintptr
 - 
 
+
+
+
+Go Important Notes {
+    -- Go uses explicit error handling.
+    -- Each database operation typically returns an error, which you need to handle.
+    -- In Go, we use a cursor to iterate over the results of a query.
+    -- In Go, any executable code belongs to the main package.
+    -- 
+
+}
+
+
+
+
+The fmt.Fprintf function expects at least two arguments:
+1. an io.Writer (w)
+2. a format specifier
+3. optional arguments.
 
 
 

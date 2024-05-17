@@ -31,8 +31,11 @@ func init() {
 }
 
 func main() {
-	fmt.Println("Your Server is running on http://localhost:8000")
-
+	fmt.Println("MongoDb with Go")
 }
 
-// we are just connecting mongodb
+/*
+
+Break down the syntax
+
+*/

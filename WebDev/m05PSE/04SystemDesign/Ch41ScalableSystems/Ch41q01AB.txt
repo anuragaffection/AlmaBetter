@@ -3,7 +3,7 @@ Scalable System
 
 
 01.
-What are some common patterns for communication between microservices?
+What are some common patterns for communication between microservices?]]]
 
 RESTful API
 Messaging
@@ -118,7 +118,7 @@ None of the above
 
 
 
-09.
+09.]]]
 Which of the following techniques is commonly used to ensure an application can handle spikes in traffic and usage?
 
 Distributed architecture
@@ -202,7 +202,7 @@ Optimizing performance. Applications that can scale to meet demand need to be de
 
 
 07.
-A service registry keeps track of all microservices, while service discovery helps clients find the correct microservice.
+A service registry keeps track of all microservices, while service discovery helps clients find the correct microservice.]]
 
 A service registry keeps track of all microservices, while service discovery helps clients find the correct microservice. A service registry acts as a centralized repository that maintains information about all registered microservices and their network locations.
 
@@ -219,7 +219,7 @@ An architecture that uses small, independent services. A microservices architect
 
 
 
-09.
+09.]]]
 Load testing
 
 Load testing. Load testing is a technique used to simulate high traffic and usage scenarios to ensure an application can handle spikes in traffic and usage. This helps identify any bottlenecks or performance issues that may impact the application's ability to scale.

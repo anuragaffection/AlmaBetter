@@ -18,6 +18,7 @@ var ctx = context.TODO()
 
 func init() {
 	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017/")
+
 	client, err := mongo.Connect(ctx, clientOptions)
 	if err != nil {
 		log.Fatal(err)
@@ -43,8 +44,11 @@ type Movie struct {
 	ID    string `json:"id"`
 	Title string `json:"title"`
 }
+// `json.id` , `json.title` are tags that provide additional information about variable 
 
+// to add movie to db
 func addMovie(id, title string) {
+
 	movie := Movie{
 		ID:    id,
 		Title: title,
@@ -58,6 +62,7 @@ func addMovie(id, title string) {
 	fmt.Println("Movie added successfully!")
 }
 
+// api to get all movies
 func getAllMovies(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
@@ -119,5 +124,13 @@ The fmt.Fprintf function expects at least two arguments:
 1. an io.Writer (w)
 2. a format specifier
 3. optional arguments.
+
+*/
+
+/*
+Go Notes 
+--- Go uses explicit error handling.
+--- Each database operation typically returns an error, which you need to handle.
+---  In Go, we use a cursor to iterate over the results of a query.
 
 */
