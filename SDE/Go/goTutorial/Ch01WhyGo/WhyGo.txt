@@ -1,0 +1,22 @@
+why Go 
+-- simple to use 
+-- easy to learn 
+-- statically typed language 
+-- fast run time & compiler time 
+-- faster than java, python, javascript, php, ruby
+-- have garbage collector 
+-- support concurrency 
+-- GCC, a GO compiler directly convert GO code into Machine code 
+-- Good for server side programming & large applications 
+-- 
+
+
+More about Go 
+-- Go is compiled language
+-- slower execution or slower than c, c++, rust 
+
+
+Install 
+-- GO GCC to run go code in your pc
+
+That's all for today 

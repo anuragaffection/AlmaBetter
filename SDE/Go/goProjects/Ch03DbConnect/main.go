@@ -10,9 +10,15 @@ import (
 )
 
 // mongodb connections
+// making collection, ctx global variable 
 var collection *mongo.Collection
+
+// context - cancellation 
 var ctx = context.TODO()
 
+
+// init = is special function in go 
+// init = called before main 
 func init() {
 	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017/")
 	client, err := mongo.Connect(ctx, clientOptions)
@@ -30,12 +36,14 @@ func init() {
 	collection = client.Database("testingWithGo").Collection("movies")
 }
 
+
+
+
+// entry points 
 func main() {
 	fmt.Println("MongoDb with Go")
 }
 
-/*
 
-Break down the syntax
 
-*/
+

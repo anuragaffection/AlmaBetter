@@ -1,50 +1,53 @@
-package main
 
+package main 
+
+// package importing
 import (
-	"context"
-	"encoding/json"
-	"fmt"
+    "fmt"
+
 	"log"
+	"context"
+
+	"encoding/json"
 	"net/http"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+    "go.mongodb.org/mongo-driver/mongo/options"
 )
+
+
+
 
 // mongodb connections
 var collection *mongo.Collection
 var ctx = context.TODO()
 
 func init() {
-	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017/")
+    clientOptions := options.Client().ApplyURI("mongodb://localhost:27017/")
+    client, err := mongo.Connect(ctx, clientOptions)
+    if err != nil {
+        log.Fatal(err)
+    }
 
-	client, err := mongo.Connect(ctx, clientOptions)
-	if err != nil {
-		log.Fatal(err)
-	}
+    // check connection
+    err = client.Ping(ctx, nil)
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Println("Connected to MongoDB!")
 
-	// check connection
-	err = client.Ping(ctx, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println("Connected to MongoDB!")
-
-	collection = client.Database("testingWithGo").Collection("movies")
+    collection = client.Database("testingWithGo").Collection("movies")
 }
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello From Go \n")
-	fmt.Fprintf(w, "You are on %s route", r.URL.Path)
-}
 
-// Movie struct
+
+// movie model or structure 
 type Movie struct {
 	ID    string `json:"id"`
 	Title string `json:"title"`
 }
-// `json.id` , `json.title` are tags that provide additional information about variable 
+
 
 // to add movie to db
 func addMovie(id, title string) {
@@ -61,6 +64,10 @@ func addMovie(id, title string) {
 
 	fmt.Println("Movie added successfully!")
 }
+
+
+
+
 
 // api to get all movies
 func getAllMovies(w http.ResponseWriter, r *http.Request) {
@@ -100,13 +107,30 @@ func getAllMovies(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
-	addMovie("1", "The Shawshank Redemption")
-	fmt.Println("Your Server is running on http://localhost:8000")
-	http.HandleFunc("/", handler)
+
+
+
+
+
+// entry point 
+func main () {
+    fmt.Println("Hello From Go")
+
+	// callig addMovie 
+	addMovie("1", "Captain America")
+
+	// api to getAllMovies 
 	http.HandleFunc("/movies", getAllMovies)
+
+	// visit this url in browser
+	fmt.Println("Your Server is running on http://localhost:8000")
+
+	// our server on port on 8000
 	http.ListenAndServe(":8000", nil)
 }
+
+
+
 
 /*
 --- 1. fmt comes with go

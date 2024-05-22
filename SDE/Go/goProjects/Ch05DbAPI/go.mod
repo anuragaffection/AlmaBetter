@@ -1,4 +1,4 @@
-module movieServerDb
+module Ch05DbAPI
 
 go 1.22.3
 

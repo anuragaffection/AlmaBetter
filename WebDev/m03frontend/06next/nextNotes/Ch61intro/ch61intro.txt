@@ -35,7 +35,7 @@ Notes {
 
 Task {
     -- next js scripts
-    -- Poisoning 
+    -- Poisoning ]]]
     -- placing client component at bottom
     -- cut off point 
 }
@@ -90,7 +90,7 @@ Task {
 06. Search Engine Optimization (SEO)
 --- on page SEO
 --- off page SEO
---- Crawling timing with react only applications
+--- Crawling timing with react-only-applications
 --- Crawling & indexing with next.js
 
 
@@ -130,9 +130,6 @@ Task {
     cd my-app
 
 }
-
-
-
 
 
 

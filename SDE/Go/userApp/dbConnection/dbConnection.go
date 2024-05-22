@@ -1,24 +1,24 @@
-package dbConnection 
+package dbConnection
 
 import (
+	"context"
 	"fmt"
 	"log"
-	"context"
-	"go.mongodb.org/mongo-driver/mongo"
-    "go.mongodb.org/mongo-driver/mongo/options"
 	"userApp/models/userModels"
+
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-
-// making  ctx global variable 
+// making  ctx global variable
 var collection *mongo.Collection
 var ctx = context.TODO()
 
 func init() {
-	// uri assign 
+	// uri assign
 	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017/")
 
-	// connecting 
+	// connecting
 	client, err := mongo.Connect(ctx, clientOptions)
 	if err != nil {
 		log.Fatal(err)
@@ -35,25 +35,19 @@ func init() {
 
 }
 
-
-
 func AddUserInDB(user userModels.User) {
-   
-    // Insert the user document into the collection
-    _, err := collection.InsertOne(context.Background(), user)
 
-	// if err happen in inserting 
+	// Insert the user document into the collection
+	_, err := collection.InsertOne(context.Background(), user)
+
+	// if err happen in inserting
 	if err != nil {
-		log.Fatal("error in add user db = %v" , err)
+		log.Fatal("error in add user db = %v", err)
 	}
 }
 
-
-
-
-
 /*
--- init() = special function from go 
+-- init() = special function from go
 -- Ping()
 -- context.TODO() vs context.Background()
 

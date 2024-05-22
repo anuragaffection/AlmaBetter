@@ -1,5 +1,6 @@
 
 Links {
+    - https://gobyexample.com/
     - https://www.w3schools.com/go
     - https://www.boot.dev/
     - https://www.boot.dev/learn/learn-golang
