@@ -9,6 +9,7 @@ installation
 - via npm 
 - npm install typescript --save-dev
 - npm install -g typescript 
+- 
 
 ts config setting 
 ts playground 

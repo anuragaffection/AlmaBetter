@@ -1,0 +1,20 @@
+
+HLS 
+-- HTTP Live Streaming (HLS)
+-- Real Time Streaming Protocol (RTSP) 
+-- RTMP (Real-Time Messaging Protocol)
+-- Fast Forward MPEG (FFMPEG)
+
+
+Links
+-- https://www.dacast.com/blog/hls-streaming-protocol/
+-- https://developer.apple.com/library/archive/navigation/
+-- https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/Introduction/Introduction.html
+-- https://medium.com/@rewal34/build-a-live-streaming-server-using-rtmp-and-hls-with-node-media-server-on-docker-089c8487ccd7
+
+
+
+Future of streaming {
+    -- HLS vs MPEG-Dash 
+    -- 
+}

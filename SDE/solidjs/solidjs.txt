@@ -1,0 +1,82 @@
+Net Ninja
+
+1. what is solid js {
+    -- solid vs react 
+    -- why to choose one over other 
+    -- 
+}
+
+
+
+3. components {
+    -- jsx supported
+    -- how state changes update components
+}
+
+
+
+4. global style & tailwind {
+    -- tailwind with solid js 
+    -- @apply in tailwind
+}
+
+
+
+5. props {
+    -- props
+    -- props.children
+    -- class
+    -- classList
+    --
+}
+
+
+
+6. signals /state {
+    -- createSignal
+    -- update state 
+    -- createSignal return two functions 
+    -- first function is get function, return value after calling 
+    -- second function have access to previous value 
+    -- problem with createSignal 
+}
+
+
+
+7. event handlers {
+    -- form input 
+    -- dark to light toggler
+
+}
+
+
+
+
+8. router {
+    -- infinte scrolling 
+    -- optmisation in route or page switching 
+    -- a vs A 
+}
+
+
+9. fetching data {
+    -- json-server 
+    -- createResource()
+    -- fetch
+    -- 
+}
+
+
+10. conditional rendering {
+    -- Show 
+    -- when 
+    -- fallback
+    -- form
+    -- 
+}
+
+
+
+11. route params {
+    -- 
+}

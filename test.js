@@ -1,9 +1,5 @@
-let a = 1;
-let b = 2;
+let num1 = -4.1;
+let num2 = -4.9;
 
-let temp = a; 
-a = b;
-b = temp; 
-
-console.log(a); // Output: 2
-console.log(b); // Output: 1
+console.log(Math.floor(num1)); // Output: -5
+console.log(Math.floor(num2)); // Output: -5
