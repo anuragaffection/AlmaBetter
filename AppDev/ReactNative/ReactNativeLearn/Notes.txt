@@ -1,0 +1,38 @@
+
+Roadmap 
+-- https://roadmap.sh/react-native
+-- https://infinite.red/
+-- React native by Hitesh Chaudhary 
+-- https://aboutreact.com/react-native-login-and-signup/
+-- https://aboutreact.com/react-native-block-disable-screenshots/
+-- https://www.codeease.net/programming/java/how-to-disable-screenshot-in-react-native
+
+Apk building
+- https://youtu.be/2yHI0e4MzUE?si=ExdSSFq1xmuEc_0G
+
+Command 
+-- npm start 
+-- java --version
+-- where java
+-- C:\Users\hp\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin
+-- 
+
+Command run 
+-- npm run android 
+-- 
+
+Notes 
+-- Uinstall previous installed app to run the current 
+
+01. 
+
+02. 
+
+
+
+
+
+
+
+
+

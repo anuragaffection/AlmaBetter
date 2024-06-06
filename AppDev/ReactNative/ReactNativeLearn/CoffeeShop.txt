@@ -1,0 +1,54 @@
+Github = https://github.com/darshanpawar101/Coffee-Shop-App
+Figma = https://www.figma.com/file/RyVLhDKrymZhThABrSgzIK/Coffee-Shop-App-UI?type=design&node-id=0-1&mode=design&t=vvjHHTYS614ByBGT-0
+
+Setup = https://reactnative.dev/docs/environment-setup
+Zustand = 
+react navigation = https://reactnavigation.org/
+immmer = https://www.npmjs.com/package/immer
+async storage = https://www.npmjs.com/package/@react-native-async-storage/async-storage
+
+
+
+Error 
+-- cofeeShop , wrong name , refactor it
+
+Notes 
+-- npx react-native@latest init AwesomeProject
+-- 
+
+Running project 
+-- npx react-native run-android
+-- npm start
+-- npm run android
+
+
+cd android
+gradlew clean
+
+
+ "react-native-screens": "^3.30.1",
+
+-- npx react-native-asset 
+
+
+must to change this property 
+- android:orientation="portrait"
+- android:screenOrientation="portrait"
+
+
+npx react-native doctor
+
+
+command - if error in generating apk 
+-- cd android
+-- ./gradlew clear
+
+
+navigation
+-- change in android main file 
+-- 
+
+
+"react-native-screens": "^3.30.1",
+"react-native-reanimated": "^3.8.1",
+  "react-native-screens": "^3.30.1",

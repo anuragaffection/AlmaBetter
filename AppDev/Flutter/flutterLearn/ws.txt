@@ -1,0 +1,26 @@
+flutter by WS cube tech 
+-- next #
+
+
+
+
+1. flutter architecture {
+    -- widget tree 
+}
+
+
+2. commands {
+    - flutter
+    - flutter doctor 
+    - 
+}
+
+
+3. flutter installations {
+    -- #50.00 
+    -- flutter create <projectname> 
+    -- 
+}
+
+
+4. 

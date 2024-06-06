@@ -1,0 +1,7 @@
+
+1. screenshot disable in android - added code in mainActivity.kt 
+-- https://aboutreact.com/react-native-block-disable-screenshots/
+-- https://youtu.be/DcyLs24k5wU?si=smq2nZfW9Lj3GTg2
+
+
+2. screenshot, not disable in ios 
