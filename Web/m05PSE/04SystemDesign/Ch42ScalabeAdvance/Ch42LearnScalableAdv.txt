@@ -1,0 +1,361 @@
+
+Topics
+-- Agile methodologies 
+-- Test-driven development (TDD)
+-- CI/CD
+-- Coding standards & ( SOLID Principle)
+-- DevOps 
+-- DevSecOps
+-- Performance optimization techniques
+-- Security best practices
+-- Scalability and robustness 
+-- Automation to increase performance
+
+
+
+
+Links {
+    -- https://www.scrum.org/resources/blog/dependency-management-good-bad-ugly
+    -- https://aws.amazon.com/blogs/devops/load-test-applications-in-cicd-pipeline/
+}
+
+
+Note {
+    -- performance optimization technique
+    -- Scalability technique
+    -- parallelication 
+    -- concurrency
+    -- compression 
+    -- Minification
+    -- coupling
+}
+
+
+Task {
+    -- principle of minimalism.
+    -- taptic engine in apple 
+}
+
+
+
+
+
+Agile methodologies {
+    -- Agile is set of interative & collaborative method 
+    -- 
+
+    -- scrum   = time target of task
+    -- kanban  = what to do 
+    -- sprints = iteration 
+    -- XP  = extreme Programing
+    -- LSD = time saving form extra uncessary task like meeting 
+
+    -- LSD = Lean software Development
+    -- FDD = Feature Driven Development
+    -- JIT = Just in time 
+}
+
+
+
+
+
+
+Test-driven development (TDD) {
+    -- first write the test case, then write code 
+
+    steps 
+    -- 01. write test 
+    -- 02. run test 
+    -- 03. write minimal code 
+    -- 04. run the test again
+    -- 05. Refactor ]]
+    -- 06. repeat [from 01]
+
+    Testing Tools 
+    -- JUnit  for Java
+    -- pytest for Python.
+
+    Refactor
+    -- in Refactor, devlopers remove duplication, unwanted spaces, code restructuring, improve readability  
+
+    Why TDD 
+    -- quality assurance 
+    -- code maintainability
+    -- faster feedback loop 
+    -- collaboration & communication
+    -- continuous integration & delivery
+    -- refactoring 
+    -- cultural alignment 
+    -- modular coding 
+    -- atutomated test 
+ 
+}
+
+
+
+
+
+
+CI/CD {
+    -- CI = continuous integration
+    -- CD = continuous Delivery / deployment
+
+    CI
+    -- design 
+    -- code 
+    -- build
+    -- test 
+
+    CD 
+    -- automated deployment
+    -- deployment to staging ]] 
+    -- testing in staging 
+    -- release 
+    -- maintain 
+    -- operate 
+    -- deploy 
+
+
+    why CI & CD
+    -- infrastructure as code (IaC)]]
+    -- rapid feedback 
+    -- quality assurance
+    -- 
+
+    Notes
+    -- CD is extension of CI 
+    -- staging is a step before the production release 
+    -- full testing is done on staging  environment 
+}
+
+
+
+
+
+Coding standards & ( SOLID Principle) {
+    
+    Coding standards
+    -- Consistency 
+    -- readability
+    -- maintainability 
+    -- team collaboration
+
+    SOLID Principle]]]
+    -- S = SRP = Single Responsibility Principle
+    -- O = OCP = Open closed principle
+    -- L = LSP = Liskov Substitution Principle 
+    -- I = ISP = interface Segregation Principle ]]
+    -- D = DIP = Dependency inversion principle]]
+
+    SOLID Principle
+    -- SRP = Each class or module should have a single responsibility
+    -- OCP = open for extension but closed for modification.
+    -- LSP = you should use any derived class instead of base class without modification 
+    -- ISP = client should be forced to depend on interfaces, they do not use 
+    -- DIP = high level module should not depend on low level module, both should depend on abstraction 
+
+
+    Solid principle
+    -- mostly followed in Oops concept 
+    -- loose coupling ]]
+    -- decoupling ]]
+    --
+
+    Notes 
+    -- base, super, parent, classes are same 
+    -- derived, sub, child, classes are same  
+}
+
+
+
+
+
+DevSecOps {
+    -- DevSecOps = a Security layer above DevOps 
+
+    -- Dev = Developement 
+    -- Sec = Security
+    -- Ops = Operatios 
+
+    Dev 
+    -- CI
+    -- Automated testing
+    -- code Review 
+
+    Sec ]]
+    -- SAST = static application Security testing
+    -- DAST = Dynamic application Security testing
+    -- Security assessments 
+
+    Ops 
+    -- CD
+    -- infrastructure as code (IaC)
+    -- Monitoring 
+
+    Notes 
+    -- shift-left approach ]]
+    -- 
+}
+
+
+
+
+
+Performance optimization techniques {
+    -- CDNs = content delivery network
+    
+    Techniques
+    -- Optimize the code [good algorithm]
+    -- caching [memoization]
+    -- database optimization [indexing]
+    -- reduce network latency [use CDNs]
+    -- parallel processing [ async, concurrency]
+    -- compressing file and code 
+    -- minimizing white spaces in code 
+    -- use of CDNs
+}
+
+
+
+
+Security best practices {
+    -- SDLC = software Developement Life Cycle 
+    -- SDL  = security development lifecycle 
+
+    security methods 
+    -- MFA = Multi factor authentication 
+    -- RBAC = Role based Access control 
+    -- regular updates
+    -- secure network configuration 
+    -- IDS = Intrusion detection system]]
+    -- IPS = Intrusion Prevention system]]
+    -- Data encryption 
+    -- robust password 
+    -- privacy & anonymization 
+    -- 
+}
+
+
+
+
+Scalability and robustness {
+
+    Scalability
+    -- load balancing 
+    -- vertical scaling
+    -- horizontal scaling
+    -- auto Scaling 
+    -- Distributed architecture]]]
+    -- caching
+    -- Asynchronous processing
+
+    robustness
+    -- fail over testing]]
+    -- fault tolerance ]]
+    -- data backup 
+    -- error handling 
+    -- load testing
+
+    Distributed architecture (Databases)
+    -- sharding 
+    -- indexing 
+    -- data replication [storing copy]
+    -- normalization 
+
+    Bootlenecks 
+    -- A bottleneck is a point of congestion in a production system that stops or severely slows the system.
+}
+
+
+
+
+Automation to increase performance {
+    -- Borg , google automation system 
+    -- 
+
+    Automation 
+    -- automate repetitive tasks 
+    -- workflow and process automation
+    -- data processing and analysis 
+    -- IT operations and infrastructure automation 
+    -- customer service automation 
+    -- Support service automation 
+    -- Testing automation 
+    -- Monitoring automation 
+    -- Alerting automation  
+}
+
+
+
+Activity {
+
+
+    Fill in the blanks:
+
+    01. Agile software development focuses on __________ (documentation/Individuals) and __________(interactions/process).]]
+    
+    02. Scrum is an example of an __________ (Iterative/Waterfall) Agile methodology.]]]
+    
+    03. The first step in TDD is to write a ____________(passing test/failing test).
+    
+    04. The failing test should initially cover the desired ____________ (functionality/implementation details) of the production code.]]
+    
+    05. CI/CD helps in automating the software __________ (delivery/development) process.]]]
+    
+    Answers
+    01. Individuals, interactions]]
+    02. Iterative]]
+    03. Failing test
+    04. Functionality]]
+    05. Delivery]]
+
+
+
+
+    True or False:
+    
+    01. The "L" in SOLID stands for Liskov Substitution Principle.
+    
+    02. Deviating from coding standards can result in inconsistent code, increased technical debt, and difficulty in maintaining and enhancing the software.
+    
+    03. DevSecOps emphasizes the use of minimal documentation and security policies.
+    
+    04. Caching is a technique used to store data or computations in order to reduce future processing time.
+    
+    05. Minification is the process of simplifying code by removing unnecessary characters, such as whitespaces and comments.
+    
+    06. Content Delivery Networks (CDNs) improve website performance by moving content closer to the end users.
+    
+    Answers
+    01. True
+    02. True
+    03. False
+    04. True
+    05. True
+    06. True
+
+
+
+    Agree or Disagree
+    
+    01. Regularly updating software and applying security patches can prevent all security vulnerabilities.
+    
+    02. Encrypting data only during transmission (in transit) is enough to protect it.
+    
+    03. Redundancy and failover mechanisms are essential for building a robust system.
+    
+    04. Load balancing is only necessary when traffic exceeds the capacity of a single server.]]
+    
+    05. Automating server provisioning and scaling is only necessary for large-scale applications.
+    
+    06. Implementing auto-scaling based on predefined thresholds can eliminate the need for capacity planning.]]
+    
+    Answers
+    01. Disagree
+    02. Disagree
+    03. Agree
+    04. Disagree
+    05. Disagree
+    06. Agree
+}
+
