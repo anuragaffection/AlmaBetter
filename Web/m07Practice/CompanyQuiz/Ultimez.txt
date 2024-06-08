@@ -1,0 +1,525 @@
+Ultimez Technology 
+
+
+01.
+
+In a React component, which method is used to initialize the state?
+
+constructor()
+
+render()
+
+componentDidMount()
+
+getInitialState()
+
+
+
+
+
+02.
+In JavaScript, which keyword is used to define an asynchronous function?
+
+async
+
+function
+
+await
+
+sync
+
+
+
+
+
+
+03.
+Which phase of the Node.js event loop handles most I/O operations and executes callbacks associated with I/O?
+
+Poll
+
+Timers
+
+Check
+
+Close Callbacks
+
+
+
+
+
+
+04.
+Which of the following statements about React states is true?
+
+States are used to pass data from child to parent components.
+
+States are mutable and can be modified directly.
+
+States should be modified directly for performance reasons.
+
+States are immutable and should be updated using the setState method.
+
+
+
+
+
+
+
+05.
+Which of the following methods is used to create a new Buffer instance in Node.js?
+
+new Buffer()
+
+Buffer.create()
+
+Buffer.from()
+
+Buffer.allocate
+
+
+
+
+
+
+06.
+How can you connect a React component to the Redux store?
+
+Use the fetch method
+
+Use the connect function from the react-redux library
+
+Pass the store as a prop to the component
+
+Use the setState method
+
+
+
+
+
+
+07.
+Which React feature can help mitigate prop drilling by allowing you to pass data directly to descendants without intermediaries?
+
+React Router
+
+React Fragments
+
+React Portals
+
+React's Context API with useContext
+
+
+
+
+
+
+08.
+Which of the following statements is true regarding the await keyword in JavaScript?
+
+It can only be used inside synchronous functions
+
+It can be used to pause the execution of a synchronous function.
+
+It is used to handle asynchronous operations and pause the execution of an async function until the awaited operation is complete.
+
+It is only used in older versions of JavaScript
+
+
+
+
+
+
+09.
+Which JavaScript feature can be used to handle multiple asynchronous operations concurrently and collect their results?
+
+Promises
+
+Callbacks
+
+Event Listeners
+
+Callback hell
+
+
+
+
+
+10.
+Which of the following middleware is commonly used for handling authentication in Node.js applications?
+
+express.static()
+
+express.json()
+
+express.urlencoded()
+
+passport
+
+
+
+
+
+11.
+What is the purpose of the combineReducers function in Redux?
+
+To combine multiple Redux stores into one
+
+To define the initial state of the Redux store
+
+To define the initial state of the Redux store
+
+To configure routing in a Redux application
+
+
+
+
+
+12.
+What is Redux used for in a React application?
+
+Managing server-side authentication
+
+Managing state and data flow
+
+Routing between different pages
+
+Styling the user interface
+
+
+
+
+
+
+13.
+What is a callback hell or pyramid of doom?
+
+A pattern for writing synchronous code that is easy to read and maintain.
+
+A pattern for writing asynchronous code that avoids nested callbacks.
+
+A situation where multiple asynchronous operations are nested inside one another, creating a difficult-to- read and maintain code structure.
+
+A naming convention for functions used in asynchronous code.
+
+
+
+
+
+14.
+What is the key difference between props and state in React?
+
+Props are immutable, while state is mutable
+
+Props are used for data that doesn't change, while state is used for dynamic data
+
+Props are accessible only in functional components, while state is used in class components
+
+Props can be modified directly, while state should be updated using the setState method
+
+
+
+
+
+
+
+15.
+What is the purpose of the try...catch block in asynchronous code?
+
+It is used to create custom error messages.
+
+It is used to define a synchronous function.
+
+It is used to handle and manage errors that occur during the execution of asynchronous code.
+
+It is used to block the event loop.
+
+
+
+
+
+
+16.
+What is the primary purpose of React props?
+
+To manage component state
+
+To handle component rendering
+
+To pass data from parent to child components
+
+To define component methods
+
+
+
+
+
+17.
+What is the primary difference between synchronous and asynchronous functions?
+
+Synchronous functions return promises, while asynchronous functions do not.
+
+Synchronous functions block the event loop, while asynchronous functions do not.
+
+Synchronous functions always execute faster than asynchronous functions.
+
+Synchronous functions are only used in single- threaded applications.
+
+
+
+
+
+
+
+18.
+What is the first phase of the Node.js event loop?
+
+I/O Callbacks
+
+Timers
+
+Poll
+
+Close Callbacks
+
+
+
+
+
+
+19.
+What is a Buffer in Node.js?
+
+A reserved memory space for storing data temporarily.
+
+A built-in Node.js module for file operations.
+
+A data structure used for creating linked lists.
+
+A JavaScript function for manipulating strings.
+
+
+
+
+
+
+20.
+What is the purpose of the mapStateToProps function when using connect in Redux?
+
+It maps state values to props for a connected component
+
+It defines the initial state of the Redux store
+
+It dispatches actions to the Redux store
+
+It specifies how actions should be handled in the component
+
+
+
+
+
+21.
+What is prop drilling in the context of React?
+
+A technique to pass data from child components to parent components.
+
+A method to access the React context API.
+
+A way to optimize rendering in functional components.
+
+A pattern for managing state in class components.
+
+
+
+
+
+
+22.
+Which middleware is commonly used in Redux for handling asynchronous actions?
+
+Redux Thunk
+
+Redux Saga
+
+Redux Logger
+
+Redux Router
+
+
+
+
+
+
+23.
+How can you overcome prop drilling in React?
+
+Use the useState hook to manage state locally in each component
+
+Use the useState hook to manage state locally in each component
+
+Use the context API to provide data globally to all components
+
+Use the context API to provide data globally to all components
+
+
+
+
+
+24.
+How can you overcome prop drilling in React?
+
+Use the useState hook to manage state locally in each component
+
+Use the useState hook to manage state locally in each component
+
+Use the context API to provide data globally to all components
+
+Use the context API to provide data globally to all components
+
+
+
+
+
+
+25.
+In a large React application, what are some strategies for reducing the negative impact of prop drilling?
+
+Use the props object directly in all components to minimize nesting.
+
+Break down your components into smaller, more focused pieces.
+
+Always use Redux for state management to eliminate prop drilling.
+
+Avoid using props altogether and rely on global variables
+
+
+
+
+
+
+26.
+In Redux, what is the purpose of an action?
+
+To define the initial state of the application
+
+To perform asynchronous operations like API requests
+
+To describe an event or change in the application's state
+
+To render Ul components
+
+
+
+
+
+
+
+27.
+Which of the following is NOT a common problem associated with prop drilling?
+
+Increased component reusability
+
+Reduced code maintainability
+
+Lower component encapsulation
+
+Performance issues in deeply nested components
+
+
+
+
+
+
+28.
+What is a Reducer in Redux?
+
+A function that dispatches actions
+
+A component that renders the UI
+
+A pure function that specifies how the application's state changes
+
+A middleware for handling side effects
+
+
+
+
+
+
+
+29.
+What is the purpose of the next function in a middleware function's signature?
+
+To send a response to the client
+
+To define a new route
+
+To pass control to the next middleware function
+
+To terminate the application
+
+
+
+
+
+
+30.
+What is a middleware function in Node.js used for?
+
+To route HTTP requests
+
+To serve static files
+
+To perform operations on request and response objects during the request-response cycle
+
+To define routes for the application
+
+
+
+
+
+
+
+Answer 
+
+1. constructor()
+2. async
+3. Poll
+4. States are immutable and should be updated using the setState method.
+5. Buffer.from()
+6. Use the connect function from the react-redux library
+7. React's Context API with useContext
+8. It is used to handle asynchronous operations and pause the execution of an async function until the awaited operation is complete.
+9. Promises
+10. passport
+11. To define the initial state of the Redux store
+12. Managing state and data flow
+13. A situation where multiple asynchronous operations are nested inside one another, creating a difficult-to-read and maintain code structure.
+14. Props are used for data that doesn't change, while state is used for dynamic data
+15. It is used to handle and manage errors that occur during the execution of asynchronous code.
+16. To pass data from parent to child components
+17. Synchronous functions block the event loop, while asynchronous functions do not.
+18. Timers
+19. A reserved memory space for storing data temporarily.
+20. It maps state values to props for a connected component
+21. A technique to pass data from child components to parent components.
+22. Redux Thunk
+23. Use the useState hook to manage state locally in each component
+24. Using app.use()
+25. Break down your components into smaller, more focused pieces.
+26. To describe an event or change in the application's state
+27. Increased component reusability
+28. A pure function that specifies how the application's state changes
+29. To pass control to the next middleware function
+30. To perform operations on request and response objects during the request-response cycle
+
+
+
+
+
+
+
+
+
+
+
