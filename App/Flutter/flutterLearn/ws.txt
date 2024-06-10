@@ -12,15 +12,102 @@ flutter by WS cube tech
 2. commands {
     - flutter
     - flutter doctor 
-    - 
+    - flutter create <projectname>
 }
 
 
-3. flutter installations {
-    -- #50.00 
+
+#50.00  flutter installations {
     -- flutter create <projectname> 
     -- 
 }
 
 
-4. 
+
+#9.48.00 Adding decoration to container {
+    -- double.infinity
+
+    -- child
+    -- children 
+    -- 
+
+    -- width 
+    -- height
+    -- color 
+    -- border 
+    -- borderRadius 
+    -- boxShadow
+    -- boxShape
+    -- topLeft
+    -- decoration
+    -- blurRadius 
+    -- spreadRadius
+    -- 
+
+    -- Colors.
+    -- BorderRadius.all 
+    -- BorderRadius.only
+    -- BorderRadius.circular 
+    -- Radius. 
+    -- 
+
+    -- Center
+    -- Container
+    -- BoxDecoration 
+    -- Row
+    -- Column 
+    -- 
+}
+
+
+#10.05.00 expanded widget {
+    -- Expanded 
+}
+
+
+
+## 10.20.00 
+-- Margin
+-- Padding 
+-- margin 
+-- padding 
+-- EdgeInsets.all()
+-- EdgeInsets.only()
+-- top
+-- left 
+-- right
+-- bottom 
+
+
+
+## 10.31.00
+-- Divider
+-- ListView
+-- ListView.seperated 
+-- ListTile 
+-- leading
+-- title
+-- subtitle
+-- trailing 
+-- itemCount
+-- 
+
+
+## 10.38.20
+-- CircleAvatar
+-- AssetImage 
+-- Image.asset()
+
+-- radius 
+-- minRadius 
+-- maxRadius 
+-- 
+
+-- backgroundColor 
+-- backgroundImage 
+-- 
+
+
+
+## 10.55.43
+-- 
