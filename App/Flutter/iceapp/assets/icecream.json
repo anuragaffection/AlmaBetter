@@ -1,0 +1,226 @@
+{
+  "icecreams": [
+    {
+      "flavor": "Vanilla",
+      "description": "Classic and creamy vanilla flavor ice creams",
+      "toppings": ["Chocolate Sauce", "Sprinkles"],
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Vanilla Extract",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Chocolate",
+      "description": "Rich and smooth chocolate ice cream",
+      "toppings": ["Whipped Cream", "Cherry"],
+      "price": 5.49,
+      "image": "https://plus.unsplash.com/premium_photo-1674819647276-c93c08795554?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Cocoa Powder",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Strawberry",
+      "description": "Fresh and fruity strawberry ice cream",
+      "toppings": ["Fresh Strawberries", "Whipped Cream"],
+      "price": 5.29,
+      "image": "https://images.unsplash.com/photo-1618485476424-7dc9cd512c08?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Fresh Strawberries",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Mint Chocolate Chip",
+      "description": "Cool mint ice cream with chocolate chips",
+      "toppings": ["Chocolate Chips", "Mint Leaves"],
+      "price": 5.59,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Mint Extract",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Chocolate Chips",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Cookies and Cream",
+      "description": "Creamy ice cream with chunks of chocolate cookies",
+      "toppings": ["Crushed Cookies", "Chocolate Syrup"],
+      "price": 5.79,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Chocolate Cookies",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Salted Caramel",
+      "description": "Sweet and salty caramel ice cream",
+      "toppings": ["Caramel Sauce", "Sea Salt"],
+      "price": 5.99,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Caramel Sauce",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sea Salt",
+          "quantity": "1 tsp"
+        }
+      ]
+    },
+    {
+      "flavor": "Pistachio",
+      "description": "Creamy ice cream with roasted pistachios",
+      "toppings": ["Chopped Pistachios", "Honey"],
+      "price": 6.29,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Pistachio Paste",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Lemon Sorbet",
+      "description": "Refreshing and tangy lemon sorbet",
+      "toppings": ["Lemon Zest", "Mint Leaves"],
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Lemon Juice",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Water",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Coffee",
+      "description": "Smooth and rich coffee ice cream",
+      "toppings": ["Chocolate Shavings", "Whipped Cream"],
+      "price": 5.79,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Instant Coffee",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "3/4 cup"
+        }
+      ]
+    },
+    {
+      "flavor": "Rocky Road",
+      "description": "Chocolate ice cream with marshmallows and nuts",
+      "toppings": ["Marshmallows", "Almonds"],
+      "price": 6.49,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Cocoa Powder",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "Marshmallows",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Almonds",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 cup"
+        }
+      ]
+    }
+  ]
+}
