@@ -1,0 +1,80 @@
+Given the instructions you have, it looks like `tunnel.pyjam.as` uses WireGuard for creating tunnels. Here’s a detailed step-by-step guide to set it up and use it:
+
+### Prerequisites
+1. **WireGuard**: Ensure you have WireGuard installed on your machine. You can install it using the following commands based on your OS:
+
+   **Linux**:
+   ```
+   sudo apt update
+   sudo apt install wireguard
+   ```
+
+   **macOS**:
+   ```
+   brew install wireguard-tools
+   ```
+
+   **Windows**:
+   - Download and install WireGuard from the [official website](https://www.wireguard.com/install/).
+
+### Steps to Start a Tunnel
+
+1. **Prepare Your Local Service**:
+   - Ensure your local service is running and bound to `0.0.0.0`. This means it listens on all network interfaces, which is necessary for the tunnel to work.
+   - For example, if you’re running a web server, you might configure it to listen on `0.0.0.0:8080`.
+
+2. **Download Tunnel Configuration**:
+   - Run the following command to download the WireGuard configuration file from `tunnel.pyjam.as` for port `8080`:
+     ```
+     curl https://tunnel.pyjam.as/8080 > tunnel.conf
+     ```
+
+3. **Start the Tunnel**:
+   - Use WireGuard to bring up the tunnel with the downloaded configuration:
+     ```
+     sudo wg-quick up ./tunnel.conf
+     ```
+
+4. **Access Your Local Service**:
+   - Once the tunnel is up, you can access your local service as if it were running on `tunnel.pyjam.as`.
+   - The exact external URL or IP address will be provided by the `tunnel.pyjam.as` service documentation.
+
+### Steps to Stop the Tunnel
+
+1. **Stop the Tunnel**:
+   - To stop the tunnel and bring down the WireGuard interface, run:
+     ```
+     sudo wg-quick down ./tunnel.conf
+     ```
+
+### Example Walkthrough
+
+1. **Prepare Your Local Service**:
+   - Suppose you have a local web server running on port `8080`. Ensure it is bound to `0.0.0.0`:
+     ```python
+     # Example with a simple Python HTTP server
+     python3 -m http.server 8080 --bind 0.0.0.0
+     ```
+
+2. **Download Tunnel Configuration**:
+   - Run:
+     ```
+     curl https://tunnel.pyjam.as/8080 > tunnel.conf
+     ```
+
+3. **Start the Tunnel**:
+   - Run:
+     ```
+     sudo wg-quick up ./tunnel.conf
+     ```
+
+4. **Access Your Service**:
+   - You will now be able to access your local service through the tunnel. The exact address will depend on `tunnel.pyjam.as` and should be provided by their documentation or interface.
+
+5. **Stop the Tunnel**:
+   - When you're done, stop the tunnel:
+     ```
+     sudo wg-quick down ./tunnel.conf
+     ```
+
+By following these steps, you can set up and use the tunnel provided by `tunnel.pyjam.as` to expose your local service securely. If you need more specific details about the external URL or additional configuration options, refer to the documentation or support provided by `tunnel.pyjam.as`.

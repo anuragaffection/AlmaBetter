@@ -110,4 +110,83 @@ flutter by WS cube tech
 
 
 ## 10.55.43
+-- download google fonts
+-- create a folder fonts in assets
+-- pubspec.yaml 
+-- pub upgrade 
 -- 
+
+
+
+## 11.06.00
+-- Styles & theme 
+
+-- fontSize
+-- fontWeight
+-- fontStyle
+
+-- ThemeData 
+-- TextTheme()
+-- Theme.of(context).textTheme.
+-- copyWith()
+-- primarySwatch
+-- 
+
+
+## 11.29.43 
+-- Card widget
+-- Card 
+-- elevation
+-- shadow 
+-- shadowColor
+-- 
+
+
+
+## 11.37.55
+-- input text 
+-- TextField
+
+-- decoration
+-- border 
+-- borderSide
+-- focusedBorder 
+-- enabledBorder
+-- disabledBorder
+
+-- InputDecoration
+-- OutlineInputBorder
+-- BorderSide
+
+-- suffixText
+-- suffixIcon
+-- prefixText
+-- prefixIcon
+
+-- controller
+-- obscureText
+-- hintText
+-- obscuringCharacter
+--
+
+
+
+## 12.07.00 
+-- Date & Time 
+-- DateTime()
+-- DateTime.now()
+-- .month
+-- .day
+-- .hour
+-- .minute
+-- .second
+-- 
+
+-- setState()
+
+
+
+
+
+
+
