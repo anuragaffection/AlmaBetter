@@ -15,8 +15,14 @@ More about Go
 -- Go is compiled language
 -- slower execution or slower than c, c++, rust 
 
+Task 
+-- What is garbage collector
+-- concurrency vs parallelism 
+-- 
+
 
 Install 
 -- GO GCC to run go code in your pc
+
 
 That's all for today 

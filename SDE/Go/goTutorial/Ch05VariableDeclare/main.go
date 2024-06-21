@@ -5,9 +5,11 @@ import (
 )
 
 /*
--- we can declare variable using two ways
--- 1. using var
--- 2. :=
+   we can declare variable using three ways
+   1. var
+   2. :=
+   3. const
+
 */
 
 /*
@@ -22,10 +24,13 @@ import (
 func main() {
 
 	// way 01
+	// using var
+	// using var with type
 	var myName = "Anurag"
 	var myNothing string = "GF" // we can define type , when using var
 
 	// way 02
+	// using :=
 	myFullName := "Anurag Affection"
 	// myNothing2 string := "GF" // we can't define type, when using :=
 

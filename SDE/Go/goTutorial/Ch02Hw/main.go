@@ -15,7 +15,7 @@ import (
 // main function = entry point of our code
 // main() =  already defined in Go
 func main() {
-	// Println() = used to print
+	// Println() = used to print new line
 	fmt.Println("Hello World")
 }
 

@@ -11,7 +11,11 @@ func main() {
 		-- 2. int
 		-- 3. float , float32, float64
 		-- 4. string
-		-- 5. complex , complex64, complex128
+		-- 5. complex, complex64, complex128
+		-- 6. byte
+		-- 7. rune
+		-- 8. uint, uint8, uint16, uint32, uint64,
+		-- 9. uintptr
 	*/
 
 	var myGF bool = false

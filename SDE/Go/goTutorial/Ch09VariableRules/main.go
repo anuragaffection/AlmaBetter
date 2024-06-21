@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
-  -- Rules for Variable Names in go
+  Rules for Variable Names in go
   1. Must begin with a characters (a-z), (A-z), or underscore(_)
   2. Must not begin with number or any special characters like @, #, $, %, ^, & and more.
   3. Varaible names contains AlphaNumeric, (alphabets + number)

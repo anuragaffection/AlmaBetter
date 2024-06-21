@@ -22,6 +22,7 @@ func main() {
 }
 
 /*
+-- curly brackes must comes after Function brackets in go
 -- saving the code, automatically making  it into new line
 */
 

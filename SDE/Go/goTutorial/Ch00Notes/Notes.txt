@@ -43,6 +43,7 @@ fmt print type {
     - Println()
     - Print()
     - Printf()
+
     - Sprintf()
     - Fprintf()
 }
@@ -58,6 +59,7 @@ Method in go
 special function in go {
     - main()
     - init()
+    - make()
 }
 
 
@@ -82,7 +84,6 @@ Go Important Notes {
     -- In Go, we use a cursor to iterate over the results of a query.
     -- In Go, any executable code belongs to the main package.
     -- 
-
 }
 
 
@@ -142,8 +143,8 @@ Mongdb setup with go {
 
 
     -- import 
-    "context"
-	"log"
+    -- "context"
+	-- "log"
 
 }
 
