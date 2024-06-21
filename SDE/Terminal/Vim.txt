@@ -1,9 +1,4 @@
 
-
-
-
-
-
 commands 
 - i   = to enter insert mode 
 - esc = to exit insert mode 
