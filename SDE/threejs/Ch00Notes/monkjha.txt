@@ -1,0 +1,7 @@
+
+what we need 
+-- scene
+-- object
+-- camera
+-- director 
+
