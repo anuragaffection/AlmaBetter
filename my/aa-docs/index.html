@@ -5,29 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>README Display</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      #readme-content {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #readme-content h2 {
+        color: #0056b3;
+      }
+      #readme-content p {
+        line-height: 1.6;
+      }
+      #readme-content pre {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        overflow-x: auto;
+      }
+      #readme-content code {
+        background: #f1f1f1;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      #readme-content a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      #readme-content a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <div>Hello Docs</div>
+    <h1>hello Docs</h1>
     <div id="readme-content"></div>
-    <!-- This is the correct ID -->
 
     <script>
       async function fetchReadme() {
         const url =
-          "https://raw.githubusercontent.com/anuragaffection/FullStackNotes/master/Web/m03frontend/05react/reactNotes/Ch51JSX/Ch51JSX.txt";
-
+          "https://raw.githubusercontent.com/anuragaffection/FullStackNotes/master/Web/m03frontend/05react/reactNotes/Ch51JSX/Ch51JSX/readme.md"; // Raw URL
         try {
           const response = await fetch(url);
-          console.log(response);
           if (!response.ok) {
             throw new Error(
               "Network response was not ok " + response.statusText
             );
           }
-          const text = await response.text();
-          document.getElementById("readme-content").textContent = text; // Use the correct ID here
+          const markdown = await response.text();
+          // Ensure marked is correctly defined
+          if (typeof marked !== "undefined") {
+            const htmlContent = marked.parse(markdown); // Use marked.parse instead of marked
+            document.getElementById("readme-content").innerHTML = htmlContent;
+          } else {
+            throw new Error("Marked library is not loaded correctly");
+          }
         } catch (error) {
-          console.error("Error fetching the text file:", error);
+          console.error("Error fetching the README file:", error);
         }
       }
 
