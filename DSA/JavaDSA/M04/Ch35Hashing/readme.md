@@ -1,11 +1,11 @@
 # Hashing
 
-## Map
+### Map
 - HashMap
 - LinkedHashMap
 - TreeMap
 
-## Set
+### Set
 - HashSet
 - LinkedHashSet
 - TreeSet
