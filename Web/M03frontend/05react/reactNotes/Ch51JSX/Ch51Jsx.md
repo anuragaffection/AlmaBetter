@@ -134,7 +134,7 @@ Rules for JSX:
 
 ## 07. Virtual DOM
 
-## Links
+## 08. Links
 
 - [GitHub - Mohammad Eshtaiwi](https://github.com/Mohammad-Eshtaiwi/react_tutorial)
 - [GitHub - Sagar Barapatre](https://github.com/sagar-barapatre/react-tutorial)
@@ -143,8 +143,8 @@ Rules for JSX:
 - [Dev.to - Awesome projects built with Tailwind CSS](https://dev.to/devwares/10-awesome-projects-built-with-tailwind-css-4mmf)
 - [Contact Mentor - Best React projects for beginners](https://contactmentor.com/best-react-projects-for-beginners-easy/?expand_article=1)
 
-## Notes
+## 09. Notes
 
-## Task
+## 10. Task
 
 - Comparison between Virtual DOM and Real DOM
