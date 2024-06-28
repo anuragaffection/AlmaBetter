@@ -1,0 +1,5 @@
+// Hashing is the process of transforming any given key or a string of
+// characters into another value.
+
+// Salting is the process of adding a unique, random value (called a salt) to an
+// input before hashing it.
