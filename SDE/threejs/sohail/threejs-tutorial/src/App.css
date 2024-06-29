@@ -1,0 +1,9 @@
+body,:root {
+    background-color: #ffffff;
+    color: wheat;
+}
+
+.appDiv {
+    height: 100vh !important;
+}
+
