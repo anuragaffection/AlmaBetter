@@ -147,4 +147,4 @@ Rules for JSX:
 
 ## 10. Task
 
-- Comparison between Virtual DOM and Real DOM
+- Comparison between Virtual DOM and Real DOM vs Shadow DOM
