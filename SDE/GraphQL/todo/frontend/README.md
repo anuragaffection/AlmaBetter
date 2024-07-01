@@ -1,4 +1,5 @@
-# React + Vite
+# React + vite 
+- by Piyush Garg dev 
 
 # command
 -- yarn add @apollo/client
