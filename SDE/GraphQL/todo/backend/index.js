@@ -4,6 +4,13 @@ const { expressMiddleware } = require('@apollo/server/express4')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
+const { todos } = require("./data/todos")
+const { users } = require("./data/users")
+
+// Query 
+// Mutations 
+
+// why we need ApolloServer
 async function startServer() {
     const app = express();
 
@@ -15,6 +22,7 @@ async function startServer() {
                 name : String!
                 username : String!
                 email : String!
+                phone : String!
             }
 
             type Todo {
@@ -33,20 +41,24 @@ async function startServer() {
         `,
         // on resolvers, we write logic 
         resolvers: {
-            Todo : {
-                user : () => {
-                    
+            // what we are doing here 
+            Todo: {
+                // how 
+                user: (todo) => {
+                    return users.find((e) => e.id === todo.id)
                 }
             },
-            Query : {
-                getTodos : () => {
-
+            Query: {
+                getTodos: () => {
+                    return todos;
                 },
-                getAllUsers : () => {
-
+                getAllUsers: () => {
+                    return users;
                 },
-                getUser : (parent, {id})  => {
-
+                // how 
+                // why we need parent 
+                getUser: (parent, { id }) => {
+                    return users.find((e) => e.id === id);
                 }
             }
         }
@@ -59,7 +71,7 @@ async function startServer() {
 
     app.use("/graphql", expressMiddleware(server));
 
-    app.listen(8000, () => { console.log("Server is running on port 8000") })
+    app.listen(8000, () => { console.log("Server is running on port 8000 + http://localhost:8000") })
 }
 
 startServer();
