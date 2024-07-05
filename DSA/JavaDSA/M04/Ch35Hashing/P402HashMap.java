@@ -50,6 +50,8 @@ public class P402HashMap {
 		 * -- put()
 		 * -- get()
 		 * -- containsKey()
+		 * -- remove()
+		 * -- size()
 		 * -- isEmpty()
 		 * -- clear()
 		 * -- keySet()
