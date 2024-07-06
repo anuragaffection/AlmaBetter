@@ -6,6 +6,7 @@ import (
 
 /*
 Array Declarations
+
 1. using var
 2. using :=
 
@@ -19,7 +20,9 @@ syntax, when length is not defined
 
 Note
 -- when array length will not defined, then "go" will define the length
+
 */
+
 func main() {
 	fmt.Println("Array Declarations in Depth")
 

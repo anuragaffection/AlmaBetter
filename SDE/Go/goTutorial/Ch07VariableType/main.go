@@ -9,7 +9,7 @@ func main() {
 		-- types of variable in go
 		-- 1. bool
 		-- 2. int
-		-- 3. float , float32, float64
+		-- 3. float, float32, float64
 		-- 4. string
 		-- 5. complex, complex64, complex128
 		-- 6. byte

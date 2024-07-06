@@ -44,6 +44,10 @@ fmt print type {
     - Print()
     - Printf()
 
+    -- Fprint()
+    -- Fprintln()
+    -- Fprintf()
+
     - Sprintf()
     - Fprintf()
 }

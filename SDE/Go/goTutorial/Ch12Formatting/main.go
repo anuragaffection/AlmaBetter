@@ -6,22 +6,24 @@ import (
 
 func main() {
 	/*
-		    In Go, there are lots of formattig verb, we will most used
+		In Go, there are lots of formattig verb, we will most used
 
-			-- %d, integer
+		-- %d, integer
 
-			-- %f, float
-			-- %.2f, float + precision to two decimal
-			-- %.3f, float + precision to three decimal
+		-- %f, float
+		-- %.2f, float + precision to two decimal
+		-- %.3f, float + precision to three decimal
 
-			-- %s, string
-			-- %t, boolean
-
-			-- %v, value of variable
-			-- %T, type of variable
+		-- %s, string
+		-- $q, double quoted string
 
 
-			-- \n , used to format in new line
+		-- %t, boolean
+
+		-- %v, value of variable
+		-- %T, type of variable
+
+		-- \n , used to format in new line
 	*/
 
 	fmt.Println("Foramatting verb in Go")
@@ -42,6 +44,7 @@ func main() {
 	// string
 	var myName = "Anurag"
 	fmt.Printf("My name is %s \n", myName)
+	fmt.Printf("My name is %q \n", myName)
 
 	// boolean
 	var haveGF = false
