@@ -13,11 +13,6 @@
       h1 {
         color: white;
       }
-      h2 {
-        color: #65b300;
-        height: 62px;
-        font-size: 62px;
-      }
       #readme-content {
         background-color: #222020;
         color: wheat;
@@ -25,25 +20,14 @@
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      /* #readme-content h2 {
-        color: #65b300;
-        height: 62px;
-        font-size: 62px;
-      } */
-      p {
-        line-height: 1.6;
+      ul {
+        list-style-type: none;
       }
-      pre {
-        background: #da2020;
-        color: #fff;
-        padding: 10px;
-        border-radius: 4px;
-        overflow-x: auto;
+      ul ul {
+        margin-left: 20px;
       }
-      code {
-        background: #d31b1b;
-        padding: 2px 4px;
-        border-radius: 4px;
+      li {
+        margin: 5px 0;
       }
       a {
         color: #007bff;
@@ -70,19 +54,49 @@
             );
           }
           const markdown = await response.text();
-          // Ensure marked is correctly defined
           if (typeof marked !== "undefined") {
             const htmlContent = marked.parse(markdown);
-            // Use marked.parse instead of marked
-
-            // inserting to div
-            document.getElementById("readme-content").innerHTML = htmlContent;
+            const treeContent = convertToTree(htmlContent);
+            document.getElementById("readme-content").innerHTML = treeContent;
           } else {
             throw new Error("Marked library is not loaded correctly");
           }
         } catch (error) {
           console.error("Error fetching the README file:", error);
         }
+      }
+
+      function convertToTree(html) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, "text/html");
+
+        function createTree(element) {
+          if (!element) return "";
+          let tree = "";
+          const children = Array.from(element.children);
+          if (children.length) {
+            tree += "<ul>";
+            children.forEach((child) => {
+              if (
+                child.tagName === "H1" ||
+                child.tagName === "H2" ||
+                child.tagName === "H3"
+              ) {
+                tree += `<li>${child.innerText}`;
+                tree += createTree(child.nextElementSibling);
+                tree += "</li>";
+              } else if (child.tagName === "P") {
+                tree += `<li>${child.innerHTML}</li>`;
+              } else if (child.tagName === "UL") {
+                tree += createTree(child);
+              }
+            });
+            tree += "</ul>";
+          }
+          return tree;
+        }
+
+        return createTree(doc.body);
       }
 
       fetchReadme();
