@@ -14,9 +14,7 @@
 
 
         for (let i = 0; i < m; i++) {
-
             for (let j = 0; j < n; j++) {
-
                 if (matrix[i][j] === 0) {
                     zeroRow.add(i); // storing index 
                     zeroCol.add(j); // storing index 
