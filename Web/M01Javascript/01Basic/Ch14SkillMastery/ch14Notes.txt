@@ -25,4 +25,12 @@ Skill Mastery interview concept {
 
 
 
+BigInt {
+       -- use 'n' at the last of number 
+       -- BigInt(), functions to convert into big int
+       -- https://www.w3schools.com/js/js_bigint.asp
+}
+
+
+
 
