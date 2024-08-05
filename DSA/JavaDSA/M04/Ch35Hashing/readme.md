@@ -140,6 +140,13 @@
 - `Set<element> s = new LinkedHashSet<>();`
 - `Set<element> s = new TreeSet<>();`
 
+### 06. Iterations 
+- `for( : )`
+- `Iterator  = Type`
+- `iterator = method`
+- `next(), hasNext() = method`
+
+
 ## Difference
 
 ### 01. Set vs HashSet
