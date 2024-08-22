@@ -1,0 +1,1466 @@
+{
+  "paper_name": "BPSC TRE 01 - (Class 11-12) -  Senior Secondary School Teacher -  ENTREPRENEURSHIP",
+  "paper_id": "18/HV/M-2023-25",
+  "paper_year": "",
+  "paper_booklet_series": "A",
+  "paper_title": "General Studies & ENTREPRENEURSHIP",
+  "paper_maximum_marks": "120",
+  "paper_instructions": [
+    "part 1 - General Studies",
+    "Part 2 -  ENTREPRENEURSHIP"
+  ],
+  "paper_total_questions": "120",
+  "paper_total_questions_distribution": [
+    "01 to 40 - General Studies",
+    "41 to 120 -  ENTREPRENEURSHIP"
+  ],
+  "paper_links_used": "https://adda247jobs-wp-assets-prod.adda247.com/jobs/wp-content/uploads/sites/13/2023/08/02120650/BPSC-PGT-2023-Question-Papers-Entrepreneurship.pdf",
+  "paper_links_answer_key": "https://adda247jobs-wp-assets-prod.adda247.com/jobs/wp-content/uploads/sites/13/2023/10/16105623/BPSC-PGT-Final-Answer-Key-2023-Entrepreneurship.pdf",
+  "paper_todo": [
+    "may be answer of gpt be wrong, so confirm from answer key",
+    "do not edit this format, this must be same for all data",
+    "new key - passage - used"
+  ],
+  "questions": [
+    {
+      "id": "41",
+      "question": [
+        "Which principle of general management advocates that, ‘‘employee turnover should be minimized to maintain the organizational efficiency’’?",
+        "सामान्य प्रबंधन के किस सिद्धांत में कहा गया है कि 'संगठनात्मक दक्षता बनाए रखने के लिए कर्मचारी टर्नओवर को कम किया जाना चाहिए'?"
+      ],
+      "options": {
+        "A": ["Stability of personnel", "कर्मचारी स्थिरता"],
+        "B": ["Remuneration of employees", "कर्मचारियों का पारिश्रमिक"],
+        "C": ["Equity", "न्याय"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "42",
+      "question": [
+        "The policy and process on liberalization and privatization in India are aimed at",
+        "भारत में उदारीकरण और निजीकरण की नीति और प्रक्रिया का उद्देश्य है"
+      ],
+      "options": {
+        "A": [
+          "encouraging foreign investment and reduce government control",
+          "विदेशी निवेश को प्रोत्साहित करना और सरकारी नियंत्रण को कम करना"
+        ],
+        "B": [
+          "transferring ownership and control of public sector enterprises to private entities",
+          "सार्वजनिक क्षेत्र के उद्यमों के स्वामित्व और नियंत्रण को निजी संस्थाओं को हस्तांतरित करना"
+        ],
+        "C": [
+          "expanding the role of government in the economy",
+          "अर्थव्यवस्था में सरकार की भूमिका का विस्तार करना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "43",
+      "question": [
+        "The Government of India proposed to encourage the e-transactions by encouraging the use of plastic money (through debit, credit and gift cards) or net banking by allowing deductions in usage charges, fees and income-tax exemptions. Which component of business environment does it represent?",
+        "भारत सरकार ने उपयोग शुल्क, फीस और आयकर छूट में कटौती की अनुमति देकर प्लास्टिक मनी (डेबिट, क्रेडिट और गिफ्ट कार्ड के माध्यम से) या नेट बैंकिंग के उपयोग को बढ़ावा देकर ई-लेनदेन को प्रोत्साहित करने का प्रस्ताव रखा। यह किस व्यावसायिक वातावरण का घटक दर्शाता है?"
+      ],
+      "options": {
+        "A": ["Social", "सामाजिक"],
+        "B": ["Political", "राजनीतिक"],
+        "C": ["Economic", "आर्थिक"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "44",
+      "question": [
+        "The Indian Government initiated the LPG reforms to address the challenges of",
+        "भारतीय सरकार ने एलपीजी सुधारों को किस चुनौती का सामना करने के लिए शुरू किया?"
+      ],
+      "options": {
+        "A": [
+          "slow economic growth and huge employment",
+          "धीमी आर्थिक वृद्धि और भारी रोजगार"
+        ],
+        "B": [
+          "excessive government control and bureaucracy",
+          "अत्यधिक सरकारी नियंत्रण और नौकरशाही"
+        ],
+        "C": [
+          "widespread poverty and income inequality",
+          "व्यापक गरीबी और आय असमानता"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "45",
+      "question": [
+        "Identify the correct sequence of steps involved in the planning process.",
+        "योजना प्रक्रिया में शामिल चरणों का सही क्रम पहचानें।"
+      ],
+      "options": {
+        "A": [
+          "Evaluating alternative courses, identifying alternative course of actions, setting objectives, developing premises",
+          "वैकल्पिक पाठ्यक्रमों का मूल्यांकन, वैकल्पिक कार्यवाही का पाठ्यक्रम पहचानना, उद्देश्यों को स्थापित करना, आधार तैयार करना"
+        ],
+        "B": [
+          "Setting objectives, identifying alternative course of actions, evaluating alternative courses, developing premises",
+          "उद्देश्यों को स्थापित करना, वैकल्पिक कार्यवाही का पाठ्यक्रम पहचानना, वैकल्पिक पाठ्यक्रमों का मूल्यांकन करना, आधार तैयार करना"
+        ],
+        "C": [
+          "Setting objectives, developing premises, identifying alternative course of actions, evaluating alternative courses",
+          "उद्देश्यों को स्थापित करना, आधार तैयार करना, वैकल्पिक कार्यवाही का पाठ्यक्रम पहचानना, वैकल्पिक पाठ्यक्रमों का मूल्यांकन करना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "46",
+      "question": [
+        "According to Maslow’s hierarchy of needs, which of the following needs must be satisfied first?",
+        "मास्लो की आवश्यकता पदानुक्रम के अनुसार, निम्नलिखित में से किस आवश्यकता को पहले पूरा किया जाना चाहिए?"
+      ],
+      "options": {
+        "A": ["Safety needs", "सुरक्षा की आवश्यकता"],
+        "B": ["Self-actualization needs", "आत्म-साक्षात्कार की आवश्यकता"],
+        "C": ["Social needs", "सामाजिक आवश्यकताएँ"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "47",
+      "question": [
+        "Indigo Limited has a staff of 300 people which is grouped into different departments. The organizational structure depicts that 100 people work in the production department, 150 in finance department, 20 in technology department, and 30 in the human resource department. Identify the type of organizational structure being followed by the company.",
+        "इंडिगो लिमिटेड के पास 300 लोगों का स्टाफ है जिसे विभिन्न विभागों में विभाजित किया गया है। संगठनात्मक संरचना बताती है कि 100 लोग उत्पादन विभाग में, 150 वित्त विभाग में, 20 प्रौद्योगिकी विभाग में और 30 मानव संसाधन विभाग में काम करते हैं। कंपनी द्वारा अपनाई जा रही संगठनात्मक संरचना के प्रकार की पहचान करें।"
+      ],
+      "options": {
+        "A": ["Functional structure", "कार्यात्मक संरचना"],
+        "B": ["Divisional structure", "विभागीय संरचना"],
+        "C": ["Informal structure", "अनौपचारिक संरचना"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "48",
+      "question": [
+        "Which of the following is a characteristic of effective delegation?",
+        "प्रभावी प्रबंधन का कौन सा निम्नलिखित गुण है?"
+      ],
+      "options": {
+        "A": [
+          "Providing all decision-making authority to the subordinate",
+          "सभी निर्णय लेने के अधिकार को अधीनस्थ को सौंपना"
+        ],
+        "B": [
+          "Granting limited decision-making authority to the subordinate",
+          "अधीनस्थ को सीमित निर्णय लेने के अधिकार देना"
+        ],
+        "C": [
+          "Granting appropriate decision-making authority to the subordinate",
+          "अधीनस्थ को उचित निर्णय लेने के अधिकार देना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+
+    {
+      "id": "49",
+      "question": [
+        "Which of the following decisions is to be made while devising the strategies to staffing?",
+        "स्टाफिंग की रणनीतियों का निर्माण करते समय निम्नलिखित में से कौन सा निर्णय लिया जाना चाहिए?"
+      ],
+      "options": {
+        "A": [
+          "Planning the manpower requirements",
+          "जनशक्ति की आवश्यकताओं की योजना बनाना"
+        ],
+        "B": [
+          "Geographic distribution of labour markets comprising job seekers",
+          "नौकरी चाहने वालों वाले श्रम बाजारों का भौगोलिक वितरण"
+        ],
+        "C": [
+          "Sequencing the activities in the recruitment process",
+          "भर्ती प्रक्रिया में गतिविधियों का क्रमबद्ध करना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "50",
+      "question": [
+        "Which of the following financial statements provides a snapshot of a company’s financial position at a specific point of time?",
+        "निम्नलिखित में से कौन सा वित्तीय विवरण किसी कंपनी की वित्तीय स्थिति का एक विशेष समय पर स्नैपशॉट प्रदान करता है?"
+      ],
+      "options": {
+        "A": ["Income statement", "आय विवरण"],
+        "B": ["Statement of cash flow", "नकद प्रवाह का विवरण"],
+        "C": ["Balance sheet", "बैलेंस शीट"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "51",
+      "question": [
+        "Which of the following aims to provide broad training to enable the trainee to take up a wide variety of tasks within his field of specialization?",
+        "निम्नलिखित में से कौन प्रशिक्षु को अपने विशेषज्ञता के क्षेत्र में विभिन्न प्रकार के कार्य करने में सक्षम बनाने के लिए व्यापक प्रशिक्षण प्रदान करने का लक्ष्य रखता है?"
+      ],
+      "options": {
+        "A": ["On-the-job training", "नौकरी पर प्रशिक्षण"],
+        "B": ["Demonstration", "प्रदर्शन"],
+        "C": ["Apprenticeship", "शिक्षुता"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "52",
+      "question": [
+        "What does the term ‘working capital’ mean?",
+        "‘कार्यशील पूंजी’ शब्द का क्या अर्थ है?"
+      ],
+      "options": {
+        "A": ["The long-term debt of a company", "किसी कंपनी का दीर्घकालिक ऋण"],
+        "B": [
+          "The investment in fixed assets",
+          "स्थिर परिसंपत्तियों में निवेश"
+        ],
+        "C": [
+          "The difference between current assets and current liabilities",
+          "चालू संपत्तियों और चालू दायित्वों के बीच अंतर"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "53",
+      "question": [
+        "_______ entrepreneurs are extremely task-oriented.",
+        "_______ उद्यमी अत्यंत कार्य-उन्मुख होते हैं।"
+      ],
+      "options": {
+        "A": ["Technical", "तकनीकी"],
+        "B": ["Fabian", "फेबियन"],
+        "C": ["Induced", "प्रेरित"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "54",
+      "question": [
+        "What is the purpose of crowd funding as a method of raising funds?",
+        "धन जुटाने की एक विधि के रूप में क्राउड फंडिंग का उद्देश्य क्या है?"
+      ],
+      "options": {
+        "A": [
+          "To raise funds from the financial institutions through online platform",
+          "ऑनलाइन प्लेटफॉर्म के माध्यम से वित्तीय संस्थानों से धन जुटाना"
+        ],
+        "B": [
+          "To raise funds from the government agencies through online platform",
+          "ऑनलाइन प्लेटफॉर्म के माध्यम से सरकारी एजेंसियों से धन जुटाना"
+        ],
+        "C": [
+          "To raise funds from the large number of individuals through online platform",
+          "ऑनलाइन प्लेटफॉर्म के माध्यम से बड़ी संख्या में व्यक्तियों से धन जुटाना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "55",
+      "question": [
+        "The MSME Development Act came into force in",
+        "एमएसएमई विकास अधिनियम किस वर्ष लागू हुआ?"
+      ],
+      "options": {
+        "A": ["2006", "2006"],
+        "B": ["2009", "2009"],
+        "C": ["2012", "2012"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "56",
+      "question": [
+        "What is the purpose of bond markets?",
+        "बॉन्ड बाजार का उद्देश्य क्या है?"
+      ],
+      "options": {
+        "A": ["Trading of company stocks", "कंपनी के शेयरों का व्यापार"],
+        "B": [
+          "Buying and selling of government debt securities",
+          "सरकारी ऋण प्रतिभूतियों की खरीद और बिक्री"
+        ],
+        "C": [
+          "Buying and selling of private institutions debt securities",
+          "निजी संस्थानों की ऋण प्रतिभूतियों की खरीद और बिक्री"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "57",
+      "question": [
+        "Which of the following is not a type of personal barrier?",
+        "निम्नलिखित में से कौन व्यक्तिगत अवरोध का प्रकार नहीं है?"
+      ],
+      "options": {
+        "A": [
+          "Fear of challenge to authority",
+          "प्राधिकरण के लिए चुनौती का डर"
+        ],
+        "B": ["Unwillingness to communicate", "संचार करने की अनिच्छा"],
+        "C": [
+          "Loss by transmission and poor retention",
+          "प्रसारण से हानि और खराब प्रतिधारण"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "58",
+      "question": [
+        "What is the role of stock exchange in financial markets?",
+        "वित्तीय बाजारों में स्टॉक एक्सचेंज की भूमिका क्या है?"
+      ],
+      "options": {
+        "A": [
+          "Facilitating the trading of stocks and other securities",
+          "शेयरों और अन्य प्रतिभूतियों के व्यापार में सुविधा प्रदान करना"
+        ],
+        "B": [
+          "Setting interest rates for loans and other securities",
+          "ऋणों और अन्य प्रतिभूतियों के लिए ब्याज दरें निर्धारित करना"
+        ],
+        "C": [
+          "Offering investment advisory services to the investors",
+          "निवेशकों को निवेश परामर्श सेवाएं प्रदान करना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "59",
+      "question": [
+        "_____ refers to the structure of total capital funds raised by the company.",
+        "_____ कंपनी द्वारा जुटाई गई कुल पूंजी निधियों की संरचना को संदर्भित करता है।"
+      ],
+      "options": {
+        "A": ["Fixed capital", "नियत पूंजी"],
+        "B": ["Capital structure", "पूंजी संरचना"],
+        "C": ["Capital requirement", "पूंजी आवश्यकता"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+
+    {
+      "id": "60",
+      "question": [
+        "The process which involves gauging a customer’s requirements and designing a product or service to serve that requirement is known as",
+        "ग्राहक की आवश्यकताओं का आकलन करने और उस आवश्यकता को पूरा करने के लिए उत्पाद या सेवा तैयार करने की प्रक्रिया को क्या कहते हैं"
+      ],
+      "options": {
+        "A": ["product management", "उत्पाद प्रबंधन"],
+        "B": ["customer management", "ग्राहक प्रबंधन"],
+        "C": ["marketing", "विपणन"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "61",
+      "question": [
+        "Identify the correct sequence of steps to be followed in the trading procedure at stock exchange.",
+        "स्टॉक एक्सचेंज में व्यापारिक प्रक्रिया में पालन किए जाने वाले चरणों का सही क्रम पहचानें।"
+      ],
+      "options": {
+        "A": [
+          "Opening a trading account and demat account, placing an order, settlement of order, execution of order",
+          "ट्रेडिंग खाता और डीमैट खाता खोलना, ऑर्डर देना, ऑर्डर का निपटान, ऑर्डर का निष्पादन"
+        ],
+        "B": [
+          "Settlement of order, opening a trading account and demat account, placing an order, execution of order",
+          "ऑर्डर का निपटान, ट्रेडिंग खाता और डीमैट खाता खोलना, ऑर्डर देना, ऑर्डर का निष्पादन"
+        ],
+        "C": [
+          "Opening a trading account and demat account, placing an order, execution of order, settlement of order",
+          "ट्रेडिंग खाता और डीमैट खाता खोलना, ऑर्डर देना, ऑर्डर का निष्पादन, ऑर्डर का निपटान"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "62",
+      "question": [
+        "A name, term, design, symbol, or any other feature that identifies one seller’s good or service as distinct from those of other sellers is known as",
+        "एक विक्रेता के सामान या सेवा को दूसरे विक्रेताओं के सामान या सेवाओं से अलग पहचानने वाला नाम, शब्द, डिज़ाइन, प्रतीक या कोई अन्य विशेषता क्या कहलाती है"
+      ],
+      "options": {
+        "A": ["brand", "ब्रांड"],
+        "B": ["product", "उत्पाद"],
+        "C": ["advertisement", "विज्ञापन"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "63",
+      "question": [
+        "Which of the following serves as an intermediary between the investor and the depository who is authorized to maintain the accounts of dematerialized shares?",
+        "निम्नलिखित में से कौन सा निवेशक और डिपॉजिटरी के बीच मध्यस्थ के रूप में कार्य करता है जिसे डिमैटरियलाइज्ड शेयरों के खातों को बनाए रखने का अधिकार है?"
+      ],
+      "options": {
+        "A": ["Depository participant", "डिपॉजिटरी प्रतिभागी"],
+        "B": ["Depository", "डिपॉजिटरी"],
+        "C": ["Stock exchange", "स्टॉक एक्सचेंज"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "64",
+      "question": [
+        "An organized network of agencies and institutions which, in combination, perform all the functions required to link producers with end customers to accomplish the marketing task is known as",
+        "एजेंसियों और संस्थानों का एक संगठित नेटवर्क जो संयुक्त रूप से उत्पादकों को अंतिम ग्राहकों से जोड़ने के लिए आवश्यक सभी कार्यों को पूरा करता है, विपणन कार्य को पूरा करने के लिए जाना जाता है।"
+      ],
+      "options": {
+        "A": ["channel of distribution", "वितरण का चैनल"],
+        "B": ["channel of communication", "संचार का चैनल"],
+        "C": ["channel of stores", "स्टोर का चैनल"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "65",
+      "question": [
+        "Which of the following promotional tools is thought to be the most expensive to use?",
+        "निम्नलिखित में से कौन सा प्रचार उपकरण उपयोग करने के लिए सबसे महंगा माना जाता है?"
+      ],
+      "options": {
+        "A": ["Advertising", "विज्ञापन"],
+        "B": ["Public relations", "सार्वजनिक संबंध"],
+        "C": ["Personal selling", "व्यक्तिगत बिक्री"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "66",
+      "question": [
+        "A consumer good and/or service (such as soap, candy bar, and shoeshine) that is bought frequently, often on impulse, with little time effort spent on the buying process, is known as",
+        "एक उपभोक्ता वस्तु और/या सेवा (जैसे साबुन, कैंडी बार और जूता पॉलिश) जो अक्सर बिना ज्यादा सोच-समझ के खरीदी जाती है, और खरीद प्रक्रिया में थोड़ा समय लगता है, के रूप में जानी जाती है।"
+      ],
+      "options": {
+        "A": ["unsought product", "अनचाहा उत्पाद"],
+        "B": ["sought product", "मांगा गया उत्पाद"],
+        "C": ["convenience product", "सुविधा उत्पाद"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "67",
+      "question": [
+        "Which of the following statements is false?",
+        "निम्नलिखित में से कौन सा कथन गलत है?"
+      ],
+      "options": {
+        "A": [
+          "That great idea you told your friend about the other day cannot be protected by copyright.",
+          "वह बढ़िया विचार जो आपने एक दिन अपने मित्र को बताया था, कॉपीराइट द्वारा संरक्षित नहीं किया जा सकता है।"
+        ],
+        "B": [
+          "Commonly known information that is considered as common property and with no known authorship cannot be protected by copyright.",
+          "सामान्य संपत्ति मानी जाने वाली सामान्य रूप से ज्ञात जानकारी और बिना किसी ज्ञात लेखक के कॉपीराइट द्वारा संरक्षित नहीं की जा सकती।"
+        ],
+        "C": [
+          "A choreographic work, whether original or not, is not subject to copyright protection unless it has been videotaped or noted.",
+          "एक नृत्यकला कार्य, चाहे वह मौलिक हो या न हो, जब तक उसे वीडियो टेप या नोट नहीं किया जाता है, तब तक वह कॉपीराइट संरक्षण के अधीन नहीं है।"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "68",
+      "question": [
+        "The degree that an economic variable changes in response to a change in another economic variable is known as",
+        "किसी अन्य आर्थिक चर में परिवर्तन के जवाब में किसी आर्थिक चर में परिवर्तन की डिग्री को कहा जाता है"
+      ],
+      "options": {
+        "A": ["elasticity", "लोचशीलता"],
+        "B": ["non-elasticity", "अलोचशीलता"],
+        "C": ["dependability", "निर्भरता"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "69",
+      "question": [
+        "Which of the following statements is false?",
+        "निम्नलिखित में से कौन सा कथन गलत है?"
+      ],
+      "options": {
+        "A": [
+          "A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises.",
+          "एक ट्रेडमार्क एक संकेत है जो एक उद्यम के सामान या सेवाओं को अन्य उद्यमों के सामान या सेवाओं से अलग करने में सक्षम है।"
+        ],
+        "B": [
+          "Trademarks are protected by the Intellectual Property Rights.",
+          "ट्रेडमार्क बौद्धिक संपदा अधिकारों द्वारा संरक्षित हैं।"
+        ],
+        "C": [
+          "Trademarks are protected under the Consumer Protection Act.",
+          "ट्रेडमार्क उपभोक्ता संरक्षण अधिनियम के तहत संरक्षित हैं।"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "70",
+      "question": [
+        "The mix of controllable variables that a firm uses to reach desired sales level in target market is known as",
+        "लक्षित बाजार में वांछित बिक्री स्तर तक पहुंचने के लिए एक फर्म द्वारा उपयोग किए जाने वाले नियंत्रणीय चरों के मिश्रण को क्या कहा जाता है"
+      ],
+      "options": {
+        "A": ["marketing mix", "विपणन मिश्रण"],
+        "B": ["product mix", "उत्पाद मिश्रण"],
+        "C": ["price mix", "कीमत मिश्रण"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "71",
+      "question": [
+        "Which of the following is not recognized as misconception about entrepreneurship?",
+        "निम्नलिखित में से किसे उद्यमिता के बारे में गलत धारणा के रूप में नहीं पहचाना जाता है?"
+      ],
+      "options": {
+        "A": ["Entrepreneurship is easy", "उद्यमिता आसान है"],
+        "B": [
+          "Entrepreneurship is found only in small businesses",
+          "उद्यमिता केवल छोटे व्यवसायों में पाई जाती है"
+        ],
+        "C": [
+          "Successful entrepreneurship needs only a great idea",
+          "सफल उद्यमिता के लिए केवल एक महान विचार की आवश्यकता होती है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "72",
+      "question": [
+        "Products that are unknown to the potential customers or they are known product which customers do not actively seek are known as",
+        "वे उत्पाद जो संभावित ग्राहकों के लिए अज्ञात हैं या वे ज्ञात उत्पाद हैं जिन्हें ग्राहक सक्रिय रूप से नहीं खोजते हैं, उन्हें क्या कहा जाता है"
+      ],
+      "options": {
+        "A": ["undercover products", "अंडरकवर उत्पाद"],
+        "B": ["demanded products", "मांग वाले उत्पाद"],
+        "C": ["unsought products", "अनचाही उत्पाद"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "73",
+      "question": [
+        "Which of the following could provide an individual with the motivation to start with a new business venture?",
+        "निम्नलिखित में से कौन सा एक व्यक्ति को एक नए व्यवसायिक उद्यम के साथ शुरू करने की प्रेरणा प्रदान कर सकता है?"
+      ],
+      "options": {
+        "A": ["The financial rewards", "वित्तीय पुरस्कार"],
+        "B": ["A desire to be independent", "स्वतंत्र होने की इच्छा"],
+        "C": ["Risk-taking", "जोखिम उठाना"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "74",
+      "question": [
+        "Arranging for a product to occupy a clear, distinctive and desirable place relative to competing products in the minds of target market is known as",
+        "लक्ष्य बाजार के दिमाग में प्रतिस्पर्धी उत्पादों के सापेक्ष एक स्पष्ट, विशिष्ट और वांछनीय स्थान पर उत्पाद को व्यवस्थित करने को क्या कहा जाता है"
+      ],
+      "options": {
+        "A": ["positioning", "स्थिति निर्धारण"],
+        "B": ["product positioning", "उत्पाद स्थिति निर्धारण"],
+        "C": ["market positioning", "बाजार स्थिति निर्धारण"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "75",
+      "question": [
+        "What are the 6 C’s that motivate entrepreneurs to establish their own business?",
+        "वह कौन से 6 C हैं जो उद्यमियों को अपना व्यवसाय स्थापित करने के लिए प्रेरित करते हैं?"
+      ],
+      "options": {
+        "A": [
+          "Change, challenge, creativity, control, curiosity, and cash",
+          "परिवर्तन, चुनौती, रचनात्मकता, नियंत्रण, जिज्ञासा और नकद"
+        ],
+        "B": [
+          "Customer, challenge, creation, control, curiosity, and cash",
+          "ग्राहक, चुनौती, सृजन, नियंत्रण, जिज्ञासा और नकद"
+        ],
+        "C": [
+          "Connect, conversation, contact, consideration, consumption, and community",
+          "संपर्क, बातचीत, संपर्क, विचार, उपभोग और समुदाय"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "76",
+      "question": [
+        "An exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something or offers a new technical solution to a problem, is known as",
+        "एक आविष्कार के लिए दिया गया विशेष अधिकार, जो एक उत्पाद या प्रक्रिया है जो सामान्य रूप से कुछ करने के नए तरीके प्रदान करता है या किसी समस्या का नया तकनीकी समाधान प्रदान करता है, के रूप में जाना जाता है"
+      ],
+      "options": {
+        "A": ["copyright", "कॉपीराइट"],
+        "B": ["trademark", "ट्रेडमार्क"],
+        "C": ["patent", "पेटेंट"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "77",
+      "question": [
+        "‘‘I really believe that entrepreneurship is about being able to face failure and succeed after failure.’’ Who said this?",
+        "‘‘मुझे वास्तव में विश्वास है कि उद्यमिता असफलता का सामना करने और असफलता के बाद सफल होने में सक्षम होने के बारे में है।’’ यह किसने कहा?"
+      ],
+      "options": {
+        "A": ["Kiran Mazumdar-Shaw", "किरण मजूमदार-शॉ"],
+        "B": ["Ekta Kapoor", "एकता कपूर"],
+        "C": ["Dr. Swati Piramal", "डॉ. स्वाति पिरामल"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "78",
+      "question": [
+        "Which of the following is granted to anyone who invents or discovers any new and useful process, machine, article of manufacture, or composition of matter, or any new and useful improvement thereof?",
+        "निम्नलिखित में से किसे किसी भी नई और उपयोगी प्रक्रिया, मशीन, निर्माण की वस्तु, या पदार्थ की संरचना, या उसके किसी नए और उपयोगी सुधार के आविष्कार या खोज के लिए दिया जाता है?"
+      ],
+      "options": {
+        "A": ["Utility patent", "उपयोगिता पेटेंट"],
+        "B": ["Design patent", "डिजाइन पेटेंट"],
+        "C": ["Composition patent", "संरचना पेटेंट"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "79",
+      "question": [
+        "_____ type of entrepreneurs is particularly important for the underdeveloped countries because they contribute significantly to the development of such nations.",
+        "_____ प्रकार के उद्यमी अविकसित देशों के लिए विशेष रूप से महत्वपूर्ण हैं क्योंकि वे ऐसे देशों के विकास में महत्वपूर्ण योगदान देते हैं।"
+      ],
+      "options": {
+        "A": ["Adoptive", "गोद लेने वाले"],
+        "B": ["Innovative", "नवीन"],
+        "C": ["Fabian", "फेबियन"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "80",
+      "question": [
+        "Who can apply for patents?",
+        "पेटेंट के लिए कौन आवेदन कर सकता है?"
+      ],
+      "options": {
+        "A": ["Obligated assignees", "बाध्य सौंपे गए"],
+        "B": [
+          "Person with sufficient proprietary interest",
+          "पर्याप्त स्वामित्व हित वाला व्यक्ति"
+        ],
+        "C": ["Assignees", "सौंपे गए"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "81",
+      "question": [
+        "Which one among the following is considered as one of the important economic factors which determines entrepreneurial growth?",
+        "निम्नलिखित में से किसे उद्यमशीलता विकास को निर्धारित करने वाले महत्वपूर्ण आर्थिक कारकों में से एक माना जाता है?"
+      ],
+      "options": {
+        "A": ["Market", "बाजार"],
+        "B": ["Government", "सरकार"],
+        "C": ["Politics", "राजनीति"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "82",
+      "question": [
+        "In consumer protection, what does complainant mean?",
+        "उपभोक्ता संरक्षण में, शिकायतकर्ता का क्या अर्थ है?"
+      ],
+      "options": {
+        "A": ["Consumer", "उपभोक्ता"],
+        "B": [
+          "Voluntary consumer association registered under the Companies Act, 1956",
+          "कंपनी अधिनियम, 1956 के तहत पंजीकृत स्वैच्छिक उपभोक्ता संघ"
+        ],
+        "C": [
+          "One or more consumers where there are numerous consumers having same interest",
+          "एक या अधिक उपभोक्ता जहां कई उपभोक्ताओं की समान रुचि होती है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "83",
+      "question": [
+        "Which of the following is not a common myth about entrepreneurs?",
+        "निम्नलिखित में से कौन सा उद्यमियों के बारे में एक सामान्य मिथक नहीं है?"
+      ],
+      "options": {
+        "A": ["Entrepreneurs are gamblers.", "उद्यमी जुआरी होते हैं।"],
+        "B": [
+          "Entrepreneurs are born, not made",
+          "उद्यमी पैदा होते हैं, बनाए नहीं जाते"
+        ],
+        "C": [
+          "Everyone has the potential to be an entrepreneur",
+          "हर किसी में उद्यमी बनने की क्षमता होती है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "84",
+      "question": [
+        "A dispute where the person against whom a complaint has been made, denies or disputes the allegation contained in the complaint [Section 2(1)(e)] is referred to as",
+        "एक विवाद जहां जिस व्यक्ति के खिलाफ शिकायत की गई है, वह शिकायत में निहित आरोप का खंडन या विवाद करता है [धारा 2(1) (ई)] को कहा जाता है"
+      ],
+      "options": {
+        "A": ["market dispute", "बाजार विवाद"],
+        "B": ["consumer dispute", "उपभोक्ता विवाद"],
+        "C": ["trade dispute", "व्यापार विवाद"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "85",
+      "question": [
+        "_____ is conducted to determine whether a proposed business has sufficient management expertise, organizational competence and resources to successfully launch its business.",
+        "यह निर्धारित करने के लिए _____ किया जाता है कि क्या प्रस्तावित व्यवसाय में अपने व्यवसाय को सफलतापूर्वक लॉन्च करने के लिए पर्याप्त प्रबंधन विशेषज्ञता, संगठनात्मक क्षमता और संसाधन हैं।"
+      ],
+      "options": {
+        "A": ["Financial feasibility analysis", "वित्तीय व्यवहार्यता विश्लेषण"],
+        "B": [
+          "Industry/Market feasibility analysis",
+          "उद्योग / बाजार व्यवहार्यता विश्लेषण"
+        ],
+        "C": [
+          "Organizational feasibility analysis",
+          "संगठनात्मक व्यवहार्यता विश्लेषण"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "86",
+      "question": [
+        "A person who starts an industrial unit by means of an innovative skill is known as",
+        "एक व्यक्ति जो एक नवीन कौशल के माध्यम से एक औद्योगिक इकाई शुरू करता है, उसे जाना जाता है"
+      ],
+      "options": {
+        "A": ["first generation entrepreneur", "पहली पीढ़ी के उद्यमी"],
+        "B": ["industrial entrepreneur", "औद्योगिक उद्यमी"],
+        "C": ["innovative entrepreneur", "नवोन्मेषी उद्यमी"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "87",
+      "question": [
+        "Which of the following is a function of SIDBI?",
+        "निम्नलिखित में से कौन सा SIDBI का कार्य है?"
+      ],
+      "options": {
+        "A": ["Extension of seed capital", "बीज पूंजी का विस्तार"],
+        "B": ["Discounting of bills", "बिलों की छूट"],
+        "C": ["Promotion of MSME sector", "एमएसएमई क्षेत्र को बढ़ावा देना"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "88",
+      "question": [
+        "A person who undertakes those ventures which go well along with the changing demand in the market is known as",
+        "वह व्यक्ति जो उन उपक्रमों को करता है जो बाजार में बदलती मांग के साथ अच्छी तरह से चलते हैं, के रूप में जाना जाता है"
+      ],
+      "options": {
+        "A": ["modern entrepreneur", "आधुनिक उद्यमी"],
+        "B": ["classical entrepreneur", "शास्त्रीय उद्यमी"],
+        "C": ["first generation entrepreneur", "पहली पीढ़ी का उद्यमी"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "89",
+      "question": [
+        "Which of the following statements is false?",
+        "निम्नलिखित में से कौन सा कथन गलत है?"
+      ],
+      "options": {
+        "A": [
+          "MUDRA is a financial institution set up by the Government of India for the development and refinancing of micro-enterprises.",
+          "मुद्रा भारत सरकार द्वारा सूक्ष्म-उद्यमों के विकास और पुनर्वित्त के लिए स्थापित एक वित्तीय संस्था है।"
+        ],
+        "B": [
+          "Udyam Mitra Portal is an enabling platform, aims to provide end-to-end solutions not only for credit delivery but also for the host of credit plus services.",
+          "उद्योग मित्र पोर्टल एक सक्षम मंच है, जिसका उद्देश्य न केवल ऋण वितरण के लिए बल्कि क्रेडिट प्लस सेवाओं के लिए भी एंड-टू-एंड समाधान प्रदान करना है।"
+        ],
+        "C": [
+          "SIDBI is mandated to serve as the principal financial institution for executing the triple agenda of promotion, financing and development of the large-scale industry.",
+          "SIDBI को बड़े पैमाने पर उद्योग के प्रचार, वित्तपोषण और विकास के त्रिगुण एजेंडा को क्रियान्वित करने के लिए प्रमुख वित्तीय संस्थान के रूप में कार्य करने का निर्देश दिया गया है।"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "90",
+      "question": [
+        "If the wife and husband are running a business venture together, they are called as",
+        "यदि पत्नी और पति एक साथ एक व्यावसायिक उद्यम चला रहे हैं, तो उन्हें कहा जाता है"
+      ],
+      "options": {
+        "A": ["joint entrepreneur", "संयुक्त उद्यमी"],
+        "B": ["family entrepreneur", "पारिवारिक उद्यमी"],
+        "C": ["copreneurs", "सहउद्यमी"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "91",
+      "question": [
+        "A business plan is important for all of the following reasons, except",
+        "एक व्यवसाय योजना निम्नलिखित सभी कारणों से महत्वपूर्ण है, सिवाय"
+      ],
+      "options": {
+        "A": [
+          "a business plan forces a firm’s founders to systematically think through each aspect of their new venture",
+          "एक व्यवसाय योजना एक फर्म के संस्थापकों को अपने नए उद्यम के प्रत्येक पहलू के बारे में व्यवस्थित रूप से सोचने के लिए मजबूर करती है"
+        ],
+        "B": [
+          "a business plan provides lenders and investors assurance that they will earn a decent return",
+          "एक व्यवसाय योजना ऋणदाताओं और निवेशकों को आश्वासन देती है कि उन्हें एक अच्छा रिटर्न मिलेगा"
+        ],
+        "C": [
+          "a business plan is a selling document that enables a company to present itself to potential suppliers and business partners",
+          "एक व्यवसाय योजना एक बिक्री दस्तावेज है जो एक कंपनी को संभावित आपूर्तिकर्ताओं और व्यावसायिक भागीदारों के सामने खुद को पेश करने में सक्षम बनाती है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "E"
+    },
+    {
+      "id": "92",
+      "question": [
+        "The entrepreneurial activities that acquire organizational sanctions and commitments of resources for the sole objective of innovative results is known as",
+        "उद्यमशीलता गतिविधियाँ जो नवीन परिणामों के एकमात्र उद्देश्य के लिए संगठनात्मक प्रतिबंध और संसाधनों की प्रतिबद्धता प्राप्त करती हैं, कहलाती हैं"
+      ],
+      "options": {
+        "A": ["entrepreneurship", "उद्यमिता"],
+        "B": ["intrapreneurship", "अंतर उद्यमिता"],
+        "C": ["intrapreneuring", "अंतर उद्यमी"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "93",
+      "question": [
+        "______ is a form of financing especially for funding high technology, high risk and perceived high reward projects.",
+        "______ उच्च प्रौद्योगिकी, उच्च जोखिम और उच्च पुरस्कार वाली परियोजनाओं के वित्तपोषण के लिए विशेष रूप से वित्तपोषण का एक रूप है।"
+      ],
+      "options": {
+        "A": ["Venture capital", "उद्यम पूंजी"],
+        "B": ["Current capital", "चालू पूंजी"],
+        "C": ["Seed capital", "बीज पूंजी"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "94",
+      "question": [
+        "A group of people leading the way in new developments or ideas is known as",
+        "नए विकास या विचारों में अग्रणी लोगों के समूह को कहा जाता है"
+      ],
+      "options": {
+        "A": ["vanguard", "अग्रदूत"],
+        "B": ["manguard", "मंगुर्ड"],
+        "C": ["enthusiast", "उत्साही"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "95",
+      "question": [
+        "Which of the following is relevant while planning for working capital requirement?",
+        "कार्यशील पूंजी की आवश्यकता की योजना बनाते समय निम्नलिखित में से कौन सा प्रासंगिक है?"
+      ],
+      "options": {
+        "A": [
+          "Identify the cash balance which allows for the business to meet day-to-day expenses, but reduces cash holding costs",
+          "नकद शेष की पहचान करें जो व्यवसाय को दिन-प्रतिदिन के खर्चों को पूरा करने की अनुमति देता है, लेकिन नकदी रखने की लागत को कम करता है"
+        ],
+        "B": [
+          "Identify the level of inventory which allows for uninterrupted production",
+          "इन्वेंट्री के स्तर की पहचान करें जो निर्बाध उत्पादन की अनुमति देता है"
+        ],
+        "C": [
+          "Identify the appropriate credit policy",
+          "उचित ऋण नीति की पहचान करें"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "96",
+      "question": [
+        "The purpose of soft loan scheme is to encourage units to undertake",
+        "सॉफ्ट लोन योजना का उद्देश्य इकाइयों को प्रेरित करना है कि वे किस कार्य को करें"
+      ],
+      "options": {
+        "A": [
+          "modernization of plant and machinery",
+          "प्लांट और मशीनरी का आधुनिकीकरण"
+        ],
+        "B": [
+          "replacement of plant and machinery",
+          "प्लांट और मशीनरी का प्रतिस्थापन"
+        ],
+        "C": [
+          "renovation of plant and machinery",
+          "प्लांट और मशीनरी का नवीनीकरण"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "97",
+      "question": [
+        "In filing, folders, drawers, cabinets and cupboards are required to be",
+        "फाइलिंग में, फोल्डर, दराज, कैबिनेट और अलमारी को किस प्रकार होना चाहिए"
+      ],
+      "options": {
+        "A": ["vertical", "वर्टिकल"],
+        "B": ["horizontal", "क्षैतिज"],
+        "C": ["centralised", "केंद्रीकृत"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "98",
+      "question": [
+        "A business plan is important for",
+        "एक व्यापार योजना किस लिए महत्वपूर्ण है"
+      ],
+      "options": {
+        "A": [
+          "providing lenders and investors assurance that they will earn a decent return",
+          "ऋणदाताओं और निवेशकों को आश्वासन देना कि उन्हें एक सभ्य रिटर्न मिलेगा"
+        ],
+        "B": ["being a selling instrument", "एक बिक्री उपकरण के रूप में"],
+        "C": ["being a purchasing instrument", "एक खरीद उपकरण के रूप में"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "99",
+      "question": [
+        "As per the Companies Act, 2013, the number of members of a company (excluding present or past employees who are members also) cannot exceed",
+        "कंपनी अधिनियम, 2013 के अनुसार, एक कंपनी के सदस्यों की संख्या (वर्तमान या पूर्व कर्मचारी जो सदस्य भी हैं, को छोड़कर) कितनी नहीं हो सकती"
+      ],
+      "options": {
+        "A": ["50", "50"],
+        "B": ["100", "100"],
+        "C": ["150", "150"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "100",
+      "question": [
+        "A favourable set of circumstances that creates a need for a new product, service or business is known as",
+        "अनुकूल परिस्थितियों का एक सेट जो एक नए उत्पाद, सेवा या व्यवसाय की आवश्यकता को जन्म देता है, के रूप में जाना जाता है"
+      ],
+      "options": {
+        "A": ["niche", "विशेष बाजार"],
+        "B": ["venture", "उद्यम"],
+        "C": ["opportunity", "अवसर"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "101",
+      "question": [
+        "Planning is performed at which of the following levels of management?",
+        "नियोजन प्रबंधन के निम्नलिखित स्तरों में से किस पर किया जाता है"
+      ],
+      "options": {
+        "A": ["Supervisory level", "पर्यवेक्षी स्तर"],
+        "B": ["Middle level", "मध्य स्तर"],
+        "C": ["Top level", "शीर्ष स्तर"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "102",
+      "question": [
+        "What is the first step of resource assessment process?",
+        "संसाधन मूल्यांकन प्रक्रिया का पहला कदम क्या है"
+      ],
+      "options": {
+        "A": [
+          "Identification of financial resources needed",
+          "आवश्यक वित्तीय संसाधनों की पहचान"
+        ],
+        "B": ["Analyzing the market demand", "बाजार की मांग का विश्लेषण"],
+        "C": [
+          "Evaluating the competitive landscape",
+          "प्रतिस्पर्धी परिदृश्य का मूल्यांकन"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+
+    {
+      "id": "103",
+      "question": [
+        "Which of the following is not a feature of motivation?",
+        "निम्नलिखित में से कौन सा प्रेरणा की विशेषता नहीं है?"
+      ],
+      "options": {
+        "A": [
+          "Motivation is a complex subject in the sense that the individual’s needs and wants may be unpredictable",
+          "प्रेरणा एक जटिल विषय है क्योंकि व्यक्ति की जरूरतें और इच्छाएं अप्रत्याशित हो सकती हैं"
+        ],
+        "B": [
+          "Motivation is personal and psychological concept",
+          "प्रेरणा एक व्यक्तिगत और मनोवैज्ञानिक अवधारणा है"
+        ],
+        "C": [
+          "Motivation makes an individual inactive",
+          "प्रेरणा एक व्यक्ति को निष्क्रिय बनाती है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "104",
+      "question": [
+        "Which of the following is an example of a financial barrier to entrepreneurship?",
+        "निम्नलिखित में से कौन सा उद्यमिता के लिए एक वित्तीय बाधा का उदाहरण है?"
+      ],
+      "options": {
+        "A": ["Lack of market demand", "बाजार की मांग का अभाव"],
+        "B": [
+          "Limited access to capital and funding",
+          "पूंजी और वित्त तक सीमित पहुंच"
+        ],
+        "C": ["Inadequate business planning", "अपर्याप्त व्यवसाय योजना"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "105",
+      "question": [
+        "A person who works within an organization and having entrepreneurial capabilities is called",
+        "एक व्यक्ति जो एक संगठन के भीतर काम करता है और उद्यमशीलता क्षमता रखता है, उसे कहा जाता है"
+      ],
+      "options": {
+        "A": ["entrepreneur", "उद्यमी"],
+        "B": ["intrapreneur", "अंतर उद्यमी"],
+        "C": ["manager", "प्रबंधक"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "106",
+      "question": [
+        "What is the purpose of using contests and sweepstakes in sales promotion?",
+        "बिक्री संवर्धन में प्रतियोगिताओं और स्वीपस्टेक का उपयोग करने का उद्देश्य क्या है?"
+      ],
+      "options": {
+        "A": ["To gather customer feedback", "ग्राहक प्रतिक्रिया एकत्र करना"],
+        "B": ["To create brand awareness", "ब्रांड जागरूकता पैदा करना"],
+        "C": [
+          "To offer discounts and incentives",
+          "छूट और प्रोत्साहन की पेशकश करना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "107",
+      "question": [
+        "The difference between current assets and current liabilities is called as",
+        "चालू संपत्तियों और चालू दायित्वों के बीच अंतर को कहा जाता है"
+      ],
+      "options": {
+        "A": ["surplus asset", "अधिक संपत्ति"],
+        "B": ["short-term ratio", "अल्पकालिक अनुपात"],
+        "C": ["current ratio", "चालू अनुपात"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "108",
+      "question": [
+        "The primary objective of sales promotion is to",
+        "बिक्री संवर्धन का प्राथमिक उद्देश्य है"
+      ],
+      "options": {
+        "A": ["build brand equity", "ब्रांड इक्विटी का निर्माण करना"],
+        "B": ["increase customer loyalty", "ग्राहक वफादारी बढ़ाना"],
+        "C": [
+          "generate immediate sales and boost revenue",
+          "तत्काल बिक्री उत्पन्न करना और राजस्व बढ़ाना"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "109",
+      "question": [
+        "Which of the following is known as demat accounts?",
+        "निम्नलिखित में से कौन सा डेमेट खाता के रूप में जाना जाता है?"
+      ],
+      "options": {
+        "A": [
+          "Accounts which are zero balance accounts",
+          "खाते जो शून्य बैलेंस खाते होते हैं"
+        ],
+        "B": [
+          "Accounts which are operated through Internet facility",
+          "खाते जो इंटरनेट सुविधा के माध्यम से संचालित होते हैं"
+        ],
+        "C": [
+          "Accounts in which share of various companies are traded in electronic form",
+          "खाते जिनमें विभिन्न कंपनियों के शेयर इलेक्ट्रॉनिक रूप में ट्रेड किए जाते हैं"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "110",
+      "question": [
+        "The function of management that involves setting goals and determining the best way to achieve them is",
+        "प्रबंधन का वह कार्य जिसमें लक्ष्य निर्धारित करना और उन्हें प्राप्त करने का सबसे अच्छा तरीका तय करना शामिल है"
+      ],
+      "options": {
+        "A": ["planning", "योजना बनाना"],
+        "B": ["organizing", "संगठन"],
+        "C": ["leading", "नेतृत्व"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "111",
+      "question": [
+        "After the trade has been executed, the broker issues a contract note to the investor within",
+        "व्यापार निष्पादित होने के बाद, ब्रोकर निवेशक को कितने समय के भीतर एक अनुबंध नोट जारी करता है"
+      ],
+      "options": {
+        "A": ["52 hours", "52 घंटे"],
+        "B": ["48 hours", "48 घंटे"],
+        "C": ["12 hours", "12 घंटे"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "112",
+      "question": [
+        "What does the term ‘debt financing’ refer to?",
+        "‘डेब्ट फाइनेंसिंग’ शब्द किसे संदर्भित करता है?"
+      ],
+      "options": {
+        "A": [
+          "Selling company shares to the public",
+          "सार्वजनिक को कंपनी के शेयर बेचना"
+        ],
+        "B": [
+          "Obtaining funds from investors in exchange of ownership stake",
+          "स्वामित्व हिस्सेदारी के बदले में निवेशकों से धन प्राप्त करना"
+        ],
+        "C": [
+          "Borrowing money from external sources that needs to be repaid with interest",
+          "बाहरी स्रोतों से पैसे उधार लेना जो ब्याज के साथ चुकाना होता है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "113",
+      "question": [
+        "Copyright protection is available for",
+        "कॉपीराइट संरक्षण किसके लिए उपलब्ध है"
+      ],
+      "options": {
+        "A": ["artistic work", "कला कार्य"],
+        "B": ["fashion", "फैशन"],
+        "C": ["literary work", "साहित्यिक कार्य"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "114",
+      "question": [
+        "Which of the following is a key feature of money market?",
+        "निम्नलिखित में से कौन सा एक प्रमुख विशेषता है?"
+      ],
+      "options": {
+        "A": ["Low liquidity", "कम तरलता"],
+        "B": [
+          "High potential for capital appreciation",
+          "पूंजी की सराहना के लिए उच्च संभावनाएं"
+        ],
+        "C": ["Long-term maturity periods", "दीर्घकालिक परिपक्वता अवधि"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "D"
+    },
+    {
+      "id": "115",
+      "question": [
+        "District Commission shall decide the admissibility of the complaint (under the Consumer Protection Act) within",
+        "जिला आयोग शिकायत की स्वीकार्यता का निर्णय (उपभोक्ता संरक्षण अधिनियम के तहत) कितने दिनों के भीतर करेगा?"
+      ],
+      "options": {
+        "A": ["45 days", "45 दिन"],
+        "B": ["30 days", "30 दिन"],
+        "C": ["7 days", "7 दिन"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "116",
+      "question": [
+        "A distinctive sign which identifies certain goods or services as those produced or provided by a specific person or enterprise is known as",
+        "एक विशिष्ट चिन्ह जो कुछ सामानों या सेवाओं की पहचान करता है जिन्हें किसी विशिष्ट व्यक्ति या उद्यम द्वारा उत्पादित या प्रदान किया जाता है, कहलाता है"
+      ],
+      "options": {
+        "A": ["trademark", "ट्रेडमार्क"],
+        "B": ["patent", "पेटेंट"],
+        "C": ["copyright", "कॉपीराइट"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "A"
+    },
+    {
+      "id": "117",
+      "question": [
+        "The application for registration of a small-scale unit should be submitted to the",
+        "लघु-उद्योग इकाई के पंजीकरण के लिए आवेदन किसके पास जमा किया जाना चाहिए"
+      ],
+      "options": {
+        "A": ["General Manager, DIC", "महाप्रबंधक, जिला उद्योग केंद्र"],
+        "B": ["Director, DIC", "निदेशक, जिला उद्योग केंद्र"],
+        "C": ["General Manager, NSIC", "महाप्रबंधक, राष्ट्रीय लघु उद्योग निगम"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "118",
+      "question": [
+        "The actual or prospective purchaser of products or services is known as",
+        "उत्पादों या सेवाओं का वास्तविक या संभावित खरीदार कहलाता है"
+      ],
+      "options": {
+        "A": ["consumer", "उपभोक्ता"],
+        "B": ["user", "उपयोगकर्ता"],
+        "C": ["customer", "ग्राहक"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    },
+    {
+      "id": "119",
+      "question": [
+        "Gross working capital refers to",
+        "सकल कार्यशील पूंजी का अर्थ है"
+      ],
+      "options": {
+        "A": [
+          "the amount utilized at the time of contingencies",
+          "आकस्मिकताओं के समय उपयोग की जाने वाली राशि"
+        ],
+        "B": [
+          "the capital which is required at the time of the commencement of business",
+          "व्यवसाय की शुरुआत के समय आवश्यक पूंजी"
+        ],
+        "C": [
+          "the working capital which is necessary on a continuous and uninterrupted basis",
+          "कार्यशील पूंजी जो निरंतर और निर्बाध आधार पर आवश्यक है"
+        ],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "B"
+    },
+    {
+      "id": "120",
+      "question": [
+        "The process of grouping users into market segments based on the desirable consequences sought from the product is known as",
+        "उत्पाद से प्राप्त वांछनीय परिणामों के आधार पर उपयोगकर्ताओं को बाजार खंडों में समूहबद्ध करने की प्रक्रिया को कहा जाता है"
+      ],
+      "options": {
+        "A": ["segmentation", "खंडीकरण"],
+        "B": ["mass segmentation", "जन खंडीकरण"],
+        "C": ["benefit segmentation", "लाभ खंडीकरण"],
+        "D": ["More than one of the above", "उपर्युक्त में से एक से अधिक"],
+        "E": ["None of the above", "उपर्युक्त में से कोई नहीं"]
+      },
+      "correct_option": "C"
+    }
+  ]
+}
