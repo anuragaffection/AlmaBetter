@@ -1,11 +1,15 @@
 # Hashing
+- What is Hashing
+- What is salting 
 
 ## Map
+
+Map Type :
 - HashMap
 - LinkedHashMap
 - TreeMap
 
-### Key can be:
+Key can be:
 - Character
 - Integer
 - String
@@ -13,7 +17,7 @@
 - Double
 - Boolean
 
-### Value can be:
+Value can be:
 - Character
 - Integer
 - String
@@ -79,11 +83,13 @@ Methods
 
 
 ## Set
+
+Set Type :
 - HashSet
 - LinkedHashSet
 - TreeSet
 
-### Element can be:
+Element can be:
 - Character
 - Integer
 - String
