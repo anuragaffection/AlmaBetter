@@ -1,16 +1,9 @@
 # Hashing
 
-### Map
+## Map
 - HashMap
 - LinkedHashMap
 - TreeMap
-
-### Set
-- HashSet
-- LinkedHashSet
-- TreeSet
-
-## Map
 
 ### Key can be:
 - Character
@@ -32,7 +25,7 @@
 - `import java.util.HashMap`
 - `HashMap<key, value> hm = new HashMap<>();`
 
-#### Methods
+Methods
 - `put(key, value)`
 - `get(key)`
 - `containsKey(key)`
@@ -45,7 +38,7 @@
 - `import java.util.LinkedHashMap`
 - `LinkedHashMap<key, value> lhm = new LinkedHashMap<>();`
 
-#### Methods
+Methods
 - `put(key, value)`
 - `get(key)`
 - `containsKey(key)`
@@ -58,7 +51,7 @@
 - `import java.util.TreeMap`
 - `TreeMap<key, value> tm = new TreeMap<>();`
 
-#### Methods
+Methods
 - `put(key, value)`
 - `get(key)`
 - `containsKey(key)`
@@ -84,7 +77,11 @@
 - `keySet()`: set of key
 - `values()`: array of value
 
+
 ## Set
+- HashSet
+- LinkedHashSet
+- TreeSet
 
 ### Element can be:
 - Character
@@ -98,7 +95,7 @@
 - `import java.util.HashSet`
 - `HashSet<element> hs = new HashSet<>();`
 
-#### Methods
+Methods
 - `add(element)`
 - `contains(element)`
 - `remove(element)`
@@ -110,7 +107,7 @@
 - `import java.util.LinkedHashSet`
 - `LinkedHashSet<element> lhs = new LinkedHashSet<>();`
 
-#### Methods
+Methods
 - `add(element)`
 - `contains(element)`
 - `remove(element)`
@@ -122,7 +119,7 @@
 - `import java.util.TreeSet`
 - `TreeSet<element> ts = new TreeSet<>();`
 
-#### Methods
+Methods
 - `add(element)`
 - `contains(element)`
 - `remove(element)`
@@ -149,14 +146,22 @@
 
 ## Difference
 
-### 01. Set vs HashSet
+### Set vs HashSet
 - Set is an interface
 - HashSet is a class
 - HashSet is used to implement Set
 
-### 02. Map vs HashMap
+### Map vs HashMap
+- Map is an interface
+- HashMap is a class 
+- HashMap is used to implement Map 
 
-### 03. Map vs Set 
+### Map vs Set 
 - Map = key value pair
 - Set = unique values only 
+
+### Hashing vs Salting 
+- Hashing is the process of transforming any given key or a string of characters into another value.
+- Salting is the process of adding a unique, random value (called a salt) to an input before hashing it.
+
 
