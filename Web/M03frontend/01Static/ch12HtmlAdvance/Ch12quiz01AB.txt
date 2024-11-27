@@ -46,6 +46,8 @@ defer
 lazy
 preload
 
+ TODO:  what does other options mean, recall ??
+
 
 
 
@@ -115,7 +117,7 @@ By using JavaScript to dynamically adjust the iframe size.
 
 
 10.
-What does the sandbox attribute in an iframe do?
+What does the sandbox attribute in an iframe do?]]]]
 
 It prevents any interaction with the iframe content.
 It restricts the iframe content from accessing the parent page.
@@ -194,7 +196,7 @@ The <table> element is specifically used to define a table in HTML. It serves as
 
 
 
-07.
+07.]]]
 Using CSS only.
 
 You can create a custom counter style for an ordered list using CSS. The list- style-type property allows you to specify custom counter styles, such as Roman numerals or alphabetical characters.
@@ -203,7 +205,7 @@ You can create a custom counter style for an ordered list using CSS. The list- s
 
 
 
-08.
+08.]]]]]
 start
 
 The start attribute is used to specify the starting value of an ordered list. By default, the value is 1, but it can be customized using this attribute.
@@ -221,7 +223,7 @@ To make an iframe responsive, you can set a percentage value for the width attri
 
 
 
-10.
+10.]]]]
 It restricts the iframe content from accessing the parent page.
 
 The sandbox attribute is used to create a restricted environment for the iframe content. It restricts the iframe from performing actions that could potentially harm the parent page, such as accessing the parent's cookies, modifying the parent's DOM, or opening new windows.
