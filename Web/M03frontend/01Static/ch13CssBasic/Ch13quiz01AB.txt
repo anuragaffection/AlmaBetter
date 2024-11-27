@@ -1,6 +1,6 @@
 01.
 
-Which of the following is a valid CSS color function?
+Which of the following is a valid CSS color function?]]]]
 
 color(red)
 color-rgb(255, 0, 0)
@@ -14,7 +14,7 @@ color-name(red)
 
 02 
 
-How can you select all <a> elements within a <div> element with a class of "container"?
+How can you select all <a> elements within a <div> element with a class of "container"?]]]]
 
 div.container a
 a div.container
@@ -28,7 +28,7 @@ div[class=container] a
 
 
 03.
-If an element has a width of 100px and a padding of 20px, what will be the total width of the element?
+If an element has a width of 100px and a padding of 20px, what will be the total width of the element?]]]
 
 100px
 120px
@@ -42,7 +42,7 @@ If an element has a width of 100px and a padding of 20px, what will be the total
 
 
 04.
-What is the default value of the CSS margin property?
+What is the default value of the CSS margin property?]]]]
 
 0px
 auto
@@ -55,7 +55,7 @@ inherit
 
 
 05.
-If an element has a width of 100px, a padding of 20px, and a border of 10px, what will be the total width of the element?
+If an element has a width of 100px, a padding of 20px, and a border of 10px, what will be the total width of the element?]]]
 
 100px
 120px
@@ -107,7 +107,7 @@ background: url(value);
 
 
 09.
-What is the default value for the background-repeat property?
+What is the default value for the background-repeat property?]]]]
 
 repeat
 no-repeat
@@ -119,7 +119,7 @@ repeat-y
 
 
 10.
-What is the correct way to select all <p> elements with a class of "highlight"?
+What is the correct way to select all <p> elements with a class of "highlight"?]]]]]
 
 p.highlight
 .highlight p
@@ -174,7 +174,7 @@ The default value of the CSS margin property is 0px, which means that no space i
 05.
 160px
 
-This answer is Incorrect! The total width of an element is equal to the width of the element plus twice the value of its horizontal padding plus twice the value of its horizontal border. In this case, the total width of the element would be 100px (width) + 20px (left padding)+20px (right padding) + 10px (left border) + 10px (right border) = 160px.
+The total width of an element is equal to the width of the element plus twice the value of its horizontal padding plus twice the value of its horizontal border. In this case, the total width of the element would be 100px (width) + 20px (left padding)+20px (right padding) + 10px (left border) + 10px (right border) = 160px.
 
 
 
@@ -214,7 +214,7 @@ To set the background image of an element, you can use the CSS background-image 
 
 
 
-09.
+09.]]]]]
 repeat
 
 The default value for the background- repeat property is repeat which means the background image will be repeated both horizontally and vertically.
@@ -223,7 +223,7 @@ The default value for the background- repeat property is repeat which means the 
 
 
 
-10.
+10.]]]]
 p.highlight
 
 This answer is Correct! To select all <p> elements with a class of "highlight", you can use the element selector "p" and the class selector "highlight" together, separated by a dot. This is known as a class selector.
