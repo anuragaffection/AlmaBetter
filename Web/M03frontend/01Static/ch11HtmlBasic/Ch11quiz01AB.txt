@@ -161,7 +161,7 @@ The <head> tag is the appropriate place to include various types of metadata rel
 03.
 title
 
-This answer is correct! The title attribute in the <img> tag is used to specify a tooltip or additional information about the image. When the user hovers over the image, the text provided in the title attribute is displayed as a tooltip.
+ The title attribute in the <img> tag is used to specify a tooltip or additional information about the image. When the user hovers over the image, the text provided in the title attribute is displayed as a tooltip.
 
 
 
@@ -215,7 +215,7 @@ In HTML, a web page should have only one <body> tag. It serves as the container 
 09.
 No, it is not allowed.
 
-This answer is incorrect! According to the HTML specification, there should only be one <head> tag in an HTML document. Using multiple <head> tags will result in invalid markup and may cause rendering issues.
+ According to the HTML specification, there should only be one <head> tag in an HTML document. Using multiple <head> tags will result in invalid markup and may cause rendering issues.
 
 
 
@@ -224,7 +224,7 @@ This answer is incorrect! According to the HTML specification, there should only
 10.
 The browser uses a default document type.
 
-This answer is incorrect! If the <!DOCTYPE html> declaration is missing, modern browsers will use a default document type called "quirks mode" or "backward compatibility mode." This mode may cause inconsistencies in rendering and may not support modern HTML features properly. 
+ If the <!DOCTYPE html> declaration is missing, modern browsers will use a default document type called "quirks mode" or "backward compatibility mode." This mode may cause inconsistencies in rendering and may not support modern HTML features properly. 
 
 
 
